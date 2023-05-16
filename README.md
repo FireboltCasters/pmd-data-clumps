@@ -1,54 +1,93 @@
-# Java Custom Rules without maven
+# Java Custom Rules
 
-[![Build Status](https://travis-ci.com/pmd/pmd-examples.svg?branch=java-without-maven)](https://travis-ci.com/pmd/pmd-examples)
+[![Build Status](https://travis-ci.com/pmd/pmd-examples.svg?branch=java)](https://travis-ci.com/pmd/pmd-examples)
 
-Just with `javac` and `jar`.
+Sample project which shows how to create and use custom rules for Java.
 
-## Prepare environment
+You can build the project using maven:
 
-1.  Create a directory `code` in your home directory:
+```
+$ ./mvnw clean verify
+```
 
-        $ mkdir ~/code
-        $ cd ~/code
 
-    For the following steps, it is assumed, you are in that directory.
+## pmd-java-custom
 
-2.  Get the binary distribution of PMD from <https://github.com/pmd/pmd/releases>, e.g. pmd-bin-6.29.0.zip:
+This is a sample project, which contains two sample rules:
 
-        $ wget https://github.com/pmd/pmd/releases/download/pmd_releases%2F6.29.0/pmd-bin-6.29.0.zip
+*   MyRule - which is a Java-based rule for detecting variables with a specific name.
+*   VariableNaming - which is a XPath-based rule for checking variable names against a regular expression.
 
-3.  Extract the zip file, e.g. `unzip pmd-bin-6.29.0.zip`
+Building the project also runs the unit tests for the rules.
 
-        $ unzip pmd-bin-6.29.0.zip
+It also contains a custom ruleset, which includes some PMD built-in rules as well as the custom rules.
+See `custom-java-ruleset.xml`.
 
-4.  Now, the pmd binaries are installed under `~/code/pmd-bin-6.29.0`.
+The result is a jar file, which contains the rules: `target/pmd-java-custom-1.0.0-SNAPSHOT.jar`.
 
-    This also includes the libraries in `~/code/pmd-bin-6.29.0/lib`.
+## pmd-java-dist
 
-## Get the code from this example and build it
+This builds a customized PMD binary, which includes all necessary dependencies for Java only
+including the custom rules.
 
-1.  Clone the sample repo
+The result is a zip file: `target/pmd-java-bin-1.0.0-SNAPSHOT.zip`.
 
-        $ cd ~/code
-        $ git clone --branch java-without-maven https://github.com/pmd/pmd-examples.git pmd-examples
-        $ cd pmd-examples
+## Using with PMD CLI
 
-2.  Prepare the output directory for the compilation step
+### Option A
 
-        $ mkdir build
+1.  Install PMD using the created `pmd-java-bin-1.0.0-SNAPSHOT.zip` file like a normal PMD binary distribution.
+2.  Run PMD: `./run.sh pmd -f text -d src -R custom-java-ruleset.xml`
 
-3.  Compile the sources, that are located in `src`, using the PMD libraries
+### Option B
 
-        $ javac -d build -cp '../../pmd-bin-6.29.0/lib/*' src/*.java
+1.  Install PMD as usual.
+2.  Copy the jar file `pmd-java-custom-1.0.0-SNAPSHOT.jar` to the `lib` directory, where you have
+    installed PMD.
+3.  Run PMD: `./run.sh pmd -f text -d src -R custom-java-ruleset.xml`
 
-4.  Create a jar file
+## Using with the maven-pmd-plugin
 
-        $ cp src/myrule.xml build/
-        $ jar -c -f custom-rule-example.jar -C build .
+1.  Install the sample project into your local maven repo:
 
-## Use the custom rule with PMD CLI
+        ./mvnw clean install
 
-1.  Run PMD with the just created jar file on the classpath, e.g. on the folder `testsrc`
+    Or configure the `distributionManagement` section and run `./mvnw clean deploy`, to deploy into
+    your repository.
 
-        $ CLASSPATH=custom-rule-example.jar ../../pmd-bin-6.29.0/bin/run.sh pmd -no-cache -f text -d testsrc -R myrule.xml
-        /home/andreas/code/pmd-examples/testsrc/Test.java:2:	Avoid the identifier foo.
+2.  Modify the plugin section, so that your custom-rule-example is added as an additional dependency for
+    the maven-pmd-plugin:
+
+    ```xml
+    ...
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.11.0</version>
+        <executions>
+            <execution>
+                <phase>verify</phase>
+                <goals>
+                    <goal>pmd</goal>
+                    <goal>cpd</goal>
+                </goals>
+            </execution>
+        </executions>
+        <configuration>
+            <minimumTokens>100</minimumTokens>
+            <targetJdk>11</targetJdk>
+            <rulesets>
+                <ruleset>custom-java-ruleset.xml</ruleset>
+            </rulesets>
+        </configuration>
+        <dependencies>
+            <dependency>
+                <groupId>net.sourceforge.pmd.examples</groupId>
+                <artifactId>pmd-java-custom</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </plugin>
+    ```
+
+Now the m-pmd-p executes your custom rule.
