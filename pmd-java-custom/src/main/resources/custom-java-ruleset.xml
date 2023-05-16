@@ -20,6 +20,5 @@ Custom Ruleset with PLSQL Rules
     <rule ref="category/java/bestpractices.xml/AvoidPrintStackTrace" />
 
     <rule ref="net/sourceforge/pmd/examples/java/rules/MyRule.xml/MyRule" />
-    <rule ref="net/sourceforge/pmd/examples/java/rules/VariableNaming.xml/VariableNaming" />
 
 </ruleset>
