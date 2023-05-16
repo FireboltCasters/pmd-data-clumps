@@ -4,3 +4,5 @@ target/
 .settings/
 
 pmd-java-dist/.DS_Store
+
+.idea/
