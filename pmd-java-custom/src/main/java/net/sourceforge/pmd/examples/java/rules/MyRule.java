@@ -1,8 +1,15 @@
 package net.sourceforge.pmd.examples.java.rules;
 
+import net.sourceforge.pmd.RuleContext;
+import net.sourceforge.pmd.lang.ast.Node;
+import net.sourceforge.pmd.lang.ast.NodeStream;
 import net.sourceforge.pmd.lang.java.ast.*;
 import net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;
 import net.sourceforge.pmd.properties.StringProperty;
+import org.checkerframework.checker.nullness.qual.NonNull;
+
+import java.util.Iterator;
+import java.util.List;
 
 public class MyRule extends AbstractJavaRule {
 
@@ -21,20 +28,28 @@ public class MyRule extends AbstractJavaRule {
     }
 
     @Override
-    public Object visit(ASTClassOrInterfaceDeclaration node, Object data) {
-        String className = node.getQualifiedName().toString();
-        System.out.println(count+" - "+className);
-        MyRule.count++;
-        return this.visit((JavaNode)node, data);
+    public void start(RuleContext ctx) {
+        // Override as needed
+        //System.out.println("Start");
+        //System.out.println("================");
     }
 
     @Override
-    public Object visit(ASTVariableDeclaratorId node, Object data) {
-        //System.out.println("Hellop");
-        String badName = getProperty(BAD_NAME);
-        if (node.hasImageEqualTo(badName)) {
-            addViolation(data, node, node.getImage());
+    public void end(RuleContext ctx) {
+        // Override as needed
+        //System.out.println("================");
+        //System.out.println("Finished");
+    }
+
+    public Object visit(ASTClassOrInterfaceDeclaration node, Object data) {
+        String className = node.getCanonicalName();
+        System.out.println(count+" - "+className);
+        ASTClassOrInterfaceType superClass = node.getSuperClassTypeNode();
+        if(superClass!=null){
+            System.out.println("extends: "+superClass.getSimpleName());
         }
-        return data;
+
+        MyRule.count++;
+        return null;
     }
 }
