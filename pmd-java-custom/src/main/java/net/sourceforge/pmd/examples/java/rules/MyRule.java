@@ -23,8 +23,6 @@ public class MyRule extends AbstractJavaRule {
 
     public MyRule() {
         definePropertyDescriptor(BAD_NAME);
-        addRuleChainVisit(ASTClassOrInterfaceDeclaration.class);
-        addRuleChainVisit(ASTVariableDeclaratorId.class);
     }
 
     @Override
