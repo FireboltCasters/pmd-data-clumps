@@ -16,9 +16,6 @@ Custom Ruleset with PLSQL Rules
     <exclude-pattern>.*/some/other/package/FunkyClassNamePrefix.*</exclude-pattern>
     <include-pattern>.*/some/package/ButNotThisClass.*</include-pattern>
 -->
-
-    <rule ref="category/java/bestpractices.xml/AvoidPrintStackTrace" />
-
     <rule ref="net/sourceforge/pmd/examples/java/rules/MyRule.xml/MyRule" />
 
 </ruleset>
