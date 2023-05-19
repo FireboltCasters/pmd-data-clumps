@@ -1,5 +1,8 @@
 .PHONY: all build run clean
 
+# Default value for the DIRECTORY variable
+DIRECTORY := ./testSrc
+
 all: clean build run
 
 setup:
@@ -12,7 +15,7 @@ build:
 
 run:
 #	./pmd-java-dist/target/pmd-java-bin-1.0.0-SNAPSHOT/bin/pmd -d /Users/nbaumgartner/Desktop/javaAnalyzeProject -f text -R custom-java-ruleset.xml
-	./pmd-bin-7.0.0-rc2/bin/pmd check -d /Users/nbaumgartner/Desktop/src -f text -R custom-java-ruleset.xml
+	./pmd-bin-7.0.0-rc2/bin/pmd check -d $(DIRECTORY) -f text -R custom-java-ruleset.xml
 
 clean:
 	rm -rf ./pmd-java-dist/target/
