@@ -5,8 +5,13 @@ import net.sourceforge.pmd.RuleContext;
 import net.sourceforge.pmd.examples.java.rules.parsedAstTypes.*;
 import net.sourceforge.pmd.lang.java.ast.*;
 import net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;
+import net.sourceforge.pmd.lang.java.symbols.JClassSymbol;
+import net.sourceforge.pmd.lang.java.symbols.JTypeDeclSymbol;
+import net.sourceforge.pmd.lang.java.types.JTypeMirror;
 import net.sourceforge.pmd.properties.StringProperty;
 
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -62,6 +67,15 @@ public class MyRule extends AbstractJavaRule {
     }
      */
 
+    private AstPosition getAstPosition(ASTFieldDeclaration node){
+        AstPosition position = new AstPosition();
+        position.startLine = node.getBeginLine();
+        position.startColumn = node.getBeginColumn();
+        position.endLine = node.getEndLine();
+        position.endColumn = node.getEndColumn();
+        return position;
+    }
+
     private void extractFields(ASTClassOrInterfaceDeclaration node, ClassOrInterfaceTypeContext classContext){
         List<ASTFieldDeclaration> fields = node.descendants(ASTFieldDeclaration.class).toList();
 
@@ -72,14 +86,15 @@ public class MyRule extends AbstractJavaRule {
             // Set the properties of the fieldContext based on the field
             fieldContext.name = field.getVariableName();
             fieldContext.key = field.getVariableName();
+
+
+            // TODO check if we may use this.getQualifiedNameFromTypeMirror(), but i can sometimes an * which is not nice
             fieldContext.type = field.getTypeNode().getTypeMirror().toString();
+            // TODO field.getTypeNode().getTypeMirror().toString() ==>      "type" : "*org.apache.log4j.Logger",
+
+
             // Set the position
-            AstPosition position = new AstPosition();
-            position.startLine = field.getBeginLine();
-            position.startColumn = field.getBeginColumn();
-            position.endLine = field.getEndLine();
-            position.endColumn = field.getEndColumn();
-            fieldContext.position = position;
+            fieldContext.position = this.getAstPosition(field);
 
             fieldContext.classOrInterfaceKey = node.getCanonicalName();
 
@@ -186,6 +201,53 @@ public class MyRule extends AbstractJavaRule {
         }
     }
 
+    private String getQualifiedNameFromTypeMirror(JTypeMirror typeMirror){
+        // Invoke the method on the interfaceType object
+        JTypeDeclSymbol symbol = typeMirror.getSymbol();
+
+        // Continue with your code
+        if (symbol instanceof JClassSymbol) {
+            String fullQualifiedName = ((JClassSymbol) symbol).getCanonicalName();
+            return fullQualifiedName;
+        }
+        return null;
+    }
+
+    private String getQualifiedNameUnsafe(ASTClassOrInterfaceType interfaceType){
+        return this.getQualifiedNameFromTypeMirror(interfaceType.getTypeMirror());
+    }
+
+    private void extractExtendsAndImplements(ASTClassOrInterfaceDeclaration node, ClassOrInterfaceTypeContext classContext){
+
+        // Extract the interfaces this class implements
+        List<ASTImplementsList> implementsLists = node.findDescendantsOfType(ASTImplementsList.class);
+        for (ASTImplementsList implementsList : implementsLists) {
+            List<ASTClassOrInterfaceType> interfaces = implementsList.findDescendantsOfType(ASTClassOrInterfaceType.class);
+            for (ASTClassOrInterfaceType interfaceType : interfaces) {
+                //TODO: get somehow canonical name, currently we have a workaround with: getQualifiedNameFromTypeMirror
+                //String fullQualifiedName = this.getQualifiedNameFromTypeMirror(node, interfaceType.getTypeMirror().toString());
+                String fullQualifiedName = this.getQualifiedNameUnsafe(interfaceType);
+                if(fullQualifiedName != null){
+                    classContext.implements_.add(fullQualifiedName);
+                }
+            }
+        }
+
+        // Extract the classes this class extends
+        List<ASTExtendsList> extendsLists = node.findDescendantsOfType(ASTExtendsList.class);
+        for (ASTExtendsList extendsList : extendsLists) {
+            List<ASTClassOrInterfaceType> superclasses = extendsList.findDescendantsOfType(ASTClassOrInterfaceType.class);
+            for (ASTClassOrInterfaceType superclass : superclasses) {
+                //TODO: get somehow canonical name, currently we have a workaround with: getQualifiedNameFromTypeMirror
+//                String fullQualifiedName = this.getQualifiedNameFromTypeMirror(node, superclass.getTypeMirror().toString());
+                String fullQualifiedName = this.getQualifiedNameUnsafe(superclass);
+                if(fullQualifiedName != null){
+                    classContext.extends_.add(fullQualifiedName);
+                }
+            }
+        }
+    }
+
     private ClassOrInterfaceTypeContext visitClassOrInterface(ASTClassOrInterfaceDeclaration node){
         System.out.println("ASTClassOrInterfaceDeclaration");
 
@@ -199,25 +261,9 @@ public class MyRule extends AbstractJavaRule {
         // Extract the methods
         this.extractMethods(node, classContext);
 
-
-// Extract the interfaces this class implements
-        List<ASTImplementsList> implementsLists = node.findDescendantsOfType(ASTImplementsList.class);
-        for (ASTImplementsList implementsList : implementsLists) {
-            List<ASTClassOrInterfaceType> interfaces = implementsList.findDescendantsOfType(ASTClassOrInterfaceType.class);
-            for (ASTClassOrInterfaceType interfaceType : interfaces) {
-                classContext.implements_.add(interfaceType.getSimpleName());
-            }
-        }
-
-// Extract the classes this class extends
-        List<ASTExtendsList> extendsLists = node.findDescendantsOfType(ASTExtendsList.class);
-        for (ASTExtendsList extendsList : extendsLists) {
-            List<ASTClassOrInterfaceType> superclasses = extendsList.findDescendantsOfType(ASTClassOrInterfaceType.class);
-            for (ASTClassOrInterfaceType superclass : superclasses) {
-                classContext.extends_.add(superclass.getSimpleName());
-            }
-        }
-
+        // Extract the interfaces this class implements
+        // Extract the classes this class extends
+        this.extractExtendsAndImplements(node, classContext);
 
         // Set the definedInClassOrInterfaceTypeKey
         ASTClassOrInterfaceDeclaration parentClassOrInterface = node.getFirstParentOfType(ASTClassOrInterfaceDeclaration.class);
