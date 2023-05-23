@@ -7,7 +7,9 @@ import net.sourceforge.pmd.lang.java.ast.*;
 import net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;
 import net.sourceforge.pmd.lang.java.symbols.JClassSymbol;
 import net.sourceforge.pmd.lang.java.symbols.JTypeDeclSymbol;
+import net.sourceforge.pmd.lang.java.types.JClassType;
 import net.sourceforge.pmd.lang.java.types.JTypeMirror;
+import net.sourceforge.pmd.lang.java.types.TypePrettyPrint;
 import net.sourceforge.pmd.properties.StringProperty;
 
 import java.lang.reflect.InvocationTargetException;
@@ -79,34 +81,36 @@ public class MyRule extends AbstractJavaRule {
     private void extractFields(ASTClassOrInterfaceDeclaration node, ClassOrInterfaceTypeContext classContext){
         List<ASTFieldDeclaration> fields = node.descendants(ASTFieldDeclaration.class).toList();
 
+        // search for rows like: private ArrayList javaArrayList, anotherArrayList[];
         for (ASTFieldDeclaration field : fields) {
+            System.out.println("field: "+field.getVariableName());
+            // now get from a row like: private ArrayList javaArrayList, anotherArrayList[];
+            // the individual : javaArrayList and anotherArrayList[]
+            List<ASTVariableDeclaratorId> fieldVariableDeclarators = field.descendants(ASTVariableDeclaratorId.class).toList();
+            for(ASTVariableDeclaratorId fieldVariableDeclarator: fieldVariableDeclarators){
+                MemberFieldParameterTypeContext fieldContext = new MemberFieldParameterTypeContext();
+                // Set the properties of the fieldContext based on the field
+                fieldContext.name = fieldVariableDeclarator.getName();
+                fieldContext.key = fieldVariableDeclarator.getName();
+
+                fieldContext.type = this.getQualifiedNameUnsafe(fieldVariableDeclarator.getTypeMirror());
 
 
-            MemberFieldParameterTypeContext fieldContext = new MemberFieldParameterTypeContext();
-            // Set the properties of the fieldContext based on the field
-            fieldContext.name = field.getVariableName();
-            fieldContext.key = field.getVariableName();
+                // Set the position
+                fieldContext.position = this.getAstPosition(field);
 
+                fieldContext.classOrInterfaceKey = node.getCanonicalName();
 
-            // TODO check if we may use this.getQualifiedNameFromTypeMirror(), but i can sometimes an * which is not nice
-            fieldContext.type = field.getTypeNode().getTypeMirror().toString();
-            // TODO field.getTypeNode().getTypeMirror().toString() ==>      "type" : "*org.apache.log4j.Logger",
+                // Extract the modifiers
+                ASTModifierList fieldModifiers = field.getFirstDescendantOfType(ASTModifierList.class);
+                Set<JModifier> modifierSet = fieldModifiers.getEffectiveModifiers();
+                if (modifierSet != null) {
+                    fieldContext.modifiers = modifierSet.stream().map(Enum::name).collect(Collectors.toList());
+                }
 
-
-            // Set the position
-            fieldContext.position = this.getAstPosition(field);
-
-            fieldContext.classOrInterfaceKey = node.getCanonicalName();
-
-            // Extract the modifiers
-            ASTModifierList fieldModifiers = field.getFirstDescendantOfType(ASTModifierList.class);
-            Set<JModifier> modifierSet = fieldModifiers.getEffectiveModifiers();
-            if (modifierSet != null) {
-                fieldContext.modifiers = modifierSet.stream().map(Enum::name).collect(Collectors.toList());
+                // Add the fieldContext to the classContext.fields
+                classContext.fields.put(fieldContext.name, fieldContext);
             }
-
-            // Add the fieldContext to the classContext.fields
-            classContext.fields.put(fieldContext.name, fieldContext);
         }
     }
 
@@ -120,7 +124,7 @@ public class MyRule extends AbstractJavaRule {
             // Set the properties of the methodContext based on the method
             methodContext.name = method.getMethodName();
             methodContext.key = method.getMethodName(); // or other unique key
-            methodContext.type = method.getResultTypeNode().getTypeMirror().toString();
+            methodContext.type = this.getQualifiedNameUnsafe(method.getResultTypeNode().getTypeMirror());
 
             // Set the position
             AstPosition position = new AstPosition();
@@ -150,7 +154,7 @@ public class MyRule extends AbstractJavaRule {
                 // Set the properties of the parameterContext based on the parameter
                 parameterContext.name = parameter.getImage();
                 parameterContext.key = parameter.getImage(); // or other unique key
-                parameterContext.type = parameter.getTypeMirror().toString();
+                parameterContext.type = this.getQualifiedNameUnsafe(parameter.getTypeMirror());
 
                 // Set the position
                 AstPosition parameter_position = new AstPosition();
@@ -201,20 +205,54 @@ public class MyRule extends AbstractJavaRule {
         }
     }
 
-    private String getQualifiedNameFromTypeMirror(JTypeMirror typeMirror){
-        // Invoke the method on the interfaceType object
+    private String getQualifiedNameUnsafe(JTypeMirror typeMirror){
         JTypeDeclSymbol symbol = typeMirror.getSymbol();
+
+        StringBuilder genericQualifiedNames = new StringBuilder();
+        if(typeMirror instanceof JClassType){
+            JClassType downCast = (JClassType) typeMirror;
+            List<JTypeMirror> typeMirrors = downCast.getTypeArgs();
+            boolean isGeneric = downCast.isGeneric();
+
+            if(isGeneric){
+                genericQualifiedNames.append("<");
+                for(int i = 0; i < typeMirrors.size(); i++){
+                    JTypeMirror innerTypeMirror = typeMirrors.get(i);
+                    String innerTypeArgFullQualifiedName = this.getQualifiedNameUnsafe(innerTypeMirror);
+                    genericQualifiedNames.append(innerTypeArgFullQualifiedName);
+                    // Add a comma after each name, except the last one
+                    if (i < typeMirrors.size() - 1) {
+                        genericQualifiedNames.append(", ");
+                    }
+                }
+                genericQualifiedNames.append(">");
+            }
+        }
 
         // Continue with your code
         if (symbol instanceof JClassSymbol) {
-            String fullQualifiedName = ((JClassSymbol) symbol).getCanonicalName();
+            JClassSymbol jClassSymbol = (JClassSymbol) symbol;
+            String fullQualifiedName =jClassSymbol.getCanonicalName();
+
+            // TODO check if * is found
+            // Then count the amount of dots
+            // *CodePiece --> no dots --> replace * by packagename
+            // *CodePiece.InnerClass --> ?
+
+            // org.flywaydb.core.Flyway#InnerClass --> we should replace the # to a dot
+            fullQualifiedName = fullQualifiedName.replaceAll("#",".");
+
+            // TODO
+            // *org.flywaydb.core.api.configuration.FluentConfiguration --> technically we only need to remove the *
+
+            String fullQualifiedNameWithGenerics = fullQualifiedName + genericQualifiedNames;
+            String prettyString = TypePrettyPrint.prettyPrint(typeMirror);
+            System.out.println("-- prettyString: "+prettyString);
+
+            System.out.println("--> fullQualifiedNameWithGenerics: "+fullQualifiedNameWithGenerics);
             return fullQualifiedName;
         }
         return null;
-    }
-
-    private String getQualifiedNameUnsafe(ASTClassOrInterfaceType interfaceType){
-        return this.getQualifiedNameFromTypeMirror(interfaceType.getTypeMirror());
     }
 
     private void extractExtendsAndImplements(ASTClassOrInterfaceDeclaration node, ClassOrInterfaceTypeContext classContext){
@@ -224,9 +262,7 @@ public class MyRule extends AbstractJavaRule {
         for (ASTImplementsList implementsList : implementsLists) {
             List<ASTClassOrInterfaceType> interfaces = implementsList.findDescendantsOfType(ASTClassOrInterfaceType.class);
             for (ASTClassOrInterfaceType interfaceType : interfaces) {
-                //TODO: get somehow canonical name, currently we have a workaround with: getQualifiedNameFromTypeMirror
-                //String fullQualifiedName = this.getQualifiedNameFromTypeMirror(node, interfaceType.getTypeMirror().toString());
-                String fullQualifiedName = this.getQualifiedNameUnsafe(interfaceType);
+                String fullQualifiedName = this.getQualifiedNameUnsafe(interfaceType.getTypeMirror());
                 if(fullQualifiedName != null){
                     classContext.implements_.add(fullQualifiedName);
                 }
@@ -238,9 +274,7 @@ public class MyRule extends AbstractJavaRule {
         for (ASTExtendsList extendsList : extendsLists) {
             List<ASTClassOrInterfaceType> superclasses = extendsList.findDescendantsOfType(ASTClassOrInterfaceType.class);
             for (ASTClassOrInterfaceType superclass : superclasses) {
-                //TODO: get somehow canonical name, currently we have a workaround with: getQualifiedNameFromTypeMirror
-//                String fullQualifiedName = this.getQualifiedNameFromTypeMirror(node, superclass.getTypeMirror().toString());
-                String fullQualifiedName = this.getQualifiedNameUnsafe(superclass);
+                String fullQualifiedName = this.getQualifiedNameUnsafe(superclass.getTypeMirror());
                 if(fullQualifiedName != null){
                     classContext.extends_.add(fullQualifiedName);
                 }
@@ -296,6 +330,8 @@ public class MyRule extends AbstractJavaRule {
     }
 
     public Object visit(ASTClassOrInterfaceDeclaration node, Object data) {
+        System.out.println(node.getCanonicalName());
+
         ClassOrInterfaceTypeContext classContext = this.visitClassOrInterface(node);
 
         // Convert the classContext to JSON and add it to the output
