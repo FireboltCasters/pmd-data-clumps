@@ -20,6 +20,7 @@
 
   <dependencyManagement>
   <dependencies>
+
     <dependency>
       <groupId>net.sourceforge.pmd</groupId>
       <artifactId>pmd-java</artifactId>

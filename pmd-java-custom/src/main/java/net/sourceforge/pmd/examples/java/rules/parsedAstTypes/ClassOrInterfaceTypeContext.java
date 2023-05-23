@@ -10,7 +10,7 @@ public class ClassOrInterfaceTypeContext extends AstElementTypeContext {
     public Map<String, MemberFieldParameterTypeContext> fields = new HashMap<String, MemberFieldParameterTypeContext>();
     public Map<String, MethodTypeContext> methods = new HashMap<String, MethodTypeContext>();
     public String fileKey;
-    public String anonymous;
+    public boolean anonymous;
     public List<String> implements_ = new ArrayList<String>();
     public List<String> extends_ = new ArrayList<String>();
 

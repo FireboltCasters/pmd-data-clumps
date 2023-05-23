@@ -9,6 +9,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pmd-java-custom" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.3" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.12.3" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.12.3" level="project" />
     <orderEntry type="library" name="Maven: net.sourceforge.pmd:pmd-java:7.0.0-rc1" level="project" />
     <orderEntry type="library" name="Maven: org.ow2.asm:asm:9.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.8.1" level="project" />

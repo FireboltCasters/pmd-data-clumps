@@ -12,6 +12,9 @@ build:
 	./mvnw clean install
 	unzip -o ./pmd-java-dist/target/pmd-java-bin-1.0.0-SNAPSHOT.zip -d ./pmd-java-dist/target/
 	cp ./pmd-java-dist/target/pmd-java-bin-1.0.0-SNAPSHOT/lib/pmd-java-custom-1.0.0-SNAPSHOT.jar ./pmd-bin-7.0.0-rc2/lib/
+	cp ./pmd-java-dist/target/pmd-java-bin-1.0.0-SNAPSHOT/lib/jackson-annotations-2.12.3.jar ./pmd-bin-7.0.0-rc2/lib/
+		cp ./pmd-java-dist/target/pmd-java-bin-1.0.0-SNAPSHOT/lib/jackson-core-2.12.3.jar ./pmd-bin-7.0.0-rc2/lib/
+		cp ./pmd-java-dist/target/pmd-java-bin-1.0.0-SNAPSHOT/lib/jackson-databind-2.12.3.jar ./pmd-bin-7.0.0-rc2/lib/
 
 run:
 #	./pmd-java-dist/target/pmd-java-bin-1.0.0-SNAPSHOT/bin/pmd -d /Users/nbaumgartner/Desktop/javaAnalyzeProject -f text -R custom-java-ruleset.xml
