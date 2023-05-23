@@ -194,10 +194,10 @@ public class MyRule extends AbstractJavaRule {
         this.extractClassInformations(node, classContext);
 
         // Extract the fields
-        //this.extractFields(node, classContext);
+        this.extractFields(node, classContext);
 
         // Extract the methods
-        //this.extractMethods(node, classContext);
+        this.extractMethods(node, classContext);
 
 
 // Extract the interfaces this class implements
@@ -225,6 +225,9 @@ public class MyRule extends AbstractJavaRule {
             classContext.definedInClassOrInterfaceTypeKey = parentClassOrInterface.getCanonicalName();
         }
 
+        // recursive call for inner classes
+        this.visitInnerClassesOrInterfaces(node, classContext);
+
 
         // Write the outputRow to the file
         // ...
@@ -232,10 +235,7 @@ public class MyRule extends AbstractJavaRule {
         return classContext;
     }
 
-    public Object visit(ASTClassOrInterfaceDeclaration node, Object data) {
-        ClassOrInterfaceTypeContext classContext = this.visitClassOrInterface(node);
-
-        // Extract the inner classes and interfaces
+    private void visitInnerClassesOrInterfaces(ASTClassOrInterfaceDeclaration node, ClassOrInterfaceTypeContext classContext){
         List<ASTClassOrInterfaceDeclaration> innerClassesAndInterfaces = node.findDescendantsOfType(ASTClassOrInterfaceDeclaration.class);
         for (ASTClassOrInterfaceDeclaration innerClassOrInterface : innerClassesAndInterfaces) {
             ClassOrInterfaceTypeContext innerClassOrInterfaceContext = this.visitClassOrInterface(innerClassOrInterface);
@@ -247,6 +247,10 @@ public class MyRule extends AbstractJavaRule {
                 classContext.innerDefinedClasses.put(innerClassOrInterface.getCanonicalName(), innerClassOrInterfaceContext);
             }
         }
+    }
+
+    public Object visit(ASTClassOrInterfaceDeclaration node, Object data) {
+        ClassOrInterfaceTypeContext classContext = this.visitClassOrInterface(node);
 
         // Convert the classContext to JSON and add it to the output
         String outputRow = MyRule.convertToJson(classContext) + ",\n";
