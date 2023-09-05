@@ -353,7 +353,7 @@ public class MyRule extends AbstractJavaRule {
         // Set the definedInClassOrInterfaceTypeKey
         ASTClassOrInterfaceDeclaration parentClassOrInterface = node.getFirstParentOfType(ASTClassOrInterfaceDeclaration.class);
         if (parentClassOrInterface != null) {
-            classContext.definedInClassOrInterfaceTypeKey = parentClassOrInterface.getCanonicalName();
+            classContext.definedInClassOrInterfaceTypeKey = getClassOrInterfaceKey(parentClassOrInterface);
         }
 
         // recursive call for inner classes

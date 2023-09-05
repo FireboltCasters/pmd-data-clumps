@@ -31,5 +31,11 @@ make run DIRECTORY=<Path_to_Project> OUTPUT_FOLDER<Output_Folder>
 
 ```
 
+## Contribution
+
+Edit:
+- 1_astGenerate/pmd-java-custom/src/main/java/net/sourceforge/pmd/examples/java/rules/MyRule.java
+
+
 ## Roadmap:
 - [ ] Check for further adaptions
