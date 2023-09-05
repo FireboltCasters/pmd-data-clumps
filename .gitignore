@@ -8,3 +8,7 @@ pmd-java-dist/.DS_Store
 .idea/
 
 .DS_Store
+
+testDataParsedAst/**.json
+
+testDataParsedAst/

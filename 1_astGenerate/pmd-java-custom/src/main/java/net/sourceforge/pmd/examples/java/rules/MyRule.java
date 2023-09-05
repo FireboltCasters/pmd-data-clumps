@@ -385,7 +385,7 @@ public class MyRule extends AbstractJavaRule {
         boolean debug = false;
 
         // Convert the classContext to JSON and add it to the output
-        String outputRow = MyRule.convertToJson(classContext) + ",\n";
+        String outputRow = MyRule.convertToJson(classContext);
         String fileName = classContext.key+".json";
 
         if(debug){

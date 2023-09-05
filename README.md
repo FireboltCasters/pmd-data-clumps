@@ -12,6 +12,13 @@ This project should parse a projects classes, interfaces, methods and fields. Th
 
 This shows a significant speed increase by using this project.
 
+## Requirements
+
+openjdk version "19.0.1" 2022-10-18
+OpenJDK Runtime Environment (build 19.0.1+10-21)
+OpenJDK 64-Bit Server VM (build 19.0.1+10-21, mixed mode, sharing)
+
+Python3
 
 ## Usage
 
@@ -26,6 +33,8 @@ make run DIRECTORY=<Path_to_Project> OUTPUT_FOLDER<Output_Folder>
 ```
 
 ### 2. Analysing the parsed files
+
+Optional: Install requirements.txt ```pip install -r requirements.txt```
 
 ```
 
