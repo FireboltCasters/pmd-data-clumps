@@ -1,0 +1,349 @@
+{
+  "name" : "ArgoJFontChooser",
+  "key" : "org.argouml.ui.ArgoJFontChooser",
+  "type" : "class",
+  "position" : {
+    "startLine" : 55,
+    "startColumn" : 8,
+    "endLine" : 55,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "jlblFamilies" : {
+      "name" : "jlblFamilies",
+      "key" : "jlblFamilies",
+      "type" : "javax.swing.JLabel",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 20,
+        "endLine" : 67,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoJFontChooser/memberField/jlblFamilies",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "jContentPane" : {
+      "name" : "jContentPane",
+      "key" : "jContentPane",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 20,
+        "endLine" : 57,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoJFontChooser/memberField/jContentPane",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "jbtnOk" : {
+      "name" : "jbtnOk",
+      "key" : "jbtnOk",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 21,
+        "endLine" : 73,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoJFontChooser/memberField/jbtnOk",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "jlstFamilies" : {
+      "name" : "jlstFamilies",
+      "key" : "jlstFamilies",
+      "type" : "javax.swing.JList",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 19,
+        "endLine" : 59,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoJFontChooser/memberField/jlstFamilies",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "resultSize" : {
+      "name" : "resultSize",
+      "key" : "resultSize",
+      "type" : "int",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 17,
+        "endLine" : 77,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoJFontChooser/memberField/resultSize",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "isOk" : {
+      "name" : "isOk",
+      "key" : "isOk",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 21,
+        "endLine" : 81,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoJFontChooser/memberField/isOk",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "jlstSizes" : {
+      "name" : "jlstSizes",
+      "key" : "jlstSizes",
+      "type" : "javax.swing.JList",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 19,
+        "endLine" : 61,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoJFontChooser/memberField/jlstSizes",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "jlblSize" : {
+      "name" : "jlblSize",
+      "key" : "jlblSize",
+      "type" : "javax.swing.JLabel",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 20,
+        "endLine" : 69,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoJFontChooser/memberField/jlblSize",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "jlblPreview" : {
+      "name" : "jlblPreview",
+      "key" : "jlblPreview",
+      "type" : "javax.swing.JLabel",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 20,
+        "endLine" : 71,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoJFontChooser/memberField/jlblPreview",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "jbtnCancel" : {
+      "name" : "jbtnCancel",
+      "key" : "jbtnCancel",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 21,
+        "endLine" : 75,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoJFontChooser/memberField/jbtnCancel",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "resultName" : {
+      "name" : "resultName",
+      "key" : "resultName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 20,
+        "endLine" : 79,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoJFontChooser/memberField/resultName",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    }
+  },
+  "methods" : {
+    "getJbtnOk" : {
+      "name" : "getJbtnOk",
+      "key" : "org.argouml.ui.ArgoJFontChooser/method/getJbtnOk",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 291,
+        "startColumn" : 21,
+        "endLine" : 291,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "updatePreview" : {
+      "name" : "updatePreview",
+      "key" : "org.argouml.ui.ArgoJFontChooser/method/updatePreview",
+      "type" : "void",
+      "position" : {
+        "startLine" : 279,
+        "startColumn" : 18,
+        "endLine" : 279,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "getJbtnCancel" : {
+      "name" : "getJbtnCancel",
+      "key" : "org.argouml.ui.ArgoJFontChooser/method/getJbtnCancel",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 312,
+        "startColumn" : 21,
+        "endLine" : 312,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "getResultName" : {
+      "name" : "getResultName",
+      "key" : "org.argouml.ui.ArgoJFontChooser/method/getResultName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 342,
+        "startColumn" : 19,
+        "endLine" : 342,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "isOk" : {
+      "name" : "isOk",
+      "key" : "org.argouml.ui.ArgoJFontChooser/method/isOk",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 333,
+        "startColumn" : 20,
+        "endLine" : 333,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "initialize" : {
+      "name" : "initialize",
+      "key" : "org.argouml.ui.ArgoJFontChooser/method/initialize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 18,
+        "endLine" : 103,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "getJContentPane" : {
+      "name" : "getJContentPane",
+      "key" : "org.argouml.ui.ArgoJFontChooser/method/getJContentPane",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 20,
+        "endLine" : 116,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "getJlstSizes" : {
+      "name" : "getJlstSizes",
+      "key" : "org.argouml.ui.ArgoJFontChooser/method/getJlstSizes",
+      "type" : "javax.swing.JList",
+      "position" : {
+        "startLine" : 250,
+        "startColumn" : 19,
+        "endLine" : 250,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "getJlstFamilies" : {
+      "name" : "getJlstFamilies",
+      "key" : "org.argouml.ui.ArgoJFontChooser/method/getJlstFamilies",
+      "type" : "javax.swing.JList",
+      "position" : {
+        "startLine" : 217,
+        "startColumn" : 19,
+        "endLine" : 217,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    },
+    "getResultSize" : {
+      "name" : "getResultSize",
+      "key" : "org.argouml.ui.ArgoJFontChooser/method/getResultSize",
+      "type" : "int",
+      "position" : {
+        "startLine" : 351,
+        "startColumn" : 16,
+        "endLine" : 351,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoJFontChooser"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.JDialog" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,289 @@
+{
+  "name" : "ActivityDiagramLayouter",
+  "key" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter",
+  "type" : "class",
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 8,
+    "endLine" : 50,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "diagram" : {
+      "name" : "diagram",
+      "key" : "diagram",
+      "type" : "org.argouml.uml.diagram.ArgoDiagram",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 25,
+        "endLine" : 55,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/memberField/diagram",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter"
+    },
+    "objects" : {
+      "name" : "objects",
+      "key" : "objects",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 18,
+        "endLine" : 62,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/memberField/objects",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter"
+    },
+    "OFFSET_Y" : {
+      "name" : "OFFSET_Y",
+      "key" : "OFFSET_Y",
+      "type" : "int",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 30,
+        "endLine" : 76,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/memberField/OFFSET_Y",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter"
+    },
+    "finalState" : {
+      "name" : "finalState",
+      "key" : "finalState",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 20,
+        "endLine" : 81,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/memberField/finalState",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter"
+    },
+    "STARTING_POINT" : {
+      "name" : "STARTING_POINT",
+      "key" : "STARTING_POINT",
+      "type" : "java.awt.Point",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 32,
+        "endLine" : 69,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/memberField/STARTING_POINT",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter"
+    }
+  },
+  "methods" : {
+    "add" : {
+      "name" : "add",
+      "key" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/method/add",
+      "type" : "void",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 17,
+        "endLine" : 94,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "object",
+        "key" : "object",
+        "type" : "org.argouml.uml.diagram.layout.LayoutedObject",
+        "position" : {
+          "startLine" : 94,
+          "startColumn" : 36,
+          "endLine" : 94,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/method/add"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter"
+    },
+    "layout" : {
+      "name" : "layout",
+      "key" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/method/layout",
+      "type" : "void",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 17,
+        "endLine" : 122,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter"
+    },
+    "getObject" : {
+      "name" : "getObject",
+      "key" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/method/getObject",
+      "type" : "org.argouml.uml.diagram.layout.LayoutedObject",
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 27,
+        "endLine" : 115,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 115,
+          "startColumn" : 41,
+          "endLine" : 115,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/method/getObject"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter"
+    },
+    "getMinimumDiagramSize" : {
+      "name" : "getMinimumDiagramSize",
+      "key" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/method/getMinimumDiagramSize",
+      "type" : "java.awt.Dimension",
+      "position" : {
+        "startLine" : 179,
+        "startColumn" : 22,
+        "endLine" : 179,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter"
+    },
+    "placeNodes" : {
+      "name" : "placeNodes",
+      "key" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/method/placeNodes",
+      "type" : "int",
+      "position" : {
+        "startLine" : 156,
+        "startColumn" : 17,
+        "endLine" : 156,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "seen",
+        "key" : "seen",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 156,
+          "startColumn" : 33,
+          "endLine" : 156,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/method/placeNodes"
+      }, {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 156,
+          "startColumn" : 46,
+          "endLine" : 156,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/method/placeNodes"
+      }, {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 156,
+          "startColumn" : 56,
+          "endLine" : 156,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/method/placeNodes"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter"
+    },
+    "remove" : {
+      "name" : "remove",
+      "key" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/method/remove",
+      "type" : "void",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 17,
+        "endLine" : 101,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "object",
+        "key" : "object",
+        "type" : "org.argouml.uml.diagram.layout.LayoutedObject",
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 39,
+          "endLine" : 101,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/method/remove"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter"
+    },
+    "getObjects" : {
+      "name" : "getObjects",
+      "key" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter/method/getObjects",
+      "type" : "org.argouml.uml.diagram.layout.LayoutedObject[]",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 29,
+        "endLine" : 108,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.uml.diagram.layout.Layouter" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

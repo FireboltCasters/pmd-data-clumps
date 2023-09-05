@@ -1,0 +1,127 @@
+{
+  "name" : "PredicateStringMatch",
+  "key" : "org.argouml.util.PredicateStringMatch",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "MAX_PATS" : {
+      "name" : "MAX_PATS",
+      "key" : "MAX_PATS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 23,
+        "endLine" : 35,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.PredicateStringMatch/memberField/MAX_PATS",
+      "classOrInterfaceKey" : "org.argouml.util.PredicateStringMatch"
+    },
+    "patterns" : {
+      "name" : "patterns",
+      "key" : "patterns",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 20,
+        "endLine" : 37,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.PredicateStringMatch/memberField/patterns",
+      "classOrInterfaceKey" : "org.argouml.util.PredicateStringMatch"
+    },
+    "patternCount" : {
+      "name" : "patternCount",
+      "key" : "patternCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 17,
+        "endLine" : 39,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.PredicateStringMatch/memberField/patternCount",
+      "classOrInterfaceKey" : "org.argouml.util.PredicateStringMatch"
+    }
+  },
+  "methods" : {
+    "create" : {
+      "name" : "create",
+      "key" : "org.argouml.util.PredicateStringMatch/method/create",
+      "type" : "Predicate",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 29,
+        "endLine" : 46,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pattern",
+        "key" : "pattern",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 46,
+          "startColumn" : 43,
+          "endLine" : 46,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.PredicateStringMatch/method/create"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.PredicateStringMatch"
+    },
+    "evaluate" : {
+      "name" : "evaluate",
+      "key" : "org.argouml.util.PredicateStringMatch/method/evaluate",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 20,
+        "endLine" : 73,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 36,
+          "endLine" : 73,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.PredicateStringMatch/method/evaluate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.PredicateStringMatch"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "Predicate" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

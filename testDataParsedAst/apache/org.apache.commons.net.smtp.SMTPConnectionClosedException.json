@@ -1,0 +1,22 @@
+{
+  "name" : "SMTPConnectionClosedException",
+  "key" : "org.apache.commons.net.smtp.SMTPConnectionClosedException",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 14,
+    "endLine" : 35,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.io.IOException" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,174 @@
+{
+  "name" : "ClassifierEndCodePiece",
+  "key" : "org.argouml.language.java.generator.ClassifierEndCodePiece",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 1,
+    "endLine" : 42,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "bracket" : {
+      "name" : "bracket",
+      "key" : "bracket",
+      "type" : "CodePiece",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 23,
+        "endLine" : 46,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.language.java.generator.ClassifierEndCodePiece/memberField/bracket",
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.ClassifierEndCodePiece"
+    }
+  },
+  "methods" : {
+    "getStartPosition" : {
+      "name" : "getStartPosition",
+      "key" : "org.argouml.language.java.generator.ClassifierEndCodePiece/method/getStartPosition",
+      "type" : "int",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 16,
+        "endLine" : 67,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.ClassifierEndCodePiece"
+    },
+    "getEndLine" : {
+      "name" : "getEndLine",
+      "key" : "org.argouml.language.java.generator.ClassifierEndCodePiece/method/getEndLine",
+      "type" : "int",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 16,
+        "endLine" : 88,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.ClassifierEndCodePiece"
+    },
+    "getText" : {
+      "name" : "getText",
+      "key" : "org.argouml.language.java.generator.ClassifierEndCodePiece/method/getText",
+      "type" : "java.lang.StringBuffer",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 25,
+        "endLine" : 60,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.ClassifierEndCodePiece"
+    },
+    "getEndPosition" : {
+      "name" : "getEndPosition",
+      "key" : "org.argouml.language.java.generator.ClassifierEndCodePiece/method/getEndPosition",
+      "type" : "int",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 16,
+        "endLine" : 74,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.ClassifierEndCodePiece"
+    },
+    "write" : {
+      "name" : "write",
+      "key" : "org.argouml.language.java.generator.ClassifierEndCodePiece/method/write",
+      "type" : "void",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 17,
+        "endLine" : 96,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reader",
+        "key" : "reader",
+        "type" : "java.io.BufferedReader",
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 38,
+          "endLine" : 96,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.ClassifierEndCodePiece/method/write"
+      }, {
+        "name" : "writer",
+        "key" : "writer",
+        "type" : "java.io.BufferedWriter",
+        "position" : {
+          "startLine" : 97,
+          "startColumn" : 38,
+          "endLine" : 97,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.ClassifierEndCodePiece/method/write"
+      }, {
+        "name" : "parseStateStack",
+        "key" : "parseStateStack",
+        "type" : "java.util.Stack",
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 41,
+          "endLine" : 98,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.ClassifierEndCodePiece/method/write"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.ClassifierEndCodePiece"
+    },
+    "getStartLine" : {
+      "name" : "getStartLine",
+      "key" : "org.argouml.language.java.generator.ClassifierEndCodePiece/method/getStartLine",
+      "type" : "int",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 16,
+        "endLine" : 81,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.ClassifierEndCodePiece"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "NamedCodePiece" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

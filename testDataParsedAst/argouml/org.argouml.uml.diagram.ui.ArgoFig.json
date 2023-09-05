@@ -1,0 +1,68 @@
+{
+  "name" : "ArgoFig",
+  "key" : "org.argouml.uml.diagram.ui.ArgoFig",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "setProject" : {
+      "name" : "setProject",
+      "key" : "org.argouml.uml.diagram.ui.ArgoFig/method/setProject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 17,
+        "endLine" : 45,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 36,
+          "endLine" : 45,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoFig/method/setProject"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoFig"
+    },
+    "getProject" : {
+      "name" : "getProject",
+      "key" : "org.argouml.uml.diagram.ui.ArgoFig/method/getProject",
+      "type" : "org.argouml.kernel.Project",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 20,
+        "endLine" : 52,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoFig"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

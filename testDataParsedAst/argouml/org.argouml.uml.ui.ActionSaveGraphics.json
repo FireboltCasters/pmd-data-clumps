@@ -1,0 +1,212 @@
+{
+  "name" : "ActionSaveGraphics",
+  "key" : "org.argouml.uml.ui.ActionSaveGraphics",
+  "type" : "class",
+  "position" : {
+    "startLine" : 58,
+    "startColumn" : 8,
+    "endLine" : 58,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 31,
+        "endLine" : 61,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.ActionSaveGraphics/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveGraphics"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 33,
+        "endLine" : 63,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.ActionSaveGraphics/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveGraphics"
+    }
+  },
+  "methods" : {
+    "doSave" : {
+      "name" : "doSave",
+      "key" : "org.argouml.uml.ui.ActionSaveGraphics/method/doSave",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 169,
+        "startColumn" : 21,
+        "endLine" : 169,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theFile",
+        "key" : "theFile",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 169,
+          "startColumn" : 33,
+          "endLine" : 169,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveGraphics/method/doSave"
+      }, {
+        "name" : "suffix",
+        "key" : "suffix",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 170,
+          "startColumn" : 14,
+          "endLine" : 170,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveGraphics/method/doSave"
+      }, {
+        "name" : "useUI",
+        "key" : "useUI",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 170,
+          "startColumn" : 30,
+          "endLine" : 170,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveGraphics/method/doSave"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveGraphics"
+    },
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.ActionSaveGraphics/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 17,
+        "endLine" : 77,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 45,
+          "endLine" : 77,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveGraphics/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveGraphics"
+    },
+    "trySave" : {
+      "name" : "trySave",
+      "key" : "org.argouml.uml.ui.ActionSaveGraphics/method/trySave",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 21,
+        "endLine" : 86,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveGraphics"
+    },
+    "updateStatus" : {
+      "name" : "updateStatus",
+      "key" : "org.argouml.uml.ui.ActionSaveGraphics/method/updateStatus",
+      "type" : "void",
+      "position" : {
+        "startLine" : 214,
+        "startColumn" : 18,
+        "endLine" : 214,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "status",
+        "key" : "status",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 214,
+          "startColumn" : 38,
+          "endLine" : 214,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveGraphics/method/updateStatus"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveGraphics"
+    },
+    "doCommand" : {
+      "name" : "doCommand",
+      "key" : "org.argouml.uml.ui.ActionSaveGraphics/method/doCommand",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 235,
+        "startColumn" : 20,
+        "endLine" : 235,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "argument",
+        "key" : "argument",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 235,
+          "startColumn" : 37,
+          "endLine" : 235,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveGraphics/method/doCommand"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveGraphics"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.CommandLineInterface" ],
+  "extends_" : [ "javax.swing.AbstractAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

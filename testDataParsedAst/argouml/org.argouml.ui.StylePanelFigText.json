@@ -1,0 +1,390 @@
+{
+  "name" : "StylePanelFigText",
+  "key" : "org.argouml.ui.StylePanelFigText",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "JUSTIFIES" : {
+      "name" : "JUSTIFIES",
+      "key" : "JUSTIFIES",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 35,
+        "endLine" : 67,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StylePanelFigText/memberField/JUSTIFIES",
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "styleLabel" : {
+      "name" : "styleLabel",
+      "key" : "styleLabel",
+      "type" : "javax.swing.JLabel",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 20,
+        "endLine" : 81,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StylePanelFigText/memberField/styleLabel",
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "textColorField" : {
+      "name" : "textColorField",
+      "key" : "textColorField",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 23,
+        "endLine" : 94,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StylePanelFigText/memberField/textColorField",
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "fontLabel" : {
+      "name" : "fontLabel",
+      "key" : "fontLabel",
+      "type" : "javax.swing.JLabel",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 20,
+        "endLine" : 71,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StylePanelFigText/memberField/fontLabel",
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "justField" : {
+      "name" : "justField",
+      "key" : "justField",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 23,
+        "endLine" : 89,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StylePanelFigText/memberField/justField",
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "STYLES" : {
+      "name" : "STYLES",
+      "key" : "STYLES",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 35,
+        "endLine" : 62,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StylePanelFigText/memberField/STYLES",
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "textColorLabel" : {
+      "name" : "textColorLabel",
+      "key" : "textColorLabel",
+      "type" : "javax.swing.JLabel",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 20,
+        "endLine" : 91,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StylePanelFigText/memberField/textColorLabel",
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "COMMON_SIZES" : {
+      "name" : "COMMON_SIZES",
+      "key" : "COMMON_SIZES",
+      "type" : "java.lang.Integer[]",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 36,
+        "endLine" : 53,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StylePanelFigText/memberField/COMMON_SIZES",
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "sizeField" : {
+      "name" : "sizeField",
+      "key" : "sizeField",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 23,
+        "endLine" : 79,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StylePanelFigText/memberField/sizeField",
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "justLabel" : {
+      "name" : "justLabel",
+      "key" : "justLabel",
+      "type" : "javax.swing.JLabel",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 20,
+        "endLine" : 86,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StylePanelFigText/memberField/justLabel",
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 318,
+        "startColumn" : 31,
+        "endLine" : 318,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StylePanelFigText/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "sizeLabel" : {
+      "name" : "sizeLabel",
+      "key" : "sizeLabel",
+      "type" : "javax.swing.JLabel",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 20,
+        "endLine" : 76,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StylePanelFigText/memberField/sizeLabel",
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "FONT_NAMES" : {
+      "name" : "FONT_NAMES",
+      "key" : "FONT_NAMES",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 35,
+        "endLine" : 48,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StylePanelFigText/memberField/FONT_NAMES",
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "fontField" : {
+      "name" : "fontField",
+      "key" : "fontField",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 23,
+        "endLine" : 74,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StylePanelFigText/memberField/fontField",
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "styleField" : {
+      "name" : "styleField",
+      "key" : "styleField",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 23,
+        "endLine" : 84,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StylePanelFigText/memberField/styleField",
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    }
+  },
+  "methods" : {
+    "setTargetSize" : {
+      "name" : "setTargetSize",
+      "key" : "org.argouml.ui.StylePanelFigText/method/setTargetSize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 226,
+        "startColumn" : 20,
+        "endLine" : 226,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "setTargetJustification" : {
+      "name" : "setTargetJustification",
+      "key" : "org.argouml.ui.StylePanelFigText/method/setTargetJustification",
+      "type" : "void",
+      "position" : {
+        "startLine" : 257,
+        "startColumn" : 20,
+        "endLine" : 257,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "itemStateChanged" : {
+      "name" : "itemStateChanged",
+      "key" : "org.argouml.ui.StylePanelFigText/method/itemStateChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 288,
+        "startColumn" : 17,
+        "endLine" : 288,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ItemEvent",
+        "position" : {
+          "startLine" : 288,
+          "startColumn" : 44,
+          "endLine" : 288,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.StylePanelFigText/method/itemStateChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "refresh" : {
+      "name" : "refresh",
+      "key" : "org.argouml.ui.StylePanelFigText/method/refresh",
+      "type" : "void",
+      "position" : {
+        "startLine" : 158,
+        "startColumn" : 17,
+        "endLine" : 158,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "initChoices2" : {
+      "name" : "initChoices2",
+      "key" : "org.argouml.ui.StylePanelFigText/method/initChoices2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 20,
+        "endLine" : 138,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "setTargetStyle" : {
+      "name" : "setTargetStyle",
+      "key" : "org.argouml.ui.StylePanelFigText/method/setTargetStyle",
+      "type" : "void",
+      "position" : {
+        "startLine" : 239,
+        "startColumn" : 20,
+        "endLine" : 239,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "setTargetTextColor" : {
+      "name" : "setTargetTextColor",
+      "key" : "org.argouml.ui.StylePanelFigText/method/setTargetTextColor",
+      "type" : "void",
+      "position" : {
+        "startLine" : 274,
+        "startColumn" : 20,
+        "endLine" : 274,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    },
+    "setTargetFont" : {
+      "name" : "setTargetFont",
+      "key" : "org.argouml.ui.StylePanelFigText/method/setTargetFont",
+      "type" : "void",
+      "position" : {
+        "startLine" : 211,
+        "startColumn" : 20,
+        "endLine" : 211,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.StylePanelFigText"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "StylePanelFig" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

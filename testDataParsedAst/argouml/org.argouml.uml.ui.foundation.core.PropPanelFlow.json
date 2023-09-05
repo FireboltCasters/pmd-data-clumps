@@ -1,0 +1,55 @@
+{
+  "name" : "PropPanelFlow",
+  "key" : "org.argouml.uml.ui.foundation.core.PropPanelFlow",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 31,
+        "endLine" : 40,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelFlow/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelFlow"
+    }
+  },
+  "methods" : {
+    "initialize" : {
+      "name" : "initialize",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelFlow/method/initialize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 18,
+        "endLine" : 50,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelFlow"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "PropPanelRelationship" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

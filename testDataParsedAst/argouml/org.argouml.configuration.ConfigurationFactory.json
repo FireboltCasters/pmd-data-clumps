@@ -1,0 +1,86 @@
+{
+  "name" : "ConfigurationFactory",
+  "key" : "org.argouml.configuration.ConfigurationFactory",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "handler" : {
+      "name" : "handler",
+      "key" : "handler",
+      "type" : "ConfigurationHandler",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 41,
+        "endLine" : 45,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.configuration.ConfigurationFactory/memberField/handler",
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationFactory"
+    },
+    "SINGLETON" : {
+      "name" : "SINGLETON",
+      "key" : "SINGLETON",
+      "type" : "IConfigurationFactory",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 48,
+        "endLine" : 40,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.configuration.ConfigurationFactory/memberField/SINGLETON",
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationFactory"
+    }
+  },
+  "methods" : {
+    "getConfigurationHandler" : {
+      "name" : "getConfigurationHandler",
+      "key" : "org.argouml.configuration.ConfigurationFactory/method/getConfigurationHandler",
+      "type" : "ConfigurationHandler",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 33,
+        "endLine" : 93,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationFactory"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.configuration.ConfigurationFactory/method/getInstance",
+      "type" : "IConfigurationFactory",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 47,
+        "endLine" : 83,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationFactory"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "IConfigurationFactory" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

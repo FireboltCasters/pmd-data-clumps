@@ -1,0 +1,372 @@
+{
+  "name" : "MyTokenizer",
+  "key" : "org.argouml.util.MyTokenizer",
+  "type" : "class",
+  "position" : {
+    "startLine" : 457,
+    "startColumn" : 8,
+    "endLine" : 457,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LINE_SEPARATOR" : {
+      "name" : "LINE_SEPARATOR",
+      "key" : "LINE_SEPARATOR",
+      "type" : "CustomSeparator",
+      "position" : {
+        "startLine" : 489,
+        "startColumn" : 41,
+        "endLine" : 489,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.MyTokenizer/memberField/LINE_SEPARATOR",
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "delims" : {
+      "name" : "delims",
+      "key" : "delims",
+      "type" : "org.argouml.util.TokenSep",
+      "position" : {
+        "startLine" : 496,
+        "startColumn" : 28,
+        "endLine" : 496,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.MyTokenizer/memberField/delims",
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "DOUBLE_QUOTED_SEPARATOR" : {
+      "name" : "DOUBLE_QUOTED_SEPARATOR",
+      "key" : "DOUBLE_QUOTED_SEPARATOR",
+      "type" : "CustomSeparator",
+      "position" : {
+        "startLine" : 467,
+        "startColumn" : 41,
+        "endLine" : 467,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.MyTokenizer/memberField/DOUBLE_QUOTED_SEPARATOR",
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "putToken" : {
+      "name" : "putToken",
+      "key" : "putToken",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 500,
+        "startColumn" : 20,
+        "endLine" : 500,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.MyTokenizer/memberField/putToken",
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "source" : {
+      "name" : "source",
+      "key" : "source",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 495,
+        "startColumn" : 26,
+        "endLine" : 495,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.MyTokenizer/memberField/source",
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "savedIdx" : {
+      "name" : "savedIdx",
+      "key" : "savedIdx",
+      "type" : "int",
+      "position" : {
+        "startLine" : 498,
+        "startColumn" : 17,
+        "endLine" : 498,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.MyTokenizer/memberField/savedIdx",
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "tokIdx" : {
+      "name" : "tokIdx",
+      "key" : "tokIdx",
+      "type" : "int",
+      "position" : {
+        "startLine" : 494,
+        "startColumn" : 17,
+        "endLine" : 494,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.MyTokenizer/memberField/tokIdx",
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "PAREN_EXPR_STRING_SEPARATOR" : {
+      "name" : "PAREN_EXPR_STRING_SEPARATOR",
+      "key" : "PAREN_EXPR_STRING_SEPARATOR",
+      "type" : "CustomSeparator",
+      "position" : {
+        "startLine" : 483,
+        "startColumn" : 41,
+        "endLine" : 483,
+        "endColumn" : 68
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.MyTokenizer/memberField/PAREN_EXPR_STRING_SEPARATOR",
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "savedToken" : {
+      "name" : "savedToken",
+      "key" : "savedToken",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 497,
+        "startColumn" : 20,
+        "endLine" : 497,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.MyTokenizer/memberField/savedToken",
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "eIdx" : {
+      "name" : "eIdx",
+      "key" : "eIdx",
+      "type" : "int",
+      "position" : {
+        "startLine" : 493,
+        "startColumn" : 23,
+        "endLine" : 493,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.MyTokenizer/memberField/eIdx",
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "SINGLE_QUOTED_SEPARATOR" : {
+      "name" : "SINGLE_QUOTED_SEPARATOR",
+      "key" : "SINGLE_QUOTED_SEPARATOR",
+      "type" : "CustomSeparator",
+      "position" : {
+        "startLine" : 461,
+        "startColumn" : 41,
+        "endLine" : 461,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.MyTokenizer/memberField/SINGLE_QUOTED_SEPARATOR",
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "customSeps" : {
+      "name" : "customSeps",
+      "key" : "customSeps",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 499,
+        "startColumn" : 18,
+        "endLine" : 499,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.MyTokenizer/memberField/customSeps",
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "PAREN_EXPR_SEPARATOR" : {
+      "name" : "PAREN_EXPR_SEPARATOR",
+      "key" : "PAREN_EXPR_SEPARATOR",
+      "type" : "CustomSeparator",
+      "position" : {
+        "startLine" : 474,
+        "startColumn" : 41,
+        "endLine" : 474,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.MyTokenizer/memberField/PAREN_EXPR_SEPARATOR",
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "sIdx" : {
+      "name" : "sIdx",
+      "key" : "sIdx",
+      "type" : "int",
+      "position" : {
+        "startLine" : 492,
+        "startColumn" : 17,
+        "endLine" : 492,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.MyTokenizer/memberField/sIdx",
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    }
+  },
+  "methods" : {
+    "parseDelimString" : {
+      "name" : "parseDelimString",
+      "key" : "org.argouml.util.MyTokenizer/method/parseDelimString",
+      "type" : "org.argouml.util.TokenSep",
+      "position" : {
+        "startLine" : 724,
+        "startColumn" : 29,
+        "endLine" : 724,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "str",
+        "key" : "str",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 724,
+          "startColumn" : 53,
+          "endLine" : 724,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.MyTokenizer/method/parseDelimString"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "hasMoreTokens" : {
+      "name" : "hasMoreTokens",
+      "key" : "org.argouml.util.MyTokenizer/method/hasMoreTokens",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 562,
+        "startColumn" : 20,
+        "endLine" : 562,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "nextToken" : {
+      "name" : "nextToken",
+      "key" : "org.argouml.util.MyTokenizer/method/nextToken",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 572,
+        "startColumn" : 19,
+        "endLine" : 572,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "hasMoreElements" : {
+      "name" : "hasMoreElements",
+      "key" : "org.argouml.util.MyTokenizer/method/hasMoreElements",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 684,
+        "startColumn" : 20,
+        "endLine" : 684,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "putToken" : {
+      "name" : "putToken",
+      "key" : "org.argouml.util.MyTokenizer/method/putToken",
+      "type" : "void",
+      "position" : {
+        "startLine" : 709,
+        "startColumn" : 17,
+        "endLine" : 709,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 709,
+          "startColumn" : 33,
+          "endLine" : 709,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.MyTokenizer/method/putToken"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "getTokenIndex" : {
+      "name" : "getTokenIndex",
+      "key" : "org.argouml.util.MyTokenizer/method/getTokenIndex",
+      "type" : "int",
+      "position" : {
+        "startLine" : 694,
+        "startColumn" : 16,
+        "endLine" : 694,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    },
+    "nextElement" : {
+      "name" : "nextElement",
+      "key" : "org.argouml.util.MyTokenizer/method/nextElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 673,
+        "startColumn" : 19,
+        "endLine" : 673,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.MyTokenizer"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.util.Enumeration" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

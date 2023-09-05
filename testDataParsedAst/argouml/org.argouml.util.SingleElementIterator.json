@@ -1,0 +1,102 @@
+{
+  "name" : "SingleElementIterator",
+  "key" : "org.argouml.util.SingleElementIterator",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "done" : {
+      "name" : "done",
+      "key" : "done",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 21,
+        "endLine" : 41,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.SingleElementIterator/memberField/done",
+      "classOrInterfaceKey" : "org.argouml.util.SingleElementIterator"
+    },
+    "target" : {
+      "name" : "target",
+      "key" : "target",
+      "type" : null,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 15,
+        "endLine" : 42,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.SingleElementIterator/memberField/target",
+      "classOrInterfaceKey" : "org.argouml.util.SingleElementIterator"
+    }
+  },
+  "methods" : {
+    "next" : {
+      "name" : "next",
+      "key" : "org.argouml.util.SingleElementIterator/method/next",
+      "type" : null,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 14,
+        "endLine" : 55,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.SingleElementIterator"
+    },
+    "hasNext" : {
+      "name" : "hasNext",
+      "key" : "org.argouml.util.SingleElementIterator/method/hasNext",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 20,
+        "endLine" : 48,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.SingleElementIterator"
+    },
+    "remove" : {
+      "name" : "remove",
+      "key" : "org.argouml.util.SingleElementIterator/method/remove",
+      "type" : "void",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 17,
+        "endLine" : 63,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.SingleElementIterator"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.util.Iterator" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

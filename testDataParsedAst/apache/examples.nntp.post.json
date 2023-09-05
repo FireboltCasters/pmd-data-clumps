@@ -1,0 +1,52 @@
+{
+  "name" : "post",
+  "key" : "examples.nntp.post",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 14,
+    "endLine" : 39,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "main" : {
+      "name" : "main",
+      "key" : "examples.nntp.post/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 30,
+        "endLine" : 42,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 44,
+          "endLine" : 42,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.nntp.post/method/main"
+      } ],
+      "classOrInterfaceKey" : "examples.nntp.post"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

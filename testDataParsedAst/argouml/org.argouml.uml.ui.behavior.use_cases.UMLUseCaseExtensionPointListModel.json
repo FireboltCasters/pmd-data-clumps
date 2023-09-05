@@ -1,0 +1,155 @@
+{
+  "name" : "UMLUseCaseExtensionPointListModel",
+  "key" : "org.argouml.uml.ui.behavior.use_cases.UMLUseCaseExtensionPointListModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.behavior.use_cases.UMLUseCaseExtensionPointListModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 20,
+        "endLine" : 56,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.UMLUseCaseExtensionPointListModel"
+    },
+    "moveToBottom" : {
+      "name" : "moveToBottom",
+      "key" : "org.argouml.uml.ui.behavior.use_cases.UMLUseCaseExtensionPointListModel/method/moveToBottom",
+      "type" : "void",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 20,
+        "endLine" : 83,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 37,
+          "endLine" : 83,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.use_cases.UMLUseCaseExtensionPointListModel/method/moveToBottom"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.UMLUseCaseExtensionPointListModel"
+    },
+    "moveToTop" : {
+      "name" : "moveToTop",
+      "key" : "org.argouml.uml.ui.behavior.use_cases.UMLUseCaseExtensionPointListModel/method/moveToTop",
+      "type" : "void",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 20,
+        "endLine" : 99,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 99,
+          "startColumn" : 34,
+          "endLine" : 99,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.use_cases.UMLUseCaseExtensionPointListModel/method/moveToTop"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.UMLUseCaseExtensionPointListModel"
+    },
+    "moveDown" : {
+      "name" : "moveDown",
+      "key" : "org.argouml.uml.ui.behavior.use_cases.UMLUseCaseExtensionPointListModel/method/moveDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 20,
+        "endLine" : 70,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 33,
+          "endLine" : 70,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.use_cases.UMLUseCaseExtensionPointListModel/method/moveDown"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.UMLUseCaseExtensionPointListModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.behavior.use_cases.UMLUseCaseExtensionPointListModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 23,
+        "endLine" : 63,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 63,
+          "startColumn" : 45,
+          "endLine" : 63,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.use_cases.UMLUseCaseExtensionPointListModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.UMLUseCaseExtensionPointListModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLModelElementOrderedListModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

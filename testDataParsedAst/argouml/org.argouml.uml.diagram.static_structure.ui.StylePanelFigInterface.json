@@ -1,0 +1,114 @@
+{
+  "name" : "StylePanelFigInterface",
+  "key" : "org.argouml.uml.diagram.static_structure.ui.StylePanelFigInterface",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "refreshTransaction" : {
+      "name" : "refreshTransaction",
+      "key" : "refreshTransaction",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 21,
+        "endLine" : 47,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.ui.StylePanelFigInterface/memberField/refreshTransaction",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.StylePanelFigInterface"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 31,
+        "endLine" : 96,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.ui.StylePanelFigInterface/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.StylePanelFigInterface"
+    },
+    "operCheckBox" : {
+      "name" : "operCheckBox",
+      "key" : "operCheckBox",
+      "type" : "javax.swing.JCheckBox",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 23,
+        "endLine" : 42,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.ui.StylePanelFigInterface/memberField/operCheckBox",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.StylePanelFigInterface"
+    }
+  },
+  "methods" : {
+    "itemStateChanged" : {
+      "name" : "itemStateChanged",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.StylePanelFigInterface/method/itemStateChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 17,
+        "endLine" : 80,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ItemEvent",
+        "position" : {
+          "startLine" : 80,
+          "startColumn" : 44,
+          "endLine" : 80,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.StylePanelFigInterface/method/itemStateChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.StylePanelFigInterface"
+    },
+    "refresh" : {
+      "name" : "refresh",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.StylePanelFigInterface/method/refresh",
+      "type" : "void",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 17,
+        "endLine" : 66,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.StylePanelFigInterface"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.ui.StylePanelFigNodeModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,84 @@
+{
+  "name" : "GotoDialog",
+  "key" : "org.argouml.ui.GotoDialog",
+  "type" : "class",
+  "position" : {
+    "startLine" : 53,
+    "startColumn" : 8,
+    "endLine" : 53,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "allDiagrams" : {
+      "name" : "allDiagrams",
+      "key" : "allDiagrams",
+      "type" : "TabResults",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 30,
+        "endLine" : 55,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.GotoDialog/memberField/allDiagrams",
+      "classOrInterfaceKey" : "org.argouml.ui.GotoDialog"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.GotoDialog/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 17,
+        "endLine" : 89,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 89,
+          "startColumn" : 45,
+          "endLine" : 89,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.GotoDialog/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.GotoDialog"
+    },
+    "nameButtons" : {
+      "name" : "nameButtons",
+      "key" : "org.argouml.ui.GotoDialog/method/nameButtons",
+      "type" : "void",
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 20,
+        "endLine" : 100,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.GotoDialog"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.util.ArgoDialog" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

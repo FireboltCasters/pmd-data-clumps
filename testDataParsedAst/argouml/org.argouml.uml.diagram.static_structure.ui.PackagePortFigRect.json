@@ -1,0 +1,98 @@
+{
+  "name" : "PackagePortFigRect",
+  "key" : "org.argouml.uml.diagram.static_structure.ui.PackagePortFigRect",
+  "type" : "class",
+  "position" : {
+    "startLine" : 955,
+    "startColumn" : 1,
+    "endLine" : 955,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 1001,
+        "startColumn" : 31,
+        "endLine" : 1001,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.ui.PackagePortFigRect/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.PackagePortFigRect"
+    },
+    "indentX" : {
+      "name" : "indentX",
+      "key" : "indentX",
+      "type" : "int",
+      "position" : {
+        "startLine" : 956,
+        "startColumn" : 17,
+        "endLine" : 956,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.ui.PackagePortFigRect/memberField/indentX",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.PackagePortFigRect"
+    },
+    "tabHeight" : {
+      "name" : "tabHeight",
+      "key" : "tabHeight",
+      "type" : "int",
+      "position" : {
+        "startLine" : 957,
+        "startColumn" : 17,
+        "endLine" : 957,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.ui.PackagePortFigRect/memberField/tabHeight",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.PackagePortFigRect"
+    }
+  },
+  "methods" : {
+    "getClosestPoint" : {
+      "name" : "getClosestPoint",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.PackagePortFigRect/method/getClosestPoint",
+      "type" : "java.awt.Point",
+      "position" : {
+        "startLine" : 979,
+        "startColumn" : 18,
+        "endLine" : 979,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "anotherPt",
+        "key" : "anotherPt",
+        "type" : "java.awt.Point",
+        "position" : {
+          "startLine" : 979,
+          "startColumn" : 40,
+          "endLine" : 979,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.PackagePortFigRect/method/getClosestPoint"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.PackagePortFigRect"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.presentation.FigRect" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

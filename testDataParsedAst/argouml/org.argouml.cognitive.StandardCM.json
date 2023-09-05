@@ -1,0 +1,22 @@
+{
+  "name" : "StandardCM",
+  "key" : "org.argouml.cognitive.StandardCM",
+  "type" : "class",
+  "position" : {
+    "startLine" : 53,
+    "startColumn" : 8,
+    "endLine" : 53,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.cognitive.AndCM" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

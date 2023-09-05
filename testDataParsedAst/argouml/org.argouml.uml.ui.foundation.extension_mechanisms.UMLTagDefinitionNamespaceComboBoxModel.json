@@ -1,0 +1,113 @@
+{
+  "name" : "UMLTagDefinitionNamespaceComboBoxModel",
+  "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionNamespaceComboBoxModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 192,
+    "startColumn" : 1,
+    "endLine" : 192,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 198,
+        "startColumn" : 33,
+        "endLine" : 198,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionNamespaceComboBoxModel/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionNamespaceComboBoxModel"
+    }
+  },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionNamespaceComboBoxModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 213,
+        "startColumn" : 20,
+        "endLine" : 213,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionNamespaceComboBoxModel"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionNamespaceComboBoxModel/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 244,
+        "startColumn" : 17,
+        "endLine" : 244,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "evt",
+        "key" : "evt",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 244,
+          "startColumn" : 52,
+          "endLine" : 244,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionNamespaceComboBoxModel/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionNamespaceComboBoxModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionNamespaceComboBoxModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 205,
+        "startColumn" : 23,
+        "endLine" : 205,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 205,
+          "startColumn" : 45,
+          "endLine" : 205,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionNamespaceComboBoxModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionNamespaceComboBoxModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

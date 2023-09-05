@@ -1,0 +1,313 @@
+{
+  "name" : "ExplorerEventAdaptor",
+  "key" : "org.argouml.ui.explorer.ExplorerEventAdaptor",
+  "type" : "class",
+  "position" : {
+    "startLine" : 57,
+    "startColumn" : 14,
+    "endLine" : 57,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "instance" : {
+      "name" : "instance",
+      "key" : "instance",
+      "type" : "org.argouml.ui.explorer.ExplorerEventAdaptor",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 41,
+        "endLine" : 65,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor/memberField/instance",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor"
+    },
+    "treeModel" : {
+      "name" : "treeModel",
+      "key" : "treeModel",
+      "type" : "TreeModelUMLEventListener",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 39,
+        "endLine" : 70,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor/memberField/treeModel",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor"
+    }
+  },
+  "methods" : {
+    "structureChanged" : {
+      "name" : "structureChanged",
+      "key" : "org.argouml.ui.explorer.ExplorerEventAdaptor/method/structureChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 17,
+        "endLine" : 108,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor"
+    },
+    "modelElementRemoved" : {
+      "name" : "modelElementRemoved",
+      "key" : "org.argouml.ui.explorer.ExplorerEventAdaptor/method/modelElementRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 17,
+        "endLine" : 124,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 124,
+          "startColumn" : 44,
+          "endLine" : 124,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor/method/modelElementRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor"
+    },
+    "modelElementChanged" : {
+      "name" : "modelElementChanged",
+      "key" : "org.argouml.ui.explorer.ExplorerEventAdaptor/method/modelElementChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 17,
+        "endLine" : 154,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 154,
+          "startColumn" : 44,
+          "endLine" : 154,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor/method/modelElementChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor"
+    },
+    "setTreeModelUMLEventListener" : {
+      "name" : "setTreeModelUMLEventListener",
+      "key" : "org.argouml.ui.explorer.ExplorerEventAdaptor/method/setTreeModelUMLEventListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 166,
+        "startColumn" : 17,
+        "endLine" : 166,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newTreeModel",
+        "key" : "newTreeModel",
+        "type" : "TreeModelUMLEventListener",
+        "position" : {
+          "startLine" : 167,
+          "startColumn" : 32,
+          "endLine" : 167,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor/method/setTreeModelUMLEventListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.ui.explorer.ExplorerEventAdaptor/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 179,
+        "startColumn" : 17,
+        "endLine" : 179,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pce",
+        "key" : "pce",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 179,
+          "startColumn" : 63,
+          "endLine" : 179,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.ui.explorer.ExplorerEventAdaptor/method/getInstance",
+      "type" : "org.argouml.ui.explorer.ExplorerEventAdaptor",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 40,
+        "endLine" : 75,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor"
+    },
+    "modelElementAdded" : {
+      "name" : "modelElementAdded",
+      "key" : "org.argouml.ui.explorer.ExplorerEventAdaptor/method/modelElementAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 17,
+        "endLine" : 139,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 42,
+          "endLine" : 139,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor/method/modelElementAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.beans.PropertyChangeListener" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.ui.explorer.ExplorerEventAdaptor.ProfileChangeListener" : {
+      "name" : "ProfileChangeListener",
+      "key" : "org.argouml.ui.explorer.ExplorerEventAdaptor.ProfileChangeListener",
+      "type" : "class",
+      "position" : {
+        "startLine" : 231,
+        "startColumn" : 5,
+        "endLine" : 231,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : { },
+      "methods" : {
+        "profileAdded" : {
+          "name" : "profileAdded",
+          "key" : "org.argouml.ui.explorer.ExplorerEventAdaptor.ProfileChangeListener/method/profileAdded",
+          "type" : "void",
+          "position" : {
+            "startLine" : 233,
+            "startColumn" : 21,
+            "endLine" : 233,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "e",
+            "key" : "e",
+            "type" : "org.argouml.application.events.ArgoProfileEvent",
+            "position" : {
+              "startLine" : 233,
+              "startColumn" : 51,
+              "endLine" : 233,
+              "endColumn" : 52
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor.ProfileChangeListener/method/profileAdded"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor.ProfileChangeListener"
+        },
+        "profileRemoved" : {
+          "name" : "profileRemoved",
+          "key" : "org.argouml.ui.explorer.ExplorerEventAdaptor.ProfileChangeListener/method/profileRemoved",
+          "type" : "void",
+          "position" : {
+            "startLine" : 237,
+            "startColumn" : 21,
+            "endLine" : 237,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "e",
+            "key" : "e",
+            "type" : "org.argouml.application.events.ArgoProfileEvent",
+            "position" : {
+              "startLine" : 237,
+              "startColumn" : 53,
+              "endLine" : 237,
+              "endColumn" : 54
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor.ProfileChangeListener/method/profileRemoved"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor.ProfileChangeListener"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "org.argouml.application.events.ArgoProfileEventListener" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.ui.explorer.ExplorerEventAdaptor",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

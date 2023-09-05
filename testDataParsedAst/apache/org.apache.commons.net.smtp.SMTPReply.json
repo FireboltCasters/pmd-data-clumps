@@ -1,0 +1,814 @@
+{
+  "name" : "SMTPReply",
+  "key" : "org.apache.commons.net.smtp.SMTPReply",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 14,
+    "endLine" : 30,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "CODE_251" : {
+      "name" : "CODE_251",
+      "key" : "CODE_251",
+      "type" : "int",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 29,
+        "endLine" : 39,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_251",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_450" : {
+      "name" : "CODE_450",
+      "key" : "CODE_450",
+      "type" : "int",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 29,
+        "endLine" : 42,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_450",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_451" : {
+      "name" : "CODE_451",
+      "key" : "CODE_451",
+      "type" : "int",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 29,
+        "endLine" : 43,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_451",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_550" : {
+      "name" : "CODE_550",
+      "key" : "CODE_550",
+      "type" : "int",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 29,
+        "endLine" : 50,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_550",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_452" : {
+      "name" : "CODE_452",
+      "key" : "CODE_452",
+      "type" : "int",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 29,
+        "endLine" : 44,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_452",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_551" : {
+      "name" : "CODE_551",
+      "key" : "CODE_551",
+      "type" : "int",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 29,
+        "endLine" : 51,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_551",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "ACTION_NOT_TAKEN" : {
+      "name" : "ACTION_NOT_TAKEN",
+      "key" : "ACTION_NOT_TAKEN",
+      "type" : "int",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 29,
+        "endLine" : 64,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/ACTION_NOT_TAKEN",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "INSUFFICIENT_STORAGE" : {
+      "name" : "INSUFFICIENT_STORAGE",
+      "key" : "INSUFFICIENT_STORAGE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 29,
+        "endLine" : 66,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/INSUFFICIENT_STORAGE",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_250" : {
+      "name" : "CODE_250",
+      "key" : "CODE_250",
+      "type" : "int",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 29,
+        "endLine" : 38,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_250",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "COMMAND_NOT_IMPLEMENTED" : {
+      "name" : "COMMAND_NOT_IMPLEMENTED",
+      "key" : "COMMAND_NOT_IMPLEMENTED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 29,
+        "endLine" : 69,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/COMMAND_NOT_IMPLEMENTED",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "SERVICE_NOT_AVAILABLE" : {
+      "name" : "SERVICE_NOT_AVAILABLE",
+      "key" : "SERVICE_NOT_AVAILABLE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 29,
+        "endLine" : 63,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/SERVICE_NOT_AVAILABLE",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "SERVICE_CLOSING_TRANSMISSION_CHANNEL" : {
+      "name" : "SERVICE_CLOSING_TRANSMISSION_CHANNEL",
+      "key" : "SERVICE_CLOSING_TRANSMISSION_CHANNEL",
+      "type" : "int",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 29,
+        "endLine" : 59,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/SERVICE_CLOSING_TRANSMISSION_CHANNEL",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "SERVICE_READY" : {
+      "name" : "SERVICE_READY",
+      "key" : "SERVICE_READY",
+      "type" : "int",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 29,
+        "endLine" : 58,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/SERVICE_READY",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "MAILBOX_NAME_NOT_ALLOWED" : {
+      "name" : "MAILBOX_NAME_NOT_ALLOWED",
+      "key" : "MAILBOX_NAME_NOT_ALLOWED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 29,
+        "endLine" : 75,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/MAILBOX_NAME_NOT_ALLOWED",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_501" : {
+      "name" : "CODE_501",
+      "key" : "CODE_501",
+      "type" : "int",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 29,
+        "endLine" : 46,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_501",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_502" : {
+      "name" : "CODE_502",
+      "key" : "CODE_502",
+      "type" : "int",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 29,
+        "endLine" : 47,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_502",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_503" : {
+      "name" : "CODE_503",
+      "key" : "CODE_503",
+      "type" : "int",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 29,
+        "endLine" : 48,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_503",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_504" : {
+      "name" : "CODE_504",
+      "key" : "CODE_504",
+      "type" : "int",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 29,
+        "endLine" : 49,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_504",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_421" : {
+      "name" : "CODE_421",
+      "key" : "CODE_421",
+      "type" : "int",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 29,
+        "endLine" : 41,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_421",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "USER_NOT_LOCAL" : {
+      "name" : "USER_NOT_LOCAL",
+      "key" : "USER_NOT_LOCAL",
+      "type" : "int",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 29,
+        "endLine" : 73,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/USER_NOT_LOCAL",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_500" : {
+      "name" : "CODE_500",
+      "key" : "CODE_500",
+      "type" : "int",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 29,
+        "endLine" : 45,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_500",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "UNRECOGNIZED_COMMAND" : {
+      "name" : "UNRECOGNIZED_COMMAND",
+      "key" : "UNRECOGNIZED_COMMAND",
+      "type" : "int",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 29,
+        "endLine" : 67,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/UNRECOGNIZED_COMMAND",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "BAD_COMMAND_SEQUENCE" : {
+      "name" : "BAD_COMMAND_SEQUENCE",
+      "key" : "BAD_COMMAND_SEQUENCE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 29,
+        "endLine" : 70,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/BAD_COMMAND_SEQUENCE",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_220" : {
+      "name" : "CODE_220",
+      "key" : "CODE_220",
+      "type" : "int",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 29,
+        "endLine" : 36,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_220",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "ACTION_ABORTED" : {
+      "name" : "ACTION_ABORTED",
+      "key" : "ACTION_ABORTED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 29,
+        "endLine" : 65,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/ACTION_ABORTED",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "STORAGE_ALLOCATION_EXCEEDED" : {
+      "name" : "STORAGE_ALLOCATION_EXCEEDED",
+      "key" : "STORAGE_ALLOCATION_EXCEEDED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 29,
+        "endLine" : 74,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/STORAGE_ALLOCATION_EXCEEDED",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_221" : {
+      "name" : "CODE_221",
+      "key" : "CODE_221",
+      "type" : "int",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 29,
+        "endLine" : 37,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_221",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "ACTION_OK" : {
+      "name" : "ACTION_OK",
+      "key" : "ACTION_OK",
+      "type" : "int",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 29,
+        "endLine" : 60,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/ACTION_OK",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "MAILBOX_UNAVAILABLE" : {
+      "name" : "MAILBOX_UNAVAILABLE",
+      "key" : "MAILBOX_UNAVAILABLE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 29,
+        "endLine" : 72,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/MAILBOX_UNAVAILABLE",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "USER_NOT_LOCAL_WILL_FORWARD" : {
+      "name" : "USER_NOT_LOCAL_WILL_FORWARD",
+      "key" : "USER_NOT_LOCAL_WILL_FORWARD",
+      "type" : "int",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 29,
+        "endLine" : 61,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/USER_NOT_LOCAL_WILL_FORWARD",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "COMMAND_NOT_IMPLEMENTED_FOR_PARAMETER" : {
+      "name" : "COMMAND_NOT_IMPLEMENTED_FOR_PARAMETER",
+      "key" : "COMMAND_NOT_IMPLEMENTED_FOR_PARAMETER",
+      "type" : "int",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 29,
+        "endLine" : 71,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/COMMAND_NOT_IMPLEMENTED_FOR_PARAMETER",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_215" : {
+      "name" : "CODE_215",
+      "key" : "CODE_215",
+      "type" : "int",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 29,
+        "endLine" : 35,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_215",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "HELP_MESSAGE" : {
+      "name" : "HELP_MESSAGE",
+      "key" : "HELP_MESSAGE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 29,
+        "endLine" : 57,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/HELP_MESSAGE",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "START_MAIL_INPUT" : {
+      "name" : "START_MAIL_INPUT",
+      "key" : "START_MAIL_INPUT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 29,
+        "endLine" : 62,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/START_MAIL_INPUT",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "SYSTEM_STATUS" : {
+      "name" : "SYSTEM_STATUS",
+      "key" : "SYSTEM_STATUS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 29,
+        "endLine" : 56,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/SYSTEM_STATUS",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "TRANSACTION_FAILED" : {
+      "name" : "TRANSACTION_FAILED",
+      "key" : "TRANSACTION_FAILED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 29,
+        "endLine" : 76,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/TRANSACTION_FAILED",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_211" : {
+      "name" : "CODE_211",
+      "key" : "CODE_211",
+      "type" : "int",
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 29,
+        "endLine" : 33,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_211",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_354" : {
+      "name" : "CODE_354",
+      "key" : "CODE_354",
+      "type" : "int",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 29,
+        "endLine" : 40,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_354",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_552" : {
+      "name" : "CODE_552",
+      "key" : "CODE_552",
+      "type" : "int",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 29,
+        "endLine" : 52,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_552",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "SYNTAX_ERROR_IN_ARGUMENTS" : {
+      "name" : "SYNTAX_ERROR_IN_ARGUMENTS",
+      "key" : "SYNTAX_ERROR_IN_ARGUMENTS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 29,
+        "endLine" : 68,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/SYNTAX_ERROR_IN_ARGUMENTS",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_553" : {
+      "name" : "CODE_553",
+      "key" : "CODE_553",
+      "type" : "int",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 29,
+        "endLine" : 53,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_553",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_554" : {
+      "name" : "CODE_554",
+      "key" : "CODE_554",
+      "type" : "int",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 29,
+        "endLine" : 54,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_554",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "CODE_214" : {
+      "name" : "CODE_214",
+      "key" : "CODE_214",
+      "type" : "int",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 29,
+        "endLine" : 34,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.SMTPReply/memberField/CODE_214",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    }
+  },
+  "methods" : {
+    "isNegativeTransient" : {
+      "name" : "isNegativeTransient",
+      "key" : "org.apache.commons.net.smtp.SMTPReply/method/isNegativeTransient",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 27,
+        "endLine" : 145,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reply",
+        "key" : "reply",
+        "type" : "int",
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 51,
+          "endLine" : 145,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.smtp.SMTPReply/method/isNegativeTransient"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "isPositiveIntermediate" : {
+      "name" : "isPositiveIntermediate",
+      "key" : "org.apache.commons.net.smtp.SMTPReply/method/isPositiveIntermediate",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 27,
+        "endLine" : 130,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reply",
+        "key" : "reply",
+        "type" : "int",
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 54,
+          "endLine" : 130,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.smtp.SMTPReply/method/isPositiveIntermediate"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "isPositivePreliminary" : {
+      "name" : "isPositivePreliminary",
+      "key" : "org.apache.commons.net.smtp.SMTPReply/method/isPositivePreliminary",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 27,
+        "endLine" : 97,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reply",
+        "key" : "reply",
+        "type" : "int",
+        "position" : {
+          "startLine" : 97,
+          "startColumn" : 53,
+          "endLine" : 97,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.smtp.SMTPReply/method/isPositivePreliminary"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "isPositiveCompletion" : {
+      "name" : "isPositiveCompletion",
+      "key" : "org.apache.commons.net.smtp.SMTPReply/method/isPositiveCompletion",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 27,
+        "endLine" : 112,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reply",
+        "key" : "reply",
+        "type" : "int",
+        "position" : {
+          "startLine" : 112,
+          "startColumn" : 52,
+          "endLine" : 112,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.smtp.SMTPReply/method/isPositiveCompletion"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    },
+    "isNegativePermanent" : {
+      "name" : "isNegativePermanent",
+      "key" : "org.apache.commons.net.smtp.SMTPReply/method/isNegativePermanent",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 27,
+        "endLine" : 160,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reply",
+        "key" : "reply",
+        "type" : "int",
+        "position" : {
+          "startLine" : 160,
+          "startColumn" : 51,
+          "endLine" : 160,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.smtp.SMTPReply/method/isNegativePermanent"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPReply"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

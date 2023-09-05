@@ -1,0 +1,68 @@
+{
+  "name" : "ActionAboutArgoUML",
+  "key" : "org.argouml.ui.cmd.ActionAboutArgoUML",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 31,
+        "endLine" : 65,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.ActionAboutArgoUML/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionAboutArgoUML"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.cmd.ActionAboutArgoUML/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 17,
+        "endLine" : 54,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 45,
+          "endLine" : 54,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.ActionAboutArgoUML/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionAboutArgoUML"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.AbstractAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,1279 @@
+{
+  "name" : "ToDoList",
+  "key" : "org.argouml.cognitive.ToDoList",
+  "type" : "class",
+  "position" : {
+    "startLine" : 71,
+    "startColumn" : 8,
+    "endLine" : 71,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "isPaused" : {
+      "name" : "isPaused",
+      "key" : "isPaused",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 21,
+        "endLine" : 128,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ToDoList/memberField/isPaused",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "SLEEP_SECONDS" : {
+      "name" : "SLEEP_SECONDS",
+      "key" : "SLEEP_SECONDS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 30,
+        "endLine" : 80,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ToDoList/memberField/SLEEP_SECONDS",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 33,
+        "endLine" : 75,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ToDoList/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "resolvedItems" : {
+      "name" : "resolvedItems",
+      "key" : "resolvedItems",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 33,
+        "endLine" : 106,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ToDoList/memberField/resolvedItems",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "designer" : {
+      "name" : "designer",
+      "key" : "designer",
+      "type" : "Designer",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 22,
+        "endLine" : 116,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ToDoList/memberField/designer",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "numNotValid" : {
+      "name" : "numNotValid",
+      "key" : "numNotValid",
+      "type" : "int",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 24,
+        "endLine" : 122,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ToDoList/memberField/numNotValid",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "pausedMutex" : {
+      "name" : "pausedMutex",
+      "key" : "pausedMutex",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 20,
+        "endLine" : 130,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ToDoList/memberField/pausedMutex",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "itemSet" : {
+      "name" : "itemSet",
+      "key" : "itemSet",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 27,
+        "endLine" : 87,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ToDoList/memberField/itemSet",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "validityChecker" : {
+      "name" : "validityChecker",
+      "key" : "validityChecker",
+      "type" : "java.lang.Thread",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 20,
+        "endLine" : 111,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ToDoList/memberField/validityChecker",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "longestToDoList" : {
+      "name" : "longestToDoList",
+      "key" : "longestToDoList",
+      "type" : "int",
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 24,
+        "endLine" : 120,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ToDoList/memberField/longestToDoList",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "listenerList" : {
+      "name" : "listenerList",
+      "key" : "listenerList",
+      "type" : "javax.swing.event.EventListenerList",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 31,
+        "endLine" : 118,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ToDoList/memberField/listenerList",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "allOffenders" : {
+      "name" : "allOffenders",
+      "key" : "allOffenders",
+      "type" : "ListSet",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 30,
+        "endLine" : 93,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "VOLATILE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ToDoList/memberField/allOffenders",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "items" : {
+      "name" : "items",
+      "key" : "items",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 28,
+        "endLine" : 85,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ToDoList/memberField/items",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "allPosters" : {
+      "name" : "allPosters",
+      "key" : "allPosters",
+      "type" : "ListSet",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 38,
+        "endLine" : 98,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "VOLATILE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ToDoList/memberField/allPosters",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    }
+  },
+  "methods" : {
+    "spawnValidityChecker" : {
+      "name" : "spawnValidityChecker",
+      "key" : "org.argouml.cognitive.ToDoList/method/spawnValidityChecker",
+      "type" : "void",
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 30,
+        "endLine" : 151,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "d",
+        "key" : "d",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 151,
+          "startColumn" : 60,
+          "endLine" : 151,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/spawnValidityChecker"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "forceValidityCheck" : {
+      "name" : "forceValidityCheck",
+      "key" : "org.argouml.cognitive.ToDoList/method/forceValidityCheck",
+      "type" : "void",
+      "position" : {
+        "startLine" : 214,
+        "startColumn" : 33,
+        "endLine" : 214,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PROTECTED", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "removes",
+        "key" : "removes",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 214,
+          "startColumn" : 67,
+          "endLine" : 214,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/forceValidityCheck"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "getToDoItemList" : {
+      "name" : "getToDoItemList",
+      "key" : "org.argouml.cognitive.ToDoList/method/getToDoItemList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 346,
+        "startColumn" : 27,
+        "endLine" : 346,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "addOffenders" : {
+      "name" : "addOffenders",
+      "key" : "org.argouml.cognitive.ToDoList/method/addOffenders",
+      "type" : "void",
+      "position" : {
+        "startLine" : 391,
+        "startColumn" : 18,
+        "endLine" : 391,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newoffs",
+        "key" : "newoffs",
+        "type" : "ListSet",
+        "position" : {
+          "startLine" : 391,
+          "startColumn" : 39,
+          "endLine" : 391,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/addOffenders"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "resolve" : {
+      "name" : "resolve",
+      "key" : "org.argouml.cognitive.ToDoList/method/resolve",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 544,
+        "startColumn" : 20,
+        "endLine" : 544,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "ToDoItem",
+        "position" : {
+          "startLine" : 544,
+          "startColumn" : 37,
+          "endLine" : 544,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/resolve"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "getOffenders" : {
+      "name" : "getOffenders",
+      "key" : "org.argouml.cognitive.ToDoList/method/getOffenders",
+      "type" : "ListSet",
+      "position" : {
+        "startLine" : 374,
+        "startColumn" : 20,
+        "endLine" : 374,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "setPaused" : {
+      "name" : "setPaused",
+      "key" : "org.argouml.cognitive.ToDoList/method/setPaused",
+      "type" : "void",
+      "position" : {
+        "startLine" : 282,
+        "startColumn" : 17,
+        "endLine" : 282,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "paused",
+        "key" : "paused",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 282,
+          "startColumn" : 35,
+          "endLine" : 282,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/setPaused"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "addPosters" : {
+      "name" : "addPosters",
+      "key" : "org.argouml.cognitive.ToDoList/method/addPosters",
+      "type" : "void",
+      "position" : {
+        "startLine" : 416,
+        "startColumn" : 18,
+        "endLine" : 416,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newp",
+        "key" : "newp",
+        "type" : "Poster",
+        "position" : {
+          "startLine" : 416,
+          "startColumn" : 36,
+          "endLine" : 416,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/addPosters"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "run" : {
+      "name" : "run",
+      "key" : "org.argouml.cognitive.ToDoList/method/run",
+      "type" : "void",
+      "position" : {
+        "startLine" : 164,
+        "startColumn" : 17,
+        "endLine" : 164,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "notifyObservers" : {
+      "name" : "notifyObservers",
+      "key" : "org.argouml.cognitive.ToDoList/method/notifyObservers",
+      "type" : "void",
+      "position" : {
+        "startLine" : 316,
+        "startColumn" : 17,
+        "endLine" : 316,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "explicitlyResolve" : {
+      "name" : "explicitlyResolve",
+      "key" : "org.argouml.cognitive.ToDoList/method/explicitlyResolve",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 557,
+        "startColumn" : 20,
+        "endLine" : 557,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "ToDoItem",
+        "position" : {
+          "startLine" : 557,
+          "startColumn" : 47,
+          "endLine" : 557,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/explicitlyResolve"
+      }, {
+        "name" : "reason",
+        "key" : "reason",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 557,
+          "startColumn" : 60,
+          "endLine" : 557,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/explicitlyResolve"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "fireToDoItemChanged" : {
+      "name" : "fireToDoItemChanged",
+      "key" : "org.argouml.cognitive.ToDoList/method/fireToDoItemChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 737,
+        "startColumn" : 20,
+        "endLine" : 737,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "ToDoItem",
+        "position" : {
+          "startLine" : 737,
+          "startColumn" : 49,
+          "endLine" : 737,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/fireToDoItemChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "recomputeAllOffenders" : {
+      "name" : "recomputeAllOffenders",
+      "key" : "org.argouml.cognitive.ToDoList/method/recomputeAllOffenders",
+      "type" : "void",
+      "position" : {
+        "startLine" : 678,
+        "startColumn" : 20,
+        "endLine" : 678,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "removeToDoListListener" : {
+      "name" : "removeToDoListListener",
+      "key" : "org.argouml.cognitive.ToDoList/method/removeToDoListListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 704,
+        "startColumn" : 17,
+        "endLine" : 704,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "l",
+        "key" : "l",
+        "type" : "ToDoListListener",
+        "position" : {
+          "startLine" : 704,
+          "startColumn" : 57,
+          "endLine" : 704,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/removeToDoListListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "removeAll" : {
+      "name" : "removeAll",
+      "key" : "org.argouml.cognitive.ToDoList/method/removeAll",
+      "type" : "void",
+      "position" : {
+        "startLine" : 503,
+        "startColumn" : 17,
+        "endLine" : 503,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "list",
+        "key" : "list",
+        "type" : "org.argouml.cognitive.ToDoList",
+        "position" : {
+          "startLine" : 503,
+          "startColumn" : 36,
+          "endLine" : 503,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/removeAll"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "addResolvedCritic" : {
+      "name" : "addResolvedCritic",
+      "key" : "org.argouml.cognitive.ToDoList/method/addResolvedCritic",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 588,
+        "startColumn" : 20,
+        "endLine" : 588,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rc",
+        "key" : "rc",
+        "type" : "ResolvedCritic",
+        "position" : {
+          "startLine" : 588,
+          "startColumn" : 53,
+          "endLine" : 588,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/addResolvedCritic"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "removeE" : {
+      "name" : "removeE",
+      "key" : "org.argouml.cognitive.ToDoList/method/removeE",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 520,
+        "startColumn" : 21,
+        "endLine" : 520,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "ToDoItem",
+        "position" : {
+          "startLine" : 520,
+          "startColumn" : 38,
+          "endLine" : 520,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/removeE"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "get" : {
+      "name" : "get",
+      "key" : "org.argouml.cognitive.ToDoList/method/get",
+      "type" : "ToDoItem",
+      "position" : {
+        "startLine" : 671,
+        "startColumn" : 21,
+        "endLine" : 671,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 671,
+          "startColumn" : 29,
+          "endLine" : 671,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/get"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "elementAt" : {
+      "name" : "elementAt",
+      "key" : "org.argouml.cognitive.ToDoList/method/elementAt",
+      "type" : "ToDoItem",
+      "position" : {
+        "startLine" : 663,
+        "startColumn" : 21,
+        "endLine" : 663,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 663,
+          "startColumn" : 35,
+          "endLine" : 663,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/elementAt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "getToDoItems" : {
+      "name" : "getToDoItems",
+      "key" : "org.argouml.cognitive.ToDoList/method/getToDoItems",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 326,
+        "startColumn" : 29,
+        "endLine" : 326,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "getDecisions" : {
+      "name" : "getDecisions",
+      "key" : "org.argouml.cognitive.ToDoList/method/getDecisions",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 427,
+        "startColumn" : 26,
+        "endLine" : 427,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "removeAllElements" : {
+      "name" : "removeAllElements",
+      "key" : "org.argouml.cognitive.ToDoList/method/removeAllElements",
+      "type" : "void",
+      "position" : {
+        "startLine" : 595,
+        "startColumn" : 17,
+        "endLine" : 595,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "resume" : {
+      "name" : "resume",
+      "key" : "org.argouml.cognitive.ToDoList/method/resume",
+      "type" : "void",
+      "position" : {
+        "startLine" : 261,
+        "startColumn" : 17,
+        "endLine" : 261,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "isPaused" : {
+      "name" : "isPaused",
+      "key" : "org.argouml.cognitive.ToDoList/method/isPaused",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 271,
+        "startColumn" : 20,
+        "endLine" : 271,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "fireToDoItemRemoved" : {
+      "name" : "fireToDoItemRemoved",
+      "key" : "org.argouml.cognitive.ToDoList/method/fireToDoItemRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 787,
+        "startColumn" : 20,
+        "endLine" : 787,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "ToDoItem",
+        "position" : {
+          "startLine" : 787,
+          "startColumn" : 49,
+          "endLine" : 787,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/fireToDoItemRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "getGoalList" : {
+      "name" : "getGoalList",
+      "key" : "org.argouml.cognitive.ToDoList/method/getGoalList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 450,
+        "startColumn" : 30,
+        "endLine" : 450,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "elementListForOffender" : {
+      "name" : "elementListForOffender",
+      "key" : "org.argouml.cognitive.ToDoList/method/elementListForOffender",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 629,
+        "startColumn" : 27,
+        "endLine" : 629,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "offender",
+        "key" : "offender",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 629,
+          "startColumn" : 57,
+          "endLine" : 629,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/elementListForOffender"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "fireToDoItemAdded" : {
+      "name" : "fireToDoItemAdded",
+      "key" : "org.argouml.cognitive.ToDoList/method/fireToDoItemAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 758,
+        "startColumn" : 20,
+        "endLine" : 758,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "ToDoItem",
+        "position" : {
+          "startLine" : 758,
+          "startColumn" : 47,
+          "endLine" : 758,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/fireToDoItemAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "addE" : {
+      "name" : "addE",
+      "key" : "org.argouml.cognitive.ToDoList/method/addE",
+      "type" : "void",
+      "position" : {
+        "startLine" : 457,
+        "startColumn" : 18,
+        "endLine" : 457,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "ToDoItem",
+        "position" : {
+          "startLine" : 457,
+          "startColumn" : 32,
+          "endLine" : 457,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/addE"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "getPosters" : {
+      "name" : "getPosters",
+      "key" : "org.argouml.cognitive.ToDoList/method/getPosters",
+      "type" : "ListSet",
+      "position" : {
+        "startLine" : 400,
+        "startColumn" : 28,
+        "endLine" : 400,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "getDecisionList" : {
+      "name" : "getDecisionList",
+      "key" : "org.argouml.cognitive.ToDoList/method/getDecisionList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 434,
+        "startColumn" : 34,
+        "endLine" : 434,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "fireToDoListChanged" : {
+      "name" : "fireToDoListChanged",
+      "key" : "org.argouml.cognitive.ToDoList/method/fireToDoListChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 717,
+        "startColumn" : 20,
+        "endLine" : 717,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "pause" : {
+      "name" : "pause",
+      "key" : "org.argouml.cognitive.ToDoList/method/pause",
+      "type" : "void",
+      "position" : {
+        "startLine" : 252,
+        "startColumn" : 17,
+        "endLine" : 252,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "fireToDoItemsAdded" : {
+      "name" : "fireToDoItemsAdded",
+      "key" : "org.argouml.cognitive.ToDoList/method/fireToDoItemsAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 767,
+        "startColumn" : 20,
+        "endLine" : 767,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theItems",
+        "key" : "theItems",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 767,
+          "startColumn" : 54,
+          "endLine" : 767,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/fireToDoItemsAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "recomputeAllPosters" : {
+      "name" : "recomputeAllPosters",
+      "key" : "org.argouml.cognitive.ToDoList/method/recomputeAllPosters",
+      "type" : "void",
+      "position" : {
+        "startLine" : 685,
+        "startColumn" : 20,
+        "endLine" : 685,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "getResolvedItems" : {
+      "name" : "getResolvedItems",
+      "key" : "org.argouml.cognitive.ToDoList/method/getResolvedItems",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 365,
+        "startColumn" : 32,
+        "endLine" : 365,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "size" : {
+      "name" : "size",
+      "key" : "org.argouml.cognitive.ToDoList/method/size",
+      "type" : "int",
+      "position" : {
+        "startLine" : 644,
+        "startColumn" : 16,
+        "endLine" : 644,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "getGoals" : {
+      "name" : "getGoals",
+      "key" : "org.argouml.cognitive.ToDoList/method/getGoals",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 443,
+        "startColumn" : 26,
+        "endLine" : 443,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "elements" : {
+      "name" : "elements",
+      "key" : "org.argouml.cognitive.ToDoList/method/elements",
+      "type" : "java.util.Enumeration",
+      "position" : {
+        "startLine" : 653,
+        "startColumn" : 34,
+        "endLine" : 653,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "fireToDoItemsRemoved" : {
+      "name" : "fireToDoItemsRemoved",
+      "key" : "org.argouml.cognitive.ToDoList/method/fireToDoItemsRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 796,
+        "startColumn" : 20,
+        "endLine" : 796,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theItems",
+        "key" : "theItems",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 796,
+          "startColumn" : 56,
+          "endLine" : 796,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/fireToDoItemsRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "addToDoListListener" : {
+      "name" : "addToDoListListener",
+      "key" : "org.argouml.cognitive.ToDoList/method/addToDoListListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 695,
+        "startColumn" : 17,
+        "endLine" : 695,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "l",
+        "key" : "l",
+        "type" : "ToDoListListener",
+        "position" : {
+          "startLine" : 695,
+          "startColumn" : 54,
+          "endLine" : 695,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/addToDoListListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "elementsForOffender" : {
+      "name" : "elementsForOffender",
+      "key" : "org.argouml.cognitive.ToDoList/method/elementsForOffender",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 614,
+        "startColumn" : 29,
+        "endLine" : 614,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "off",
+        "key" : "off",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 614,
+          "startColumn" : 56,
+          "endLine" : 614,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/elementsForOffender"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.cognitive.ToDoList/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 814,
+        "startColumn" : 19,
+        "endLine" : 814,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "addElement" : {
+      "name" : "addElement",
+      "key" : "org.argouml.cognitive.ToDoList/method/addElement",
+      "type" : "void",
+      "position" : {
+        "startLine" : 496,
+        "startColumn" : 17,
+        "endLine" : 496,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "ToDoItem",
+        "position" : {
+          "startLine" : 496,
+          "startColumn" : 37,
+          "endLine" : 496,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/addElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    },
+    "removeElement" : {
+      "name" : "removeElement",
+      "key" : "org.argouml.cognitive.ToDoList/method/removeElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 530,
+        "startColumn" : 20,
+        "endLine" : 530,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "ToDoItem",
+        "position" : {
+          "startLine" : 530,
+          "startColumn" : 43,
+          "endLine" : 530,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ToDoList/method/removeElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoList"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.lang.Runnable" ],
+  "extends_" : [ "java.util.Observable" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

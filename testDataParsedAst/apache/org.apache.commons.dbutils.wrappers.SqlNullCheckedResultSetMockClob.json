@@ -1,0 +1,352 @@
+{
+  "name" : "SqlNullCheckedResultSetMockClob",
+  "key" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob",
+  "type" : "class",
+  "position" : {
+    "startLine" : 903,
+    "startColumn" : 1,
+    "endLine" : 903,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "setCharacterStream" : {
+      "name" : "setCharacterStream",
+      "key" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/setCharacterStream",
+      "type" : "java.io.Writer",
+      "position" : {
+        "startLine" : 937,
+        "startColumn" : 19,
+        "endLine" : 937,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pos",
+        "key" : "pos",
+        "type" : "long",
+        "position" : {
+          "startLine" : 937,
+          "startColumn" : 43,
+          "endLine" : 937,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/setCharacterStream"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob"
+    },
+    "setString" : {
+      "name" : "setString",
+      "key" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/setString",
+      "type" : "int",
+      "position" : {
+        "startLine" : 945,
+        "startColumn" : 16,
+        "endLine" : 945,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pos",
+        "key" : "pos",
+        "type" : "long",
+        "position" : {
+          "startLine" : 945,
+          "startColumn" : 31,
+          "endLine" : 945,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/setString"
+      }, {
+        "name" : "str",
+        "key" : "str",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 945,
+          "startColumn" : 43,
+          "endLine" : 945,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/setString"
+      }, {
+        "name" : "offset",
+        "key" : "offset",
+        "type" : "int",
+        "position" : {
+          "startLine" : 945,
+          "startColumn" : 52,
+          "endLine" : 945,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/setString"
+      }, {
+        "name" : "len",
+        "key" : "len",
+        "type" : "int",
+        "position" : {
+          "startLine" : 945,
+          "startColumn" : 64,
+          "endLine" : 945,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/setString"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob"
+    },
+    "setAsciiStream" : {
+      "name" : "setAsciiStream",
+      "key" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/setAsciiStream",
+      "type" : "java.io.OutputStream",
+      "position" : {
+        "startLine" : 933,
+        "startColumn" : 25,
+        "endLine" : 933,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pos",
+        "key" : "pos",
+        "type" : "long",
+        "position" : {
+          "startLine" : 933,
+          "startColumn" : 45,
+          "endLine" : 933,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/setAsciiStream"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob"
+    },
+    "truncate" : {
+      "name" : "truncate",
+      "key" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/truncate",
+      "type" : "void",
+      "position" : {
+        "startLine" : 929,
+        "startColumn" : 17,
+        "endLine" : 929,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "len",
+        "key" : "len",
+        "type" : "long",
+        "position" : {
+          "startLine" : 929,
+          "startColumn" : 31,
+          "endLine" : 929,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/truncate"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob"
+    },
+    "length" : {
+      "name" : "length",
+      "key" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/length",
+      "type" : "long",
+      "position" : {
+        "startLine" : 917,
+        "startColumn" : 17,
+        "endLine" : 917,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob"
+    },
+    "getSubString" : {
+      "name" : "getSubString",
+      "key" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/getSubString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 913,
+        "startColumn" : 19,
+        "endLine" : 913,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "param",
+        "key" : "param",
+        "type" : "long",
+        "position" : {
+          "startLine" : 913,
+          "startColumn" : 37,
+          "endLine" : 913,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/getSubString"
+      }, {
+        "name" : "param1",
+        "key" : "param1",
+        "type" : "int",
+        "position" : {
+          "startLine" : 913,
+          "startColumn" : 48,
+          "endLine" : 913,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/getSubString"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob"
+    },
+    "position" : {
+      "name" : "position",
+      "key" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/position",
+      "type" : "long",
+      "position" : {
+        "startLine" : 925,
+        "startColumn" : 17,
+        "endLine" : 925,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "str",
+        "key" : "str",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 925,
+          "startColumn" : 33,
+          "endLine" : 925,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/position"
+      }, {
+        "name" : "param",
+        "key" : "param",
+        "type" : "long",
+        "position" : {
+          "startLine" : 925,
+          "startColumn" : 43,
+          "endLine" : 925,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/position"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob"
+    },
+    "getCharacterStream" : {
+      "name" : "getCharacterStream",
+      "key" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/getCharacterStream",
+      "type" : "java.io.Reader",
+      "position" : {
+        "startLine" : 954,
+        "startColumn" : 19,
+        "endLine" : 954,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pos",
+        "key" : "pos",
+        "type" : "long",
+        "position" : {
+          "startLine" : 954,
+          "startColumn" : 43,
+          "endLine" : 954,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/getCharacterStream"
+      }, {
+        "name" : "length",
+        "key" : "length",
+        "type" : "long",
+        "position" : {
+          "startLine" : 954,
+          "startColumn" : 53,
+          "endLine" : 954,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/getCharacterStream"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob"
+    },
+    "free" : {
+      "name" : "free",
+      "key" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/free",
+      "type" : "void",
+      "position" : {
+        "startLine" : 950,
+        "startColumn" : 17,
+        "endLine" : 950,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob"
+    },
+    "getAsciiStream" : {
+      "name" : "getAsciiStream",
+      "key" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob/method/getAsciiStream",
+      "type" : "java.io.InputStream",
+      "position" : {
+        "startLine" : 905,
+        "startColumn" : 24,
+        "endLine" : 905,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.wrappers.SqlNullCheckedResultSetMockClob"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.sql.Clob" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

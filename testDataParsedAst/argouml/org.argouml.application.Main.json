@@ -1,0 +1,715 @@
+{
+  "name" : "Main",
+  "key" : "org.argouml.application.Main",
+  "type" : "class",
+  "position" : {
+    "startLine" : 106,
+    "startColumn" : 8,
+    "endLine" : 106,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "theTheme" : {
+      "name" : "theTheme",
+      "key" : "theTheme",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 135,
+        "startColumn" : 27,
+        "endLine" : 135,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.Main/memberField/theTheme",
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "DEFAULT_LOGGING_CONFIGURATION" : {
+      "name" : "DEFAULT_LOGGING_CONFIGURATION",
+      "key" : "DEFAULT_LOGGING_CONFIGURATION",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 32,
+        "endLine" : 114,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.Main/memberField/DEFAULT_LOGGING_CONFIGURATION",
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 33,
+        "endLine" : 109,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.Main/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "DEFAULT_MODEL_IMPLEMENTATION" : {
+      "name" : "DEFAULT_MODEL_IMPLEMENTATION",
+      "key" : "DEFAULT_MODEL_IMPLEMENTATION",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 33,
+        "endLine" : 120,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.Main/memberField/DEFAULT_MODEL_IMPLEMENTATION",
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "batch" : {
+      "name" : "batch",
+      "key" : "batch",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 129,
+        "startColumn" : 28,
+        "endLine" : 129,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.Main/memberField/batch",
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "postLoadActions" : {
+      "name" : "postLoadActions",
+      "key" : "postLoadActions",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 35,
+        "endLine" : 123,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.Main/memberField/postLoadActions",
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "doSplash" : {
+      "name" : "doSplash",
+      "key" : "doSplash",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 28,
+        "endLine" : 125,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.Main/memberField/doSplash",
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "projectName" : {
+      "name" : "projectName",
+      "key" : "projectName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 27,
+        "endLine" : 133,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.Main/memberField/projectName",
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "reloadRecent" : {
+      "name" : "reloadRecent",
+      "key" : "reloadRecent",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 127,
+        "startColumn" : 28,
+        "endLine" : 127,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.Main/memberField/reloadRecent",
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "commands" : {
+      "name" : "commands",
+      "key" : "commands",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 131,
+        "startColumn" : 33,
+        "endLine" : 131,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.Main/memberField/commands",
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    }
+  },
+  "methods" : {
+    "projectUrl" : {
+      "name" : "projectUrl",
+      "key" : "org.argouml.application.Main/method/projectUrl",
+      "type" : "java.net.URL",
+      "position" : {
+        "startLine" : 545,
+        "startColumn" : 24,
+        "endLine" : 545,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theProjectName",
+        "key" : "theProjectName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 545,
+          "startColumn" : 48,
+          "endLine" : 545,
+          "endColumn" : 62
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/projectUrl"
+      }, {
+        "name" : "urlToOpen",
+        "key" : "urlToOpen",
+        "type" : "java.net.URL",
+        "position" : {
+          "startLine" : 545,
+          "startColumn" : 68,
+          "endLine" : 545,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/projectUrl"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "setSystemProperties" : {
+      "name" : "setSystemProperties",
+      "key" : "org.argouml.application.Main/method/setSystemProperties",
+      "type" : "void",
+      "position" : {
+        "startLine" : 296,
+        "startColumn" : 25,
+        "endLine" : 296,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "updateProgress" : {
+      "name" : "updateProgress",
+      "key" : "org.argouml.application.Main/method/updateProgress",
+      "type" : "void",
+      "position" : {
+        "startLine" : 528,
+        "startColumn" : 25,
+        "endLine" : 528,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "splash",
+        "key" : "splash",
+        "type" : "org.argouml.ui.SplashScreen",
+        "position" : {
+          "startLine" : 528,
+          "startColumn" : 53,
+          "endLine" : 528,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/updateProgress"
+      }, {
+        "name" : "percent",
+        "key" : "percent",
+        "type" : "int",
+        "position" : {
+          "startLine" : 528,
+          "startColumn" : 65,
+          "endLine" : 528,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/updateProgress"
+      }, {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 529,
+          "startColumn" : 20,
+          "endLine" : 529,
+          "endColumn" : 27
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/updateProgress"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "initPreinitialize" : {
+      "name" : "initPreinitialize",
+      "key" : "org.argouml.application.Main/method/initPreinitialize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 256,
+        "startColumn" : 25,
+        "endLine" : 256,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.argouml.application.Main/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 24,
+        "endLine" : 141,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 141,
+          "startColumn" : 38,
+          "endLine" : 141,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "initVersion" : {
+      "name" : "initVersion",
+      "key" : "org.argouml.application.Main/method/initVersion",
+      "type" : "void",
+      "position" : {
+        "startLine" : 894,
+        "startColumn" : 24,
+        "endLine" : 894,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "getMostRecentProject" : {
+      "name" : "getMostRecentProject",
+      "key" : "org.argouml.application.Main/method/getMostRecentProject",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 502,
+        "startColumn" : 27,
+        "endLine" : 502,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "printUsage" : {
+      "name" : "printUsage",
+      "key" : "org.argouml.application.Main/method/printUsage",
+      "type" : "void",
+      "position" : {
+        "startLine" : 565,
+        "startColumn" : 25,
+        "endLine" : 565,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "checkJVMVersion" : {
+      "name" : "checkJVMVersion",
+      "key" : "org.argouml.application.Main/method/checkJVMVersion",
+      "type" : "void",
+      "position" : {
+        "startLine" : 596,
+        "startColumn" : 25,
+        "endLine" : 596,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "checkHostsFile" : {
+      "name" : "checkHostsFile",
+      "key" : "org.argouml.application.Main/method/checkHostsFile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 612,
+        "startColumn" : 25,
+        "endLine" : 612,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "initializeSplash" : {
+      "name" : "initializeSplash",
+      "key" : "org.argouml.application.Main/method/initializeSplash",
+      "type" : "org.argouml.ui.SplashScreen",
+      "position" : {
+        "startLine" : 815,
+        "startColumn" : 33,
+        "endLine" : 815,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "addPostLoadAction" : {
+      "name" : "addPostLoadAction",
+      "key" : "org.argouml.application.Main/method/addPostLoadAction",
+      "type" : "void",
+      "position" : {
+        "startLine" : 632,
+        "startColumn" : 24,
+        "endLine" : 632,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "r",
+        "key" : "r",
+        "type" : "java.lang.Runnable",
+        "position" : {
+          "startLine" : 632,
+          "startColumn" : 51,
+          "endLine" : 632,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/addPostLoadAction"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "initializeGUI" : {
+      "name" : "initializeGUI",
+      "key" : "org.argouml.application.Main/method/initializeGUI",
+      "type" : "org.argouml.ui.ProjectBrowser",
+      "position" : {
+        "startLine" : 839,
+        "startColumn" : 35,
+        "endLine" : 839,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "splash",
+        "key" : "splash",
+        "type" : "org.argouml.ui.SplashScreen",
+        "position" : {
+          "startLine" : 839,
+          "startColumn" : 62,
+          "endLine" : 839,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/initializeGUI"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "performCommands" : {
+      "name" : "performCommands",
+      "key" : "org.argouml.application.Main/method/performCommands",
+      "type" : "void",
+      "position" : {
+        "startLine" : 644,
+        "startColumn" : 24,
+        "endLine" : 644,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "list",
+        "key" : "list",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 644,
+          "startColumn" : 53,
+          "endLine" : 644,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/performCommands"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "performCommandsInternal" : {
+      "name" : "performCommandsInternal",
+      "key" : "org.argouml.application.Main/method/performCommandsInternal",
+      "type" : "void",
+      "position" : {
+        "startLine" : 659,
+        "startColumn" : 25,
+        "endLine" : 659,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "list",
+        "key" : "list",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 659,
+          "startColumn" : 62,
+          "endLine" : 659,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/performCommandsInternal"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "initTranslator" : {
+      "name" : "initTranslator",
+      "key" : "org.argouml.application.Main/method/initTranslator",
+      "type" : "void",
+      "position" : {
+        "startLine" : 276,
+        "startColumn" : 25,
+        "endLine" : 276,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "parseCommandLine" : {
+      "name" : "parseCommandLine",
+      "key" : "org.argouml.application.Main/method/parseCommandLine",
+      "type" : "void",
+      "position" : {
+        "startLine" : 316,
+        "startColumn" : 25,
+        "endLine" : 316,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 316,
+          "startColumn" : 51,
+          "endLine" : 316,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/parseCommandLine"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "openProject" : {
+      "name" : "openProject",
+      "key" : "org.argouml.application.Main/method/openProject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 453,
+        "startColumn" : 25,
+        "endLine" : 453,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "st",
+        "key" : "st",
+        "type" : "org.argouml.util.logging.SimpleTimer",
+        "position" : {
+          "startLine" : 453,
+          "startColumn" : 49,
+          "endLine" : 453,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/openProject"
+      }, {
+        "name" : "splash",
+        "key" : "splash",
+        "type" : "org.argouml.ui.SplashScreen",
+        "position" : {
+          "startLine" : 453,
+          "startColumn" : 66,
+          "endLine" : 453,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/openProject"
+      }, {
+        "name" : "pb",
+        "key" : "pb",
+        "type" : "org.argouml.ui.ProjectBrowser",
+        "position" : {
+          "startLine" : 454,
+          "startColumn" : 28,
+          "endLine" : 454,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/openProject"
+      }, {
+        "name" : "urlToOpen",
+        "key" : "urlToOpen",
+        "type" : "java.net.URL",
+        "position" : {
+          "startLine" : 454,
+          "startColumn" : 36,
+          "endLine" : 454,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/openProject"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "initModel" : {
+      "name" : "initModel",
+      "key" : "org.argouml.application.Main/method/initModel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 439,
+        "startColumn" : 25,
+        "endLine" : 439,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    },
+    "initializeSubsystems" : {
+      "name" : "initializeSubsystems",
+      "key" : "org.argouml.application.Main/method/initializeSubsystems",
+      "type" : "org.argouml.ui.ProjectBrowser",
+      "position" : {
+        "startLine" : 384,
+        "startColumn" : 35,
+        "endLine" : 384,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "st",
+        "key" : "st",
+        "type" : "org.argouml.util.logging.SimpleTimer",
+        "position" : {
+          "startLine" : 384,
+          "startColumn" : 68,
+          "endLine" : 384,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/initializeSubsystems"
+      }, {
+        "name" : "splash",
+        "key" : "splash",
+        "type" : "org.argouml.ui.SplashScreen",
+        "position" : {
+          "startLine" : 385,
+          "startColumn" : 26,
+          "endLine" : 385,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.Main/method/initializeSubsystems"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.Main"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

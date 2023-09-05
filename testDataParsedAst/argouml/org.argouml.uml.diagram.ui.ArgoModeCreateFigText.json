@@ -1,0 +1,94 @@
+{
+  "name" : "ArgoModeCreateFigText",
+  "key" : "org.argouml.uml.diagram.ui.ArgoModeCreateFigText",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "instructions" : {
+      "name" : "instructions",
+      "key" : "org.argouml.uml.diagram.ui.ArgoModeCreateFigText/method/instructions",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 19,
+        "endLine" : 43,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoModeCreateFigText"
+    },
+    "createNewItem" : {
+      "name" : "createNewItem",
+      "key" : "org.argouml.uml.diagram.ui.ArgoModeCreateFigText/method/createNewItem",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 16,
+        "endLine" : 51,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 41,
+          "endLine" : 51,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoModeCreateFigText/method/createNewItem"
+      }, {
+        "name" : "snapX",
+        "key" : "snapX",
+        "type" : "int",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 48,
+          "endLine" : 51,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoModeCreateFigText/method/createNewItem"
+      }, {
+        "name" : "snapY",
+        "key" : "snapY",
+        "type" : "int",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 59,
+          "endLine" : 51,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoModeCreateFigText/method/createNewItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoModeCreateFigText"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.base.ModeCreateFigText" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

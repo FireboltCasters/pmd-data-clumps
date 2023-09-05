@@ -1,0 +1,129 @@
+{
+  "name" : "ActionAddMessage",
+  "key" : "org.argouml.uml.diagram.ui.ActionAddMessage",
+  "type" : "class",
+  "position" : {
+    "startLine" : 49,
+    "startColumn" : 8,
+    "endLine" : 49,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "targetFollower" : {
+      "name" : "targetFollower",
+      "key" : "targetFollower",
+      "type" : "org.argouml.uml.diagram.ui.ActionAddMessage",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 37,
+        "endLine" : 51,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionAddMessage/memberField/targetFollower",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddMessage"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.diagram.ui.ActionAddMessage/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 17,
+        "endLine" : 90,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 90,
+          "startColumn" : 45,
+          "endLine" : 90,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionAddMessage/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddMessage"
+    },
+    "shouldBeEnabled" : {
+      "name" : "shouldBeEnabled",
+      "key" : "org.argouml.uml.diagram.ui.ActionAddMessage/method/shouldBeEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 137,
+        "startColumn" : 20,
+        "endLine" : 137,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddMessage"
+    },
+    "getTargetFollower" : {
+      "name" : "getTargetFollower",
+      "key" : "org.argouml.uml.diagram.ui.ActionAddMessage/method/getTargetFollower",
+      "type" : "org.argouml.uml.diagram.ui.ActionAddMessage",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 36,
+        "endLine" : 64,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddMessage"
+    },
+    "addMessage" : {
+      "name" : "addMessage",
+      "key" : "org.argouml.uml.diagram.ui.ActionAddMessage/method/addMessage",
+      "type" : "void",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 18,
+        "endLine" : 111,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "associationrole",
+        "key" : "associationrole",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 111,
+          "startColumn" : 36,
+          "endLine" : 111,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionAddMessage/method/addMessage"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddMessage"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

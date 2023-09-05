@@ -1,0 +1,237 @@
+{
+  "name" : "TempFileUtils",
+  "key" : "org.argouml.uml.generator.TempFileUtils",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 33,
+        "endLine" : 42,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.generator.TempFileUtils/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.generator.TempFileUtils"
+    }
+  },
+  "methods" : {
+    "traverseDir" : {
+      "name" : "traverseDir",
+      "key" : "org.argouml.uml.generator.TempFileUtils/method/traverseDir",
+      "type" : "void",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 25,
+        "endLine" : 77,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dir",
+        "key" : "dir",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 42,
+          "endLine" : 77,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.TempFileUtils/method/traverseDir"
+      }, {
+        "name" : "action",
+        "key" : "action",
+        "type" : "org.argouml.uml.generator.TempFileUtils.FileAction",
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 58,
+          "endLine" : 77,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.TempFileUtils/method/traverseDir"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.generator.TempFileUtils"
+    },
+    "readAllFiles" : {
+      "name" : "readAllFiles",
+      "key" : "org.argouml.uml.generator.TempFileUtils/method/readAllFiles",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 42,
+        "endLine" : 97,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dir",
+        "key" : "dir",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 97,
+          "startColumn" : 60,
+          "endLine" : 97,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.TempFileUtils/method/readAllFiles"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.generator.TempFileUtils"
+    },
+    "createTempDir" : {
+      "name" : "createTempDir",
+      "key" : "org.argouml.uml.generator.TempFileUtils/method/createTempDir",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 24,
+        "endLine" : 49,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.generator.TempFileUtils"
+    },
+    "readFileNames" : {
+      "name" : "readFileNames",
+      "key" : "org.argouml.uml.generator.TempFileUtils/method/readFileNames",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 159,
+        "startColumn" : 38,
+        "endLine" : 159,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dir",
+        "key" : "dir",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 159,
+          "startColumn" : 57,
+          "endLine" : 159,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.TempFileUtils/method/readFileNames"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.generator.TempFileUtils"
+    },
+    "deleteDir" : {
+      "name" : "deleteDir",
+      "key" : "org.argouml.uml.generator.TempFileUtils/method/deleteDir",
+      "type" : "void",
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 24,
+        "endLine" : 142,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dir",
+        "key" : "dir",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 142,
+          "startColumn" : 39,
+          "endLine" : 142,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.TempFileUtils/method/deleteDir"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.generator.TempFileUtils"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : {
+    "org.argouml.uml.generator.TempFileUtils.FileAction" : {
+      "name" : "FileAction",
+      "key" : "org.argouml.uml.generator.TempFileUtils.FileAction",
+      "type" : "interface",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 13,
+        "endLine" : 64,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE", "ABSTRACT", "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "act" : {
+          "name" : "act",
+          "key" : "org.argouml.uml.generator.TempFileUtils.FileAction/method/act",
+          "type" : "void",
+          "position" : {
+            "startLine" : 71,
+            "startColumn" : 14,
+            "endLine" : 71,
+            "endColumn" : 17
+          },
+          "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "file",
+            "key" : "file",
+            "type" : "java.io.File",
+            "position" : {
+              "startLine" : 71,
+              "startColumn" : 23,
+              "endLine" : 71,
+              "endColumn" : 27
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.generator.TempFileUtils.FileAction/method/act"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.generator.TempFileUtils.FileAction"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.generator.TempFileUtils",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  }
+},

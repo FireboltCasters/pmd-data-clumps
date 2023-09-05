@@ -1,0 +1,131 @@
+{
+  "name" : "ActionAddEventAsDeferrableEvent",
+  "key" : "org.argouml.uml.ui.behavior.state_machines.ActionAddEventAsDeferrableEvent",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 31,
+        "endLine" : 114,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddEventAsDeferrableEvent/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddEventAsDeferrableEvent"
+    },
+    "SINGLETON" : {
+      "name" : "SINGLETON",
+      "key" : "SINGLETON",
+      "type" : "org.argouml.uml.ui.behavior.state_machines.ActionAddEventAsDeferrableEvent",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 57,
+        "endLine" : 48,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddEventAsDeferrableEvent/memberField/SINGLETON",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddEventAsDeferrableEvent"
+    }
+  },
+  "methods" : {
+    "getSelected" : {
+      "name" : "getSelected",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.ActionAddEventAsDeferrableEvent/method/getSelected",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 20,
+        "endLine" : 77,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddEventAsDeferrableEvent"
+    },
+    "getChoices" : {
+      "name" : "getChoices",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.ActionAddEventAsDeferrableEvent/method/getChoices",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 20,
+        "endLine" : 60,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddEventAsDeferrableEvent"
+    },
+    "doIt" : {
+      "name" : "doIt",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.ActionAddEventAsDeferrableEvent/method/doIt",
+      "type" : "void",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 20,
+        "endLine" : 93,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "selected",
+        "key" : "selected",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 93,
+          "startColumn" : 36,
+          "endLine" : 93,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddEventAsDeferrableEvent/method/doIt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddEventAsDeferrableEvent"
+    },
+    "getDialogTitle" : {
+      "name" : "getDialogTitle",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.ActionAddEventAsDeferrableEvent/method/getDialogTitle",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 22,
+        "endLine" : 87,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddEventAsDeferrableEvent"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionAddModelElement2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

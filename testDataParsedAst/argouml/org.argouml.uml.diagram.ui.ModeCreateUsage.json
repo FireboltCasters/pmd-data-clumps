@@ -1,0 +1,39 @@
+{
+  "name" : "ModeCreateUsage",
+  "key" : "org.argouml.uml.diagram.ui.ModeCreateUsage",
+  "type" : "class",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 14,
+    "endLine" : 34,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "getMetaType" : {
+      "name" : "getMetaType",
+      "key" : "org.argouml.uml.diagram.ui.ModeCreateUsage/method/getMetaType",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 28,
+        "endLine" : 36,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ModeCreateUsage"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ModeCreateDependency" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

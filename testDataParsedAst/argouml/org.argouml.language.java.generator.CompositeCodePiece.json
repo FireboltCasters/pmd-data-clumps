@@ -1,0 +1,148 @@
+{
+  "name" : "CompositeCodePiece",
+  "key" : "org.argouml.language.java.generator.CompositeCodePiece",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 1,
+    "endLine" : 40,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "codePieces" : {
+      "name" : "codePieces",
+      "key" : "codePieces",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 29,
+        "endLine" : 42,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.language.java.generator.CompositeCodePiece/memberField/codePieces",
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.CompositeCodePiece"
+    }
+  },
+  "methods" : {
+    "add" : {
+      "name" : "add",
+      "key" : "org.argouml.language.java.generator.CompositeCodePiece/method/add",
+      "type" : "void",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 17,
+        "endLine" : 62,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "codePiece",
+        "key" : "codePiece",
+        "type" : "CodePiece",
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 31,
+          "endLine" : 62,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.CompositeCodePiece/method/add"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.CompositeCodePiece"
+    },
+    "getStartPosition" : {
+      "name" : "getStartPosition",
+      "key" : "org.argouml.language.java.generator.CompositeCodePiece/method/getStartPosition",
+      "type" : "int",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 16,
+        "endLine" : 99,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.CompositeCodePiece"
+    },
+    "getEndLine" : {
+      "name" : "getEndLine",
+      "key" : "org.argouml.language.java.generator.CompositeCodePiece/method/getEndLine",
+      "type" : "int",
+      "position" : {
+        "startLine" : 129,
+        "startColumn" : 16,
+        "endLine" : 129,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.CompositeCodePiece"
+    },
+    "getText" : {
+      "name" : "getText",
+      "key" : "org.argouml.language.java.generator.CompositeCodePiece/method/getText",
+      "type" : "java.lang.StringBuffer",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 25,
+        "endLine" : 71,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.CompositeCodePiece"
+    },
+    "getEndPosition" : {
+      "name" : "getEndPosition",
+      "key" : "org.argouml.language.java.generator.CompositeCodePiece/method/getEndPosition",
+      "type" : "int",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 16,
+        "endLine" : 109,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.CompositeCodePiece"
+    },
+    "getStartLine" : {
+      "name" : "getStartLine",
+      "key" : "org.argouml.language.java.generator.CompositeCodePiece/method/getStartLine",
+      "type" : "int",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 16,
+        "endLine" : 119,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.CompositeCodePiece"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "CodePiece" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,161 @@
+{
+  "name" : "UMLTreeCellRenderer",
+  "key" : "org.argouml.uml.ui.UMLTreeCellRenderer",
+  "type" : "class",
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 8,
+    "endLine" : 50,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "name" : {
+      "name" : "name",
+      "key" : "name",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 27,
+        "endLine" : 53,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLTreeCellRenderer/memberField/name",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLTreeCellRenderer"
+    },
+    "typeName" : {
+      "name" : "typeName",
+      "key" : "typeName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 27,
+        "endLine" : 54,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLTreeCellRenderer/memberField/typeName",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLTreeCellRenderer"
+    }
+  },
+  "methods" : {
+    "getTreeCellRendererComponent" : {
+      "name" : "getTreeCellRendererComponent",
+      "key" : "org.argouml.uml.ui.UMLTreeCellRenderer/method/getTreeCellRendererComponent",
+      "type" : "java.awt.Component",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 22,
+        "endLine" : 64,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tree",
+        "key" : "tree",
+        "type" : "javax.swing.JTree",
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 15,
+          "endLine" : 65,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLTreeCellRenderer/method/getTreeCellRendererComponent"
+      }, {
+        "name" : "value",
+        "key" : "value",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 66,
+          "startColumn" : 16,
+          "endLine" : 66,
+          "endColumn" : 21
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLTreeCellRenderer/method/getTreeCellRendererComponent"
+      }, {
+        "name" : "sel",
+        "key" : "sel",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 17,
+          "endLine" : 67,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLTreeCellRenderer/method/getTreeCellRendererComponent"
+      }, {
+        "name" : "expanded",
+        "key" : "expanded",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 17,
+          "endLine" : 68,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLTreeCellRenderer/method/getTreeCellRendererComponent"
+      }, {
+        "name" : "leaf",
+        "key" : "leaf",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 17,
+          "endLine" : 69,
+          "endColumn" : 21
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLTreeCellRenderer/method/getTreeCellRendererComponent"
+      }, {
+        "name" : "row",
+        "key" : "row",
+        "type" : "int",
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 13,
+          "endLine" : 70,
+          "endColumn" : 16
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLTreeCellRenderer/method/getTreeCellRendererComponent"
+      }, {
+        "name" : "hasFocusParam",
+        "key" : "hasFocusParam",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 17,
+          "endLine" : 71,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLTreeCellRenderer/method/getTreeCellRendererComponent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLTreeCellRenderer"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.tree.DefaultTreeCellRenderer" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

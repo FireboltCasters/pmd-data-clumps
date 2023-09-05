@@ -1,0 +1,1324 @@
+{
+  "name" : "NNTPReply",
+  "key" : "org.apache.commons.net.nntp.NNTPReply",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 14,
+    "endLine" : 30,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "COMMAND_SYNTAX_ERROR" : {
+      "name" : "COMMAND_SYNTAX_ERROR",
+      "key" : "COMMAND_SYNTAX_ERROR",
+      "type" : "int",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 29,
+        "endLine" : 109,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/COMMAND_SYNTAX_ERROR",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "SERVER_READY_POSTING_NOT_ALLOWED" : {
+      "name" : "SERVER_READY_POSTING_NOT_ALLOWED",
+      "key" : "SERVER_READY_POSTING_NOT_ALLOWED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 29,
+        "endLine" : 76,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/SERVER_READY_POSTING_NOT_ALLOWED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "DEBUG_OUTPUT" : {
+      "name" : "DEBUG_OUTPUT",
+      "key" : "DEBUG_OUTPUT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 29,
+        "endLine" : 74,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/DEBUG_OUTPUT",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "NO_SUCH_NEWSGROUP" : {
+      "name" : "NO_SUCH_NEWSGROUP",
+      "key" : "NO_SUCH_NEWSGROUP",
+      "type" : "int",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 29,
+        "endLine" : 94,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/NO_SUCH_NEWSGROUP",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_408" : {
+      "name" : "CODE_408",
+      "key" : "CODE_408",
+      "type" : "int",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 29,
+        "endLine" : 54,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_408",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_205" : {
+      "name" : "CODE_205",
+      "key" : "CODE_205",
+      "type" : "int",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 29,
+        "endLine" : 38,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_205",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "ARTICLE_RETRIEVED_REQUEST_TEXT_SEPARATELY" : {
+      "name" : "ARTICLE_RETRIEVED_REQUEST_TEXT_SEPARATELY",
+      "key" : "ARTICLE_RETRIEVED_REQUEST_TEXT_SEPARATELY",
+      "type" : "int",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 7,
+        "endLine" : 84,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/ARTICLE_RETRIEVED_REQUEST_TEXT_SEPARATELY",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_200" : {
+      "name" : "CODE_200",
+      "key" : "CODE_200",
+      "type" : "int",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 29,
+        "endLine" : 35,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_200",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_201" : {
+      "name" : "CODE_201",
+      "key" : "CODE_201",
+      "type" : "int",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 29,
+        "endLine" : 36,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_201",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_202" : {
+      "name" : "CODE_202",
+      "key" : "CODE_202",
+      "type" : "int",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 29,
+        "endLine" : 37,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_202",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_400" : {
+      "name" : "CODE_400",
+      "key" : "CODE_400",
+      "type" : "int",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 29,
+        "endLine" : 53,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_400",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "HELP_TEXT_FOLLOWS" : {
+      "name" : "HELP_TEXT_FOLLOWS",
+      "key" : "HELP_TEXT_FOLLOWS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 29,
+        "endLine" : 73,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/HELP_TEXT_FOLLOWS",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "SLAVE_STATUS_NOTED" : {
+      "name" : "SLAVE_STATUS_NOTED",
+      "key" : "SLAVE_STATUS_NOTED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 29,
+        "endLine" : 77,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/SLAVE_STATUS_NOTED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "ARTICLE_LIST_BY_MESSAGE_ID_FOLLOWS" : {
+      "name" : "ARTICLE_LIST_BY_MESSAGE_ID_FOLLOWS",
+      "key" : "ARTICLE_LIST_BY_MESSAGE_ID_FOLLOWS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 29,
+        "endLine" : 85,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/ARTICLE_LIST_BY_MESSAGE_ID_FOLLOWS",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "PERMISSION_DENIED" : {
+      "name" : "PERMISSION_DENIED",
+      "key" : "PERMISSION_DENIED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 29,
+        "endLine" : 110,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/PERMISSION_DENIED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_240" : {
+      "name" : "CODE_240",
+      "key" : "CODE_240",
+      "type" : "int",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 29,
+        "endLine" : 48,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_240",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_482" : {
+      "name" : "CODE_482",
+      "key" : "CODE_482",
+      "type" : "int",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 29,
+        "endLine" : 67,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_482",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_440" : {
+      "name" : "CODE_440",
+      "key" : "CODE_440",
+      "type" : "int",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 29,
+        "endLine" : 65,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_440",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_441" : {
+      "name" : "CODE_441",
+      "key" : "CODE_441",
+      "type" : "int",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 29,
+        "endLine" : 66,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_441",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "SERVER_READY_POSTING_ALLOWED" : {
+      "name" : "SERVER_READY_POSTING_ALLOWED",
+      "key" : "SERVER_READY_POSTING_ALLOWED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 29,
+        "endLine" : 75,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/SERVER_READY_POSTING_ALLOWED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_281" : {
+      "name" : "CODE_281",
+      "key" : "CODE_281",
+      "type" : "int",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 29,
+        "endLine" : 49,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_281",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "SEND_ARTICLE_TO_POST" : {
+      "name" : "SEND_ARTICLE_TO_POST",
+      "key" : "SEND_ARTICLE_TO_POST",
+      "type" : "int",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 29,
+        "endLine" : 91,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/SEND_ARTICLE_TO_POST",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "ARTICLE_RETRIEVED_HEAD_AND_BODY_FOLLOW" : {
+      "name" : "ARTICLE_RETRIEVED_HEAD_AND_BODY_FOLLOW",
+      "key" : "ARTICLE_RETRIEVED_HEAD_AND_BODY_FOLLOW",
+      "type" : "int",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 29,
+        "endLine" : 80,
+        "endColumn" : 67
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/ARTICLE_RETRIEVED_HEAD_AND_BODY_FOLLOW",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "ARTICLE_REJECTED" : {
+      "name" : "ARTICLE_REJECTED",
+      "key" : "ARTICLE_REJECTED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 29,
+        "endLine" : 104,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/ARTICLE_REJECTED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "POSTING_NOT_ALLOWED" : {
+      "name" : "POSTING_NOT_ALLOWED",
+      "key" : "POSTING_NOT_ALLOWED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 29,
+        "endLine" : 105,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/POSTING_NOT_ALLOWED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "NO_NEWSGROUP_SELECTED" : {
+      "name" : "NO_NEWSGROUP_SELECTED",
+      "key" : "NO_NEWSGROUP_SELECTED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 29,
+        "endLine" : 96,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/NO_NEWSGROUP_SELECTED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "SEND_ARTICLE_TO_TRANSFER" : {
+      "name" : "SEND_ARTICLE_TO_TRANSFER",
+      "key" : "SEND_ARTICLE_TO_TRANSFER",
+      "type" : "int",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 29,
+        "endLine" : 90,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/SEND_ARTICLE_TO_TRANSFER",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_435" : {
+      "name" : "CODE_435",
+      "key" : "CODE_435",
+      "type" : "int",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 29,
+        "endLine" : 62,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_435",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_436" : {
+      "name" : "CODE_436",
+      "key" : "CODE_436",
+      "type" : "int",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 29,
+        "endLine" : 63,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_436",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_437" : {
+      "name" : "CODE_437",
+      "key" : "CODE_437",
+      "type" : "int",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 29,
+        "endLine" : 64,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_437",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "NO_SUCH_ARTICLE_NUMBER" : {
+      "name" : "NO_SUCH_ARTICLE_NUMBER",
+      "key" : "NO_SUCH_ARTICLE_NUMBER",
+      "type" : "int",
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 29,
+        "endLine" : 100,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/NO_SUCH_ARTICLE_NUMBER",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "GROUP_SELECTED" : {
+      "name" : "GROUP_SELECTED",
+      "key" : "GROUP_SELECTED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 29,
+        "endLine" : 79,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/GROUP_SELECTED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_235" : {
+      "name" : "CODE_235",
+      "key" : "CODE_235",
+      "type" : "int",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 29,
+        "endLine" : 47,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_235",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_230" : {
+      "name" : "CODE_230",
+      "key" : "CODE_230",
+      "type" : "int",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 29,
+        "endLine" : 45,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_230",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "NO_CURRENT_ARTICLE_SELECTED" : {
+      "name" : "NO_CURRENT_ARTICLE_SELECTED",
+      "key" : "NO_CURRENT_ARTICLE_SELECTED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 29,
+        "endLine" : 97,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/NO_CURRENT_ARTICLE_SELECTED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_231" : {
+      "name" : "CODE_231",
+      "key" : "CODE_231",
+      "type" : "int",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 29,
+        "endLine" : 46,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_231",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "NO_SUCH_ARTICLE_FOUND" : {
+      "name" : "NO_SUCH_ARTICLE_FOUND",
+      "key" : "NO_SUCH_ARTICLE_FOUND",
+      "type" : "int",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 29,
+        "endLine" : 101,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/NO_SUCH_ARTICLE_FOUND",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_199" : {
+      "name" : "CODE_199",
+      "key" : "CODE_199",
+      "type" : "int",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 29,
+        "endLine" : 34,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_199",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_430" : {
+      "name" : "CODE_430",
+      "key" : "CODE_430",
+      "type" : "int",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 29,
+        "endLine" : 61,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_430",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "POSTING_FAILED" : {
+      "name" : "POSTING_FAILED",
+      "key" : "POSTING_FAILED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 29,
+        "endLine" : 106,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/POSTING_FAILED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "TRANSFER_FAILED" : {
+      "name" : "TRANSFER_FAILED",
+      "key" : "TRANSFER_FAILED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 29,
+        "endLine" : 103,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/TRANSFER_FAILED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "MORE_AUTH_INFO_REQUIRED" : {
+      "name" : "MORE_AUTH_INFO_REQUIRED",
+      "key" : "MORE_AUTH_INFO_REQUIRED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 29,
+        "endLine" : 92,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/MORE_AUTH_INFO_REQUIRED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "ARTICLE_RETRIEVED_BODY_FOLLOWS" : {
+      "name" : "ARTICLE_RETRIEVED_BODY_FOLLOWS",
+      "key" : "ARTICLE_RETRIEVED_BODY_FOLLOWS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 29,
+        "endLine" : 82,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/ARTICLE_RETRIEVED_BODY_FOLLOWS",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "ARTICLE_TRANSFERRED_OK" : {
+      "name" : "ARTICLE_TRANSFERRED_OK",
+      "key" : "ARTICLE_TRANSFERRED_OK",
+      "type" : "int",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 29,
+        "endLine" : 87,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/ARTICLE_TRANSFERRED_OK",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "ARTICLE_RETRIEVED_HEAD_FOLLOWS" : {
+      "name" : "ARTICLE_RETRIEVED_HEAD_FOLLOWS",
+      "key" : "ARTICLE_RETRIEVED_HEAD_FOLLOWS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 29,
+        "endLine" : 81,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/ARTICLE_RETRIEVED_HEAD_FOLLOWS",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "PROGRAM_FAULT" : {
+      "name" : "PROGRAM_FAULT",
+      "key" : "PROGRAM_FAULT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 29,
+        "endLine" : 111,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/PROGRAM_FAULT",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "AUTHENTICATION_ACCEPTED" : {
+      "name" : "AUTHENTICATION_ACCEPTED",
+      "key" : "AUTHENTICATION_ACCEPTED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 29,
+        "endLine" : 89,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/AUTHENTICATION_ACCEPTED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "ARTICLE_NOT_WANTED" : {
+      "name" : "ARTICLE_NOT_WANTED",
+      "key" : "ARTICLE_NOT_WANTED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 29,
+        "endLine" : 102,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/ARTICLE_NOT_WANTED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_501" : {
+      "name" : "CODE_501",
+      "key" : "CODE_501",
+      "type" : "int",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 29,
+        "endLine" : 69,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_501",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_502" : {
+      "name" : "CODE_502",
+      "key" : "CODE_502",
+      "type" : "int",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 29,
+        "endLine" : 70,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_502",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "NEW_NEWSGROUP_LIST_FOLLOWS" : {
+      "name" : "NEW_NEWSGROUP_LIST_FOLLOWS",
+      "key" : "NEW_NEWSGROUP_LIST_FOLLOWS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 29,
+        "endLine" : 86,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/NEW_NEWSGROUP_LIST_FOLLOWS",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_503" : {
+      "name" : "CODE_503",
+      "key" : "CODE_503",
+      "type" : "int",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 29,
+        "endLine" : 71,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_503",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_222" : {
+      "name" : "CODE_222",
+      "key" : "CODE_222",
+      "type" : "int",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 29,
+        "endLine" : 43,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_222",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_420" : {
+      "name" : "CODE_420",
+      "key" : "CODE_420",
+      "type" : "int",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 29,
+        "endLine" : 57,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_420",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_223" : {
+      "name" : "CODE_223",
+      "key" : "CODE_223",
+      "type" : "int",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 29,
+        "endLine" : 44,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_223",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_421" : {
+      "name" : "CODE_421",
+      "key" : "CODE_421",
+      "type" : "int",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 29,
+        "endLine" : 58,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_421",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "AUTHENTICATION_REQUIRED" : {
+      "name" : "AUTHENTICATION_REQUIRED",
+      "key" : "AUTHENTICATION_REQUIRED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 95,
+        "startColumn" : 29,
+        "endLine" : 95,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/AUTHENTICATION_REQUIRED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_422" : {
+      "name" : "CODE_422",
+      "key" : "CODE_422",
+      "type" : "int",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 29,
+        "endLine" : 59,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_422",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "NO_NEXT_ARTICLE" : {
+      "name" : "NO_NEXT_ARTICLE",
+      "key" : "NO_NEXT_ARTICLE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 29,
+        "endLine" : 98,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/NO_NEXT_ARTICLE",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_423" : {
+      "name" : "CODE_423",
+      "key" : "CODE_423",
+      "type" : "int",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 29,
+        "endLine" : 60,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_423",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_500" : {
+      "name" : "CODE_500",
+      "key" : "CODE_500",
+      "type" : "int",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 29,
+        "endLine" : 68,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_500",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "AUTHENTICATION_REJECTED" : {
+      "name" : "AUTHENTICATION_REJECTED",
+      "key" : "AUTHENTICATION_REJECTED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 29,
+        "endLine" : 107,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/AUTHENTICATION_REJECTED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_340" : {
+      "name" : "CODE_340",
+      "key" : "CODE_340",
+      "type" : "int",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 29,
+        "endLine" : 51,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_340",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_220" : {
+      "name" : "CODE_220",
+      "key" : "CODE_220",
+      "type" : "int",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 29,
+        "endLine" : 41,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_220",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_100" : {
+      "name" : "CODE_100",
+      "key" : "CODE_100",
+      "type" : "int",
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 29,
+        "endLine" : 33,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_100",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_221" : {
+      "name" : "CODE_221",
+      "key" : "CODE_221",
+      "type" : "int",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 29,
+        "endLine" : 42,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_221",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_381" : {
+      "name" : "CODE_381",
+      "key" : "CODE_381",
+      "type" : "int",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 29,
+        "endLine" : 52,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_381",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "SERVICE_DISCONTINUED" : {
+      "name" : "SERVICE_DISCONTINUED",
+      "key" : "SERVICE_DISCONTINUED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 29,
+        "endLine" : 93,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/SERVICE_DISCONTINUED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "NO_PREVIOUS_ARTICLE" : {
+      "name" : "NO_PREVIOUS_ARTICLE",
+      "key" : "NO_PREVIOUS_ARTICLE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 29,
+        "endLine" : 99,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/NO_PREVIOUS_ARTICLE",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CLOSING_CONNECTION" : {
+      "name" : "CLOSING_CONNECTION",
+      "key" : "CLOSING_CONNECTION",
+      "type" : "int",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 29,
+        "endLine" : 78,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CLOSING_CONNECTION",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_215" : {
+      "name" : "CODE_215",
+      "key" : "CODE_215",
+      "type" : "int",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 29,
+        "endLine" : 40,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_215",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_211" : {
+      "name" : "CODE_211",
+      "key" : "CODE_211",
+      "type" : "int",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 29,
+        "endLine" : 39,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_211",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "COMMAND_NOT_RECOGNIZED" : {
+      "name" : "COMMAND_NOT_RECOGNIZED",
+      "key" : "COMMAND_NOT_RECOGNIZED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 29,
+        "endLine" : 108,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/COMMAND_NOT_RECOGNIZED",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_411" : {
+      "name" : "CODE_411",
+      "key" : "CODE_411",
+      "type" : "int",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 29,
+        "endLine" : 55,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_411",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "ARTICLE_POSTED_OK" : {
+      "name" : "ARTICLE_POSTED_OK",
+      "key" : "ARTICLE_POSTED_OK",
+      "type" : "int",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 29,
+        "endLine" : 88,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/ARTICLE_POSTED_OK",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_335" : {
+      "name" : "CODE_335",
+      "key" : "CODE_335",
+      "type" : "int",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 29,
+        "endLine" : 50,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_335",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "CODE_412" : {
+      "name" : "CODE_412",
+      "key" : "CODE_412",
+      "type" : "int",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 29,
+        "endLine" : 56,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPReply/memberField/CODE_412",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    }
+  },
+  "methods" : {
+    "isInformational" : {
+      "name" : "isInformational",
+      "key" : "org.apache.commons.net.nntp.NNTPReply/method/isInformational",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 27,
+        "endLine" : 128,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reply",
+        "key" : "reply",
+        "type" : "int",
+        "position" : {
+          "startLine" : 128,
+          "startColumn" : 47,
+          "endLine" : 128,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.NNTPReply/method/isInformational"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "isNegativeTransient" : {
+      "name" : "isNegativeTransient",
+      "key" : "org.apache.commons.net.nntp.NNTPReply/method/isNegativeTransient",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 178,
+        "startColumn" : 27,
+        "endLine" : 178,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reply",
+        "key" : "reply",
+        "type" : "int",
+        "position" : {
+          "startLine" : 178,
+          "startColumn" : 51,
+          "endLine" : 178,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.NNTPReply/method/isNegativeTransient"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "isPositiveIntermediate" : {
+      "name" : "isPositiveIntermediate",
+      "key" : "org.apache.commons.net.nntp.NNTPReply/method/isPositiveIntermediate",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 161,
+        "startColumn" : 27,
+        "endLine" : 161,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reply",
+        "key" : "reply",
+        "type" : "int",
+        "position" : {
+          "startLine" : 161,
+          "startColumn" : 54,
+          "endLine" : 161,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.NNTPReply/method/isPositiveIntermediate"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "isPositiveCompletion" : {
+      "name" : "isPositiveCompletion",
+      "key" : "org.apache.commons.net.nntp.NNTPReply/method/isPositiveCompletion",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 27,
+        "endLine" : 143,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reply",
+        "key" : "reply",
+        "type" : "int",
+        "position" : {
+          "startLine" : 143,
+          "startColumn" : 52,
+          "endLine" : 143,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.NNTPReply/method/isPositiveCompletion"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    },
+    "isNegativePermanent" : {
+      "name" : "isNegativePermanent",
+      "key" : "org.apache.commons.net.nntp.NNTPReply/method/isNegativePermanent",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 27,
+        "endLine" : 194,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reply",
+        "key" : "reply",
+        "type" : "int",
+        "position" : {
+          "startLine" : 194,
+          "startColumn" : 51,
+          "endLine" : 194,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.NNTPReply/method/isNegativePermanent"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPReply"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

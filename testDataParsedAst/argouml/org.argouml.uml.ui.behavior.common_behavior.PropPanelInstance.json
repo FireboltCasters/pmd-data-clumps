@@ -1,0 +1,116 @@
+{
+  "name" : "PropPanelInstance",
+  "key" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelInstance",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 17,
+    "endLine" : 39,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "stimuliSenderListModel" : {
+      "name" : "stimuliSenderListModel",
+      "key" : "stimuliSenderListModel",
+      "type" : "UMLInstanceSenderStimulusListModel",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 55,
+        "endLine" : 45,
+        "endColumn" : 77
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelInstance/memberField/stimuliSenderListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelInstance"
+    },
+    "stimuliReceiverListModel" : {
+      "name" : "stimuliReceiverListModel",
+      "key" : "stimuliReceiverListModel",
+      "type" : "UMLInstanceReceiverStimulusListModel",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 5,
+        "endLine" : 49,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelInstance/memberField/stimuliReceiverListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelInstance"
+    },
+    "stimuliSenderScroll" : {
+      "name" : "stimuliSenderScroll",
+      "key" : "stimuliSenderScroll",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 20,
+        "endLine" : 41,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelInstance/memberField/stimuliSenderScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelInstance"
+    },
+    "stimuliReceiverScroll" : {
+      "name" : "stimuliReceiverScroll",
+      "key" : "stimuliReceiverScroll",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 20,
+        "endLine" : 43,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelInstance/memberField/stimuliReceiverScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelInstance"
+    }
+  },
+  "methods" : {
+    "getStimuliSenderScroll" : {
+      "name" : "getStimuliSenderScroll",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelInstance/method/getStimuliSenderScroll",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 22,
+        "endLine" : 82,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelInstance"
+    },
+    "getStimuliReceiverScroll" : {
+      "name" : "getStimuliReceiverScroll",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelInstance/method/getStimuliReceiverScroll",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 22,
+        "endLine" : 92,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelInstance"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

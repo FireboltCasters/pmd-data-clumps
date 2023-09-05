@@ -1,0 +1,281 @@
+{
+  "name" : "AbstractArgoJPanel",
+  "key" : "org.argouml.application.api.AbstractArgoJPanel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 66,
+    "startColumn" : 17,
+    "endLine" : 66,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "orientation" : {
+      "name" : "orientation",
+      "key" : "orientation",
+      "type" : "org.tigris.swidgets.Orientation",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 25,
+        "endLine" : 85,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.api.AbstractArgoJPanel/memberField/orientation",
+      "classOrInterfaceKey" : "org.argouml.application.api.AbstractArgoJPanel"
+    },
+    "OVERLAPP" : {
+      "name" : "OVERLAPP",
+      "key" : "OVERLAPP",
+      "type" : "int",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 30,
+        "endLine" : 74,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.api.AbstractArgoJPanel/memberField/OVERLAPP",
+      "classOrInterfaceKey" : "org.argouml.application.api.AbstractArgoJPanel"
+    },
+    "tear" : {
+      "name" : "tear",
+      "key" : "tear",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 21,
+        "endLine" : 83,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.api.AbstractArgoJPanel/memberField/tear",
+      "classOrInterfaceKey" : "org.argouml.application.api.AbstractArgoJPanel"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 33,
+        "endLine" : 71,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.api.AbstractArgoJPanel/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.application.api.AbstractArgoJPanel"
+    },
+    "icon" : {
+      "name" : "icon",
+      "key" : "icon",
+      "type" : "javax.swing.Icon",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 18,
+        "endLine" : 78,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.api.AbstractArgoJPanel/memberField/icon",
+      "classOrInterfaceKey" : "org.argouml.application.api.AbstractArgoJPanel"
+    },
+    "title" : {
+      "name" : "title",
+      "key" : "title",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 20,
+        "endLine" : 76,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.api.AbstractArgoJPanel/memberField/title",
+      "classOrInterfaceKey" : "org.argouml.application.api.AbstractArgoJPanel"
+    }
+  },
+  "methods" : {
+    "setOrientation" : {
+      "name" : "setOrientation",
+      "key" : "org.argouml.application.api.AbstractArgoJPanel/method/setOrientation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 146,
+        "startColumn" : 17,
+        "endLine" : 146,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "org.tigris.swidgets.Orientation",
+        "position" : {
+          "startLine" : 146,
+          "startColumn" : 44,
+          "endLine" : 146,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.api.AbstractArgoJPanel/method/setOrientation"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.api.AbstractArgoJPanel"
+    },
+    "setIcon" : {
+      "name" : "setIcon",
+      "key" : "org.argouml.application.api.AbstractArgoJPanel/method/setIcon",
+      "type" : "void",
+      "position" : {
+        "startLine" : 177,
+        "startColumn" : 17,
+        "endLine" : 177,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theIcon",
+        "key" : "theIcon",
+        "type" : "javax.swing.Icon",
+        "position" : {
+          "startLine" : 177,
+          "startColumn" : 30,
+          "endLine" : 177,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.api.AbstractArgoJPanel/method/setIcon"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.api.AbstractArgoJPanel"
+    },
+    "getOrientation" : {
+      "name" : "getOrientation",
+      "key" : "org.argouml.application.api.AbstractArgoJPanel/method/getOrientation",
+      "type" : "org.tigris.swidgets.Orientation",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 24,
+        "endLine" : 90,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.api.AbstractArgoJPanel"
+    },
+    "getTitle" : {
+      "name" : "getTitle",
+      "key" : "org.argouml.application.api.AbstractArgoJPanel/method/getTitle",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 156,
+        "startColumn" : 19,
+        "endLine" : 156,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.api.AbstractArgoJPanel"
+    },
+    "spawn" : {
+      "name" : "spawn",
+      "key" : "org.argouml.application.api.AbstractArgoJPanel/method/spawn",
+      "type" : "org.argouml.application.api.AbstractArgoJPanel",
+      "position" : {
+        "startLine" : 195,
+        "startColumn" : 31,
+        "endLine" : 195,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.api.AbstractArgoJPanel"
+    },
+    "clone" : {
+      "name" : "clone",
+      "key" : "org.argouml.application.api.AbstractArgoJPanel/method/clone",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 134,
+        "startColumn" : 19,
+        "endLine" : 134,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.api.AbstractArgoJPanel"
+    },
+    "setTitle" : {
+      "name" : "setTitle",
+      "key" : "org.argouml.application.api.AbstractArgoJPanel/method/setTitle",
+      "type" : "void",
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 17,
+        "endLine" : 163,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 33,
+          "endLine" : 163,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.api.AbstractArgoJPanel/method/setTitle"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.api.AbstractArgoJPanel"
+    },
+    "getIcon" : {
+      "name" : "getIcon",
+      "key" : "org.argouml.application.api.AbstractArgoJPanel/method/getIcon",
+      "type" : "javax.swing.Icon",
+      "position" : {
+        "startLine" : 170,
+        "startColumn" : 17,
+        "endLine" : 170,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.api.AbstractArgoJPanel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.lang.Cloneable", "org.tigris.swidgets.Orientable" ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

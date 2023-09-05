@@ -1,0 +1,326 @@
+{
+  "name" : "StringNamespace",
+  "key" : "org.argouml.uml.util.namespace.StringNamespace",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 33,
+        "endLine" : 41,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.util.namespace.StringNamespace/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespace"
+    },
+    "ns" : {
+      "name" : "ns",
+      "key" : "ns",
+      "type" : "java.util.Stack",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 19,
+        "endLine" : 43,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.util.namespace.StringNamespace/memberField/ns",
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespace"
+    },
+    "token" : {
+      "name" : "token",
+      "key" : "token",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 20,
+        "endLine" : 45,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.util.namespace.StringNamespace/memberField/token",
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespace"
+    }
+  },
+  "methods" : {
+    "iterator" : {
+      "name" : "iterator",
+      "key" : "org.argouml.uml.util.namespace.StringNamespace/method/iterator",
+      "type" : "java.util.Iterator",
+      "position" : {
+        "startLine" : 187,
+        "startColumn" : 21,
+        "endLine" : 187,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespace"
+    },
+    "hashCode" : {
+      "name" : "hashCode",
+      "key" : "org.argouml.uml.util.namespace.StringNamespace/method/hashCode",
+      "type" : "int",
+      "position" : {
+        "startLine" : 244,
+        "startColumn" : 16,
+        "endLine" : 244,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespace"
+    },
+    "getBaseNamespace" : {
+      "name" : "getBaseNamespace",
+      "key" : "org.argouml.uml.util.namespace.StringNamespace/method/getBaseNamespace",
+      "type" : "Namespace",
+      "position" : {
+        "startLine" : 152,
+        "startColumn" : 22,
+        "endLine" : 152,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespace"
+    },
+    "equals" : {
+      "name" : "equals",
+      "key" : "org.argouml.uml.util.namespace.StringNamespace/method/equals",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 258,
+        "startColumn" : 20,
+        "endLine" : 258,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "namespace",
+        "key" : "namespace",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 258,
+          "startColumn" : 34,
+          "endLine" : 258,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.util.namespace.StringNamespace/method/equals"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespace"
+    },
+    "popNamespaceElement" : {
+      "name" : "popNamespaceElement",
+      "key" : "org.argouml.uml.util.namespace.StringNamespace/method/popNamespaceElement",
+      "type" : "NamespaceElement",
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 29,
+        "endLine" : 145,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespace"
+    },
+    "isEmpty" : {
+      "name" : "isEmpty",
+      "key" : "org.argouml.uml.util.namespace.StringNamespace/method/isEmpty",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 20,
+        "endLine" : 194,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespace"
+    },
+    "setDefaultScopeToken" : {
+      "name" : "setDefaultScopeToken",
+      "key" : "org.argouml.uml.util.namespace.StringNamespace/method/setDefaultScopeToken",
+      "type" : "void",
+      "position" : {
+        "startLine" : 201,
+        "startColumn" : 17,
+        "endLine" : 201,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theToken",
+        "key" : "theToken",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 201,
+          "startColumn" : 45,
+          "endLine" : 201,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.util.namespace.StringNamespace/method/setDefaultScopeToken"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespace"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.uml.util.namespace.StringNamespace/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 287,
+        "startColumn" : 19,
+        "endLine" : 287,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespace"
+    },
+    "getCommonNamespace" : {
+      "name" : "getCommonNamespace",
+      "key" : "org.argouml.uml.util.namespace.StringNamespace/method/getCommonNamespace",
+      "type" : "Namespace",
+      "position" : {
+        "startLine" : 168,
+        "startColumn" : 22,
+        "endLine" : 168,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "namespace",
+        "key" : "namespace",
+        "type" : "Namespace",
+        "position" : {
+          "startLine" : 168,
+          "startColumn" : 51,
+          "endLine" : 168,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.util.namespace.StringNamespace/method/getCommonNamespace"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespace"
+    },
+    "parse" : {
+      "name" : "parse",
+      "key" : "org.argouml.uml.util.namespace.StringNamespace/method/parse",
+      "type" : "Namespace",
+      "position" : {
+        "startLine" : 237,
+        "startColumn" : 29,
+        "endLine" : 237,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 237,
+          "startColumn" : 41,
+          "endLine" : 237,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.util.namespace.StringNamespace/method/parse"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespace"
+    },
+    "pushNamespaceElement" : {
+      "name" : "pushNamespaceElement",
+      "key" : "org.argouml.uml.util.namespace.StringNamespace/method/pushNamespaceElement",
+      "type" : "void",
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 17,
+        "endLine" : 138,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 138,
+          "startColumn" : 45,
+          "endLine" : 138,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.util.namespace.StringNamespace/method/pushNamespaceElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespace"
+    },
+    "peekNamespaceElement" : {
+      "name" : "peekNamespaceElement",
+      "key" : "org.argouml.uml.util.namespace.StringNamespace/method/peekNamespaceElement",
+      "type" : "NamespaceElement",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 29,
+        "endLine" : 128,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespace"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "Namespace", "java.lang.Cloneable" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

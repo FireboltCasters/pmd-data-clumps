@@ -1,0 +1,509 @@
+{
+  "name" : "TabChecklist",
+  "key" : "org.argouml.cognitive.checklist.ui.TabChecklist",
+  "type" : "class",
+  "position" : {
+    "startLine" : 64,
+    "startColumn" : 8,
+    "endLine" : 64,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "shouldBeEnabled" : {
+      "name" : "shouldBeEnabled",
+      "key" : "shouldBeEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 21,
+        "endLine" : 72,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/memberField/shouldBeEnabled",
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "tableModel" : {
+      "name" : "tableModel",
+      "key" : "tableModel",
+      "type" : "org.argouml.cognitive.checklist.ui.TableModelChecklist",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 33,
+        "endLine" : 71,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/memberField/tableModel",
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "table" : {
+      "name" : "table",
+      "key" : "table",
+      "type" : "javax.swing.JTable",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 20,
+        "endLine" : 73,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/memberField/table",
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "target" : {
+      "name" : "target",
+      "key" : "target",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 20,
+        "endLine" : 70,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/memberField/target",
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    }
+  },
+  "methods" : {
+    "componentHidden" : {
+      "name" : "componentHidden",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/componentHidden",
+      "type" : "void",
+      "position" : {
+        "startLine" : 269,
+        "startColumn" : 17,
+        "endLine" : 269,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ComponentEvent",
+        "position" : {
+          "startLine" : 269,
+          "startColumn" : 48,
+          "endLine" : 269,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/componentHidden"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "findTarget" : {
+      "name" : "findTarget",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/findTarget",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 20,
+        "endLine" : 124,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 124,
+          "startColumn" : 38,
+          "endLine" : 124,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/findTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "valueChanged" : {
+      "name" : "valueChanged",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/valueChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 233,
+        "startColumn" : 17,
+        "endLine" : 233,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "lse",
+        "key" : "lse",
+        "type" : "javax.swing.event.ListSelectionEvent",
+        "position" : {
+          "startLine" : 233,
+          "startColumn" : 49,
+          "endLine" : 233,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/valueChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "targetRemoved" : {
+      "name" : "targetRemoved",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/targetRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 246,
+        "startColumn" : 17,
+        "endLine" : 246,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 246,
+          "startColumn" : 43,
+          "endLine" : 246,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/targetRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "refresh" : {
+      "name" : "refresh",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/refresh",
+      "type" : "void",
+      "position" : {
+        "startLine" : 179,
+        "startColumn" : 17,
+        "endLine" : 179,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "componentShown" : {
+      "name" : "componentShown",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/componentShown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 261,
+        "startColumn" : 17,
+        "endLine" : 261,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ComponentEvent",
+        "position" : {
+          "startLine" : 261,
+          "startColumn" : 47,
+          "endLine" : 261,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/componentShown"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "shouldBeEnabled" : {
+      "name" : "shouldBeEnabled",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/shouldBeEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 186,
+        "startColumn" : 20,
+        "endLine" : 186,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 186,
+          "startColumn" : 43,
+          "endLine" : 186,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/shouldBeEnabled"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 227,
+        "startColumn" : 17,
+        "endLine" : 227,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 227,
+          "startColumn" : 45,
+          "endLine" : 227,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "getTarget" : {
+      "name" : "getTarget",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/getTarget",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 19,
+        "endLine" : 172,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "targetSet" : {
+      "name" : "targetSet",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/targetSet",
+      "type" : "void",
+      "position" : {
+        "startLine" : 253,
+        "startColumn" : 17,
+        "endLine" : 253,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 253,
+          "startColumn" : 39,
+          "endLine" : 253,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/targetSet"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "componentResized" : {
+      "name" : "componentResized",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/componentResized",
+      "type" : "void",
+      "position" : {
+        "startLine" : 278,
+        "startColumn" : 17,
+        "endLine" : 278,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ComponentEvent",
+        "position" : {
+          "startLine" : 278,
+          "startColumn" : 49,
+          "endLine" : 278,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/componentResized"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "setTargetInternal" : {
+      "name" : "setTargetInternal",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/setTargetInternal",
+      "type" : "void",
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 18,
+        "endLine" : 155,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 155,
+          "startColumn" : 43,
+          "endLine" : 155,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/setTargetInternal"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "setTarget" : {
+      "name" : "setTarget",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/setTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 140,
+        "startColumn" : 17,
+        "endLine" : 140,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 140,
+          "startColumn" : 34,
+          "endLine" : 140,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/setTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "resizeColumns" : {
+      "name" : "resizeColumns",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/resizeColumns",
+      "type" : "void",
+      "position" : {
+        "startLine" : 207,
+        "startColumn" : 17,
+        "endLine" : 207,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "componentMoved" : {
+      "name" : "componentMoved",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/componentMoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 274,
+        "startColumn" : 17,
+        "endLine" : 274,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ComponentEvent",
+        "position" : {
+          "startLine" : 274,
+          "startColumn" : 47,
+          "endLine" : 274,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/componentMoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    },
+    "targetAdded" : {
+      "name" : "targetAdded",
+      "key" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/targetAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 239,
+        "startColumn" : 17,
+        "endLine" : 239,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 239,
+          "startColumn" : 41,
+          "endLine" : 239,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.checklist.ui.TabChecklist/method/targetAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.TabChecklist"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.ui.TabModelTarget", "java.awt.event.ActionListener", "javax.swing.event.ListSelectionListener", "java.awt.event.ComponentListener" ],
+  "extends_" : [ "org.argouml.application.api.AbstractArgoJPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

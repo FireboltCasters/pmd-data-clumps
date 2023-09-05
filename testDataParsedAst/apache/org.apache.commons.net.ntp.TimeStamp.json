@@ -1,0 +1,531 @@
+{
+  "name" : "TimeStamp",
+  "key" : "org.apache.commons.net.ntp.TimeStamp",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 31,
+        "endLine" : 76,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.TimeStamp/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "utcFormatter" : {
+      "name" : "utcFormatter",
+      "key" : "utcFormatter",
+      "type" : "java.lang.ref.SoftReference",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 34,
+        "endLine" : 67,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.TimeStamp/memberField/utcFormatter",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "simpleFormatter" : {
+      "name" : "simpleFormatter",
+      "key" : "simpleFormatter",
+      "type" : "java.lang.ref.SoftReference",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 34,
+        "endLine" : 66,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.TimeStamp/memberField/simpleFormatter",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "ntpTime" : {
+      "name" : "ntpTime",
+      "key" : "ntpTime",
+      "type" : "long",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 18,
+        "endLine" : 74,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.TimeStamp/memberField/ntpTime",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "msb0baseTime" : {
+      "name" : "msb0baseTime",
+      "key" : "msb0baseTime",
+      "type" : "long",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 33,
+        "endLine" : 50,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.TimeStamp/memberField/msb0baseTime",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "msb1baseTime" : {
+      "name" : "msb1baseTime",
+      "key" : "msb1baseTime",
+      "type" : "long",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 33,
+        "endLine" : 55,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.TimeStamp/memberField/msb1baseTime",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "NTP_DATE_FORMAT" : {
+      "name" : "NTP_DATE_FORMAT",
+      "key" : "NTP_DATE_FORMAT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 32,
+        "endLine" : 61,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.TimeStamp/memberField/NTP_DATE_FORMAT",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    }
+  },
+  "methods" : {
+    "getTime" : {
+      "name" : "getTime",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/getTime",
+      "type" : "long",
+      "position" : {
+        "startLine" : 188,
+        "startColumn" : 24,
+        "endLine" : 188,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ntpTimeValue",
+        "key" : "ntpTimeValue",
+        "type" : "long",
+        "position" : {
+          "startLine" : 188,
+          "startColumn" : 37,
+          "endLine" : 188,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.TimeStamp/method/getTime"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "toDateString" : {
+      "name" : "toDateString",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/toDateString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 400,
+        "startColumn" : 19,
+        "endLine" : 400,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "toUTCString" : {
+      "name" : "toUTCString",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/toUTCString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 427,
+        "startColumn" : 19,
+        "endLine" : 427,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "compareTo" : {
+      "name" : "compareTo",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/compareTo",
+      "type" : "int",
+      "position" : {
+        "startLine" : 480,
+        "startColumn" : 16,
+        "endLine" : 480,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 480,
+          "startColumn" : 33,
+          "endLine" : 480,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.TimeStamp/method/compareTo"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "decodeNtpHexString" : {
+      "name" : "decodeNtpHexString",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/decodeNtpHexString",
+      "type" : "long",
+      "position" : {
+        "startLine" : 249,
+        "startColumn" : 27,
+        "endLine" : 249,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 249,
+          "startColumn" : 53,
+          "endLine" : 249,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.TimeStamp/method/decodeNtpHexString"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "getSeconds" : {
+      "name" : "getSeconds",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/getSeconds",
+      "type" : "long",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 17,
+        "endLine" : 139,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "toNtpTime" : {
+      "name" : "toNtpTime",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/toNtpTime",
+      "type" : "long",
+      "position" : {
+        "startLine" : 285,
+        "startColumn" : 27,
+        "endLine" : 285,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "long",
+        "position" : {
+          "startLine" : 285,
+          "startColumn" : 42,
+          "endLine" : 285,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.TimeStamp/method/toNtpTime"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "hashCode" : {
+      "name" : "hashCode",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/hashCode",
+      "type" : "int",
+      "position" : {
+        "startLine" : 318,
+        "startColumn" : 16,
+        "endLine" : 318,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "equals" : {
+      "name" : "equals",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/equals",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 333,
+        "startColumn" : 20,
+        "endLine" : 333,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 333,
+          "startColumn" : 34,
+          "endLine" : 333,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.TimeStamp/method/equals"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "appendHexString" : {
+      "name" : "appendHexString",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/appendHexString",
+      "type" : "void",
+      "position" : {
+        "startLine" : 361,
+        "startColumn" : 25,
+        "endLine" : 361,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "buf",
+        "key" : "buf",
+        "type" : "java.lang.StringBuffer",
+        "position" : {
+          "startLine" : 361,
+          "startColumn" : 54,
+          "endLine" : 361,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.TimeStamp/method/appendHexString"
+      }, {
+        "name" : "l",
+        "key" : "l",
+        "type" : "long",
+        "position" : {
+          "startLine" : 361,
+          "startColumn" : 64,
+          "endLine" : 361,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.TimeStamp/method/appendHexString"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "getDate" : {
+      "name" : "getDate",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/getDate",
+      "type" : "java.util.Date",
+      "position" : {
+        "startLine" : 169,
+        "startColumn" : 17,
+        "endLine" : 169,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 378,
+        "startColumn" : 26,
+        "endLine" : 378,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ntpTime",
+        "key" : "ntpTime",
+        "type" : "long",
+        "position" : {
+          "startLine" : 378,
+          "startColumn" : 40,
+          "endLine" : 378,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.TimeStamp/method/toString"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "ntpValue" : {
+      "name" : "ntpValue",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/ntpValue",
+      "type" : "long",
+      "position" : {
+        "startLine" : 129,
+        "startColumn" : 17,
+        "endLine" : 129,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "getCurrentTime" : {
+      "name" : "getCurrentTime",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/getCurrentTime",
+      "type" : "org.apache.commons.net.ntp.TimeStamp",
+      "position" : {
+        "startLine" : 237,
+        "startColumn" : 29,
+        "endLine" : 237,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "parseNtpString" : {
+      "name" : "parseNtpString",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/parseNtpString",
+      "type" : "org.apache.commons.net.ntp.TimeStamp",
+      "position" : {
+        "startLine" : 273,
+        "startColumn" : 29,
+        "endLine" : 273,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 273,
+          "startColumn" : 51,
+          "endLine" : 273,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.TimeStamp/method/parseNtpString"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "getFraction" : {
+      "name" : "getFraction",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/getFraction",
+      "type" : "long",
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 17,
+        "endLine" : 149,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    },
+    "getNtpTime" : {
+      "name" : "getNtpTime",
+      "key" : "org.apache.commons.net.ntp.TimeStamp/method/getNtpTime",
+      "type" : "org.apache.commons.net.ntp.TimeStamp",
+      "position" : {
+        "startLine" : 225,
+        "startColumn" : 29,
+        "endLine" : 225,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "date",
+        "key" : "date",
+        "type" : "long",
+        "position" : {
+          "startLine" : 225,
+          "startColumn" : 45,
+          "endLine" : 225,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.TimeStamp/method/getNtpTime"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStamp"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.io.Serializable", "java.lang.Comparable" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

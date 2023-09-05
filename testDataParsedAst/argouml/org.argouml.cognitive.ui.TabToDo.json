@@ -1,0 +1,571 @@
+{
+  "name" : "TabToDo",
+  "key" : "org.argouml.cognitive.ui.TabToDo",
+  "type" : "class",
+  "position" : {
+    "startLine" : 53,
+    "startColumn" : 8,
+    "endLine" : 53,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "actionResolve" : {
+      "name" : "actionResolve",
+      "key" : "actionResolve",
+      "type" : "ToDoItemAction",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 41,
+        "endLine" : 59,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.TabToDo/memberField/actionResolve",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "actionSnooze" : {
+      "name" : "actionSnooze",
+      "key" : "actionSnooze",
+      "type" : "ToDoItemAction",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 41,
+        "endLine" : 60,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.TabToDo/memberField/actionSnooze",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 241,
+        "startColumn" : 31,
+        "endLine" : 241,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.TabToDo/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "splitPane" : {
+      "name" : "splitPane",
+      "key" : "splitPane",
+      "type" : "org.tigris.swidgets.BorderSplitPane",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 29,
+        "endLine" : 64,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.TabToDo/memberField/splitPane",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "actionNewToDoItem" : {
+      "name" : "actionNewToDoItem",
+      "key" : "actionNewToDoItem",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 33,
+        "endLine" : 58,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.TabToDo/memberField/actionNewToDoItem",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "description" : {
+      "name" : "description",
+      "key" : "description",
+      "type" : "WizDescription",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 28,
+        "endLine" : 62,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.TabToDo/memberField/description",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "lastPanel" : {
+      "name" : "lastPanel",
+      "key" : "lastPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 20,
+        "endLine" : 63,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.TabToDo/memberField/lastPanel",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "numHushes" : {
+      "name" : "numHushes",
+      "key" : "numHushes",
+      "type" : "int",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 24,
+        "endLine" : 56,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.TabToDo/memberField/numHushes",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "target" : {
+      "name" : "target",
+      "key" : "target",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 20,
+        "endLine" : 65,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.TabToDo/memberField/target",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    }
+  },
+  "methods" : {
+    "componentHidden" : {
+      "name" : "componentHidden",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/componentHidden",
+      "type" : "void",
+      "position" : {
+        "startLine" : 254,
+        "startColumn" : 17,
+        "endLine" : 254,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ComponentEvent",
+        "position" : {
+          "startLine" : 254,
+          "startColumn" : 48,
+          "endLine" : 254,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.TabToDo/method/componentHidden"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "showStep" : {
+      "name" : "showStep",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/showStep",
+      "type" : "void",
+      "position" : {
+        "startLine" : 136,
+        "startColumn" : 17,
+        "endLine" : 136,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ws",
+        "key" : "ws",
+        "type" : "javax.swing.JPanel",
+        "position" : {
+          "startLine" : 136,
+          "startColumn" : 33,
+          "endLine" : 136,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.TabToDo/method/showStep"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "targetRemoved" : {
+      "name" : "targetRemoved",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/targetRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 225,
+        "startColumn" : 17,
+        "endLine" : 225,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 225,
+          "startColumn" : 43,
+          "endLine" : 225,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.TabToDo/method/targetRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "refresh" : {
+      "name" : "refresh",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/refresh",
+      "type" : "void",
+      "position" : {
+        "startLine" : 197,
+        "startColumn" : 17,
+        "endLine" : 197,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "componentShown" : {
+      "name" : "componentShown",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/componentShown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 246,
+        "startColumn" : 17,
+        "endLine" : 246,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ComponentEvent",
+        "position" : {
+          "startLine" : 246,
+          "startColumn" : 47,
+          "endLine" : 246,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.TabToDo/method/componentShown"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "incrementNumHushes" : {
+      "name" : "incrementNumHushes",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/incrementNumHushes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 24,
+        "endLine" : 70,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "setTree" : {
+      "name" : "setTree",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/setTree",
+      "type" : "void",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 17,
+        "endLine" : 125,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tdp",
+        "key" : "tdp",
+        "type" : "ToDoPane",
+        "position" : {
+          "startLine" : 125,
+          "startColumn" : 34,
+          "endLine" : 125,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.TabToDo/method/setTree"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "showDescription" : {
+      "name" : "showDescription",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/showDescription",
+      "type" : "void",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 17,
+        "endLine" : 112,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "getTarget" : {
+      "name" : "getTarget",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/getTarget",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 189,
+        "startColumn" : 19,
+        "endLine" : 189,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "targetSet" : {
+      "name" : "targetSet",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/targetSet",
+      "type" : "void",
+      "position" : {
+        "startLine" : 234,
+        "startColumn" : 17,
+        "endLine" : 234,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 234,
+          "startColumn" : 39,
+          "endLine" : 234,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.TabToDo/method/targetSet"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "componentResized" : {
+      "name" : "componentResized",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/componentResized",
+      "type" : "void",
+      "position" : {
+        "startLine" : 263,
+        "startColumn" : 17,
+        "endLine" : 263,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ComponentEvent",
+        "position" : {
+          "startLine" : 263,
+          "startColumn" : 49,
+          "endLine" : 263,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.TabToDo/method/componentResized"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "updateActionsEnabled" : {
+      "name" : "updateActionsEnabled",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/updateActionsEnabled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 206,
+        "startColumn" : 27,
+        "endLine" : 206,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 206,
+          "startColumn" : 55,
+          "endLine" : 206,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.TabToDo/method/updateActionsEnabled"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "setTargetInternal" : {
+      "name" : "setTargetInternal",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/setTargetInternal",
+      "type" : "void",
+      "position" : {
+        "startLine" : 169,
+        "startColumn" : 18,
+        "endLine" : 169,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 169,
+          "startColumn" : 43,
+          "endLine" : 169,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.TabToDo/method/setTargetInternal"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "setTarget" : {
+      "name" : "setTarget",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/setTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 159,
+        "startColumn" : 17,
+        "endLine" : 159,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 159,
+          "startColumn" : 34,
+          "endLine" : 159,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.TabToDo/method/setTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "componentMoved" : {
+      "name" : "componentMoved",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/componentMoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 259,
+        "startColumn" : 17,
+        "endLine" : 259,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ComponentEvent",
+        "position" : {
+          "startLine" : 259,
+          "startColumn" : 47,
+          "endLine" : 259,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.TabToDo/method/componentMoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    },
+    "targetAdded" : {
+      "name" : "targetAdded",
+      "key" : "org.argouml.cognitive.ui.TabToDo/method/targetAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 217,
+        "startColumn" : 17,
+        "endLine" : 217,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 217,
+          "startColumn" : 41,
+          "endLine" : 217,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.TabToDo/method/targetAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.TabToDo"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.ui.TabToDoTarget", "java.awt.event.ComponentListener" ],
+  "extends_" : [ "org.argouml.application.api.AbstractArgoJPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

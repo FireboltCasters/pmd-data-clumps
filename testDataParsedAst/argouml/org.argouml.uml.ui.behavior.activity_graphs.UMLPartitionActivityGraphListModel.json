@@ -1,0 +1,68 @@
+{
+  "name" : "UMLPartitionActivityGraphListModel",
+  "key" : "org.argouml.uml.ui.behavior.activity_graphs.UMLPartitionActivityGraphListModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 178,
+    "startColumn" : 1,
+    "endLine" : 178,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.behavior.activity_graphs.UMLPartitionActivityGraphListModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 191,
+        "startColumn" : 20,
+        "endLine" : 191,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.UMLPartitionActivityGraphListModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.behavior.activity_graphs.UMLPartitionActivityGraphListModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 199,
+        "startColumn" : 23,
+        "endLine" : 199,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 199,
+          "startColumn" : 45,
+          "endLine" : 199,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.activity_graphs.UMLPartitionActivityGraphListModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.UMLPartitionActivityGraphListModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLModelElementListModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

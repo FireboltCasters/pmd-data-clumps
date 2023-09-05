@@ -1,0 +1,97 @@
+{
+  "name" : "ActionSetStructuralFeatureMultiplicity",
+  "key" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureMultiplicity",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "SINGLETON" : {
+      "name" : "SINGLETON",
+      "key" : "SINGLETON",
+      "type" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureMultiplicity",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 65,
+        "endLine" : 38,
+        "endColumn" : 74
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureMultiplicity/memberField/SINGLETON",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureMultiplicity"
+    }
+  },
+  "methods" : {
+    "setSelectedItem" : {
+      "name" : "setSelectedItem",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureMultiplicity/method/setSelectedItem",
+      "type" : "void",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 17,
+        "endLine" : 52,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 40,
+          "endLine" : 52,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureMultiplicity/method/setSelectedItem"
+      }, {
+        "name" : "target",
+        "key" : "target",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 53,
+          "endLine" : 52,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureMultiplicity/method/setSelectedItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureMultiplicity"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureMultiplicity/method/getInstance",
+      "type" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureMultiplicity",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 58,
+        "endLine" : 76,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureMultiplicity"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.ActionSetMultiplicity" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

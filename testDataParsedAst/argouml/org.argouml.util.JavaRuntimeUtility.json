@@ -1,0 +1,71 @@
+{
+  "name" : "JavaRuntimeUtility",
+  "key" : "org.argouml.util.JavaRuntimeUtility",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "isJre5" : {
+      "name" : "isJre5",
+      "key" : "org.argouml.util.JavaRuntimeUtility/method/isJre5",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 27,
+        "endLine" : 55,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.JavaRuntimeUtility"
+    },
+    "getJreVersion" : {
+      "name" : "getJreVersion",
+      "key" : "org.argouml.util.JavaRuntimeUtility/method/getJreVersion",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 26,
+        "endLine" : 64,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.JavaRuntimeUtility"
+    },
+    "isJreSupported" : {
+      "name" : "isJreSupported",
+      "key" : "org.argouml.util.JavaRuntimeUtility/method/isJreSupported",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 27,
+        "endLine" : 39,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.JavaRuntimeUtility"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

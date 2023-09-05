@@ -1,0 +1,68 @@
+{
+  "name" : "PathContainer",
+  "key" : "org.argouml.uml.diagram.PathContainer",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "isPathVisible" : {
+      "name" : "isPathVisible",
+      "key" : "org.argouml.uml.diagram.PathContainer/method/isPathVisible",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 13,
+        "endLine" : 39,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.PathContainer"
+    },
+    "setPathVisible" : {
+      "name" : "setPathVisible",
+      "key" : "org.argouml.uml.diagram.PathContainer/method/setPathVisible",
+      "type" : "void",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 10,
+        "endLine" : 45,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "visible",
+        "key" : "visible",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 33,
+          "endLine" : 45,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.PathContainer/method/setPathVisible"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.PathContainer"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

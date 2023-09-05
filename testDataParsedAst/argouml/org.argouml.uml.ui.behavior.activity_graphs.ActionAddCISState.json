@@ -1,0 +1,131 @@
+{
+  "name" : "ActionAddCISState",
+  "key" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddCISState",
+  "type" : "class",
+  "position" : {
+    "startLine" : 249,
+    "startColumn" : 1,
+    "endLine" : 249,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 254,
+        "startColumn" : 31,
+        "endLine" : 254,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddCISState/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddCISState"
+    },
+    "choiceClass" : {
+      "name" : "choiceClass",
+      "key" : "choiceClass",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 255,
+        "startColumn" : 20,
+        "endLine" : 255,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddCISState/memberField/choiceClass",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddCISState"
+    }
+  },
+  "methods" : {
+    "getSelected" : {
+      "name" : "getSelected",
+      "key" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddCISState/method/getSelected",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 292,
+        "startColumn" : 20,
+        "endLine" : 292,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddCISState"
+    },
+    "getChoices" : {
+      "name" : "getChoices",
+      "key" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddCISState/method/getChoices",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 274,
+        "startColumn" : 20,
+        "endLine" : 274,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddCISState"
+    },
+    "doIt" : {
+      "name" : "doIt",
+      "key" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddCISState/method/doIt",
+      "type" : "void",
+      "position" : {
+        "startLine" : 266,
+        "startColumn" : 20,
+        "endLine" : 266,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "selected",
+        "key" : "selected",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 266,
+          "startColumn" : 36,
+          "endLine" : 266,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddCISState/method/doIt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddCISState"
+    },
+    "getDialogTitle" : {
+      "name" : "getDialogTitle",
+      "key" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddCISState/method/getDialogTitle",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 287,
+        "startColumn" : 22,
+        "endLine" : 287,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddCISState"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionAddModelElement2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

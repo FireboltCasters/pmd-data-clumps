@@ -1,0 +1,790 @@
+{
+  "name" : "DnDExplorerTree",
+  "key" : "org.argouml.ui.explorer.DnDExplorerTree",
+  "type" : "class",
+  "position" : {
+    "startLine" : 101,
+    "startColumn" : 8,
+    "endLine" : 101,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "DIAGRAM_TO_CLIPBOARD_ACTION" : {
+      "name" : "DIAGRAM_TO_CLIPBOARD_ACTION",
+      "key" : "DIAGRAM_TO_CLIPBOARD_ACTION",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 33,
+        "endLine" : 112,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.DnDExplorerTree/memberField/DIAGRAM_TO_CLIPBOARD_ACTION",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "clickOffset" : {
+      "name" : "clickOffset",
+      "key" : "clickOffset",
+      "type" : "java.awt.Point",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 19,
+        "endLine" : 118,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.DnDExplorerTree/memberField/clickOffset",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 948,
+        "startColumn" : 31,
+        "endLine" : 948,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.DnDExplorerTree/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "selectedTreePath" : {
+      "name" : "selectedTreePath",
+      "key" : "selectedTreePath",
+      "type" : "javax.swing.tree.TreePath",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 22,
+        "endLine" : 132,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.DnDExplorerTree/memberField/selectedTreePath",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 33,
+        "endLine" : 109,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.DnDExplorerTree/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "dragSource" : {
+      "name" : "dragSource",
+      "key" : "dragSource",
+      "type" : "java.awt.dnd.DragSource",
+      "position" : {
+        "startLine" : 137,
+        "startColumn" : 24,
+        "endLine" : 137,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.DnDExplorerTree/memberField/dragSource",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "sourcePath" : {
+      "name" : "sourcePath",
+      "key" : "sourcePath",
+      "type" : "javax.swing.tree.TreePath",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 23,
+        "endLine" : 122,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.DnDExplorerTree/memberField/sourcePath",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "ghostImage" : {
+      "name" : "ghostImage",
+      "key" : "ghostImage",
+      "type" : "java.awt.image.BufferedImage",
+      "position" : {
+        "startLine" : 126,
+        "startColumn" : 27,
+        "endLine" : 126,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.DnDExplorerTree/memberField/ghostImage",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "AUTOSCROLL_MARGIN" : {
+      "name" : "AUTOSCROLL_MARGIN",
+      "key" : "AUTOSCROLL_MARGIN",
+      "type" : "int",
+      "position" : {
+        "startLine" : 460,
+        "startColumn" : 30,
+        "endLine" : 460,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.DnDExplorerTree/memberField/AUTOSCROLL_MARGIN",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    }
+  },
+  "methods" : {
+    "autoscroll" : {
+      "name" : "autoscroll",
+      "key" : "org.argouml.ui.explorer.DnDExplorerTree/method/autoscroll",
+      "type" : "void",
+      "position" : {
+        "startLine" : 467,
+        "startColumn" : 17,
+        "endLine" : 467,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pt",
+        "key" : "pt",
+        "type" : "java.awt.Point",
+        "position" : {
+          "startLine" : 467,
+          "startColumn" : 34,
+          "endLine" : 467,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree/method/autoscroll"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "getAutoscrollInsets" : {
+      "name" : "getAutoscrollInsets",
+      "key" : "org.argouml.ui.explorer.DnDExplorerTree/method/getAutoscrollInsets",
+      "type" : "java.awt.Insets",
+      "position" : {
+        "startLine" : 501,
+        "startColumn" : 19,
+        "endLine" : 501,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "dragEnter" : {
+      "name" : "dragEnter",
+      "key" : "org.argouml.ui.explorer.DnDExplorerTree/method/dragEnter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 393,
+        "startColumn" : 17,
+        "endLine" : 393,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dragSourceDragEvent",
+        "key" : "dragSourceDragEvent",
+        "type" : "java.awt.dnd.DragSourceDragEvent",
+        "position" : {
+          "startLine" : 393,
+          "startColumn" : 47,
+          "endLine" : 393,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree/method/dragEnter"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "dragDropEnd" : {
+      "name" : "dragDropEnd",
+      "key" : "org.argouml.ui.explorer.DnDExplorerTree/method/dragDropEnd",
+      "type" : "void",
+      "position" : {
+        "startLine" : 384,
+        "startColumn" : 17,
+        "endLine" : 384,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dragSourceDropEvent",
+        "key" : "dragSourceDropEvent",
+        "type" : "java.awt.dnd.DragSourceDropEvent",
+        "position" : {
+          "startLine" : 385,
+          "startColumn" : 27,
+          "endLine" : 385,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree/method/dragDropEnd"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "dragOver" : {
+      "name" : "dragOver",
+      "key" : "org.argouml.ui.explorer.DnDExplorerTree/method/dragOver",
+      "type" : "void",
+      "position" : {
+        "startLine" : 411,
+        "startColumn" : 17,
+        "endLine" : 411,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dragSourceDragEvent",
+        "key" : "dragSourceDragEvent",
+        "type" : "java.awt.dnd.DragSourceDragEvent",
+        "position" : {
+          "startLine" : 411,
+          "startColumn" : 46,
+          "endLine" : 411,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree/method/dragOver"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "dropActionChanged" : {
+      "name" : "dropActionChanged",
+      "key" : "org.argouml.ui.explorer.DnDExplorerTree/method/dropActionChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 434,
+        "startColumn" : 17,
+        "endLine" : 434,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dragSourceDragEvent",
+        "key" : "dragSourceDragEvent",
+        "type" : "java.awt.dnd.DragSourceDragEvent",
+        "position" : {
+          "startLine" : 435,
+          "startColumn" : 27,
+          "endLine" : 435,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree/method/dropActionChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "isValidDrag" : {
+      "name" : "isValidDrag",
+      "key" : "org.argouml.ui.explorer.DnDExplorerTree/method/isValidDrag",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 281,
+        "startColumn" : 21,
+        "endLine" : 281,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "destinationPath",
+        "key" : "destinationPath",
+        "type" : "javax.swing.tree.TreePath",
+        "position" : {
+          "startLine" : 281,
+          "startColumn" : 42,
+          "endLine" : 281,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree/method/isValidDrag"
+      }, {
+        "name" : "tf",
+        "key" : "tf",
+        "type" : "java.awt.datatransfer.Transferable",
+        "position" : {
+          "startLine" : 282,
+          "startColumn" : 20,
+          "endLine" : 282,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree/method/isValidDrag"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "dragExit" : {
+      "name" : "dragExit",
+      "key" : "org.argouml.ui.explorer.DnDExplorerTree/method/dragExit",
+      "type" : "void",
+      "position" : {
+        "startLine" : 400,
+        "startColumn" : 17,
+        "endLine" : 400,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dragSourceEvent",
+        "key" : "dragSourceEvent",
+        "type" : "java.awt.dnd.DragSourceEvent",
+        "position" : {
+          "startLine" : 400,
+          "startColumn" : 42,
+          "endLine" : 400,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree/method/dragExit"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    },
+    "dragGestureRecognized" : {
+      "name" : "dragGestureRecognized",
+      "key" : "org.argouml.ui.explorer.DnDExplorerTree/method/dragGestureRecognized",
+      "type" : "void",
+      "position" : {
+        "startLine" : 189,
+        "startColumn" : 17,
+        "endLine" : 189,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dragGestureEvent",
+        "key" : "dragGestureEvent",
+        "type" : "java.awt.dnd.DragGestureEvent",
+        "position" : {
+          "startLine" : 190,
+          "startColumn" : 30,
+          "endLine" : 190,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree/method/dragGestureRecognized"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.dnd.DragGestureListener", "java.awt.dnd.DragSourceListener", "java.awt.dnd.Autoscroll" ],
+  "extends_" : [ "ExplorerTree" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.ui.explorer.DnDExplorerTree.DnDTreeSelectionListener" : {
+      "name" : "DnDTreeSelectionListener",
+      "key" : "org.argouml.ui.explorer.DnDExplorerTree.DnDTreeSelectionListener",
+      "type" : "class",
+      "position" : {
+        "startLine" : 442,
+        "startColumn" : 5,
+        "endLine" : 442,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : { },
+      "methods" : {
+        "valueChanged" : {
+          "name" : "valueChanged",
+          "key" : "org.argouml.ui.explorer.DnDExplorerTree.DnDTreeSelectionListener/method/valueChanged",
+          "type" : "void",
+          "position" : {
+            "startLine" : 443,
+            "startColumn" : 21,
+            "endLine" : 443,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "treeSelectionEvent",
+            "key" : "treeSelectionEvent",
+            "type" : "javax.swing.event.TreeSelectionEvent",
+            "position" : {
+              "startLine" : 444,
+              "startColumn" : 30,
+              "endLine" : 444,
+              "endColumn" : 48
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree.DnDTreeSelectionListener/method/valueChanged"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree.DnDTreeSelectionListener"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "javax.swing.event.TreeSelectionListener" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.ui.explorer.DnDExplorerTree",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener" : {
+      "name" : "ArgoDropTargetListener",
+      "key" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener",
+      "type" : "class",
+      "position" : {
+        "startLine" : 517,
+        "startColumn" : 5,
+        "endLine" : 517,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : {
+        "hoverTimer" : {
+          "name" : "hoverTimer",
+          "key" : "hoverTimer",
+          "type" : "javax.swing.Timer",
+          "position" : {
+            "startLine" : 524,
+            "startColumn" : 23,
+            "endLine" : 524,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/memberField/hoverTimer",
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener"
+        },
+        "cueLine" : {
+          "name" : "cueLine",
+          "key" : "cueLine",
+          "type" : "java.awt.geom.Rectangle2D",
+          "position" : {
+            "startLine" : 520,
+            "startColumn" : 29,
+            "endLine" : 520,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/memberField/cueLine",
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener"
+        },
+        "cueLineColor" : {
+          "name" : "cueLineColor",
+          "key" : "cueLineColor",
+          "type" : "java.awt.Color",
+          "position" : {
+            "startLine" : 522,
+            "startColumn" : 23,
+            "endLine" : 522,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/memberField/cueLineColor",
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener"
+        },
+        "ghostRectangle" : {
+          "name" : "ghostRectangle",
+          "key" : "ghostRectangle",
+          "type" : "java.awt.geom.Rectangle2D",
+          "position" : {
+            "startLine" : 521,
+            "startColumn" : 29,
+            "endLine" : 521,
+            "endColumn" : 43
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/memberField/ghostRectangle",
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener"
+        },
+        "lastPath" : {
+          "name" : "lastPath",
+          "key" : "lastPath",
+          "type" : "javax.swing.tree.TreePath",
+          "position" : {
+            "startLine" : 519,
+            "startColumn" : 27,
+            "endLine" : 519,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/memberField/lastPath",
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener"
+        },
+        "lastMouseLocation" : {
+          "name" : "lastMouseLocation",
+          "key" : "lastMouseLocation",
+          "type" : "java.awt.Point",
+          "position" : {
+            "startLine" : 523,
+            "startColumn" : 23,
+            "endLine" : 523,
+            "endColumn" : 40
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/memberField/lastMouseLocation",
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener"
+        }
+      },
+      "methods" : {
+        "drop" : {
+          "name" : "drop",
+          "key" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/method/drop",
+          "type" : "void",
+          "position" : {
+            "startLine" : 726,
+            "startColumn" : 21,
+            "endLine" : 726,
+            "endColumn" : 25
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "dropTargetDropEvent",
+            "key" : "dropTargetDropEvent",
+            "type" : "java.awt.dnd.DropTargetDropEvent",
+            "position" : {
+              "startLine" : 726,
+              "startColumn" : 46,
+              "endLine" : 726,
+              "endColumn" : 65
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/method/drop"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener"
+        },
+        "isDragAcceptable" : {
+          "name" : "isDragAcceptable",
+          "key" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/method/isDragAcceptable",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 898,
+            "startColumn" : 24,
+            "endLine" : 898,
+            "endColumn" : 40
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "dropTargetEvent",
+            "key" : "dropTargetEvent",
+            "type" : "java.awt.dnd.DropTargetDragEvent",
+            "position" : {
+              "startLine" : 899,
+              "startColumn" : 37,
+              "endLine" : 899,
+              "endColumn" : 52
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/method/isDragAcceptable"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener"
+        },
+        "dragEnter" : {
+          "name" : "dragEnter",
+          "key" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/method/dragEnter",
+          "type" : "void",
+          "position" : {
+            "startLine" : 564,
+            "startColumn" : 21,
+            "endLine" : 564,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "dropTargetDragEvent",
+            "key" : "dropTargetDragEvent",
+            "type" : "java.awt.dnd.DropTargetDragEvent",
+            "position" : {
+              "startLine" : 565,
+              "startColumn" : 37,
+              "endLine" : 565,
+              "endColumn" : 56
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/method/dragEnter"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener"
+        },
+        "isDropAcceptable" : {
+          "name" : "isDropAcceptable",
+          "key" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/method/isDropAcceptable",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 922,
+            "startColumn" : 24,
+            "endLine" : 922,
+            "endColumn" : 40
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "dropTargetDropEvent",
+            "key" : "dropTargetDropEvent",
+            "type" : "java.awt.dnd.DropTargetDropEvent",
+            "position" : {
+              "startLine" : 923,
+              "startColumn" : 37,
+              "endLine" : 923,
+              "endColumn" : 56
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/method/isDropAcceptable"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener"
+        },
+        "dragOver" : {
+          "name" : "dragOver",
+          "key" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/method/dragOver",
+          "type" : "void",
+          "position" : {
+            "startLine" : 592,
+            "startColumn" : 21,
+            "endLine" : 592,
+            "endColumn" : 29
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "dropTargetDragEvent",
+            "key" : "dropTargetDragEvent",
+            "type" : "java.awt.dnd.DropTargetDragEvent",
+            "position" : {
+              "startLine" : 592,
+              "startColumn" : 50,
+              "endLine" : 592,
+              "endColumn" : 69
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/method/dragOver"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener"
+        },
+        "dropActionChanged" : {
+          "name" : "dropActionChanged",
+          "key" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/method/dropActionChanged",
+          "type" : "void",
+          "position" : {
+            "startLine" : 884,
+            "startColumn" : 21,
+            "endLine" : 884,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "dropTargetDragEvent",
+            "key" : "dropTargetDragEvent",
+            "type" : "java.awt.dnd.DropTargetDragEvent",
+            "position" : {
+              "startLine" : 885,
+              "startColumn" : 37,
+              "endLine" : 885,
+              "endColumn" : 56
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/method/dropActionChanged"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener"
+        },
+        "dragExit" : {
+          "name" : "dragExit",
+          "key" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/method/dragExit",
+          "type" : "void",
+          "position" : {
+            "startLine" : 578,
+            "startColumn" : 21,
+            "endLine" : 578,
+            "endColumn" : 29
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "dropTargetEvent",
+            "key" : "dropTargetEvent",
+            "type" : "java.awt.dnd.DropTargetEvent",
+            "position" : {
+              "startLine" : 578,
+              "startColumn" : 46,
+              "endLine" : 578,
+              "endColumn" : 61
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener/method/dragExit"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "java.awt.dnd.DropTargetListener" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.ui.explorer.DnDExplorerTree",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

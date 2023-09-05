@@ -1,0 +1,22 @@
+{
+  "name" : "DefaultFTPFileListParser",
+  "key" : "org.apache.commons.net.ftp.DefaultFTPFileListParser",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 14,
+    "endLine" : 40,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.net.ftp.parser.UnixFTPEntryParser" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

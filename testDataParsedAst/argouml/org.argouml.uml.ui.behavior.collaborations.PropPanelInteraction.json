@@ -1,0 +1,38 @@
+{
+  "name" : "PropPanelInteraction",
+  "key" : "org.argouml.uml.ui.behavior.collaborations.PropPanelInteraction",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 31,
+        "endLine" : 46,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.collaborations.PropPanelInteraction/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.PropPanelInteraction"
+    }
+  },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

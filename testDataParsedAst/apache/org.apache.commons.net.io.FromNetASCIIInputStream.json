@@ -1,0 +1,187 @@
+{
+  "name" : "FromNetASCIIInputStream",
+  "key" : "org.apache.commons.net.io.FromNetASCIIInputStream",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 14,
+    "endLine" : 33,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "_lineSeparatorBytes" : {
+      "name" : "_lineSeparatorBytes",
+      "key" : "_lineSeparatorBytes",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 25,
+        "endLine" : 37,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.io.FromNetASCIIInputStream/memberField/_lineSeparatorBytes",
+      "classOrInterfaceKey" : "org.apache.commons.net.io.FromNetASCIIInputStream"
+    },
+    "_noConversionRequired" : {
+      "name" : "_noConversionRequired",
+      "key" : "_noConversionRequired",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 26,
+        "endLine" : 35,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.io.FromNetASCIIInputStream/memberField/_noConversionRequired",
+      "classOrInterfaceKey" : "org.apache.commons.net.io.FromNetASCIIInputStream"
+    },
+    "_lineSeparator" : {
+      "name" : "_lineSeparator",
+      "key" : "_lineSeparator",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 25,
+        "endLine" : 36,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.io.FromNetASCIIInputStream/memberField/_lineSeparator",
+      "classOrInterfaceKey" : "org.apache.commons.net.io.FromNetASCIIInputStream"
+    },
+    "__length" : {
+      "name" : "__length",
+      "key" : "__length",
+      "type" : "int",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 17,
+        "endLine" : 45,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.io.FromNetASCIIInputStream/memberField/__length",
+      "classOrInterfaceKey" : "org.apache.commons.net.io.FromNetASCIIInputStream"
+    }
+  },
+  "methods" : {
+    "isConversionRequired" : {
+      "name" : "isConversionRequired",
+      "key" : "org.apache.commons.net.io.FromNetASCIIInputStream/method/isConversionRequired",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 33,
+        "endLine" : 56,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.io.FromNetASCIIInputStream"
+    },
+    "read" : {
+      "name" : "read",
+      "key" : "org.apache.commons.net.io.FromNetASCIIInputStream/method/read",
+      "type" : "int",
+      "position" : {
+        "startLine" : 152,
+        "startColumn" : 16,
+        "endLine" : 152,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "buffer",
+        "key" : "buffer",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 152,
+          "startColumn" : 26,
+          "endLine" : 152,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.io.FromNetASCIIInputStream/method/read"
+      }, {
+        "name" : "offset",
+        "key" : "offset",
+        "type" : "int",
+        "position" : {
+          "startLine" : 152,
+          "startColumn" : 40,
+          "endLine" : 152,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.io.FromNetASCIIInputStream/method/read"
+      }, {
+        "name" : "length",
+        "key" : "length",
+        "type" : "int",
+        "position" : {
+          "startLine" : 152,
+          "startColumn" : 52,
+          "endLine" : 152,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.io.FromNetASCIIInputStream/method/read"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.io.FromNetASCIIInputStream"
+    },
+    "available" : {
+      "name" : "available",
+      "key" : "org.apache.commons.net.io.FromNetASCIIInputStream/method/available",
+      "type" : "int",
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 16,
+        "endLine" : 194,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.io.FromNetASCIIInputStream"
+    },
+    "__read" : {
+      "name" : "__read",
+      "key" : "org.apache.commons.net.io.FromNetASCIIInputStream/method/__read",
+      "type" : "int",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 17,
+        "endLine" : 71,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.io.FromNetASCIIInputStream"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.io.PushbackInputStream" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

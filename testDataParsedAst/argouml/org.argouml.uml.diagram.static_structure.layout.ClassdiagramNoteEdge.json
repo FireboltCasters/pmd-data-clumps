@@ -1,0 +1,81 @@
+{
+  "name" : "ClassdiagramNoteEdge",
+  "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNoteEdge",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "layout" : {
+      "name" : "layout",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNoteEdge/method/layout",
+      "type" : "void",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 17,
+        "endLine" : 55,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNoteEdge"
+    },
+    "addPoints" : {
+      "name" : "addPoints",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNoteEdge/method/addPoints",
+      "type" : "void",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 18,
+        "endLine" : 75,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fs",
+        "key" : "fs",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 75,
+          "startColumn" : 32,
+          "endLine" : 75,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNoteEdge/method/addPoints"
+      }, {
+        "name" : "fd",
+        "key" : "fd",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 75,
+          "startColumn" : 40,
+          "endLine" : 75,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNoteEdge/method/addPoints"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNoteEdge"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ClassdiagramEdge" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

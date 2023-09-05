@@ -1,0 +1,97 @@
+{
+  "name" : "UMLClassifierPackageImportsListModel",
+  "key" : "org.argouml.uml.ui.model_management.UMLClassifierPackageImportsListModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 1,
+    "endLine" : 37,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.model_management.UMLClassifierPackageImportsListModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 20,
+        "endLine" : 49,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.UMLClassifierPackageImportsListModel"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.ui.model_management.UMLClassifierPackageImportsListModel/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 17,
+        "endLine" : 67,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 52,
+          "endLine" : 67,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.model_management.UMLClassifierPackageImportsListModel/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.UMLClassifierPackageImportsListModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.model_management.UMLClassifierPackageImportsListModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 23,
+        "endLine" : 56,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "elem",
+        "key" : "elem",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 56,
+          "startColumn" : 45,
+          "endLine" : 56,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.model_management.UMLClassifierPackageImportsListModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.UMLClassifierPackageImportsListModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLModelElementListModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

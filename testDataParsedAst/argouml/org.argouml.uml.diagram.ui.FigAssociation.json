@@ -1,0 +1,455 @@
+{
+  "name" : "FigAssociation",
+  "key" : "org.argouml.uml.diagram.ui.FigAssociation",
+  "type" : "class",
+  "position" : {
+    "startLine" : 71,
+    "startColumn" : 8,
+    "endLine" : 71,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "srcGroup" : {
+      "name" : "srcGroup",
+      "key" : "srcGroup",
+      "type" : "org.argouml.uml.diagram.ui.FigAssociationEndAnnotation",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 41,
+        "endLine" : 78,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigAssociation/memberField/srcGroup",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "middleGroup" : {
+      "name" : "middleGroup",
+      "key" : "middleGroup",
+      "type" : "FigTextGroup",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 26,
+        "endLine" : 89,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigAssociation/memberField/middleGroup",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "destGroup" : {
+      "name" : "destGroup",
+      "key" : "destGroup",
+      "type" : "org.argouml.uml.diagram.ui.FigAssociationEndAnnotation",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 41,
+        "endLine" : 83,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigAssociation/memberField/destGroup",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 33,
+        "endLine" : 73,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigAssociation/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "srcMult" : {
+      "name" : "srcMult",
+      "key" : "srcMult",
+      "type" : "org.argouml.uml.diagram.ui.FigMultiplicity",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 29,
+        "endLine" : 91,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigAssociation/memberField/srcMult",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "destMult" : {
+      "name" : "destMult",
+      "key" : "destMult",
+      "type" : "org.argouml.uml.diagram.ui.FigMultiplicity",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 29,
+        "endLine" : 92,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigAssociation/memberField/destMult",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    }
+  },
+  "methods" : {
+    "updateListeners" : {
+      "name" : "updateListeners",
+      "key" : "org.argouml.uml.diagram.ui.FigAssociation/method/updateListeners",
+      "type" : "void",
+      "position" : {
+        "startLine" : 196,
+        "startColumn" : 17,
+        "endLine" : 196,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "oldOwner",
+        "key" : "oldOwner",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 196,
+          "startColumn" : 40,
+          "endLine" : 196,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigAssociation/method/updateListeners"
+      }, {
+        "name" : "newOwner",
+        "key" : "newOwner",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 196,
+          "startColumn" : 57,
+          "endLine" : 196,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigAssociation/method/updateListeners"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "applyArrowHeads" : {
+      "name" : "applyArrowHeads",
+      "key" : "org.argouml.uml.diagram.ui.FigAssociation/method/applyArrowHeads",
+      "type" : "void",
+      "position" : {
+        "startLine" : 264,
+        "startColumn" : 20,
+        "endLine" : 264,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "textEdited" : {
+      "name" : "textEdited",
+      "key" : "org.argouml.uml.diagram.ui.FigAssociation/method/textEdited",
+      "type" : "void",
+      "position" : {
+        "startLine" : 217,
+        "startColumn" : 20,
+        "endLine" : 217,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ft",
+        "key" : "ft",
+        "type" : "org.tigris.gef.presentation.FigText",
+        "position" : {
+          "startLine" : 217,
+          "startColumn" : 39,
+          "endLine" : 217,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigAssociation/method/textEdited"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "textEditStarted" : {
+      "name" : "textEditStarted",
+      "key" : "org.argouml.uml.diagram.ui.FigAssociation/method/textEditStarted",
+      "type" : "void",
+      "position" : {
+        "startLine" : 244,
+        "startColumn" : 20,
+        "endLine" : 244,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ft",
+        "key" : "ft",
+        "type" : "org.tigris.gef.presentation.FigText",
+        "position" : {
+          "startLine" : 244,
+          "startColumn" : 44,
+          "endLine" : 244,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigAssociation/method/textEditStarted"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "paint" : {
+      "name" : "paint",
+      "key" : "org.argouml.uml.diagram.ui.FigAssociation/method/paint",
+      "type" : "void",
+      "position" : {
+        "startLine" : 411,
+        "startColumn" : 17,
+        "endLine" : 411,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "g",
+        "key" : "g",
+        "type" : "java.awt.Graphics",
+        "position" : {
+          "startLine" : 411,
+          "startColumn" : 32,
+          "endLine" : 411,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigAssociation/method/paint"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "getMiddleGroup" : {
+      "name" : "getMiddleGroup",
+      "key" : "org.argouml.uml.diagram.ui.FigAssociation/method/getMiddleGroup",
+      "type" : "FigTextGroup",
+      "position" : {
+        "startLine" : 440,
+        "startColumn" : 28,
+        "endLine" : 440,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "initNotationProviders" : {
+      "name" : "initNotationProviders",
+      "key" : "org.argouml.uml.diagram.ui.FigAssociation/method/initNotationProviders",
+      "type" : "void",
+      "position" : {
+        "startLine" : 182,
+        "startColumn" : 20,
+        "endLine" : 182,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "own",
+        "key" : "own",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 182,
+          "startColumn" : 49,
+          "endLine" : 182,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigAssociation/method/initNotationProviders"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "getPopUpActions" : {
+      "name" : "getPopUpActions",
+      "key" : "org.argouml.uml.diagram.ui.FigAssociation/method/getPopUpActions",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 288,
+        "startColumn" : 19,
+        "endLine" : 288,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 288,
+          "startColumn" : 46,
+          "endLine" : 288,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigAssociation/method/getPopUpActions"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "setOwner" : {
+      "name" : "setOwner",
+      "key" : "org.argouml.uml.diagram.ui.FigAssociation/method/setOwner",
+      "type" : "void",
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 17,
+        "endLine" : 154,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "owner",
+        "key" : "owner",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 154,
+          "startColumn" : 33,
+          "endLine" : 154,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigAssociation/method/setOwner"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "getNotationProviderType" : {
+      "name" : "getNotationProviderType",
+      "key" : "org.argouml.uml.diagram.ui.FigAssociation/method/getNotationProviderType",
+      "type" : "int",
+      "position" : {
+        "startLine" : 209,
+        "startColumn" : 19,
+        "endLine" : 209,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "layoutEdge" : {
+      "name" : "layoutEdge",
+      "key" : "org.argouml.uml.diagram.ui.FigAssociation/method/layoutEdge",
+      "type" : "void",
+      "position" : {
+        "startLine" : 452,
+        "startColumn" : 20,
+        "endLine" : 452,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "paintClarifiers" : {
+      "name" : "paintClarifiers",
+      "key" : "org.argouml.uml.diagram.ui.FigAssociation/method/paintClarifiers",
+      "type" : "void",
+      "position" : {
+        "startLine" : 428,
+        "startColumn" : 17,
+        "endLine" : 428,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "g",
+        "key" : "g",
+        "type" : "java.awt.Graphics",
+        "position" : {
+          "startLine" : 428,
+          "startColumn" : 42,
+          "endLine" : 428,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigAssociation/method/paintClarifiers"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "renderingChanged" : {
+      "name" : "renderingChanged",
+      "key" : "org.argouml.uml.diagram.ui.FigAssociation/method/renderingChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 174,
+        "startColumn" : 20,
+        "endLine" : 174,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    },
+    "updateMultiplicity" : {
+      "name" : "updateMultiplicity",
+      "key" : "org.argouml.uml.diagram.ui.FigAssociation/method/updateMultiplicity",
+      "type" : "void",
+      "position" : {
+        "startLine" : 398,
+        "startColumn" : 20,
+        "endLine" : 398,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAssociation"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "FigEdgeModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

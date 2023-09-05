@@ -1,0 +1,68 @@
+{
+  "name" : "ActionGenerationSettings",
+  "key" : "org.argouml.uml.ui.ActionGenerationSettings",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.ActionGenerationSettings/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 17,
+        "endLine" : 61,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 45,
+          "endLine" : 61,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionGenerationSettings/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionGenerationSettings"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.uml.ui.ActionGenerationSettings/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 20,
+        "endLine" : 71,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionGenerationSettings"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

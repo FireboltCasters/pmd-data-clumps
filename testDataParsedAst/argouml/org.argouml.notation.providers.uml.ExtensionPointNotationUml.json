@@ -1,0 +1,194 @@
+{
+  "name" : "ExtensionPointNotationUml",
+  "key" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "parseExtensionPoint" : {
+      "name" : "parseExtensionPoint",
+      "key" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml/method/parseExtensionPoint",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 20,
+        "endLine" : 124,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "text",
+        "key" : "text",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 124,
+          "startColumn" : 47,
+          "endLine" : 124,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml/method/parseExtensionPoint"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml"
+    },
+    "getParsingHelp" : {
+      "name" : "getParsingHelp",
+      "key" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml/method/getParsingHelp",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 202,
+        "startColumn" : 19,
+        "endLine" : 202,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 215,
+        "startColumn" : 19,
+        "endLine" : 215,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 215,
+          "startColumn" : 35,
+          "endLine" : 215,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml/method/toString"
+      }, {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.util.Map",
+        "position" : {
+          "startLine" : 215,
+          "startColumn" : 53,
+          "endLine" : 215,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml/method/toString"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml"
+    },
+    "parse" : {
+      "name" : "parse",
+      "key" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml/method/parse",
+      "type" : "void",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 17,
+        "endLine" : 53,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 30,
+          "endLine" : 53,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml/method/parse"
+      }, {
+        "name" : "text",
+        "key" : "text",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 51,
+          "endLine" : 53,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml/method/parse"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml"
+    },
+    "parseExtensionPointFig" : {
+      "name" : "parseExtensionPointFig",
+      "key" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml/method/parseExtensionPointFig",
+      "type" : "void",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 17,
+        "endLine" : 77,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ep",
+        "key" : "ep",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 47,
+          "endLine" : 77,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml/method/parseExtensionPointFig"
+      }, {
+        "name" : "text",
+        "key" : "text",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 58,
+          "endLine" : 77,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml/method/parseExtensionPointFig"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.ExtensionPointNotationUml"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.notation.providers.ExtensionPointNotation" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

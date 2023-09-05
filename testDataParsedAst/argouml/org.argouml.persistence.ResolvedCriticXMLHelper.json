@@ -1,0 +1,71 @@
+{
+  "name" : "ResolvedCriticXMLHelper",
+  "key" : "org.argouml.persistence.ResolvedCriticXMLHelper",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "item" : {
+      "name" : "item",
+      "key" : "item",
+      "type" : "org.argouml.cognitive.ResolvedCritic",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 34,
+        "endLine" : 45,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.ResolvedCriticXMLHelper/memberField/item",
+      "classOrInterfaceKey" : "org.argouml.persistence.ResolvedCriticXMLHelper"
+    }
+  },
+  "methods" : {
+    "getOffenderList" : {
+      "name" : "getOffenderList",
+      "key" : "org.argouml.persistence.ResolvedCriticXMLHelper/method/getOffenderList",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 38,
+        "endLine" : 80,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ResolvedCriticXMLHelper"
+    },
+    "getCritic" : {
+      "name" : "getCritic",
+      "key" : "org.argouml.persistence.ResolvedCriticXMLHelper/method/getCritic",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 19,
+        "endLine" : 67,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ResolvedCriticXMLHelper"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

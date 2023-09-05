@@ -1,0 +1,378 @@
+{
+  "name" : "SettingsTabProfile",
+  "key" : "org.argouml.ui.SettingsTabProfile",
+  "type" : "class",
+  "position" : {
+    "startLine" : 69,
+    "startColumn" : 8,
+    "endLine" : 69,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "loadFromFile" : {
+      "name" : "loadFromFile",
+      "key" : "loadFromFile",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 21,
+        "endLine" : 72,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabProfile/memberField/loadFromFile",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "removeDirectory" : {
+      "name" : "removeDirectory",
+      "key" : "removeDirectory",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 21,
+        "endLine" : 90,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabProfile/memberField/removeDirectory",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "availableList" : {
+      "name" : "availableList",
+      "key" : "availableList",
+      "type" : "javax.swing.JList",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 19,
+        "endLine" : 79,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabProfile/memberField/availableList",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "stereoField" : {
+      "name" : "stereoField",
+      "key" : "stereoField",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 23,
+        "endLine" : 102,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabProfile/memberField/stereoField",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "removeButton" : {
+      "name" : "removeButton",
+      "key" : "removeButton",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 21,
+        "endLine" : 77,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabProfile/memberField/removeButton",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "stereoLabel" : {
+      "name" : "stereoLabel",
+      "key" : "stereoLabel",
+      "type" : "javax.swing.JLabel",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 20,
+        "endLine" : 98,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabProfile/memberField/stereoLabel",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "addButton" : {
+      "name" : "addButton",
+      "key" : "addButton",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 21,
+        "endLine" : 75,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabProfile/memberField/addButton",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "addDirectory" : {
+      "name" : "addDirectory",
+      "key" : "addDirectory",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 21,
+        "endLine" : 87,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabProfile/memberField/addDirectory",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "refreshProfiles" : {
+      "name" : "refreshProfiles",
+      "key" : "refreshProfiles",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 21,
+        "endLine" : 93,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabProfile/memberField/refreshProfiles",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "directoryList" : {
+      "name" : "directoryList",
+      "key" : "directoryList",
+      "type" : "javax.swing.JList",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 19,
+        "endLine" : 85,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabProfile/memberField/directoryList",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "defaultList" : {
+      "name" : "defaultList",
+      "key" : "defaultList",
+      "type" : "javax.swing.JList",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 19,
+        "endLine" : 81,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabProfile/memberField/defaultList",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.SettingsTabProfile/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 298,
+        "startColumn" : 17,
+        "endLine" : 298,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "arg0",
+        "key" : "arg0",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 298,
+          "startColumn" : 45,
+          "endLine" : 298,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.SettingsTabProfile/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "refreshLists" : {
+      "name" : "refreshLists",
+      "key" : "org.argouml.ui.SettingsTabProfile/method/refreshLists",
+      "type" : "void",
+      "position" : {
+        "startLine" : 267,
+        "startColumn" : 18,
+        "endLine" : 267,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "handleSettingsTabRefresh" : {
+      "name" : "handleSettingsTabRefresh",
+      "key" : "org.argouml.ui.SettingsTabProfile/method/handleSettingsTabRefresh",
+      "type" : "void",
+      "position" : {
+        "startLine" : 420,
+        "startColumn" : 17,
+        "endLine" : 420,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "initDefaultStereotypeViewSelector" : {
+      "name" : "initDefaultStereotypeViewSelector",
+      "key" : "org.argouml.ui.SettingsTabProfile/method/initDefaultStereotypeViewSelector",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 211,
+        "startColumn" : 20,
+        "endLine" : 211,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "getAvailableProfiles" : {
+      "name" : "getAvailableProfiles",
+      "key" : "org.argouml.ui.SettingsTabProfile/method/getAvailableProfiles",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 281,
+        "startColumn" : 27,
+        "endLine" : 281,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "getTabPanel" : {
+      "name" : "getTabPanel",
+      "key" : "org.argouml.ui.SettingsTabProfile/method/getTabPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 408,
+        "startColumn" : 19,
+        "endLine" : 408,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "getUsedProfiles" : {
+      "name" : "getUsedProfiles",
+      "key" : "org.argouml.ui.SettingsTabProfile/method/getUsedProfiles",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 276,
+        "startColumn" : 27,
+        "endLine" : 276,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "getTabKey" : {
+      "name" : "getTabKey",
+      "key" : "org.argouml.ui.SettingsTabProfile/method/getTabKey",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 400,
+        "startColumn" : 19,
+        "endLine" : 400,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "handleResetToDefault" : {
+      "name" : "handleResetToDefault",
+      "key" : "org.argouml.ui.SettingsTabProfile/method/handleResetToDefault",
+      "type" : "void",
+      "position" : {
+        "startLine" : 412,
+        "startColumn" : 17,
+        "endLine" : 412,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "handleSettingsTabCancel" : {
+      "name" : "handleSettingsTabCancel",
+      "key" : "org.argouml.ui.SettingsTabProfile/method/handleSettingsTabCancel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 416,
+        "startColumn" : 17,
+        "endLine" : 416,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    },
+    "handleSettingsTabSave" : {
+      "name" : "handleSettingsTabSave",
+      "key" : "org.argouml.ui.SettingsTabProfile/method/handleSettingsTabSave",
+      "type" : "void",
+      "position" : {
+        "startLine" : 438,
+        "startColumn" : 17,
+        "endLine" : 438,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabProfile"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.GUISettingsTabInterface", "java.awt.event.ActionListener" ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

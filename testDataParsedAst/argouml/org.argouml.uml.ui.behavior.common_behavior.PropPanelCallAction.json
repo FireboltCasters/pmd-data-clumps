@@ -1,0 +1,291 @@
+{
+  "name" : "PropPanelCallAction",
+  "key" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction",
+  "type" : "class",
+  "position" : {
+    "startLine" : 46,
+    "startColumn" : 8,
+    "endLine" : 46,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 240,
+        "startColumn" : 31,
+        "endLine" : 240,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction"
+    }
+  },
+  "methods" : {
+    "initialize" : {
+      "name" : "initialize",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction/method/initialize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 17,
+        "endLine" : 59,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "PropPanelAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBox2" : {
+      "name" : "UMLCallActionOperationComboBox2",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBox2",
+      "type" : "class",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 20,
+        "endLine" : 73,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "serialVersionUID" : {
+          "name" : "serialVersionUID",
+          "key" : "serialVersionUID",
+          "type" : "long",
+          "position" : {
+            "startLine" : 88,
+            "startColumn" : 35,
+            "endLine" : 88,
+            "endColumn" : 51
+          },
+          "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBox2/memberField/serialVersionUID",
+          "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBox2"
+        }
+      },
+      "methods" : { },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.uml.ui.UMLSearchableComboBox" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.SetActionOperationAction" : {
+      "name" : "SetActionOperationAction",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.SetActionOperationAction",
+      "type" : "class",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 20,
+        "endLine" : 91,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "serialVersionUID" : {
+          "name" : "serialVersionUID",
+          "key" : "serialVersionUID",
+          "type" : "long",
+          "position" : {
+            "startLine" : 122,
+            "startColumn" : 35,
+            "endLine" : 122,
+            "endColumn" : 51
+          },
+          "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.SetActionOperationAction/memberField/serialVersionUID",
+          "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.SetActionOperationAction"
+        }
+      },
+      "methods" : {
+        "actionPerformed" : {
+          "name" : "actionPerformed",
+          "key" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.SetActionOperationAction/method/actionPerformed",
+          "type" : "void",
+          "position" : {
+            "startLine" : 103,
+            "startColumn" : 21,
+            "endLine" : 103,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "e",
+            "key" : "e",
+            "type" : "java.awt.event.ActionEvent",
+            "position" : {
+              "startLine" : 103,
+              "startColumn" : 49,
+              "endLine" : 103,
+              "endColumn" : 50
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.SetActionOperationAction/method/actionPerformed"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.SetActionOperationAction"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBoxModel" : {
+      "name" : "UMLCallActionOperationComboBoxModel",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBoxModel",
+      "type" : "class",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 20,
+        "endLine" : 125,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "serialVersionUID" : {
+          "name" : "serialVersionUID",
+          "key" : "serialVersionUID",
+          "type" : "long",
+          "position" : {
+            "startLine" : 234,
+            "startColumn" : 35,
+            "endLine" : 234,
+            "endColumn" : 51
+          },
+          "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBoxModel/memberField/serialVersionUID",
+          "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBoxModel"
+        }
+      },
+      "methods" : {
+        "buildModelList" : {
+          "name" : "buildModelList",
+          "key" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBoxModel/method/buildModelList",
+          "type" : "void",
+          "position" : {
+            "startLine" : 144,
+            "startColumn" : 24,
+            "endLine" : 144,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBoxModel"
+        },
+        "getSelectedModelElement" : {
+          "name" : "getSelectedModelElement",
+          "key" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBoxModel/method/getSelectedModelElement",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 186,
+            "startColumn" : 26,
+            "endLine" : 186,
+            "endColumn" : 49
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBoxModel"
+        },
+        "propertyChange" : {
+          "name" : "propertyChange",
+          "key" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBoxModel/method/propertyChange",
+          "type" : "void",
+          "position" : {
+            "startLine" : 219,
+            "startColumn" : 21,
+            "endLine" : 219,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "evt",
+            "key" : "evt",
+            "type" : "java.beans.PropertyChangeEvent",
+            "position" : {
+              "startLine" : 219,
+              "startColumn" : 56,
+              "endLine" : 219,
+              "endColumn" : 59
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBoxModel/method/propertyChange"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBoxModel"
+        },
+        "isValidElement" : {
+          "name" : "isValidElement",
+          "key" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBoxModel/method/isValidElement",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 197,
+            "startColumn" : 27,
+            "endLine" : 197,
+            "endColumn" : 41
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "element",
+            "key" : "element",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 197,
+              "startColumn" : 49,
+              "endLine" : 197,
+              "endColumn" : 56
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBoxModel/method/isValidElement"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction.UMLCallActionOperationComboBoxModel"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.uml.ui.UMLComboBoxModel2" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelCallAction",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

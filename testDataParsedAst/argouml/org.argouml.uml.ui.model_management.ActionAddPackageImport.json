@@ -1,0 +1,100 @@
+{
+  "name" : "ActionAddPackageImport",
+  "key" : "org.argouml.uml.ui.model_management.ActionAddPackageImport",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 1,
+    "endLine" : 40,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "getSelected" : {
+      "name" : "getSelected",
+      "key" : "org.argouml.uml.ui.model_management.ActionAddPackageImport/method/getSelected",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 20,
+        "endLine" : 61,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.ActionAddPackageImport"
+    },
+    "getChoices" : {
+      "name" : "getChoices",
+      "key" : "org.argouml.uml.ui.model_management.ActionAddPackageImport/method/getChoices",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 20,
+        "endLine" : 50,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.ActionAddPackageImport"
+    },
+    "doIt" : {
+      "name" : "doIt",
+      "key" : "org.argouml.uml.ui.model_management.ActionAddPackageImport/method/doIt",
+      "type" : "void",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 20,
+        "endLine" : 74,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "selected",
+        "key" : "selected",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 74,
+          "startColumn" : 36,
+          "endLine" : 74,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.model_management.ActionAddPackageImport/method/doIt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.ActionAddPackageImport"
+    },
+    "getDialogTitle" : {
+      "name" : "getDialogTitle",
+      "key" : "org.argouml.uml.ui.model_management.ActionAddPackageImport/method/getDialogTitle",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 22,
+        "endLine" : 68,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.ActionAddPackageImport"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionAddModelElement2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

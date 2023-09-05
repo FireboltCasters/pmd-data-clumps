@@ -1,0 +1,84 @@
+{
+  "name" : "UMLStubStateComboBoxModel",
+  "key" : "org.argouml.uml.ui.behavior.state_machines.UMLStubStateComboBoxModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.UMLStubStateComboBoxModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 20,
+        "endLine" : 57,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.UMLStubStateComboBoxModel"
+    },
+    "getSelectedModelElement" : {
+      "name" : "getSelectedModelElement",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.UMLStubStateComboBoxModel/method/getSelectedModelElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 22,
+        "endLine" : 83,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.UMLStubStateComboBoxModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.UMLStubStateComboBoxModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 23,
+        "endLine" : 48,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 45,
+          "endLine" : 48,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.state_machines.UMLStubStateComboBoxModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.UMLStubStateComboBoxModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLComboBoxModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

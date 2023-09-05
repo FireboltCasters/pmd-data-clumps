@@ -1,0 +1,101 @@
+{
+  "name" : "PropPanelElementImport",
+  "key" : "org.argouml.uml.ui.model_management.PropPanelElementImport",
+  "type" : "class",
+  "position" : {
+    "startLine" : 49,
+    "startColumn" : 8,
+    "endLine" : 49,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "aliasDocument" : {
+      "name" : "aliasDocument",
+      "key" : "aliasDocument",
+      "type" : "org.argouml.uml.ui.model_management.UMLElementImportAliasDocument",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 50,
+        "endLine" : 53,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.model_management.PropPanelElementImport/memberField/aliasDocument",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.PropPanelElementImport"
+    },
+    "aliasTextField" : {
+      "name" : "aliasTextField",
+      "key" : "aliasTextField",
+      "type" : "javax.swing.JTextField",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 24,
+        "endLine" : 52,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.model_management.PropPanelElementImport/memberField/aliasTextField",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.PropPanelElementImport"
+    },
+    "modifiersPanel" : {
+      "name" : "modifiersPanel",
+      "key" : "modifiersPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 20,
+        "endLine" : 51,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.model_management.PropPanelElementImport/memberField/modifiersPanel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.PropPanelElementImport"
+    }
+  },
+  "methods" : {
+    "getModifiersPanel" : {
+      "name" : "getModifiersPanel",
+      "key" : "org.argouml.uml.ui.model_management.PropPanelElementImport/method/getModifiersPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 19,
+        "endLine" : 92,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.PropPanelElementImport"
+    },
+    "getAliasTextField" : {
+      "name" : "getAliasTextField",
+      "key" : "org.argouml.uml.ui.model_management.PropPanelElementImport/method/getAliasTextField",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 26,
+        "endLine" : 85,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.PropPanelElementImport"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

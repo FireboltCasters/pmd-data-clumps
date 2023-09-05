@@ -1,0 +1,100 @@
+{
+  "name" : "ActionAddExtensionPoint",
+  "key" : "org.argouml.uml.diagram.ui.ActionAddExtensionPoint",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 14,
+    "endLine" : 47,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "singleton" : {
+      "name" : "singleton",
+      "key" : "singleton",
+      "type" : "org.argouml.uml.diagram.ui.ActionAddExtensionPoint",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 44,
+        "endLine" : 53,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionAddExtensionPoint/memberField/singleton",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddExtensionPoint"
+    }
+  },
+  "methods" : {
+    "singleton" : {
+      "name" : "singleton",
+      "key" : "org.argouml.uml.diagram.ui.ActionAddExtensionPoint/method/singleton",
+      "type" : "org.argouml.uml.diagram.ui.ActionAddExtensionPoint",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 43,
+        "endLine" : 90,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddExtensionPoint"
+    },
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.diagram.ui.ActionAddExtensionPoint/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 17,
+        "endLine" : 107,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 45,
+          "endLine" : 107,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionAddExtensionPoint/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddExtensionPoint"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.uml.diagram.ui.ActionAddExtensionPoint/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 20,
+        "endLine" : 138,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddExtensionPoint"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

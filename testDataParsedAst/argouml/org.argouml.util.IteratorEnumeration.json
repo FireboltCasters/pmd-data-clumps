@@ -1,0 +1,71 @@
+{
+  "name" : "IteratorEnumeration",
+  "key" : "org.argouml.util.IteratorEnumeration",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "it" : {
+      "name" : "it",
+      "key" : "it",
+      "type" : "java.util.Iterator",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 25,
+        "endLine" : 39,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.IteratorEnumeration/memberField/it",
+      "classOrInterfaceKey" : "org.argouml.util.IteratorEnumeration"
+    }
+  },
+  "methods" : {
+    "hasMoreElements" : {
+      "name" : "hasMoreElements",
+      "key" : "org.argouml.util.IteratorEnumeration/method/hasMoreElements",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 20,
+        "endLine" : 45,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.IteratorEnumeration"
+    },
+    "nextElement" : {
+      "name" : "nextElement",
+      "key" : "org.argouml.util.IteratorEnumeration/method/nextElement",
+      "type" : null,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 14,
+        "endLine" : 49,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.IteratorEnumeration"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.util.Enumeration" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,313 @@
+{
+  "name" : "CrUnconventionalAttrName",
+  "key" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName",
+  "type" : "class",
+  "position" : {
+    "startLine" : 52,
+    "startColumn" : 8,
+    "endLine" : 52,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 233,
+        "startColumn" : 31,
+        "endLine" : 233,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName"
+    }
+  },
+  "methods" : {
+    "initWizard" : {
+      "name" : "initWizard",
+      "key" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/initWizard",
+      "type" : "void",
+      "position" : {
+        "startLine" : 202,
+        "startColumn" : 17,
+        "endLine" : 202,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "w",
+        "key" : "w",
+        "type" : "org.argouml.cognitive.critics.Wizard",
+        "position" : {
+          "startLine" : 202,
+          "startColumn" : 35,
+          "endLine" : 202,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/initWizard"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName"
+    },
+    "computeOffenders" : {
+      "name" : "computeOffenders",
+      "key" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/computeOffenders",
+      "type" : "org.argouml.cognitive.ListSet",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 23,
+        "endLine" : 132,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 132,
+          "startColumn" : 47,
+          "endLine" : 132,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/computeOffenders"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName"
+    },
+    "predicate2" : {
+      "name" : "predicate2",
+      "key" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/predicate2",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 20,
+        "endLine" : 69,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 38,
+          "endLine" : 69,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/predicate2"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 51,
+          "endLine" : 69,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/predicate2"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName"
+    },
+    "stillValid" : {
+      "name" : "stillValid",
+      "key" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/stillValid",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 183,
+        "startColumn" : 20,
+        "endLine" : 183,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "i",
+        "key" : "i",
+        "type" : "org.argouml.cognitive.ToDoItem",
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 40,
+          "endLine" : 183,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/stillValid"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 52,
+          "endLine" : 183,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/stillValid"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName"
+    },
+    "getClarifier" : {
+      "name" : "getClarifier",
+      "key" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/getClarifier",
+      "type" : "javax.swing.Icon",
+      "position" : {
+        "startLine" : 175,
+        "startColumn" : 17,
+        "endLine" : 175,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName"
+    },
+    "getWizardClass" : {
+      "name" : "getWizardClass",
+      "key" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/getWizardClass",
+      "type" : "java.lang.Class",
+      "position" : {
+        "startLine" : 217,
+        "startColumn" : 18,
+        "endLine" : 217,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "org.argouml.cognitive.ToDoItem",
+        "position" : {
+          "startLine" : 217,
+          "startColumn" : 42,
+          "endLine" : 217,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/getWizardClass"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName"
+    },
+    "getCriticizedDesignMaterials" : {
+      "name" : "getCriticizedDesignMaterials",
+      "key" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/getCriticizedDesignMaterials",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 224,
+        "startColumn" : 24,
+        "endLine" : 224,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName"
+    },
+    "toDoItem" : {
+      "name" : "toDoItem",
+      "key" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/toDoItem",
+      "type" : "org.argouml.cognitive.ToDoItem",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 21,
+        "endLine" : 122,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 122,
+          "startColumn" : 37,
+          "endLine" : 122,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/toDoItem"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 122,
+          "startColumn" : 50,
+          "endLine" : 122,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/toDoItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName"
+    },
+    "computeSuggestion" : {
+      "name" : "computeSuggestion",
+      "key" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/computeSuggestion",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 19,
+        "endLine" : 141,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 141,
+          "startColumn" : 44,
+          "endLine" : 141,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName/method/computeSuggestion"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUnconventionalAttrName"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbstractCrUnconventionalName" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

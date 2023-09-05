@@ -1,0 +1,132 @@
+{
+  "name" : "ProfileJava",
+  "key" : "org.argouml.profile.internal.ProfileJava",
+  "type" : "class",
+  "position" : {
+    "startLine" : 46,
+    "startColumn" : 8,
+    "endLine" : 46,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "profileModelLoader" : {
+      "name" : "profileModelLoader",
+      "key" : "profileModelLoader",
+      "type" : "org.argouml.profile.ProfileModelLoader",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 32,
+        "endLine" : 51,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.profile.internal.ProfileJava/memberField/profileModelLoader",
+      "classOrInterfaceKey" : "org.argouml.profile.internal.ProfileJava"
+    },
+    "model" : {
+      "name" : "model",
+      "key" : "model",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 24,
+        "endLine" : 52,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.profile.internal.ProfileJava/memberField/model",
+      "classOrInterfaceKey" : "org.argouml.profile.internal.ProfileJava"
+    },
+    "PROFILE_FILE" : {
+      "name" : "PROFILE_FILE",
+      "key" : "PROFILE_FILE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 33,
+        "endLine" : 48,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.profile.internal.ProfileJava/memberField/PROFILE_FILE",
+      "classOrInterfaceKey" : "org.argouml.profile.internal.ProfileJava"
+    },
+    "NAME" : {
+      "name" : "NAME",
+      "key" : "NAME",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 25,
+        "endLine" : 49,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.profile.internal.ProfileJava/memberField/NAME",
+      "classOrInterfaceKey" : "org.argouml.profile.internal.ProfileJava"
+    }
+  },
+  "methods" : {
+    "getProfilePackages" : {
+      "name" : "getProfilePackages",
+      "key" : "org.argouml.profile.internal.ProfileJava/method/getProfilePackages",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 23,
+        "endLine" : 90,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.profile.internal.ProfileJava"
+    },
+    "getDisplayName" : {
+      "name" : "getDisplayName",
+      "key" : "org.argouml.profile.internal.ProfileJava/method/getDisplayName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 19,
+        "endLine" : 84,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.profile.internal.ProfileJava"
+    },
+    "getDefaultTypeStrategy" : {
+      "name" : "getDefaultTypeStrategy",
+      "key" : "org.argouml.profile.internal.ProfileJava/method/getDefaultTypeStrategy",
+      "type" : "org.argouml.profile.DefaultTypeStrategy",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 32,
+        "endLine" : 96,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.profile.internal.ProfileJava"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.profile.Profile" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,609 @@
+{
+  "name" : "LookAndFeelMgr",
+  "key" : "org.argouml.ui.LookAndFeelMgr",
+  "type" : "class",
+  "position" : {
+    "startLine" : 63,
+    "startColumn" : 14,
+    "endLine" : 63,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "DEFAULT_THEME" : {
+      "name" : "DEFAULT_THEME",
+      "key" : "DEFAULT_THEME",
+      "type" : "javax.swing.plaf.metal.MetalTheme",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 38,
+        "endLine" : 86,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.LookAndFeelMgr/memberField/DEFAULT_THEME",
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "THEMES" : {
+      "name" : "THEMES",
+      "key" : "THEMES",
+      "type" : "javax.swing.plaf.metal.MetalTheme[]",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 39,
+        "endLine" : 96,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.LookAndFeelMgr/memberField/THEMES",
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 33,
+        "endLine" : 67,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.LookAndFeelMgr/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "METAL_LAF_CLASS_NAME" : {
+      "name" : "METAL_LAF_CLASS_NAME",
+      "key" : "METAL_LAF_CLASS_NAME",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 49,
+        "endLine" : 77,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.LookAndFeelMgr/memberField/METAL_LAF_CLASS_NAME",
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "SINGLETON" : {
+      "name" : "SINGLETON",
+      "key" : "SINGLETON",
+      "type" : "org.argouml.ui.LookAndFeelMgr",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 41,
+        "endLine" : 72,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.LookAndFeelMgr/memberField/SINGLETON",
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "BIG_THEME" : {
+      "name" : "BIG_THEME",
+      "key" : "BIG_THEME",
+      "type" : "javax.swing.plaf.metal.MetalTheme",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 38,
+        "endLine" : 88,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.LookAndFeelMgr/memberField/BIG_THEME",
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "DEFAULT_KEY" : {
+      "name" : "DEFAULT_KEY",
+      "key" : "DEFAULT_KEY",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 35,
+        "endLine" : 83,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.LookAndFeelMgr/memberField/DEFAULT_KEY",
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "HUGE_THEME" : {
+      "name" : "HUGE_THEME",
+      "key" : "HUGE_THEME",
+      "type" : "javax.swing.plaf.metal.MetalTheme",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 38,
+        "endLine" : 90,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.LookAndFeelMgr/memberField/HUGE_THEME",
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "defaultLafClass" : {
+      "name" : "defaultLafClass",
+      "key" : "defaultLafClass",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 23,
+        "endLine" : 107,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.LookAndFeelMgr/memberField/defaultLafClass",
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    }
+  },
+  "methods" : {
+    "setCurrentLAFAndThemeByName" : {
+      "name" : "setCurrentLAFAndThemeByName",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/setCurrentLAFAndThemeByName",
+      "type" : "void",
+      "position" : {
+        "startLine" : 310,
+        "startColumn" : 17,
+        "endLine" : 310,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "lafName",
+        "key" : "lafName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 310,
+          "startColumn" : 52,
+          "endLine" : 310,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.LookAndFeelMgr/method/setCurrentLAFAndThemeByName"
+      }, {
+        "name" : "themeName",
+        "key" : "themeName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 310,
+          "startColumn" : 68,
+          "endLine" : 310,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.LookAndFeelMgr/method/setCurrentLAFAndThemeByName"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "getAvailableThemeNames" : {
+      "name" : "getAvailableThemeNames",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/getAvailableThemeNames",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 191,
+        "startColumn" : 21,
+        "endLine" : 191,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "printThemeArgs" : {
+      "name" : "printThemeArgs",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/printThemeArgs",
+      "type" : "void",
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 17,
+        "endLine" : 160,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "getSmallFont" : {
+      "name" : "getSmallFont",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/getSmallFont",
+      "type" : "java.awt.Font",
+      "position" : {
+        "startLine" : 417,
+        "startColumn" : 17,
+        "endLine" : 417,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "getCurrentLookAndFeel" : {
+      "name" : "getCurrentLookAndFeel",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/getCurrentLookAndFeel",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 269,
+        "startColumn" : 19,
+        "endLine" : 269,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "getLookAndFeelFromName" : {
+      "name" : "getLookAndFeelFromName",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/getLookAndFeelFromName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 207,
+        "startColumn" : 19,
+        "endLine" : 207,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 207,
+          "startColumn" : 49,
+          "endLine" : 207,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.LookAndFeelMgr/method/getLookAndFeelFromName"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "getThemeClassNameFromArg" : {
+      "name" : "getThemeClassNameFromArg",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/getThemeClassNameFromArg",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 148,
+        "startColumn" : 19,
+        "endLine" : 148,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "arg",
+        "key" : "arg",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 148,
+          "startColumn" : 51,
+          "endLine" : 148,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.LookAndFeelMgr/method/getThemeClassNameFromArg"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "getCurrentThemeName" : {
+      "name" : "getCurrentThemeName",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/getCurrentThemeName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 358,
+        "startColumn" : 19,
+        "endLine" : 358,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "getCurrentLookAndFeelName" : {
+      "name" : "getCurrentLookAndFeelName",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/getCurrentLookAndFeelName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 283,
+        "startColumn" : 19,
+        "endLine" : 283,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "getAvailableLookAndFeelNames" : {
+      "name" : "getAvailableLookAndFeelNames",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/getAvailableLookAndFeelNames",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 21,
+        "endLine" : 172,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "initializeLookAndFeel" : {
+      "name" : "initializeLookAndFeel",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/initializeLookAndFeel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 134,
+        "startColumn" : 17,
+        "endLine" : 134,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "getCurrentThemeClassName" : {
+      "name" : "getCurrentThemeClassName",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/getCurrentThemeClassName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 343,
+        "startColumn" : 19,
+        "endLine" : 343,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "getThemeFromName" : {
+      "name" : "getThemeFromName",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/getThemeFromName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 231,
+        "startColumn" : 19,
+        "endLine" : 231,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 231,
+          "startColumn" : 43,
+          "endLine" : 231,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.LookAndFeelMgr/method/getThemeFromName"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "setTheme" : {
+      "name" : "setTheme",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/setTheme",
+      "type" : "void",
+      "position" : {
+        "startLine" : 456,
+        "startColumn" : 18,
+        "endLine" : 456,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theme",
+        "key" : "theme",
+        "type" : "javax.swing.plaf.metal.MetalTheme",
+        "position" : {
+          "startLine" : 456,
+          "startColumn" : 38,
+          "endLine" : 456,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.LookAndFeelMgr/method/setTheme"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "isThemeCompatibleLookAndFeel" : {
+      "name" : "isThemeCompatibleLookAndFeel",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/isThemeCompatibleLookAndFeel",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 254,
+        "startColumn" : 20,
+        "endLine" : 254,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "lafClass",
+        "key" : "lafClass",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 254,
+          "startColumn" : 56,
+          "endLine" : 254,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.LookAndFeelMgr/method/isThemeCompatibleLookAndFeel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "setLookAndFeel" : {
+      "name" : "setLookAndFeel",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/setLookAndFeel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 430,
+        "startColumn" : 18,
+        "endLine" : 430,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "lafClass",
+        "key" : "lafClass",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 430,
+          "startColumn" : 40,
+          "endLine" : 430,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.LookAndFeelMgr/method/setLookAndFeel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "setCurrentTheme" : {
+      "name" : "setCurrentTheme",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/setCurrentTheme",
+      "type" : "void",
+      "position" : {
+        "startLine" : 381,
+        "startColumn" : 17,
+        "endLine" : 381,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "themeClass",
+        "key" : "themeClass",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 381,
+          "startColumn" : 40,
+          "endLine" : 381,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.LookAndFeelMgr/method/setCurrentTheme"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/getInstance",
+      "type" : "org.argouml.ui.LookAndFeelMgr",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 34,
+        "endLine" : 114,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "getStandardFont" : {
+      "name" : "getStandardFont",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/getStandardFont",
+      "type" : "java.awt.Font",
+      "position" : {
+        "startLine" : 406,
+        "startColumn" : 17,
+        "endLine" : 406,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    },
+    "getMetalTheme" : {
+      "name" : "getMetalTheme",
+      "key" : "org.argouml.ui.LookAndFeelMgr/method/getMetalTheme",
+      "type" : "javax.swing.plaf.metal.MetalTheme",
+      "position" : {
+        "startLine" : 487,
+        "startColumn" : 24,
+        "endLine" : 487,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "themeClass",
+        "key" : "themeClass",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 487,
+          "startColumn" : 45,
+          "endLine" : 487,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.LookAndFeelMgr/method/getMetalTheme"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.LookAndFeelMgr"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,39 @@
+{
+  "name" : "ModeCreatePermission",
+  "key" : "org.argouml.uml.diagram.ui.ModeCreatePermission",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 14,
+    "endLine" : 38,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "getMetaType" : {
+      "name" : "getMetaType",
+      "key" : "org.argouml.uml.diagram.ui.ModeCreatePermission/method/getMetaType",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 28,
+        "endLine" : 40,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ModeCreatePermission"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ModeCreateDependency" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

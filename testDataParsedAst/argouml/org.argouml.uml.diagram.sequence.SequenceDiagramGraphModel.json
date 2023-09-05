@@ -1,0 +1,652 @@
+{
+  "name" : "SequenceDiagramGraphModel",
+  "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 53,
+    "startColumn" : 8,
+    "endLine" : 53,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "defaultStateMachine" : {
+      "name" : "defaultStateMachine",
+      "key" : "defaultStateMachine",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 20,
+        "endLine" : 84,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/memberField/defaultStateMachine",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 519,
+        "startColumn" : 31,
+        "endLine" : 519,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "defaultState" : {
+      "name" : "defaultState",
+      "key" : "defaultState",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 20,
+        "endLine" : 79,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/memberField/defaultState",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 33,
+        "endLine" : 60,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "collaboration" : {
+      "name" : "collaboration",
+      "key" : "collaboration",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 20,
+        "endLine" : 69,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/memberField/collaboration",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "interaction" : {
+      "name" : "interaction",
+      "key" : "interaction",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 20,
+        "endLine" : 74,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/memberField/interaction",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    }
+  },
+  "methods" : {
+    "getPorts" : {
+      "name" : "getPorts",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/getPorts",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 17,
+        "endLine" : 99,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "nodeOrEdge",
+        "key" : "nodeOrEdge",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 99,
+          "startColumn" : 33,
+          "endLine" : 99,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/getPorts"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "getDefaultState" : {
+      "name" : "getDefaultState",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/getDefaultState",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 488,
+        "startColumn" : 20,
+        "endLine" : 488,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "addNode" : {
+      "name" : "addNode",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/addNode",
+      "type" : "void",
+      "position" : {
+        "startLine" : 205,
+        "startColumn" : 17,
+        "endLine" : 205,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 205,
+          "startColumn" : 32,
+          "endLine" : 205,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/addNode"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "canAddNode" : {
+      "name" : "canAddNode",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/canAddNode",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 146,
+        "startColumn" : 20,
+        "endLine" : 146,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 146,
+          "startColumn" : 38,
+          "endLine" : 146,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/canAddNode"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "getDefaultStateMachine" : {
+      "name" : "getDefaultStateMachine",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/getDefaultStateMachine",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 458,
+        "startColumn" : 20,
+        "endLine" : 458,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "setCollaboration" : {
+      "name" : "setCollaboration",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/setCollaboration",
+      "type" : "void",
+      "position" : {
+        "startLine" : 440,
+        "startColumn" : 17,
+        "endLine" : 440,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 440,
+          "startColumn" : 41,
+          "endLine" : 440,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/setCollaboration"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "setHomeModel" : {
+      "name" : "setHomeModel",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/setHomeModel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 505,
+        "startColumn" : 17,
+        "endLine" : 505,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "namespace",
+        "key" : "namespace",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 505,
+          "startColumn" : 37,
+          "endLine" : 505,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/setHomeModel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "getOwner" : {
+      "name" : "getOwner",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/getOwner",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 19,
+        "endLine" : 114,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "port",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 114,
+          "startColumn" : 35,
+          "endLine" : 114,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/getOwner"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "getInEdges" : {
+      "name" : "getInEdges",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/getInEdges",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 121,
+        "startColumn" : 17,
+        "endLine" : 121,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "port",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 121,
+          "startColumn" : 35,
+          "endLine" : 121,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/getInEdges"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "canConnect" : {
+      "name" : "canConnect",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/canConnect",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 227,
+        "startColumn" : 20,
+        "endLine" : 227,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fromP",
+        "key" : "fromP",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 227,
+          "startColumn" : 38,
+          "endLine" : 227,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/canConnect"
+      }, {
+        "name" : "toP",
+        "key" : "toP",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 227,
+          "startColumn" : 52,
+          "endLine" : 227,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/canConnect"
+      }, {
+        "name" : "edgeType",
+        "key" : "edgeType",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 227,
+          "startColumn" : 64,
+          "endLine" : 227,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/canConnect"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "getHomeModel" : {
+      "name" : "getHomeModel",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/getHomeModel",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 500,
+        "startColumn" : 19,
+        "endLine" : 500,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 521,
+        "startColumn" : 17,
+        "endLine" : 521,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "evt",
+        "key" : "evt",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 521,
+          "startColumn" : 52,
+          "endLine" : 521,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "getCollaboration" : {
+      "name" : "getCollaboration",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/getCollaboration",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 425,
+        "startColumn" : 19,
+        "endLine" : 425,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "getOutEdges" : {
+      "name" : "getOutEdges",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/getOutEdges",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 17,
+        "endLine" : 132,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "port",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 132,
+          "startColumn" : 36,
+          "endLine" : 132,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/getOutEdges"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "addEdge" : {
+      "name" : "addEdge",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/addEdge",
+      "type" : "void",
+      "position" : {
+        "startLine" : 216,
+        "startColumn" : 17,
+        "endLine" : 216,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "edge",
+        "key" : "edge",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 216,
+          "startColumn" : 32,
+          "endLine" : 216,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/addEdge"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "getInteraction" : {
+      "name" : "getInteraction",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/getInteraction",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 448,
+        "startColumn" : 20,
+        "endLine" : 448,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "connect" : {
+      "name" : "connect",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/connect",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 290,
+        "startColumn" : 19,
+        "endLine" : 290,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fromPort",
+        "key" : "fromPort",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 290,
+          "startColumn" : 34,
+          "endLine" : 290,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/connect"
+      }, {
+        "name" : "toPort",
+        "key" : "toPort",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 290,
+          "startColumn" : 51,
+          "endLine" : 290,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/connect"
+      }, {
+        "name" : "edgeType",
+        "key" : "edgeType",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 290,
+          "startColumn" : 66,
+          "endLine" : 290,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/connect"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "canAddEdge" : {
+      "name" : "canAddEdge",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/canAddEdge",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 158,
+        "startColumn" : 20,
+        "endLine" : 158,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "edge",
+        "key" : "edge",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 158,
+          "startColumn" : 38,
+          "endLine" : 158,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/canAddEdge"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    },
+    "vetoableChange" : {
+      "name" : "vetoableChange",
+      "key" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/vetoableChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 399,
+        "startColumn" : 17,
+        "endLine" : 399,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pce",
+        "key" : "pce",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 399,
+          "startColumn" : 52,
+          "endLine" : 399,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel/method/vetoableChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.beans.VetoableChangeListener", "java.beans.PropertyChangeListener" ],
+  "extends_" : [ "org.argouml.uml.diagram.UMLMutableGraphSupport" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

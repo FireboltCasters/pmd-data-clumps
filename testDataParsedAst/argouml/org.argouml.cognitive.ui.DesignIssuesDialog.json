@@ -1,0 +1,143 @@
+{
+  "name" : "DesignIssuesDialog",
+  "key" : "org.argouml.cognitive.ui.DesignIssuesDialog",
+  "type" : "class",
+  "position" : {
+    "startLine" : 53,
+    "startColumn" : 8,
+    "endLine" : 53,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "mainPanel" : {
+      "name" : "mainPanel",
+      "key" : "mainPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 21,
+        "endLine" : 59,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.DesignIssuesDialog/memberField/mainPanel",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.DesignIssuesDialog"
+    },
+    "slidersToDigits" : {
+      "name" : "slidersToDigits",
+      "key" : "slidersToDigits",
+      "type" : "java.util.Hashtable",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 40,
+        "endLine" : 62,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.DesignIssuesDialog/memberField/slidersToDigits",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.DesignIssuesDialog"
+    },
+    "slidersToDecisions" : {
+      "name" : "slidersToDecisions",
+      "key" : "slidersToDecisions",
+      "type" : "java.util.Hashtable",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 42,
+        "endLine" : 60,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.DesignIssuesDialog/memberField/slidersToDecisions",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.DesignIssuesDialog"
+    }
+  },
+  "methods" : {
+    "getValueText" : {
+      "name" : "getValueText",
+      "key" : "org.argouml.cognitive.ui.DesignIssuesDialog/method/getValueText",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 208,
+        "startColumn" : 20,
+        "endLine" : 208,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "priority",
+        "key" : "priority",
+        "type" : "int",
+        "position" : {
+          "startLine" : 208,
+          "startColumn" : 37,
+          "endLine" : 208,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.DesignIssuesDialog/method/getValueText"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.DesignIssuesDialog"
+    },
+    "initMainPanel" : {
+      "name" : "initMainPanel",
+      "key" : "org.argouml.cognitive.ui.DesignIssuesDialog/method/initMainPanel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 18,
+        "endLine" : 86,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.DesignIssuesDialog"
+    },
+    "stateChanged" : {
+      "name" : "stateChanged",
+      "key" : "org.argouml.cognitive.ui.DesignIssuesDialog/method/stateChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 199,
+        "startColumn" : 17,
+        "endLine" : 199,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ce",
+        "key" : "ce",
+        "type" : "javax.swing.event.ChangeEvent",
+        "position" : {
+          "startLine" : 199,
+          "startColumn" : 42,
+          "endLine" : 199,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.DesignIssuesDialog/method/stateChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.DesignIssuesDialog"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "javax.swing.event.ChangeListener" ],
+  "extends_" : [ "org.argouml.util.ArgoDialog" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

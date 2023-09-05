@@ -1,0 +1,444 @@
+{
+  "name" : "ArgoToolbarManager",
+  "key" : "org.argouml.ui.ArgoToolbarManager",
+  "type" : "class",
+  "position" : {
+    "startLine" : 52,
+    "startColumn" : 8,
+    "endLine" : 52,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "popup" : {
+      "name" : "popup",
+      "key" : "popup",
+      "type" : "javax.swing.JPopupMenu",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 24,
+        "endLine" : 123,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoToolbarManager/memberField/popup",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager"
+    },
+    "allMenuItems" : {
+      "name" : "allMenuItems",
+      "key" : "allMenuItems",
+      "type" : "java.util.ArrayList",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 34,
+        "endLine" : 133,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoToolbarManager/memberField/allMenuItems",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager"
+    },
+    "instance" : {
+      "name" : "instance",
+      "key" : "instance",
+      "type" : "org.argouml.ui.ArgoToolbarManager",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 39,
+        "endLine" : 118,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoToolbarManager/memberField/instance",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager"
+    },
+    "menu" : {
+      "name" : "menu",
+      "key" : "menu",
+      "type" : "javax.swing.JMenu",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 19,
+        "endLine" : 128,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoToolbarManager/memberField/menu",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager"
+    },
+    "KEY_NAME" : {
+      "name" : "KEY_NAME",
+      "key" : "KEY_NAME",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 113,
+        "startColumn" : 33,
+        "endLine" : 113,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ArgoToolbarManager/memberField/KEY_NAME",
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager"
+    }
+  },
+  "methods" : {
+    "registerContainer" : {
+      "name" : "registerContainer",
+      "key" : "org.argouml.ui.ArgoToolbarManager/method/registerContainer",
+      "type" : "void",
+      "position" : {
+        "startLine" : 244,
+        "startColumn" : 17,
+        "endLine" : 244,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "container",
+        "key" : "container",
+        "type" : "javax.swing.JComponent",
+        "position" : {
+          "startLine" : 244,
+          "startColumn" : 52,
+          "endLine" : 244,
+          "endColumn" : 61
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ArgoToolbarManager/method/registerContainer"
+      }, {
+        "name" : "toolbars",
+        "key" : "toolbars",
+        "type" : "javax.swing.JToolBar[]",
+        "position" : {
+          "startLine" : 245,
+          "startColumn" : 30,
+          "endLine" : 245,
+          "endColumn" : 38
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ArgoToolbarManager/method/registerContainer"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager"
+    },
+    "registerNew" : {
+      "name" : "registerNew",
+      "key" : "org.argouml.ui.ArgoToolbarManager/method/registerNew",
+      "type" : "void",
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 18,
+        "endLine" : 163,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 37,
+          "endLine" : 163,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ArgoToolbarManager/method/registerNew"
+      }, {
+        "name" : "newToolbar",
+        "key" : "newToolbar",
+        "type" : "javax.swing.JToolBar",
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 51,
+          "endLine" : 163,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ArgoToolbarManager/method/registerNew"
+      }, {
+        "name" : "prefferedMenuPosition",
+        "key" : "prefferedMenuPosition",
+        "type" : "int",
+        "position" : {
+          "startLine" : 164,
+          "startColumn" : 17,
+          "endLine" : 164,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ArgoToolbarManager/method/registerNew"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager"
+    },
+    "getPopupMenu" : {
+      "name" : "getPopupMenu",
+      "key" : "org.argouml.ui.ArgoToolbarManager/method/getPopupMenu",
+      "type" : "javax.swing.JPopupMenu",
+      "position" : {
+        "startLine" : 301,
+        "startColumn" : 24,
+        "endLine" : 301,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager"
+    },
+    "getMenu" : {
+      "name" : "getMenu",
+      "key" : "org.argouml.ui.ArgoToolbarManager/method/getMenu",
+      "type" : "javax.swing.JMenu",
+      "position" : {
+        "startLine" : 314,
+        "startColumn" : 18,
+        "endLine" : 314,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.ui.ArgoToolbarManager/method/getInstance",
+      "type" : "org.argouml.ui.ArgoToolbarManager",
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 38,
+        "endLine" : 147,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager"
+    },
+    "getConfiguredToolbarAppearance" : {
+      "name" : "getConfiguredToolbarAppearance",
+      "key" : "org.argouml.ui.ArgoToolbarManager/method/getConfiguredToolbarAppearance",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 330,
+        "startColumn" : 20,
+        "endLine" : 330,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "toolbarName",
+        "key" : "toolbarName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 330,
+          "startColumn" : 58,
+          "endLine" : 330,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ArgoToolbarManager/method/getConfiguredToolbarAppearance"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager"
+    },
+    "registerToolbar" : {
+      "name" : "registerToolbar",
+      "key" : "org.argouml.ui.ArgoToolbarManager/method/registerToolbar",
+      "type" : "void",
+      "position" : {
+        "startLine" : 291,
+        "startColumn" : 17,
+        "endLine" : 291,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 291,
+          "startColumn" : 40,
+          "endLine" : 291,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ArgoToolbarManager/method/registerToolbar"
+      }, {
+        "name" : "newToolbar",
+        "key" : "newToolbar",
+        "type" : "javax.swing.JToolBar",
+        "position" : {
+          "startLine" : 291,
+          "startColumn" : 54,
+          "endLine" : 291,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ArgoToolbarManager/method/registerToolbar"
+      }, {
+        "name" : "prefferedMenuPosition",
+        "key" : "prefferedMenuPosition",
+        "type" : "int",
+        "position" : {
+          "startLine" : 292,
+          "startColumn" : 17,
+          "endLine" : 292,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ArgoToolbarManager/method/registerToolbar"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.ui.ArgoToolbarManager.ToolbarManagerMenuItemAction" : {
+      "name" : "ToolbarManagerMenuItemAction",
+      "key" : "org.argouml.ui.ArgoToolbarManager.ToolbarManagerMenuItemAction",
+      "type" : "class",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 13,
+        "endLine" : 58,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "fields" : {
+        "toolbars" : {
+          "name" : "toolbars",
+          "key" : "toolbars",
+          "type" : "java.util.ArrayList",
+          "position" : {
+            "startLine" : 67,
+            "startColumn" : 37,
+            "endLine" : 67,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.ArgoToolbarManager.ToolbarManagerMenuItemAction/memberField/toolbars",
+          "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager.ToolbarManagerMenuItemAction"
+        },
+        "key" : {
+          "name" : "key",
+          "key" : "key",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 62,
+            "startColumn" : 24,
+            "endLine" : 62,
+            "endColumn" : 27
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.ArgoToolbarManager.ToolbarManagerMenuItemAction/memberField/key",
+          "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager.ToolbarManagerMenuItemAction"
+        }
+      },
+      "methods" : {
+        "getKey" : {
+          "name" : "getKey",
+          "key" : "org.argouml.ui.ArgoToolbarManager.ToolbarManagerMenuItemAction/method/getKey",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 75,
+            "startColumn" : 23,
+            "endLine" : 75,
+            "endColumn" : 29
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager.ToolbarManagerMenuItemAction"
+        },
+        "actionPerformed" : {
+          "name" : "actionPerformed",
+          "key" : "org.argouml.ui.ArgoToolbarManager.ToolbarManagerMenuItemAction/method/actionPerformed",
+          "type" : "void",
+          "position" : {
+            "startLine" : 83,
+            "startColumn" : 21,
+            "endLine" : 83,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "e",
+            "key" : "e",
+            "type" : "java.awt.event.ActionEvent",
+            "position" : {
+              "startLine" : 83,
+              "startColumn" : 55,
+              "endLine" : 83,
+              "endColumn" : 56
+            },
+            "modifiers" : [ "FINAL" ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.ArgoToolbarManager.ToolbarManagerMenuItemAction/method/actionPerformed"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager.ToolbarManagerMenuItemAction"
+        },
+        "getToolbars" : {
+          "name" : "getToolbars",
+          "key" : "org.argouml.ui.ArgoToolbarManager.ToolbarManagerMenuItemAction/method/getToolbars",
+          "type" : "java.util.ArrayList",
+          "position" : {
+            "startLine" : 79,
+            "startColumn" : 36,
+            "endLine" : 79,
+            "endColumn" : 47
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.ui.ArgoToolbarManager.ToolbarManagerMenuItemAction"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "javax.swing.AbstractAction" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.ui.ArgoToolbarManager",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

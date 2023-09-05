@@ -1,0 +1,384 @@
+{
+  "name" : "NewsgroupInfo",
+  "key" : "org.apache.commons.net.nntp.NewsgroupInfo",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 14,
+    "endLine" : 33,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "PERMITTED_POSTING_PERMISSION" : {
+      "name" : "PERMITTED_POSTING_PERMISSION",
+      "key" : "PERMITTED_POSTING_PERMISSION",
+      "type" : "int",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 29,
+        "endLine" : 47,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NewsgroupInfo/memberField/PERMITTED_POSTING_PERMISSION",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "PROHIBITED_POSTING_PERMISSION" : {
+      "name" : "PROHIBITED_POSTING_PERMISSION",
+      "key" : "PROHIBITED_POSTING_PERMISSION",
+      "type" : "int",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 29,
+        "endLine" : 52,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NewsgroupInfo/memberField/PROHIBITED_POSTING_PERMISSION",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "__lastArticle" : {
+      "name" : "__lastArticle",
+      "key" : "__lastArticle",
+      "type" : "int",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 33,
+        "endLine" : 56,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NewsgroupInfo/memberField/__lastArticle",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "UNKNOWN_POSTING_PERMISSION" : {
+      "name" : "UNKNOWN_POSTING_PERMISSION",
+      "key" : "UNKNOWN_POSTING_PERMISSION",
+      "type" : "int",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 29,
+        "endLine" : 41,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NewsgroupInfo/memberField/UNKNOWN_POSTING_PERMISSION",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "__estimatedArticleCount" : {
+      "name" : "__estimatedArticleCount",
+      "key" : "__estimatedArticleCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 17,
+        "endLine" : 55,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NewsgroupInfo/memberField/__estimatedArticleCount",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "__firstArticle" : {
+      "name" : "__firstArticle",
+      "key" : "__firstArticle",
+      "type" : "int",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NewsgroupInfo/memberField/__firstArticle",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "__postingPermission" : {
+      "name" : "__postingPermission",
+      "key" : "__postingPermission",
+      "type" : "int",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 17,
+        "endLine" : 57,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NewsgroupInfo/memberField/__postingPermission",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "__newsgroup" : {
+      "name" : "__newsgroup",
+      "key" : "__newsgroup",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 20,
+        "endLine" : 54,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NewsgroupInfo/memberField/__newsgroup",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "MODERATED_POSTING_PERMISSION" : {
+      "name" : "MODERATED_POSTING_PERMISSION",
+      "key" : "MODERATED_POSTING_PERMISSION",
+      "type" : "int",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 29,
+        "endLine" : 44,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NewsgroupInfo/memberField/MODERATED_POSTING_PERMISSION",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    }
+  },
+  "methods" : {
+    "_setLastArticle" : {
+      "name" : "_setLastArticle",
+      "key" : "org.apache.commons.net.nntp.NewsgroupInfo/method/_setLastArticle",
+      "type" : "void",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 10,
+        "endLine" : 74,
+        "endColumn" : 25
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "last",
+        "key" : "last",
+        "type" : "int",
+        "position" : {
+          "startLine" : 74,
+          "startColumn" : 30,
+          "endLine" : 74,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.NewsgroupInfo/method/_setLastArticle"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "_setPostingPermission" : {
+      "name" : "_setPostingPermission",
+      "key" : "org.apache.commons.net.nntp.NewsgroupInfo/method/_setPostingPermission",
+      "type" : "void",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 10,
+        "endLine" : 79,
+        "endColumn" : 31
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "permission",
+        "key" : "permission",
+        "type" : "int",
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 36,
+          "endLine" : 79,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.NewsgroupInfo/method/_setPostingPermission"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "_setFirstArticle" : {
+      "name" : "_setFirstArticle",
+      "key" : "org.apache.commons.net.nntp.NewsgroupInfo/method/_setFirstArticle",
+      "type" : "void",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 10,
+        "endLine" : 69,
+        "endColumn" : 26
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "first",
+        "key" : "first",
+        "type" : "int",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 31,
+          "endLine" : 69,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.NewsgroupInfo/method/_setFirstArticle"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "getLastArticle" : {
+      "name" : "getLastArticle",
+      "key" : "org.apache.commons.net.nntp.NewsgroupInfo/method/getLastArticle",
+      "type" : "int",
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 16,
+        "endLine" : 120,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "getPostingPermission" : {
+      "name" : "getPostingPermission",
+      "key" : "org.apache.commons.net.nntp.NewsgroupInfo/method/getPostingPermission",
+      "type" : "int",
+      "position" : {
+        "startLine" : 131,
+        "startColumn" : 16,
+        "endLine" : 131,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "getNewsgroup" : {
+      "name" : "getNewsgroup",
+      "key" : "org.apache.commons.net.nntp.NewsgroupInfo/method/getNewsgroup",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 19,
+        "endLine" : 89,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "getArticleCount" : {
+      "name" : "getArticleCount",
+      "key" : "org.apache.commons.net.nntp.NewsgroupInfo/method/getArticleCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 16,
+        "endLine" : 100,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "_setNewsgroup" : {
+      "name" : "_setNewsgroup",
+      "key" : "org.apache.commons.net.nntp.NewsgroupInfo/method/_setNewsgroup",
+      "type" : "void",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 10,
+        "endLine" : 59,
+        "endColumn" : 23
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newsgroup",
+        "key" : "newsgroup",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 59,
+          "startColumn" : 31,
+          "endLine" : 59,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.NewsgroupInfo/method/_setNewsgroup"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "_setArticleCount" : {
+      "name" : "_setArticleCount",
+      "key" : "org.apache.commons.net.nntp.NewsgroupInfo/method/_setArticleCount",
+      "type" : "void",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 10,
+        "endLine" : 64,
+        "endColumn" : 26
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "count",
+        "key" : "count",
+        "type" : "int",
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 31,
+          "endLine" : 64,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.NewsgroupInfo/method/_setArticleCount"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    },
+    "getFirstArticle" : {
+      "name" : "getFirstArticle",
+      "key" : "org.apache.commons.net.nntp.NewsgroupInfo/method/getFirstArticle",
+      "type" : "int",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 16,
+        "endLine" : 110,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewsgroupInfo"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

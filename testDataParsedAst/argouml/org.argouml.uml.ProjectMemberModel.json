@@ -1,0 +1,162 @@
+{
+  "name" : "ProjectMemberModel",
+  "key" : "org.argouml.uml.ProjectMemberModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "MEMBER_TYPE" : {
+      "name" : "MEMBER_TYPE",
+      "key" : "MEMBER_TYPE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 33,
+        "endLine" : 37,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ProjectMemberModel/memberField/MEMBER_TYPE",
+      "classOrInterfaceKey" : "org.argouml.uml.ProjectMemberModel"
+    },
+    "model" : {
+      "name" : "model",
+      "key" : "model",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 20,
+        "endLine" : 40,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ProjectMemberModel/memberField/model",
+      "classOrInterfaceKey" : "org.argouml.uml.ProjectMemberModel"
+    },
+    "FILE_EXT" : {
+      "name" : "FILE_EXT",
+      "key" : "FILE_EXT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 33,
+        "endLine" : 38,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ProjectMemberModel/memberField/FILE_EXT",
+      "classOrInterfaceKey" : "org.argouml.uml.ProjectMemberModel"
+    }
+  },
+  "methods" : {
+    "repair" : {
+      "name" : "repair",
+      "key" : "org.argouml.uml.ProjectMemberModel/method/repair",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 19,
+        "endLine" : 93,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ProjectMemberModel"
+    },
+    "getModel" : {
+      "name" : "getModel",
+      "key" : "org.argouml.uml.ProjectMemberModel/method/getModel",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 19,
+        "endLine" : 62,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ProjectMemberModel"
+    },
+    "getType" : {
+      "name" : "getType",
+      "key" : "org.argouml.uml.ProjectMemberModel/method/getType",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 19,
+        "endLine" : 76,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ProjectMemberModel"
+    },
+    "setModel" : {
+      "name" : "setModel",
+      "key" : "org.argouml.uml.ProjectMemberModel/method/setModel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 20,
+        "endLine" : 69,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "m",
+        "key" : "m",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 36,
+          "endLine" : 69,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ProjectMemberModel/method/setModel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ProjectMemberModel"
+    },
+    "getZipFileExtension" : {
+      "name" : "getZipFileExtension",
+      "key" : "org.argouml.uml.ProjectMemberModel/method/getZipFileExtension",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 19,
+        "endLine" : 83,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ProjectMemberModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.kernel.AbstractProjectMember" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

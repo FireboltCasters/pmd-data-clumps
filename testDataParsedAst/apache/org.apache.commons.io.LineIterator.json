@@ -1,0 +1,207 @@
+{
+  "name" : "LineIterator",
+  "key" : "org.apache.commons.io.LineIterator",
+  "type" : "class",
+  "position" : {
+    "startLine" : 53,
+    "startColumn" : 8,
+    "endLine" : 53,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "bufferedReader" : {
+      "name" : "bufferedReader",
+      "key" : "bufferedReader",
+      "type" : "java.io.BufferedReader",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 34,
+        "endLine" : 56,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.LineIterator/memberField/bufferedReader",
+      "classOrInterfaceKey" : "org.apache.commons.io.LineIterator"
+    },
+    "cachedLine" : {
+      "name" : "cachedLine",
+      "key" : "cachedLine",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 20,
+        "endLine" : 58,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.LineIterator/memberField/cachedLine",
+      "classOrInterfaceKey" : "org.apache.commons.io.LineIterator"
+    },
+    "finished" : {
+      "name" : "finished",
+      "key" : "finished",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 21,
+        "endLine" : 60,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.LineIterator/memberField/finished",
+      "classOrInterfaceKey" : "org.apache.commons.io.LineIterator"
+    }
+  },
+  "methods" : {
+    "next" : {
+      "name" : "next",
+      "key" : "org.apache.commons.io.LineIterator/method/next",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 19,
+        "endLine" : 128,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.LineIterator"
+    },
+    "nextLine" : {
+      "name" : "nextLine",
+      "key" : "org.apache.commons.io.LineIterator/method/nextLine",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 19,
+        "endLine" : 138,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.LineIterator"
+    },
+    "hasNext" : {
+      "name" : "hasNext",
+      "key" : "org.apache.commons.io.LineIterator/method/hasNext",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 20,
+        "endLine" : 88,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.LineIterator"
+    },
+    "isValidLine" : {
+      "name" : "isValidLine",
+      "key" : "org.apache.commons.io.LineIterator/method/isValidLine",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 23,
+        "endLine" : 118,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "line",
+        "key" : "line",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 42,
+          "endLine" : 118,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.LineIterator/method/isValidLine"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.LineIterator"
+    },
+    "closeQuietly" : {
+      "name" : "closeQuietly",
+      "key" : "org.apache.commons.io.LineIterator/method/closeQuietly",
+      "type" : "void",
+      "position" : {
+        "startLine" : 175,
+        "startColumn" : 24,
+        "endLine" : 175,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "iterator",
+        "key" : "iterator",
+        "type" : "org.apache.commons.io.LineIterator",
+        "position" : {
+          "startLine" : 175,
+          "startColumn" : 50,
+          "endLine" : 175,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.LineIterator/method/closeQuietly"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.LineIterator"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.io.LineIterator/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 17,
+        "endLine" : 154,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.LineIterator"
+    },
+    "remove" : {
+      "name" : "remove",
+      "key" : "org.apache.commons.io.LineIterator/method/remove",
+      "type" : "void",
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 17,
+        "endLine" : 165,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.LineIterator"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.util.Iterator" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

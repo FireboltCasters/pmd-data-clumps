@@ -1,0 +1,827 @@
+{
+  "name" : "ClassdiagramNode",
+  "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode",
+  "type" : "class",
+  "position" : {
+    "startLine" : 54,
+    "startColumn" : 1,
+    "endLine" : 54,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "figure" : {
+      "name" : "figure",
+      "key" : "figure",
+      "type" : "org.tigris.gef.presentation.FigNode",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 21,
+        "endLine" : 96,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/memberField/figure",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "NORANK" : {
+      "name" : "NORANK",
+      "key" : "NORANK",
+      "type" : "int",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 29,
+        "endLine" : 66,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/memberField/NORANK",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "NOWEIGHT" : {
+      "name" : "NOWEIGHT",
+      "key" : "NOWEIGHT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 29,
+        "endLine" : 71,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/memberField/NOWEIGHT",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "uplinks" : {
+      "name" : "uplinks",
+      "key" : "uplinks",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 36,
+        "endLine" : 112,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/memberField/uplinks",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "column" : {
+      "name" : "column",
+      "key" : "column",
+      "type" : "int",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 17,
+        "endLine" : 78,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/memberField/column",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "rank" : {
+      "name" : "rank",
+      "key" : "rank",
+      "type" : "int",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 17,
+        "endLine" : 106,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/memberField/rank",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "weight" : {
+      "name" : "weight",
+      "key" : "weight",
+      "type" : "float",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 19,
+        "endLine" : 123,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/memberField/weight",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "downlinks" : {
+      "name" : "downlinks",
+      "key" : "downlinks",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 36,
+        "endLine" : 84,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/memberField/downlinks",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "UPLINK_FACTOR" : {
+      "name" : "UPLINK_FACTOR",
+      "key" : "UPLINK_FACTOR",
+      "type" : "float",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 32,
+        "endLine" : 125,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/memberField/UPLINK_FACTOR",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "NOCOLUMN" : {
+      "name" : "NOCOLUMN",
+      "key" : "NOCOLUMN",
+      "type" : "int",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 29,
+        "endLine" : 60,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/memberField/NOCOLUMN",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "placementHint" : {
+      "name" : "placementHint",
+      "key" : "placementHint",
+      "type" : "int",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 17,
+        "endLine" : 101,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/memberField/placementHint",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "edgeOffset" : {
+      "name" : "edgeOffset",
+      "key" : "edgeOffset",
+      "type" : "int",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 17,
+        "endLine" : 90,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/memberField/edgeOffset",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    }
+  },
+  "methods" : {
+    "getUplinks" : {
+      "name" : "getUplinks",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/getUplinks",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 367,
+        "startColumn" : 37,
+        "endLine" : 367,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "getLocation" : {
+      "name" : "getLocation",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/getLocation",
+      "type" : "java.awt.Point",
+      "position" : {
+        "startLine" : 297,
+        "startColumn" : 18,
+        "endLine" : 297,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "isComment" : {
+      "name" : "isComment",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/isComment",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 394,
+        "startColumn" : 20,
+        "endLine" : 394,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "getUpNodes" : {
+      "name" : "getUpNodes",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/getUpNodes",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 376,
+        "startColumn" : 35,
+        "endLine" : 376,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "getWeight" : {
+      "name" : "getWeight",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/getWeight",
+      "type" : "float",
+      "position" : {
+        "startLine" : 385,
+        "startColumn" : 18,
+        "endLine" : 385,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "getFigure" : {
+      "name" : "getFigure",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/getFigure",
+      "type" : "org.tigris.gef.presentation.FigNode",
+      "position" : {
+        "startLine" : 273,
+        "startColumn" : 20,
+        "endLine" : 273,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "getDownlinks" : {
+      "name" : "getDownlinks",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/getDownlinks",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 246,
+        "startColumn" : 37,
+        "endLine" : 246,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "compareTo" : {
+      "name" : "compareTo",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/compareTo",
+      "type" : "int",
+      "position" : {
+        "startLine" : 204,
+        "startColumn" : 16,
+        "endLine" : 204,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "arg0",
+        "key" : "arg0",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 204,
+          "startColumn" : 33,
+          "endLine" : 204,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/compareTo"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "setColumn" : {
+      "name" : "setColumn",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/setColumn",
+      "type" : "void",
+      "position" : {
+        "startLine" : 425,
+        "startColumn" : 17,
+        "endLine" : 425,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newColumn",
+        "key" : "newColumn",
+        "type" : "int",
+        "position" : {
+          "startLine" : 425,
+          "startColumn" : 31,
+          "endLine" : 425,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/setColumn"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "addDownlink" : {
+      "name" : "addDownlink",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/addDownlink",
+      "type" : "void",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 17,
+        "endLine" : 144,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newDownlink",
+        "key" : "newDownlink",
+        "type" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode",
+        "position" : {
+          "startLine" : 144,
+          "startColumn" : 46,
+          "endLine" : 144,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/addDownlink"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "setLocation" : {
+      "name" : "setLocation",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/setLocation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 457,
+        "startColumn" : 17,
+        "endLine" : 457,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newLocation",
+        "key" : "newLocation",
+        "type" : "java.awt.Point",
+        "position" : {
+          "startLine" : 457,
+          "startColumn" : 35,
+          "endLine" : 457,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/setLocation"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "setEdgeOffset" : {
+      "name" : "setEdgeOffset",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/setEdgeOffset",
+      "type" : "void",
+      "position" : {
+        "startLine" : 436,
+        "startColumn" : 17,
+        "endLine" : 436,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newOffset",
+        "key" : "newOffset",
+        "type" : "int",
+        "position" : {
+          "startLine" : 436,
+          "startColumn" : 35,
+          "endLine" : 436,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/setEdgeOffset"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "isStandalone" : {
+      "name" : "isStandalone",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/isStandalone",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 414,
+        "startColumn" : 20,
+        "endLine" : 414,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "getColumn" : {
+      "name" : "getColumn",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/getColumn",
+      "type" : "int",
+      "position" : {
+        "startLine" : 235,
+        "startColumn" : 16,
+        "endLine" : 235,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "getSubtreeWeight" : {
+      "name" : "getSubtreeWeight",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/getSubtreeWeight",
+      "type" : "float",
+      "position" : {
+        "startLine" : 335,
+        "startColumn" : 19,
+        "endLine" : 335,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "calculateWeight" : {
+      "name" : "calculateWeight",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/calculateWeight",
+      "type" : "float",
+      "position" : {
+        "startLine" : 177,
+        "startColumn" : 18,
+        "endLine" : 177,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "setRank" : {
+      "name" : "setRank",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/setRank",
+      "type" : "void",
+      "position" : {
+        "startLine" : 487,
+        "startColumn" : 17,
+        "endLine" : 487,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newRank",
+        "key" : "newRank",
+        "type" : "int",
+        "position" : {
+          "startLine" : 487,
+          "startColumn" : 29,
+          "endLine" : 487,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/setRank"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "addRank" : {
+      "name" : "addRank",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/addRank",
+      "type" : "void",
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 17,
+        "endLine" : 154,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "n",
+        "key" : "n",
+        "type" : "int",
+        "position" : {
+          "startLine" : 154,
+          "startColumn" : 29,
+          "endLine" : 154,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/addRank"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "getTypeOrderNumer" : {
+      "name" : "getTypeOrderNumer",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/getTypeOrderNumer",
+      "type" : "int",
+      "position" : {
+        "startLine" : 350,
+        "startColumn" : 16,
+        "endLine" : 350,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "getEdgeOffset" : {
+      "name" : "getEdgeOffset",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/getEdgeOffset",
+      "type" : "int",
+      "position" : {
+        "startLine" : 264,
+        "startColumn" : 16,
+        "endLine" : 264,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "getRank" : {
+      "name" : "getRank",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/getRank",
+      "type" : "int",
+      "position" : {
+        "startLine" : 315,
+        "startColumn" : 16,
+        "endLine" : 315,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "setWeight" : {
+      "name" : "setWeight",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/setWeight",
+      "type" : "void",
+      "position" : {
+        "startLine" : 497,
+        "startColumn" : 17,
+        "endLine" : 497,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "w",
+        "key" : "w",
+        "type" : "float",
+        "position" : {
+          "startLine" : 497,
+          "startColumn" : 33,
+          "endLine" : 497,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/setWeight"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "isPackage" : {
+      "name" : "isPackage",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/isPackage",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 403,
+        "startColumn" : 20,
+        "endLine" : 403,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "addUplink" : {
+      "name" : "addUplink",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/addUplink",
+      "type" : "void",
+      "position" : {
+        "startLine" : 164,
+        "startColumn" : 17,
+        "endLine" : 164,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newUplink",
+        "key" : "newUplink",
+        "type" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode",
+        "position" : {
+          "startLine" : 164,
+          "startColumn" : 44,
+          "endLine" : 164,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/addUplink"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "getLevel" : {
+      "name" : "getLevel",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/getLevel",
+      "type" : "int",
+      "position" : {
+        "startLine" : 282,
+        "startColumn" : 16,
+        "endLine" : 282,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "getSize" : {
+      "name" : "getSize",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/getSize",
+      "type" : "java.awt.Dimension",
+      "position" : {
+        "startLine" : 325,
+        "startColumn" : 22,
+        "endLine" : 325,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "setPlacementHint" : {
+      "name" : "setPlacementHint",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/setPlacementHint",
+      "type" : "void",
+      "position" : {
+        "startLine" : 477,
+        "startColumn" : 17,
+        "endLine" : 477,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "hint",
+        "key" : "hint",
+        "type" : "int",
+        "position" : {
+          "startLine" : 477,
+          "startColumn" : 38,
+          "endLine" : 477,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/setPlacementHint"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "getPlacementHint" : {
+      "name" : "getPlacementHint",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/getPlacementHint",
+      "type" : "int",
+      "position" : {
+        "startLine" : 306,
+        "startColumn" : 16,
+        "endLine" : 306,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "setFigure" : {
+      "name" : "setFigure",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/setFigure",
+      "type" : "void",
+      "position" : {
+        "startLine" : 446,
+        "startColumn" : 17,
+        "endLine" : 446,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newFigure",
+        "key" : "newFigure",
+        "type" : "org.tigris.gef.presentation.FigNode",
+        "position" : {
+          "startLine" : 446,
+          "startColumn" : 35,
+          "endLine" : 446,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/setFigure"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    },
+    "getDownNodes" : {
+      "name" : "getDownNodes",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode/method/getDownNodes",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 255,
+        "startColumn" : 35,
+        "endLine" : 255,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.uml.diagram.layout.LayoutedNode", "java.lang.Comparable" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

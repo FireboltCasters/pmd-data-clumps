@@ -1,0 +1,71 @@
+{
+  "name" : "StringNamespaceElement",
+  "key" : "org.argouml.uml.util.namespace.StringNamespaceElement",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "element" : {
+      "name" : "element",
+      "key" : "element",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 26,
+        "endLine" : 35,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.util.namespace.StringNamespaceElement/memberField/element",
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespaceElement"
+    }
+  },
+  "methods" : {
+    "getNamespaceElement" : {
+      "name" : "getNamespaceElement",
+      "key" : "org.argouml.uml.util.namespace.StringNamespaceElement/method/getNamespaceElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 19,
+        "endLine" : 51,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespaceElement"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.uml.util.namespace.StringNamespaceElement/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 19,
+        "endLine" : 58,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.StringNamespaceElement"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "NamespaceElement" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,38 @@
+{
+  "name" : "PropPanelActor",
+  "key" : "org.argouml.uml.ui.behavior.use_cases.PropPanelActor",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 31,
+        "endLine" : 43,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.use_cases.PropPanelActor/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.PropPanelActor"
+    }
+  },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelClassifier" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

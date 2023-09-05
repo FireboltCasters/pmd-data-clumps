@@ -1,0 +1,68 @@
+{
+  "name" : "PackageTestSuite",
+  "key" : "org.apache.commons.io.PackageTestSuite",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.io.PackageTestSuite/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 24,
+        "endLine" : 36,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.PackageTestSuite"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.io.PackageTestSuite/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 24,
+        "endLine" : 32,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 32,
+          "startColumn" : 38,
+          "endLine" : 32,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.PackageTestSuite/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.PackageTestSuite"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,146 @@
+{
+  "name" : "PropPanelAssociationClass",
+  "key" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 31,
+        "endLine" : 48,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass"
+    },
+    "assocEndScroll" : {
+      "name" : "assocEndScroll",
+      "key" : "assocEndScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 25,
+        "endLine" : 54,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass/memberField/assocEndScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass"
+    },
+    "operationScroll" : {
+      "name" : "operationScroll",
+      "key" : "operationScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 25,
+        "endLine" : 52,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass/memberField/operationScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass"
+    },
+    "operationListModel" : {
+      "name" : "operationListModel",
+      "key" : "operationListModel",
+      "type" : "UMLClassOperationListModel",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 47,
+        "endLine" : 59,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass/memberField/operationListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass"
+    },
+    "attributeListModel" : {
+      "name" : "attributeListModel",
+      "key" : "attributeListModel",
+      "type" : "UMLClassAttributeListModel",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 47,
+        "endLine" : 56,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass/memberField/attributeListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass"
+    },
+    "attributeScroll" : {
+      "name" : "attributeScroll",
+      "key" : "attributeScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 25,
+        "endLine" : 50,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass/memberField/attributeScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass"
+    }
+  },
+  "methods" : {
+    "getOperationScroll" : {
+      "name" : "getOperationScroll",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass/method/getOperationScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 24,
+        "endLine" : 125,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass"
+    },
+    "getAttributeScroll" : {
+      "name" : "getAttributeScroll",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass/method/getAttributeScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 24,
+        "endLine" : 139,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationClass"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "PropPanelClassifier" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

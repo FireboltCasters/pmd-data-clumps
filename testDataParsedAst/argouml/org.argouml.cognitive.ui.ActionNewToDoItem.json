@@ -1,0 +1,52 @@
+{
+  "name" : "ActionNewToDoItem",
+  "key" : "org.argouml.cognitive.ui.ActionNewToDoItem",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.cognitive.ui.ActionNewToDoItem/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 56,
+          "startColumn" : 45,
+          "endLine" : 56,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ActionNewToDoItem/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ActionNewToDoItem"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.ui.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

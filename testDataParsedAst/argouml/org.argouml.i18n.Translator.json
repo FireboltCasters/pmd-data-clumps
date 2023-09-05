@@ -1,0 +1,420 @@
+{
+  "name" : "Translator",
+  "key" : "org.argouml.i18n.Translator",
+  "type" : "class",
+  "position" : {
+    "startLine" : 46,
+    "startColumn" : 14,
+    "endLine" : 46,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "BUNDLES_PATH" : {
+      "name" : "BUNDLES_PATH",
+      "key" : "BUNDLES_PATH",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 33,
+        "endLine" : 55,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.i18n.Translator/memberField/BUNDLES_PATH",
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    },
+    "systemDefaultLocale" : {
+      "name" : "systemDefaultLocale",
+      "key" : "systemDefaultLocale",
+      "type" : "java.util.Locale",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 27,
+        "endLine" : 76,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.i18n.Translator/memberField/systemDefaultLocale",
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 33,
+        "endLine" : 50,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.i18n.Translator/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    },
+    "bundles" : {
+      "name" : "bundles",
+      "key" : "bundles",
+      "type" : "java.util.Map",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 48,
+        "endLine" : 60,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.i18n.Translator/memberField/bundles",
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    },
+    "classLoaders" : {
+      "name" : "classLoaders",
+      "key" : "classLoaders",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 38,
+        "endLine" : 65,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.i18n.Translator/memberField/classLoaders",
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    },
+    "initialized" : {
+      "name" : "initialized",
+      "key" : "initialized",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 28,
+        "endLine" : 71,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.i18n.Translator/memberField/initialized",
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    }
+  },
+  "methods" : {
+    "initInternal" : {
+      "name" : "initInternal",
+      "key" : "org.argouml.i18n.Translator/method/initInternal",
+      "type" : "void",
+      "position" : {
+        "startLine" : 162,
+        "startColumn" : 25,
+        "endLine" : 162,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 162,
+          "startColumn" : 46,
+          "endLine" : 162,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.i18n.Translator/method/initInternal"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    },
+    "init" : {
+      "name" : "init",
+      "key" : "org.argouml.i18n.Translator/method/init",
+      "type" : "void",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 24,
+        "endLine" : 133,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "locale",
+        "key" : "locale",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 133,
+          "startColumn" : 36,
+          "endLine" : 133,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.i18n.Translator/method/init"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    },
+    "localize" : {
+      "name" : "localize",
+      "key" : "org.argouml.i18n.Translator/method/localize",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 343,
+        "startColumn" : 26,
+        "endLine" : 343,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 343,
+          "startColumn" : 42,
+          "endLine" : 343,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.i18n.Translator/method/localize"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    },
+    "getName" : {
+      "name" : "getName",
+      "key" : "org.argouml.i18n.Translator/method/getName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 310,
+        "startColumn" : 27,
+        "endLine" : 310,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 310,
+          "startColumn" : 42,
+          "endLine" : 310,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.i18n.Translator/method/getName"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    },
+    "initForEclipse" : {
+      "name" : "initForEclipse",
+      "key" : "org.argouml.i18n.Translator/method/initForEclipse",
+      "type" : "void",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 24,
+        "endLine" : 110,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "locale",
+        "key" : "locale",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 47,
+          "endLine" : 110,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.i18n.Translator/method/initForEclipse"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    },
+    "addClassLoader" : {
+      "name" : "addClassLoader",
+      "key" : "org.argouml.i18n.Translator/method/addClassLoader",
+      "type" : "void",
+      "position" : {
+        "startLine" : 261,
+        "startColumn" : 24,
+        "endLine" : 261,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "cl",
+        "key" : "cl",
+        "type" : "java.lang.ClassLoader",
+        "position" : {
+          "startLine" : 261,
+          "startColumn" : 51,
+          "endLine" : 261,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.i18n.Translator/method/addClassLoader"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    },
+    "loadBundle" : {
+      "name" : "loadBundle",
+      "key" : "org.argouml.i18n.Translator/method/loadBundle",
+      "type" : "void",
+      "position" : {
+        "startLine" : 271,
+        "startColumn" : 25,
+        "endLine" : 271,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 271,
+          "startColumn" : 43,
+          "endLine" : 271,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.i18n.Translator/method/loadBundle"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    },
+    "messageFormat" : {
+      "name" : "messageFormat",
+      "key" : "org.argouml.i18n.Translator/method/messageFormat",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 386,
+        "startColumn" : 26,
+        "endLine" : 386,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 386,
+          "startColumn" : 47,
+          "endLine" : 386,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.i18n.Translator/method/messageFormat"
+      }, {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.Object[]",
+        "position" : {
+          "startLine" : 386,
+          "startColumn" : 61,
+          "endLine" : 386,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.i18n.Translator/method/messageFormat"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    },
+    "getSystemDefaultLocale" : {
+      "name" : "getSystemDefaultLocale",
+      "key" : "org.argouml.i18n.Translator/method/getSystemDefaultLocale",
+      "type" : "java.util.Locale",
+      "position" : {
+        "startLine" : 251,
+        "startColumn" : 26,
+        "endLine" : 251,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    },
+    "getLocales" : {
+      "name" : "getLocales",
+      "key" : "org.argouml.i18n.Translator/method/getLocales",
+      "type" : "java.util.Locale[]",
+      "position" : {
+        "startLine" : 192,
+        "startColumn" : 28,
+        "endLine" : 192,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    },
+    "setLocale" : {
+      "name" : "setLocale",
+      "key" : "org.argouml.i18n.Translator/method/setLocale",
+      "type" : "void",
+      "position" : {
+        "startLine" : 239,
+        "startColumn" : 24,
+        "endLine" : 239,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "locale",
+        "key" : "locale",
+        "type" : "java.util.Locale",
+        "position" : {
+          "startLine" : 239,
+          "startColumn" : 41,
+          "endLine" : 239,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.i18n.Translator/method/setLocale"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.i18n.Translator"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

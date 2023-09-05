@@ -1,0 +1,215 @@
+{
+  "name" : "WizManyNames",
+  "key" : "org.argouml.uml.cognitive.critics.WizManyNames",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "instructions" : {
+      "name" : "instructions",
+      "key" : "instructions",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 20,
+        "endLine" : 53,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.WizManyNames/memberField/instructions",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizManyNames"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 31,
+        "endLine" : 149,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.WizManyNames/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizManyNames"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 33,
+        "endLine" : 48,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.WizManyNames/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizManyNames"
+    },
+    "mes" : {
+      "name" : "mes",
+      "key" : "mes",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 18,
+        "endLine" : 59,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.WizManyNames/memberField/mes",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizManyNames"
+    },
+    "step1" : {
+      "name" : "step1",
+      "key" : "step1",
+      "type" : "org.argouml.cognitive.ui.WizStepManyTextFields",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 35,
+        "endLine" : 61,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.WizManyNames/memberField/step1",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizManyNames"
+    }
+  },
+  "methods" : {
+    "makePanel" : {
+      "name" : "makePanel",
+      "key" : "org.argouml.uml.cognitive.critics.WizManyNames/method/makePanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 19,
+        "endLine" : 101,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newStep",
+        "key" : "newStep",
+        "type" : "int",
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 33,
+          "endLine" : 101,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.WizManyNames/method/makePanel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizManyNames"
+    },
+    "setMEs" : {
+      "name" : "setMEs",
+      "key" : "org.argouml.uml.cognitive.critics.WizManyNames/method/setMEs",
+      "type" : "void",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 17,
+        "endLine" : 76,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "m",
+        "key" : "m",
+        "type" : "java.util.Vector",
+        "position" : {
+          "startLine" : 76,
+          "startColumn" : 31,
+          "endLine" : 76,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.WizManyNames/method/setMEs"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizManyNames"
+    },
+    "doAction" : {
+      "name" : "doAction",
+      "key" : "org.argouml.uml.cognitive.critics.WizManyNames/method/doAction",
+      "type" : "void",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 17,
+        "endLine" : 123,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "oldStep",
+        "key" : "oldStep",
+        "type" : "int",
+        "position" : {
+          "startLine" : 123,
+          "startColumn" : 30,
+          "endLine" : 123,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.WizManyNames/method/doAction"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizManyNames"
+    },
+    "setModelElements" : {
+      "name" : "setModelElements",
+      "key" : "org.argouml.uml.cognitive.critics.WizManyNames/method/setModelElements",
+      "type" : "void",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 17,
+        "endLine" : 85,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "elements",
+        "key" : "elements",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 39,
+          "endLine" : 85,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.WizManyNames/method/setModelElements"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizManyNames"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "UMLWizard" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

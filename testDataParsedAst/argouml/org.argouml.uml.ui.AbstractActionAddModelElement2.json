@@ -1,0 +1,326 @@
+{
+  "name" : "AbstractActionAddModelElement2",
+  "key" : "org.argouml.uml.ui.AbstractActionAddModelElement2",
+  "type" : "class",
+  "position" : {
+    "startLine" : 49,
+    "startColumn" : 17,
+    "endLine" : 49,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "exclusive" : {
+      "name" : "exclusive",
+      "key" : "exclusive",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 21,
+        "endLine" : 53,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2/memberField/exclusive",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2"
+    },
+    "target" : {
+      "name" : "target",
+      "key" : "target",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 20,
+        "endLine" : 51,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2/memberField/target",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2"
+    },
+    "multiSelect" : {
+      "name" : "multiSelect",
+      "key" : "multiSelect",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 21,
+        "endLine" : 52,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2/memberField/multiSelect",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 17,
+        "endLine" : 88,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 88,
+          "startColumn" : 45,
+          "endLine" : 88,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2"
+    },
+    "getSelected" : {
+      "name" : "getSelected",
+      "key" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/getSelected",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 29,
+        "endLine" : 114,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2"
+    },
+    "isExclusive" : {
+      "name" : "isExclusive",
+      "key" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/isExclusive",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 164,
+        "startColumn" : 20,
+        "endLine" : 164,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2"
+    },
+    "getTarget" : {
+      "name" : "getTarget",
+      "key" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/getTarget",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 22,
+        "endLine" : 142,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2"
+    },
+    "isMultiSelect" : {
+      "name" : "isMultiSelect",
+      "key" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/isMultiSelect",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 20,
+        "endLine" : 172,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2"
+    },
+    "setExclusive" : {
+      "name" : "setExclusive",
+      "key" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/setExclusive",
+      "type" : "void",
+      "position" : {
+        "startLine" : 180,
+        "startColumn" : 17,
+        "endLine" : 180,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theExclusive",
+        "key" : "theExclusive",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 180,
+          "startColumn" : 38,
+          "endLine" : 180,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/setExclusive"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2"
+    },
+    "setMultiSelect" : {
+      "name" : "setMultiSelect",
+      "key" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/setMultiSelect",
+      "type" : "void",
+      "position" : {
+        "startLine" : 188,
+        "startColumn" : 17,
+        "endLine" : 188,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theMultiSelect",
+        "key" : "theMultiSelect",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 188,
+          "startColumn" : 40,
+          "endLine" : 188,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/setMultiSelect"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2"
+    },
+    "getChoices" : {
+      "name" : "getChoices",
+      "key" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/getChoices",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 29,
+        "endLine" : 107,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 20,
+        "endLine" : 133,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2"
+    },
+    "doIt" : {
+      "name" : "doIt",
+      "key" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/doIt",
+      "type" : "void",
+      "position" : {
+        "startLine" : 121,
+        "startColumn" : 20,
+        "endLine" : 121,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "selected",
+        "key" : "selected",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 121,
+          "startColumn" : 36,
+          "endLine" : 121,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/doIt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2"
+    },
+    "setTarget" : {
+      "name" : "setTarget",
+      "key" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/setTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 17,
+        "endLine" : 150,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theTarget",
+        "key" : "theTarget",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 150,
+          "startColumn" : 34,
+          "endLine" : 150,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/setTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2"
+    },
+    "getDialogTitle" : {
+      "name" : "getDialogTitle",
+      "key" : "org.argouml.uml.ui.AbstractActionAddModelElement2/method/getDialogTitle",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 158,
+        "startColumn" : 31,
+        "endLine" : 158,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionAddModelElement2"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,55 @@
+{
+  "name" : "ParserInitializationException",
+  "key" : "org.apache.commons.net.ftp.parser.ParserInitializationException",
+  "type" : "class",
+  "position" : {
+    "startLine" : 23,
+    "startColumn" : 8,
+    "endLine" : 23,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "rootCause" : {
+      "name" : "rootCause",
+      "key" : "rootCause",
+      "type" : "java.lang.Throwable",
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 29,
+        "endLine" : 28,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.ParserInitializationException/memberField/rootCause",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.ParserInitializationException"
+    }
+  },
+  "methods" : {
+    "getRootCause" : {
+      "name" : "getRootCause",
+      "key" : "org.apache.commons.net.ftp.parser.ParserInitializationException/method/getRootCause",
+      "type" : "java.lang.Throwable",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 22,
+        "endLine" : 59,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.ParserInitializationException"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.lang.RuntimeException" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

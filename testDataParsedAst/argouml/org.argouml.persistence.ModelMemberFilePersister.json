@@ -1,0 +1,416 @@
+{
+  "name" : "ModelMemberFilePersister",
+  "key" : "org.argouml.persistence.ModelMemberFilePersister",
+  "type" : "class",
+  "position" : {
+    "startLine" : 63,
+    "startColumn" : 1,
+    "endLine" : 63,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 33,
+        "endLine" : 69,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.ModelMemberFilePersister/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.persistence.ModelMemberFilePersister"
+    },
+    "uUIDRefs" : {
+      "name" : "uUIDRefs",
+      "key" : "uUIDRefs",
+      "type" : "java.util.HashMap",
+      "position" : {
+        "startLine" : 232,
+        "startColumn" : 37,
+        "endLine" : 232,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.ModelMemberFilePersister/memberField/uUIDRefs",
+      "classOrInterfaceKey" : "org.argouml.persistence.ModelMemberFilePersister"
+    },
+    "elementsRead" : {
+      "name" : "elementsRead",
+      "key" : "elementsRead",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 234,
+        "startColumn" : 24,
+        "endLine" : 234,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.ModelMemberFilePersister/memberField/elementsRead",
+      "classOrInterfaceKey" : "org.argouml.persistence.ModelMemberFilePersister"
+    },
+    "curModel" : {
+      "name" : "curModel",
+      "key" : "curModel",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 231,
+        "startColumn" : 20,
+        "endLine" : 231,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.ModelMemberFilePersister/memberField/curModel",
+      "classOrInterfaceKey" : "org.argouml.persistence.ModelMemberFilePersister"
+    }
+  },
+  "methods" : {
+    "getElementsRead" : {
+      "name" : "getElementsRead",
+      "key" : "org.argouml.persistence.ModelMemberFilePersister/method/getElementsRead",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 437,
+        "startColumn" : 23,
+        "endLine" : 437,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ModelMemberFilePersister"
+    },
+    "load" : {
+      "name" : "load",
+      "key" : "org.argouml.persistence.ModelMemberFilePersister/method/load",
+      "type" : "void",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 18,
+        "endLine" : 107,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 31,
+          "endLine" : 107,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ModelMemberFilePersister/method/load"
+      }, {
+        "name" : "source",
+        "key" : "source",
+        "type" : "org.xml.sax.InputSource",
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 52,
+          "endLine" : 107,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ModelMemberFilePersister/method/load"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ModelMemberFilePersister"
+    },
+    "setElementsRead" : {
+      "name" : "setElementsRead",
+      "key" : "org.argouml.persistence.ModelMemberFilePersister/method/setElementsRead",
+      "type" : "void",
+      "position" : {
+        "startLine" : 444,
+        "startColumn" : 17,
+        "endLine" : 444,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "elements",
+        "key" : "elements",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 444,
+          "startColumn" : 44,
+          "endLine" : 444,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ModelMemberFilePersister/method/setElementsRead"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ModelMemberFilePersister"
+    },
+    "readModels" : {
+      "name" : "readModels",
+      "key" : "org.argouml.persistence.ModelMemberFilePersister/method/readModels",
+      "type" : "void",
+      "position" : {
+        "startLine" : 288,
+        "startColumn" : 30,
+        "endLine" : 288,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "source",
+        "key" : "source",
+        "type" : "org.xml.sax.InputSource",
+        "position" : {
+          "startLine" : 288,
+          "startColumn" : 53,
+          "endLine" : 288,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ModelMemberFilePersister/method/readModels"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ModelMemberFilePersister"
+    },
+    "registerDiagrams" : {
+      "name" : "registerDiagrams",
+      "key" : "org.argouml.persistence.ModelMemberFilePersister/method/registerDiagrams",
+      "type" : "void",
+      "position" : {
+        "startLine" : 354,
+        "startColumn" : 17,
+        "endLine" : 354,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 354,
+          "startColumn" : 42,
+          "endLine" : 354,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ModelMemberFilePersister/method/registerDiagrams"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ModelMemberFilePersister"
+    },
+    "registerDiagramsInternal" : {
+      "name" : "registerDiagramsInternal",
+      "key" : "org.argouml.persistence.ModelMemberFilePersister/method/registerDiagramsInternal",
+      "type" : "void",
+      "position" : {
+        "startLine" : 372,
+        "startColumn" : 18,
+        "endLine" : 372,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 372,
+          "startColumn" : 51,
+          "endLine" : 372,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ModelMemberFilePersister/method/registerDiagramsInternal"
+      }, {
+        "name" : "elements",
+        "key" : "elements",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 372,
+          "startColumn" : 71,
+          "endLine" : 372,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ModelMemberFilePersister/method/registerDiagramsInternal"
+      }, {
+        "name" : "atLeastOne",
+        "key" : "atLeastOne",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 373,
+          "startColumn" : 21,
+          "endLine" : 373,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ModelMemberFilePersister/method/registerDiagramsInternal"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ModelMemberFilePersister"
+    },
+    "save" : {
+      "name" : "save",
+      "key" : "org.argouml.persistence.ModelMemberFilePersister/method/save",
+      "type" : "void",
+      "position" : {
+        "startLine" : 205,
+        "startColumn" : 17,
+        "endLine" : 205,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "member",
+        "key" : "member",
+        "type" : "org.argouml.kernel.ProjectMember",
+        "position" : {
+          "startLine" : 205,
+          "startColumn" : 36,
+          "endLine" : 205,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ModelMemberFilePersister/method/save"
+      }, {
+        "name" : "outStream",
+        "key" : "outStream",
+        "type" : "java.io.OutputStream",
+        "position" : {
+          "startLine" : 205,
+          "startColumn" : 57,
+          "endLine" : 205,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ModelMemberFilePersister/method/save"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ModelMemberFilePersister"
+    },
+    "parse" : {
+      "name" : "parse",
+      "key" : "org.argouml.persistence.ModelMemberFilePersister/method/parse",
+      "type" : "void",
+      "position" : {
+        "startLine" : 227,
+        "startColumn" : 17,
+        "endLine" : 227,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "label",
+        "key" : "label",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 227,
+          "startColumn" : 30,
+          "endLine" : 227,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ModelMemberFilePersister/method/parse"
+      }, {
+        "name" : "xmiExtensionString",
+        "key" : "xmiExtensionString",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 227,
+          "startColumn" : 44,
+          "endLine" : 227,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ModelMemberFilePersister/method/parse"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ModelMemberFilePersister"
+    },
+    "getUUIDRefs" : {
+      "name" : "getUUIDRefs",
+      "key" : "org.argouml.persistence.ModelMemberFilePersister/method/getUUIDRefs",
+      "type" : "java.util.HashMap",
+      "position" : {
+        "startLine" : 249,
+        "startColumn" : 36,
+        "endLine" : 249,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ModelMemberFilePersister"
+    },
+    "getMainTag" : {
+      "name" : "getMainTag",
+      "key" : "org.argouml.persistence.ModelMemberFilePersister/method/getMainTag",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 19,
+        "endLine" : 141,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ModelMemberFilePersister"
+    },
+    "getCurModel" : {
+      "name" : "getCurModel",
+      "key" : "org.argouml.persistence.ModelMemberFilePersister/method/getCurModel",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 240,
+        "startColumn" : 19,
+        "endLine" : 240,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ModelMemberFilePersister"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "XmiExtensionParser" ],
+  "extends_" : [ "MemberFilePersister" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

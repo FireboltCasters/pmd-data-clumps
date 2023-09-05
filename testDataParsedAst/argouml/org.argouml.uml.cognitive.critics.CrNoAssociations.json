@@ -1,0 +1,123 @@
+{
+  "name" : "CrNoAssociations",
+  "key" : "org.argouml.uml.cognitive.critics.CrNoAssociations",
+  "type" : "class",
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "predicate2" : {
+      "name" : "predicate2",
+      "key" : "org.argouml.uml.cognitive.critics.CrNoAssociations/method/predicate2",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 20,
+        "endLine" : 67,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 38,
+          "endLine" : 67,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNoAssociations/method/predicate2"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 51,
+          "endLine" : 67,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNoAssociations/method/predicate2"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNoAssociations"
+    },
+    "getCriticizedDesignMaterials" : {
+      "name" : "getCriticizedDesignMaterials",
+      "key" : "org.argouml.uml.cognitive.critics.CrNoAssociations/method/getCriticizedDesignMaterials",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 186,
+        "startColumn" : 24,
+        "endLine" : 186,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNoAssociations"
+    },
+    "findAssociation" : {
+      "name" : "findAssociation",
+      "key" : "org.argouml.uml.cognitive.critics.CrNoAssociations/method/findAssociation",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 21,
+        "endLine" : 133,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 133,
+          "startColumn" : 44,
+          "endLine" : 133,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNoAssociations/method/findAssociation"
+      }, {
+        "name" : "depth",
+        "key" : "depth",
+        "type" : "int",
+        "position" : {
+          "startLine" : 133,
+          "startColumn" : 52,
+          "endLine" : 133,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNoAssociations/method/findAssociation"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNoAssociations"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "CrUML" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

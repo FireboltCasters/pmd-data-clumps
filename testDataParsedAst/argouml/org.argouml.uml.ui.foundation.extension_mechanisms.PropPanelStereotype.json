@@ -1,0 +1,475 @@
+{
+  "name" : "PropPanelStereotype",
+  "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype",
+  "type" : "class",
+  "position" : {
+    "startLine" : 60,
+    "startColumn" : 8,
+    "endLine" : 60,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 31,
+        "endLine" : 65,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype"
+    },
+    "tagDefinitionListModel" : {
+      "name" : "tagDefinitionListModel",
+      "key" : "tagDefinitionListModel",
+      "type" : "UMLStereotypeTagDefinitionListModel",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 5,
+        "endLine" : 78,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype/memberField/tagDefinitionListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype"
+    },
+    "extendedElementsListModel" : {
+      "name" : "extendedElementsListModel",
+      "key" : "extendedElementsListModel",
+      "type" : "UMLExtendedElementsListModel",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 5,
+        "endLine" : 82,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype/memberField/extendedElementsListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype"
+    },
+    "metaClasses" : {
+      "name" : "metaClasses",
+      "key" : "metaClasses",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 26,
+        "endLine" : 67,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype/memberField/metaClasses",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype"
+    },
+    "generalizationListModel" : {
+      "name" : "generalizationListModel",
+      "key" : "generalizationListModel",
+      "type" : "org.argouml.uml.ui.foundation.core.UMLGeneralizableElementGeneralizationListModel",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 5,
+        "endLine" : 74,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype/memberField/generalizationListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype"
+    },
+    "specializationListModel" : {
+      "name" : "specializationListModel",
+      "key" : "specializationListModel",
+      "type" : "org.argouml.uml.ui.foundation.core.UMLGeneralizableElementSpecializationListModel",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 5,
+        "endLine" : 70,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype/memberField/specializationListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype"
+    },
+    "extendedElementsScroll" : {
+      "name" : "extendedElementsScroll",
+      "key" : "extendedElementsScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 25,
+        "endLine" : 91,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype/memberField/extendedElementsScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype"
+    },
+    "generalizationScroll" : {
+      "name" : "generalizationScroll",
+      "key" : "generalizationScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 25,
+        "endLine" : 85,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype/memberField/generalizationScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype"
+    },
+    "specializationScroll" : {
+      "name" : "specializationScroll",
+      "key" : "specializationScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 25,
+        "endLine" : 87,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype/memberField/specializationScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype"
+    },
+    "tagDefinitionScroll" : {
+      "name" : "tagDefinitionScroll",
+      "key" : "tagDefinitionScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 25,
+        "endLine" : 89,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype/memberField/tagDefinitionScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype"
+    }
+  },
+  "methods" : {
+    "getTagDefinitionScroll" : {
+      "name" : "getTagDefinitionScroll",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype/method/getTagDefinitionScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 177,
+        "startColumn" : 27,
+        "endLine" : 177,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype"
+    },
+    "getExtendedElementsScroll" : {
+      "name" : "getExtendedElementsScroll",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype/method/getExtendedElementsScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 185,
+        "startColumn" : 27,
+        "endLine" : 185,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype"
+    },
+    "initMetaClasses" : {
+      "name" : "initMetaClasses",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype/method/initMetaClasses",
+      "type" : "void",
+      "position" : {
+        "startLine" : 201,
+        "startColumn" : 10,
+        "endLine" : 201,
+        "endColumn" : 25
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype"
+    },
+    "getSpecializationScroll" : {
+      "name" : "getSpecializationScroll",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype/method/getSpecializationScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 164,
+        "startColumn" : 27,
+        "endLine" : 164,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype"
+    },
+    "getGeneralizationScroll" : {
+      "name" : "getGeneralizationScroll",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype/method/getGeneralizationScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 27,
+        "endLine" : 151,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.UMLStereotypeBaseClassListModel" : {
+      "name" : "UMLStereotypeBaseClassListModel",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.UMLStereotypeBaseClassListModel",
+      "type" : "class",
+      "position" : {
+        "startLine" : 223,
+        "startColumn" : 5,
+        "endLine" : 223,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : { },
+      "methods" : {
+        "buildModelList" : {
+          "name" : "buildModelList",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.UMLStereotypeBaseClassListModel/method/buildModelList",
+          "type" : "void",
+          "position" : {
+            "startLine" : 233,
+            "startColumn" : 24,
+            "endLine" : 233,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.UMLStereotypeBaseClassListModel"
+        },
+        "isValidElement" : {
+          "name" : "isValidElement",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.UMLStereotypeBaseClassListModel/method/isValidElement",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 245,
+            "startColumn" : 27,
+            "endLine" : 245,
+            "endColumn" : 41
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "element",
+            "key" : "element",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 245,
+              "startColumn" : 49,
+              "endLine" : 245,
+              "endColumn" : 56
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.UMLStereotypeBaseClassListModel/method/isValidElement"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.UMLStereotypeBaseClassListModel"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.uml.ui.UMLModelElementListModel2" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionAddStereotypeBaseClass" : {
+      "name" : "ActionAddStereotypeBaseClass",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionAddStereotypeBaseClass",
+      "type" : "class",
+      "position" : {
+        "startLine" : 258,
+        "startColumn" : 5,
+        "endLine" : 258,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : { },
+      "methods" : {
+        "getSelected" : {
+          "name" : "getSelected",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionAddStereotypeBaseClass/method/getSelected",
+          "type" : "java.util.List",
+          "position" : {
+            "startLine" : 271,
+            "startColumn" : 32,
+            "endLine" : 271,
+            "endColumn" : 43
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionAddStereotypeBaseClass"
+        },
+        "getChoices" : {
+          "name" : "getChoices",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionAddStereotypeBaseClass/method/getChoices",
+          "type" : "java.util.List",
+          "position" : {
+            "startLine" : 261,
+            "startColumn" : 32,
+            "endLine" : 261,
+            "endColumn" : 42
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionAddStereotypeBaseClass"
+        },
+        "doIt" : {
+          "name" : "doIt",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionAddStereotypeBaseClass/method/doIt",
+          "type" : "void",
+          "position" : {
+            "startLine" : 282,
+            "startColumn" : 24,
+            "endLine" : 282,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "selected",
+            "key" : "selected",
+            "type" : "java.util.Collection",
+            "position" : {
+              "startLine" : 282,
+              "startColumn" : 40,
+              "endLine" : 282,
+              "endColumn" : 48
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionAddStereotypeBaseClass/method/doIt"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionAddStereotypeBaseClass"
+        },
+        "getDialogTitle" : {
+          "name" : "getDialogTitle",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionAddStereotypeBaseClass/method/getDialogTitle",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 266,
+            "startColumn" : 26,
+            "endLine" : 266,
+            "endColumn" : 40
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionAddStereotypeBaseClass"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.uml.ui.AbstractActionAddModelElement2" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionDeleteStereotypeBaseClass" : {
+      "name" : "ActionDeleteStereotypeBaseClass",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionDeleteStereotypeBaseClass",
+      "type" : "class",
+      "position" : {
+        "startLine" : 307,
+        "startColumn" : 5,
+        "endLine" : 307,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : { },
+      "methods" : {
+        "actionPerformed" : {
+          "name" : "actionPerformed",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionDeleteStereotypeBaseClass/method/actionPerformed",
+          "type" : "void",
+          "position" : {
+            "startLine" : 314,
+            "startColumn" : 21,
+            "endLine" : 314,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "e",
+            "key" : "e",
+            "type" : "java.awt.event.ActionEvent",
+            "position" : {
+              "startLine" : 314,
+              "startColumn" : 49,
+              "endLine" : 314,
+              "endColumn" : 50
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionDeleteStereotypeBaseClass/method/actionPerformed"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype.ActionDeleteStereotypeBaseClass"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.uml.ui.AbstractActionRemoveElement" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelStereotype",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

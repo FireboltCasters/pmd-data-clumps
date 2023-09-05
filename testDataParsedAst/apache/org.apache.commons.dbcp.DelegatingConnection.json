@@ -1,0 +1,884 @@
+{
+  "name" : "DelegatingConnection",
+  "key" : "org.apache.commons.dbcp.DelegatingConnection",
+  "type" : "class",
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 8,
+    "endLine" : 50,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "_conn" : {
+      "name" : "_conn",
+      "key" : "_conn",
+      "type" : "java.sql.Connection",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 26,
+        "endLine" : 53,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.DelegatingConnection/memberField/_conn",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "_closed" : {
+      "name" : "_closed",
+      "key" : "_closed",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 23,
+        "endLine" : 55,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.DelegatingConnection/memberField/_closed",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    }
+  },
+  "methods" : {
+    "setTransactionIsolation" : {
+      "name" : "setTransactionIsolation",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/setTransactionIsolation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 276,
+        "startColumn" : 17,
+        "endLine" : 276,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "level",
+        "key" : "level",
+        "type" : "int",
+        "position" : {
+          "startLine" : 276,
+          "startColumn" : 45,
+          "endLine" : 276,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/setTransactionIsolation"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "getWarnings" : {
+      "name" : "getWarnings",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/getWarnings",
+      "type" : "java.sql.SQLWarning",
+      "position" : {
+        "startLine" : 255,
+        "startColumn" : 23,
+        "endLine" : 255,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "commit" : {
+      "name" : "commit",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/commit",
+      "type" : "void",
+      "position" : {
+        "startLine" : 237,
+        "startColumn" : 17,
+        "endLine" : 237,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "getHoldability" : {
+      "name" : "getHoldability",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/getHoldability",
+      "type" : "int",
+      "position" : {
+        "startLine" : 331,
+        "startColumn" : 16,
+        "endLine" : 331,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "setCatalog" : {
+      "name" : "setCatalog",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/setCatalog",
+      "type" : "void",
+      "position" : {
+        "startLine" : 270,
+        "startColumn" : 17,
+        "endLine" : 270,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "catalog",
+        "key" : "catalog",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 270,
+          "startColumn" : 35,
+          "endLine" : 270,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/setCatalog"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "getDelegate" : {
+      "name" : "getDelegate",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/getDelegate",
+      "type" : "java.sql.Connection",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 23,
+        "endLine" : 86,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "prepareStatement" : {
+      "name" : "prepareStatement",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/prepareStatement",
+      "type" : "java.sql.PreparedStatement",
+      "position" : {
+        "startLine" : 415,
+        "startColumn" : 30,
+        "endLine" : 415,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "sql",
+        "key" : "sql",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 415,
+          "startColumn" : 54,
+          "endLine" : 415,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/prepareStatement"
+      }, {
+        "name" : "columnNames",
+        "key" : "columnNames",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 415,
+          "startColumn" : 66,
+          "endLine" : 415,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/prepareStatement"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "setHoldability" : {
+      "name" : "setHoldability",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/setHoldability",
+      "type" : "void",
+      "position" : {
+        "startLine" : 334,
+        "startColumn" : 17,
+        "endLine" : 334,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "holdability",
+        "key" : "holdability",
+        "type" : "int",
+        "position" : {
+          "startLine" : 334,
+          "startColumn" : 36,
+          "endLine" : 334,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/setHoldability"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "releaseSavepoint" : {
+      "name" : "releaseSavepoint",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/releaseSavepoint",
+      "type" : "void",
+      "position" : {
+        "startLine" : 346,
+        "startColumn" : 17,
+        "endLine" : 346,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "savepoint",
+        "key" : "savepoint",
+        "type" : "java.sql.Savepoint",
+        "position" : {
+          "startLine" : 346,
+          "startColumn" : 53,
+          "endLine" : 346,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/releaseSavepoint"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "checkOpen" : {
+      "name" : "checkOpen",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/checkOpen",
+      "type" : "void",
+      "position" : {
+        "startLine" : 289,
+        "startColumn" : 20,
+        "endLine" : 289,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "getCatalog" : {
+      "name" : "getCatalog",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/getCatalog",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 243,
+        "startColumn" : 19,
+        "endLine" : 243,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "nativeSQL" : {
+      "name" : "nativeSQL",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/nativeSQL",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 261,
+        "startColumn" : 19,
+        "endLine" : 261,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "sql",
+        "key" : "sql",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 261,
+          "startColumn" : 36,
+          "endLine" : 261,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/nativeSQL"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "handleException" : {
+      "name" : "handleException",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/handleException",
+      "type" : "void",
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 20,
+        "endLine" : 154,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.sql.SQLException",
+        "position" : {
+          "startLine" : 154,
+          "startColumn" : 49,
+          "endLine" : 154,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/handleException"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "isReadOnly" : {
+      "name" : "isReadOnly",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/isReadOnly",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 258,
+        "startColumn" : 20,
+        "endLine" : 258,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "hashCode" : {
+      "name" : "hashCode",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/hashCode",
+      "type" : "int",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 16,
+        "endLine" : 104,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "setSavepoint" : {
+      "name" : "setSavepoint",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/setSavepoint",
+      "type" : "java.sql.Savepoint",
+      "position" : {
+        "startLine" : 340,
+        "startColumn" : 31,
+        "endLine" : 340,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 340,
+          "startColumn" : 51,
+          "endLine" : 340,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/setSavepoint"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 148,
+        "startColumn" : 17,
+        "endLine" : 148,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "rollback" : {
+      "name" : "rollback",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/rollback",
+      "type" : "void",
+      "position" : {
+        "startLine" : 343,
+        "startColumn" : 17,
+        "endLine" : 343,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "savepoint",
+        "key" : "savepoint",
+        "type" : "java.sql.Savepoint",
+        "position" : {
+          "startLine" : 343,
+          "startColumn" : 45,
+          "endLine" : 343,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/rollback"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "getInnermostDelegate" : {
+      "name" : "getInnermostDelegate",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/getInnermostDelegate",
+      "type" : "java.sql.Connection",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 23,
+        "endLine" : 128,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "setTypeMap" : {
+      "name" : "setTypeMap",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/setTypeMap",
+      "type" : "void",
+      "position" : {
+        "startLine" : 279,
+        "startColumn" : 17,
+        "endLine" : 279,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "map",
+        "key" : "map",
+        "type" : "java.util.Map",
+        "position" : {
+          "startLine" : 279,
+          "startColumn" : 32,
+          "endLine" : 279,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/setTypeMap"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "getAutoCommit" : {
+      "name" : "getAutoCommit",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/getAutoCommit",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 240,
+        "startColumn" : 20,
+        "endLine" : 240,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "clearWarnings" : {
+      "name" : "clearWarnings",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/clearWarnings",
+      "type" : "void",
+      "position" : {
+        "startLine" : 234,
+        "startColumn" : 17,
+        "endLine" : 234,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "setDelegate" : {
+      "name" : "setDelegate",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/setDelegate",
+      "type" : "void",
+      "position" : {
+        "startLine" : 140,
+        "startColumn" : 17,
+        "endLine" : 140,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "java.sql.Connection",
+        "position" : {
+          "startLine" : 140,
+          "startColumn" : 40,
+          "endLine" : 140,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/setDelegate"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "createStatement" : {
+      "name" : "createStatement",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/createStatement",
+      "type" : "java.sql.Statement",
+      "position" : {
+        "startLine" : 349,
+        "startColumn" : 22,
+        "endLine" : 349,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "resultSetType",
+        "key" : "resultSetType",
+        "type" : "int",
+        "position" : {
+          "startLine" : 349,
+          "startColumn" : 42,
+          "endLine" : 349,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/createStatement"
+      }, {
+        "name" : "resultSetConcurrency",
+        "key" : "resultSetConcurrency",
+        "type" : "int",
+        "position" : {
+          "startLine" : 350,
+          "startColumn" : 42,
+          "endLine" : 350,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/createStatement"
+      }, {
+        "name" : "resultSetHoldability",
+        "key" : "resultSetHoldability",
+        "type" : "int",
+        "position" : {
+          "startLine" : 351,
+          "startColumn" : 42,
+          "endLine" : 351,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/createStatement"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "isClosed" : {
+      "name" : "isClosed",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/isClosed",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 282,
+        "startColumn" : 20,
+        "endLine" : 282,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "equals" : {
+      "name" : "equals",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/equals",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 20,
+        "endLine" : 90,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 90,
+          "startColumn" : 34,
+          "endLine" : 90,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/equals"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "setAutoCommit" : {
+      "name" : "setAutoCommit",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/setAutoCommit",
+      "type" : "void",
+      "position" : {
+        "startLine" : 267,
+        "startColumn" : 17,
+        "endLine" : 267,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "autoCommit",
+        "key" : "autoCommit",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 267,
+          "startColumn" : 39,
+          "endLine" : 267,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/setAutoCommit"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "getTransactionIsolation" : {
+      "name" : "getTransactionIsolation",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/getTransactionIsolation",
+      "type" : "int",
+      "position" : {
+        "startLine" : 249,
+        "startColumn" : 16,
+        "endLine" : 249,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "activate" : {
+      "name" : "activate",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/activate",
+      "type" : "void",
+      "position" : {
+        "startLine" : 295,
+        "startColumn" : 20,
+        "endLine" : 295,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "getMetaData" : {
+      "name" : "getMetaData",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/getMetaData",
+      "type" : "java.sql.DatabaseMetaData",
+      "position" : {
+        "startLine" : 246,
+        "startColumn" : 29,
+        "endLine" : 246,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "setReadOnly" : {
+      "name" : "setReadOnly",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/setReadOnly",
+      "type" : "void",
+      "position" : {
+        "startLine" : 273,
+        "startColumn" : 17,
+        "endLine" : 273,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "readOnly",
+        "key" : "readOnly",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 273,
+          "startColumn" : 37,
+          "endLine" : 273,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/setReadOnly"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "prepareCall" : {
+      "name" : "prepareCall",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/prepareCall",
+      "type" : "java.sql.CallableStatement",
+      "position" : {
+        "startLine" : 377,
+        "startColumn" : 30,
+        "endLine" : 377,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "sql",
+        "key" : "sql",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 377,
+          "startColumn" : 49,
+          "endLine" : 377,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/prepareCall"
+      }, {
+        "name" : "resultSetType",
+        "key" : "resultSetType",
+        "type" : "int",
+        "position" : {
+          "startLine" : 377,
+          "startColumn" : 58,
+          "endLine" : 377,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/prepareCall"
+      }, {
+        "name" : "resultSetConcurrency",
+        "key" : "resultSetConcurrency",
+        "type" : "int",
+        "position" : {
+          "startLine" : 378,
+          "startColumn" : 46,
+          "endLine" : 378,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/prepareCall"
+      }, {
+        "name" : "resultSetHoldability",
+        "key" : "resultSetHoldability",
+        "type" : "int",
+        "position" : {
+          "startLine" : 379,
+          "startColumn" : 46,
+          "endLine" : 379,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.DelegatingConnection/method/prepareCall"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "getTypeMap" : {
+      "name" : "getTypeMap",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/getTypeMap",
+      "type" : "java.util.Map",
+      "position" : {
+        "startLine" : 252,
+        "startColumn" : 16,
+        "endLine" : 252,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    },
+    "passivate" : {
+      "name" : "passivate",
+      "key" : "org.apache.commons.dbcp.DelegatingConnection/method/passivate",
+      "type" : "void",
+      "position" : {
+        "startLine" : 303,
+        "startColumn" : 20,
+        "endLine" : 303,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DelegatingConnection"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.sql.Connection" ],
+  "extends_" : [ "AbandonedTrace" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

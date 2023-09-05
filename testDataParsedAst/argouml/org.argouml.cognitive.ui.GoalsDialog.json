@@ -1,0 +1,159 @@
+{
+  "name" : "GoalsDialog",
+  "key" : "org.argouml.cognitive.ui.GoalsDialog",
+  "type" : "class",
+  "position" : {
+    "startLine" : 53,
+    "startColumn" : 8,
+    "endLine" : 53,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "DIALOG_WIDTH" : {
+      "name" : "DIALOG_WIDTH",
+      "key" : "DIALOG_WIDTH",
+      "type" : "int",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 30,
+        "endLine" : 55,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.GoalsDialog/memberField/DIALOG_WIDTH",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoalsDialog"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 203,
+        "startColumn" : 31,
+        "endLine" : 203,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.GoalsDialog/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoalsDialog"
+    },
+    "slidersToGoals" : {
+      "name" : "slidersToGoals",
+      "key" : "slidersToGoals",
+      "type" : "java.util.Hashtable",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 38,
+        "endLine" : 61,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.GoalsDialog/memberField/slidersToGoals",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoalsDialog"
+    },
+    "mainPanel" : {
+      "name" : "mainPanel",
+      "key" : "mainPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 20,
+        "endLine" : 59,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.GoalsDialog/memberField/mainPanel",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoalsDialog"
+    },
+    "slidersToDigits" : {
+      "name" : "slidersToDigits",
+      "key" : "slidersToDigits",
+      "type" : "java.util.Hashtable",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 40,
+        "endLine" : 64,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.GoalsDialog/memberField/slidersToDigits",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoalsDialog"
+    },
+    "DIALOG_HEIGHT" : {
+      "name" : "DIALOG_HEIGHT",
+      "key" : "DIALOG_HEIGHT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 30,
+        "endLine" : 56,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.GoalsDialog/memberField/DIALOG_HEIGHT",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoalsDialog"
+    }
+  },
+  "methods" : {
+    "initMainPanel" : {
+      "name" : "initMainPanel",
+      "key" : "org.argouml.cognitive.ui.GoalsDialog/method/initMainPanel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 18,
+        "endLine" : 82,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoalsDialog"
+    },
+    "stateChanged" : {
+      "name" : "stateChanged",
+      "key" : "org.argouml.cognitive.ui.GoalsDialog/method/stateChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 187,
+        "startColumn" : 17,
+        "endLine" : 187,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ce",
+        "key" : "ce",
+        "type" : "javax.swing.event.ChangeEvent",
+        "position" : {
+          "startLine" : 187,
+          "startColumn" : 42,
+          "endLine" : 187,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.GoalsDialog/method/stateChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoalsDialog"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "javax.swing.event.ChangeListener" ],
+  "extends_" : [ "org.argouml.util.ArgoDialog" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

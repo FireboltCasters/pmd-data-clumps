@@ -1,0 +1,38 @@
+{
+  "name" : "PropPanelLinkEnd",
+  "key" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelLinkEnd",
+  "type" : "class",
+  "position" : {
+    "startLine" : 46,
+    "startColumn" : 8,
+    "endLine" : 46,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 31,
+        "endLine" : 51,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelLinkEnd/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.PropPanelLinkEnd"
+    }
+  },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

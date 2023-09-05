@@ -1,0 +1,162 @@
+{
+  "name" : "ProjectMemberDiagram",
+  "key" : "org.argouml.uml.diagram.ProjectMemberDiagram",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "diagram" : {
+      "name" : "diagram",
+      "key" : "diagram",
+      "type" : "ArgoDiagram",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 25,
+        "endLine" : 40,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ProjectMemberDiagram/memberField/diagram",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ProjectMemberDiagram"
+    },
+    "MEMBER_TYPE" : {
+      "name" : "MEMBER_TYPE",
+      "key" : "MEMBER_TYPE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 33,
+        "endLine" : 37,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ProjectMemberDiagram/memberField/MEMBER_TYPE",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ProjectMemberDiagram"
+    },
+    "FILE_EXT" : {
+      "name" : "FILE_EXT",
+      "key" : "FILE_EXT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 33,
+        "endLine" : 38,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ProjectMemberDiagram/memberField/FILE_EXT",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ProjectMemberDiagram"
+    }
+  },
+  "methods" : {
+    "setDiagram" : {
+      "name" : "setDiagram",
+      "key" : "org.argouml.uml.diagram.ProjectMemberDiagram/method/setDiagram",
+      "type" : "void",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 20,
+        "endLine" : 80,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "d",
+        "key" : "d",
+        "type" : "ArgoDiagram",
+        "position" : {
+          "startLine" : 80,
+          "startColumn" : 43,
+          "endLine" : 80,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ProjectMemberDiagram/method/setDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ProjectMemberDiagram"
+    },
+    "repair" : {
+      "name" : "repair",
+      "key" : "org.argouml.uml.diagram.ProjectMemberDiagram/method/repair",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 19,
+        "endLine" : 87,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ProjectMemberDiagram"
+    },
+    "getType" : {
+      "name" : "getType",
+      "key" : "org.argouml.uml.diagram.ProjectMemberDiagram/method/getType",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 19,
+        "endLine" : 65,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ProjectMemberDiagram"
+    },
+    "getDiagram" : {
+      "name" : "getDiagram",
+      "key" : "org.argouml.uml.diagram.ProjectMemberDiagram/method/getDiagram",
+      "type" : "ArgoDiagram",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 24,
+        "endLine" : 58,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ProjectMemberDiagram"
+    },
+    "getZipFileExtension" : {
+      "name" : "getZipFileExtension",
+      "key" : "org.argouml.uml.diagram.ProjectMemberDiagram/method/getZipFileExtension",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 19,
+        "endLine" : 73,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ProjectMemberDiagram"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.kernel.AbstractProjectMember" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,38 @@
+{
+  "name" : "FigAbstraction",
+  "key" : "org.argouml.uml.diagram.ui.FigAbstraction",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "endArrow" : {
+      "name" : "endArrow",
+      "key" : "endArrow",
+      "type" : "org.tigris.gef.presentation.ArrowHeadTriangle",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 31,
+        "endLine" : 49,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigAbstraction/memberField/endArrow",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigAbstraction"
+    }
+  },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "FigDependency" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

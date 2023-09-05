@@ -1,0 +1,198 @@
+{
+  "name" : "GlassPane",
+  "key" : "org.argouml.swingext.GlassPane",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 31,
+        "endLine" : 44,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.swingext.GlassPane/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.swingext.GlassPane"
+    },
+    "theWindow" : {
+      "name" : "theWindow",
+      "key" : "theWindow",
+      "type" : "java.awt.Window",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 20,
+        "endLine" : 46,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.swingext.GlassPane/memberField/theWindow",
+      "classOrInterfaceKey" : "org.argouml.swingext.GlassPane"
+    },
+    "activeComponent" : {
+      "name" : "activeComponent",
+      "key" : "activeComponent",
+      "type" : "java.awt.Component",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 23,
+        "endLine" : 47,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.swingext.GlassPane/memberField/activeComponent",
+      "classOrInterfaceKey" : "org.argouml.swingext.GlassPane"
+    }
+  },
+  "methods" : {
+    "setVisible" : {
+      "name" : "setVisible",
+      "key" : "org.argouml.swingext.GlassPane/method/setVisible",
+      "type" : "void",
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 17,
+        "endLine" : 153,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "value",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 153,
+          "startColumn" : 36,
+          "endLine" : 153,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.swingext.GlassPane/method/setVisible"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.swingext.GlassPane"
+    },
+    "setActiveComponent" : {
+      "name" : "setActiveComponent",
+      "key" : "org.argouml.swingext.GlassPane/method/setActiveComponent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 18,
+        "endLine" : 143,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "aComponent",
+        "key" : "aComponent",
+        "type" : "java.awt.Component",
+        "position" : {
+          "startLine" : 143,
+          "startColumn" : 47,
+          "endLine" : 143,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.swingext.GlassPane/method/setActiveComponent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.swingext.GlassPane"
+    },
+    "eventDispatched" : {
+      "name" : "eventDispatched",
+      "key" : "org.argouml.swingext.GlassPane/method/eventDispatched",
+      "type" : "void",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 17,
+        "endLine" : 73,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "java.awt.AWTEvent",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 42,
+          "endLine" : 73,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.swingext.GlassPane/method/eventDispatched"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.swingext.GlassPane"
+    },
+    "mount" : {
+      "name" : "mount",
+      "key" : "org.argouml.swingext.GlassPane/method/mount",
+      "type" : "org.argouml.swingext.GlassPane",
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 42,
+        "endLine" : 102,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "startComponent",
+        "key" : "startComponent",
+        "type" : "java.awt.Component",
+        "position" : {
+          "startLine" : 102,
+          "startColumn" : 58,
+          "endLine" : 102,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.swingext.GlassPane/method/mount"
+      }, {
+        "name" : "create",
+        "key" : "create",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 103,
+          "startColumn" : 15,
+          "endLine" : 103,
+          "endColumn" : 21
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.swingext.GlassPane/method/mount"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.swingext.GlassPane"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.event.AWTEventListener" ],
+  "extends_" : [ "javax.swing.JComponent" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,153 @@
+{
+  "name" : "ActionAddNote",
+  "key" : "org.argouml.uml.diagram.ui.ActionAddNote",
+  "type" : "class",
+  "position" : {
+    "startLine" : 59,
+    "startColumn" : 8,
+    "endLine" : 59,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "DISTANCE" : {
+      "name" : "DISTANCE",
+      "key" : "DISTANCE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 30,
+        "endLine" : 69,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionAddNote/memberField/DISTANCE",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddNote"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 213,
+        "startColumn" : 31,
+        "endLine" : 213,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionAddNote/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddNote"
+    },
+    "DEFAULT_POS" : {
+      "name" : "DEFAULT_POS",
+      "key" : "DEFAULT_POS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 30,
+        "endLine" : 64,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionAddNote/memberField/DEFAULT_POS",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddNote"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.diagram.ui.ActionAddNote/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 17,
+        "endLine" : 89,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 89,
+          "startColumn" : 45,
+          "endLine" : 89,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionAddNote/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddNote"
+    },
+    "calculateLocation" : {
+      "name" : "calculateLocation",
+      "key" : "org.argouml.uml.diagram.ui.ActionAddNote/method/calculateLocation",
+      "type" : "java.awt.Point",
+      "position" : {
+        "startLine" : 159,
+        "startColumn" : 19,
+        "endLine" : 159,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "diagram",
+        "key" : "diagram",
+        "type" : "org.argouml.uml.diagram.ArgoDiagram",
+        "position" : {
+          "startLine" : 160,
+          "startColumn" : 25,
+          "endLine" : 160,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionAddNote/method/calculateLocation"
+      }, {
+        "name" : "firstTarget",
+        "key" : "firstTarget",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 160,
+          "startColumn" : 41,
+          "endLine" : 160,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionAddNote/method/calculateLocation"
+      }, {
+        "name" : "noteFig",
+        "key" : "noteFig",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 160,
+          "startColumn" : 58,
+          "endLine" : 160,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionAddNote/method/calculateLocation"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddNote"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

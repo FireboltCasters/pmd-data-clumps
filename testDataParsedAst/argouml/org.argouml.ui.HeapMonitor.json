@@ -1,0 +1,248 @@
+{
+  "name" : "HeapMonitor",
+  "key" : "org.argouml.ui.HeapMonitor",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "RED" : {
+      "name" : "RED",
+      "key" : "RED",
+      "type" : "java.awt.Color",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 32,
+        "endLine" : 51,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HeapMonitor/memberField/RED",
+      "classOrInterfaceKey" : "org.argouml.ui.HeapMonitor"
+    },
+    "ORANGE_THRESHOLD" : {
+      "name" : "ORANGE_THRESHOLD",
+      "key" : "ORANGE_THRESHOLD",
+      "type" : "int",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 30,
+        "endLine" : 46,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HeapMonitor/memberField/ORANGE_THRESHOLD",
+      "classOrInterfaceKey" : "org.argouml.ui.HeapMonitor"
+    },
+    "total" : {
+      "name" : "total",
+      "key" : "total",
+      "type" : "long",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 18,
+        "endLine" : 57,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HeapMonitor/memberField/total",
+      "classOrInterfaceKey" : "org.argouml.ui.HeapMonitor"
+    },
+    "max" : {
+      "name" : "max",
+      "key" : "max",
+      "type" : "long",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 18,
+        "endLine" : 58,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HeapMonitor/memberField/max",
+      "classOrInterfaceKey" : "org.argouml.ui.HeapMonitor"
+    },
+    "RED_THRESHOLD" : {
+      "name" : "RED_THRESHOLD",
+      "key" : "RED_THRESHOLD",
+      "type" : "int",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 30,
+        "endLine" : 47,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HeapMonitor/memberField/RED_THRESHOLD",
+      "classOrInterfaceKey" : "org.argouml.ui.HeapMonitor"
+    },
+    "used" : {
+      "name" : "used",
+      "key" : "used",
+      "type" : "long",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 18,
+        "endLine" : 59,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HeapMonitor/memberField/used",
+      "classOrInterfaceKey" : "org.argouml.ui.HeapMonitor"
+    },
+    "free" : {
+      "name" : "free",
+      "key" : "free",
+      "type" : "long",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 18,
+        "endLine" : 56,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HeapMonitor/memberField/free",
+      "classOrInterfaceKey" : "org.argouml.ui.HeapMonitor"
+    },
+    "GREEN" : {
+      "name" : "GREEN",
+      "key" : "GREEN",
+      "type" : "java.awt.Color",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 32,
+        "endLine" : 49,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HeapMonitor/memberField/GREEN",
+      "classOrInterfaceKey" : "org.argouml.ui.HeapMonitor"
+    },
+    "M" : {
+      "name" : "M",
+      "key" : "M",
+      "type" : "long",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 31,
+        "endLine" : 53,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HeapMonitor/memberField/M",
+      "classOrInterfaceKey" : "org.argouml.ui.HeapMonitor"
+    },
+    "ORANGE" : {
+      "name" : "ORANGE",
+      "key" : "ORANGE",
+      "type" : "java.awt.Color",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 32,
+        "endLine" : 50,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HeapMonitor/memberField/ORANGE",
+      "classOrInterfaceKey" : "org.argouml.ui.HeapMonitor"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.HeapMonitor/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 17,
+        "endLine" : 115,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 115,
+          "startColumn" : 45,
+          "endLine" : 115,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.HeapMonitor/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.HeapMonitor"
+    },
+    "paint" : {
+      "name" : "paint",
+      "key" : "org.argouml.ui.HeapMonitor/method/paint",
+      "type" : "void",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 17,
+        "endLine" : 77,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "g",
+        "key" : "g",
+        "type" : "java.awt.Graphics",
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 33,
+          "endLine" : 77,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.HeapMonitor/method/paint"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.HeapMonitor"
+    },
+    "updateStats" : {
+      "name" : "updateStats",
+      "key" : "org.argouml.ui.HeapMonitor/method/updateStats",
+      "type" : "void",
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 18,
+        "endLine" : 120,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.HeapMonitor"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.event.ActionListener" ],
+  "extends_" : [ "javax.swing.JComponent" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,68 @@
+{
+  "name" : "ActionSetTagDefinitionNamespace",
+  "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.ActionSetTagDefinitionNamespace",
+  "type" : "class",
+  "position" : {
+    "startLine" : 258,
+    "startColumn" : 1,
+    "endLine" : 258,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 263,
+        "startColumn" : 31,
+        "endLine" : 263,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.ActionSetTagDefinitionNamespace/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.ActionSetTagDefinitionNamespace"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.ActionSetTagDefinitionNamespace/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 279,
+        "startColumn" : 17,
+        "endLine" : 279,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 279,
+          "startColumn" : 45,
+          "endLine" : 279,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.ActionSetTagDefinitionNamespace/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.ActionSetTagDefinitionNamespace"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

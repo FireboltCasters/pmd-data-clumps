@@ -1,0 +1,65 @@
+{
+  "name" : "AssociationRoleNotation",
+  "key" : "org.argouml.notation.providers.AssociationRoleNotation",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 17,
+    "endLine" : 39,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "initialiseListener" : {
+      "name" : "initialiseListener",
+      "key" : "org.argouml.notation.providers.AssociationRoleNotation/method/initialiseListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "java.beans.PropertyChangeListener",
+        "position" : {
+          "startLine" : 56,
+          "startColumn" : 59,
+          "endLine" : 56,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.AssociationRoleNotation/method/initialiseListener"
+      }, {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 57,
+          "startColumn" : 20,
+          "endLine" : 57,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.AssociationRoleNotation/method/initialiseListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.AssociationRoleNotation"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.notation.NotationProvider" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,84 @@
+{
+  "name" : "UMLTextArea2",
+  "key" : "org.argouml.uml.ui.UMLTextArea2",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 31,
+        "endLine" : 49,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLTextArea2/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLTextArea2"
+    }
+  },
+  "methods" : {
+    "getTargettableModel" : {
+      "name" : "getTargettableModel",
+      "key" : "org.argouml.uml.ui.UMLTextArea2/method/getTargettableModel",
+      "type" : "org.argouml.ui.targetmanager.TargetListener",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 27,
+        "endLine" : 74,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLTextArea2"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.ui.UMLTextArea2/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 17,
+        "endLine" : 67,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "evt",
+        "key" : "evt",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 52,
+          "endLine" : 67,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLTextArea2/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLTextArea2"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.beans.PropertyChangeListener", "org.argouml.ui.targetmanager.TargettableModelView" ],
+  "extends_" : [ "javax.swing.JTextArea" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,422 @@
+{
+  "name" : "UMLComboBoxEntry",
+  "key" : "org.argouml.uml.ui.UMLComboBoxEntry",
+  "type" : "class",
+  "position" : {
+    "startLine" : 49,
+    "startColumn" : 8,
+    "endLine" : 49,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 33,
+        "endLine" : 51,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLComboBoxEntry/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "formater" : {
+      "name" : "formater",
+      "key" : "formater",
+      "type" : "org.argouml.profile.FormatingStrategy",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 31,
+        "endLine" : 58,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLComboBoxEntry/memberField/formater",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "displayName" : {
+      "name" : "displayName",
+      "key" : "displayName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 20,
+        "endLine" : 62,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLComboBoxEntry/memberField/displayName",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "thisIsAPhantom" : {
+      "name" : "thisIsAPhantom",
+      "key" : "thisIsAPhantom",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 21,
+        "endLine" : 66,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLComboBoxEntry/memberField/thisIsAPhantom",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "shortName" : {
+      "name" : "shortName",
+      "key" : "shortName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 20,
+        "endLine" : 54,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLComboBoxEntry/memberField/shortName",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "element" : {
+      "name" : "element",
+      "key" : "element",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 20,
+        "endLine" : 53,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLComboBoxEntry/memberField/element",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "longName" : {
+      "name" : "longName",
+      "key" : "longName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 20,
+        "endLine" : 57,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLComboBoxEntry/memberField/longName",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    }
+  },
+  "methods" : {
+    "checkCollision" : {
+      "name" : "checkCollision",
+      "key" : "org.argouml.uml.ui.UMLComboBoxEntry/method/checkCollision",
+      "type" : "void",
+      "position" : {
+        "startLine" : 129,
+        "startColumn" : 17,
+        "endLine" : 129,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "before",
+        "key" : "before",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 129,
+          "startColumn" : 39,
+          "endLine" : 129,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLComboBoxEntry/method/checkCollision"
+      }, {
+        "name" : "after",
+        "key" : "after",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 129,
+          "startColumn" : 54,
+          "endLine" : 129,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLComboBoxEntry/method/checkCollision"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "getElement" : {
+      "name" : "getElement",
+      "key" : "org.argouml.uml.ui.UMLComboBoxEntry/method/getElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 213,
+        "startColumn" : 19,
+        "endLine" : 213,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "targetModel",
+        "key" : "targetModel",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 213,
+          "startColumn" : 37,
+          "endLine" : 213,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLComboBoxEntry/method/getElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "getShortName" : {
+      "name" : "getShortName",
+      "key" : "org.argouml.uml.ui.UMLComboBoxEntry/method/getShortName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 19,
+        "endLine" : 143,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "findNamespace" : {
+      "name" : "findNamespace",
+      "key" : "org.argouml.uml.ui.UMLComboBoxEntry/method/findNamespace",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 170,
+        "startColumn" : 27,
+        "endLine" : 170,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "phantomNS",
+        "key" : "phantomNS",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 170,
+          "startColumn" : 48,
+          "endLine" : 170,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLComboBoxEntry/method/findNamespace"
+      }, {
+        "name" : "targetModel",
+        "key" : "targetModel",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 170,
+          "startColumn" : 66,
+          "endLine" : 170,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLComboBoxEntry/method/findNamespace"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.uml.ui.UMLComboBoxEntry/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 19,
+        "endLine" : 103,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "setElement" : {
+      "name" : "setElement",
+      "key" : "org.argouml.uml.ui.UMLComboBoxEntry/method/setElement",
+      "type" : "void",
+      "position" : {
+        "startLine" : 258,
+        "startColumn" : 17,
+        "endLine" : 258,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 258,
+          "startColumn" : 35,
+          "endLine" : 258,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLComboBoxEntry/method/setElement"
+      }, {
+        "name" : "isPhantom",
+        "key" : "isPhantom",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 259,
+          "startColumn" : 21,
+          "endLine" : 259,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLComboBoxEntry/method/setElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "compareTo" : {
+      "name" : "compareTo",
+      "key" : "org.argouml.uml.ui.UMLComboBoxEntry/method/compareTo",
+      "type" : "int",
+      "position" : {
+        "startLine" : 267,
+        "startColumn" : 16,
+        "endLine" : 267,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "other",
+        "key" : "other",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 267,
+          "startColumn" : 49,
+          "endLine" : 267,
+          "endColumn" : 54
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLComboBoxEntry/method/compareTo"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "updateName" : {
+      "name" : "updateName",
+      "key" : "org.argouml.uml.ui.UMLComboBoxEntry/method/updateName",
+      "type" : "void",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 17,
+        "endLine" : 111,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "isPhantom" : {
+      "name" : "isPhantom",
+      "key" : "org.argouml.uml.ui.UMLComboBoxEntry/method/isPhantom",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 325,
+        "startColumn" : 20,
+        "endLine" : 325,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "getLongName" : {
+      "name" : "getLongName",
+      "key" : "org.argouml.uml.ui.UMLComboBoxEntry/method/getLongName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 19,
+        "endLine" : 150,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    },
+    "nameChanged" : {
+      "name" : "nameChanged",
+      "key" : "org.argouml.uml.ui.UMLComboBoxEntry/method/nameChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 309,
+        "startColumn" : 17,
+        "endLine" : 309,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 309,
+          "startColumn" : 36,
+          "endLine" : 309,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLComboBoxEntry/method/nameChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxEntry"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.lang.Comparable" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

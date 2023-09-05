@@ -1,0 +1,284 @@
+{
+  "name" : "ClassdiagramEdge",
+  "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 17,
+    "endLine" : 37,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "sourceFigNode" : {
+      "name" : "sourceFigNode",
+      "key" : "sourceFigNode",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 17,
+        "endLine" : 52,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/memberField/sourceFigNode",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge"
+    },
+    "destFigNode" : {
+      "name" : "destFigNode",
+      "key" : "destFigNode",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 17,
+        "endLine" : 51,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/memberField/destFigNode",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge"
+    },
+    "vGap" : {
+      "name" : "vGap",
+      "key" : "vGap",
+      "type" : "int",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 24,
+        "endLine" : 41,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/memberField/vGap",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge"
+    },
+    "currentEdge" : {
+      "name" : "currentEdge",
+      "key" : "currentEdge",
+      "type" : "org.tigris.gef.presentation.FigEdge",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 21,
+        "endLine" : 45,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/memberField/currentEdge",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge"
+    },
+    "underlyingFig" : {
+      "name" : "underlyingFig",
+      "key" : "underlyingFig",
+      "type" : "org.tigris.gef.presentation.FigPoly",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 21,
+        "endLine" : 47,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/memberField/underlyingFig",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge"
+    },
+    "hGap" : {
+      "name" : "hGap",
+      "key" : "hGap",
+      "type" : "int",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 24,
+        "endLine" : 42,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/memberField/hGap",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge"
+    }
+  },
+  "methods" : {
+    "layout" : {
+      "name" : "layout",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/method/layout",
+      "type" : "void",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 26,
+        "endLine" : 72,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge"
+    },
+    "getVGap" : {
+      "name" : "getVGap",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/method/getVGap",
+      "type" : "int",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 23,
+        "endLine" : 92,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge"
+    },
+    "setVGap" : {
+      "name" : "setVGap",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/method/setVGap",
+      "type" : "void",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 24,
+        "endLine" : 82,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "v",
+        "key" : "v",
+        "type" : "int",
+        "position" : {
+          "startLine" : 82,
+          "startColumn" : 36,
+          "endLine" : 82,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/method/setVGap"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge"
+    },
+    "getDestFigNode" : {
+      "name" : "getDestFigNode",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/method/getDestFigNode",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 9,
+        "endLine" : 97,
+        "endColumn" : 23
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge"
+    },
+    "getCurrentEdge" : {
+      "name" : "getCurrentEdge",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/method/getCurrentEdge",
+      "type" : "org.tigris.gef.presentation.FigEdge",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 23,
+        "endLine" : 111,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge"
+    },
+    "setHGap" : {
+      "name" : "setHGap",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/method/setHGap",
+      "type" : "void",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 24,
+        "endLine" : 77,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "h",
+        "key" : "h",
+        "type" : "int",
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 36,
+          "endLine" : 77,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/method/setHGap"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge"
+    },
+    "getUnderlyingFig" : {
+      "name" : "getUnderlyingFig",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/method/getUnderlyingFig",
+      "type" : "org.tigris.gef.presentation.FigPoly",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 23,
+        "endLine" : 118,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge"
+    },
+    "getHGap" : {
+      "name" : "getHGap",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/method/getHGap",
+      "type" : "int",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 23,
+        "endLine" : 87,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge"
+    },
+    "getSourceFigNode" : {
+      "name" : "getSourceFigNode",
+      "key" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge/method/getSourceFigNode",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 9,
+        "endLine" : 104,
+        "endColumn" : 25
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.uml.diagram.layout.LayoutedEdge" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

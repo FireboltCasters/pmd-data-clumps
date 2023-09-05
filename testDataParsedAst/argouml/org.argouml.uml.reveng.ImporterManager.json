@@ -1,0 +1,188 @@
+{
+  "name" : "ImporterManager",
+  "key" : "org.argouml.uml.reveng.ImporterManager",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 14,
+    "endLine" : 37,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "importers" : {
+      "name" : "importers",
+      "key" : "importers",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 34,
+        "endLine" : 57,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ImporterManager/memberField/importers",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImporterManager"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 33,
+        "endLine" : 41,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ImporterManager/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImporterManager"
+    },
+    "INSTANCE" : {
+      "name" : "INSTANCE",
+      "key" : "INSTANCE",
+      "type" : "org.argouml.uml.reveng.ImporterManager",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 42,
+        "endLine" : 47,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ImporterManager/memberField/INSTANCE",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImporterManager"
+    }
+  },
+  "methods" : {
+    "addImporter" : {
+      "name" : "addImporter",
+      "key" : "org.argouml.uml.reveng.ImporterManager/method/addImporter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 17,
+        "endLine" : 83,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "importer",
+        "key" : "importer",
+        "type" : "ImportInterface",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 45,
+          "endLine" : 83,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ImporterManager/method/addImporter"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImporterManager"
+    },
+    "getImporters" : {
+      "name" : "getImporters",
+      "key" : "org.argouml.uml.reveng.ImporterManager/method/getImporters",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 33,
+        "endLine" : 112,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImporterManager"
+    },
+    "addimporter" : {
+      "name" : "addimporter",
+      "key" : "org.argouml.uml.reveng.ImporterManager/method/addimporter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 17,
+        "endLine" : 74,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "importer",
+        "key" : "importer",
+        "type" : "ImportInterface",
+        "position" : {
+          "startLine" : 74,
+          "startColumn" : 45,
+          "endLine" : 74,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ImporterManager/method/addimporter"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImporterManager"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.uml.reveng.ImporterManager/method/getInstance",
+      "type" : "org.argouml.uml.reveng.ImporterManager",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 35,
+        "endLine" : 53,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImporterManager"
+    },
+    "removeImporter" : {
+      "name" : "removeImporter",
+      "key" : "org.argouml.uml.reveng.ImporterManager/method/removeImporter",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 20,
+        "endLine" : 98,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "importer",
+        "key" : "importer",
+        "type" : "ImportInterface",
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 51,
+          "endLine" : 98,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ImporterManager/method/removeImporter"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImporterManager"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

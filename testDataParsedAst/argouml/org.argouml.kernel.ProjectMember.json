@@ -1,0 +1,103 @@
+{
+  "name" : "ProjectMember",
+  "key" : "org.argouml.kernel.ProjectMember",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "repair" : {
+      "name" : "repair",
+      "key" : "org.argouml.kernel.ProjectMember/method/repair",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 12,
+        "endLine" : 72,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectMember"
+    },
+    "getType" : {
+      "name" : "getType",
+      "key" : "org.argouml.kernel.ProjectMember/method/getType",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 12,
+        "endLine" : 59,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectMember"
+    },
+    "getZipName" : {
+      "name" : "getZipName",
+      "key" : "org.argouml.kernel.ProjectMember/method/getZipName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 12,
+        "endLine" : 53,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectMember"
+    },
+    "getUniqueDiagramName" : {
+      "name" : "getUniqueDiagramName",
+      "key" : "org.argouml.kernel.ProjectMember/method/getUniqueDiagramName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 12,
+        "endLine" : 44,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectMember"
+    },
+    "getZipFileExtension" : {
+      "name" : "getZipFileExtension",
+      "key" : "org.argouml.kernel.ProjectMember/method/getZipFileExtension",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 12,
+        "endLine" : 64,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectMember"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

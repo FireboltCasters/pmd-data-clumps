@@ -1,0 +1,2060 @@
+{
+  "name" : "Critic",
+  "key" : "org.argouml.cognitive.Critic",
+  "type" : "class",
+  "position" : {
+    "startLine" : 59,
+    "startColumn" : 8,
+    "endLine" : 59,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "knowledgeTypes" : {
+      "name" : "knowledgeTypes",
+      "key" : "knowledgeTypes",
+      "type" : "ListSet",
+      "position" : {
+        "startLine" : 246,
+        "startColumn" : 29,
+        "endLine" : 246,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/knowledgeTypes",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "KT_TOOL" : {
+      "name" : "KT_TOOL",
+      "key" : "KT_TOOL",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 32,
+        "endLine" : 150,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/KT_TOOL",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "KT_OPTIMIZATION" : {
+      "name" : "KT_OPTIMIZATION",
+      "key" : "KT_OPTIMIZATION",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 126,
+        "startColumn" : 32,
+        "endLine" : 126,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/KT_OPTIMIZATION",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "supportedGoals" : {
+      "name" : "supportedGoals",
+      "key" : "supportedGoals",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 224,
+        "startColumn" : 24,
+        "endLine" : 224,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/supportedGoals",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "description" : {
+      "name" : "description",
+      "key" : "description",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 181,
+        "startColumn" : 20,
+        "endLine" : 181,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/description",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "KT_DESIGNERS" : {
+      "name" : "KT_DESIGNERS",
+      "key" : "KT_DESIGNERS",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 32,
+        "endLine" : 90,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/KT_DESIGNERS",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "isActive" : {
+      "name" : "isActive",
+      "key" : "isActive",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 237,
+        "startColumn" : 21,
+        "endLine" : 237,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/isActive",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "clarifier" : {
+      "name" : "clarifier",
+      "key" : "clarifier",
+      "type" : "javax.swing.Icon",
+      "position" : {
+        "startLine" : 206,
+        "startColumn" : 18,
+        "endLine" : 206,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/clarifier",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "KT_COMPLETENESS" : {
+      "name" : "KT_COMPLETENESS",
+      "key" : "KT_COMPLETENESS",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 32,
+        "endLine" : 102,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/KT_COMPLETENESS",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "DEFAULT_CLARIFIER" : {
+      "name" : "DEFAULT_CLARIFIER",
+      "key" : "DEFAULT_CLARIFIER",
+      "type" : "javax.swing.Icon",
+      "position" : {
+        "startLine" : 202,
+        "startColumn" : 30,
+        "endLine" : 202,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/DEFAULT_CLARIFIER",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "KT_CORRECTNESS" : {
+      "name" : "KT_CORRECTNESS",
+      "key" : "KT_CORRECTNESS",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 32,
+        "endLine" : 96,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/KT_CORRECTNESS",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "criticType" : {
+      "name" : "criticType",
+      "key" : "criticType",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 231,
+        "startColumn" : 20,
+        "endLine" : 231,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/criticType",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "PROBLEM_FOUND" : {
+      "name" : "PROBLEM_FOUND",
+      "key" : "PROBLEM_FOUND",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 33,
+        "endLine" : 74,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/PROBLEM_FOUND",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "headline" : {
+      "name" : "headline",
+      "key" : "headline",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 176,
+        "startColumn" : 20,
+        "endLine" : 176,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/headline",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "KT_SEMANTICS" : {
+      "name" : "KT_SEMANTICS",
+      "key" : "KT_SEMANTICS",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 32,
+        "endLine" : 120,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/KT_SEMANTICS",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "controlRecs" : {
+      "name" : "controlRecs",
+      "key" : "controlRecs",
+      "type" : "java.util.Hashtable",
+      "position" : {
+        "startLine" : 243,
+        "startColumn" : 39,
+        "endLine" : 243,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/controlRecs",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "triggerMask" : {
+      "name" : "triggerMask",
+      "key" : "triggerMask",
+      "type" : "long",
+      "position" : {
+        "startLine" : 247,
+        "startColumn" : 18,
+        "endLine" : 247,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/triggerMask",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "KT_ORGANIZATIONAL" : {
+      "name" : "KT_ORGANIZATIONAL",
+      "key" : "KT_ORGANIZATIONAL",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 32,
+        "endLine" : 138,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/KT_ORGANIZATIONAL",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 33,
+        "endLine" : 66,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "NO_PROBLEM" : {
+      "name" : "NO_PROBLEM",
+      "key" : "NO_PROBLEM",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 33,
+        "endLine" : 79,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/NO_PROBLEM",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "KT_PRESENTATION" : {
+      "name" : "KT_PRESENTATION",
+      "key" : "KT_PRESENTATION",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 32,
+        "endLine" : 132,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/KT_PRESENTATION",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "KT_CONSISTENCY" : {
+      "name" : "KT_CONSISTENCY",
+      "key" : "KT_CONSISTENCY",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 32,
+        "endLine" : 108,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/KT_CONSISTENCY",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "priority" : {
+      "name" : "priority",
+      "key" : "priority",
+      "type" : "int",
+      "position" : {
+        "startLine" : 171,
+        "startColumn" : 17,
+        "endLine" : 171,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/priority",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "KT_EXPERIENCIAL" : {
+      "name" : "KT_EXPERIENCIAL",
+      "key" : "KT_EXPERIENCIAL",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 32,
+        "endLine" : 144,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/KT_EXPERIENCIAL",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "supportedDecisions" : {
+      "name" : "supportedDecisions",
+      "key" : "supportedDecisions",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 222,
+        "startColumn" : 28,
+        "endLine" : 222,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/supportedDecisions",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "args" : {
+      "name" : "args",
+      "key" : "args",
+      "type" : "java.util.Hashtable",
+      "position" : {
+        "startLine" : 197,
+        "startColumn" : 39,
+        "endLine" : 197,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/args",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "KT_SYNTAX" : {
+      "name" : "KT_SYNTAX",
+      "key" : "KT_SYNTAX",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 32,
+        "endLine" : 114,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/KT_SYNTAX",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "SNOOZE_ORDER" : {
+      "name" : "SNOOZE_ORDER",
+      "key" : "SNOOZE_ORDER",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 33,
+        "endLine" : 85,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/SNOOZE_ORDER",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "moreInfoURL" : {
+      "name" : "moreInfoURL",
+      "key" : "moreInfoURL",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 186,
+        "startColumn" : 20,
+        "endLine" : 186,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/moreInfoURL",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "ENABLED" : {
+      "name" : "ENABLED",
+      "key" : "ENABLED",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 33,
+        "endLine" : 84,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/ENABLED",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "decisionCategory" : {
+      "name" : "decisionCategory",
+      "key" : "decisionCategory",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 220,
+        "startColumn" : 20,
+        "endLine" : 220,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Critic/memberField/decisionCategory",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    }
+  },
+  "methods" : {
+    "getCriticName" : {
+      "name" : "getCriticName",
+      "key" : "org.argouml.cognitive.Critic/method/getCriticName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 341,
+        "startColumn" : 19,
+        "endLine" : 341,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "stillValid" : {
+      "name" : "stillValid",
+      "key" : "org.argouml.cognitive.Critic/method/stillValid",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 440,
+        "startColumn" : 20,
+        "endLine" : 440,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "i",
+        "key" : "i",
+        "type" : "ToDoItem",
+        "position" : {
+          "startLine" : 440,
+          "startColumn" : 40,
+          "endLine" : 440,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/stillValid"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 440,
+          "startColumn" : 52,
+          "endLine" : 440,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/stillValid"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "isRelevantToGoals" : {
+      "name" : "isRelevantToGoals",
+      "key" : "org.argouml.cognitive.Critic/method/isRelevantToGoals",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 761,
+        "startColumn" : 20,
+        "endLine" : 761,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 761,
+          "startColumn" : 47,
+          "endLine" : 761,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/isRelevantToGoals"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "isActive" : {
+      "name" : "isActive",
+      "key" : "org.argouml.cognitive.Critic/method/isActive",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 617,
+        "startColumn" : 20,
+        "endLine" : 617,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "predicate" : {
+      "name" : "predicate",
+      "key" : "org.argouml.cognitive.Critic/method/predicate",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 416,
+        "startColumn" : 20,
+        "endLine" : 416,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 416,
+          "startColumn" : 37,
+          "endLine" : 416,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/predicate"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 416,
+          "startColumn" : 50,
+          "endLine" : 416,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/predicate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "matchReason" : {
+      "name" : "matchReason",
+      "key" : "org.argouml.cognitive.Critic/method/matchReason",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 589,
+        "startColumn" : 20,
+        "endLine" : 589,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "patternCode",
+        "key" : "patternCode",
+        "type" : "long",
+        "position" : {
+          "startLine" : 589,
+          "startColumn" : 37,
+          "endLine" : 589,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/matchReason"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getCriticKey" : {
+      "name" : "getCriticKey",
+      "key" : "org.argouml.cognitive.Critic/method/getCriticKey",
+      "type" : "org.argouml.configuration.ConfigurationKey",
+      "position" : {
+        "startLine" : 312,
+        "startColumn" : 29,
+        "endLine" : 312,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "setArg" : {
+      "name" : "setArg",
+      "key" : "org.argouml.cognitive.Critic/method/setArg",
+      "type" : "void",
+      "position" : {
+        "startLine" : 982,
+        "startColumn" : 20,
+        "endLine" : 982,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 982,
+          "startColumn" : 34,
+          "endLine" : 982,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/setArg"
+      }, {
+        "name" : "value",
+        "key" : "value",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 982,
+          "startColumn" : 47,
+          "endLine" : 982,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/setArg"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "isRelevantToDecisions" : {
+      "name" : "isRelevantToDecisions",
+      "key" : "org.argouml.cognitive.Critic/method/isRelevantToDecisions",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 737,
+        "startColumn" : 20,
+        "endLine" : 737,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 737,
+          "startColumn" : 51,
+          "endLine" : 737,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/isRelevantToDecisions"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "setArgs" : {
+      "name" : "setArgs",
+      "key" : "org.argouml.cognitive.Critic/method/setArgs",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1019,
+        "startColumn" : 17,
+        "endLine" : 1019,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "h",
+        "key" : "h",
+        "type" : "java.util.Hashtable",
+        "position" : {
+          "startLine" : 1019,
+          "startColumn" : 51,
+          "endLine" : 1019,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/setArgs"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "containsKnowledgeType" : {
+      "name" : "containsKnowledgeType",
+      "key" : "org.argouml.cognitive.Critic/method/containsKnowledgeType",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 501,
+        "startColumn" : 20,
+        "endLine" : 501,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "type",
+        "key" : "type",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 501,
+          "startColumn" : 49,
+          "endLine" : 501,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/containsKnowledgeType"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "snooze" : {
+      "name" : "snooze",
+      "key" : "org.argouml.cognitive.Critic/method/snooze",
+      "type" : "void",
+      "position" : {
+        "startLine" : 711,
+        "startColumn" : 17,
+        "endLine" : 711,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getCriticizedDesignMaterials" : {
+      "name" : "getCriticizedDesignMaterials",
+      "key" : "org.argouml.cognitive.Critic/method/getCriticizedDesignMaterials",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 1029,
+        "startColumn" : 24,
+        "endLine" : 1029,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getMoreInfoURL" : {
+      "name" : "getMoreInfoURL",
+      "key" : "org.argouml.cognitive.Critic/method/getMoreInfoURL",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 969,
+        "startColumn" : 19,
+        "endLine" : 969,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "beInactive" : {
+      "name" : "beInactive",
+      "key" : "org.argouml.cognitive.Critic/method/beInactive",
+      "type" : "void",
+      "position" : {
+        "startLine" : 636,
+        "startColumn" : 17,
+        "endLine" : 636,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "canFixIt" : {
+      "name" : "canFixIt",
+      "key" : "org.argouml.cognitive.Critic/method/canFixIt",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 1071,
+        "startColumn" : 20,
+        "endLine" : 1071,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "ToDoItem",
+        "position" : {
+          "startLine" : 1071,
+          "startColumn" : 38,
+          "endLine" : 1071,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/canFixIt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getKnowledgeTypes" : {
+      "name" : "getKnowledgeTypes",
+      "key" : "org.argouml.cognitive.Critic/method/getKnowledgeTypes",
+      "type" : "ListSet",
+      "position" : {
+        "startLine" : 515,
+        "startColumn" : 28,
+        "endLine" : 515,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getArg" : {
+      "name" : "getArg",
+      "key" : "org.argouml.cognitive.Critic/method/getArg",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 995,
+        "startColumn" : 22,
+        "endLine" : 995,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 995,
+          "startColumn" : 36,
+          "endLine" : 995,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/getArg"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getHeadline" : {
+      "name" : "getHeadline",
+      "key" : "org.argouml.cognitive.Critic/method/getHeadline",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 885,
+        "startColumn" : 19,
+        "endLine" : 885,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getCriticCategory" : {
+      "name" : "getCriticCategory",
+      "key" : "org.argouml.cognitive.Critic/method/getCriticCategory",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 327,
+        "startColumn" : 19,
+        "endLine" : 327,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getArgs" : {
+      "name" : "getArgs",
+      "key" : "org.argouml.cognitive.Critic/method/getArgs",
+      "type" : "java.util.Hashtable",
+      "position" : {
+        "startLine" : 1007,
+        "startColumn" : 38,
+        "endLine" : 1007,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "initWizard" : {
+      "name" : "initWizard",
+      "key" : "org.argouml.cognitive.Critic/method/initWizard",
+      "type" : "void",
+      "position" : {
+        "startLine" : 819,
+        "startColumn" : 17,
+        "endLine" : 819,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "w",
+        "key" : "w",
+        "type" : "org.argouml.cognitive.critics.Wizard",
+        "position" : {
+          "startLine" : 819,
+          "startColumn" : 35,
+          "endLine" : 819,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/initWizard"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "setEnabled" : {
+      "name" : "setEnabled",
+      "key" : "org.argouml.cognitive.Critic/method/setEnabled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 694,
+        "startColumn" : 17,
+        "endLine" : 694,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 694,
+          "startColumn" : 36,
+          "endLine" : 694,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/setEnabled"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "snoozeOrder" : {
+      "name" : "snoozeOrder",
+      "key" : "org.argouml.cognitive.Critic/method/snoozeOrder",
+      "type" : "org.argouml.cognitive.critics.SnoozeOrder",
+      "position" : {
+        "startLine" : 704,
+        "startColumn" : 24,
+        "endLine" : 704,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getTriggerMask" : {
+      "name" : "getTriggerMask",
+      "key" : "org.argouml.cognitive.Critic/method/getTriggerMask",
+      "type" : "long",
+      "position" : {
+        "startLine" : 573,
+        "startColumn" : 17,
+        "endLine" : 573,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "expand" : {
+      "name" : "expand",
+      "key" : "org.argouml.cognitive.Critic/method/expand",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 596,
+        "startColumn" : 19,
+        "endLine" : 596,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "desc",
+        "key" : "desc",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 596,
+          "startColumn" : 33,
+          "endLine" : 596,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/expand"
+      }, {
+        "name" : "offs",
+        "key" : "offs",
+        "type" : "ListSet",
+        "position" : {
+          "startLine" : 596,
+          "startColumn" : 47,
+          "endLine" : 596,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/expand"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "setKnowledgeTypes" : {
+      "name" : "setKnowledgeTypes",
+      "key" : "org.argouml.cognitive.Critic/method/setKnowledgeTypes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 555,
+        "startColumn" : 17,
+        "endLine" : 555,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t1",
+        "key" : "t1",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 555,
+          "startColumn" : 42,
+          "endLine" : 555,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/setKnowledgeTypes"
+      }, {
+        "name" : "t2",
+        "key" : "t2",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 555,
+          "startColumn" : 53,
+          "endLine" : 555,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/setKnowledgeTypes"
+      }, {
+        "name" : "t3",
+        "key" : "t3",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 555,
+          "startColumn" : 64,
+          "endLine" : 555,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/setKnowledgeTypes"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "beActive" : {
+      "name" : "beActive",
+      "key" : "org.argouml.cognitive.Critic/method/beActive",
+      "type" : "void",
+      "position" : {
+        "startLine" : 623,
+        "startColumn" : 17,
+        "endLine" : 623,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.cognitive.Critic/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 683,
+        "startColumn" : 20,
+        "endLine" : 683,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "setPriority" : {
+      "name" : "setPriority",
+      "key" : "org.argouml.cognitive.Critic/method/setPriority",
+      "type" : "void",
+      "position" : {
+        "startLine" : 912,
+        "startColumn" : 17,
+        "endLine" : 912,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "p",
+        "key" : "p",
+        "type" : "int",
+        "position" : {
+          "startLine" : 912,
+          "startColumn" : 33,
+          "endLine" : 912,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/setPriority"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "toDoItem" : {
+      "name" : "toDoItem",
+      "key" : "org.argouml.cognitive.Critic/method/toDoItem",
+      "type" : "ToDoItem",
+      "position" : {
+        "startLine" : 1053,
+        "startColumn" : 21,
+        "endLine" : 1053,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 1053,
+          "startColumn" : 37,
+          "endLine" : 1053,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/toDoItem"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 1053,
+          "startColumn" : 50,
+          "endLine" : 1053,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/toDoItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getDescriptionTemplate" : {
+      "name" : "getDescriptionTemplate",
+      "key" : "org.argouml.cognitive.Critic/method/getDescriptionTemplate",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 944,
+        "startColumn" : 19,
+        "endLine" : 944,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "addTrigger" : {
+      "name" : "addTrigger",
+      "key" : "org.argouml.cognitive.Critic/method/addTrigger",
+      "type" : "void",
+      "position" : {
+        "startLine" : 580,
+        "startColumn" : 17,
+        "endLine" : 580,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 580,
+          "startColumn" : 35,
+          "endLine" : 580,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/addTrigger"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "critique" : {
+      "name" : "critique",
+      "key" : "org.argouml.cognitive.Critic/method/critique",
+      "type" : "void",
+      "position" : {
+        "startLine" : 370,
+        "startColumn" : 17,
+        "endLine" : 370,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 370,
+          "startColumn" : 33,
+          "endLine" : 370,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/critique"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 370,
+          "startColumn" : 46,
+          "endLine" : 370,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/critique"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "postItem" : {
+      "name" : "postItem",
+      "key" : "org.argouml.cognitive.Critic/method/postItem",
+      "type" : "void",
+      "position" : {
+        "startLine" : 392,
+        "startColumn" : 17,
+        "endLine" : 392,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "ToDoItem",
+        "position" : {
+          "startLine" : 392,
+          "startColumn" : 35,
+          "endLine" : 392,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/postItem"
+      }, {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 392,
+          "startColumn" : 48,
+          "endLine" : 392,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/postItem"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 392,
+          "startColumn" : 61,
+          "endLine" : 392,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/postItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "setHeadline" : {
+      "name" : "setHeadline",
+      "key" : "org.argouml.cognitive.Critic/method/setHeadline",
+      "type" : "void",
+      "position" : {
+        "startLine" : 894,
+        "startColumn" : 17,
+        "endLine" : 894,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "h",
+        "key" : "h",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 894,
+          "startColumn" : 36,
+          "endLine" : 894,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/setHeadline"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "setDescription" : {
+      "name" : "setDescription",
+      "key" : "org.argouml.cognitive.Critic/method/setDescription",
+      "type" : "void",
+      "position" : {
+        "startLine" : 937,
+        "startColumn" : 17,
+        "endLine" : 937,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "d",
+        "key" : "d",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 937,
+          "startColumn" : 39,
+          "endLine" : 937,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/setDescription"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getDescription" : {
+      "name" : "getDescription",
+      "key" : "org.argouml.cognitive.Critic/method/getDescription",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 930,
+        "startColumn" : 19,
+        "endLine" : 930,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "offenders",
+        "key" : "offenders",
+        "type" : "ListSet",
+        "position" : {
+          "startLine" : 930,
+          "startColumn" : 42,
+          "endLine" : 930,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/getDescription"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 930,
+          "startColumn" : 62,
+          "endLine" : 930,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/getDescription"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "defaultMoreInfoURL" : {
+      "name" : "defaultMoreInfoURL",
+      "key" : "org.argouml.cognitive.Critic/method/defaultMoreInfoURL",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 158,
+        "startColumn" : 25,
+        "endLine" : 158,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getCriticType" : {
+      "name" : "getCriticType",
+      "key" : "org.argouml.cognitive.Critic/method/getCriticType",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 854,
+        "startColumn" : 19,
+        "endLine" : 854,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getClarifier" : {
+      "name" : "getClarifier",
+      "key" : "org.argouml.cognitive.Critic/method/getClarifier",
+      "type" : "javax.swing.Icon",
+      "position" : {
+        "startLine" : 603,
+        "startColumn" : 17,
+        "endLine" : 603,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getWizardClass" : {
+      "name" : "getWizardClass",
+      "key" : "org.argouml.cognitive.Critic/method/getWizardClass",
+      "type" : "java.lang.Class",
+      "position" : {
+        "startLine" : 805,
+        "startColumn" : 18,
+        "endLine" : 805,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "ToDoItem",
+        "position" : {
+          "startLine" : 805,
+          "startColumn" : 42,
+          "endLine" : 805,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/getWizardClass"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getControlRec" : {
+      "name" : "getControlRec",
+      "key" : "org.argouml.cognitive.Critic/method/getControlRec",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 670,
+        "startColumn" : 19,
+        "endLine" : 670,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 670,
+          "startColumn" : 40,
+          "endLine" : 670,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/getControlRec"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "isSnoozed" : {
+      "name" : "isSnoozed",
+      "key" : "org.argouml.cognitive.Critic/method/isSnoozed",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 722,
+        "startColumn" : 20,
+        "endLine" : 722,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "supports" : {
+      "name" : "supports",
+      "key" : "org.argouml.cognitive.Critic/method/supports",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 484,
+        "startColumn" : 20,
+        "endLine" : 484,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "g",
+        "key" : "g",
+        "type" : "Goal",
+        "position" : {
+          "startLine" : 484,
+          "startColumn" : 34,
+          "endLine" : 484,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/supports"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "addControlRec" : {
+      "name" : "addControlRec",
+      "key" : "org.argouml.cognitive.Critic/method/addControlRec",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 660,
+        "startColumn" : 19,
+        "endLine" : 660,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 660,
+          "startColumn" : 40,
+          "endLine" : 660,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/addControlRec"
+      }, {
+        "name" : "controlData",
+        "key" : "controlData",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 660,
+          "startColumn" : 53,
+          "endLine" : 660,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/addControlRec"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "reasonCodeFor" : {
+      "name" : "reasonCodeFor",
+      "key" : "org.argouml.cognitive.Critic/method/reasonCodeFor",
+      "type" : "int",
+      "position" : {
+        "startLine" : 566,
+        "startColumn" : 23,
+        "endLine" : 566,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 566,
+          "startColumn" : 44,
+          "endLine" : 566,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/reasonCodeFor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "makeWizard" : {
+      "name" : "makeWizard",
+      "key" : "org.argouml.cognitive.Critic/method/makeWizard",
+      "type" : "org.argouml.cognitive.critics.Wizard",
+      "position" : {
+        "startLine" : 779,
+        "startColumn" : 19,
+        "endLine" : 779,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "ToDoItem",
+        "position" : {
+          "startLine" : 779,
+          "startColumn" : 39,
+          "endLine" : 779,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/makeWizard"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "setDecisionCategory" : {
+      "name" : "setDecisionCategory",
+      "key" : "org.argouml.cognitive.Critic/method/setDecisionCategory",
+      "type" : "void",
+      "position" : {
+        "startLine" : 843,
+        "startColumn" : 20,
+        "endLine" : 843,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 843,
+          "startColumn" : 47,
+          "endLine" : 843,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/setDecisionCategory"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "unsnooze" : {
+      "name" : "unsnooze",
+      "key" : "org.argouml.cognitive.Critic/method/unsnooze",
+      "type" : "void",
+      "position" : {
+        "startLine" : 716,
+        "startColumn" : 17,
+        "endLine" : 716,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getDecisionCategory" : {
+      "name" : "getDecisionCategory",
+      "key" : "org.argouml.cognitive.Critic/method/getDecisionCategory",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 832,
+        "startColumn" : 19,
+        "endLine" : 832,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "fixIt" : {
+      "name" : "fixIt",
+      "key" : "org.argouml.cognitive.Critic/method/fixIt",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1078,
+        "startColumn" : 17,
+        "endLine" : 1078,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "ToDoItem",
+        "position" : {
+          "startLine" : 1078,
+          "startColumn" : 32,
+          "endLine" : 1078,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/fixIt"
+      }, {
+        "name" : "arg",
+        "key" : "arg",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 1078,
+          "startColumn" : 45,
+          "endLine" : 1078,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/fixIt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "addKnowledgeType" : {
+      "name" : "addKnowledgeType",
+      "key" : "org.argouml.cognitive.Critic/method/addKnowledgeType",
+      "type" : "void",
+      "position" : {
+        "startLine" : 508,
+        "startColumn" : 17,
+        "endLine" : 508,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "type",
+        "key" : "type",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 508,
+          "startColumn" : 41,
+          "endLine" : 508,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/addKnowledgeType"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getPriority" : {
+      "name" : "getPriority",
+      "key" : "org.argouml.cognitive.Critic/method/getPriority",
+      "type" : "int",
+      "position" : {
+        "startLine" : 919,
+        "startColumn" : 16,
+        "endLine" : 919,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getSupportedGoals" : {
+      "name" : "getSupportedGoals",
+      "key" : "org.argouml.cognitive.Critic/method/getSupportedGoals",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 488,
+        "startColumn" : 23,
+        "endLine" : 488,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "addSupportedGoal" : {
+      "name" : "addSupportedGoal",
+      "key" : "org.argouml.cognitive.Critic/method/addSupportedGoal",
+      "type" : "void",
+      "position" : {
+        "startLine" : 494,
+        "startColumn" : 17,
+        "endLine" : 494,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "g",
+        "key" : "g",
+        "type" : "Goal",
+        "position" : {
+          "startLine" : 494,
+          "startColumn" : 39,
+          "endLine" : 494,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/addSupportedGoal"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.cognitive.Critic/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 1088,
+        "startColumn" : 19,
+        "endLine" : 1088,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "setMoreInfoURL" : {
+      "name" : "setMoreInfoURL",
+      "key" : "org.argouml.cognitive.Critic/method/setMoreInfoURL",
+      "type" : "void",
+      "position" : {
+        "startLine" : 962,
+        "startColumn" : 17,
+        "endLine" : 962,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "m",
+        "key" : "m",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 962,
+          "startColumn" : 39,
+          "endLine" : 962,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/setMoreInfoURL"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "getSupportedDecisions" : {
+      "name" : "getSupportedDecisions",
+      "key" : "org.argouml.cognitive.Critic/method/getSupportedDecisions",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 470,
+        "startColumn" : 27,
+        "endLine" : 470,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    },
+    "addSupportedDecision" : {
+      "name" : "addSupportedDecision",
+      "key" : "org.argouml.cognitive.Critic/method/addSupportedDecision",
+      "type" : "void",
+      "position" : {
+        "startLine" : 477,
+        "startColumn" : 17,
+        "endLine" : 477,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "d",
+        "key" : "d",
+        "type" : "Decision",
+        "position" : {
+          "startLine" : 477,
+          "startColumn" : 47,
+          "endLine" : 477,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Critic/method/addSupportedDecision"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Critic"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "Poster", "java.io.Serializable" ],
+  "extends_" : [ "java.util.Observable" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

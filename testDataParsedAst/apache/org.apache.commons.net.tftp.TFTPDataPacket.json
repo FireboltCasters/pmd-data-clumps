@@ -1,0 +1,320 @@
+{
+  "name" : "TFTPDataPacket",
+  "key" : "org.apache.commons.net.tftp.TFTPDataPacket",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 14,
+    "endLine" : 43,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "_data" : {
+      "name" : "_data",
+      "key" : "_data",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 12,
+        "endLine" : 61,
+        "endColumn" : 17
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTPDataPacket/memberField/_data",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTPDataPacket"
+    },
+    "MIN_DATA_LENGTH" : {
+      "name" : "MIN_DATA_LENGTH",
+      "key" : "MIN_DATA_LENGTH",
+      "type" : "int",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 29,
+        "endLine" : 49,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTPDataPacket/memberField/MIN_DATA_LENGTH",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTPDataPacket"
+    },
+    "_offset" : {
+      "name" : "_offset",
+      "key" : "_offset",
+      "type" : "int",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 9,
+        "endLine" : 58,
+        "endColumn" : 16
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTPDataPacket/memberField/_offset",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTPDataPacket"
+    },
+    "_blockNumber" : {
+      "name" : "_blockNumber",
+      "key" : "_blockNumber",
+      "type" : "int",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 9,
+        "endLine" : 52,
+        "endColumn" : 21
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTPDataPacket/memberField/_blockNumber",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTPDataPacket"
+    },
+    "_length" : {
+      "name" : "_length",
+      "key" : "_length",
+      "type" : "int",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 9,
+        "endLine" : 55,
+        "endColumn" : 16
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTPDataPacket/memberField/_length",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTPDataPacket"
+    },
+    "MAX_DATA_LENGTH" : {
+      "name" : "MAX_DATA_LENGTH",
+      "key" : "MAX_DATA_LENGTH",
+      "type" : "int",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 29,
+        "endLine" : 46,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTPDataPacket/memberField/MAX_DATA_LENGTH",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTPDataPacket"
+    }
+  },
+  "methods" : {
+    "getDataLength" : {
+      "name" : "getDataLength",
+      "key" : "org.apache.commons.net.tftp.TFTPDataPacket/method/getDataLength",
+      "type" : "int",
+      "position" : {
+        "startLine" : 224,
+        "startColumn" : 16,
+        "endLine" : 224,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTPDataPacket"
+    },
+    "_newDatagram" : {
+      "name" : "_newDatagram",
+      "key" : "org.apache.commons.net.tftp.TFTPDataPacket/method/_newDatagram",
+      "type" : "java.net.DatagramPacket",
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 20,
+        "endLine" : 138,
+        "endColumn" : 32
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "datagram",
+        "key" : "datagram",
+        "type" : "java.net.DatagramPacket",
+        "position" : {
+          "startLine" : 138,
+          "startColumn" : 48,
+          "endLine" : 138,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.tftp.TFTPDataPacket/method/_newDatagram"
+      }, {
+        "name" : "data",
+        "key" : "data",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 138,
+          "startColumn" : 65,
+          "endLine" : 138,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.tftp.TFTPDataPacket/method/_newDatagram"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTPDataPacket"
+    },
+    "getDataOffset" : {
+      "name" : "getDataOffset",
+      "key" : "org.apache.commons.net.tftp.TFTPDataPacket/method/getDataOffset",
+      "type" : "int",
+      "position" : {
+        "startLine" : 236,
+        "startColumn" : 16,
+        "endLine" : 236,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTPDataPacket"
+    },
+    "newDatagram" : {
+      "name" : "newDatagram",
+      "key" : "org.apache.commons.net.tftp.TFTPDataPacket/method/newDatagram",
+      "type" : "java.net.DatagramPacket",
+      "position" : {
+        "startLine" : 169,
+        "startColumn" : 27,
+        "endLine" : 169,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTPDataPacket"
+    },
+    "setData" : {
+      "name" : "setData",
+      "key" : "org.apache.commons.net.tftp.TFTPDataPacket/method/setData",
+      "type" : "void",
+      "position" : {
+        "startLine" : 207,
+        "startColumn" : 17,
+        "endLine" : 207,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "data",
+        "key" : "data",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 207,
+          "startColumn" : 32,
+          "endLine" : 207,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.tftp.TFTPDataPacket/method/setData"
+      }, {
+        "name" : "offset",
+        "key" : "offset",
+        "type" : "int",
+        "position" : {
+          "startLine" : 207,
+          "startColumn" : 42,
+          "endLine" : 207,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.tftp.TFTPDataPacket/method/setData"
+      }, {
+        "name" : "length",
+        "key" : "length",
+        "type" : "int",
+        "position" : {
+          "startLine" : 207,
+          "startColumn" : 54,
+          "endLine" : 207,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.tftp.TFTPDataPacket/method/setData"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTPDataPacket"
+    },
+    "getBlockNumber" : {
+      "name" : "getBlockNumber",
+      "key" : "org.apache.commons.net.tftp.TFTPDataPacket/method/getBlockNumber",
+      "type" : "int",
+      "position" : {
+        "startLine" : 189,
+        "startColumn" : 16,
+        "endLine" : 189,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTPDataPacket"
+    },
+    "setBlockNumber" : {
+      "name" : "setBlockNumber",
+      "key" : "org.apache.commons.net.tftp.TFTPDataPacket/method/setBlockNumber",
+      "type" : "void",
+      "position" : {
+        "startLine" : 195,
+        "startColumn" : 17,
+        "endLine" : 195,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "blockNumber",
+        "key" : "blockNumber",
+        "type" : "int",
+        "position" : {
+          "startLine" : 195,
+          "startColumn" : 36,
+          "endLine" : 195,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.tftp.TFTPDataPacket/method/setBlockNumber"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTPDataPacket"
+    },
+    "getData" : {
+      "name" : "getData",
+      "key" : "org.apache.commons.net.tftp.TFTPDataPacket/method/getData",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 246,
+        "startColumn" : 19,
+        "endLine" : 246,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTPDataPacket"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "TFTPPacket" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

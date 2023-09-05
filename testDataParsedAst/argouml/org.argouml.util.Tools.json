@@ -1,0 +1,157 @@
+{
+  "name" : "Tools",
+  "key" : "org.argouml.util.Tools",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 33,
+        "endLine" : 47,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.Tools/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.util.Tools"
+    },
+    "PACKAGELIST" : {
+      "name" : "PACKAGELIST",
+      "key" : "PACKAGELIST",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 35,
+        "endLine" : 49,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.Tools/memberField/PACKAGELIST",
+      "classOrInterfaceKey" : "org.argouml.util.Tools"
+    }
+  },
+  "methods" : {
+    "logVersionInfo" : {
+      "name" : "logVersionInfo",
+      "key" : "org.argouml.util.Tools/method/logVersionInfo",
+      "type" : "void",
+      "position" : {
+        "startLine" : 179,
+        "startColumn" : 24,
+        "endLine" : 179,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.Tools"
+    },
+    "getComponentVersionInfo" : {
+      "name" : "getComponentVersionInfo",
+      "key" : "org.argouml.util.Tools/method/getComponentVersionInfo",
+      "type" : "void",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 25,
+        "endLine" : 61,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "sb",
+        "key" : "sb",
+        "type" : "java.lang.StringBuffer",
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 62,
+          "endLine" : 61,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.Tools/method/getComponentVersionInfo"
+      }, {
+        "name" : "pn",
+        "key" : "pn",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 73,
+          "endLine" : 61,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.Tools/method/getComponentVersionInfo"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.Tools"
+    },
+    "getVersionInfo" : {
+      "name" : "getVersionInfo",
+      "key" : "org.argouml.util.Tools/method/getVersionInfo",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 26,
+        "endLine" : 96,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.Tools"
+    },
+    "getFileExtension" : {
+      "name" : "getFileExtension",
+      "key" : "org.argouml.util.Tools/method/getFileExtension",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 200,
+        "startColumn" : 26,
+        "endLine" : 200,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 200,
+          "startColumn" : 48,
+          "endLine" : 200,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.Tools/method/getFileExtension"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.Tools"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

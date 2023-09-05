@@ -1,0 +1,485 @@
+{
+  "name" : "SwingWorker",
+  "key" : "org.argouml.ui.SwingWorker",
+  "type" : "class",
+  "position" : {
+    "startLine" : 51,
+    "startColumn" : 17,
+    "endLine" : 51,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "timer" : {
+      "name" : "timer",
+      "key" : "timer",
+      "type" : "javax.swing.Timer",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 19,
+        "endLine" : 60,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SwingWorker/memberField/timer",
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 33,
+        "endLine" : 53,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SwingWorker/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "pmw" : {
+      "name" : "pmw",
+      "key" : "pmw",
+      "type" : "org.argouml.taskmgmt.ProgressMonitor",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 29,
+        "endLine" : 62,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SwingWorker/memberField/pmw",
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "value" : {
+      "name" : "value",
+      "key" : "value",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 20,
+        "endLine" : 56,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SwingWorker/memberField/value",
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "glassPane" : {
+      "name" : "glassPane",
+      "key" : "glassPane",
+      "type" : "org.argouml.swingext.GlassPane",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 23,
+        "endLine" : 58,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SwingWorker/memberField/glassPane",
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "threadVar" : {
+      "name" : "threadVar",
+      "key" : "threadVar",
+      "type" : "org.argouml.ui.SwingWorker.ThreadVar",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 23,
+        "endLine" : 84,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SwingWorker/memberField/threadVar",
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    }
+  },
+  "methods" : {
+    "initProgressMonitorWindow" : {
+      "name" : "initProgressMonitorWindow",
+      "key" : "org.argouml.ui.SwingWorker/method/initProgressMonitorWindow",
+      "type" : "org.argouml.taskmgmt.ProgressMonitor",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 37,
+        "endLine" : 118,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "getGlassPane" : {
+      "name" : "getGlassPane",
+      "key" : "org.argouml.ui.SwingWorker/method/getGlassPane",
+      "type" : "org.argouml.swingext.GlassPane",
+      "position" : {
+        "startLine" : 204,
+        "startColumn" : 25,
+        "endLine" : 204,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "start" : {
+      "name" : "start",
+      "key" : "org.argouml.ui.SwingWorker/method/start",
+      "type" : "void",
+      "position" : {
+        "startLine" : 290,
+        "startColumn" : 17,
+        "endLine" : 290,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "finished" : {
+      "name" : "finished",
+      "key" : "org.argouml.ui.SwingWorker/method/finished",
+      "type" : "void",
+      "position" : {
+        "startLine" : 193,
+        "startColumn" : 17,
+        "endLine" : 193,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "construct" : {
+      "name" : "construct",
+      "key" : "org.argouml.ui.SwingWorker/method/construct",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 28,
+        "endLine" : 110,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "progressMonitor",
+        "key" : "progressMonitor",
+        "type" : "org.argouml.taskmgmt.ProgressMonitor",
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 54,
+          "endLine" : 110,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.SwingWorker/method/construct"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "doConstruct" : {
+      "name" : "doConstruct",
+      "key" : "org.argouml.ui.SwingWorker/method/doConstruct",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 19,
+        "endLine" : 125,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "getValue" : {
+      "name" : "getValue",
+      "key" : "org.argouml.ui.SwingWorker/method/getValue",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 35,
+        "endLine" : 92,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PROTECTED", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "deactivateGlassPane" : {
+      "name" : "deactivateGlassPane",
+      "key" : "org.argouml.ui.SwingWorker/method/deactivateGlassPane",
+      "type" : "void",
+      "position" : {
+        "startLine" : 182,
+        "startColumn" : 18,
+        "endLine" : 182,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "setValue" : {
+      "name" : "setValue",
+      "key" : "org.argouml.ui.SwingWorker/method/setValue",
+      "type" : "void",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 31,
+        "endLine" : 99,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "x",
+        "key" : "x",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 99,
+          "startColumn" : 47,
+          "endLine" : 99,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.SwingWorker/method/setValue"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "activateGlassPane" : {
+      "name" : "activateGlassPane",
+      "key" : "org.argouml.ui.SwingWorker/method/activateGlassPane",
+      "type" : "void",
+      "position" : {
+        "startLine" : 166,
+        "startColumn" : 20,
+        "endLine" : 166,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "get" : {
+      "name" : "get",
+      "key" : "org.argouml.ui.SwingWorker/method/get",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 236,
+        "startColumn" : 19,
+        "endLine" : 236,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "interrupt" : {
+      "name" : "interrupt",
+      "key" : "org.argouml.ui.SwingWorker/method/interrupt",
+      "type" : "void",
+      "position" : {
+        "startLine" : 221,
+        "startColumn" : 17,
+        "endLine" : 221,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    },
+    "setGlassPane" : {
+      "name" : "setGlassPane",
+      "key" : "org.argouml.ui.SwingWorker/method/setGlassPane",
+      "type" : "void",
+      "position" : {
+        "startLine" : 213,
+        "startColumn" : 20,
+        "endLine" : 213,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newGlassPane",
+        "key" : "newGlassPane",
+        "type" : "org.argouml.swingext.GlassPane",
+        "position" : {
+          "startLine" : 213,
+          "startColumn" : 43,
+          "endLine" : 213,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.SwingWorker/method/setGlassPane"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.SwingWorker"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.ui.SwingWorker.ThreadVar" : {
+      "name" : "ThreadVar",
+      "key" : "org.argouml.ui.SwingWorker.ThreadVar",
+      "type" : "class",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 20,
+        "endLine" : 68,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "thread" : {
+          "name" : "thread",
+          "key" : "thread",
+          "type" : "java.lang.Thread",
+          "position" : {
+            "startLine" : 69,
+            "startColumn" : 24,
+            "endLine" : 69,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.SwingWorker.ThreadVar/memberField/thread",
+          "classOrInterfaceKey" : "org.argouml.ui.SwingWorker.ThreadVar"
+        }
+      },
+      "methods" : {
+        "get" : {
+          "name" : "get",
+          "key" : "org.argouml.ui.SwingWorker.ThreadVar/method/get",
+          "type" : "java.lang.Thread",
+          "position" : {
+            "startLine" : 75,
+            "startColumn" : 29,
+            "endLine" : 75,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "SYNCHRONIZED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.ui.SwingWorker.ThreadVar"
+        },
+        "clear" : {
+          "name" : "clear",
+          "key" : "org.argouml.ui.SwingWorker.ThreadVar/method/clear",
+          "type" : "void",
+          "position" : {
+            "startLine" : 79,
+            "startColumn" : 27,
+            "endLine" : 79,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "SYNCHRONIZED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.ui.SwingWorker.ThreadVar"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.ui.SwingWorker",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.ui.SwingWorker.TimerListener" : {
+      "name" : "TimerListener",
+      "key" : "org.argouml.ui.SwingWorker.TimerListener",
+      "type" : "class",
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 5,
+        "endLine" : 153,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : { },
+      "methods" : {
+        "actionPerformed" : {
+          "name" : "actionPerformed",
+          "key" : "org.argouml.ui.SwingWorker.TimerListener/method/actionPerformed",
+          "type" : "void",
+          "position" : {
+            "startLine" : 154,
+            "startColumn" : 21,
+            "endLine" : 154,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "evt",
+            "key" : "evt",
+            "type" : "java.awt.event.ActionEvent",
+            "position" : {
+              "startLine" : 154,
+              "startColumn" : 49,
+              "endLine" : 154,
+              "endColumn" : 52
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.SwingWorker.TimerListener/method/actionPerformed"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.SwingWorker.TimerListener"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "java.awt.event.ActionListener" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.ui.SwingWorker",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

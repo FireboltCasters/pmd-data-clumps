@@ -1,0 +1,97 @@
+{
+  "name" : "ActionVisibilityPrivate",
+  "key" : "org.argouml.uml.diagram.ui.ActionVisibilityPrivate",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 1,
+    "endLine" : 31,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 31,
+        "endLine" : 36,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionVisibilityPrivate/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionVisibilityPrivate"
+    }
+  },
+  "methods" : {
+    "valueOfTarget" : {
+      "name" : "valueOfTarget",
+      "key" : "org.argouml.uml.diagram.ui.ActionVisibilityPrivate/method/valueOfTarget",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 12,
+        "endLine" : 64,
+        "endColumn" : 25
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 33,
+          "endLine" : 64,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionVisibilityPrivate/method/valueOfTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionVisibilityPrivate"
+    },
+    "toggleValueOfTarget" : {
+      "name" : "toggleValueOfTarget",
+      "key" : "org.argouml.uml.diagram.ui.ActionVisibilityPrivate/method/toggleValueOfTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 10,
+        "endLine" : 53,
+        "endColumn" : 29
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 37,
+          "endLine" : 53,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionVisibilityPrivate/method/toggleValueOfTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionVisibilityPrivate"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbstractActionRadioMenuItem" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

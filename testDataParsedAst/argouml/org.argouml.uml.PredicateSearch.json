@@ -1,0 +1,186 @@
+{
+  "name" : "PredicateSearch",
+  "key" : "org.argouml.uml.PredicateSearch",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "diagramName" : {
+      "name" : "diagramName",
+      "key" : "diagramName",
+      "type" : "org.argouml.util.Predicate",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 23,
+        "endLine" : 44,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.PredicateSearch/memberField/diagramName",
+      "classOrInterfaceKey" : "org.argouml.uml.PredicateSearch"
+    },
+    "theType" : {
+      "name" : "theType",
+      "key" : "theType",
+      "type" : "org.argouml.util.Predicate",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 23,
+        "endLine" : 45,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.PredicateSearch/memberField/theType",
+      "classOrInterfaceKey" : "org.argouml.uml.PredicateSearch"
+    },
+    "packageName" : {
+      "name" : "packageName",
+      "key" : "packageName",
+      "type" : "org.argouml.util.Predicate",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 23,
+        "endLine" : 43,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.PredicateSearch/memberField/packageName",
+      "classOrInterfaceKey" : "org.argouml.uml.PredicateSearch"
+    },
+    "specific" : {
+      "name" : "specific",
+      "key" : "specific",
+      "type" : "org.argouml.util.Predicate",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 23,
+        "endLine" : 47,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.PredicateSearch/memberField/specific",
+      "classOrInterfaceKey" : "org.argouml.uml.PredicateSearch"
+    },
+    "elementName" : {
+      "name" : "elementName",
+      "key" : "elementName",
+      "type" : "org.argouml.util.Predicate",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 23,
+        "endLine" : 42,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.PredicateSearch/memberField/elementName",
+      "classOrInterfaceKey" : "org.argouml.uml.PredicateSearch"
+    }
+  },
+  "methods" : {
+    "matchPackage" : {
+      "name" : "matchPackage",
+      "key" : "org.argouml.uml.PredicateSearch/method/matchPackage",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 20,
+        "endLine" : 87,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pkg",
+        "key" : "pkg",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 40,
+          "endLine" : 87,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.PredicateSearch/method/matchPackage"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.PredicateSearch"
+    },
+    "matchDiagram" : {
+      "name" : "matchDiagram",
+      "key" : "org.argouml.uml.PredicateSearch/method/matchDiagram",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 20,
+        "endLine" : 79,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 40,
+          "endLine" : 79,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.PredicateSearch/method/matchDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.PredicateSearch"
+    },
+    "evaluate" : {
+      "name" : "evaluate",
+      "key" : "org.argouml.uml.PredicateSearch/method/evaluate",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 20,
+        "endLine" : 92,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 36,
+          "endLine" : 92,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.PredicateSearch/method/evaluate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.PredicateSearch"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.util.Predicate" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

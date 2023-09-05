@@ -1,0 +1,71 @@
+{
+  "name" : "ArgoStatusEvent",
+  "key" : "org.argouml.application.events.ArgoStatusEvent",
+  "type" : "class",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "text" : {
+      "name" : "text",
+      "key" : "text",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 20,
+        "endLine" : 36,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.events.ArgoStatusEvent/memberField/text",
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoStatusEvent"
+    }
+  },
+  "methods" : {
+    "getText" : {
+      "name" : "getText",
+      "key" : "org.argouml.application.events.ArgoStatusEvent/method/getText",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 19,
+        "endLine" : 62,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoStatusEvent"
+    },
+    "getEventStartRange" : {
+      "name" : "getEventStartRange",
+      "key" : "org.argouml.application.events.ArgoStatusEvent/method/getEventStartRange",
+      "type" : "int",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 16,
+        "endLine" : 54,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoStatusEvent"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ArgoEvent" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,201 @@
+{
+  "name" : "ItemUID",
+  "key" : "org.argouml.util.ItemUID",
+  "type" : "class",
+  "position" : {
+    "startLine" : 74,
+    "startColumn" : 8,
+    "endLine" : 74,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 33,
+        "endLine" : 78,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.ItemUID/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.util.ItemUID"
+    },
+    "id" : {
+      "name" : "id",
+      "key" : "id",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 20,
+        "endLine" : 88,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.ItemUID/memberField/id",
+      "classOrInterfaceKey" : "org.argouml.util.ItemUID"
+    },
+    "MYCLASS" : {
+      "name" : "MYCLASS",
+      "key" : "MYCLASS",
+      "type" : "java.lang.Class",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 32,
+        "endLine" : 83,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.ItemUID/memberField/MYCLASS",
+      "classOrInterfaceKey" : "org.argouml.util.ItemUID"
+    }
+  },
+  "methods" : {
+    "readObjectID" : {
+      "name" : "readObjectID",
+      "key" : "org.argouml.util.ItemUID/method/readObjectID",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 159,
+        "startColumn" : 29,
+        "endLine" : 159,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 159,
+          "startColumn" : 49,
+          "endLine" : 159,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.ItemUID/method/readObjectID"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.ItemUID"
+    },
+    "createObjectID" : {
+      "name" : "createObjectID",
+      "key" : "org.argouml.util.ItemUID/method/createObjectID",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 248,
+        "startColumn" : 29,
+        "endLine" : 248,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 248,
+          "startColumn" : 51,
+          "endLine" : 248,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.ItemUID/method/createObjectID"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.ItemUID"
+    },
+    "generateID" : {
+      "name" : "generateID",
+      "key" : "org.argouml.util.ItemUID/method/generateID",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 26,
+        "endLine" : 128,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.ItemUID"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.util.ItemUID/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 19,
+        "endLine" : 116,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.ItemUID"
+    },
+    "getIDOfObject" : {
+      "name" : "getIDOfObject",
+      "key" : "org.argouml.util.ItemUID/method/getIDOfObject",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 26,
+        "endLine" : 141,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 141,
+          "startColumn" : 47,
+          "endLine" : 141,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.ItemUID/method/getIDOfObject"
+      }, {
+        "name" : "canCreate",
+        "key" : "canCreate",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 141,
+          "startColumn" : 60,
+          "endLine" : 141,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.ItemUID/method/getIDOfObject"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.ItemUID"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

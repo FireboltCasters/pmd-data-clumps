@@ -1,0 +1,236 @@
+{
+  "name" : "ByteArrayOutputStreamTestCase",
+  "key" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 28,
+    "startColumn" : 8,
+    "endLine" : 28,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "DATA" : {
+      "name" : "DATA",
+      "key" : "DATA",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 33,
+        "endLine" : 30,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase/memberField/DATA",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase"
+    }
+  },
+  "methods" : {
+    "byteCmp" : {
+      "name" : "byteCmp",
+      "key" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase/method/byteCmp",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 28,
+        "endLine" : 70,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "src",
+        "key" : "src",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 43,
+          "endLine" : 70,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase/method/byteCmp"
+      }, {
+        "name" : "cmp",
+        "key" : "cmp",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 55,
+          "endLine" : 70,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase/method/byteCmp"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase"
+    },
+    "checkByteArrays" : {
+      "name" : "checkByteArrays",
+      "key" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase/method/checkByteArrays",
+      "type" : "void",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 18,
+        "endLine" : 79,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expected",
+        "key" : "expected",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 41,
+          "endLine" : 79,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase/method/checkByteArrays"
+      }, {
+        "name" : "actual",
+        "key" : "actual",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 58,
+          "endLine" : 79,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase/method/checkByteArrays"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase"
+    },
+    "testStream" : {
+      "name" : "testStream",
+      "key" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase/method/testStream",
+      "type" : "void",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 17,
+        "endLine" : 97,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase"
+    },
+    "writeData" : {
+      "name" : "writeData",
+      "key" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase/method/writeData",
+      "type" : "int",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 17,
+        "endLine" : 60,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "baout",
+        "key" : "baout",
+        "type" : "ByteArrayOutputStream",
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 49,
+          "endLine" : 60,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase/method/writeData"
+      }, {
+        "name" : "ref",
+        "key" : "ref",
+        "type" : "java.io.ByteArrayOutputStream",
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 47,
+          "endLine" : 61,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase/method/writeData"
+      }, {
+        "name" : "instructions",
+        "key" : "instructions",
+        "type" : "int[]",
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 23,
+          "endLine" : 62,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase/method/writeData"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase"
+    },
+    "checkStreams" : {
+      "name" : "checkStreams",
+      "key" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase/method/checkStreams",
+      "type" : "void",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 18,
+        "endLine" : 88,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "actual",
+        "key" : "actual",
+        "type" : "ByteArrayOutputStream",
+        "position" : {
+          "startLine" : 89,
+          "startColumn" : 35,
+          "endLine" : 89,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase/method/checkStreams"
+      }, {
+        "name" : "expected",
+        "key" : "expected",
+        "type" : "java.io.ByteArrayOutputStream",
+        "position" : {
+          "startLine" : 90,
+          "startColumn" : 43,
+          "endLine" : 90,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase/method/checkStreams"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStreamTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

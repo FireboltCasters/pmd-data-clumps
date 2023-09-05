@@ -1,0 +1,39 @@
+{
+  "name" : "PropPanelAssociationEndRole",
+  "key" : "org.argouml.uml.ui.behavior.collaborations.PropPanelAssociationEndRole",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "positionControls" : {
+      "name" : "positionControls",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.PropPanelAssociationEndRole/method/positionControls",
+      "type" : "void",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 20,
+        "endLine" : 50,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.PropPanelAssociationEndRole"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

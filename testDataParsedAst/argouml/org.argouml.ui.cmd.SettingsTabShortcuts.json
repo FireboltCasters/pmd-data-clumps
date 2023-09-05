@@ -1,0 +1,876 @@
+{
+  "name" : "SettingsTabShortcuts",
+  "key" : "org.argouml.ui.cmd.SettingsTabShortcuts",
+  "type" : "class",
+  "position" : {
+    "startLine" : 62,
+    "startColumn" : 1,
+    "endLine" : 62,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "shortcutFieldDefaultBg" : {
+      "name" : "shortcutFieldDefaultBg",
+      "key" : "shortcutFieldDefaultBg",
+      "type" : "java.awt.Color",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 19,
+        "endLine" : 89,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/shortcutFieldDefaultBg",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "lastRowSelected" : {
+      "name" : "lastRowSelected",
+      "key" : "lastRowSelected",
+      "type" : "int",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 17,
+        "endLine" : 103,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/lastRowSelected",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "defaultButton" : {
+      "name" : "defaultButton",
+      "key" : "defaultButton",
+      "type" : "javax.swing.JRadioButton",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 26,
+        "endLine" : 93,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/defaultButton",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "shortcutField" : {
+      "name" : "shortcutField",
+      "key" : "shortcutField",
+      "type" : "ShortcutField",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 27,
+        "endLine" : 87,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/shortcutField",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "NONE_NAME" : {
+      "name" : "NONE_NAME",
+      "key" : "NONE_NAME",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 33,
+        "endLine" : 71,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/NONE_NAME",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "customButton" : {
+      "name" : "customButton",
+      "key" : "customButton",
+      "type" : "javax.swing.JRadioButton",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 26,
+        "endLine" : 91,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/customButton",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "target" : {
+      "name" : "target",
+      "key" : "target",
+      "type" : "ActionWrapper",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 27,
+        "endLine" : 99,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/target",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 31,
+        "endLine" : 69,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "noneButton" : {
+      "name" : "noneButton",
+      "key" : "noneButton",
+      "type" : "javax.swing.JRadioButton",
+      "position" : {
+        "startLine" : 95,
+        "startColumn" : 26,
+        "endLine" : 95,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/noneButton",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "selectedContainer" : {
+      "name" : "selectedContainer",
+      "key" : "selectedContainer",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 20,
+        "endLine" : 85,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/selectedContainer",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "columnNames" : {
+      "name" : "columnNames",
+      "key" : "columnNames",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 28,
+        "endLine" : 108,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/columnNames",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "DEFAULT_NAME" : {
+      "name" : "DEFAULT_NAME",
+      "key" : "DEFAULT_NAME",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 33,
+        "endLine" : 74,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/DEFAULT_NAME",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "elements" : {
+      "name" : "elements",
+      "key" : "elements",
+      "type" : "java.lang.Object[][]",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 24,
+        "endLine" : 116,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/elements",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "warningLabel" : {
+      "name" : "warningLabel",
+      "key" : "warningLabel",
+      "type" : "javax.swing.JLabel",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 20,
+        "endLine" : 97,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/warningLabel",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "CUSTOM_NAME" : {
+      "name" : "CUSTOM_NAME",
+      "key" : "CUSTOM_NAME",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 33,
+        "endLine" : 77,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/CUSTOM_NAME",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "actions" : {
+      "name" : "actions",
+      "key" : "actions",
+      "type" : "ActionWrapper[]",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 29,
+        "endLine" : 101,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/actions",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "table" : {
+      "name" : "table",
+      "key" : "table",
+      "type" : "javax.swing.JTable",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 20,
+        "endLine" : 83,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/memberField/table",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    }
+  },
+  "methods" : {
+    "resetKeyStrokeConflict" : {
+      "name" : "resetKeyStrokeConflict",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/resetKeyStrokeConflict",
+      "type" : "void",
+      "position" : {
+        "startLine" : 438,
+        "startColumn" : 18,
+        "endLine" : 438,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "valueChanged" : {
+      "name" : "valueChanged",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/valueChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 330,
+        "startColumn" : 17,
+        "endLine" : 330,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "lse",
+        "key" : "lse",
+        "type" : "javax.swing.event.ListSelectionEvent",
+        "position" : {
+          "startLine" : 330,
+          "startColumn" : 49,
+          "endLine" : 330,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/valueChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "handleSettingsTabRefresh" : {
+      "name" : "handleSettingsTabRefresh",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/handleSettingsTabRefresh",
+      "type" : "void",
+      "position" : {
+        "startLine" : 298,
+        "startColumn" : 17,
+        "endLine" : 298,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "shortcutChange" : {
+      "name" : "shortcutChange",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/shortcutChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 464,
+        "startColumn" : 17,
+        "endLine" : 464,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ShortcutChangedEvent",
+        "position" : {
+          "startLine" : 464,
+          "startColumn" : 53,
+          "endLine" : 464,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/shortcutChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "getTabPanel" : {
+      "name" : "getTabPanel",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/getTabPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 19,
+        "endLine" : 128,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "checkShortcutAlreadyAssigned" : {
+      "name" : "checkShortcutAlreadyAssigned",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/checkShortcutAlreadyAssigned",
+      "type" : "void",
+      "position" : {
+        "startLine" : 475,
+        "startColumn" : 18,
+        "endLine" : 475,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newKeyStroke",
+        "key" : "newKeyStroke",
+        "type" : "javax.swing.KeyStroke",
+        "position" : {
+          "startLine" : 475,
+          "startColumn" : 57,
+          "endLine" : 475,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/checkShortcutAlreadyAssigned"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "getTabKey" : {
+      "name" : "getTabKey",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/getTabKey",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 121,
+        "startColumn" : 19,
+        "endLine" : 121,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "setKeyStrokeValue" : {
+      "name" : "setKeyStrokeValue",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/setKeyStrokeValue",
+      "type" : "void",
+      "position" : {
+        "startLine" : 448,
+        "startColumn" : 18,
+        "endLine" : 448,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newKeyStroke",
+        "key" : "newKeyStroke",
+        "type" : "javax.swing.KeyStroke",
+        "position" : {
+          "startLine" : 448,
+          "startColumn" : 46,
+          "endLine" : 448,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/setKeyStrokeValue"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "handleSettingsTabSave" : {
+      "name" : "handleSettingsTabSave",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/handleSettingsTabSave",
+      "type" : "void",
+      "position" : {
+        "startLine" : 307,
+        "startColumn" : 17,
+        "endLine" : 307,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "getActionAlreadyAssigned" : {
+      "name" : "getActionAlreadyAssigned",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/getActionAlreadyAssigned",
+      "type" : "ActionWrapper",
+      "position" : {
+        "startLine" : 384,
+        "startColumn" : 26,
+        "endLine" : 384,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "keyStroke",
+        "key" : "keyStroke",
+        "type" : "javax.swing.KeyStroke",
+        "position" : {
+          "startLine" : 384,
+          "startColumn" : 61,
+          "endLine" : 384,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/getActionAlreadyAssigned"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 415,
+        "startColumn" : 17,
+        "endLine" : 415,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 415,
+          "startColumn" : 45,
+          "endLine" : 415,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "setTarget" : {
+      "name" : "setTarget",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/setTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 249,
+        "startColumn" : 18,
+        "endLine" : 249,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 249,
+          "startColumn" : 35,
+          "endLine" : 249,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/setTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "enableFields" : {
+      "name" : "enableFields",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/enableFields",
+      "type" : "void",
+      "position" : {
+        "startLine" : 236,
+        "startColumn" : 18,
+        "endLine" : 236,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "enable",
+        "key" : "enable",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 236,
+          "startColumn" : 39,
+          "endLine" : 236,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/enableFields"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "handleResetToDefault" : {
+      "name" : "handleResetToDefault",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/handleResetToDefault",
+      "type" : "void",
+      "position" : {
+        "startLine" : 283,
+        "startColumn" : 17,
+        "endLine" : 283,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    },
+    "handleSettingsTabCancel" : {
+      "name" : "handleSettingsTabCancel",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts/method/handleSettingsTabCancel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 290,
+        "startColumn" : 17,
+        "endLine" : 290,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.GUISettingsTabInterface", "java.awt.event.ActionListener", "javax.swing.event.ListSelectionListener", "ShortcutChangedListener" ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel" : {
+      "name" : "ShortcutTableModel",
+      "key" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel",
+      "type" : "class",
+      "position" : {
+        "startLine" : 493,
+        "startColumn" : 5,
+        "endLine" : 493,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : { },
+      "methods" : {
+        "getRowCount" : {
+          "name" : "getRowCount",
+          "key" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/getRowCount",
+          "type" : "int",
+          "position" : {
+            "startLine" : 527,
+            "startColumn" : 20,
+            "endLine" : 527,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel"
+        },
+        "isCellEditable" : {
+          "name" : "isCellEditable",
+          "key" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/isCellEditable",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 595,
+            "startColumn" : 24,
+            "endLine" : 595,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "row",
+            "key" : "row",
+            "type" : "int",
+            "position" : {
+              "startLine" : 595,
+              "startColumn" : 43,
+              "endLine" : 595,
+              "endColumn" : 46
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/isCellEditable"
+          }, {
+            "name" : "col",
+            "key" : "col",
+            "type" : "int",
+            "position" : {
+              "startLine" : 595,
+              "startColumn" : 52,
+              "endLine" : 595,
+              "endColumn" : 55
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/isCellEditable"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel"
+        },
+        "getValueAt" : {
+          "name" : "getValueAt",
+          "key" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/getValueAt",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 534,
+            "startColumn" : 23,
+            "endLine" : 534,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "row",
+            "key" : "row",
+            "type" : "int",
+            "position" : {
+              "startLine" : 534,
+              "startColumn" : 38,
+              "endLine" : 534,
+              "endColumn" : 41
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/getValueAt"
+          }, {
+            "name" : "col",
+            "key" : "col",
+            "type" : "int",
+            "position" : {
+              "startLine" : 534,
+              "startColumn" : 47,
+              "endLine" : 534,
+              "endColumn" : 50
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/getValueAt"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel"
+        },
+        "getColumnName" : {
+          "name" : "getColumnName",
+          "key" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/getColumnName",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 520,
+            "startColumn" : 23,
+            "endLine" : 520,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "col",
+            "key" : "col",
+            "type" : "int",
+            "position" : {
+              "startLine" : 520,
+              "startColumn" : 41,
+              "endLine" : 520,
+              "endColumn" : 44
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/getColumnName"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel"
+        },
+        "getColumnClass" : {
+          "name" : "getColumnClass",
+          "key" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/getColumnClass",
+          "type" : "java.lang.Class",
+          "position" : {
+            "startLine" : 578,
+            "startColumn" : 25,
+            "endLine" : 578,
+            "endColumn" : 39
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "col",
+            "key" : "col",
+            "type" : "int",
+            "position" : {
+              "startLine" : 578,
+              "startColumn" : 44,
+              "endLine" : 578,
+              "endColumn" : 47
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/getColumnClass"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel"
+        },
+        "getColumnCount" : {
+          "name" : "getColumnCount",
+          "key" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/getColumnCount",
+          "type" : "int",
+          "position" : {
+            "startLine" : 512,
+            "startColumn" : 20,
+            "endLine" : 512,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel"
+        },
+        "setValueAt" : {
+          "name" : "setValueAt",
+          "key" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/setValueAt",
+          "type" : "void",
+          "position" : {
+            "startLine" : 549,
+            "startColumn" : 21,
+            "endLine" : 549,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "ob",
+            "key" : "ob",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 549,
+              "startColumn" : 39,
+              "endLine" : 549,
+              "endColumn" : 41
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/setValueAt"
+          }, {
+            "name" : "row",
+            "key" : "row",
+            "type" : "int",
+            "position" : {
+              "startLine" : 549,
+              "startColumn" : 47,
+              "endLine" : 549,
+              "endColumn" : 50
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/setValueAt"
+          }, {
+            "name" : "col",
+            "key" : "col",
+            "type" : "int",
+            "position" : {
+              "startLine" : 549,
+              "startColumn" : 56,
+              "endLine" : 549,
+              "endColumn" : 59
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel/method/setValueAt"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.cmd.SettingsTabShortcuts.ShortcutTableModel"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "javax.swing.table.AbstractTableModel" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.ui.cmd.SettingsTabShortcuts",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

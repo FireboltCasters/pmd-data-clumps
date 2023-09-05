@@ -1,0 +1,71 @@
+{
+  "name" : "PropPanelStateMachine",
+  "key" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateMachine",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 31,
+        "endLine" : 52,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateMachine/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateMachine"
+    }
+  },
+  "methods" : {
+    "getContextComboBoxModel" : {
+      "name" : "getContextComboBoxModel",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateMachine/method/getContextComboBoxModel",
+      "type" : "org.argouml.uml.ui.UMLComboBoxModel2",
+      "position" : {
+        "startLine" : 131,
+        "startColumn" : 33,
+        "endLine" : 131,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateMachine"
+    },
+    "initialize" : {
+      "name" : "initialize",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateMachine/method/initialize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 20,
+        "endLine" : 90,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateMachine"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

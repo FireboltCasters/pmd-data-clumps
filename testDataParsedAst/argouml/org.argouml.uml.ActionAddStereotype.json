@@ -1,0 +1,141 @@
+{
+  "name" : "ActionAddStereotype",
+  "key" : "org.argouml.uml.ActionAddStereotype",
+  "type" : "class",
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "modelElement" : {
+      "name" : "modelElement",
+      "key" : "modelElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 20,
+        "endLine" : 47,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ActionAddStereotype/memberField/modelElement",
+      "classOrInterfaceKey" : "org.argouml.uml.ActionAddStereotype"
+    },
+    "stereotype" : {
+      "name" : "stereotype",
+      "key" : "stereotype",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 20,
+        "endLine" : 48,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ActionAddStereotype/memberField/stereotype",
+      "classOrInterfaceKey" : "org.argouml.uml.ActionAddStereotype"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ActionAddStereotype/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 17,
+        "endLine" : 78,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 45,
+          "endLine" : 78,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ActionAddStereotype/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ActionAddStereotype"
+    },
+    "getValue" : {
+      "name" : "getValue",
+      "key" : "org.argouml.uml.ActionAddStereotype/method/getValue",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 19,
+        "endLine" : 92,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 35,
+          "endLine" : 92,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ActionAddStereotype/method/getValue"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ActionAddStereotype"
+    },
+    "buildString" : {
+      "name" : "buildString",
+      "key" : "org.argouml.uml.ActionAddStereotype/method/buildString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 27,
+        "endLine" : 66,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "st",
+        "key" : "st",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 66,
+          "startColumn" : 46,
+          "endLine" : 66,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ActionAddStereotype/method/buildString"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ActionAddStereotype"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

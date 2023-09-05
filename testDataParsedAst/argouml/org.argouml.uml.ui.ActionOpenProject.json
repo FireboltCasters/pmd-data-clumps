@@ -1,0 +1,81 @@
+{
+  "name" : "ActionOpenProject",
+  "key" : "org.argouml.uml.ui.ActionOpenProject",
+  "type" : "class",
+  "position" : {
+    "startLine" : 54,
+    "startColumn" : 8,
+    "endLine" : 54,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.ActionOpenProject/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 17,
+        "endLine" : 80,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 80,
+          "startColumn" : 45,
+          "endLine" : 80,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionOpenProject/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionOpenProject"
+    },
+    "doCommand" : {
+      "name" : "doCommand",
+      "key" : "org.argouml.uml.ui.ActionOpenProject/method/doCommand",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 169,
+        "startColumn" : 20,
+        "endLine" : 169,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "argument",
+        "key" : "argument",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 169,
+          "startColumn" : 37,
+          "endLine" : 169,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionOpenProject/method/doCommand"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionOpenProject"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.CommandLineInterface" ],
+  "extends_" : [ "org.argouml.ui.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

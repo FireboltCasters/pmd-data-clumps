@@ -1,0 +1,1071 @@
+{
+  "name" : "PoolingDataSource",
+  "key" : "org.apache.commons.dbcp.PoolingDataSource",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "_pool" : {
+      "name" : "_pool",
+      "key" : "_pool",
+      "type" : "org.apache.commons.pool.ObjectPool",
+      "position" : {
+        "startLine" : 157,
+        "startColumn" : 26,
+        "endLine" : 157,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.PoolingDataSource/memberField/_pool",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource"
+    },
+    "accessToUnderlyingConnectionAllowed" : {
+      "name" : "accessToUnderlyingConnectionAllowed",
+      "key" : "accessToUnderlyingConnectionAllowed",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 21,
+        "endLine" : 47,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.PoolingDataSource/memberField/accessToUnderlyingConnectionAllowed",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource"
+    },
+    "_logWriter" : {
+      "name" : "_logWriter",
+      "key" : "_logWriter",
+      "type" : "java.io.PrintWriter",
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 27,
+        "endLine" : 155,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.PoolingDataSource/memberField/_logWriter",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource"
+    }
+  },
+  "methods" : {
+    "setPool" : {
+      "name" : "setPool",
+      "key" : "org.apache.commons.dbcp.PoolingDataSource/method/setPool",
+      "type" : "void",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 17,
+        "endLine" : 57,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pool",
+        "key" : "pool",
+        "type" : "org.apache.commons.pool.ObjectPool",
+        "position" : {
+          "startLine" : 57,
+          "startColumn" : 36,
+          "endLine" : 57,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingDataSource/method/setPool"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource"
+    },
+    "setAccessToUnderlyingConnectionAllowed" : {
+      "name" : "setAccessToUnderlyingConnectionAllowed",
+      "key" : "org.apache.commons.dbcp.PoolingDataSource/method/setAccessToUnderlyingConnectionAllowed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 17,
+        "endLine" : 83,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "allow",
+        "key" : "allow",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 64,
+          "endLine" : 83,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingDataSource/method/setAccessToUnderlyingConnectionAllowed"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource"
+    },
+    "getConnection" : {
+      "name" : "getConnection",
+      "key" : "org.apache.commons.dbcp.PoolingDataSource/method/getConnection",
+      "type" : "java.sql.Connection",
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 23,
+        "endLine" : 115,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "uname",
+        "key" : "uname",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 115,
+          "startColumn" : 44,
+          "endLine" : 115,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingDataSource/method/getConnection"
+      }, {
+        "name" : "passwd",
+        "key" : "passwd",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 115,
+          "startColumn" : 58,
+          "endLine" : 115,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingDataSource/method/getConnection"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource"
+    },
+    "setLoginTimeout" : {
+      "name" : "setLoginTimeout",
+      "key" : "org.apache.commons.dbcp.PoolingDataSource/method/setLoginTimeout",
+      "type" : "void",
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 17,
+        "endLine" : 142,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "seconds",
+        "key" : "seconds",
+        "type" : "int",
+        "position" : {
+          "startLine" : 142,
+          "startColumn" : 37,
+          "endLine" : 142,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingDataSource/method/setLoginTimeout"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource"
+    },
+    "setLogWriter" : {
+      "name" : "setLogWriter",
+      "key" : "org.apache.commons.dbcp.PoolingDataSource/method/setLogWriter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 17,
+        "endLine" : 150,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "out",
+        "key" : "out",
+        "type" : "java.io.PrintWriter",
+        "position" : {
+          "startLine" : 150,
+          "startColumn" : 42,
+          "endLine" : 150,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingDataSource/method/setLogWriter"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource"
+    },
+    "isAccessToUnderlyingConnectionAllowed" : {
+      "name" : "isAccessToUnderlyingConnectionAllowed",
+      "key" : "org.apache.commons.dbcp.PoolingDataSource/method/isAccessToUnderlyingConnectionAllowed",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 20,
+        "endLine" : 72,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource"
+    },
+    "getLoginTimeout" : {
+      "name" : "getLoginTimeout",
+      "key" : "org.apache.commons.dbcp.PoolingDataSource/method/getLoginTimeout",
+      "type" : "int",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 16,
+        "endLine" : 133,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource"
+    },
+    "getLogWriter" : {
+      "name" : "getLogWriter",
+      "key" : "org.apache.commons.dbcp.PoolingDataSource/method/getLogWriter",
+      "type" : "java.io.PrintWriter",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 24,
+        "endLine" : 124,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "javax.sql.DataSource" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper" : {
+      "name" : "PoolGuardConnectionWrapper",
+      "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper",
+      "type" : "class",
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 13,
+        "endLine" : 163,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "fields" : {
+        "delegate" : {
+          "name" : "delegate",
+          "key" : "delegate",
+          "type" : "java.sql.Connection",
+          "position" : {
+            "startLine" : 165,
+            "startColumn" : 28,
+            "endLine" : 165,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/memberField/delegate",
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        }
+      },
+      "methods" : {
+        "setTransactionIsolation" : {
+          "name" : "setTransactionIsolation",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/setTransactionIsolation",
+          "type" : "void",
+          "position" : {
+            "startLine" : 306,
+            "startColumn" : 21,
+            "endLine" : 306,
+            "endColumn" : 44
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "level",
+            "key" : "level",
+            "type" : "int",
+            "position" : {
+              "startLine" : 306,
+              "startColumn" : 49,
+              "endLine" : 306,
+              "endColumn" : 54
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/setTransactionIsolation"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "getWarnings" : {
+          "name" : "getWarnings",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/getWarnings",
+          "type" : "java.sql.SQLWarning",
+          "position" : {
+            "startLine" : 244,
+            "startColumn" : 27,
+            "endLine" : 244,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "commit" : {
+          "name" : "commit",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/commit",
+          "type" : "void",
+          "position" : {
+            "startLine" : 197,
+            "startColumn" : 21,
+            "endLine" : 197,
+            "endColumn" : 27
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "getHoldability" : {
+          "name" : "getHoldability",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/getHoldability",
+          "type" : "int",
+          "position" : {
+            "startLine" : 328,
+            "startColumn" : 20,
+            "endLine" : 328,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "setCatalog" : {
+          "name" : "setCatalog",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/setCatalog",
+          "type" : "void",
+          "position" : {
+            "startLine" : 296,
+            "startColumn" : 21,
+            "endLine" : 296,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "catalog",
+            "key" : "catalog",
+            "type" : "java.lang.String",
+            "position" : {
+              "startLine" : 296,
+              "startColumn" : 39,
+              "endLine" : 296,
+              "endColumn" : 46
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/setCatalog"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "prepareStatement" : {
+          "name" : "prepareStatement",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/prepareStatement",
+          "type" : "java.sql.PreparedStatement",
+          "position" : {
+            "startLine" : 383,
+            "startColumn" : 34,
+            "endLine" : 383,
+            "endColumn" : 50
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "sql",
+            "key" : "sql",
+            "type" : "java.lang.String",
+            "position" : {
+              "startLine" : 383,
+              "startColumn" : 58,
+              "endLine" : 383,
+              "endColumn" : 61
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/prepareStatement"
+          }, {
+            "name" : "columnNames",
+            "key" : "columnNames",
+            "type" : "java.lang.String[]",
+            "position" : {
+              "startLine" : 383,
+              "startColumn" : 72,
+              "endLine" : 383,
+              "endColumn" : 83
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/prepareStatement"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "setHoldability" : {
+          "name" : "setHoldability",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/setHoldability",
+          "type" : "void",
+          "position" : {
+            "startLine" : 333,
+            "startColumn" : 21,
+            "endLine" : 333,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "holdability",
+            "key" : "holdability",
+            "type" : "int",
+            "position" : {
+              "startLine" : 333,
+              "startColumn" : 40,
+              "endLine" : 333,
+              "endColumn" : 51
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/setHoldability"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "releaseSavepoint" : {
+          "name" : "releaseSavepoint",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/releaseSavepoint",
+          "type" : "void",
+          "position" : {
+            "startLine" : 348,
+            "startColumn" : 21,
+            "endLine" : 348,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "savepoint",
+            "key" : "savepoint",
+            "type" : "java.sql.Savepoint",
+            "position" : {
+              "startLine" : 348,
+              "startColumn" : 57,
+              "endLine" : 348,
+              "endColumn" : 66
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/releaseSavepoint"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "getDelegate" : {
+          "name" : "getDelegate",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/getDelegate",
+          "type" : "java.sql.Connection",
+          "position" : {
+            "startLine" : 393,
+            "startColumn" : 27,
+            "endLine" : 393,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "checkOpen" : {
+          "name" : "checkOpen",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/checkOpen",
+          "type" : "void",
+          "position" : {
+            "startLine" : 172,
+            "startColumn" : 24,
+            "endLine" : 172,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "getCatalog" : {
+          "name" : "getCatalog",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/getCatalog",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 224,
+            "startColumn" : 23,
+            "endLine" : 224,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "nativeSQL" : {
+          "name" : "nativeSQL",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/nativeSQL",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 261,
+            "startColumn" : 23,
+            "endLine" : 261,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "sql",
+            "key" : "sql",
+            "type" : "java.lang.String",
+            "position" : {
+              "startLine" : 261,
+              "startColumn" : 40,
+              "endLine" : 261,
+              "endColumn" : 43
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/nativeSQL"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "isReadOnly" : {
+          "name" : "isReadOnly",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/isReadOnly",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 256,
+            "startColumn" : 24,
+            "endLine" : 256,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "hashCode" : {
+          "name" : "hashCode",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/hashCode",
+          "type" : "int",
+          "position" : {
+            "startLine" : 249,
+            "startColumn" : 20,
+            "endLine" : 249,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "setSavepoint" : {
+          "name" : "setSavepoint",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/setSavepoint",
+          "type" : "java.sql.Savepoint",
+          "position" : {
+            "startLine" : 343,
+            "startColumn" : 35,
+            "endLine" : 343,
+            "endColumn" : 47
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "name",
+            "key" : "name",
+            "type" : "java.lang.String",
+            "position" : {
+              "startLine" : 343,
+              "startColumn" : 55,
+              "endLine" : 343,
+              "endColumn" : 59
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/setSavepoint"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "close" : {
+          "name" : "close",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/close",
+          "type" : "void",
+          "position" : {
+            "startLine" : 178,
+            "startColumn" : 21,
+            "endLine" : 178,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "rollback" : {
+          "name" : "rollback",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/rollback",
+          "type" : "void",
+          "position" : {
+            "startLine" : 353,
+            "startColumn" : 21,
+            "endLine" : 353,
+            "endColumn" : 29
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "savepoint",
+            "key" : "savepoint",
+            "type" : "java.sql.Savepoint",
+            "position" : {
+              "startLine" : 353,
+              "startColumn" : 49,
+              "endLine" : 353,
+              "endColumn" : 58
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/rollback"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "getInnermostDelegate" : {
+          "name" : "getInnermostDelegate",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/getInnermostDelegate",
+          "type" : "java.sql.Connection",
+          "position" : {
+            "startLine" : 404,
+            "startColumn" : 27,
+            "endLine" : 404,
+            "endColumn" : 47
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "setTypeMap" : {
+          "name" : "setTypeMap",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/setTypeMap",
+          "type" : "void",
+          "position" : {
+            "startLine" : 311,
+            "startColumn" : 21,
+            "endLine" : 311,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "map",
+            "key" : "map",
+            "type" : "java.util.Map",
+            "position" : {
+              "startLine" : 311,
+              "startColumn" : 36,
+              "endLine" : 311,
+              "endColumn" : 39
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/setTypeMap"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "getAutoCommit" : {
+          "name" : "getAutoCommit",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/getAutoCommit",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 219,
+            "startColumn" : 24,
+            "endLine" : 219,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "clearWarnings" : {
+          "name" : "clearWarnings",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/clearWarnings",
+          "type" : "void",
+          "position" : {
+            "startLine" : 192,
+            "startColumn" : 21,
+            "endLine" : 192,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "createStatement" : {
+          "name" : "createStatement",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/createStatement",
+          "type" : "java.sql.Statement",
+          "position" : {
+            "startLine" : 358,
+            "startColumn" : 26,
+            "endLine" : 358,
+            "endColumn" : 41
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "resultSetType",
+            "key" : "resultSetType",
+            "type" : "int",
+            "position" : {
+              "startLine" : 358,
+              "startColumn" : 46,
+              "endLine" : 358,
+              "endColumn" : 59
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/createStatement"
+          }, {
+            "name" : "resultSetConcurrency",
+            "key" : "resultSetConcurrency",
+            "type" : "int",
+            "position" : {
+              "startLine" : 358,
+              "startColumn" : 65,
+              "endLine" : 358,
+              "endColumn" : 85
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/createStatement"
+          }, {
+            "name" : "resultSetHoldability",
+            "key" : "resultSetHoldability",
+            "type" : "int",
+            "position" : {
+              "startLine" : 358,
+              "startColumn" : 91,
+              "endLine" : 358,
+              "endColumn" : 111
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/createStatement"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "isClosed" : {
+          "name" : "isClosed",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/isClosed",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 185,
+            "startColumn" : 24,
+            "endLine" : 185,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "equals" : {
+          "name" : "equals",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/equals",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 212,
+            "startColumn" : 24,
+            "endLine" : 212,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "obj",
+            "key" : "obj",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 212,
+              "startColumn" : 38,
+              "endLine" : 212,
+              "endColumn" : 41
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/equals"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "setAutoCommit" : {
+          "name" : "setAutoCommit",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/setAutoCommit",
+          "type" : "void",
+          "position" : {
+            "startLine" : 291,
+            "startColumn" : 21,
+            "endLine" : 291,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "autoCommit",
+            "key" : "autoCommit",
+            "type" : "boolean",
+            "position" : {
+              "startLine" : 291,
+              "startColumn" : 43,
+              "endLine" : 291,
+              "endColumn" : 53
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/setAutoCommit"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "getTransactionIsolation" : {
+          "name" : "getTransactionIsolation",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/getTransactionIsolation",
+          "type" : "int",
+          "position" : {
+            "startLine" : 234,
+            "startColumn" : 20,
+            "endLine" : 234,
+            "endColumn" : 43
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "toString" : {
+          "name" : "toString",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/toString",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 316,
+            "startColumn" : 23,
+            "endLine" : 316,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "getMetaData" : {
+          "name" : "getMetaData",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/getMetaData",
+          "type" : "java.sql.DatabaseMetaData",
+          "position" : {
+            "startLine" : 229,
+            "startColumn" : 33,
+            "endLine" : 229,
+            "endColumn" : 44
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "setReadOnly" : {
+          "name" : "setReadOnly",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/setReadOnly",
+          "type" : "void",
+          "position" : {
+            "startLine" : 301,
+            "startColumn" : 21,
+            "endLine" : 301,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "readOnly",
+            "key" : "readOnly",
+            "type" : "boolean",
+            "position" : {
+              "startLine" : 301,
+              "startColumn" : 41,
+              "endLine" : 301,
+              "endColumn" : 49
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/setReadOnly"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "getTypeMap" : {
+          "name" : "getTypeMap",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/getTypeMap",
+          "type" : "java.util.Map",
+          "position" : {
+            "startLine" : 239,
+            "startColumn" : 20,
+            "endLine" : 239,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        },
+        "prepareCall" : {
+          "name" : "prepareCall",
+          "key" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/prepareCall",
+          "type" : "java.sql.CallableStatement",
+          "position" : {
+            "startLine" : 363,
+            "startColumn" : 34,
+            "endLine" : 363,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "sql",
+            "key" : "sql",
+            "type" : "java.lang.String",
+            "position" : {
+              "startLine" : 363,
+              "startColumn" : 53,
+              "endLine" : 363,
+              "endColumn" : 56
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/prepareCall"
+          }, {
+            "name" : "resultSetType",
+            "key" : "resultSetType",
+            "type" : "int",
+            "position" : {
+              "startLine" : 363,
+              "startColumn" : 62,
+              "endLine" : 363,
+              "endColumn" : 75
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/prepareCall"
+          }, {
+            "name" : "resultSetConcurrency",
+            "key" : "resultSetConcurrency",
+            "type" : "int",
+            "position" : {
+              "startLine" : 363,
+              "startColumn" : 81,
+              "endLine" : 363,
+              "endColumn" : 101
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/prepareCall"
+          }, {
+            "name" : "resultSetHoldability",
+            "key" : "resultSetHoldability",
+            "type" : "int",
+            "position" : {
+              "startLine" : 363,
+              "startColumn" : 107,
+              "endLine" : 363,
+              "endColumn" : 127
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper/method/prepareCall"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingDataSource.PoolGuardConnectionWrapper"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "DelegatingConnection" ],
+      "definedInClassOrInterfaceTypeKey" : "org.apache.commons.dbcp.PoolingDataSource",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

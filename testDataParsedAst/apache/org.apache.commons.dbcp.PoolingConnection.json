@@ -1,0 +1,527 @@
+{
+  "name" : "PoolingConnection",
+  "key" : "org.apache.commons.dbcp.PoolingConnection",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "_pstmtPool" : {
+      "name" : "_pstmtPool",
+      "key" : "_pstmtPool",
+      "type" : "KeyedObjectPool",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 31,
+        "endLine" : 39,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.PoolingConnection/memberField/_pstmtPool",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection"
+    }
+  },
+  "methods" : {
+    "destroyObject" : {
+      "name" : "destroyObject",
+      "key" : "org.apache.commons.dbcp.PoolingConnection/method/destroyObject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 201,
+        "startColumn" : 17,
+        "endLine" : 201,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 201,
+          "startColumn" : 38,
+          "endLine" : 201,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingConnection/method/destroyObject"
+      }, {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 201,
+          "startColumn" : 50,
+          "endLine" : 201,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingConnection/method/destroyObject"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection"
+    },
+    "validateObject" : {
+      "name" : "validateObject",
+      "key" : "org.apache.commons.dbcp.PoolingConnection/method/validateObject",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 217,
+        "startColumn" : 20,
+        "endLine" : 217,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 217,
+          "startColumn" : 42,
+          "endLine" : 217,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingConnection/method/validateObject"
+      }, {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 217,
+          "startColumn" : 54,
+          "endLine" : 217,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingConnection/method/validateObject"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection"
+    },
+    "makeObject" : {
+      "name" : "makeObject",
+      "key" : "org.apache.commons.dbcp.PoolingConnection/method/makeObject",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 181,
+        "startColumn" : 19,
+        "endLine" : 181,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 181,
+          "startColumn" : 37,
+          "endLine" : 181,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingConnection/method/makeObject"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection"
+    },
+    "createKey" : {
+      "name" : "createKey",
+      "key" : "org.apache.commons.dbcp.PoolingConnection/method/createKey",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 22,
+        "endLine" : 160,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "sql",
+        "key" : "sql",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 160,
+          "startColumn" : 39,
+          "endLine" : 160,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingConnection/method/createKey"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection"
+    },
+    "passivateObject" : {
+      "name" : "passivateObject",
+      "key" : "org.apache.commons.dbcp.PoolingConnection/method/passivateObject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 237,
+        "startColumn" : 17,
+        "endLine" : 237,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 237,
+          "startColumn" : 40,
+          "endLine" : 237,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingConnection/method/passivateObject"
+      }, {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 237,
+          "startColumn" : 52,
+          "endLine" : 237,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingConnection/method/passivateObject"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.apache.commons.dbcp.PoolingConnection/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 242,
+        "startColumn" : 19,
+        "endLine" : 242,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection"
+    },
+    "prepareStatement" : {
+      "name" : "prepareStatement",
+      "key" : "org.apache.commons.dbcp.PoolingConnection/method/prepareStatement",
+      "type" : "java.sql.PreparedStatement",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 43,
+        "endLine" : 101,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "sql",
+        "key" : "sql",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 67,
+          "endLine" : 101,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingConnection/method/prepareStatement"
+      }, {
+        "name" : "resultSetType",
+        "key" : "resultSetType",
+        "type" : "int",
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 76,
+          "endLine" : 101,
+          "endColumn" : 89
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingConnection/method/prepareStatement"
+      }, {
+        "name" : "resultSetConcurrency",
+        "key" : "resultSetConcurrency",
+        "type" : "int",
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 95,
+          "endLine" : 101,
+          "endColumn" : 115
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingConnection/method/prepareStatement"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.dbcp.PoolingConnection/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 30,
+        "endLine" : 64,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection"
+    },
+    "normalizeSQL" : {
+      "name" : "normalizeSQL",
+      "key" : "org.apache.commons.dbcp.PoolingConnection/method/normalizeSQL",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 22,
+        "endLine" : 172,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "sql",
+        "key" : "sql",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 172,
+          "startColumn" : 42,
+          "endLine" : 172,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingConnection/method/normalizeSQL"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection"
+    },
+    "activateObject" : {
+      "name" : "activateObject",
+      "key" : "org.apache.commons.dbcp.PoolingConnection/method/activateObject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 227,
+        "startColumn" : 17,
+        "endLine" : 227,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 227,
+          "startColumn" : 39,
+          "endLine" : 227,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingConnection/method/activateObject"
+      }, {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 227,
+          "startColumn" : 51,
+          "endLine" : 227,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PoolingConnection/method/activateObject"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.sql.Connection", "KeyedPoolableObjectFactory" ],
+  "extends_" : [ "DelegatingConnection" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.apache.commons.dbcp.PoolingConnection.PStmtKey" : {
+      "name" : "PStmtKey",
+      "key" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey",
+      "type" : "class",
+      "position" : {
+        "startLine" : 249,
+        "startColumn" : 5,
+        "endLine" : 249,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : {
+        "_resultSetConcurrency" : {
+          "name" : "_resultSetConcurrency",
+          "key" : "_resultSetConcurrency",
+          "type" : "java.lang.Integer",
+          "position" : {
+            "startLine" : 252,
+            "startColumn" : 27,
+            "endLine" : 252,
+            "endColumn" : 48
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey/memberField/_resultSetConcurrency",
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey"
+        },
+        "_sql" : {
+          "name" : "_sql",
+          "key" : "_sql",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 250,
+            "startColumn" : 26,
+            "endLine" : 250,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey/memberField/_sql",
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey"
+        },
+        "_catalog" : {
+          "name" : "_catalog",
+          "key" : "_catalog",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 253,
+            "startColumn" : 26,
+            "endLine" : 253,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey/memberField/_catalog",
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey"
+        },
+        "_resultSetType" : {
+          "name" : "_resultSetType",
+          "key" : "_resultSetType",
+          "type" : "java.lang.Integer",
+          "position" : {
+            "startLine" : 251,
+            "startColumn" : 27,
+            "endLine" : 251,
+            "endColumn" : 41
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey/memberField/_resultSetType",
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey"
+        }
+      },
+      "methods" : {
+        "hashCode" : {
+          "name" : "hashCode",
+          "key" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey/method/hashCode",
+          "type" : "int",
+          "position" : {
+            "startLine" : 292,
+            "startColumn" : 20,
+            "endLine" : 292,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey"
+        },
+        "equals" : {
+          "name" : "equals",
+          "key" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey/method/equals",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 277,
+            "startColumn" : 24,
+            "endLine" : 277,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "that",
+            "key" : "that",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 277,
+              "startColumn" : 38,
+              "endLine" : 277,
+              "endColumn" : 42
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey/method/equals"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey"
+        },
+        "toString" : {
+          "name" : "toString",
+          "key" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey/method/toString",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 299,
+            "startColumn" : 23,
+            "endLine" : 299,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolingConnection.PStmtKey"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.apache.commons.dbcp.PoolingConnection",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

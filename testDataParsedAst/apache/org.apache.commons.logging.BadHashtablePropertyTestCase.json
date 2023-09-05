@@ -1,0 +1,55 @@
+{
+  "name" : "BadHashtablePropertyTestCase",
+  "key" : "org.apache.commons.logging.BadHashtablePropertyTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 25,
+    "startColumn" : 8,
+    "endLine" : 25,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "testType" : {
+      "name" : "testType",
+      "key" : "org.apache.commons.logging.BadHashtablePropertyTestCase/method/testType",
+      "type" : "void",
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 17,
+        "endLine" : 27,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.BadHashtablePropertyTestCase"
+    },
+    "testPutCalled" : {
+      "name" : "testPutCalled",
+      "key" : "org.apache.commons.logging.BadHashtablePropertyTestCase/method/testPutCalled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 17,
+        "endLine" : 31,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.BadHashtablePropertyTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

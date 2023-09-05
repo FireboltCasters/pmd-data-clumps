@@ -1,0 +1,133 @@
+{
+  "name" : "PropPanelStateVertex",
+  "key" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 17,
+    "endLine" : 43,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "incomingScroll" : {
+      "name" : "incomingScroll",
+      "key" : "incomingScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 25,
+        "endLine" : 45,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex/memberField/incomingScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex"
+    },
+    "containerScroll" : {
+      "name" : "containerScroll",
+      "key" : "containerScroll",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 20,
+        "endLine" : 49,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex/memberField/containerScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex"
+    },
+    "outgoingScroll" : {
+      "name" : "outgoingScroll",
+      "key" : "outgoingScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 25,
+        "endLine" : 47,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex/memberField/outgoingScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex"
+    }
+  },
+  "methods" : {
+    "getContainerScroll" : {
+      "name" : "getContainerScroll",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex/method/getContainerScroll",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 22,
+        "endLine" : 112,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex"
+    },
+    "getOutgoingScroll" : {
+      "name" : "getOutgoingScroll",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex/method/getOutgoingScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 27,
+        "endLine" : 105,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex"
+    },
+    "getIncomingScroll" : {
+      "name" : "getIncomingScroll",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex/method/getIncomingScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 27,
+        "endLine" : 98,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex"
+    },
+    "addExtraButtons" : {
+      "name" : "addExtraButtons",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex/method/addExtraButtons",
+      "type" : "void",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 20,
+        "endLine" : 93,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,281 @@
+{
+  "name" : "PerspectiveSupport",
+  "key" : "org.argouml.ui.PerspectiveSupport",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "name" : {
+      "name" : "name",
+      "key" : "name",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 20,
+        "endLine" : 51,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.PerspectiveSupport/memberField/name",
+      "classOrInterfaceKey" : "org.argouml.ui.PerspectiveSupport"
+    },
+    "goRules" : {
+      "name" : "goRules",
+      "key" : "goRules",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 29,
+        "endLine" : 48,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.PerspectiveSupport/memberField/goRules",
+      "classOrInterfaceKey" : "org.argouml.ui.PerspectiveSupport"
+    },
+    "rules" : {
+      "name" : "rules",
+      "key" : "rules",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 36,
+        "endLine" : 54,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.PerspectiveSupport/memberField/rules",
+      "classOrInterfaceKey" : "org.argouml.ui.PerspectiveSupport"
+    }
+  },
+  "methods" : {
+    "setName" : {
+      "name" : "setName",
+      "key" : "org.argouml.ui.PerspectiveSupport/method/setName",
+      "type" : "void",
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 17,
+        "endLine" : 138,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 138,
+          "startColumn" : 32,
+          "endLine" : 138,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.PerspectiveSupport/method/setName"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.PerspectiveSupport"
+    },
+    "removeSubTreeModel" : {
+      "name" : "removeSubTreeModel",
+      "key" : "org.argouml.ui.PerspectiveSupport/method/removeSubTreeModel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 17,
+        "endLine" : 103,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tm",
+        "key" : "tm",
+        "type" : "javax.swing.tree.TreeModel",
+        "position" : {
+          "startLine" : 103,
+          "startColumn" : 46,
+          "endLine" : 103,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.PerspectiveSupport/method/removeSubTreeModel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.PerspectiveSupport"
+    },
+    "getName" : {
+      "name" : "getName",
+      "key" : "org.argouml.ui.PerspectiveSupport/method/getName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 19,
+        "endLine" : 132,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.PerspectiveSupport"
+    },
+    "getSubTreeModels" : {
+      "name" : "getSubTreeModels",
+      "key" : "org.argouml.ui.PerspectiveSupport/method/getSubTreeModels",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 30,
+        "endLine" : 114,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.PerspectiveSupport"
+    },
+    "addSubTreeModel" : {
+      "name" : "addSubTreeModel",
+      "key" : "org.argouml.ui.PerspectiveSupport/method/addSubTreeModel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 17,
+        "endLine" : 90,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tm",
+        "key" : "tm",
+        "type" : "javax.swing.tree.TreeModel",
+        "position" : {
+          "startLine" : 90,
+          "startColumn" : 43,
+          "endLine" : 90,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.PerspectiveSupport/method/addSubTreeModel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.PerspectiveSupport"
+    },
+    "getGoRuleList" : {
+      "name" : "getGoRuleList",
+      "key" : "org.argouml.ui.PerspectiveSupport/method/getGoRuleList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 31,
+        "endLine" : 172,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.PerspectiveSupport"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.ui.PerspectiveSupport/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 19,
+        "endLine" : 145,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.PerspectiveSupport"
+    },
+    "registerRule" : {
+      "name" : "registerRule",
+      "key" : "org.argouml.ui.PerspectiveSupport/method/registerRule",
+      "type" : "void",
+      "position" : {
+        "startLine" : 156,
+        "startColumn" : 24,
+        "endLine" : 156,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rule",
+        "key" : "rule",
+        "type" : "javax.swing.tree.TreeModel",
+        "position" : {
+          "startLine" : 156,
+          "startColumn" : 47,
+          "endLine" : 156,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.PerspectiveSupport/method/registerRule"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.PerspectiveSupport"
+    },
+    "getGoRules" : {
+      "name" : "getGoRules",
+      "key" : "org.argouml.ui.PerspectiveSupport/method/getGoRules",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 33,
+        "endLine" : 165,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.PerspectiveSupport"
+    },
+    "getSubTreeModelList" : {
+      "name" : "getSubTreeModelList",
+      "key" : "org.argouml.ui.PerspectiveSupport/method/getSubTreeModelList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 28,
+        "endLine" : 123,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.PerspectiveSupport"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,525 @@
+{
+  "name" : "CompoundCritic",
+  "key" : "org.argouml.cognitive.CompoundCritic",
+  "type" : "class",
+  "position" : {
+    "startLine" : 53,
+    "startColumn" : 8,
+    "endLine" : 53,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "critics" : {
+      "name" : "critics",
+      "key" : "critics",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 26,
+        "endLine" : 62,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.CompoundCritic/memberField/critics",
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    }
+  },
+  "methods" : {
+    "critique" : {
+      "name" : "critique",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/critique",
+      "type" : "void",
+      "position" : {
+        "startLine" : 159,
+        "startColumn" : 17,
+        "endLine" : 159,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 159,
+          "startColumn" : 33,
+          "endLine" : 159,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CompoundCritic/method/critique"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 159,
+          "startColumn" : 46,
+          "endLine" : 159,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CompoundCritic/method/critique"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "addCritic" : {
+      "name" : "addCritic",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/addCritic",
+      "type" : "void",
+      "position" : {
+        "startLine" : 140,
+        "startColumn" : 17,
+        "endLine" : 140,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "Critic",
+        "position" : {
+          "startLine" : 140,
+          "startColumn" : 34,
+          "endLine" : 140,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CompoundCritic/method/addCritic"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "removeCritic" : {
+      "name" : "removeCritic",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/removeCritic",
+      "type" : "void",
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 17,
+        "endLine" : 147,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "Critic",
+        "position" : {
+          "startLine" : 147,
+          "startColumn" : 37,
+          "endLine" : 147,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CompoundCritic/method/removeCritic"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "isActive" : {
+      "name" : "isActive",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/isActive",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 269,
+        "startColumn" : 20,
+        "endLine" : 269,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "setCritics" : {
+      "name" : "setCritics",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/setCritics",
+      "type" : "void",
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 17,
+        "endLine" : 115,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 115,
+          "startColumn" : 41,
+          "endLine" : 115,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CompoundCritic/method/setCritics"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "expand" : {
+      "name" : "expand",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/expand",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 252,
+        "startColumn" : 19,
+        "endLine" : 252,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "desc",
+        "key" : "desc",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 252,
+          "startColumn" : 33,
+          "endLine" : 252,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CompoundCritic/method/expand"
+      }, {
+        "name" : "offs",
+        "key" : "offs",
+        "type" : "ListSet",
+        "position" : {
+          "startLine" : 252,
+          "startColumn" : 47,
+          "endLine" : 252,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CompoundCritic/method/expand"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "getCritics" : {
+      "name" : "getCritics",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/getCritics",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 27,
+        "endLine" : 125,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "addKnowledgeType" : {
+      "name" : "addKnowledgeType",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/addKnowledgeType",
+      "type" : "void",
+      "position" : {
+        "startLine" : 244,
+        "startColumn" : 17,
+        "endLine" : 244,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "type",
+        "key" : "type",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 244,
+          "startColumn" : 41,
+          "endLine" : 244,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CompoundCritic/method/addKnowledgeType"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "getClarifier" : {
+      "name" : "getClarifier",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/getClarifier",
+      "type" : "javax.swing.Icon",
+      "position" : {
+        "startLine" : 260,
+        "startColumn" : 17,
+        "endLine" : 260,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 285,
+        "startColumn" : 20,
+        "endLine" : 285,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "containsKnowledgeType" : {
+      "name" : "containsKnowledgeType",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/containsKnowledgeType",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 231,
+        "startColumn" : 20,
+        "endLine" : 231,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "type",
+        "key" : "type",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 231,
+          "startColumn" : 49,
+          "endLine" : 231,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CompoundCritic/method/containsKnowledgeType"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "supports" : {
+      "name" : "supports",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/supports",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 202,
+        "startColumn" : 20,
+        "endLine" : 202,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "g",
+        "key" : "g",
+        "type" : "Goal",
+        "position" : {
+          "startLine" : 202,
+          "startColumn" : 34,
+          "endLine" : 202,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CompoundCritic/method/supports"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "getSupportedGoals" : {
+      "name" : "getSupportedGoals",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/getSupportedGoals",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 215,
+        "startColumn" : 23,
+        "endLine" : 215,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "addSupportedGoal" : {
+      "name" : "addSupportedGoal",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/addSupportedGoal",
+      "type" : "void",
+      "position" : {
+        "startLine" : 223,
+        "startColumn" : 17,
+        "endLine" : 223,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "g",
+        "key" : "g",
+        "type" : "Goal",
+        "position" : {
+          "startLine" : 223,
+          "startColumn" : 39,
+          "endLine" : 223,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CompoundCritic/method/addSupportedGoal"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "getCriticizedDesignMaterials" : {
+      "name" : "getCriticizedDesignMaterials",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/getCriticizedDesignMaterials",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 304,
+        "startColumn" : 24,
+        "endLine" : 304,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "getCriticList" : {
+      "name" : "getCriticList",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/getCriticList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 25,
+        "endLine" : 132,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "getSupportedDecisions" : {
+      "name" : "getSupportedDecisions",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/getSupportedDecisions",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 186,
+        "startColumn" : 27,
+        "endLine" : 186,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "addSupportedDecision" : {
+      "name" : "addSupportedDecision",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/addSupportedDecision",
+      "type" : "void",
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 17,
+        "endLine" : 194,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "d",
+        "key" : "d",
+        "type" : "Decision",
+        "position" : {
+          "startLine" : 194,
+          "startColumn" : 47,
+          "endLine" : 194,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CompoundCritic/method/addSupportedDecision"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    },
+    "toDoItem" : {
+      "name" : "toDoItem",
+      "key" : "org.argouml.cognitive.CompoundCritic/method/toDoItem",
+      "type" : "ToDoItem",
+      "position" : {
+        "startLine" : 297,
+        "startColumn" : 21,
+        "endLine" : 297,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 297,
+          "startColumn" : 37,
+          "endLine" : 297,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CompoundCritic/method/toDoItem"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 297,
+          "startColumn" : 50,
+          "endLine" : 297,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CompoundCritic/method/toDoItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CompoundCritic"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "Critic" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

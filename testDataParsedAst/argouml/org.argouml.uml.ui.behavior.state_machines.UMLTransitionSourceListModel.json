@@ -1,0 +1,68 @@
+{
+  "name" : "UMLTransitionSourceListModel",
+  "key" : "org.argouml.uml.ui.behavior.state_machines.UMLTransitionSourceListModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.UMLTransitionSourceListModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 20,
+        "endLine" : 46,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.UMLTransitionSourceListModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.UMLTransitionSourceListModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 23,
+        "endLine" : 54,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 45,
+          "endLine" : 54,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.state_machines.UMLTransitionSourceListModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.UMLTransitionSourceListModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLModelElementListModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

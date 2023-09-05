@@ -1,0 +1,564 @@
+{
+  "name" : "TelnetInputStream",
+  "key" : "org.apache.commons.net.telnet.TelnetInputStream",
+  "type" : "class",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 7,
+    "endLine" : 34,
+    "endColumn" : 12
+  },
+  "modifiers" : [ "FINAL" ],
+  "fields" : {
+    "_STATE_SB" : {
+      "name" : "_STATE_SB",
+      "key" : "_STATE_SB",
+      "type" : "int",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 22,
+        "endLine" : 38,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/_STATE_SB",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "_STATE_CR" : {
+      "name" : "_STATE_CR",
+      "key" : "_STATE_CR",
+      "type" : "int",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 52,
+        "endLine" : 38,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/_STATE_CR",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "_STATE_SE" : {
+      "name" : "_STATE_SE",
+      "key" : "_STATE_SE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 37,
+        "endLine" : 38,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/_STATE_SE",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "_STATE_WILL" : {
+      "name" : "_STATE_WILL",
+      "key" : "_STATE_WILL",
+      "type" : "int",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 55,
+        "endLine" : 36,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/_STATE_WILL",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "__readIsWaiting" : {
+      "name" : "__readIsWaiting",
+      "key" : "__readIsWaiting",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 21,
+        "endLine" : 41,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/__readIsWaiting",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "_STATE_DATA" : {
+      "name" : "_STATE_DATA",
+      "key" : "_STATE_DATA",
+      "type" : "int",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 22,
+        "endLine" : 36,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/_STATE_DATA",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "_STATE_DO" : {
+      "name" : "_STATE_DO",
+      "key" : "_STATE_DO",
+      "type" : "int",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 39,
+        "endLine" : 37,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/_STATE_DO",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "_STATE_IAC" : {
+      "name" : "_STATE_IAC",
+      "key" : "_STATE_IAC",
+      "type" : "int",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 39,
+        "endLine" : 36,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/_STATE_IAC",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "__suboption" : {
+      "name" : "__suboption",
+      "key" : "__suboption",
+      "type" : "int[]",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 17,
+        "endLine" : 49,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/__suboption",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "__suboption_count" : {
+      "name" : "__suboption_count",
+      "key" : "__suboption_count",
+      "type" : "int",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 17,
+        "endLine" : 50,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/__suboption_count",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "__queue" : {
+      "name" : "__queue",
+      "key" : "__queue",
+      "type" : "int[]",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 19,
+        "endLine" : 43,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/__queue",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "__thread" : {
+      "name" : "__thread",
+      "key" : "__thread",
+      "type" : "java.lang.Thread",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 20,
+        "endLine" : 45,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/__thread",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "__receiveState" : {
+      "name" : "__receiveState",
+      "key" : "__receiveState",
+      "type" : "int",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 17,
+        "endLine" : 42,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/__receiveState",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "_STATE_DONT" : {
+      "name" : "_STATE_DONT",
+      "key" : "_STATE_DONT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 54,
+        "endLine" : 37,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/_STATE_DONT",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "__queueTail" : {
+      "name" : "__queueTail",
+      "key" : "__queueTail",
+      "type" : "int",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 46,
+        "endLine" : 42,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/__queueTail",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "__threaded" : {
+      "name" : "__threaded",
+      "key" : "__threaded",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 21,
+        "endLine" : 53,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/__threaded",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "_STATE_IAC_SB" : {
+      "name" : "_STATE_IAC_SB",
+      "key" : "_STATE_IAC_SB",
+      "type" : "int",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 67,
+        "endLine" : 38,
+        "endColumn" : 80
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/_STATE_IAC_SB",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "__hasReachedEOF" : {
+      "name" : "__hasReachedEOF",
+      "key" : "__hasReachedEOF",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 21,
+        "endLine" : 40,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/__hasReachedEOF",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "__bytesAvailable" : {
+      "name" : "__bytesAvailable",
+      "key" : "__bytesAvailable",
+      "type" : "int",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 59,
+        "endLine" : 42,
+        "endColumn" : 75
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/__bytesAvailable",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "_STATE_WONT" : {
+      "name" : "_STATE_WONT",
+      "key" : "_STATE_WONT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 22,
+        "endLine" : 37,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/_STATE_WONT",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "__client" : {
+      "name" : "__client",
+      "key" : "__client",
+      "type" : "TelnetClient",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 26,
+        "endLine" : 44,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/__client",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "__queueHead" : {
+      "name" : "__queueHead",
+      "key" : "__queueHead",
+      "type" : "int",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 33,
+        "endLine" : 42,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/__queueHead",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "__ioException" : {
+      "name" : "__ioException",
+      "key" : "__ioException",
+      "type" : "java.io.IOException",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 25,
+        "endLine" : 46,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/__ioException",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "__isClosed" : {
+      "name" : "__isClosed",
+      "key" : "__isClosed",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 38,
+        "endLine" : 40,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetInputStream/memberField/__isClosed",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    }
+  },
+  "methods" : {
+    "__processChar" : {
+      "name" : "__processChar",
+      "key" : "org.apache.commons.net.telnet.TelnetInputStream/method/__processChar",
+      "type" : "void",
+      "position" : {
+        "startLine" : 272,
+        "startColumn" : 18,
+        "endLine" : 272,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ch",
+        "key" : "ch",
+        "type" : "int",
+        "position" : {
+          "startLine" : 272,
+          "startColumn" : 36,
+          "endLine" : 272,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.telnet.TelnetInputStream/method/__processChar"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "read" : {
+      "name" : "read",
+      "key" : "org.apache.commons.net.telnet.TelnetInputStream/method/read",
+      "type" : "int",
+      "position" : {
+        "startLine" : 452,
+        "startColumn" : 16,
+        "endLine" : 452,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "buffer",
+        "key" : "buffer",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 452,
+          "startColumn" : 26,
+          "endLine" : 452,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.telnet.TelnetInputStream/method/read"
+      }, {
+        "name" : "offset",
+        "key" : "offset",
+        "type" : "int",
+        "position" : {
+          "startLine" : 452,
+          "startColumn" : 40,
+          "endLine" : 452,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.telnet.TelnetInputStream/method/read"
+      }, {
+        "name" : "length",
+        "key" : "length",
+        "type" : "int",
+        "position" : {
+          "startLine" : 452,
+          "startColumn" : 52,
+          "endLine" : 452,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.telnet.TelnetInputStream/method/read"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "_start" : {
+      "name" : "_start",
+      "key" : "org.apache.commons.net.telnet.TelnetInputStream/method/_start",
+      "type" : "void",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 10,
+        "endLine" : 82,
+        "endColumn" : 16
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "markSupported" : {
+      "name" : "markSupported",
+      "key" : "org.apache.commons.net.telnet.TelnetInputStream/method/markSupported",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 483,
+        "startColumn" : 20,
+        "endLine" : 483,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "available" : {
+      "name" : "available",
+      "key" : "org.apache.commons.net.telnet.TelnetInputStream/method/available",
+      "type" : "int",
+      "position" : {
+        "startLine" : 488,
+        "startColumn" : 16,
+        "endLine" : 488,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "__read" : {
+      "name" : "__read",
+      "key" : "org.apache.commons.net.telnet.TelnetInputStream/method/__read",
+      "type" : "int",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 17,
+        "endLine" : 106,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "run" : {
+      "name" : "run",
+      "key" : "org.apache.commons.net.telnet.TelnetInputStream/method/run",
+      "type" : "void",
+      "position" : {
+        "startLine" : 524,
+        "startColumn" : 17,
+        "endLine" : 524,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.net.telnet.TelnetInputStream/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 500,
+        "startColumn" : 17,
+        "endLine" : 500,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetInputStream"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.lang.Runnable" ],
+  "extends_" : [ "java.io.BufferedInputStream" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,163 @@
+{
+  "name" : "ModuleStatus",
+  "key" : "org.argouml.moduleloader.ModuleStatus",
+  "type" : "class",
+  "position" : {
+    "startLine" : 838,
+    "startColumn" : 1,
+    "endLine" : 838,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "enabled" : {
+      "name" : "enabled",
+      "key" : "enabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 842,
+        "startColumn" : 21,
+        "endLine" : 842,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.moduleloader.ModuleStatus/memberField/enabled",
+      "classOrInterfaceKey" : "org.argouml.moduleloader.ModuleStatus"
+    },
+    "selected" : {
+      "name" : "selected",
+      "key" : "selected",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 847,
+        "startColumn" : 21,
+        "endLine" : 847,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.moduleloader.ModuleStatus/memberField/selected",
+      "classOrInterfaceKey" : "org.argouml.moduleloader.ModuleStatus"
+    }
+  },
+  "methods" : {
+    "setEnabled" : {
+      "name" : "setEnabled",
+      "key" : "org.argouml.moduleloader.ModuleStatus/method/setEnabled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 861,
+        "startColumn" : 17,
+        "endLine" : 861,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.moduleloader.ModuleStatus"
+    },
+    "setSelected" : {
+      "name" : "setSelected",
+      "key" : "org.argouml.moduleloader.ModuleStatus/method/setSelected",
+      "type" : "void",
+      "position" : {
+        "startLine" : 901,
+        "startColumn" : 17,
+        "endLine" : 901,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "value",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 901,
+          "startColumn" : 37,
+          "endLine" : 901,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.moduleloader.ModuleStatus/method/setSelected"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.moduleloader.ModuleStatus"
+    },
+    "setDisabled" : {
+      "name" : "setDisabled",
+      "key" : "org.argouml.moduleloader.ModuleStatus/method/setDisabled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 868,
+        "startColumn" : 17,
+        "endLine" : 868,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.moduleloader.ModuleStatus"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.moduleloader.ModuleStatus/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 854,
+        "startColumn" : 20,
+        "endLine" : 854,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.moduleloader.ModuleStatus"
+    },
+    "isSelected" : {
+      "name" : "isSelected",
+      "key" : "org.argouml.moduleloader.ModuleStatus/method/isSelected",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 877,
+        "startColumn" : 20,
+        "endLine" : 877,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.moduleloader.ModuleStatus"
+    },
+    "setUnselect" : {
+      "name" : "setUnselect",
+      "key" : "org.argouml.moduleloader.ModuleStatus/method/setUnselect",
+      "type" : "void",
+      "position" : {
+        "startLine" : 892,
+        "startColumn" : 17,
+        "endLine" : 892,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.moduleloader.ModuleStatus"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

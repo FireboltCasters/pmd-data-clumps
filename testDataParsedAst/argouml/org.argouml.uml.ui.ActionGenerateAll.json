@@ -1,0 +1,110 @@
+{
+  "name" : "ActionGenerateAll",
+  "key" : "org.argouml.uml.ui.ActionGenerateAll",
+  "type" : "class",
+  "position" : {
+    "startLine" : 53,
+    "startColumn" : 8,
+    "endLine" : 53,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.ActionGenerateAll/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 17,
+        "endLine" : 71,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 45,
+          "endLine" : 71,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionGenerateAll/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionGenerateAll"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.uml.ui.ActionGenerateAll/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 20,
+        "endLine" : 132,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionGenerateAll"
+    },
+    "addCollection" : {
+      "name" : "addCollection",
+      "key" : "org.argouml.uml.ui.ActionGenerateAll/method/addCollection",
+      "type" : "void",
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 18,
+        "endLine" : 142,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 142,
+          "startColumn" : 43,
+          "endLine" : 142,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionGenerateAll/method/addCollection"
+      }, {
+        "name" : "v",
+        "key" : "v",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 142,
+          "startColumn" : 57,
+          "endLine" : 142,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionGenerateAll/method/addCollection"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionGenerateAll"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

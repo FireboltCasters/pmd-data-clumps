@@ -1,0 +1,84 @@
+{
+  "name" : "OperationsCompartmentContainer",
+  "key" : "org.argouml.uml.diagram.OperationsCompartmentContainer",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "isOperationsVisible" : {
+      "name" : "isOperationsVisible",
+      "key" : "org.argouml.uml.diagram.OperationsCompartmentContainer/method/isOperationsVisible",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 13,
+        "endLine" : 39,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.OperationsCompartmentContainer"
+    },
+    "getOperationsBounds" : {
+      "name" : "getOperationsBounds",
+      "key" : "org.argouml.uml.diagram.OperationsCompartmentContainer/method/getOperationsBounds",
+      "type" : "java.awt.Rectangle",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 15,
+        "endLine" : 50,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.OperationsCompartmentContainer"
+    },
+    "setOperationsVisible" : {
+      "name" : "setOperationsVisible",
+      "key" : "org.argouml.uml.diagram.OperationsCompartmentContainer/method/setOperationsVisible",
+      "type" : "void",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 10,
+        "endLine" : 45,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "visible",
+        "key" : "visible",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 39,
+          "endLine" : 45,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.OperationsCompartmentContainer/method/setOperationsVisible"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.OperationsCompartmentContainer"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

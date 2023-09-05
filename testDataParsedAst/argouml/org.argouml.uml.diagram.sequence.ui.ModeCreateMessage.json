@@ -1,0 +1,272 @@
+{
+  "name" : "ModeCreateMessage",
+  "key" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage",
+  "type" : "class",
+  "position" : {
+    "startLine" : 49,
+    "startColumn" : 8,
+    "endLine" : 49,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "startPort" : {
+      "name" : "startPort",
+      "key" : "startPort",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 20,
+        "endLine" : 60,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/memberField/startPort",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 273,
+        "startColumn" : 31,
+        "endLine" : 273,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 33,
+        "endLine" : 54,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage"
+    },
+    "sourceFigClassifierRole" : {
+      "name" : "sourceFigClassifierRole",
+      "key" : "sourceFigClassifierRole",
+      "type" : "FigClassifierRole",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 31,
+        "endLine" : 70,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/memberField/sourceFigClassifierRole",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage"
+    },
+    "message" : {
+      "name" : "message",
+      "key" : "message",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 20,
+        "endLine" : 75,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/memberField/message",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage"
+    },
+    "startPortFig" : {
+      "name" : "startPortFig",
+      "key" : "startPortFig",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 17,
+        "endLine" : 65,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/memberField/startPortFig",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage"
+    }
+  },
+  "methods" : {
+    "mouseReleased" : {
+      "name" : "mouseReleased",
+      "key" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/method/mouseReleased",
+      "type" : "void",
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 17,
+        "endLine" : 172,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 172,
+          "startColumn" : 42,
+          "endLine" : 172,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/method/mouseReleased"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage"
+    },
+    "instructions" : {
+      "name" : "instructions",
+      "key" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/method/instructions",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 19,
+        "endLine" : 110,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage"
+    },
+    "mouseDragged" : {
+      "name" : "mouseDragged",
+      "key" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/method/mouseDragged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 255,
+        "startColumn" : 17,
+        "endLine" : 255,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 255,
+          "startColumn" : 41,
+          "endLine" : 255,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/method/mouseDragged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage"
+    },
+    "createNewItem" : {
+      "name" : "createNewItem",
+      "key" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/method/createNewItem",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 16,
+        "endLine" : 98,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 41,
+          "endLine" : 98,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/method/createNewItem"
+      }, {
+        "name" : "snapX",
+        "key" : "snapX",
+        "type" : "int",
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 49,
+          "endLine" : 98,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/method/createNewItem"
+      }, {
+        "name" : "snapY",
+        "key" : "snapY",
+        "type" : "int",
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 60,
+          "endLine" : 98,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/method/createNewItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage"
+    },
+    "mousePressed" : {
+      "name" : "mousePressed",
+      "key" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/method/mousePressed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 17,
+        "endLine" : 120,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 120,
+          "startColumn" : 41,
+          "endLine" : 120,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage/method/mousePressed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.ModeCreateMessage"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.base.ModeCreate" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,173 @@
+{
+  "name" : "VMSFTPEntryParser",
+  "key" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser",
+  "type" : "class",
+  "position" : {
+    "startLine" : 49,
+    "startColumn" : 8,
+    "endLine" : 49,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "DEFAULT_DATE_FORMAT" : {
+      "name" : "DEFAULT_DATE_FORMAT",
+      "key" : "DEFAULT_DATE_FORMAT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 33,
+        "endLine" : 52,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser/memberField/DEFAULT_DATE_FORMAT",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser"
+    },
+    "REGEX" : {
+      "name" : "REGEX",
+      "key" : "REGEX",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 33,
+        "endLine" : 58,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser/memberField/REGEX",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser"
+    }
+  },
+  "methods" : {
+    "isVersioning" : {
+      "name" : "isVersioning",
+      "key" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser/method/isVersioning",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 241,
+        "startColumn" : 23,
+        "endLine" : 241,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser"
+    },
+    "parseFileList" : {
+      "name" : "parseFileList",
+      "key" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser/method/parseFileList",
+      "type" : "org.apache.commons.net.ftp.FTPFile[]",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 22,
+        "endLine" : 114,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listStream",
+        "key" : "listStream",
+        "type" : "java.io.InputStream",
+        "position" : {
+          "startLine" : 114,
+          "startColumn" : 48,
+          "endLine" : 114,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser/method/parseFileList"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser"
+    },
+    "parseFTPEntry" : {
+      "name" : "parseFTPEntry",
+      "key" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser/method/parseFTPEntry",
+      "type" : "org.apache.commons.net.ftp.FTPFile",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 20,
+        "endLine" : 132,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "entry",
+        "key" : "entry",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 132,
+          "startColumn" : 41,
+          "endLine" : 132,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser/method/parseFTPEntry"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser"
+    },
+    "readNextEntry" : {
+      "name" : "readNextEntry",
+      "key" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser/method/readNextEntry",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 220,
+        "startColumn" : 19,
+        "endLine" : 220,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reader",
+        "key" : "reader",
+        "type" : "java.io.BufferedReader",
+        "position" : {
+          "startLine" : 220,
+          "startColumn" : 48,
+          "endLine" : 220,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser/method/readNextEntry"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser"
+    },
+    "getDefaultConfiguration" : {
+      "name" : "getDefaultConfiguration",
+      "key" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser/method/getDefaultConfiguration",
+      "type" : "org.apache.commons.net.ftp.FTPClientConfig",
+      "position" : {
+        "startLine" : 251,
+        "startColumn" : 30,
+        "endLine" : 251,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.VMSFTPEntryParser"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ConfigurableFTPFileEntryParserImpl" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

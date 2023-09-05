@@ -1,0 +1,68 @@
+{
+  "name" : "FileConstants",
+  "key" : "org.argouml.util.FileConstants",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "UNCOMPRESSED_FILE_EXT" : {
+      "name" : "UNCOMPRESSED_FILE_EXT",
+      "key" : "UNCOMPRESSED_FILE_EXT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 32,
+        "endLine" : 46,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.FileConstants/memberField/UNCOMPRESSED_FILE_EXT",
+      "classOrInterfaceKey" : "org.argouml.util.FileConstants"
+    },
+    "COMPRESSED_FILE_EXT" : {
+      "name" : "COMPRESSED_FILE_EXT",
+      "key" : "COMPRESSED_FILE_EXT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 32,
+        "endLine" : 41,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.FileConstants/memberField/COMPRESSED_FILE_EXT",
+      "classOrInterfaceKey" : "org.argouml.util.FileConstants"
+    },
+    "PROJECT_FILE_EXT" : {
+      "name" : "PROJECT_FILE_EXT",
+      "key" : "PROJECT_FILE_EXT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 32,
+        "endLine" : 51,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.FileConstants/memberField/PROJECT_FILE_EXT",
+      "classOrInterfaceKey" : "org.argouml.util.FileConstants"
+    }
+  },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

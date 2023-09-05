@@ -1,0 +1,312 @@
+{
+  "name" : "PropPanelAssociationEnd",
+  "key" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "changeabilityRadioButtonpanel" : {
+      "name" : "changeabilityRadioButtonpanel",
+      "key" : "changeabilityRadioButtonpanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 20,
+        "endLine" : 98,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/memberField/changeabilityRadioButtonpanel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "typeCombobox" : {
+      "name" : "typeCombobox",
+      "key" : "typeCombobox",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 23,
+        "endLine" : 57,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/memberField/typeCombobox",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "navigabilityCheckBox" : {
+      "name" : "navigabilityCheckBox",
+      "key" : "navigabilityCheckBox",
+      "type" : "javax.swing.JCheckBox",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 23,
+        "endLine" : 72,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/memberField/navigabilityCheckBox",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "specificationScroll" : {
+      "name" : "specificationScroll",
+      "key" : "specificationScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 25,
+        "endLine" : 111,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/memberField/specificationScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "qualifiersScroll" : {
+      "name" : "qualifiersScroll",
+      "key" : "qualifiersScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 25,
+        "endLine" : 116,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/memberField/qualifiersScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "targetScopeCheckBox" : {
+      "name" : "targetScopeCheckBox",
+      "key" : "targetScopeCheckBox",
+      "type" : "javax.swing.JCheckBox",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 23,
+        "endLine" : 86,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/memberField/targetScopeCheckBox",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "orderingCheckBox" : {
+      "name" : "orderingCheckBox",
+      "key" : "orderingCheckBox",
+      "type" : "javax.swing.JCheckBox",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 23,
+        "endLine" : 79,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/memberField/orderingCheckBox",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "associationScroll" : {
+      "name" : "associationScroll",
+      "key" : "associationScroll",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 20,
+        "endLine" : 62,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/memberField/associationScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "associationLabel" : {
+      "name" : "associationLabel",
+      "key" : "associationLabel",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 20,
+        "endLine" : 118,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/memberField/associationLabel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "aggregationRadioButtonpanel" : {
+      "name" : "aggregationRadioButtonpanel",
+      "key" : "aggregationRadioButtonpanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 20,
+        "endLine" : 92,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/memberField/aggregationRadioButtonpanel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 31,
+        "endLine" : 52,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "multiplicityComboBox" : {
+      "name" : "multiplicityComboBox",
+      "key" : "multiplicityComboBox",
+      "type" : "org.argouml.uml.ui.UMLMultiplicityPanel",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 34,
+        "endLine" : 67,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/memberField/multiplicityComboBox",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "visibilityRadioButtonPanel" : {
+      "name" : "visibilityRadioButtonPanel",
+      "key" : "visibilityRadioButtonPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 20,
+        "endLine" : 104,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/memberField/visibilityRadioButtonPanel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    }
+  },
+  "methods" : {
+    "createControls" : {
+      "name" : "createControls",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/method/createControls",
+      "type" : "void",
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 20,
+        "endLine" : 165,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "positionControls" : {
+      "name" : "positionControls",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/method/positionControls",
+      "type" : "void",
+      "position" : {
+        "startLine" : 202,
+        "startColumn" : 20,
+        "endLine" : 202,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "getMultiplicityComboBox" : {
+      "name" : "getMultiplicityComboBox",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/method/getMultiplicityComboBox",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 248,
+        "startColumn" : 22,
+        "endLine" : 248,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "positionStandardControls" : {
+      "name" : "positionStandardControls",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/method/positionStandardControls",
+      "type" : "void",
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 20,
+        "endLine" : 194,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    },
+    "setAssociationLabel" : {
+      "name" : "setAssociationLabel",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/method/setAssociationLabel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 239,
+        "startColumn" : 20,
+        "endLine" : 239,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "label",
+        "key" : "label",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 239,
+          "startColumn" : 47,
+          "endLine" : 239,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd/method/setAssociationLabel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "PropPanelModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

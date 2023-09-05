@@ -1,0 +1,99 @@
+{
+  "name" : "MoveToBottomAction",
+  "key" : "org.argouml.uml.ui.MoveToBottomAction",
+  "type" : "class",
+  "position" : {
+    "startLine" : 237,
+    "startColumn" : 1,
+    "endLine" : 237,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "index" : {
+      "name" : "index",
+      "key" : "index",
+      "type" : "int",
+      "position" : {
+        "startLine" : 240,
+        "startColumn" : 17,
+        "endLine" : 240,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.MoveToBottomAction/memberField/index",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.MoveToBottomAction"
+    },
+    "model" : {
+      "name" : "model",
+      "key" : "model",
+      "type" : "org.argouml.uml.ui.UMLModelElementOrderedListModel2",
+      "position" : {
+        "startLine" : 238,
+        "startColumn" : 46,
+        "endLine" : 238,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.MoveToBottomAction/memberField/model",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.MoveToBottomAction"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.MoveToBottomAction/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 262,
+        "startColumn" : 17,
+        "endLine" : 262,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 262,
+          "startColumn" : 45,
+          "endLine" : 262,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.MoveToBottomAction/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.MoveToBottomAction"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.uml.ui.MoveToBottomAction/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 271,
+        "startColumn" : 20,
+        "endLine" : 271,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.MoveToBottomAction"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

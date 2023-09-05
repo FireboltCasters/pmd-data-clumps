@@ -1,0 +1,97 @@
+{
+  "name" : "ChildGenUML",
+  "key" : "org.argouml.uml.cognitive.critics.ChildGenUML",
+  "type" : "class",
+  "position" : {
+    "startLine" : 58,
+    "startColumn" : 8,
+    "endLine" : 58,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 33,
+        "endLine" : 60,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.ChildGenUML/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.ChildGenUML"
+    }
+  },
+  "methods" : {
+    "gen" : {
+      "name" : "gen",
+      "key" : "org.argouml.uml.cognitive.critics.ChildGenUML/method/gen",
+      "type" : "java.util.Enumeration",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 24,
+        "endLine" : 72,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 35,
+          "endLine" : 72,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.ChildGenUML/method/gen"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.ChildGenUML"
+    },
+    "gen2" : {
+      "name" : "gen2",
+      "key" : "org.argouml.uml.cognitive.critics.ChildGenUML/method/gen2",
+      "type" : "java.util.Iterator",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 21,
+        "endLine" : 83,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 33,
+          "endLine" : 83,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.ChildGenUML/method/gen2"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.ChildGenUML"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.tigris.gef.util.ChildGenerator" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

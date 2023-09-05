@@ -1,0 +1,52 @@
+{
+  "name" : "ProfilePropPanelFactory",
+  "key" : "org.argouml.profile.internal.ui.ProfilePropPanelFactory",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "createPropPanel" : {
+      "name" : "createPropPanel",
+      "key" : "org.argouml.profile.internal.ui.ProfilePropPanelFactory/method/createPropPanel",
+      "type" : "org.argouml.uml.ui.PropPanel",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 22,
+        "endLine" : 38,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "object",
+        "key" : "object",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 45,
+          "endLine" : 38,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.internal.ui.ProfilePropPanelFactory/method/createPropPanel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.internal.ui.ProfilePropPanelFactory"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.uml.ui.PropPanelFactory" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

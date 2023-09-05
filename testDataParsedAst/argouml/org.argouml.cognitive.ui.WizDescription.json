@@ -1,0 +1,98 @@
+{
+  "name" : "WizDescription",
+  "key" : "org.argouml.cognitive.ui.WizDescription",
+  "type" : "class",
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 8,
+    "endLine" : 50,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 166,
+        "startColumn" : 31,
+        "endLine" : 166,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.WizDescription/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.WizDescription"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 33,
+        "endLine" : 54,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.WizDescription/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.WizDescription"
+    },
+    "description" : {
+      "name" : "description",
+      "key" : "description",
+      "type" : "javax.swing.JTextArea",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 23,
+        "endLine" : 59,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.WizDescription/memberField/description",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.WizDescription"
+    }
+  },
+  "methods" : {
+    "setTarget" : {
+      "name" : "setTarget",
+      "key" : "org.argouml.cognitive.ui.WizDescription/method/setTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 17,
+        "endLine" : 80,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 80,
+          "startColumn" : 34,
+          "endLine" : 80,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.WizDescription/method/setTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.WizDescription"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "WizStep" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

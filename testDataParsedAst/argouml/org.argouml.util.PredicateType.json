@@ -1,0 +1,169 @@
+{
+  "name" : "PredicateType",
+  "key" : "org.argouml.util.PredicateType",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "patterns" : {
+      "name" : "patterns",
+      "key" : "patterns",
+      "type" : "java.lang.Class[]",
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 19,
+        "endLine" : 32,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.PredicateType/memberField/patterns",
+      "classOrInterfaceKey" : "org.argouml.util.PredicateType"
+    },
+    "printString" : {
+      "name" : "printString",
+      "key" : "printString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 20,
+        "endLine" : 36,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.PredicateType/memberField/printString",
+      "classOrInterfaceKey" : "org.argouml.util.PredicateType"
+    },
+    "patternCount" : {
+      "name" : "patternCount",
+      "key" : "patternCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 17,
+        "endLine" : 34,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.PredicateType/memberField/patternCount",
+      "classOrInterfaceKey" : "org.argouml.util.PredicateType"
+    }
+  },
+  "methods" : {
+    "create" : {
+      "name" : "create",
+      "key" : "org.argouml.util.PredicateType/method/create",
+      "type" : "org.argouml.util.PredicateType",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 33,
+        "endLine" : 64,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c0",
+        "key" : "c0",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 46,
+          "endLine" : 64,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.PredicateType/method/create"
+      }, {
+        "name" : "c1",
+        "key" : "c1",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 56,
+          "endLine" : 64,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.PredicateType/method/create"
+      }, {
+        "name" : "c2",
+        "key" : "c2",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 66,
+          "endLine" : 64,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.PredicateType/method/create"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.PredicateType"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.util.PredicateType/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 19,
+        "endLine" : 85,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.PredicateType"
+    },
+    "evaluate" : {
+      "name" : "evaluate",
+      "key" : "org.argouml.util.PredicateType/method/evaluate",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 20,
+        "endLine" : 72,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 36,
+          "endLine" : 72,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.PredicateType/method/evaluate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.PredicateType"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "Predicate" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

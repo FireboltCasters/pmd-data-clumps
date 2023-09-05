@@ -1,0 +1,392 @@
+{
+  "name" : "BinaryCodec",
+  "key" : "org.apache.commons.codec.binary.BinaryCodec",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "BIT_6" : {
+      "name" : "BIT_6",
+      "key" : "BIT_6",
+      "type" : "int",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 30,
+        "endLine" : 65,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodec/memberField/BIT_6",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "BIT_7" : {
+      "name" : "BIT_7",
+      "key" : "BIT_7",
+      "type" : "int",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 30,
+        "endLine" : 68,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodec/memberField/BIT_7",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "BIT_2" : {
+      "name" : "BIT_2",
+      "key" : "BIT_2",
+      "type" : "int",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 30,
+        "endLine" : 53,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodec/memberField/BIT_2",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "EMPTY_CHAR_ARRAY" : {
+      "name" : "EMPTY_CHAR_ARRAY",
+      "key" : "EMPTY_CHAR_ARRAY",
+      "type" : "char[]",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 33,
+        "endLine" : 41,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodec/memberField/EMPTY_CHAR_ARRAY",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "BIT_3" : {
+      "name" : "BIT_3",
+      "key" : "BIT_3",
+      "type" : "int",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 30,
+        "endLine" : 56,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodec/memberField/BIT_3",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "BIT_4" : {
+      "name" : "BIT_4",
+      "key" : "BIT_4",
+      "type" : "int",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 30,
+        "endLine" : 59,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodec/memberField/BIT_4",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "BIT_5" : {
+      "name" : "BIT_5",
+      "key" : "BIT_5",
+      "type" : "int",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 30,
+        "endLine" : 62,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodec/memberField/BIT_5",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "BITS" : {
+      "name" : "BITS",
+      "key" : "BITS",
+      "type" : "int[]",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 32,
+        "endLine" : 70,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodec/memberField/BITS",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "BIT_0" : {
+      "name" : "BIT_0",
+      "key" : "BIT_0",
+      "type" : "int",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 30,
+        "endLine" : 47,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodec/memberField/BIT_0",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "EMPTY_BYTE_ARRAY" : {
+      "name" : "EMPTY_BYTE_ARRAY",
+      "key" : "EMPTY_BYTE_ARRAY",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 33,
+        "endLine" : 44,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodec/memberField/EMPTY_BYTE_ARRAY",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "BIT_1" : {
+      "name" : "BIT_1",
+      "key" : "BIT_1",
+      "type" : "int",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 30,
+        "endLine" : 50,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodec/memberField/BIT_1",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    }
+  },
+  "methods" : {
+    "encode" : {
+      "name" : "encode",
+      "key" : "org.apache.commons.codec.binary.BinaryCodec/method/encode",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 19,
+        "endLine" : 94,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "raw",
+        "key" : "raw",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 94,
+          "startColumn" : 33,
+          "endLine" : 94,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.binary.BinaryCodec/method/encode"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "fromAscii" : {
+      "name" : "fromAscii",
+      "key" : "org.apache.commons.codec.binary.BinaryCodec/method/fromAscii",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 193,
+        "startColumn" : 26,
+        "endLine" : 193,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ascii",
+        "key" : "ascii",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 193,
+          "startColumn" : 43,
+          "endLine" : 193,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.binary.BinaryCodec/method/fromAscii"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "toAsciiBytes" : {
+      "name" : "toAsciiBytes",
+      "key" : "org.apache.commons.codec.binary.BinaryCodec/method/toAsciiBytes",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 222,
+        "startColumn" : 26,
+        "endLine" : 222,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "raw",
+        "key" : "raw",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 222,
+          "startColumn" : 46,
+          "endLine" : 222,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.binary.BinaryCodec/method/toAsciiBytes"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "toByteArray" : {
+      "name" : "toByteArray",
+      "key" : "org.apache.commons.codec.binary.BinaryCodec/method/toByteArray",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 19,
+        "endLine" : 147,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ascii",
+        "key" : "ascii",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 147,
+          "startColumn" : 38,
+          "endLine" : 147,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.binary.BinaryCodec/method/toByteArray"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "toAsciiString" : {
+      "name" : "toAsciiString",
+      "key" : "org.apache.commons.codec.binary.BinaryCodec/method/toAsciiString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 282,
+        "startColumn" : 26,
+        "endLine" : 282,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "raw",
+        "key" : "raw",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 282,
+          "startColumn" : 47,
+          "endLine" : 282,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.binary.BinaryCodec/method/toAsciiString"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "toAsciiChars" : {
+      "name" : "toAsciiChars",
+      "key" : "org.apache.commons.codec.binary.BinaryCodec/method/toAsciiChars",
+      "type" : "char[]",
+      "position" : {
+        "startLine" : 252,
+        "startColumn" : 26,
+        "endLine" : 252,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "raw",
+        "key" : "raw",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 252,
+          "startColumn" : 46,
+          "endLine" : 252,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.binary.BinaryCodec/method/toAsciiChars"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    },
+    "decode" : {
+      "name" : "decode",
+      "key" : "org.apache.commons.codec.binary.BinaryCodec/method/decode",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 135,
+        "startColumn" : 19,
+        "endLine" : 135,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ascii",
+        "key" : "ascii",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 135,
+          "startColumn" : 33,
+          "endLine" : 135,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.binary.BinaryCodec/method/decode"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodec"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.apache.commons.codec.BinaryDecoder", "org.apache.commons.codec.BinaryEncoder" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

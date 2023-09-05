@@ -1,0 +1,94 @@
+{
+  "name" : "ActionSetMultiplicity",
+  "key" : "org.argouml.uml.ui.ActionSetMultiplicity",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 17,
+    "endLine" : 40,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.ActionSetMultiplicity/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 17,
+        "endLine" : 55,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 45,
+          "endLine" : 55,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSetMultiplicity/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSetMultiplicity"
+    },
+    "setSelectedItem" : {
+      "name" : "setSelectedItem",
+      "key" : "org.argouml.uml.ui.ActionSetMultiplicity/method/setSelectedItem",
+      "type" : "void",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 26,
+        "endLine" : 73,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 49,
+          "endLine" : 73,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSetMultiplicity/method/setSelectedItem"
+      }, {
+        "name" : "target",
+        "key" : "target",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 62,
+          "endLine" : 73,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSetMultiplicity/method/setSelectedItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSetMultiplicity"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

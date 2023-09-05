@@ -1,0 +1,233 @@
+{
+  "name" : "UMLExpressionBodyField",
+  "key" : "org.argouml.uml.ui.UMLExpressionBodyField",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "notifyModel" : {
+      "name" : "notifyModel",
+      "key" : "notifyModel",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 21,
+        "endLine" : 52,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLExpressionBodyField/memberField/notifyModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLExpressionBodyField"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 33,
+        "endLine" : 48,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLExpressionBodyField/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLExpressionBodyField"
+    },
+    "model" : {
+      "name" : "model",
+      "key" : "model",
+      "type" : "UMLExpressionModel2",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 33,
+        "endLine" : 51,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLExpressionBodyField/memberField/model",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLExpressionBodyField"
+    }
+  },
+  "methods" : {
+    "removeUpdate" : {
+      "name" : "removeUpdate",
+      "key" : "org.argouml.uml.ui.UMLExpressionBodyField/method/removeUpdate",
+      "type" : "void",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 17,
+        "endLine" : 118,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "p1",
+        "key" : "p1",
+        "type" : "javax.swing.event.DocumentEvent",
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 50,
+          "endLine" : 118,
+          "endColumn" : 52
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLExpressionBodyField/method/removeUpdate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLExpressionBodyField"
+    },
+    "update" : {
+      "name" : "update",
+      "key" : "org.argouml.uml.ui.UMLExpressionBodyField/method/update",
+      "type" : "void",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 18,
+        "endLine" : 97,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLExpressionBodyField"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.ui.UMLExpressionBodyField/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 17,
+        "endLine" : 92,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 52,
+          "endLine" : 92,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLExpressionBodyField/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLExpressionBodyField"
+    },
+    "targetReasserted" : {
+      "name" : "targetReasserted",
+      "key" : "org.argouml.uml.ui.UMLExpressionBodyField/method/targetReasserted",
+      "type" : "void",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 17,
+        "endLine" : 88,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLExpressionBodyField"
+    },
+    "targetChanged" : {
+      "name" : "targetChanged",
+      "key" : "org.argouml.uml.ui.UMLExpressionBodyField/method/targetChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 17,
+        "endLine" : 77,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLExpressionBodyField"
+    },
+    "changedUpdate" : {
+      "name" : "changedUpdate",
+      "key" : "org.argouml.uml.ui.UMLExpressionBodyField/method/changedUpdate",
+      "type" : "void",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 17,
+        "endLine" : 111,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "p1",
+        "key" : "p1",
+        "type" : "javax.swing.event.DocumentEvent",
+        "position" : {
+          "startLine" : 111,
+          "startColumn" : 51,
+          "endLine" : 111,
+          "endColumn" : 53
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLExpressionBodyField/method/changedUpdate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLExpressionBodyField"
+    },
+    "insertUpdate" : {
+      "name" : "insertUpdate",
+      "key" : "org.argouml.uml.ui.UMLExpressionBodyField/method/insertUpdate",
+      "type" : "void",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 17,
+        "endLine" : 125,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "p1",
+        "key" : "p1",
+        "type" : "javax.swing.event.DocumentEvent",
+        "position" : {
+          "startLine" : 125,
+          "startColumn" : 50,
+          "endLine" : 125,
+          "endColumn" : 52
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLExpressionBodyField/method/insertUpdate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLExpressionBodyField"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "javax.swing.event.DocumentListener", "UMLUserInterfaceComponent", "java.beans.PropertyChangeListener" ],
+  "extends_" : [ "javax.swing.JTextArea" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

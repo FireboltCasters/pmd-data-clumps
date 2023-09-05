@@ -1,0 +1,220 @@
+{
+  "name" : "UMLChangeDispatch",
+  "key" : "org.argouml.uml.ui.UMLChangeDispatch",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "container" : {
+      "name" : "container",
+      "key" : "container",
+      "type" : "java.awt.Container",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 23,
+        "endLine" : 42,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLChangeDispatch/memberField/container",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLChangeDispatch"
+    },
+    "TARGET_CHANGED" : {
+      "name" : "TARGET_CHANGED",
+      "key" : "TARGET_CHANGED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 29,
+        "endLine" : 58,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLChangeDispatch/memberField/TARGET_CHANGED",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLChangeDispatch"
+    },
+    "eventType" : {
+      "name" : "eventType",
+      "key" : "eventType",
+      "type" : "int",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 17,
+        "endLine" : 41,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLChangeDispatch/memberField/eventType",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLChangeDispatch"
+    },
+    "TARGET_CHANGED_ADD" : {
+      "name" : "TARGET_CHANGED_ADD",
+      "key" : "TARGET_CHANGED_ADD",
+      "type" : "int",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 29,
+        "endLine" : 52,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLChangeDispatch/memberField/TARGET_CHANGED_ADD",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLChangeDispatch"
+    },
+    "target" : {
+      "name" : "target",
+      "key" : "target",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 20,
+        "endLine" : 47,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLChangeDispatch/memberField/target",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLChangeDispatch"
+    },
+    "TARGET_REASSERTED" : {
+      "name" : "TARGET_REASSERTED",
+      "key" : "TARGET_REASSERTED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 29,
+        "endLine" : 62,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLChangeDispatch/memberField/TARGET_REASSERTED",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLChangeDispatch"
+    }
+  },
+  "methods" : {
+    "synchronizedDispatch" : {
+      "name" : "synchronizedDispatch",
+      "key" : "org.argouml.uml.ui.UMLChangeDispatch/method/synchronizedDispatch",
+      "type" : "void",
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 18,
+        "endLine" : 143,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "cont",
+        "key" : "cont",
+        "type" : "java.awt.Container",
+        "position" : {
+          "startLine" : 143,
+          "startColumn" : 49,
+          "endLine" : 143,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLChangeDispatch/method/synchronizedDispatch"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLChangeDispatch"
+    },
+    "dispatch" : {
+      "name" : "dispatch",
+      "key" : "org.argouml.uml.ui.UMLChangeDispatch/method/dispatch",
+      "type" : "void",
+      "position" : {
+        "startLine" : 117,
+        "startColumn" : 18,
+        "endLine" : 117,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theAWTContainer",
+        "key" : "theAWTContainer",
+        "type" : "java.awt.Container",
+        "position" : {
+          "startLine" : 117,
+          "startColumn" : 37,
+          "endLine" : 117,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLChangeDispatch/method/dispatch"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLChangeDispatch"
+    },
+    "run" : {
+      "name" : "run",
+      "key" : "org.argouml.uml.ui.UMLChangeDispatch/method/run",
+      "type" : "void",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 17,
+        "endLine" : 101,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLChangeDispatch"
+    },
+    "targetReasserted" : {
+      "name" : "targetReasserted",
+      "key" : "org.argouml.uml.ui.UMLChangeDispatch/method/targetReasserted",
+      "type" : "void",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 17,
+        "endLine" : 91,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLChangeDispatch"
+    },
+    "targetChanged" : {
+      "name" : "targetChanged",
+      "key" : "org.argouml.uml.ui.UMLChangeDispatch/method/targetChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 17,
+        "endLine" : 84,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLChangeDispatch"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.lang.Runnable", "UMLUserInterfaceComponent" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

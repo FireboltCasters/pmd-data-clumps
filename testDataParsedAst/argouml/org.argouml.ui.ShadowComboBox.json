@@ -1,0 +1,315 @@
+{
+  "name" : "ShadowComboBox",
+  "key" : "org.argouml.ui.ShadowComboBox",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 195,
+        "startColumn" : 31,
+        "endLine" : 195,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ShadowComboBox/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.ShadowComboBox"
+    },
+    "shadowFigs" : {
+      "name" : "shadowFigs",
+      "key" : "shadowFigs",
+      "type" : "org.argouml.ui.ShadowComboBox.ShadowFig[]",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 33,
+        "endLine" : 46,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ShadowComboBox/memberField/shadowFigs",
+      "classOrInterfaceKey" : "org.argouml.ui.ShadowComboBox"
+    }
+  },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.JComboBox" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.ui.ShadowComboBox.ShadowRenderer" : {
+      "name" : "ShadowRenderer",
+      "key" : "org.argouml.ui.ShadowComboBox.ShadowRenderer",
+      "type" : "class",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 13,
+        "endLine" : 72,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "fields" : {
+        "serialVersionUID" : {
+          "name" : "serialVersionUID",
+          "key" : "serialVersionUID",
+          "type" : "long",
+          "position" : {
+            "startLine" : 149,
+            "startColumn" : 35,
+            "endLine" : 149,
+            "endColumn" : 51
+          },
+          "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.ShadowComboBox.ShadowRenderer/memberField/serialVersionUID",
+          "classOrInterfaceKey" : "org.argouml.ui.ShadowComboBox.ShadowRenderer"
+        },
+        "currentFig" : {
+          "name" : "currentFig",
+          "key" : "currentFig",
+          "type" : "org.argouml.ui.ShadowComboBox.ShadowFig",
+          "position" : {
+            "startLine" : 76,
+            "startColumn" : 28,
+            "endLine" : 76,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.ShadowComboBox.ShadowRenderer/memberField/currentFig",
+          "classOrInterfaceKey" : "org.argouml.ui.ShadowComboBox.ShadowRenderer"
+        }
+      },
+      "methods" : {
+        "getListCellRendererComponent" : {
+          "name" : "getListCellRendererComponent",
+          "key" : "org.argouml.ui.ShadowComboBox.ShadowRenderer/method/getListCellRendererComponent",
+          "type" : "java.awt.Component",
+          "position" : {
+            "startLine" : 89,
+            "startColumn" : 26,
+            "endLine" : 89,
+            "endColumn" : 54
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "list",
+            "key" : "list",
+            "type" : "javax.swing.JList",
+            "position" : {
+              "startLine" : 90,
+              "startColumn" : 19,
+              "endLine" : 90,
+              "endColumn" : 23
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.ShadowComboBox.ShadowRenderer/method/getListCellRendererComponent"
+          }, {
+            "name" : "value",
+            "key" : "value",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 91,
+              "startColumn" : 20,
+              "endLine" : 91,
+              "endColumn" : 25
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.ShadowComboBox.ShadowRenderer/method/getListCellRendererComponent"
+          }, {
+            "name" : "index",
+            "key" : "index",
+            "type" : "int",
+            "position" : {
+              "startLine" : 92,
+              "startColumn" : 17,
+              "endLine" : 92,
+              "endColumn" : 22
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.ShadowComboBox.ShadowRenderer/method/getListCellRendererComponent"
+          }, {
+            "name" : "isSelected",
+            "key" : "isSelected",
+            "type" : "boolean",
+            "position" : {
+              "startLine" : 93,
+              "startColumn" : 21,
+              "endLine" : 93,
+              "endColumn" : 31
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.ShadowComboBox.ShadowRenderer/method/getListCellRendererComponent"
+          }, {
+            "name" : "cellHasFocus",
+            "key" : "cellHasFocus",
+            "type" : "boolean",
+            "position" : {
+              "startLine" : 94,
+              "startColumn" : 21,
+              "endLine" : 94,
+              "endColumn" : 33
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.ShadowComboBox.ShadowRenderer/method/getListCellRendererComponent"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.ShadowComboBox.ShadowRenderer"
+        },
+        "paintComponent" : {
+          "name" : "paintComponent",
+          "key" : "org.argouml.ui.ShadowComboBox.ShadowRenderer/method/paintComponent",
+          "type" : "void",
+          "position" : {
+            "startLine" : 137,
+            "startColumn" : 24,
+            "endLine" : 137,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "g",
+            "key" : "g",
+            "type" : "java.awt.Graphics",
+            "position" : {
+              "startLine" : 137,
+              "startColumn" : 48,
+              "endLine" : 137,
+              "endColumn" : 49
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.ShadowComboBox.ShadowRenderer/method/paintComponent"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.ShadowComboBox.ShadowRenderer"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "javax.swing.ListCellRenderer" ],
+      "extends_" : [ "javax.swing.JComponent" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.ui.ShadowComboBox",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.ui.ShadowComboBox.ShadowFig" : {
+      "name" : "ShadowFig",
+      "key" : "org.argouml.ui.ShadowComboBox.ShadowFig",
+      "type" : "class",
+      "position" : {
+        "startLine" : 156,
+        "startColumn" : 20,
+        "endLine" : 156,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "serialVersionUID" : {
+          "name" : "serialVersionUID",
+          "key" : "serialVersionUID",
+          "type" : "long",
+          "position" : {
+            "startLine" : 187,
+            "startColumn" : 35,
+            "endLine" : 187,
+            "endColumn" : 51
+          },
+          "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.ShadowComboBox.ShadowFig/memberField/serialVersionUID",
+          "classOrInterfaceKey" : "org.argouml.ui.ShadowComboBox.ShadowFig"
+        }
+      },
+      "methods" : {
+        "setName" : {
+          "name" : "setName",
+          "key" : "org.argouml.ui.ShadowComboBox.ShadowFig/method/setName",
+          "type" : "void",
+          "position" : {
+            "startLine" : 166,
+            "startColumn" : 21,
+            "endLine" : 166,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "text",
+            "key" : "text",
+            "type" : "java.lang.String",
+            "position" : {
+              "startLine" : 166,
+              "startColumn" : 36,
+              "endLine" : 166,
+              "endColumn" : 40
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.ShadowComboBox.ShadowFig/method/setName"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.ShadowComboBox.ShadowFig"
+        },
+        "setShadowSize" : {
+          "name" : "setShadowSize",
+          "key" : "org.argouml.ui.ShadowComboBox.ShadowFig/method/setShadowSize",
+          "type" : "void",
+          "position" : {
+            "startLine" : 179,
+            "startColumn" : 21,
+            "endLine" : 179,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "size",
+            "key" : "size",
+            "type" : "int",
+            "position" : {
+              "startLine" : 179,
+              "startColumn" : 39,
+              "endLine" : 179,
+              "endColumn" : 43
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.ShadowComboBox.ShadowFig/method/setShadowSize"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.ShadowComboBox.ShadowFig"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.uml.diagram.ui.FigNodeModelElement" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.ui.ShadowComboBox",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

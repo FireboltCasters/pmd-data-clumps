@@ -1,0 +1,97 @@
+{
+  "name" : "GoModelElementToContainedLostElements",
+  "key" : "org.argouml.ui.explorer.rules.GoModelElementToContainedLostElements",
+  "type" : "class",
+  "position" : {
+    "startLine" : 46,
+    "startColumn" : 8,
+    "endLine" : 46,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getChildren" : {
+      "name" : "getChildren",
+      "key" : "org.argouml.ui.explorer.rules.GoModelElementToContainedLostElements/method/getChildren",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 23,
+        "endLine" : 60,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parent",
+        "key" : "parent",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 42,
+          "endLine" : 60,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.rules.GoModelElementToContainedLostElements/method/getChildren"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.rules.GoModelElementToContainedLostElements"
+    },
+    "getRuleName" : {
+      "name" : "getRuleName",
+      "key" : "org.argouml.ui.explorer.rules.GoModelElementToContainedLostElements/method/getRuleName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 19,
+        "endLine" : 52,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.rules.GoModelElementToContainedLostElements"
+    },
+    "getDependencies" : {
+      "name" : "getDependencies",
+      "key" : "org.argouml.ui.explorer.rules.GoModelElementToContainedLostElements/method/getDependencies",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 16,
+        "endLine" : 84,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parent",
+        "key" : "parent",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 84,
+          "startColumn" : 39,
+          "endLine" : 84,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.rules.GoModelElementToContainedLostElements/method/getDependencies"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.rules.GoModelElementToContainedLostElements"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbstractPerspectiveRule" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

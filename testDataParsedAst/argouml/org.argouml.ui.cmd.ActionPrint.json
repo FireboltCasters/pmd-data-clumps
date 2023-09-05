@@ -1,0 +1,52 @@
+{
+  "name" : "ActionPrint",
+  "key" : "org.argouml.ui.cmd.ActionPrint",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.cmd.ActionPrint/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 17,
+        "endLine" : 57,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 57,
+          "startColumn" : 45,
+          "endLine" : 57,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.ActionPrint/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionPrint"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.AbstractAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

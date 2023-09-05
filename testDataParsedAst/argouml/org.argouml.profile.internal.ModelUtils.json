@@ -1,0 +1,65 @@
+{
+  "name" : "ModelUtils",
+  "key" : "org.argouml.profile.internal.ModelUtils",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "findTypeInModel" : {
+      "name" : "findTypeInModel",
+      "key" : "org.argouml.profile.internal.ModelUtils/method/findTypeInModel",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 26,
+        "endLine" : 44,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 49,
+          "endLine" : 44,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.internal.ModelUtils/method/findTypeInModel"
+      }, {
+        "name" : "model",
+        "key" : "model",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 59,
+          "endLine" : 44,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.internal.ModelUtils/method/findTypeInModel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.internal.ModelUtils"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,55 @@
+{
+  "name" : "SocketInputStream",
+  "key" : "org.apache.commons.net.io.SocketInputStream",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "__socket" : {
+      "name" : "__socket",
+      "key" : "__socket",
+      "type" : "java.net.Socket",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 20,
+        "endLine" : 38,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.io.SocketInputStream/memberField/__socket",
+      "classOrInterfaceKey" : "org.apache.commons.net.io.SocketInputStream"
+    }
+  },
+  "methods" : {
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.net.io.SocketInputStream/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 17,
+        "endLine" : 61,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.io.SocketInputStream"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.io.FilterInputStream" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,118 @@
+{
+  "name" : "InitJavaCritics",
+  "key" : "org.argouml.language.java.cognitive.critics.InitJavaCritics",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "crMultiInherit" : {
+      "name" : "crMultiInherit",
+      "key" : "crMultiInherit",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 27,
+        "endLine" : 46,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.language.java.cognitive.critics.InitJavaCritics/memberField/crMultiInherit",
+      "classOrInterfaceKey" : "org.argouml.language.java.cognitive.critics.InitJavaCritics"
+    },
+    "crMultiRealization" : {
+      "name" : "crMultiRealization",
+      "key" : "crMultiRealization",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 27,
+        "endLine" : 47,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.language.java.cognitive.critics.InitJavaCritics/memberField/crMultiRealization",
+      "classOrInterfaceKey" : "org.argouml.language.java.cognitive.critics.InitJavaCritics"
+    }
+  },
+  "methods" : {
+    "init" : {
+      "name" : "init",
+      "key" : "org.argouml.language.java.cognitive.critics.InitJavaCritics/method/init",
+      "type" : "void",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 17,
+        "endLine" : 58,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.cognitive.critics.InitJavaCritics"
+    },
+    "getDetailsTabs" : {
+      "name" : "getDetailsTabs",
+      "key" : "org.argouml.language.java.cognitive.critics.InitJavaCritics/method/getDetailsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 37,
+        "endLine" : 66,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.cognitive.critics.InitJavaCritics"
+    },
+    "getSettingsTabs" : {
+      "name" : "getSettingsTabs",
+      "key" : "org.argouml.language.java.cognitive.critics.InitJavaCritics/method/getSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 42,
+        "endLine" : 54,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.cognitive.critics.InitJavaCritics"
+    },
+    "getProjectSettingsTabs" : {
+      "name" : "getProjectSettingsTabs",
+      "key" : "org.argouml.language.java.cognitive.critics.InitJavaCritics/method/getProjectSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 42,
+        "endLine" : 50,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.cognitive.critics.InitJavaCritics"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.InitSubsystem" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

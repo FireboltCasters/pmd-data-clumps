@@ -1,0 +1,112 @@
+{
+  "name" : "ActionClassDiagram",
+  "key" : "org.argouml.uml.ui.ActionClassDiagram",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 31,
+        "endLine" : 82,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.ActionClassDiagram/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionClassDiagram"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 33,
+        "endLine" : 40,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.ActionClassDiagram/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionClassDiagram"
+    }
+  },
+  "methods" : {
+    "isValidNamespace" : {
+      "name" : "isValidNamespace",
+      "key" : "org.argouml.uml.ui.ActionClassDiagram/method/isValidNamespace",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 20,
+        "endLine" : 69,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "handle",
+        "key" : "handle",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 44,
+          "endLine" : 69,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionClassDiagram/method/isValidNamespace"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionClassDiagram"
+    },
+    "createDiagram" : {
+      "name" : "createDiagram",
+      "key" : "org.argouml.uml.ui.ActionClassDiagram/method/createDiagram",
+      "type" : "org.argouml.uml.diagram.ArgoDiagram",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 24,
+        "endLine" : 53,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ns",
+        "key" : "ns",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 45,
+          "endLine" : 53,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionClassDiagram/method/createDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionClassDiagram"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ActionAddDiagram" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

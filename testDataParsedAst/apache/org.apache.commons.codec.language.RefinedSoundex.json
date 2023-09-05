@@ -1,0 +1,198 @@
+{
+  "name" : "RefinedSoundex",
+  "key" : "org.apache.commons.codec.language.RefinedSoundex",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "US_ENGLISH_MAPPING" : {
+      "name" : "US_ENGLISH_MAPPING",
+      "key" : "US_ENGLISH_MAPPING",
+      "type" : "char[]",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 32,
+        "endLine" : 43,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.RefinedSoundex/memberField/US_ENGLISH_MAPPING",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundex"
+    },
+    "soundexMapping" : {
+      "name" : "soundexMapping",
+      "key" : "soundexMapping",
+      "type" : "char[]",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 20,
+        "endLine" : 50,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.RefinedSoundex/memberField/soundexMapping",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundex"
+    },
+    "US_ENGLISH" : {
+      "name" : "US_ENGLISH",
+      "key" : "US_ENGLISH",
+      "type" : "org.apache.commons.codec.language.RefinedSoundex",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 40,
+        "endLine" : 36,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.RefinedSoundex/memberField/US_ENGLISH",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundex"
+    }
+  },
+  "methods" : {
+    "encode" : {
+      "name" : "encode",
+      "key" : "org.apache.commons.codec.language.RefinedSoundex/method/encode",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 126,
+        "startColumn" : 19,
+        "endLine" : 126,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pString",
+        "key" : "pString",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 33,
+          "endLine" : 126,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.RefinedSoundex/method/encode"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundex"
+    },
+    "getMappingCode" : {
+      "name" : "getMappingCode",
+      "key" : "org.apache.commons.codec.language.RefinedSoundex/method/getMappingCode",
+      "type" : "char",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 10,
+        "endLine" : 139,
+        "endColumn" : 24
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "char",
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 30,
+          "endLine" : 139,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.RefinedSoundex/method/getMappingCode"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundex"
+    },
+    "soundex" : {
+      "name" : "soundex",
+      "key" : "org.apache.commons.codec.language.RefinedSoundex/method/soundex",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 19,
+        "endLine" : 153,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "str",
+        "key" : "str",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 153,
+          "startColumn" : 34,
+          "endLine" : 153,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.RefinedSoundex/method/soundex"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundex"
+    },
+    "difference" : {
+      "name" : "difference",
+      "key" : "org.apache.commons.codec.language.RefinedSoundex/method/difference",
+      "type" : "int",
+      "position" : {
+        "startLine" : 95,
+        "startColumn" : 16,
+        "endLine" : 95,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s1",
+        "key" : "s1",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 95,
+          "startColumn" : 34,
+          "endLine" : 95,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.RefinedSoundex/method/difference"
+      }, {
+        "name" : "s2",
+        "key" : "s2",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 95,
+          "startColumn" : 45,
+          "endLine" : 95,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.RefinedSoundex/method/difference"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundex"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.apache.commons.codec.StringEncoder" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,272 @@
+{
+  "name" : "ToDoPerspective",
+  "key" : "org.argouml.cognitive.ui.ToDoPerspective",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 17,
+    "endLine" : 39,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 33,
+        "endLine" : 44,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPerspective/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPerspective"
+    },
+    "flat" : {
+      "name" : "flat",
+      "key" : "flat",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 21,
+        "endLine" : 52,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPerspective/memberField/flat",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPerspective"
+    },
+    "flatChildren" : {
+      "name" : "flatChildren",
+      "key" : "flatChildren",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 28,
+        "endLine" : 57,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPerspective/memberField/flatChildren",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPerspective"
+    }
+  },
+  "methods" : {
+    "getChildCount" : {
+      "name" : "getChildCount",
+      "key" : "org.argouml.cognitive.ui.ToDoPerspective/method/getChildCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 16,
+        "endLine" : 92,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parent",
+        "key" : "parent",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 37,
+          "endLine" : 92,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPerspective/method/getChildCount"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPerspective"
+    },
+    "getFlat" : {
+      "name" : "getFlat",
+      "key" : "org.argouml.cognitive.ui.ToDoPerspective/method/getFlat",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 131,
+        "startColumn" : 20,
+        "endLine" : 131,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPerspective"
+    },
+    "setFlat" : {
+      "name" : "setFlat",
+      "key" : "org.argouml.cognitive.ui.ToDoPerspective/method/setFlat",
+      "type" : "void",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 17,
+        "endLine" : 118,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "b",
+        "key" : "b",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 33,
+          "endLine" : 118,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPerspective/method/setFlat"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPerspective"
+    },
+    "getIndexOfChild" : {
+      "name" : "getIndexOfChild",
+      "key" : "org.argouml.cognitive.ui.ToDoPerspective/method/getIndexOfChild",
+      "type" : "int",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 16,
+        "endLine" : 104,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parent",
+        "key" : "parent",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 39,
+          "endLine" : 104,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPerspective/method/getIndexOfChild"
+      }, {
+        "name" : "child",
+        "key" : "child",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 54,
+          "endLine" : 104,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPerspective/method/getIndexOfChild"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPerspective"
+    },
+    "getChild" : {
+      "name" : "getChild",
+      "key" : "org.argouml.cognitive.ui.ToDoPerspective/method/getChild",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 19,
+        "endLine" : 81,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parent",
+        "key" : "parent",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 81,
+          "startColumn" : 35,
+          "endLine" : 81,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPerspective/method/getChild"
+      }, {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 81,
+          "startColumn" : 47,
+          "endLine" : 81,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPerspective/method/getChild"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPerspective"
+    },
+    "addFlatChildren" : {
+      "name" : "addFlatChildren",
+      "key" : "org.argouml.cognitive.ui.ToDoPerspective/method/addFlatChildren",
+      "type" : "void",
+      "position" : {
+        "startLine" : 148,
+        "startColumn" : 17,
+        "endLine" : 148,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 148,
+          "startColumn" : 40,
+          "endLine" : 148,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPerspective/method/addFlatChildren"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPerspective"
+    },
+    "calcFlatChildren" : {
+      "name" : "calcFlatChildren",
+      "key" : "org.argouml.cognitive.ui.ToDoPerspective/method/calcFlatChildren",
+      "type" : "void",
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 17,
+        "endLine" : 138,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPerspective"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.ui.TreeModelComposite" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

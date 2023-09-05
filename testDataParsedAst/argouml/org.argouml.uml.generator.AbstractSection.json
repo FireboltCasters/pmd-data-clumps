@@ -1,0 +1,224 @@
+{
+  "name" : "AbstractSection",
+  "key" : "org.argouml.uml.generator.AbstractSection",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 17,
+    "endLine" : 44,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "LINE_SEPARATOR" : {
+      "name" : "LINE_SEPARATOR",
+      "key" : "LINE_SEPARATOR",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 33,
+        "endLine" : 54,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.generator.AbstractSection/memberField/LINE_SEPARATOR",
+      "classOrInterfaceKey" : "org.argouml.uml.generator.AbstractSection"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 33,
+        "endLine" : 48,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.generator.AbstractSection/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.generator.AbstractSection"
+    },
+    "mAry" : {
+      "name" : "mAry",
+      "key" : "mAry",
+      "type" : "java.util.Map",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 33,
+        "endLine" : 57,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.generator.AbstractSection/memberField/mAry",
+      "classOrInterfaceKey" : "org.argouml.uml.generator.AbstractSection"
+    }
+  },
+  "methods" : {
+    "read" : {
+      "name" : "read",
+      "key" : "org.argouml.uml.generator.AbstractSection/method/read",
+      "type" : "void",
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 17,
+        "endLine" : 150,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "filename",
+        "key" : "filename",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 150,
+          "startColumn" : 29,
+          "endLine" : 150,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.AbstractSection/method/read"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.generator.AbstractSection"
+    },
+    "getSectId" : {
+      "name" : "getSectId",
+      "key" : "org.argouml.uml.generator.AbstractSection/method/getSectId",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 188,
+        "startColumn" : 26,
+        "endLine" : 188,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "line",
+        "key" : "line",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 188,
+          "startColumn" : 43,
+          "endLine" : 188,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.AbstractSection/method/getSectId"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.generator.AbstractSection"
+    },
+    "generate" : {
+      "name" : "generate",
+      "key" : "org.argouml.uml.generator.AbstractSection/method/generate",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 26,
+        "endLine" : 71,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "id",
+        "key" : "id",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 42,
+          "endLine" : 71,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.AbstractSection/method/generate"
+      }, {
+        "name" : "indent",
+        "key" : "indent",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 53,
+          "endLine" : 71,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.AbstractSection/method/generate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.generator.AbstractSection"
+    },
+    "write" : {
+      "name" : "write",
+      "key" : "org.argouml.uml.generator.AbstractSection/method/write",
+      "type" : "void",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 17,
+        "endLine" : 84,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "filename",
+        "key" : "filename",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 84,
+          "startColumn" : 30,
+          "endLine" : 84,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.AbstractSection/method/write"
+      }, {
+        "name" : "indent",
+        "key" : "indent",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 84,
+          "startColumn" : 47,
+          "endLine" : 84,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.AbstractSection/method/write"
+      }, {
+        "name" : "outputLostSections",
+        "key" : "outputLostSections",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 17,
+          "endLine" : 85,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.AbstractSection/method/write"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.generator.AbstractSection"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

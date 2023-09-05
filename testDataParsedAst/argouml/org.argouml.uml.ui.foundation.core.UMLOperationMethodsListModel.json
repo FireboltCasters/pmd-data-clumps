@@ -1,0 +1,84 @@
+{
+  "name" : "UMLOperationMethodsListModel",
+  "key" : "org.argouml.uml.ui.foundation.core.UMLOperationMethodsListModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 31,
+        "endLine" : 77,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.UMLOperationMethodsListModel/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLOperationMethodsListModel"
+    }
+  },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLOperationMethodsListModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 20,
+        "endLine" : 51,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLOperationMethodsListModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLOperationMethodsListModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 23,
+        "endLine" : 65,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 45,
+          "endLine" : 65,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.UMLOperationMethodsListModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLOperationMethodsListModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLModelElementListModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

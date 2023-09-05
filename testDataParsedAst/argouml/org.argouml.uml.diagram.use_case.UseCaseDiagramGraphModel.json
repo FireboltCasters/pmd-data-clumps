@@ -1,0 +1,386 @@
+{
+  "name" : "UseCaseDiagramGraphModel",
+  "key" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 48,
+    "startColumn" : 8,
+    "endLine" : 48,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 562,
+        "startColumn" : 23,
+        "endLine" : 562,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 33,
+        "endLine" : 54,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel"
+    }
+  },
+  "methods" : {
+    "getPorts" : {
+      "name" : "getPorts",
+      "key" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/getPorts",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 17,
+        "endLine" : 74,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "nodeOrEdge",
+        "key" : "nodeOrEdge",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 74,
+          "startColumn" : 33,
+          "endLine" : 74,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/getPorts"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel"
+    },
+    "getInEdges" : {
+      "name" : "getInEdges",
+      "key" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/getInEdges",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 17,
+        "endLine" : 115,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "port",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 115,
+          "startColumn" : 35,
+          "endLine" : 115,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/getInEdges"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel"
+    },
+    "addNode" : {
+      "name" : "addNode",
+      "key" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/addNode",
+      "type" : "void",
+      "position" : {
+        "startLine" : 315,
+        "startColumn" : 17,
+        "endLine" : 315,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 315,
+          "startColumn" : 32,
+          "endLine" : 315,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/addNode"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel"
+    },
+    "canAddNode" : {
+      "name" : "canAddNode",
+      "key" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/canAddNode",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 171,
+        "startColumn" : 20,
+        "endLine" : 171,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 171,
+          "startColumn" : 38,
+          "endLine" : 171,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/canAddNode"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel"
+    },
+    "addNodeRelatedEdges" : {
+      "name" : "addNodeRelatedEdges",
+      "key" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/addNodeRelatedEdges",
+      "type" : "void",
+      "position" : {
+        "startLine" : 406,
+        "startColumn" : 17,
+        "endLine" : 406,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 406,
+          "startColumn" : 44,
+          "endLine" : 406,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/addNodeRelatedEdges"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel"
+    },
+    "canConnect" : {
+      "name" : "canConnect",
+      "key" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/canConnect",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 483,
+        "startColumn" : 20,
+        "endLine" : 483,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fromP",
+        "key" : "fromP",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 483,
+          "startColumn" : 38,
+          "endLine" : 483,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/canConnect"
+      }, {
+        "name" : "toP",
+        "key" : "toP",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 483,
+          "startColumn" : 52,
+          "endLine" : 483,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/canConnect"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel"
+    },
+    "getOwner" : {
+      "name" : "getOwner",
+      "key" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/getOwner",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 19,
+        "endLine" : 99,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "port",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 99,
+          "startColumn" : 35,
+          "endLine" : 99,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/getOwner"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel"
+    },
+    "getOutEdges" : {
+      "name" : "getOutEdges",
+      "key" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/getOutEdges",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 17,
+        "endLine" : 144,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "port",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 144,
+          "startColumn" : 36,
+          "endLine" : 144,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/getOutEdges"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel"
+    },
+    "addEdge" : {
+      "name" : "addEdge",
+      "key" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/addEdge",
+      "type" : "void",
+      "position" : {
+        "startLine" : 357,
+        "startColumn" : 17,
+        "endLine" : 357,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "edge",
+        "key" : "edge",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 357,
+          "startColumn" : 32,
+          "endLine" : 357,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/addEdge"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel"
+    },
+    "canAddEdge" : {
+      "name" : "canAddEdge",
+      "key" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/canAddEdge",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 206,
+        "startColumn" : 20,
+        "endLine" : 206,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "edge",
+        "key" : "edge",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 206,
+          "startColumn" : 38,
+          "endLine" : 206,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/canAddEdge"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel"
+    },
+    "vetoableChange" : {
+      "name" : "vetoableChange",
+      "key" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/vetoableChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 516,
+        "startColumn" : 17,
+        "endLine" : 516,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pce",
+        "key" : "pce",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 516,
+          "startColumn" : 52,
+          "endLine" : 516,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel/method/vetoableChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.use_case.UseCaseDiagramGraphModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.beans.VetoableChangeListener" ],
+  "extends_" : [ "org.argouml.uml.diagram.UMLMutableGraphSupport" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

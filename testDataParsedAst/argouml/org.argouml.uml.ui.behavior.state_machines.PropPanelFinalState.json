@@ -1,0 +1,38 @@
+{
+  "name" : "PropPanelFinalState",
+  "key" : "org.argouml.uml.ui.behavior.state_machines.PropPanelFinalState",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 31,
+        "endLine" : 38,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelFinalState/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelFinalState"
+    }
+  },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbstractPropPanelState" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

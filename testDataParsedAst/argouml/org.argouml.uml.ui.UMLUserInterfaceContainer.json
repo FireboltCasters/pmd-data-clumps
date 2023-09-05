@@ -1,0 +1,158 @@
+{
+  "name" : "UMLUserInterfaceContainer",
+  "key" : "org.argouml.uml.ui.UMLUserInterfaceContainer",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "getTarget" : {
+      "name" : "getTarget",
+      "key" : "org.argouml.uml.ui.UMLUserInterfaceContainer/method/getTarget",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 19,
+        "endLine" : 45,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLUserInterfaceContainer"
+    },
+    "formatCollection" : {
+      "name" : "formatCollection",
+      "key" : "org.argouml.uml.ui.UMLUserInterfaceContainer/method/formatCollection",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 19,
+        "endLine" : 79,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "iter",
+        "key" : "iter",
+        "type" : "java.util.Iterator",
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 45,
+          "endLine" : 79,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLUserInterfaceContainer/method/formatCollection"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLUserInterfaceContainer"
+    },
+    "getModelElement" : {
+      "name" : "getModelElement",
+      "key" : "org.argouml.uml.ui.UMLUserInterfaceContainer/method/getModelElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 19,
+        "endLine" : 51,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLUserInterfaceContainer"
+    },
+    "formatNamespace" : {
+      "name" : "formatNamespace",
+      "key" : "org.argouml.uml.ui.UMLUserInterfaceContainer/method/formatNamespace",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 19,
+        "endLine" : 87,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ns",
+        "key" : "ns",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 42,
+          "endLine" : 87,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLUserInterfaceContainer/method/formatNamespace"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLUserInterfaceContainer"
+    },
+    "getProfile" : {
+      "name" : "getProfile",
+      "key" : "org.argouml.uml.ui.UMLUserInterfaceContainer/method/getProfile",
+      "type" : "org.argouml.kernel.ProfileConfiguration",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 33,
+        "endLine" : 61,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLUserInterfaceContainer"
+    },
+    "formatElement" : {
+      "name" : "formatElement",
+      "key" : "org.argouml.uml.ui.UMLUserInterfaceContainer/method/formatElement",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 19,
+        "endLine" : 70,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 40,
+          "endLine" : 70,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLUserInterfaceContainer/method/formatElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLUserInterfaceContainer"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

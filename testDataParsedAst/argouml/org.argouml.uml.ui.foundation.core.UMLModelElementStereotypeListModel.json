@@ -1,0 +1,139 @@
+{
+  "name" : "UMLModelElementStereotypeListModel",
+  "key" : "org.argouml.uml.ui.foundation.core.UMLModelElementStereotypeListModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLModelElementStereotypeListModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 20,
+        "endLine" : 55,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementStereotypeListModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLModelElementStereotypeListModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 23,
+        "endLine" : 66,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 66,
+          "startColumn" : 45,
+          "endLine" : 66,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementStereotypeListModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementStereotypeListModel"
+    },
+    "buildPopup" : {
+      "name" : "buildPopup",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLModelElementStereotypeListModel/method/buildPopup",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 20,
+        "endLine" : 73,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "popup",
+        "key" : "popup",
+        "type" : "javax.swing.JPopupMenu",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 42,
+          "endLine" : 73,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementStereotypeListModel/method/buildPopup"
+      }, {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 53,
+          "endLine" : 73,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementStereotypeListModel/method/buildPopup"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementStereotypeListModel"
+    },
+    "getCheckItem" : {
+      "name" : "getCheckItem",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLModelElementStereotypeListModel/method/getCheckItem",
+      "type" : "javax.swing.JCheckBoxMenuItem",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 38,
+        "endLine" : 94,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "a",
+        "key" : "a",
+        "type" : "javax.swing.Action",
+        "position" : {
+          "startLine" : 94,
+          "startColumn" : 58,
+          "endLine" : 94,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementStereotypeListModel/method/getCheckItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementStereotypeListModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLModelElementListModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

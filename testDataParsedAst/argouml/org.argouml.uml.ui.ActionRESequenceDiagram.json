@@ -1,0 +1,99 @@
+{
+  "name" : "ActionRESequenceDiagram",
+  "key" : "org.argouml.uml.ui.ActionRESequenceDiagram",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 31,
+        "endLine" : 52,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.ActionRESequenceDiagram/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionRESequenceDiagram"
+    },
+    "messageFig" : {
+      "name" : "messageFig",
+      "key" : "messageFig",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 20,
+        "endLine" : 165,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.ActionRESequenceDiagram/memberField/messageFig",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionRESequenceDiagram"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.ActionRESequenceDiagram/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 17,
+        "endLine" : 76,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 76,
+          "startColumn" : 45,
+          "endLine" : 76,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionRESequenceDiagram/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionRESequenceDiagram"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.uml.ui.ActionRESequenceDiagram/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 158,
+        "startColumn" : 20,
+        "endLine" : 158,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionRESequenceDiagram"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.AbstractAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

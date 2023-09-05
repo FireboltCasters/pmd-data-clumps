@@ -1,0 +1,103 @@
+{
+  "name" : "TestJOCLed",
+  "key" : "org.apache.commons.dbcp.TestJOCLed",
+  "type" : "class",
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "driver" : {
+      "name" : "driver",
+      "key" : "driver",
+      "type" : "PoolingDriver",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 27,
+        "endLine" : 45,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TestJOCLed/memberField/driver",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestJOCLed"
+    }
+  },
+  "methods" : {
+    "getConnection" : {
+      "name" : "getConnection",
+      "key" : "org.apache.commons.dbcp.TestJOCLed/method/getConnection",
+      "type" : "java.sql.Connection",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 26,
+        "endLine" : 41,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestJOCLed"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.dbcp.TestJOCLed/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 24,
+        "endLine" : 37,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestJOCLed"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.dbcp.TestJOCLed/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 17,
+        "endLine" : 47,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestJOCLed"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.dbcp.TestJOCLed/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 17,
+        "endLine" : 52,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestJOCLed"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "TestConnectionPool" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

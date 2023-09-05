@@ -1,0 +1,181 @@
+{
+  "name" : "FigOperationsCompartment",
+  "key" : "org.argouml.uml.diagram.ui.FigOperationsCompartment",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 31,
+        "endLine" : 46,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigOperationsCompartment/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigOperationsCompartment"
+    }
+  },
+  "methods" : {
+    "getUmlCollection" : {
+      "name" : "getUmlCollection",
+      "key" : "org.argouml.uml.diagram.ui.FigOperationsCompartment/method/getUmlCollection",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 26,
+        "endLine" : 63,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigOperationsCompartment"
+    },
+    "createFigText" : {
+      "name" : "createFigText",
+      "key" : "org.argouml.uml.diagram.ui.FigOperationsCompartment/method/createFigText",
+      "type" : "FigSingleLineText",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 33,
+        "endLine" : 75,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "x",
+        "key" : "x",
+        "type" : "int",
+        "position" : {
+          "startLine" : 76,
+          "startColumn" : 10,
+          "endLine" : 76,
+          "endColumn" : 11
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigOperationsCompartment/method/createFigText"
+      }, {
+        "name" : "y",
+        "key" : "y",
+        "type" : "int",
+        "position" : {
+          "startLine" : 76,
+          "startColumn" : 17,
+          "endLine" : 76,
+          "endColumn" : 18
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigOperationsCompartment/method/createFigText"
+      }, {
+        "name" : "w",
+        "key" : "w",
+        "type" : "int",
+        "position" : {
+          "startLine" : 76,
+          "startColumn" : 24,
+          "endLine" : 76,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigOperationsCompartment/method/createFigText"
+      }, {
+        "name" : "h",
+        "key" : "h",
+        "type" : "int",
+        "position" : {
+          "startLine" : 76,
+          "startColumn" : 31,
+          "endLine" : 76,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigOperationsCompartment/method/createFigText"
+      }, {
+        "name" : "aFig",
+        "key" : "aFig",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 76,
+          "startColumn" : 38,
+          "endLine" : 76,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigOperationsCompartment/method/createFigText"
+      }, {
+        "name" : "np",
+        "key" : "np",
+        "type" : "org.argouml.notation.NotationProvider",
+        "position" : {
+          "startLine" : 76,
+          "startColumn" : 61,
+          "endLine" : 76,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigOperationsCompartment/method/createFigText"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigOperationsCompartment"
+    },
+    "createModelElement" : {
+      "name" : "createModelElement",
+      "key" : "org.argouml.uml.diagram.ui.FigOperationsCompartment/method/createModelElement",
+      "type" : "void",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 20,
+        "endLine" : 83,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigOperationsCompartment"
+    },
+    "getNotationType" : {
+      "name" : "getNotationType",
+      "key" : "org.argouml.uml.diagram.ui.FigOperationsCompartment/method/getNotationType",
+      "type" : "int",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 19,
+        "endLine" : 71,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigOperationsCompartment"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "FigEditableCompartment" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

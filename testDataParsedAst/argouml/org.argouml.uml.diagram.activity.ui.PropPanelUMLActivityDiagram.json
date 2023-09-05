@@ -1,0 +1,22 @@
+{
+  "name" : "PropPanelUMLActivityDiagram",
+  "key" : "org.argouml.uml.diagram.activity.ui.PropPanelUMLActivityDiagram",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 1,
+    "endLine" : 36,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.diagram.ui.PropPanelDiagram" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

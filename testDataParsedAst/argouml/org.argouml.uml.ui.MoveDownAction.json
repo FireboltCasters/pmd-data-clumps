@@ -1,0 +1,99 @@
+{
+  "name" : "MoveDownAction",
+  "key" : "org.argouml.uml.ui.MoveDownAction",
+  "type" : "class",
+  "position" : {
+    "startLine" : 155,
+    "startColumn" : 1,
+    "endLine" : 155,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "index" : {
+      "name" : "index",
+      "key" : "index",
+      "type" : "int",
+      "position" : {
+        "startLine" : 158,
+        "startColumn" : 17,
+        "endLine" : 158,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.MoveDownAction/memberField/index",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.MoveDownAction"
+    },
+    "model" : {
+      "name" : "model",
+      "key" : "model",
+      "type" : "org.argouml.uml.ui.UMLModelElementOrderedListModel2",
+      "position" : {
+        "startLine" : 156,
+        "startColumn" : 46,
+        "endLine" : 156,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.MoveDownAction/memberField/model",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.MoveDownAction"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.MoveDownAction/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 174,
+        "startColumn" : 17,
+        "endLine" : 174,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 174,
+          "startColumn" : 45,
+          "endLine" : 174,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.MoveDownAction/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.MoveDownAction"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.uml.ui.MoveDownAction/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 183,
+        "startColumn" : 20,
+        "endLine" : 183,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.MoveDownAction"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

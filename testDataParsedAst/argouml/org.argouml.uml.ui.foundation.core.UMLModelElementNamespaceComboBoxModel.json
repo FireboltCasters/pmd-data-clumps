@@ -1,0 +1,176 @@
+{
+  "name" : "UMLModelElementNamespaceComboBoxModel",
+  "key" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 46,
+    "startColumn" : 8,
+    "endLine" : 46,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 31,
+        "endLine" : 57,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 33,
+        "endLine" : 51,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel"
+    }
+  },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 20,
+        "endLine" : 96,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel"
+    },
+    "buildMinimalModelList" : {
+      "name" : "buildMinimalModelList",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel/method/buildMinimalModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 20,
+        "endLine" : 80,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel"
+    },
+    "getSelectedModelElement" : {
+      "name" : "getSelectedModelElement",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel/method/getSelectedModelElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 22,
+        "endLine" : 130,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 17,
+        "endLine" : 141,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "evt",
+        "key" : "evt",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 141,
+          "startColumn" : 52,
+          "endLine" : 141,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel"
+    },
+    "isLazy" : {
+      "name" : "isLazy",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel/method/isLazy",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 159,
+        "startColumn" : 23,
+        "endLine" : 159,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 23,
+        "endLine" : 71,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 45,
+          "endLine" : 71,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLComboBoxModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

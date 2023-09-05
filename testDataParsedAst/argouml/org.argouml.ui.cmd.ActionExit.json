@@ -1,0 +1,97 @@
+{
+  "name" : "ActionExit",
+  "key" : "org.argouml.ui.cmd.ActionExit",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 31,
+        "endLine" : 75,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.ActionExit/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionExit"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.cmd.ActionExit/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 17,
+        "endLine" : 54,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 45,
+          "endLine" : 54,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.ActionExit/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionExit"
+    },
+    "doCommand" : {
+      "name" : "doCommand",
+      "key" : "org.argouml.ui.cmd.ActionExit/method/doCommand",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 20,
+        "endLine" : 67,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "argument",
+        "key" : "argument",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 37,
+          "endLine" : 67,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.ActionExit/method/doCommand"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionExit"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.CommandLineInterface" ],
+  "extends_" : [ "javax.swing.AbstractAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

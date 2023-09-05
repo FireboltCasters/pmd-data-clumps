@@ -1,0 +1,392 @@
+{
+  "name" : "AndFileFilterTestCase",
+  "key" : "org.apache.commons.io.filefilter.AndFileFilterTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 24,
+    "startColumn" : 8,
+    "endLine" : 24,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "testTrueResults" : {
+      "name" : "testTrueResults",
+      "key" : "testTrueResults",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 16,
+        "endLine" : 38,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/memberField/testTrueResults",
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "testFileResults" : {
+      "name" : "testFileResults",
+      "key" : "testFileResults",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 16,
+        "endLine" : 40,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/memberField/testFileResults",
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "testFilters" : {
+      "name" : "testFilters",
+      "key" : "testFilters",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 16,
+        "endLine" : 37,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/memberField/testFilters",
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "WORKING_PATH_NAME_PROPERTY_KEY" : {
+      "name" : "WORKING_PATH_NAME_PROPERTY_KEY",
+      "key" : "WORKING_PATH_NAME_PROPERTY_KEY",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 31,
+        "endLine" : 27,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/memberField/WORKING_PATH_NAME_PROPERTY_KEY",
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "testFalseResults" : {
+      "name" : "testFalseResults",
+      "key" : "testFalseResults",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 16,
+        "endLine" : 39,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/memberField/testFalseResults",
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "DEFAULT_WORKING_PATH" : {
+      "name" : "DEFAULT_WORKING_PATH",
+      "key" : "DEFAULT_WORKING_PATH",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 26,
+        "startColumn" : 31,
+        "endLine" : 26,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/memberField/DEFAULT_WORKING_PATH",
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "testFilenameResults" : {
+      "name" : "testFilenameResults",
+      "key" : "testFilenameResults",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 16,
+        "endLine" : 41,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/memberField/testFilenameResults",
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    }
+  },
+  "methods" : {
+    "getFilenameResults" : {
+      "name" : "getFilenameResults",
+      "key" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/getFilenameResults",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 18,
+        "endLine" : 80,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "getWorkingPathNamePropertyKey" : {
+      "name" : "getWorkingPathNamePropertyKey",
+      "key" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/getWorkingPathNamePropertyKey",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 20,
+        "endLine" : 92,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "setUpTestFilters" : {
+      "name" : "setUpTestFilters",
+      "key" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/setUpTestFilters",
+      "type" : "void",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 16,
+        "endLine" : 96,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 22,
+        "endLine" : 29,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 29,
+          "startColumn" : 42,
+          "endLine" : 29,
+          "endColumn" : 46
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "getFileResults" : {
+      "name" : "getFileResults",
+      "key" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/getFileResults",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 18,
+        "endLine" : 76,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/suite",
+      "type" : "junit.framework.TestSuite",
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 27,
+        "endLine" : 33,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "getTestFilters" : {
+      "name" : "getTestFilters",
+      "key" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/getTestFilters",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 18,
+        "endLine" : 84,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "buildFilterUsingConstructor" : {
+      "name" : "buildFilterUsingConstructor",
+      "key" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/buildFilterUsingConstructor",
+      "type" : "IOFileFilter",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 26,
+        "endLine" : 60,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "filters",
+        "key" : "filters",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 65,
+          "endLine" : 60,
+          "endColumn" : 72
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/buildFilterUsingConstructor"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "getDefaultWorkingPath" : {
+      "name" : "getDefaultWorkingPath",
+      "key" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/getDefaultWorkingPath",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 20,
+        "endLine" : 68,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "buildFilterUsingAdd" : {
+      "name" : "buildFilterUsingAdd",
+      "key" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/buildFilterUsingAdd",
+      "type" : "IOFileFilter",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 26,
+        "endLine" : 52,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "filters",
+        "key" : "filters",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 57,
+          "endLine" : 52,
+          "endColumn" : 64
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/buildFilterUsingAdd"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 15,
+        "endLine" : 47,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "getConditionalFileFilter" : {
+      "name" : "getConditionalFileFilter",
+      "key" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/getConditionalFileFilter",
+      "type" : "ConditionalFileFilter",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 35,
+        "endLine" : 64,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "getTrueResults" : {
+      "name" : "getTrueResults",
+      "key" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/getTrueResults",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 18,
+        "endLine" : 88,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    },
+    "getFalseResults" : {
+      "name" : "getFalseResults",
+      "key" : "org.apache.commons.io.filefilter.AndFileFilterTestCase/method/getFalseResults",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 18,
+        "endLine" : 72,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.AndFileFilterTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ConditionalFileFilterAbstractTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,156 @@
+{
+  "name" : "WizAddOperation",
+  "key" : "org.argouml.uml.cognitive.critics.WizAddOperation",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "instructions" : {
+      "name" : "instructions",
+      "key" : "instructions",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 20,
+        "endLine" : 44,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.WizAddOperation/memberField/instructions",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizAddOperation"
+    },
+    "label" : {
+      "name" : "label",
+      "key" : "label",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 20,
+        "endLine" : 43,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.WizAddOperation/memberField/label",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizAddOperation"
+    },
+    "step1" : {
+      "name" : "step1",
+      "key" : "step1",
+      "type" : "org.argouml.cognitive.ui.WizStepTextField",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 30,
+        "endLine" : 42,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.WizAddOperation/memberField/step1",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizAddOperation"
+    }
+  },
+  "methods" : {
+    "setInstructions" : {
+      "name" : "setInstructions",
+      "key" : "org.argouml.uml.cognitive.critics.WizAddOperation/method/setInstructions",
+      "type" : "void",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 17,
+        "endLine" : 76,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 76,
+          "startColumn" : 40,
+          "endLine" : 76,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.WizAddOperation/method/setInstructions"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizAddOperation"
+    },
+    "makePanel" : {
+      "name" : "makePanel",
+      "key" : "org.argouml.uml.cognitive.critics.WizAddOperation/method/makePanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 19,
+        "endLine" : 83,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newStep",
+        "key" : "newStep",
+        "type" : "int",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 33,
+          "endLine" : 83,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.WizAddOperation/method/makePanel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizAddOperation"
+    },
+    "doAction" : {
+      "name" : "doAction",
+      "key" : "org.argouml.uml.cognitive.critics.WizAddOperation/method/doAction",
+      "type" : "void",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "oldStep",
+        "key" : "oldStep",
+        "type" : "int",
+        "position" : {
+          "startLine" : 56,
+          "startColumn" : 30,
+          "endLine" : 56,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.WizAddOperation/method/doAction"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizAddOperation"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "UMLWizard" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

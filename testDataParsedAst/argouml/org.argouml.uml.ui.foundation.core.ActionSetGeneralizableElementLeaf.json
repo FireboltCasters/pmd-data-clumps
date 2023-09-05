@@ -1,0 +1,84 @@
+{
+  "name" : "ActionSetGeneralizableElementLeaf",
+  "key" : "org.argouml.uml.ui.foundation.core.ActionSetGeneralizableElementLeaf",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "SINGLETON" : {
+      "name" : "SINGLETON",
+      "key" : "SINGLETON",
+      "type" : "org.argouml.uml.ui.foundation.core.ActionSetGeneralizableElementLeaf",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 60,
+        "endLine" : 46,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.ActionSetGeneralizableElementLeaf/memberField/SINGLETON",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionSetGeneralizableElementLeaf"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionSetGeneralizableElementLeaf/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 17,
+        "endLine" : 62,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 45,
+          "endLine" : 62,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.ActionSetGeneralizableElementLeaf/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionSetGeneralizableElementLeaf"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionSetGeneralizableElementLeaf/method/getInstance",
+      "type" : "org.argouml.uml.ui.foundation.core.ActionSetGeneralizableElementLeaf",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 53,
+        "endLine" : 78,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionSetGeneralizableElementLeaf"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

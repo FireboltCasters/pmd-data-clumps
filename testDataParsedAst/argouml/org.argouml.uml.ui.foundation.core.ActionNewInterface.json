@@ -1,0 +1,52 @@
+{
+  "name" : "ActionNewInterface",
+  "key" : "org.argouml.uml.ui.foundation.core.ActionNewInterface",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 1,
+    "endLine" : 43,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionNewInterface/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 56,
+          "startColumn" : 45,
+          "endLine" : 56,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.ActionNewInterface/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionNewInterface"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionNewModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

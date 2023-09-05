@@ -1,0 +1,68 @@
+{
+  "name" : "ActionFind",
+  "key" : "org.argouml.ui.cmd.ActionFind",
+  "type" : "class",
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 1,
+    "endLine" : 50,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "name" : {
+      "name" : "name",
+      "key" : "name",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 20,
+        "endLine" : 52,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.ActionFind/memberField/name",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionFind"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.cmd.ActionFind/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 17,
+        "endLine" : 71,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 45,
+          "endLine" : 71,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.ActionFind/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionFind"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

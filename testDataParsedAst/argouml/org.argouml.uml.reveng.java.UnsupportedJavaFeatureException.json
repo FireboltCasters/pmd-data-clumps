@@ -1,0 +1,22 @@
+{
+  "name" : "UnsupportedJavaFeatureException",
+  "key" : "org.argouml.uml.reveng.java.UnsupportedJavaFeatureException",
+  "type" : "class",
+  "position" : {
+    "startLine" : 49,
+    "startColumn" : 1,
+    "endLine" : 49,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.reveng.java.JavaParseException" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

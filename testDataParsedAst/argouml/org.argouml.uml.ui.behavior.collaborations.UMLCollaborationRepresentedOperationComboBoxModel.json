@@ -1,0 +1,113 @@
+{
+  "name" : "UMLCollaborationRepresentedOperationComboBoxModel",
+  "key" : "org.argouml.uml.ui.behavior.collaborations.UMLCollaborationRepresentedOperationComboBoxModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 1,
+    "endLine" : 42,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.UMLCollaborationRepresentedOperationComboBoxModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 20,
+        "endLine" : 55,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLCollaborationRepresentedOperationComboBoxModel"
+    },
+    "getSelectedModelElement" : {
+      "name" : "getSelectedModelElement",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.UMLCollaborationRepresentedOperationComboBoxModel/method/getSelectedModelElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 22,
+        "endLine" : 81,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLCollaborationRepresentedOperationComboBoxModel"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.UMLCollaborationRepresentedOperationComboBoxModel/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 17,
+        "endLine" : 89,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "evt",
+        "key" : "evt",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 89,
+          "startColumn" : 52,
+          "endLine" : 89,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.collaborations.UMLCollaborationRepresentedOperationComboBoxModel/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLCollaborationRepresentedOperationComboBoxModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.UMLCollaborationRepresentedOperationComboBoxModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 23,
+        "endLine" : 75,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 75,
+          "startColumn" : 45,
+          "endLine" : 75,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.collaborations.UMLCollaborationRepresentedOperationComboBoxModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLCollaborationRepresentedOperationComboBoxModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLComboBoxModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

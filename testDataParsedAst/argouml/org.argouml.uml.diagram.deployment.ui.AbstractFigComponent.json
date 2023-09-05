@@ -1,0 +1,488 @@
+{
+  "name" : "AbstractFigComponent",
+  "key" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent",
+  "type" : "class",
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 17,
+    "endLine" : 50,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "cover" : {
+      "name" : "cover",
+      "key" : "cover",
+      "type" : "org.tigris.gef.presentation.FigRect",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 21,
+        "endLine" : 64,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/memberField/cover",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "DEFAULT_HEIGHT" : {
+      "name" : "DEFAULT_HEIGHT",
+      "key" : "DEFAULT_HEIGHT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 30,
+        "endLine" : 63,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/memberField/DEFAULT_HEIGHT",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "BX" : {
+      "name" : "BX",
+      "key" : "BX",
+      "type" : "int",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 30,
+        "endLine" : 58,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/memberField/BX",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "OVERLAP" : {
+      "name" : "OVERLAP",
+      "key" : "OVERLAP",
+      "type" : "int",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 30,
+        "endLine" : 61,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/memberField/OVERLAP",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "lowerRect" : {
+      "name" : "lowerRect",
+      "key" : "lowerRect",
+      "type" : "org.tigris.gef.presentation.FigRect",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 21,
+        "endLine" : 66,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/memberField/lowerRect",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "FINGER_HEIGHT" : {
+      "name" : "FINGER_HEIGHT",
+      "key" : "FINGER_HEIGHT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 30,
+        "endLine" : 59,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/memberField/FINGER_HEIGHT",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "DEFAULT_WIDTH" : {
+      "name" : "DEFAULT_WIDTH",
+      "key" : "DEFAULT_WIDTH",
+      "type" : "int",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 30,
+        "endLine" : 62,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/memberField/DEFAULT_WIDTH",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "upperRect" : {
+      "name" : "upperRect",
+      "key" : "upperRect",
+      "type" : "org.tigris.gef.presentation.FigRect",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 21,
+        "endLine" : 65,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/memberField/upperRect",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "FINGER_WIDTH" : {
+      "name" : "FINGER_WIDTH",
+      "key" : "FINGER_WIDTH",
+      "type" : "int",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 30,
+        "endLine" : 60,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/memberField/FINGER_WIDTH",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    }
+  },
+  "methods" : {
+    "updateListeners" : {
+      "name" : "updateListeners",
+      "key" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/updateListeners",
+      "type" : "void",
+      "position" : {
+        "startLine" : 131,
+        "startColumn" : 20,
+        "endLine" : 131,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "oldOwner",
+        "key" : "oldOwner",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 131,
+          "startColumn" : 43,
+          "endLine" : 131,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/updateListeners"
+      }, {
+        "name" : "newOwner",
+        "key" : "newOwner",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 131,
+          "startColumn" : 60,
+          "endLine" : 131,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/updateListeners"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "getHandleBox" : {
+      "name" : "getHandleBox",
+      "key" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/getHandleBox",
+      "type" : "java.awt.Rectangle",
+      "position" : {
+        "startLine" : 229,
+        "startColumn" : 22,
+        "endLine" : 229,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "setHandleBox" : {
+      "name" : "setHandleBox",
+      "key" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/setHandleBox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 235,
+        "startColumn" : 17,
+        "endLine" : 235,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "x",
+        "key" : "x",
+        "type" : "int",
+        "position" : {
+          "startLine" : 235,
+          "startColumn" : 34,
+          "endLine" : 235,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/setHandleBox"
+      }, {
+        "name" : "y",
+        "key" : "y",
+        "type" : "int",
+        "position" : {
+          "startLine" : 235,
+          "startColumn" : 41,
+          "endLine" : 235,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/setHandleBox"
+      }, {
+        "name" : "w",
+        "key" : "w",
+        "type" : "int",
+        "position" : {
+          "startLine" : 235,
+          "startColumn" : 48,
+          "endLine" : 235,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/setHandleBox"
+      }, {
+        "name" : "h",
+        "key" : "h",
+        "type" : "int",
+        "position" : {
+          "startLine" : 235,
+          "startColumn" : 55,
+          "endLine" : 235,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/setHandleBox"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "modelChanged" : {
+      "name" : "modelChanged",
+      "key" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/modelChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 20,
+        "endLine" : 120,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "mee",
+        "key" : "mee",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 120,
+          "startColumn" : 53,
+          "endLine" : 120,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/modelChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "getMinimumSize" : {
+      "name" : "getMinimumSize",
+      "key" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/getMinimumSize",
+      "type" : "java.awt.Dimension",
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 22,
+        "endLine" : 155,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "clone" : {
+      "name" : "clone",
+      "key" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/clone",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 19,
+        "endLine" : 106,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "setNode" : {
+      "name" : "setNode",
+      "key" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/setNode",
+      "type" : "void",
+      "position" : {
+        "startLine" : 210,
+        "startColumn" : 17,
+        "endLine" : 210,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "figures",
+        "key" : "figures",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 210,
+          "startColumn" : 30,
+          "endLine" : 210,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/setNode"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "setLineColor" : {
+      "name" : "setLineColor",
+      "key" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/setLineColor",
+      "type" : "void",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 17,
+        "endLine" : 144,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "java.awt.Color",
+        "position" : {
+          "startLine" : 144,
+          "startColumn" : 36,
+          "endLine" : 144,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/setLineColor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "getUseTrapRect" : {
+      "name" : "getUseTrapRect",
+      "key" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/getUseTrapRect",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 224,
+        "startColumn" : 20,
+        "endLine" : 224,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    },
+    "setStandardBounds" : {
+      "name" : "setStandardBounds",
+      "key" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/setStandardBounds",
+      "type" : "void",
+      "position" : {
+        "startLine" : 167,
+        "startColumn" : 20,
+        "endLine" : 167,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "x",
+        "key" : "x",
+        "type" : "int",
+        "position" : {
+          "startLine" : 167,
+          "startColumn" : 42,
+          "endLine" : 167,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/setStandardBounds"
+      }, {
+        "name" : "y",
+        "key" : "y",
+        "type" : "int",
+        "position" : {
+          "startLine" : 167,
+          "startColumn" : 49,
+          "endLine" : 167,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/setStandardBounds"
+      }, {
+        "name" : "w",
+        "key" : "w",
+        "type" : "int",
+        "position" : {
+          "startLine" : 167,
+          "startColumn" : 56,
+          "endLine" : 167,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/setStandardBounds"
+      }, {
+        "name" : "h",
+        "key" : "h",
+        "type" : "int",
+        "position" : {
+          "startLine" : 168,
+          "startColumn" : 17,
+          "endLine" : 168,
+          "endColumn" : 18
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent/method/setStandardBounds"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.AbstractFigComponent"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.diagram.ui.FigNodeModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

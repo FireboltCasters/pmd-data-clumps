@@ -1,0 +1,97 @@
+{
+  "name" : "PrintCommandListener",
+  "key" : "examples.PrintCommandListener",
+  "type" : "class",
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "__writer" : {
+      "name" : "__writer",
+      "key" : "__writer",
+      "type" : "java.io.PrintWriter",
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 25,
+        "endLine" : 31,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "examples.PrintCommandListener/memberField/__writer",
+      "classOrInterfaceKey" : "examples.PrintCommandListener"
+    }
+  },
+  "methods" : {
+    "protocolCommandSent" : {
+      "name" : "protocolCommandSent",
+      "key" : "examples.PrintCommandListener/method/protocolCommandSent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 17,
+        "endLine" : 38,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "org.apache.commons.net.ProtocolCommandEvent",
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 58,
+          "endLine" : 38,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.PrintCommandListener/method/protocolCommandSent"
+      } ],
+      "classOrInterfaceKey" : "examples.PrintCommandListener"
+    },
+    "protocolReplyReceived" : {
+      "name" : "protocolReplyReceived",
+      "key" : "examples.PrintCommandListener/method/protocolReplyReceived",
+      "type" : "void",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 17,
+        "endLine" : 44,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "org.apache.commons.net.ProtocolCommandEvent",
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 60,
+          "endLine" : 44,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.PrintCommandListener/method/protocolReplyReceived"
+      } ],
+      "classOrInterfaceKey" : "examples.PrintCommandListener"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.apache.commons.net.ProtocolCommandListener" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

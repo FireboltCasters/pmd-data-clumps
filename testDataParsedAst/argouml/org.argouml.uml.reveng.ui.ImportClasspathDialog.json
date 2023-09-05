@@ -1,0 +1,235 @@
+{
+  "name" : "ImportClasspathDialog",
+  "key" : "org.argouml.uml.reveng.ui.ImportClasspathDialog",
+  "type" : "class",
+  "position" : {
+    "startLine" : 56,
+    "startColumn" : 8,
+    "endLine" : 56,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "pathsModel" : {
+      "name" : "pathsModel",
+      "key" : "pathsModel",
+      "type" : "javax.swing.DefaultListModel",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 30,
+        "endLine" : 60,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog/memberField/pathsModel",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog"
+    },
+    "paths" : {
+      "name" : "paths",
+      "key" : "paths",
+      "type" : "javax.swing.JList",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 19,
+        "endLine" : 58,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog/memberField/paths",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog"
+    },
+    "removeButton" : {
+      "name" : "removeButton",
+      "key" : "removeButton",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 21,
+        "endLine" : 64,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog/memberField/removeButton",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog"
+    },
+    "addButton" : {
+      "name" : "addButton",
+      "key" : "addButton",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 21,
+        "endLine" : 62,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog/memberField/addButton",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog"
+    },
+    "chooser" : {
+      "name" : "chooser",
+      "key" : "chooser",
+      "type" : "javax.swing.JFileChooser",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 26,
+        "endLine" : 66,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog/memberField/chooser",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog"
+    },
+    "setting" : {
+      "name" : "setting",
+      "key" : "setting",
+      "type" : "org.argouml.uml.reveng.SettingsTypes.PathListSelection",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 31,
+        "endLine" : 68,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog/memberField/setting",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog"
+    }
+  },
+  "methods" : {
+    "updatePathList" : {
+      "name" : "updatePathList",
+      "key" : "org.argouml.uml.reveng.ui.ImportClasspathDialog/method/updatePathList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 18,
+        "endLine" : 116,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.reveng.ui.ImportClasspathDialog.AddListener" : {
+      "name" : "AddListener",
+      "key" : "org.argouml.uml.reveng.ui.ImportClasspathDialog.AddListener",
+      "type" : "class",
+      "position" : {
+        "startLine" : 159,
+        "startColumn" : 5,
+        "endLine" : 159,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : { },
+      "methods" : {
+        "actionPerformed" : {
+          "name" : "actionPerformed",
+          "key" : "org.argouml.uml.reveng.ui.ImportClasspathDialog.AddListener/method/actionPerformed",
+          "type" : "void",
+          "position" : {
+            "startLine" : 163,
+            "startColumn" : 21,
+            "endLine" : 163,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "e",
+            "key" : "e",
+            "type" : "java.awt.event.ActionEvent",
+            "position" : {
+              "startLine" : 163,
+              "startColumn" : 49,
+              "endLine" : 163,
+              "endColumn" : 50
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog.AddListener/method/actionPerformed"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog.AddListener"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "java.awt.event.ActionListener" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.uml.reveng.ui.ImportClasspathDialog.RemoveListener" : {
+      "name" : "RemoveListener",
+      "key" : "org.argouml.uml.reveng.ui.ImportClasspathDialog.RemoveListener",
+      "type" : "class",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 5,
+        "endLine" : 125,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : { },
+      "methods" : {
+        "actionPerformed" : {
+          "name" : "actionPerformed",
+          "key" : "org.argouml.uml.reveng.ui.ImportClasspathDialog.RemoveListener/method/actionPerformed",
+          "type" : "void",
+          "position" : {
+            "startLine" : 129,
+            "startColumn" : 21,
+            "endLine" : 129,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "e",
+            "key" : "e",
+            "type" : "java.awt.event.ActionEvent",
+            "position" : {
+              "startLine" : 129,
+              "startColumn" : 49,
+              "endLine" : 129,
+              "endColumn" : 50
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog.RemoveListener/method/actionPerformed"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog.RemoveListener"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "java.awt.event.ActionListener" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.reveng.ui.ImportClasspathDialog",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

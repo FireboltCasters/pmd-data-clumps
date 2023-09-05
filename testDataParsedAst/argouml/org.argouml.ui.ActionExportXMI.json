@@ -1,0 +1,68 @@
+{
+  "name" : "ActionExportXMI",
+  "key" : "org.argouml.ui.ActionExportXMI",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 14,
+    "endLine" : 44,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 31,
+        "endLine" : 96,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ActionExportXMI/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.ActionExportXMI"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.ActionExportXMI/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 56,
+          "startColumn" : 45,
+          "endLine" : 56,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ActionExportXMI/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ActionExportXMI"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.AbstractAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

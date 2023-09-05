@@ -1,0 +1,22 @@
+{
+  "name" : "ClassifierNotFoundException",
+  "key" : "org.argouml.uml.reveng.java.ClassifierNotFoundException",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 1,
+    "endLine" : 31,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.lang.Exception" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

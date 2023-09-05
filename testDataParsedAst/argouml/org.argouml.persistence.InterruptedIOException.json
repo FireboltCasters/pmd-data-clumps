@@ -1,0 +1,70 @@
+{
+  "name" : "InterruptedIOException",
+  "key" : "org.argouml.persistence.InterruptedIOException",
+  "type" : "class",
+  "position" : {
+    "startLine" : 259,
+    "startColumn" : 1,
+    "endLine" : 259,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 261,
+        "startColumn" : 31,
+        "endLine" : 261,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.InterruptedIOException/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.persistence.InterruptedIOException"
+    },
+    "cause" : {
+      "name" : "cause",
+      "key" : "cause",
+      "type" : "java.lang.InterruptedException",
+      "position" : {
+        "startLine" : 263,
+        "startColumn" : 34,
+        "endLine" : 263,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.InterruptedIOException/memberField/cause",
+      "classOrInterfaceKey" : "org.argouml.persistence.InterruptedIOException"
+    }
+  },
+  "methods" : {
+    "getInterruptedException" : {
+      "name" : "getInterruptedException",
+      "key" : "org.argouml.persistence.InterruptedIOException/method/getInterruptedException",
+      "type" : "java.lang.InterruptedException",
+      "position" : {
+        "startLine" : 269,
+        "startColumn" : 33,
+        "endLine" : 269,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.InterruptedIOException"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.io.IOException" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

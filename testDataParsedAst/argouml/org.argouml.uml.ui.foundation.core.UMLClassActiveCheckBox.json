@@ -1,0 +1,39 @@
+{
+  "name" : "UMLClassActiveCheckBox",
+  "key" : "org.argouml.uml.ui.foundation.core.UMLClassActiveCheckBox",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "buildModel" : {
+      "name" : "buildModel",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLClassActiveCheckBox/method/buildModel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 17,
+        "endLine" : 49,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLClassActiveCheckBox"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLCheckBox2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

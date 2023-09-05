@@ -1,0 +1,22 @@
+{
+  "name" : "UMLDocument",
+  "key" : "org.argouml.uml.ui.UMLDocument",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.text.Document", "java.beans.PropertyChangeListener", "org.argouml.ui.targetmanager.TargetListener" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

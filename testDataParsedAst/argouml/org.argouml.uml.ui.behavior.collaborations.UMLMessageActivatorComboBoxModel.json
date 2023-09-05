@@ -1,0 +1,129 @@
+{
+  "name" : "UMLMessageActivatorComboBoxModel",
+  "key" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBoxModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "interaction" : {
+      "name" : "interaction",
+      "key" : "interaction",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 20,
+        "endLine" : 35,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBoxModel/memberField/interaction",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBoxModel"
+    }
+  },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBoxModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 20,
+        "endLine" : 47,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBoxModel"
+    },
+    "setTarget" : {
+      "name" : "setTarget",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBoxModel/method/setTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 17,
+        "endLine" : 83,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "target",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 34,
+          "endLine" : 83,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBoxModel/method/setTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBoxModel"
+    },
+    "getSelectedModelElement" : {
+      "name" : "getSelectedModelElement",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBoxModel/method/getSelectedModelElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 22,
+        "endLine" : 73,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBoxModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBoxModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 23,
+        "endLine" : 62,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "m",
+        "key" : "m",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 45,
+          "endLine" : 62,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBoxModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBoxModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLComboBoxModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

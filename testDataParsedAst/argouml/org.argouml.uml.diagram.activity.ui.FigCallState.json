@@ -1,0 +1,71 @@
+{
+  "name" : "FigCallState",
+  "key" : "org.argouml.uml.diagram.activity.ui.FigCallState",
+  "type" : "class",
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "clone" : {
+      "name" : "clone",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigCallState/method/clone",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 19,
+        "endLine" : 77,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigCallState"
+    },
+    "makeSelection" : {
+      "name" : "makeSelection",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigCallState/method/makeSelection",
+      "type" : "org.tigris.gef.base.Selection",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 22,
+        "endLine" : 86,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigCallState"
+    },
+    "getNotationProviderType" : {
+      "name" : "getNotationProviderType",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigCallState/method/getNotationProviderType",
+      "type" : "int",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 19,
+        "endLine" : 69,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigCallState"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "FigActionState" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

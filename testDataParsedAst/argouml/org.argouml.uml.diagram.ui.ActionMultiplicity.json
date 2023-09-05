@@ -1,0 +1,347 @@
+{
+  "name" : "ActionMultiplicity",
+  "key" : "org.argouml.uml.diagram.ui.ActionMultiplicity",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "str" : {
+      "name" : "str",
+      "key" : "str",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 20,
+        "endLine" : 45,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity/memberField/str",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "destMultOne" : {
+      "name" : "destMultOne",
+      "key" : "destMultOne",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 35,
+        "endLine" : 52,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity/memberField/destMultOne",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "mult" : {
+      "name" : "mult",
+      "key" : "mult",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 20,
+        "endLine" : 46,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity/memberField/mult",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "destMultZeroToMany" : {
+      "name" : "destMultZeroToMany",
+      "key" : "destMultZeroToMany",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 35,
+        "endLine" : 64,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity/memberField/destMultZeroToMany",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "srcMultOneToMany" : {
+      "name" : "srcMultOneToMany",
+      "key" : "srcMultOneToMany",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 35,
+        "endLine" : 67,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity/memberField/srcMultOneToMany",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "srcMultOne" : {
+      "name" : "srcMultOne",
+      "key" : "srcMultOne",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 35,
+        "endLine" : 49,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity/memberField/srcMultOne",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "srcMultZeroToOne" : {
+      "name" : "srcMultZeroToOne",
+      "key" : "srcMultZeroToOne",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 35,
+        "endLine" : 55,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity/memberField/srcMultZeroToOne",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "srcMultZeroToMany" : {
+      "name" : "srcMultZeroToMany",
+      "key" : "srcMultZeroToMany",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 35,
+        "endLine" : 61,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity/memberField/srcMultZeroToMany",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "destMultZeroToOne" : {
+      "name" : "destMultZeroToOne",
+      "key" : "destMultZeroToOne",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 35,
+        "endLine" : 58,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity/memberField/destMultZeroToOne",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "destMultOneToMany" : {
+      "name" : "destMultOneToMany",
+      "key" : "destMultOneToMany",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 35,
+        "endLine" : 70,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity/memberField/destMultOneToMany",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    }
+  },
+  "methods" : {
+    "getSrcMultOneToMany" : {
+      "name" : "getSrcMultOneToMany",
+      "key" : "org.argouml.uml.diagram.ui.ActionMultiplicity/method/getSrcMultOneToMany",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 181,
+        "startColumn" : 34,
+        "endLine" : 181,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.diagram.ui.ActionMultiplicity/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 17,
+        "endLine" : 92,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 45,
+          "endLine" : 92,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "getSrcMultOne" : {
+      "name" : "getSrcMultOne",
+      "key" : "org.argouml.uml.diagram.ui.ActionMultiplicity/method/getSrcMultOne",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 34,
+        "endLine" : 133,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "getDestMultOne" : {
+      "name" : "getDestMultOne",
+      "key" : "org.argouml.uml.diagram.ui.ActionMultiplicity/method/getDestMultOne",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 34,
+        "endLine" : 141,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.uml.diagram.ui.ActionMultiplicity/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 20,
+        "endLine" : 125,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "getDestMultZeroToMany" : {
+      "name" : "getDestMultZeroToMany",
+      "key" : "org.argouml.uml.diagram.ui.ActionMultiplicity/method/getDestMultZeroToMany",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 173,
+        "startColumn" : 34,
+        "endLine" : 173,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "getDestMultZeroToOne" : {
+      "name" : "getDestMultZeroToOne",
+      "key" : "org.argouml.uml.diagram.ui.ActionMultiplicity/method/getDestMultZeroToOne",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 157,
+        "startColumn" : 34,
+        "endLine" : 157,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "getSrcMultZeroToOne" : {
+      "name" : "getSrcMultZeroToOne",
+      "key" : "org.argouml.uml.diagram.ui.ActionMultiplicity/method/getSrcMultZeroToOne",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 34,
+        "endLine" : 149,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "getDestMultOneToMany" : {
+      "name" : "getDestMultOneToMany",
+      "key" : "org.argouml.uml.diagram.ui.ActionMultiplicity/method/getDestMultOneToMany",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 189,
+        "startColumn" : 34,
+        "endLine" : 189,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    },
+    "getSrcMultZeroToMany" : {
+      "name" : "getSrcMultZeroToMany",
+      "key" : "org.argouml.uml.diagram.ui.ActionMultiplicity/method/getSrcMultZeroToMany",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 34,
+        "endLine" : 165,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionMultiplicity"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,277 @@
+{
+  "name" : "FigTextGroup",
+  "key" : "org.argouml.uml.diagram.ui.FigTextGroup",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "supressCalcBounds" : {
+      "name" : "supressCalcBounds",
+      "key" : "supressCalcBounds",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 21,
+        "endLine" : 43,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigTextGroup/memberField/supressCalcBounds",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigTextGroup"
+    }
+  },
+  "methods" : {
+    "mouseReleased" : {
+      "name" : "mouseReleased",
+      "key" : "org.argouml.uml.diagram.ui.FigTextGroup/method/mouseReleased",
+      "type" : "void",
+      "position" : {
+        "startLine" : 135,
+        "startColumn" : 17,
+        "endLine" : 135,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 135,
+          "startColumn" : 42,
+          "endLine" : 135,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigTextGroup/method/mouseReleased"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigTextGroup"
+    },
+    "mouseExited" : {
+      "name" : "mouseExited",
+      "key" : "org.argouml.uml.diagram.ui.FigTextGroup/method/mouseExited",
+      "type" : "void",
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 17,
+        "endLine" : 149,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 149,
+          "startColumn" : 40,
+          "endLine" : 149,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigTextGroup/method/mouseExited"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigTextGroup"
+    },
+    "calcBounds" : {
+      "name" : "calcBounds",
+      "key" : "org.argouml.uml.diagram.ui.FigTextGroup/method/calcBounds",
+      "type" : "void",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 17,
+        "endLine" : 78,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigTextGroup"
+    },
+    "mouseEntered" : {
+      "name" : "mouseEntered",
+      "key" : "org.argouml.uml.diagram.ui.FigTextGroup/method/mouseEntered",
+      "type" : "void",
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 17,
+        "endLine" : 142,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 142,
+          "startColumn" : 41,
+          "endLine" : 142,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigTextGroup/method/mouseEntered"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigTextGroup"
+    },
+    "addFig" : {
+      "name" : "addFig",
+      "key" : "org.argouml.uml.diagram.ui.FigTextGroup/method/addFig",
+      "type" : "void",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 17,
+        "endLine" : 51,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 28,
+          "endLine" : 51,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigTextGroup/method/addFig"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigTextGroup"
+    },
+    "mouseClicked" : {
+      "name" : "mouseClicked",
+      "key" : "org.argouml.uml.diagram.ui.FigTextGroup/method/mouseClicked",
+      "type" : "void",
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 17,
+        "endLine" : 160,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 160,
+          "startColumn" : 41,
+          "endLine" : 160,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigTextGroup/method/mouseClicked"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigTextGroup"
+    },
+    "deleteFromModel" : {
+      "name" : "deleteFromModel",
+      "key" : "org.argouml.uml.diagram.ui.FigTextGroup/method/deleteFromModel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 17,
+        "endLine" : 114,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigTextGroup"
+    },
+    "updateFigTexts" : {
+      "name" : "updateFigTexts",
+      "key" : "org.argouml.uml.diagram.ui.FigTextGroup/method/updateFigTexts",
+      "type" : "void",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 18,
+        "endLine" : 62,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigTextGroup"
+    },
+    "removeFromDiagram" : {
+      "name" : "removeFromDiagram",
+      "key" : "org.argouml.uml.diagram.ui.FigTextGroup/method/removeFromDiagram",
+      "type" : "void",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 17,
+        "endLine" : 103,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigTextGroup"
+    },
+    "mousePressed" : {
+      "name" : "mousePressed",
+      "key" : "org.argouml.uml.diagram.ui.FigTextGroup/method/mousePressed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 17,
+        "endLine" : 128,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 128,
+          "startColumn" : 41,
+          "endLine" : 128,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigTextGroup/method/mousePressed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigTextGroup"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.event.MouseListener" ],
+  "extends_" : [ "ArgoFigGroup" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,563 @@
+{
+  "name" : "FTPClientConfig",
+  "key" : "org.apache.commons.net.ftp.FTPClientConfig",
+  "type" : "class",
+  "position" : {
+    "startLine" : 140,
+    "startColumn" : 8,
+    "endLine" : 140,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "SYST_NT" : {
+      "name" : "SYST_NT",
+      "key" : "SYST_NT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 159,
+        "startColumn" : 32,
+        "endLine" : 159,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfig/memberField/SYST_NT",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "serverTimeZoneId" : {
+      "name" : "serverTimeZoneId",
+      "key" : "serverTimeZoneId",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 184,
+        "startColumn" : 17,
+        "endLine" : 184,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfig/memberField/serverTimeZoneId",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "defaultDateFormatStr" : {
+      "name" : "defaultDateFormatStr",
+      "key" : "defaultDateFormatStr",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 180,
+        "startColumn" : 17,
+        "endLine" : 180,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfig/memberField/defaultDateFormatStr",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "recentDateFormatStr" : {
+      "name" : "recentDateFormatStr",
+      "key" : "recentDateFormatStr",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 181,
+        "startColumn" : 17,
+        "endLine" : 181,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfig/memberField/recentDateFormatStr",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "SYST_MVS" : {
+      "name" : "SYST_MVS",
+      "key" : "SYST_MVS",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 177,
+        "startColumn" : 32,
+        "endLine" : 177,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfig/memberField/SYST_MVS",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "SYST_OS2" : {
+      "name" : "SYST_OS2",
+      "key" : "SYST_OS2",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 32,
+        "endLine" : 165,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfig/memberField/SYST_OS2",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "SYST_UNIX" : {
+      "name" : "SYST_UNIX",
+      "key" : "SYST_UNIX",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 32,
+        "endLine" : 147,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfig/memberField/SYST_UNIX",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "serverSystemKey" : {
+      "name" : "serverSystemKey",
+      "key" : "serverSystemKey",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 179,
+        "startColumn" : 26,
+        "endLine" : 179,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfig/memberField/serverSystemKey",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "SYST_OS400" : {
+      "name" : "SYST_OS400",
+      "key" : "SYST_OS400",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 171,
+        "startColumn" : 32,
+        "endLine" : 171,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfig/memberField/SYST_OS400",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "serverLanguageCode" : {
+      "name" : "serverLanguageCode",
+      "key" : "serverLanguageCode",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 182,
+        "startColumn" : 17,
+        "endLine" : 182,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfig/memberField/serverLanguageCode",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "shortMonthNames" : {
+      "name" : "shortMonthNames",
+      "key" : "shortMonthNames",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 183,
+        "startColumn" : 17,
+        "endLine" : 183,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfig/memberField/shortMonthNames",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "LANGUAGE_CODE_MAP" : {
+      "name" : "LANGUAGE_CODE_MAP",
+      "key" : "LANGUAGE_CODE_MAP",
+      "type" : "java.util.Map",
+      "position" : {
+        "startLine" : 235,
+        "startColumn" : 21,
+        "endLine" : 235,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfig/memberField/LANGUAGE_CODE_MAP",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "SYST_VMS" : {
+      "name" : "SYST_VMS",
+      "key" : "SYST_VMS",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 32,
+        "endLine" : 153,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfig/memberField/SYST_VMS",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    }
+  },
+  "methods" : {
+    "lookupDateFormatSymbols" : {
+      "name" : "lookupDateFormatSymbols",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfig/method/lookupDateFormatSymbols",
+      "type" : "java.text.DateFormatSymbols",
+      "position" : {
+        "startLine" : 459,
+        "startColumn" : 34,
+        "endLine" : 459,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "languageCode",
+        "key" : "languageCode",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 459,
+          "startColumn" : 65,
+          "endLine" : 459,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPClientConfig/method/lookupDateFormatSymbols"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "setRecentDateFormatStr" : {
+      "name" : "setRecentDateFormatStr",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfig/method/setRecentDateFormatStr",
+      "type" : "void",
+      "position" : {
+        "startLine" : 360,
+        "startColumn" : 14,
+        "endLine" : 360,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "recentDateFormatStr",
+        "key" : "recentDateFormatStr",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 360,
+          "startColumn" : 44,
+          "endLine" : 360,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPClientConfig/method/setRecentDateFormatStr"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "getSupportedLanguageCodes" : {
+      "name" : "getSupportedLanguageCodes",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfig/method/getSupportedLanguageCodes",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 512,
+        "startColumn" : 27,
+        "endLine" : 512,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "setDefaultDateFormatStr" : {
+      "name" : "setDefaultDateFormatStr",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfig/method/setDefaultDateFormatStr",
+      "type" : "void",
+      "position" : {
+        "startLine" : 341,
+        "startColumn" : 14,
+        "endLine" : 341,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "defaultDateFormatStr",
+        "key" : "defaultDateFormatStr",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 341,
+          "startColumn" : 45,
+          "endLine" : 341,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPClientConfig/method/setDefaultDateFormatStr"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "getServerTimeZoneId" : {
+      "name" : "getServerTimeZoneId",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfig/method/getServerTimeZoneId",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 302,
+        "startColumn" : 16,
+        "endLine" : 302,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "getServerSystemKey" : {
+      "name" : "getServerSystemKey",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfig/method/getServerSystemKey",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 276,
+        "startColumn" : 16,
+        "endLine" : 276,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "getShortMonthNames" : {
+      "name" : "getShortMonthNames",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfig/method/getShortMonthNames",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 313,
+        "startColumn" : 16,
+        "endLine" : 313,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "setServerLanguageCode" : {
+      "name" : "setServerLanguageCode",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfig/method/setServerLanguageCode",
+      "type" : "void",
+      "position" : {
+        "startLine" : 443,
+        "startColumn" : 14,
+        "endLine" : 443,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "serverLanguageCode",
+        "key" : "serverLanguageCode",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 443,
+          "startColumn" : 43,
+          "endLine" : 443,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPClientConfig/method/setServerLanguageCode"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "getServerLanguageCode" : {
+      "name" : "getServerLanguageCode",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfig/method/getServerLanguageCode",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 323,
+        "startColumn" : 16,
+        "endLine" : 323,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "setShortMonthNames" : {
+      "name" : "setShortMonthNames",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfig/method/setShortMonthNames",
+      "type" : "void",
+      "position" : {
+        "startLine" : 399,
+        "startColumn" : 14,
+        "endLine" : 399,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "shortMonthNames",
+        "key" : "shortMonthNames",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 399,
+          "startColumn" : 40,
+          "endLine" : 399,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPClientConfig/method/setShortMonthNames"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "splitShortMonthString" : {
+      "name" : "splitShortMonthString",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfig/method/splitShortMonthString",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 488,
+        "startColumn" : 26,
+        "endLine" : 488,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "shortmonths",
+        "key" : "shortmonths",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 488,
+          "startColumn" : 55,
+          "endLine" : 488,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPClientConfig/method/splitShortMonthString"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "getDefaultDateFormatStr" : {
+      "name" : "getDefaultDateFormatStr",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfig/method/getDefaultDateFormatStr",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 285,
+        "startColumn" : 16,
+        "endLine" : 285,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "getDateFormatSymbols" : {
+      "name" : "getDateFormatSymbols",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfig/method/getDateFormatSymbols",
+      "type" : "java.text.DateFormatSymbols",
+      "position" : {
+        "startLine" : 480,
+        "startColumn" : 34,
+        "endLine" : 480,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "shortmonths",
+        "key" : "shortmonths",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 480,
+          "startColumn" : 62,
+          "endLine" : 480,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPClientConfig/method/getDateFormatSymbols"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "getRecentDateFormatStr" : {
+      "name" : "getRecentDateFormatStr",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfig/method/getRecentDateFormatStr",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 294,
+        "startColumn" : 16,
+        "endLine" : 294,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    },
+    "setServerTimeZoneId" : {
+      "name" : "setServerTimeZoneId",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfig/method/setServerTimeZoneId",
+      "type" : "void",
+      "position" : {
+        "startLine" : 378,
+        "startColumn" : 14,
+        "endLine" : 378,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "serverTimeZoneId",
+        "key" : "serverTimeZoneId",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 378,
+          "startColumn" : 41,
+          "endLine" : 378,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPClientConfig/method/setServerTimeZoneId"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfig"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

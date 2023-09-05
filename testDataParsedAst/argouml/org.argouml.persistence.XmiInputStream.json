@@ -1,0 +1,351 @@
+{
+  "name" : "XmiInputStream",
+  "key" : "org.argouml.persistence.XmiInputStream",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 1,
+    "endLine" : 43,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "stringBuffer" : {
+      "name" : "stringBuffer",
+      "key" : "stringBuffer",
+      "type" : "java.lang.StringBuffer",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 26,
+        "endLine" : 55,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XmiInputStream/memberField/stringBuffer",
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "extensionFound" : {
+      "name" : "extensionFound",
+      "key" : "extensionFound",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 21,
+        "endLine" : 48,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XmiInputStream/memberField/extensionFound",
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "xmiExtensionParser" : {
+      "name" : "xmiExtensionParser",
+      "key" : "xmiExtensionParser",
+      "type" : "XmiExtensionParser",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 32,
+        "endLine" : 53,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XmiInputStream/memberField/xmiExtensionParser",
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "tagName" : {
+      "name" : "tagName",
+      "key" : "tagName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 20,
+        "endLine" : 45,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XmiInputStream/memberField/tagName",
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "type" : {
+      "name" : "type",
+      "key" : "type",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 20,
+        "endLine" : 56,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XmiInputStream/memberField/type",
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "readCount" : {
+      "name" : "readCount",
+      "key" : "readCount",
+      "type" : "long",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 18,
+        "endLine" : 67,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XmiInputStream/memberField/readCount",
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "endFound" : {
+      "name" : "endFound",
+      "key" : "endFound",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 21,
+        "endLine" : 49,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XmiInputStream/memberField/endFound",
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "endTagName" : {
+      "name" : "endTagName",
+      "key" : "endTagName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 20,
+        "endLine" : 46,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XmiInputStream/memberField/endTagName",
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "attributes" : {
+      "name" : "attributes",
+      "key" : "attributes",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 20,
+        "endLine" : 47,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XmiInputStream/memberField/attributes",
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "eventSpacing" : {
+      "name" : "eventSpacing",
+      "key" : "eventSpacing",
+      "type" : "long",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 18,
+        "endLine" : 62,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XmiInputStream/memberField/eventSpacing",
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "progressMgr" : {
+      "name" : "progressMgr",
+      "key" : "progressMgr",
+      "type" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 25,
+        "endLine" : 72,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XmiInputStream/memberField/progressMgr",
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "parsingExtension" : {
+      "name" : "parsingExtension",
+      "key" : "parsingExtension",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 21,
+        "endLine" : 50,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XmiInputStream/memberField/parsingExtension",
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "readingName" : {
+      "name" : "readingName",
+      "key" : "readingName",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 21,
+        "endLine" : 51,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XmiInputStream/memberField/readingName",
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    }
+  },
+  "methods" : {
+    "realClose" : {
+      "name" : "realClose",
+      "key" : "org.argouml.persistence.XmiInputStream/method/realClose",
+      "type" : "void",
+      "position" : {
+        "startLine" : 254,
+        "startColumn" : 17,
+        "endLine" : 254,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "callExtensionParser" : {
+      "name" : "callExtensionParser",
+      "key" : "org.argouml.persistence.XmiInputStream/method/callExtensionParser",
+      "type" : "void",
+      "position" : {
+        "startLine" : 191,
+        "startColumn" : 18,
+        "endLine" : 191,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "read" : {
+      "name" : "read",
+      "key" : "org.argouml.persistence.XmiInputStream/method/read",
+      "type" : "int",
+      "position" : {
+        "startLine" : 217,
+        "startColumn" : 29,
+        "endLine" : 217,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "b",
+        "key" : "b",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 217,
+          "startColumn" : 41,
+          "endLine" : 217,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.XmiInputStream/method/read"
+      }, {
+        "name" : "off",
+        "key" : "off",
+        "type" : "int",
+        "position" : {
+          "startLine" : 217,
+          "startColumn" : 48,
+          "endLine" : 217,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.XmiInputStream/method/read"
+      }, {
+        "name" : "len",
+        "key" : "len",
+        "type" : "int",
+        "position" : {
+          "startLine" : 217,
+          "startColumn" : 57,
+          "endLine" : 217,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.XmiInputStream/method/read"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "isNameTerminator" : {
+      "name" : "isNameTerminator",
+      "key" : "org.argouml.persistence.XmiInputStream/method/isNameTerminator",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 236,
+        "startColumn" : 21,
+        "endLine" : 236,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ch",
+        "key" : "ch",
+        "type" : "char",
+        "position" : {
+          "startLine" : 236,
+          "startColumn" : 43,
+          "endLine" : 236,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.XmiInputStream/method/isNameTerminator"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.argouml.persistence.XmiInputStream/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 246,
+        "startColumn" : 17,
+        "endLine" : 246,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.XmiInputStream"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.io.BufferedInputStream" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

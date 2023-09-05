@@ -1,0 +1,338 @@
+{
+  "name" : "ConfigPanelExtension",
+  "key" : "org.argouml.uml.reveng.ConfigPanelExtension",
+  "type" : "class",
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "KEY_IMPORT_EXTENDED_ORDEREDCOLLS_LIST" : {
+      "name" : "KEY_IMPORT_EXTENDED_ORDEREDCOLLS_LIST",
+      "key" : "KEY_IMPORT_EXTENDED_ORDEREDCOLLS_LIST",
+      "type" : "org.argouml.configuration.ConfigurationKey",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 42,
+        "endLine" : 92,
+        "endColumn" : 79
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ConfigPanelExtension/memberField/KEY_IMPORT_EXTENDED_ORDEREDCOLLS_LIST",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "KEY_IMPORT_EXTENDED_MODEL_ARRAYS" : {
+      "name" : "KEY_IMPORT_EXTENDED_MODEL_ARRAYS",
+      "key" : "KEY_IMPORT_EXTENDED_MODEL_ARRAYS",
+      "type" : "org.argouml.configuration.ConfigurationKey",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 42,
+        "endLine" : 61,
+        "endColumn" : 74
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ConfigPanelExtension/memberField/KEY_IMPORT_EXTENDED_MODEL_ARRAYS",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "KEY_IMPORT_EXTENDED_COLLECTIONS_FLAG" : {
+      "name" : "KEY_IMPORT_EXTENDED_COLLECTIONS_FLAG",
+      "key" : "KEY_IMPORT_EXTENDED_COLLECTIONS_FLAG",
+      "type" : "org.argouml.configuration.ConfigurationKey",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 42,
+        "endLine" : 68,
+        "endColumn" : 78
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ConfigPanelExtension/memberField/KEY_IMPORT_EXTENDED_COLLECTIONS_FLAG",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "modelcollections" : {
+      "name" : "modelcollections",
+      "key" : "modelcollections",
+      "type" : "javax.swing.JCheckBox",
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 23,
+        "endLine" : 102,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ConfigPanelExtension/memberField/modelcollections",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "KEY_IMPORT_EXTENDED_MODEL_ATTR" : {
+      "name" : "KEY_IMPORT_EXTENDED_MODEL_ATTR",
+      "key" : "KEY_IMPORT_EXTENDED_MODEL_ATTR",
+      "type" : "org.argouml.configuration.ConfigurationKey",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 42,
+        "endLine" : 52,
+        "endColumn" : 72
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ConfigPanelExtension/memberField/KEY_IMPORT_EXTENDED_MODEL_ATTR",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "configPanel" : {
+      "name" : "configPanel",
+      "key" : "configPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 20,
+        "endLine" : 96,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ConfigPanelExtension/memberField/configPanel",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "collectionlist" : {
+      "name" : "collectionlist",
+      "key" : "collectionlist",
+      "type" : "javax.swing.JTextField",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 24,
+        "endLine" : 104,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ConfigPanelExtension/memberField/collectionlist",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "modelorderedcollections" : {
+      "name" : "modelorderedcollections",
+      "key" : "modelorderedcollections",
+      "type" : "javax.swing.JCheckBox",
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 41,
+        "endLine" : 102,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ConfigPanelExtension/memberField/modelorderedcollections",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "orderedcollectionlist" : {
+      "name" : "orderedcollectionlist",
+      "key" : "orderedcollectionlist",
+      "type" : "javax.swing.JTextField",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 40,
+        "endLine" : 104,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ConfigPanelExtension/memberField/orderedcollectionlist",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "datatype" : {
+      "name" : "datatype",
+      "key" : "datatype",
+      "type" : "javax.swing.JRadioButton",
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 26,
+        "endLine" : 100,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ConfigPanelExtension/memberField/datatype",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "KEY_IMPORT_EXTENDED_ORDEREDCOLLS_FLAG" : {
+      "name" : "KEY_IMPORT_EXTENDED_ORDEREDCOLLS_FLAG",
+      "key" : "KEY_IMPORT_EXTENDED_ORDEREDCOLLS_FLAG",
+      "type" : "org.argouml.configuration.ConfigurationKey",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 42,
+        "endLine" : 84,
+        "endColumn" : 79
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ConfigPanelExtension/memberField/KEY_IMPORT_EXTENDED_ORDEREDCOLLS_FLAG",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "KEY_IMPORT_EXTENDED_COLLECTIONS_LIST" : {
+      "name" : "KEY_IMPORT_EXTENDED_COLLECTIONS_LIST",
+      "key" : "KEY_IMPORT_EXTENDED_COLLECTIONS_LIST",
+      "type" : "org.argouml.configuration.ConfigurationKey",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 42,
+        "endLine" : 76,
+        "endColumn" : 78
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ConfigPanelExtension/memberField/KEY_IMPORT_EXTENDED_COLLECTIONS_LIST",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "attribute" : {
+      "name" : "attribute",
+      "key" : "attribute",
+      "type" : "javax.swing.JRadioButton",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 26,
+        "endLine" : 98,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ConfigPanelExtension/memberField/attribute",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    }
+  },
+  "methods" : {
+    "getDatatype" : {
+      "name" : "getDatatype",
+      "key" : "org.argouml.uml.reveng.ConfigPanelExtension/method/getDatatype",
+      "type" : "javax.swing.JRadioButton",
+      "position" : {
+        "startLine" : 262,
+        "startColumn" : 25,
+        "endLine" : 262,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "getAttribute" : {
+      "name" : "getAttribute",
+      "key" : "org.argouml.uml.reveng.ConfigPanelExtension/method/getAttribute",
+      "type" : "javax.swing.JRadioButton",
+      "position" : {
+        "startLine" : 255,
+        "startColumn" : 25,
+        "endLine" : 255,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "createGridBagConstraintsFinal" : {
+      "name" : "createGridBagConstraintsFinal",
+      "key" : "org.argouml.uml.reveng.ConfigPanelExtension/method/createGridBagConstraintsFinal",
+      "type" : "java.awt.GridBagConstraints",
+      "position" : {
+        "startLine" : 245,
+        "startColumn" : 32,
+        "endLine" : 245,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "disposeDialog" : {
+      "name" : "disposeDialog",
+      "key" : "org.argouml.uml.reveng.ConfigPanelExtension/method/disposeDialog",
+      "type" : "void",
+      "position" : {
+        "startLine" : 266,
+        "startColumn" : 17,
+        "endLine" : 266,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    },
+    "createGridBagConstraints" : {
+      "name" : "createGridBagConstraints",
+      "key" : "org.argouml.uml.reveng.ConfigPanelExtension/method/createGridBagConstraints",
+      "type" : "java.awt.GridBagConstraints",
+      "position" : {
+        "startLine" : 218,
+        "startColumn" : 32,
+        "endLine" : 218,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "topInset",
+        "key" : "topInset",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 218,
+          "startColumn" : 65,
+          "endLine" : 218,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ConfigPanelExtension/method/createGridBagConstraints"
+      }, {
+        "name" : "bottomInset",
+        "key" : "bottomInset",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 219,
+          "startColumn" : 21,
+          "endLine" : 219,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ConfigPanelExtension/method/createGridBagConstraints"
+      }, {
+        "name" : "fill",
+        "key" : "fill",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 219,
+          "startColumn" : 42,
+          "endLine" : 219,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ConfigPanelExtension/method/createGridBagConstraints"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ConfigPanelExtension"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

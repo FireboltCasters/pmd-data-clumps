@@ -1,0 +1,675 @@
+{
+  "name" : "FindDialog",
+  "key" : "org.argouml.ui.FindDialog",
+  "type" : "class",
+  "position" : {
+    "startLine" : 77,
+    "startColumn" : 8,
+    "endLine" : 77,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "instance" : {
+      "name" : "instance",
+      "key" : "instance",
+      "type" : "org.argouml.ui.FindDialog",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 31,
+        "endLine" : 80,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/instance",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "nameLocTab" : {
+      "name" : "nameLocTab",
+      "key" : "nameLocTab",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 20,
+        "endLine" : 98,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/nameLocTab",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "type" : {
+      "name" : "type",
+      "key" : "type",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 23,
+        "endLine" : 112,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/type",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "nextResultNum" : {
+      "name" : "nextResultNum",
+      "key" : "nextResultNum",
+      "type" : "int",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 24,
+        "endLine" : 81,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/nextResultNum",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "elementName" : {
+      "name" : "elementName",
+      "key" : "elementName",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 23,
+        "endLine" : 106,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/elementName",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "help" : {
+      "name" : "help",
+      "key" : "help",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 20,
+        "endLine" : 118,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/help",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "resultTabs" : {
+      "name" : "resultTabs",
+      "key" : "resultTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 30,
+        "endLine" : 120,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/resultTabs",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "numFinds" : {
+      "name" : "numFinds",
+      "key" : "numFinds",
+      "type" : "int",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 24,
+        "endLine" : 83,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/numFinds",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "search" : {
+      "name" : "search",
+      "key" : "search",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 25,
+        "endLine" : 90,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/search",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 692,
+        "startColumn" : 31,
+        "endLine" : 692,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "diagramName" : {
+      "name" : "diagramName",
+      "key" : "diagramName",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 23,
+        "endLine" : 108,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/diagramName",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "clearTabs" : {
+      "name" : "clearTabs",
+      "key" : "clearTabs",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 25,
+        "endLine" : 93,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/clearTabs",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "INSET_PX" : {
+      "name" : "INSET_PX",
+      "key" : "INSET_PX",
+      "type" : "int",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 30,
+        "endLine" : 88,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/INSET_PX",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "typeDetails" : {
+      "name" : "typeDetails",
+      "key" : "typeDetails",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 20,
+        "endLine" : 114,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/typeDetails",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "location" : {
+      "name" : "location",
+      "key" : "location",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 23,
+        "endLine" : 110,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/location",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "results" : {
+      "name" : "results",
+      "key" : "results",
+      "type" : "javax.swing.JTabbedPane",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 25,
+        "endLine" : 116,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.FindDialog/memberField/results",
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    }
+  },
+  "methods" : {
+    "initConstraintsTab" : {
+      "name" : "initConstraintsTab",
+      "key" : "org.argouml.ui.FindDialog/method/initConstraintsTab",
+      "type" : "void",
+      "position" : {
+        "startLine" : 326,
+        "startColumn" : 18,
+        "endLine" : 326,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "initTypes" : {
+      "name" : "initTypes",
+      "key" : "org.argouml.ui.FindDialog/method/initTypes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 334,
+        "startColumn" : 18,
+        "endLine" : 334,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "mouseExited" : {
+      "name" : "mouseExited",
+      "key" : "org.argouml.ui.FindDialog/method/mouseExited",
+      "type" : "void",
+      "position" : {
+        "startLine" : 651,
+        "startColumn" : 17,
+        "endLine" : 651,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 651,
+          "startColumn" : 40,
+          "endLine" : 651,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.FindDialog/method/mouseExited"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "myDoubleClick" : {
+      "name" : "myDoubleClick",
+      "key" : "org.argouml.ui.FindDialog/method/myDoubleClick",
+      "type" : "void",
+      "position" : {
+        "startLine" : 678,
+        "startColumn" : 18,
+        "endLine" : 678,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tab",
+        "key" : "tab",
+        "type" : "int",
+        "position" : {
+          "startLine" : 678,
+          "startColumn" : 36,
+          "endLine" : 678,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.FindDialog/method/myDoubleClick"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "mousePressed" : {
+      "name" : "mousePressed",
+      "key" : "org.argouml.ui.FindDialog/method/mousePressed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 630,
+        "startColumn" : 17,
+        "endLine" : 630,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 630,
+          "startColumn" : 41,
+          "endLine" : 630,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.FindDialog/method/mousePressed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "mouseReleased" : {
+      "name" : "mouseReleased",
+      "key" : "org.argouml.ui.FindDialog/method/mouseReleased",
+      "type" : "void",
+      "position" : {
+        "startLine" : 637,
+        "startColumn" : 17,
+        "endLine" : 637,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 637,
+          "startColumn" : 42,
+          "endLine" : 637,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.FindDialog/method/mouseReleased"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "initNameLocTab" : {
+      "name" : "initNameLocTab",
+      "key" : "org.argouml.ui.FindDialog/method/initNameLocTab",
+      "type" : "void",
+      "position" : {
+        "startLine" : 190,
+        "startColumn" : 18,
+        "endLine" : 190,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "initTagValsTab" : {
+      "name" : "initTagValsTab",
+      "key" : "org.argouml.ui.FindDialog/method/initTagValsTab",
+      "type" : "void",
+      "position" : {
+        "startLine" : 312,
+        "startColumn" : 18,
+        "endLine" : 312,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.FindDialog/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 467,
+        "startColumn" : 17,
+        "endLine" : 467,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 467,
+          "startColumn" : 45,
+          "endLine" : 467,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.FindDialog/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "initHelpTab" : {
+      "name" : "initHelpTab",
+      "key" : "org.argouml.ui.FindDialog/method/initHelpTab",
+      "type" : "void",
+      "position" : {
+        "startLine" : 300,
+        "startColumn" : 18,
+        "endLine" : 300,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "doGoToSelection" : {
+      "name" : "doGoToSelection",
+      "key" : "org.argouml.ui.FindDialog/method/doGoToSelection",
+      "type" : "void",
+      "position" : {
+        "startLine" : 617,
+        "startColumn" : 18,
+        "endLine" : 617,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "mouseEntered" : {
+      "name" : "mouseEntered",
+      "key" : "org.argouml.ui.FindDialog/method/mouseEntered",
+      "type" : "void",
+      "position" : {
+        "startLine" : 644,
+        "startColumn" : 17,
+        "endLine" : 644,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 644,
+          "startColumn" : 41,
+          "endLine" : 644,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.FindDialog/method/mouseEntered"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "mouseClicked" : {
+      "name" : "mouseClicked",
+      "key" : "org.argouml.ui.FindDialog/method/mouseClicked",
+      "type" : "void",
+      "position" : {
+        "startLine" : 658,
+        "startColumn" : 17,
+        "endLine" : 658,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 658,
+          "startColumn" : 41,
+          "endLine" : 658,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.FindDialog/method/mouseClicked"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "reset" : {
+      "name" : "reset",
+      "key" : "org.argouml.ui.FindDialog/method/reset",
+      "type" : "void",
+      "position" : {
+        "startLine" : 557,
+        "startColumn" : 17,
+        "endLine" : 557,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "initModifiedTab" : {
+      "name" : "initModifiedTab",
+      "key" : "org.argouml.ui.FindDialog/method/initModifiedTab",
+      "type" : "void",
+      "position" : {
+        "startLine" : 319,
+        "startColumn" : 18,
+        "endLine" : 319,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.ui.FindDialog/method/getInstance",
+      "type" : "org.argouml.ui.FindDialog",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 30,
+        "endLine" : 125,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "nameButtons" : {
+      "name" : "nameButtons",
+      "key" : "org.argouml.ui.FindDialog/method/nameButtons",
+      "type" : "void",
+      "position" : {
+        "startLine" : 456,
+        "startColumn" : 20,
+        "endLine" : 456,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "doSearch" : {
+      "name" : "doSearch",
+      "key" : "org.argouml.ui.FindDialog/method/doSearch",
+      "type" : "void",
+      "position" : {
+        "startLine" : 483,
+        "startColumn" : 18,
+        "endLine" : 483,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "doResetFields" : {
+      "name" : "doResetFields",
+      "key" : "org.argouml.ui.FindDialog/method/doResetFields",
+      "type" : "void",
+      "position" : {
+        "startLine" : 610,
+        "startColumn" : 17,
+        "endLine" : 610,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    },
+    "doClearTabs" : {
+      "name" : "doClearTabs",
+      "key" : "org.argouml.ui.FindDialog/method/doClearTabs",
+      "type" : "void",
+      "position" : {
+        "startLine" : 569,
+        "startColumn" : 17,
+        "endLine" : 569,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.FindDialog"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.event.ActionListener", "java.awt.event.MouseListener" ],
+  "extends_" : [ "org.argouml.util.ArgoDialog" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

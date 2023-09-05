@@ -1,0 +1,158 @@
+{
+  "name" : "TerminalTypeOptionHandlerTest",
+  "key" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 23,
+    "startColumn" : 8,
+    "endLine" : 23,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "equalInts" : {
+      "name" : "equalInts",
+      "key" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest/method/equalInts",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 23,
+        "endLine" : 99,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "a1",
+        "key" : "a1",
+        "type" : "int[]",
+        "position" : {
+          "startLine" : 99,
+          "startColumn" : 37,
+          "endLine" : 99,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest/method/equalInts"
+      }, {
+        "name" : "a2",
+        "key" : "a2",
+        "type" : "int[]",
+        "position" : {
+          "startLine" : 99,
+          "startColumn" : 47,
+          "endLine" : 99,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest/method/equalInts"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest"
+    },
+    "testConstructors" : {
+      "name" : "testConstructors",
+      "key" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest/method/testConstructors",
+      "type" : "void",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 17,
+        "endLine" : 46,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 20,
+        "endLine" : 36,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest"
+    },
+    "testAnswerSubnegotiation" : {
+      "name" : "testAnswerSubnegotiation",
+      "key" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest/method/testAnswerSubnegotiation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 17,
+        "endLine" : 71,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 24,
+        "endLine" : 28,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 28,
+          "startColumn" : 36,
+          "endLine" : 28,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest"
+    },
+    "testStartSubnegotiation" : {
+      "name" : "testStartSubnegotiation",
+      "key" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest/method/testStartSubnegotiation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TerminalTypeOptionHandlerTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "TelnetOptionHandlerTestAbstract" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,81 @@
+{
+  "name" : "SelectionCallState",
+  "key" : "org.argouml.uml.diagram.activity.ui.SelectionCallState",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getNewNodeType" : {
+      "name" : "getNewNodeType",
+      "key" : "org.argouml.uml.diagram.activity.ui.SelectionCallState/method/getNewNodeType",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 22,
+        "endLine" : 48,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "buttonCode",
+        "key" : "buttonCode",
+        "type" : "int",
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 41,
+          "endLine" : 48,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.SelectionCallState/method/getNewNodeType"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.SelectionCallState"
+    },
+    "getNewNode" : {
+      "name" : "getNewNode",
+      "key" : "org.argouml.uml.diagram.activity.ui.SelectionCallState/method/getNewNode",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 22,
+        "endLine" : 55,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "buttonCode",
+        "key" : "buttonCode",
+        "type" : "int",
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 37,
+          "endLine" : 55,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.SelectionCallState/method/getNewNode"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.SelectionCallState"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "SelectionActionState" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,68 @@
+{
+  "name" : "UMLModelElementTaggedValueDocument",
+  "key" : "org.argouml.uml.ui.UMLModelElementTaggedValueDocument",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getProperty" : {
+      "name" : "getProperty",
+      "key" : "org.argouml.uml.ui.UMLModelElementTaggedValueDocument/method/getProperty",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 22,
+        "endLine" : 75,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementTaggedValueDocument"
+    },
+    "setProperty" : {
+      "name" : "setProperty",
+      "key" : "org.argouml.uml.ui.UMLModelElementTaggedValueDocument/method/setProperty",
+      "type" : "void",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 20,
+        "endLine" : 62,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "text",
+        "key" : "text",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 39,
+          "endLine" : 62,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementTaggedValueDocument/method/setProperty"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementTaggedValueDocument"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "UMLPlainTextDocument" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

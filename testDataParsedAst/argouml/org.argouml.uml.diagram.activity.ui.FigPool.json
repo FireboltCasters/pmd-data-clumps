@@ -1,0 +1,274 @@
+{
+  "name" : "FigPool",
+  "key" : "org.argouml.uml.diagram.activity.ui.FigPool",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "setFilled" : {
+      "name" : "setFilled",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPool/method/setFilled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 17,
+        "endLine" : 109,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 109,
+          "startColumn" : 35,
+          "endLine" : 109,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPool/method/setFilled"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPool"
+    },
+    "getFillColor" : {
+      "name" : "getFillColor",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPool/method/getFillColor",
+      "type" : "java.awt.Color",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 18,
+        "endLine" : 101,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPool"
+    },
+    "getMinimumSize" : {
+      "name" : "getMinimumSize",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPool/method/getMinimumSize",
+      "type" : "java.awt.Dimension",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 22,
+        "endLine" : 122,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPool"
+    },
+    "clone" : {
+      "name" : "clone",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPool/method/clone",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 19,
+        "endLine" : 64,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPool"
+    },
+    "isFilled" : {
+      "name" : "isFilled",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPool/method/isFilled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 20,
+        "endLine" : 114,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPool"
+    },
+    "getUseTrapRect" : {
+      "name" : "getUseTrapRect",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPool/method/getUseTrapRect",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 20,
+        "endLine" : 142,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPool"
+    },
+    "isSelectable" : {
+      "name" : "isSelectable",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPool/method/isSelectable",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 20,
+        "endLine" : 165,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPool"
+    },
+    "addEnclosedFig" : {
+      "name" : "addEnclosedFig",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPool/method/addEnclosedFig",
+      "type" : "void",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 17,
+        "endLine" : 75,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "figState",
+        "key" : "figState",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 75,
+          "startColumn" : 36,
+          "endLine" : 75,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPool/method/addEnclosedFig"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPool"
+    },
+    "setStandardBounds" : {
+      "name" : "setStandardBounds",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPool/method/setStandardBounds",
+      "type" : "void",
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 20,
+        "endLine" : 150,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "x",
+        "key" : "x",
+        "type" : "int",
+        "position" : {
+          "startLine" : 150,
+          "startColumn" : 42,
+          "endLine" : 150,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPool/method/setStandardBounds"
+      }, {
+        "name" : "y",
+        "key" : "y",
+        "type" : "int",
+        "position" : {
+          "startLine" : 150,
+          "startColumn" : 49,
+          "endLine" : 150,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPool/method/setStandardBounds"
+      }, {
+        "name" : "w",
+        "key" : "w",
+        "type" : "int",
+        "position" : {
+          "startLine" : 150,
+          "startColumn" : 56,
+          "endLine" : 150,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPool/method/setStandardBounds"
+      }, {
+        "name" : "h",
+        "key" : "h",
+        "type" : "int",
+        "position" : {
+          "startLine" : 150,
+          "startColumn" : 63,
+          "endLine" : 150,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPool/method/setStandardBounds"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPool"
+    },
+    "setFillColor" : {
+      "name" : "setFillColor",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPool/method/setFillColor",
+      "type" : "void",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 17,
+        "endLine" : 92,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "col",
+        "key" : "col",
+        "type" : "java.awt.Color",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 36,
+          "endLine" : 92,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPool/method/setFillColor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPool"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.diagram.ui.FigNodeModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

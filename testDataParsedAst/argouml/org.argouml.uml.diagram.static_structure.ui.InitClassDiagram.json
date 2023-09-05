@@ -1,0 +1,87 @@
+{
+  "name" : "InitClassDiagram",
+  "key" : "org.argouml.uml.diagram.static_structure.ui.InitClassDiagram",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "init" : {
+      "name" : "init",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.InitClassDiagram/method/init",
+      "type" : "void",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 17,
+        "endLine" : 55,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.InitClassDiagram"
+    },
+    "getDetailsTabs" : {
+      "name" : "getDetailsTabs",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.InitClassDiagram/method/getDetailsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 37,
+        "endLine" : 43,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.InitClassDiagram"
+    },
+    "getSettingsTabs" : {
+      "name" : "getSettingsTabs",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.InitClassDiagram/method/getSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 42,
+        "endLine" : 51,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.InitClassDiagram"
+    },
+    "getProjectSettingsTabs" : {
+      "name" : "getProjectSettingsTabs",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.InitClassDiagram/method/getProjectSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 42,
+        "endLine" : 47,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.InitClassDiagram"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.InitSubsystem" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

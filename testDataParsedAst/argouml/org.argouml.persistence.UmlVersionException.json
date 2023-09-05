@@ -1,0 +1,22 @@
+{
+  "name" : "UmlVersionException",
+  "key" : "org.argouml.persistence.UmlVersionException",
+  "type" : "class",
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "XmiFormatException" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

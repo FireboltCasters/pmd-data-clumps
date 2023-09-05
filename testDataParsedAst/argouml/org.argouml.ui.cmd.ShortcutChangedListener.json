@@ -1,0 +1,52 @@
+{
+  "name" : "ShortcutChangedListener",
+  "key" : "org.argouml.ui.cmd.ShortcutChangedListener",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "shortcutChange" : {
+      "name" : "shortcutChange",
+      "key" : "org.argouml.ui.cmd.ShortcutChangedListener/method/shortcutChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 10,
+        "endLine" : 41,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ShortcutChangedEvent",
+        "position" : {
+          "startLine" : 41,
+          "startColumn" : 46,
+          "endLine" : 41,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.ShortcutChangedListener/method/shortcutChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ShortcutChangedListener"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.util.EventListener" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

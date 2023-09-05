@@ -1,0 +1,152 @@
+{
+  "name" : "ProjectFilePersister",
+  "key" : "org.argouml.persistence.ProjectFilePersister",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "removeProgressListener" : {
+      "name" : "removeProgressListener",
+      "key" : "org.argouml.persistence.ProjectFilePersister/method/removeProgressListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 17,
+        "endLine" : 69,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "org.argouml.taskmgmt.ProgressListener",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 57,
+          "endLine" : 69,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ProjectFilePersister/method/removeProgressListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ProjectFilePersister"
+    },
+    "doLoad" : {
+      "name" : "doLoad",
+      "key" : "org.argouml.persistence.ProjectFilePersister/method/doLoad",
+      "type" : "org.argouml.kernel.Project",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 13,
+        "endLine" : 54,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 25,
+          "endLine" : 54,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ProjectFilePersister/method/doLoad"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ProjectFilePersister"
+    },
+    "save" : {
+      "name" : "save",
+      "key" : "org.argouml.persistence.ProjectFilePersister/method/save",
+      "type" : "void",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 10,
+        "endLine" : 44,
+        "endColumn" : 14
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 23,
+          "endLine" : 44,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ProjectFilePersister/method/save"
+      }, {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 37,
+          "endLine" : 44,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ProjectFilePersister/method/save"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ProjectFilePersister"
+    },
+    "addProgressListener" : {
+      "name" : "addProgressListener",
+      "key" : "org.argouml.persistence.ProjectFilePersister/method/addProgressListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 17,
+        "endLine" : 61,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "org.argouml.taskmgmt.ProgressListener",
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 54,
+          "endLine" : 61,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ProjectFilePersister/method/addProgressListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ProjectFilePersister"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

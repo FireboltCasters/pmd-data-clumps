@@ -1,0 +1,200 @@
+{
+  "name" : "DigestUtils",
+  "key" : "org.apache.commons.codec.digest.DigestUtils",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "md5Hex" : {
+      "name" : "md5Hex",
+      "key" : "org.apache.commons.codec.digest.DigestUtils/method/md5Hex",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 26,
+        "endLine" : 107,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "data",
+        "key" : "data",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 40,
+          "endLine" : 107,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.digest.DigestUtils/method/md5Hex"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.digest.DigestUtils"
+    },
+    "getDigest" : {
+      "name" : "getDigest",
+      "key" : "org.apache.commons.codec.digest.DigestUtils/method/getDigest",
+      "type" : "java.security.MessageDigest",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 26,
+        "endLine" : 39,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "algorithm",
+        "key" : "algorithm",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 39,
+          "startColumn" : 43,
+          "endLine" : 39,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.digest.DigestUtils/method/getDigest"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.digest.DigestUtils"
+    },
+    "getShaDigest" : {
+      "name" : "getShaDigest",
+      "key" : "org.apache.commons.codec.digest.DigestUtils/method/getShaDigest",
+      "type" : "java.security.MessageDigest",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 34,
+        "endLine" : 63,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.digest.DigestUtils"
+    },
+    "shaHex" : {
+      "name" : "shaHex",
+      "key" : "org.apache.commons.codec.digest.DigestUtils/method/shaHex",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 26,
+        "endLine" : 149,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "data",
+        "key" : "data",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 149,
+          "startColumn" : 40,
+          "endLine" : 149,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.digest.DigestUtils/method/shaHex"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.digest.DigestUtils"
+    },
+    "sha" : {
+      "name" : "sha",
+      "key" : "org.apache.commons.codec.digest.DigestUtils/method/sha",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 129,
+        "startColumn" : 26,
+        "endLine" : 129,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "data",
+        "key" : "data",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 129,
+          "startColumn" : 37,
+          "endLine" : 129,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.digest.DigestUtils/method/sha"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.digest.DigestUtils"
+    },
+    "getMd5Digest" : {
+      "name" : "getMd5Digest",
+      "key" : "org.apache.commons.codec.digest.DigestUtils/method/getMd5Digest",
+      "type" : "java.security.MessageDigest",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 34,
+        "endLine" : 53,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.digest.DigestUtils"
+    },
+    "md5" : {
+      "name" : "md5",
+      "key" : "org.apache.commons.codec.digest.DigestUtils/method/md5",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 26,
+        "endLine" : 85,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "data",
+        "key" : "data",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 37,
+          "endLine" : 85,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.digest.DigestUtils/method/md5"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.digest.DigestUtils"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

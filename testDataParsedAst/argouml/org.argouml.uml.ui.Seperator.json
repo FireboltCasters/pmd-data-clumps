@@ -1,0 +1,38 @@
+{
+  "name" : "Seperator",
+  "key" : "org.argouml.uml.ui.Seperator",
+  "type" : "class",
+  "position" : {
+    "startLine" : 502,
+    "startColumn" : 1,
+    "endLine" : 502,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 504,
+        "startColumn" : 31,
+        "endLine" : 504,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.Seperator/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.Seperator"
+    }
+  },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,501 @@
+{
+  "name" : "PropPanelModelElement",
+  "key" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement",
+  "type" : "class",
+  "position" : {
+    "startLine" : 59,
+    "startColumn" : 17,
+    "endLine" : 59,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "targetFlowListModel" : {
+      "name" : "targetFlowListModel",
+      "key" : "targetFlowListModel",
+      "type" : "UMLModelElementTargetFlowListModel",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 55,
+        "endLine" : 99,
+        "endColumn" : 74
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/targetFlowListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "clientDependencyScroll" : {
+      "name" : "clientDependencyScroll",
+      "key" : "clientDependencyScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 25,
+        "endLine" : 65,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/clientDependencyScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "sourceFlowScroll" : {
+      "name" : "sourceFlowScroll",
+      "key" : "sourceFlowScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 25,
+        "endLine" : 69,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/sourceFlowScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "constraintScroll" : {
+      "name" : "constraintScroll",
+      "key" : "constraintScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 25,
+        "endLine" : 71,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/constraintScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "elementResidenceListModel" : {
+      "name" : "elementResidenceListModel",
+      "key" : "elementResidenceListModel",
+      "type" : "UMLModelElementElementResidenceListModel",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 5,
+        "endLine" : 90,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/elementResidenceListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "namespaceSelector" : {
+      "name" : "namespaceSelector",
+      "key" : "namespaceSelector",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 23,
+        "endLine" : 61,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/namespaceSelector",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "nameTextField" : {
+      "name" : "nameTextField",
+      "key" : "nameTextField",
+      "type" : "javax.swing.JTextField",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 24,
+        "endLine" : 77,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/nameTextField",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "supplierDependencyScroll" : {
+      "name" : "supplierDependencyScroll",
+      "key" : "supplierDependencyScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 25,
+        "endLine" : 63,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/supplierDependencyScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "visibilityPanel" : {
+      "name" : "visibilityPanel",
+      "key" : "visibilityPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 20,
+        "endLine" : 73,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/visibilityPanel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "namespaceComboBoxModel" : {
+      "name" : "namespaceComboBoxModel",
+      "key" : "namespaceComboBoxModel",
+      "type" : "UMLModelElementNamespaceComboBoxModel",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 51,
+        "endLine" : 79,
+        "endColumn" : 73
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/namespaceComboBoxModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "sourceFlowListModel" : {
+      "name" : "sourceFlowListModel",
+      "key" : "sourceFlowListModel",
+      "type" : "UMLModelElementSourceFlowListModel",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 55,
+        "endLine" : 96,
+        "endColumn" : 74
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/sourceFlowListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "constraintListModel" : {
+      "name" : "constraintListModel",
+      "key" : "constraintListModel",
+      "type" : "UMLModelElementConstraintListModel",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 55,
+        "endLine" : 86,
+        "endColumn" : 74
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/constraintListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "clientDependencyListModel" : {
+      "name" : "clientDependencyListModel",
+      "key" : "clientDependencyListModel",
+      "type" : "UMLModelElementClientDependencyListModel",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 5,
+        "endLine" : 83,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/clientDependencyListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "elementResidenceScroll" : {
+      "name" : "elementResidenceScroll",
+      "key" : "elementResidenceScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 25,
+        "endLine" : 75,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/elementResidenceScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "targetFlowScroll" : {
+      "name" : "targetFlowScroll",
+      "key" : "targetFlowScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 25,
+        "endLine" : 67,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/targetFlowScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "nameDocument" : {
+      "name" : "nameDocument",
+      "key" : "nameDocument",
+      "type" : "UMLModelElementNameDocument",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 48,
+        "endLine" : 93,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/memberField/nameDocument",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    }
+  },
+  "methods" : {
+    "getSupplierDependencyScroll" : {
+      "name" : "getSupplierDependencyScroll",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/method/getSupplierDependencyScroll",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 260,
+        "startColumn" : 26,
+        "endLine" : 260,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "getSourceFlowScroll" : {
+      "name" : "getSourceFlowScroll",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/method/getSourceFlowScroll",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 302,
+        "startColumn" : 26,
+        "endLine" : 302,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "getVisibilityPanel" : {
+      "name" : "getVisibilityPanel",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/method/getVisibilityPanel",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 325,
+        "startColumn" : 26,
+        "endLine" : 325,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "getNamespaceSelector" : {
+      "name" : "getNamespaceSelector",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/method/getNamespaceSelector",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 246,
+        "startColumn" : 26,
+        "endLine" : 246,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "getElementResidenceScroll" : {
+      "name" : "getElementResidenceScroll",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/method/getElementResidenceScroll",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 346,
+        "startColumn" : 26,
+        "endLine" : 346,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "getNameTextField" : {
+      "name" : "getNameTextField",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/method/getNameTextField",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 356,
+        "startColumn" : 26,
+        "endLine" : 356,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "getConstraintScroll" : {
+      "name" : "getConstraintScroll",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/method/getConstraintScroll",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 312,
+        "startColumn" : 26,
+        "endLine" : 312,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "navigateUp" : {
+      "name" : "navigateUp",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/method/navigateUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 234,
+        "startColumn" : 17,
+        "endLine" : 234,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "getActions" : {
+      "name" : "getActions",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/method/getActions",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 211,
+        "startColumn" : 26,
+        "endLine" : 211,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED", "FINAL" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "getClientDependencyScroll" : {
+      "name" : "getClientDependencyScroll",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/method/getClientDependencyScroll",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 276,
+        "startColumn" : 26,
+        "endLine" : 276,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "getTargetFlowScroll" : {
+      "name" : "getTargetFlowScroll",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/method/getTargetFlowScroll",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 292,
+        "startColumn" : 26,
+        "endLine" : 292,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "getNamespaceVisibilityPanel" : {
+      "name" : "getNamespaceVisibilityPanel",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/method/getNamespaceVisibilityPanel",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 339,
+        "startColumn" : 26,
+        "endLine" : 339,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "getNameDocument" : {
+      "name" : "getNameDocument",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/method/getNameDocument",
+      "type" : "org.argouml.uml.ui.UMLPlainTextDocument",
+      "position" : {
+        "startLine" : 369,
+        "startColumn" : 36,
+        "endLine" : 369,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    },
+    "setTarget" : {
+      "name" : "setTarget",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/method/setTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 182,
+        "startColumn" : 17,
+        "endLine" : 182,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "target",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 182,
+          "startColumn" : 34,
+          "endLine" : 182,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement/method/setTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelModelElement"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.PropPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

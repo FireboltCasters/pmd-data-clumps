@@ -1,0 +1,38 @@
+{
+  "name" : "FigBirthActivation",
+  "key" : "org.argouml.uml.diagram.sequence.ui.FigBirthActivation",
+  "type" : "class",
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 31,
+        "endLine" : 31,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.FigBirthActivation/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.FigBirthActivation"
+    }
+  },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "FigActivation" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

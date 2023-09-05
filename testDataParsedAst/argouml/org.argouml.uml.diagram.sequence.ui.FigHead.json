@@ -1,0 +1,242 @@
+{
+  "name" : "FigHead",
+  "key" : "org.argouml.uml.diagram.sequence.ui.FigHead",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 1,
+    "endLine" : 37,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "stereotypeFig" : {
+      "name" : "stereotypeFig",
+      "key" : "stereotypeFig",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 23,
+        "endLine" : 40,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.FigHead/memberField/stereotypeFig",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.FigHead"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 31,
+        "endLine" : 154,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.FigHead/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.FigHead"
+    },
+    "rectFig" : {
+      "name" : "rectFig",
+      "key" : "rectFig",
+      "type" : "org.tigris.gef.presentation.FigRect",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 27,
+        "endLine" : 41,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.FigHead/memberField/rectFig",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.FigHead"
+    },
+    "nameFig" : {
+      "name" : "nameFig",
+      "key" : "nameFig",
+      "type" : "org.tigris.gef.presentation.FigText",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 27,
+        "endLine" : 39,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.FigHead/memberField/nameFig",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.FigHead"
+    }
+  },
+  "methods" : {
+    "setFilled" : {
+      "name" : "setFilled",
+      "key" : "org.argouml.uml.diagram.sequence.ui.FigHead/method/setFilled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 140,
+        "startColumn" : 17,
+        "endLine" : 140,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "b",
+        "key" : "b",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 140,
+          "startColumn" : 35,
+          "endLine" : 140,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.FigHead/method/setFilled"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.FigHead"
+    },
+    "getMinimumHeight" : {
+      "name" : "getMinimumHeight",
+      "key" : "org.argouml.uml.diagram.sequence.ui.FigHead/method/getMinimumHeight",
+      "type" : "int",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 16,
+        "endLine" : 101,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.FigHead"
+    },
+    "setBoundsImpl" : {
+      "name" : "setBoundsImpl",
+      "key" : "org.argouml.uml.diagram.sequence.ui.FigHead/method/setBoundsImpl",
+      "type" : "void",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 17,
+        "endLine" : 119,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "x",
+        "key" : "x",
+        "type" : "int",
+        "position" : {
+          "startLine" : 119,
+          "startColumn" : 35,
+          "endLine" : 119,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.FigHead/method/setBoundsImpl"
+      }, {
+        "name" : "y",
+        "key" : "y",
+        "type" : "int",
+        "position" : {
+          "startLine" : 119,
+          "startColumn" : 42,
+          "endLine" : 119,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.FigHead/method/setBoundsImpl"
+      }, {
+        "name" : "w",
+        "key" : "w",
+        "type" : "int",
+        "position" : {
+          "startLine" : 119,
+          "startColumn" : 49,
+          "endLine" : 119,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.FigHead/method/setBoundsImpl"
+      }, {
+        "name" : "h",
+        "key" : "h",
+        "type" : "int",
+        "position" : {
+          "startLine" : 119,
+          "startColumn" : 56,
+          "endLine" : 119,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.FigHead/method/setBoundsImpl"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.FigHead"
+    },
+    "getMinimumSize" : {
+      "name" : "getMinimumSize",
+      "key" : "org.argouml.uml.diagram.sequence.ui.FigHead/method/getMinimumSize",
+      "type" : "java.awt.Dimension",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 22,
+        "endLine" : 66,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.FigHead"
+    },
+    "setLineWidth" : {
+      "name" : "setLineWidth",
+      "key" : "org.argouml.uml.diagram.sequence.ui.FigHead/method/setLineWidth",
+      "type" : "void",
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 17,
+        "endLine" : 147,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "i",
+        "key" : "i",
+        "type" : "int",
+        "position" : {
+          "startLine" : 147,
+          "startColumn" : 34,
+          "endLine" : 147,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.FigHead/method/setLineWidth"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.FigHead"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.diagram.ui.ArgoFigGroup" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

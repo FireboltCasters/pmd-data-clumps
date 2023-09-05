@@ -1,0 +1,200 @@
+{
+  "name" : "FigComponentInstance",
+  "key" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "updateListeners" : {
+      "name" : "updateListeners",
+      "key" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance/method/updateListeners",
+      "type" : "void",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 20,
+        "endLine" : 87,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "oldOwner",
+        "key" : "oldOwner",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 43,
+          "endLine" : 87,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance/method/updateListeners"
+      }, {
+        "name" : "newOwner",
+        "key" : "newOwner",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 60,
+          "endLine" : 87,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance/method/updateListeners"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance"
+    },
+    "mouseClicked" : {
+      "name" : "mouseClicked",
+      "key" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance/method/mouseClicked",
+      "type" : "void",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 17,
+        "endLine" : 109,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 109,
+          "startColumn" : 41,
+          "endLine" : 109,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance/method/mouseClicked"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance"
+    },
+    "clone" : {
+      "name" : "clone",
+      "key" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance/method/clone",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 19,
+        "endLine" : 77,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance"
+    },
+    "makeSelection" : {
+      "name" : "makeSelection",
+      "key" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance/method/makeSelection",
+      "type" : "org.tigris.gef.base.Selection",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 22,
+        "endLine" : 101,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance"
+    },
+    "setEnclosingFig" : {
+      "name" : "setEnclosingFig",
+      "key" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance/method/setEnclosingFig",
+      "type" : "void",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 17,
+        "endLine" : 132,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "encloser",
+        "key" : "encloser",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 132,
+          "startColumn" : 37,
+          "endLine" : 132,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance/method/setEnclosingFig"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance"
+    },
+    "getNotationProviderType" : {
+      "name" : "getNotationProviderType",
+      "key" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance/method/getNotationProviderType",
+      "type" : "int",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 19,
+        "endLine" : 69,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance"
+    },
+    "mousePressed" : {
+      "name" : "mousePressed",
+      "key" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance/method/mousePressed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 17,
+        "endLine" : 119,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 119,
+          "startColumn" : 41,
+          "endLine" : 119,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance/method/mousePressed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.FigComponentInstance"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbstractFigComponent" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

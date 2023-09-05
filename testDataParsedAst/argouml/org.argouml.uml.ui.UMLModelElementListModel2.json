@@ -1,0 +1,925 @@
+{
+  "name" : "UMLModelElementListModel2",
+  "key" : "org.argouml.uml.ui.UMLModelElementListModel2",
+  "type" : "class",
+  "position" : {
+    "startLine" : 56,
+    "startColumn" : 17,
+    "endLine" : 56,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 33,
+        "endLine" : 59,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLModelElementListModel2/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "listTarget" : {
+      "name" : "listTarget",
+      "key" : "listTarget",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 20,
+        "endLine" : 63,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLModelElementListModel2/memberField/listTarget",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "fireListEvents" : {
+      "name" : "fireListEvents",
+      "key" : "fireListEvents",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 21,
+        "endLine" : 68,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLModelElementListModel2/memberField/fireListEvents",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "reverseDropConnection" : {
+      "name" : "reverseDropConnection",
+      "key" : "reverseDropConnection",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 21,
+        "endLine" : 84,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLModelElementListModel2/memberField/reverseDropConnection",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "eventName" : {
+      "name" : "eventName",
+      "key" : "eventName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 20,
+        "endLine" : 62,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLModelElementListModel2/memberField/eventName",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "metaType" : {
+      "name" : "metaType",
+      "key" : "metaType",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 20,
+        "endLine" : 78,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLModelElementListModel2/memberField/metaType",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "buildingModel" : {
+      "name" : "buildingModel",
+      "key" : "buildingModel",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 21,
+        "endLine" : 73,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLModelElementListModel2/memberField/buildingModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    }
+  },
+  "methods" : {
+    "isValidEvent" : {
+      "name" : "isValidEvent",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/isValidEvent",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 416,
+        "startColumn" : 23,
+        "endLine" : 416,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 416,
+          "startColumn" : 56,
+          "endLine" : 416,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/isValidEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "setBuildingModel" : {
+      "name" : "setBuildingModel",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/setBuildingModel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 20,
+        "endLine" : 155,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "building",
+        "key" : "building",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 155,
+          "startColumn" : 45,
+          "endLine" : 155,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/setBuildingModel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "getEventName" : {
+      "name" : "getEventName",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/getEventName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 461,
+        "startColumn" : 12,
+        "endLine" : 461,
+        "endColumn" : 24
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "removeOtherModelEventListeners" : {
+      "name" : "removeOtherModelEventListeners",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/removeOtherModelEventListeners",
+      "type" : "void",
+      "position" : {
+        "startLine" : 383,
+        "startColumn" : 20,
+        "endLine" : 383,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "oldTarget",
+        "key" : "oldTarget",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 383,
+          "startColumn" : 58,
+          "endLine" : 383,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/removeOtherModelEventListeners"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "getTarget" : {
+      "name" : "getTarget",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/getTarget",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 296,
+        "startColumn" : 22,
+        "endLine" : 296,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "getMetaType" : {
+      "name" : "getMetaType",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/getMetaType",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 19,
+        "endLine" : 144,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "getChangedElement" : {
+      "name" : "getChangedElement",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/getChangedElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 305,
+        "startColumn" : 22,
+        "endLine" : 305,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 305,
+          "startColumn" : 60,
+          "endLine" : 305,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/getChangedElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "setTarget" : {
+      "name" : "setTarget",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/setTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 349,
+        "startColumn" : 17,
+        "endLine" : 349,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theNewTarget",
+        "key" : "theNewTarget",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 349,
+          "startColumn" : 34,
+          "endLine" : 349,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/setTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 173,
+        "startColumn" : 17,
+        "endLine" : 173,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 173,
+          "startColumn" : 52,
+          "endLine" : 173,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "setListTarget" : {
+      "name" : "setListTarget",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/setListTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 162,
+        "startColumn" : 20,
+        "endLine" : 162,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 162,
+          "startColumn" : 41,
+          "endLine" : 162,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/setListTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "addOtherModelEventListeners" : {
+      "name" : "addOtherModelEventListeners",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/addOtherModelEventListeners",
+      "type" : "void",
+      "position" : {
+        "startLine" : 393,
+        "startColumn" : 20,
+        "endLine" : 393,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newTarget",
+        "key" : "newTarget",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 393,
+          "startColumn" : 55,
+          "endLine" : 393,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/addOtherModelEventListeners"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "setEventName" : {
+      "name" : "setEventName",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/setEventName",
+      "type" : "void",
+      "position" : {
+        "startLine" : 474,
+        "startColumn" : 20,
+        "endLine" : 474,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theEventName",
+        "key" : "theEventName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 474,
+          "startColumn" : 40,
+          "endLine" : 474,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/setEventName"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "isReverseDropConnection" : {
+      "name" : "isReverseDropConnection",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/isReverseDropConnection",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 148,
+        "startColumn" : 20,
+        "endLine" : 148,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "rebuildModelList" : {
+      "name" : "rebuildModelList",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/rebuildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 232,
+        "startColumn" : 18,
+        "endLine" : 232,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "fireContentsChanged" : {
+      "name" : "fireContentsChanged",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/fireContentsChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 503,
+        "startColumn" : 20,
+        "endLine" : 503,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "source",
+        "key" : "source",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 503,
+          "startColumn" : 47,
+          "endLine" : 503,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/fireContentsChanged"
+      }, {
+        "name" : "index0",
+        "key" : "index0",
+        "type" : "int",
+        "position" : {
+          "startLine" : 503,
+          "startColumn" : 59,
+          "endLine" : 503,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/fireContentsChanged"
+      }, {
+        "name" : "index1",
+        "key" : "index1",
+        "type" : "int",
+        "position" : {
+          "startLine" : 503,
+          "startColumn" : 71,
+          "endLine" : 503,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/fireContentsChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "targetRemoved" : {
+      "name" : "targetRemoved",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/targetRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 488,
+        "startColumn" : 17,
+        "endLine" : 488,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 488,
+          "startColumn" : 43,
+          "endLine" : 488,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/targetRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 404,
+        "startColumn" : 32,
+        "endLine" : 404,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 404,
+          "startColumn" : 54,
+          "endLine" : 404,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "fireIntervalRemoved" : {
+      "name" : "fireIntervalRemoved",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/fireIntervalRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 521,
+        "startColumn" : 20,
+        "endLine" : 521,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "source",
+        "key" : "source",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 521,
+          "startColumn" : 47,
+          "endLine" : 521,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/fireIntervalRemoved"
+      }, {
+        "name" : "index0",
+        "key" : "index0",
+        "type" : "int",
+        "position" : {
+          "startLine" : 521,
+          "startColumn" : 59,
+          "endLine" : 521,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/fireIntervalRemoved"
+      }, {
+        "name" : "index1",
+        "key" : "index1",
+        "type" : "int",
+        "position" : {
+          "startLine" : 521,
+          "startColumn" : 71,
+          "endLine" : 521,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/fireIntervalRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "setAllElements" : {
+      "name" : "setAllElements",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/setAllElements",
+      "type" : "void",
+      "position" : {
+        "startLine" : 268,
+        "startColumn" : 20,
+        "endLine" : 268,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "col",
+        "key" : "col",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 268,
+          "startColumn" : 46,
+          "endLine" : 268,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/setAllElements"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 261,
+        "startColumn" : 29,
+        "endLine" : 261,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "contains" : {
+      "name" : "contains",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/contains",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 318,
+        "startColumn" : 20,
+        "endLine" : 318,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "elem",
+        "key" : "elem",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 318,
+          "startColumn" : 36,
+          "endLine" : 318,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/contains"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "targetSet" : {
+      "name" : "targetSet",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/targetSet",
+      "type" : "void",
+      "position" : {
+        "startLine" : 495,
+        "startColumn" : 17,
+        "endLine" : 495,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 495,
+          "startColumn" : 39,
+          "endLine" : 495,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/targetSet"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "addAll" : {
+      "name" : "addAll",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/addAll",
+      "type" : "void",
+      "position" : {
+        "startLine" : 278,
+        "startColumn" : 20,
+        "endLine" : 278,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "col",
+        "key" : "col",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 278,
+          "startColumn" : 38,
+          "endLine" : 278,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/addAll"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "fireIntervalAdded" : {
+      "name" : "fireIntervalAdded",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/fireIntervalAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 512,
+        "startColumn" : 20,
+        "endLine" : 512,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "source",
+        "key" : "source",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 512,
+          "startColumn" : 45,
+          "endLine" : 512,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/fireIntervalAdded"
+      }, {
+        "name" : "index0",
+        "key" : "index0",
+        "type" : "int",
+        "position" : {
+          "startLine" : 512,
+          "startColumn" : 57,
+          "endLine" : 512,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/fireIntervalAdded"
+      }, {
+        "name" : "index1",
+        "key" : "index1",
+        "type" : "int",
+        "position" : {
+          "startLine" : 512,
+          "startColumn" : 69,
+          "endLine" : 512,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/fireIntervalAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "addElement" : {
+      "name" : "addElement",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/addElement",
+      "type" : "void",
+      "position" : {
+        "startLine" : 451,
+        "startColumn" : 17,
+        "endLine" : 451,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 451,
+          "startColumn" : 35,
+          "endLine" : 451,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/addElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "targetAdded" : {
+      "name" : "targetAdded",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/targetAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 481,
+        "startColumn" : 17,
+        "endLine" : 481,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 481,
+          "startColumn" : 41,
+          "endLine" : 481,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/targetAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    },
+    "buildPopup" : {
+      "name" : "buildPopup",
+      "key" : "org.argouml.uml.ui.UMLModelElementListModel2/method/buildPopup",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 535,
+        "startColumn" : 20,
+        "endLine" : 535,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "popup",
+        "key" : "popup",
+        "type" : "javax.swing.JPopupMenu",
+        "position" : {
+          "startLine" : 535,
+          "startColumn" : 42,
+          "endLine" : 535,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/buildPopup"
+      }, {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 535,
+          "startColumn" : 53,
+          "endLine" : 535,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLModelElementListModel2/method/buildPopup"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLModelElementListModel2"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.ui.targetmanager.TargetListener", "java.beans.PropertyChangeListener" ],
+  "extends_" : [ "javax.swing.DefaultListModel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

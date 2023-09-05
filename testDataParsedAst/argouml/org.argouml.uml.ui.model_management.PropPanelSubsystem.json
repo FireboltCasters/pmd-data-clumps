@@ -1,0 +1,169 @@
+{
+  "name" : "PropPanelSubsystem",
+  "key" : "org.argouml.uml.ui.model_management.PropPanelSubsystem",
+  "type" : "class",
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "featureListModel" : {
+      "name" : "featureListModel",
+      "key" : "featureListModel",
+      "type" : "org.argouml.uml.ui.foundation.core.UMLClassifierFeatureListModel",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 50,
+        "endLine" : 49,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.model_management.PropPanelSubsystem/memberField/featureListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.PropPanelSubsystem"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 31,
+        "endLine" : 123,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.model_management.PropPanelSubsystem/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.PropPanelSubsystem"
+    },
+    "featureScroll" : {
+      "name" : "featureScroll",
+      "key" : "featureScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 25,
+        "endLine" : 47,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.model_management.PropPanelSubsystem/memberField/featureScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.PropPanelSubsystem"
+    }
+  },
+  "methods" : {
+    "getFeatureScroll" : {
+      "name" : "getFeatureScroll",
+      "key" : "org.argouml.uml.ui.model_management.PropPanelSubsystem/method/getFeatureScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 24,
+        "endLine" : 112,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.PropPanelSubsystem"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "PropPanelPackage" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.ui.model_management.PropPanelSubsystem.ActionNewOperation" : {
+      "name" : "ActionNewOperation",
+      "key" : "org.argouml.uml.ui.model_management.PropPanelSubsystem.ActionNewOperation",
+      "type" : "class",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 20,
+        "endLine" : 69,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "serialVersionUID" : {
+          "name" : "serialVersionUID",
+          "key" : "serialVersionUID",
+          "type" : "long",
+          "position" : {
+            "startLine" : 104,
+            "startColumn" : 35,
+            "endLine" : 104,
+            "endColumn" : 51
+          },
+          "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.ui.model_management.PropPanelSubsystem.ActionNewOperation/memberField/serialVersionUID",
+          "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.PropPanelSubsystem.ActionNewOperation"
+        },
+        "ACTION_KEY" : {
+          "name" : "ACTION_KEY",
+          "key" : "ACTION_KEY",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 75,
+            "startColumn" : 37,
+            "endLine" : 75,
+            "endColumn" : 47
+          },
+          "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.ui.model_management.PropPanelSubsystem.ActionNewOperation/memberField/ACTION_KEY",
+          "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.PropPanelSubsystem.ActionNewOperation"
+        }
+      },
+      "methods" : {
+        "actionPerformed" : {
+          "name" : "actionPerformed",
+          "key" : "org.argouml.uml.ui.model_management.PropPanelSubsystem.ActionNewOperation/method/actionPerformed",
+          "type" : "void",
+          "position" : {
+            "startLine" : 88,
+            "startColumn" : 21,
+            "endLine" : 88,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "e",
+            "key" : "e",
+            "type" : "java.awt.event.ActionEvent",
+            "position" : {
+              "startLine" : 88,
+              "startColumn" : 49,
+              "endLine" : 88,
+              "endColumn" : 50
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.model_management.PropPanelSubsystem.ActionNewOperation/method/actionPerformed"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.PropPanelSubsystem.ActionNewOperation"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.uml.ui.AbstractActionNewModelElement" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.model_management.PropPanelSubsystem",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

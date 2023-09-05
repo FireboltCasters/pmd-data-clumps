@@ -1,0 +1,68 @@
+{
+  "name" : "ActionRemoveContextSignal",
+  "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionRemoveContextSignal",
+  "type" : "class",
+  "position" : {
+    "startLine" : 230,
+    "startColumn" : 1,
+    "endLine" : 230,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 235,
+        "startColumn" : 31,
+        "endLine" : 235,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionRemoveContextSignal/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionRemoveContextSignal"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionRemoveContextSignal/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 248,
+        "startColumn" : 17,
+        "endLine" : 248,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 248,
+          "startColumn" : 45,
+          "endLine" : 248,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionRemoveContextSignal/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionRemoveContextSignal"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionRemoveElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

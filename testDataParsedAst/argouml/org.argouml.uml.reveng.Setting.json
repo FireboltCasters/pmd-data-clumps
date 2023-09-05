@@ -1,0 +1,607 @@
+{
+  "name" : "Setting",
+  "key" : "org.argouml.uml.reveng.Setting",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "description" : {
+      "name" : "description",
+      "key" : "description",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 20,
+        "endLine" : 42,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.Setting/memberField/description",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting"
+    },
+    "label" : {
+      "name" : "label",
+      "key" : "label",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 20,
+        "endLine" : 40,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.Setting/memberField/label",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting"
+    }
+  },
+  "methods" : {
+    "getLabel" : {
+      "name" : "getLabel",
+      "key" : "org.argouml.uml.reveng.Setting/method/getLabel",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 25,
+        "endLine" : 66,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting"
+    },
+    "getDescription" : {
+      "name" : "getDescription",
+      "key" : "org.argouml.uml.reveng.Setting/method/getDescription",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 19,
+        "endLine" : 70,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "SettingsTypes.Setting2" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.reveng.Setting.BooleanSelection" : {
+      "name" : "BooleanSelection",
+      "key" : "org.argouml.uml.reveng.Setting.BooleanSelection",
+      "type" : "class",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 19,
+        "endLine" : 78,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "defaultValue" : {
+          "name" : "defaultValue",
+          "key" : "defaultValue",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 81,
+            "startColumn" : 25,
+            "endLine" : 81,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.reveng.Setting.BooleanSelection/memberField/defaultValue",
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.BooleanSelection"
+        },
+        "value" : {
+          "name" : "value",
+          "key" : "value",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 82,
+            "startColumn" : 25,
+            "endLine" : 82,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.reveng.Setting.BooleanSelection/memberField/value",
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.BooleanSelection"
+        }
+      },
+      "methods" : {
+        "setSelected" : {
+          "name" : "setSelected",
+          "key" : "org.argouml.uml.reveng.Setting.BooleanSelection/method/setSelected",
+          "type" : "void",
+          "position" : {
+            "startLine" : 111,
+            "startColumn" : 27,
+            "endLine" : 111,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PUBLIC", "FINAL" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "selected",
+            "key" : "selected",
+            "type" : "boolean",
+            "position" : {
+              "startLine" : 111,
+              "startColumn" : 47,
+              "endLine" : 111,
+              "endColumn" : 55
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.reveng.Setting.BooleanSelection/method/setSelected"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.BooleanSelection"
+        },
+        "isSelected" : {
+          "name" : "isSelected",
+          "key" : "org.argouml.uml.reveng.Setting.BooleanSelection/method/isSelected",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 100,
+            "startColumn" : 30,
+            "endLine" : 100,
+            "endColumn" : 40
+          },
+          "modifiers" : [ "PUBLIC", "FINAL" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.BooleanSelection"
+        },
+        "getDefaultValue" : {
+          "name" : "getDefaultValue",
+          "key" : "org.argouml.uml.reveng.Setting.BooleanSelection/method/getDefaultValue",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 107,
+            "startColumn" : 30,
+            "endLine" : 107,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PUBLIC", "FINAL" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.BooleanSelection"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "SettingsTypes.BooleanSelection2" ],
+      "extends_" : [ "org.argouml.uml.reveng.Setting" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.reveng.Setting",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.uml.reveng.Setting.PathSelection" : {
+      "name" : "PathSelection",
+      "key" : "org.argouml.uml.reveng.Setting.PathSelection",
+      "type" : "class",
+      "position" : {
+        "startLine" : 221,
+        "startColumn" : 19,
+        "endLine" : 221,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "path" : {
+          "name" : "path",
+          "key" : "path",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 224,
+            "startColumn" : 24,
+            "endLine" : 224,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.reveng.Setting.PathSelection/memberField/path",
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.PathSelection"
+        },
+        "defaultPath" : {
+          "name" : "defaultPath",
+          "key" : "defaultPath",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 226,
+            "startColumn" : 24,
+            "endLine" : 226,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.reveng.Setting.PathSelection/memberField/defaultPath",
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.PathSelection"
+        }
+      },
+      "methods" : {
+        "getDefaultPath" : {
+          "name" : "getDefaultPath",
+          "key" : "org.argouml.uml.reveng.Setting.PathSelection/method/getDefaultPath",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 243,
+            "startColumn" : 23,
+            "endLine" : 243,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.PathSelection"
+        },
+        "getPath" : {
+          "name" : "getPath",
+          "key" : "org.argouml.uml.reveng.Setting.PathSelection/method/getPath",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 247,
+            "startColumn" : 23,
+            "endLine" : 247,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.PathSelection"
+        },
+        "setPath" : {
+          "name" : "setPath",
+          "key" : "org.argouml.uml.reveng.Setting.PathSelection/method/setPath",
+          "type" : "void",
+          "position" : {
+            "startLine" : 256,
+            "startColumn" : 21,
+            "endLine" : 256,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "newPath",
+            "key" : "newPath",
+            "type" : "java.lang.String",
+            "position" : {
+              "startLine" : 256,
+              "startColumn" : 36,
+              "endLine" : 256,
+              "endColumn" : 43
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.reveng.Setting.PathSelection/method/setPath"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.PathSelection"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "SettingsTypes.PathSelection" ],
+      "extends_" : [ "org.argouml.uml.reveng.Setting" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.reveng.Setting",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.uml.reveng.Setting.PathListSelection" : {
+      "name" : "PathListSelection",
+      "key" : "org.argouml.uml.reveng.Setting.PathListSelection",
+      "type" : "class",
+      "position" : {
+        "startLine" : 265,
+        "startColumn" : 19,
+        "endLine" : 265,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "defaultPathList" : {
+          "name" : "defaultPathList",
+          "key" : "defaultPathList",
+          "type" : "java.util.List",
+          "position" : {
+            "startLine" : 268,
+            "startColumn" : 30,
+            "endLine" : 268,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.reveng.Setting.PathListSelection/memberField/defaultPathList",
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.PathListSelection"
+        },
+        "pathList" : {
+          "name" : "pathList",
+          "key" : "pathList",
+          "type" : "java.util.List",
+          "position" : {
+            "startLine" : 270,
+            "startColumn" : 30,
+            "endLine" : 270,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.reveng.Setting.PathListSelection/memberField/pathList",
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.PathListSelection"
+        }
+      },
+      "methods" : {
+        "getPathList" : {
+          "name" : "getPathList",
+          "key" : "org.argouml.uml.reveng.Setting.PathListSelection/method/getPathList",
+          "type" : "java.util.List",
+          "position" : {
+            "startLine" : 291,
+            "startColumn" : 29,
+            "endLine" : 291,
+            "endColumn" : 40
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.PathListSelection"
+        },
+        "getDefaultPathList" : {
+          "name" : "getDefaultPathList",
+          "key" : "org.argouml.uml.reveng.Setting.PathListSelection/method/getDefaultPathList",
+          "type" : "java.util.List",
+          "position" : {
+            "startLine" : 287,
+            "startColumn" : 29,
+            "endLine" : 287,
+            "endColumn" : 47
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.PathListSelection"
+        },
+        "setPathList" : {
+          "name" : "setPathList",
+          "key" : "org.argouml.uml.reveng.Setting.PathListSelection/method/setPathList",
+          "type" : "void",
+          "position" : {
+            "startLine" : 295,
+            "startColumn" : 21,
+            "endLine" : 295,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "newPathList",
+            "key" : "newPathList",
+            "type" : "java.util.List",
+            "position" : {
+              "startLine" : 295,
+              "startColumn" : 46,
+              "endLine" : 295,
+              "endColumn" : 57
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.reveng.Setting.PathListSelection/method/setPathList"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.PathListSelection"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "SettingsTypes.PathListSelection" ],
+      "extends_" : [ "org.argouml.uml.reveng.Setting" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.reveng.Setting",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.uml.reveng.Setting.UniqueSelection" : {
+      "name" : "UniqueSelection",
+      "key" : "org.argouml.uml.reveng.Setting.UniqueSelection",
+      "type" : "class",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 19,
+        "endLine" : 123,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "selection" : {
+          "name" : "selection",
+          "key" : "selection",
+          "type" : "int",
+          "position" : {
+            "startLine" : 139,
+            "startColumn" : 21,
+            "endLine" : 139,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.reveng.Setting.UniqueSelection/memberField/selection",
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.UniqueSelection"
+        },
+        "defaultSelection" : {
+          "name" : "defaultSelection",
+          "key" : "defaultSelection",
+          "type" : "int",
+          "position" : {
+            "startLine" : 134,
+            "startColumn" : 21,
+            "endLine" : 134,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.reveng.Setting.UniqueSelection/memberField/defaultSelection",
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.UniqueSelection"
+        },
+        "options" : {
+          "name" : "options",
+          "key" : "options",
+          "type" : "java.util.List",
+          "position" : {
+            "startLine" : 129,
+            "startColumn" : 30,
+            "endLine" : 129,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.reveng.Setting.UniqueSelection/memberField/options",
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.UniqueSelection"
+        }
+      },
+      "methods" : {
+        "setSelection" : {
+          "name" : "setSelection",
+          "key" : "org.argouml.uml.reveng.Setting.UniqueSelection/method/setSelection",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 193,
+            "startColumn" : 24,
+            "endLine" : 193,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "sel",
+            "key" : "sel",
+            "type" : "int",
+            "position" : {
+              "startLine" : 193,
+              "startColumn" : 41,
+              "endLine" : 193,
+              "endColumn" : 44
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.reveng.Setting.UniqueSelection/method/setSelection"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.UniqueSelection"
+        },
+        "getSelection" : {
+          "name" : "getSelection",
+          "key" : "org.argouml.uml.reveng.Setting.UniqueSelection/method/getSelection",
+          "type" : "int",
+          "position" : {
+            "startLine" : 208,
+            "startColumn" : 20,
+            "endLine" : 208,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.UniqueSelection"
+        },
+        "getDefaultSelection" : {
+          "name" : "getDefaultSelection",
+          "key" : "org.argouml.uml.reveng.Setting.UniqueSelection/method/getDefaultSelection",
+          "type" : "int",
+          "position" : {
+            "startLine" : 176,
+            "startColumn" : 20,
+            "endLine" : 176,
+            "endColumn" : 39
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.UniqueSelection"
+        },
+        "isOption" : {
+          "name" : "isOption",
+          "key" : "org.argouml.uml.reveng.Setting.UniqueSelection/method/isOption",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 166,
+            "startColumn" : 25,
+            "endLine" : 166,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "opt",
+            "key" : "opt",
+            "type" : "int",
+            "position" : {
+              "startLine" : 166,
+              "startColumn" : 38,
+              "endLine" : 166,
+              "endColumn" : 41
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.reveng.Setting.UniqueSelection/method/isOption"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.UniqueSelection"
+        },
+        "getOptions" : {
+          "name" : "getOptions",
+          "key" : "org.argouml.uml.reveng.Setting.UniqueSelection/method/getOptions",
+          "type" : "java.util.List",
+          "position" : {
+            "startLine" : 186,
+            "startColumn" : 29,
+            "endLine" : 186,
+            "endColumn" : 39
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.reveng.Setting.UniqueSelection"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "SettingsTypes.UniqueSelection2" ],
+      "extends_" : [ "org.argouml.uml.reveng.Setting" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.reveng.Setting",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

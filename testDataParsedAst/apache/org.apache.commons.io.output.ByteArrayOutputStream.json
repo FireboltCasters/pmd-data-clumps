@@ -1,0 +1,323 @@
+{
+  "name" : "ByteArrayOutputStream",
+  "key" : "org.apache.commons.io.output.ByteArrayOutputStream",
+  "type" : "class",
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 8,
+    "endLine" : 50,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "buffers" : {
+      "name" : "buffers",
+      "key" : "buffers",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 18,
+        "endLine" : 56,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.ByteArrayOutputStream/memberField/buffers",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStream"
+    },
+    "currentBufferIndex" : {
+      "name" : "currentBufferIndex",
+      "key" : "currentBufferIndex",
+      "type" : "int",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 17,
+        "endLine" : 58,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.ByteArrayOutputStream/memberField/currentBufferIndex",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStream"
+    },
+    "currentBuffer" : {
+      "name" : "currentBuffer",
+      "key" : "currentBuffer",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 20,
+        "endLine" : 62,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.ByteArrayOutputStream/memberField/currentBuffer",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStream"
+    },
+    "count" : {
+      "name" : "count",
+      "key" : "count",
+      "type" : "int",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 17,
+        "endLine" : 64,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.ByteArrayOutputStream/memberField/count",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStream"
+    },
+    "filledBufferSum" : {
+      "name" : "filledBufferSum",
+      "key" : "filledBufferSum",
+      "type" : "int",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 17,
+        "endLine" : 60,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.ByteArrayOutputStream/memberField/filledBufferSum",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStream"
+    },
+    "EMPTY_BYTE_ARRAY" : {
+      "name" : "EMPTY_BYTE_ARRAY",
+      "key" : "EMPTY_BYTE_ARRAY",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 33,
+        "endLine" : 53,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.ByteArrayOutputStream/memberField/EMPTY_BYTE_ARRAY",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStream"
+    }
+  },
+  "methods" : {
+    "writeTo" : {
+      "name" : "writeTo",
+      "key" : "org.apache.commons.io.output.ByteArrayOutputStream/method/writeTo",
+      "type" : "void",
+      "position" : {
+        "startLine" : 212,
+        "startColumn" : 30,
+        "endLine" : 212,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "out",
+        "key" : "out",
+        "type" : "java.io.OutputStream",
+        "position" : {
+          "startLine" : 212,
+          "startColumn" : 51,
+          "endLine" : 212,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ByteArrayOutputStream/method/writeTo"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStream"
+    },
+    "getBuffer" : {
+      "name" : "getBuffer",
+      "key" : "org.apache.commons.io.output.ByteArrayOutputStream/method/getBuffer",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 20,
+        "endLine" : 96,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 34,
+          "endLine" : 96,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ByteArrayOutputStream/method/getBuffer"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStream"
+    },
+    "size" : {
+      "name" : "size",
+      "key" : "org.apache.commons.io.output.ByteArrayOutputStream/method/size",
+      "type" : "int",
+      "position" : {
+        "startLine" : 178,
+        "startColumn" : 29,
+        "endLine" : 178,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStream"
+    },
+    "toByteArray" : {
+      "name" : "toByteArray",
+      "key" : "org.apache.commons.io.output.ByteArrayOutputStream/method/toByteArray",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 232,
+        "startColumn" : 32,
+        "endLine" : 232,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStream"
+    },
+    "reset" : {
+      "name" : "reset",
+      "key" : "org.apache.commons.io.output.ByteArrayOutputStream/method/reset",
+      "type" : "void",
+      "position" : {
+        "startLine" : 197,
+        "startColumn" : 30,
+        "endLine" : 197,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStream"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.apache.commons.io.output.ByteArrayOutputStream/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 270,
+        "startColumn" : 19,
+        "endLine" : 270,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "enc",
+        "key" : "enc",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 270,
+          "startColumn" : 35,
+          "endLine" : 270,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ByteArrayOutputStream/method/toString"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStream"
+    },
+    "write" : {
+      "name" : "write",
+      "key" : "org.apache.commons.io.output.ByteArrayOutputStream/method/write",
+      "type" : "void",
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 30,
+        "endLine" : 165,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "b",
+        "key" : "b",
+        "type" : "int",
+        "position" : {
+          "startLine" : 165,
+          "startColumn" : 40,
+          "endLine" : 165,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ByteArrayOutputStream/method/write"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStream"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.io.output.ByteArrayOutputStream/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 190,
+        "startColumn" : 17,
+        "endLine" : 190,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStream"
+    },
+    "needNewBuffer" : {
+      "name" : "needNewBuffer",
+      "key" : "org.apache.commons.io.output.ByteArrayOutputStream/method/needNewBuffer",
+      "type" : "void",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 18,
+        "endLine" : 106,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newcount",
+        "key" : "newcount",
+        "type" : "int",
+        "position" : {
+          "startLine" : 106,
+          "startColumn" : 36,
+          "endLine" : 106,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ByteArrayOutputStream/method/needNewBuffer"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ByteArrayOutputStream"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.io.OutputStream" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,87 @@
+{
+  "name" : "StringEncoderComparatorTest",
+  "key" : "org.apache.commons.codec.StringEncoderComparatorTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "testComparatorWithDoubleMetaphoneAndInvalidInput" : {
+      "name" : "testComparatorWithDoubleMetaphoneAndInvalidInput",
+      "key" : "org.apache.commons.codec.StringEncoderComparatorTest/method/testComparatorWithDoubleMetaphoneAndInvalidInput",
+      "type" : "void",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 17,
+        "endLine" : 70,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.StringEncoderComparatorTest"
+    },
+    "testComparatorNoArgCon" : {
+      "name" : "testComparatorNoArgCon",
+      "key" : "org.apache.commons.codec.StringEncoderComparatorTest/method/testComparatorNoArgCon",
+      "type" : "void",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 17,
+        "endLine" : 39,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.StringEncoderComparatorTest"
+    },
+    "testComparatorWithDoubleMetaphone" : {
+      "name" : "testComparatorWithDoubleMetaphone",
+      "key" : "org.apache.commons.codec.StringEncoderComparatorTest/method/testComparatorWithDoubleMetaphone",
+      "type" : "void",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 17,
+        "endLine" : 52,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.StringEncoderComparatorTest"
+    },
+    "testComparatorWithSoundex" : {
+      "name" : "testComparatorWithSoundex",
+      "key" : "org.apache.commons.codec.StringEncoderComparatorTest/method/testComparatorWithSoundex",
+      "type" : "void",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 17,
+        "endLine" : 43,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.StringEncoderComparatorTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

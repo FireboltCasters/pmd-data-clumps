@@ -1,0 +1,97 @@
+{
+  "name" : "EchoOptionHandler",
+  "key" : "org.apache.commons.net.telnet.EchoOptionHandler",
+  "type" : "class",
+  "position" : {
+    "startLine" : 23,
+    "startColumn" : 8,
+    "endLine" : 23,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "answerSubnegotiation" : {
+      "name" : "answerSubnegotiation",
+      "key" : "org.apache.commons.net.telnet.EchoOptionHandler/method/answerSubnegotiation",
+      "type" : "int[]",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 18,
+        "endLine" : 60,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "suboptionData",
+        "key" : "suboptionData",
+        "type" : "int[]",
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 43,
+          "endLine" : 60,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.telnet.EchoOptionHandler/method/answerSubnegotiation"
+      }, {
+        "name" : "suboptionLength",
+        "key" : "suboptionLength",
+        "type" : "int",
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 45,
+          "endLine" : 61,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.telnet.EchoOptionHandler/method/answerSubnegotiation"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.EchoOptionHandler"
+    },
+    "startSubnegotiationLocal" : {
+      "name" : "startSubnegotiationLocal",
+      "key" : "org.apache.commons.net.telnet.EchoOptionHandler/method/startSubnegotiationLocal",
+      "type" : "int[]",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 18,
+        "endLine" : 71,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.EchoOptionHandler"
+    },
+    "startSubnegotiationRemote" : {
+      "name" : "startSubnegotiationRemote",
+      "key" : "org.apache.commons.net.telnet.EchoOptionHandler/method/startSubnegotiationRemote",
+      "type" : "int[]",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 18,
+        "endLine" : 81,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.EchoOptionHandler"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "TelnetOptionHandler" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

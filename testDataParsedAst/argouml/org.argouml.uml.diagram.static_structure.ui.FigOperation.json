@@ -1,0 +1,113 @@
+{
+  "name" : "FigOperation",
+  "key" : "org.argouml.uml.diagram.static_structure.ui.FigOperation",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getFigFontStyle" : {
+      "name" : "getFigFontStyle",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigOperation/method/getFigFontStyle",
+      "type" : "int",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 19,
+        "endLine" : 93,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigOperation"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigOperation/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 17,
+        "endLine" : 82,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pce",
+        "key" : "pce",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 82,
+          "startColumn" : 52,
+          "endLine" : 82,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.FigOperation/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigOperation"
+    },
+    "removeFromDiagram" : {
+      "name" : "removeFromDiagram",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigOperation/method/removeFromDiagram",
+      "type" : "void",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 17,
+        "endLine" : 73,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigOperation"
+    },
+    "setOwner" : {
+      "name" : "setOwner",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigOperation/method/setOwner",
+      "type" : "void",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 17,
+        "endLine" : 61,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "owner",
+        "key" : "owner",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 33,
+          "endLine" : 61,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.FigOperation/method/setOwner"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigOperation"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "FigFeature" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

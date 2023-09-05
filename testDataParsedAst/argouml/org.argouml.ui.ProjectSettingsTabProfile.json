@@ -1,0 +1,375 @@
+{
+  "name" : "ProjectSettingsTabProfile",
+  "key" : "org.argouml.ui.ProjectSettingsTabProfile",
+  "type" : "class",
+  "position" : {
+    "startLine" : 68,
+    "startColumn" : 8,
+    "endLine" : 68,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "loadFromFile" : {
+      "name" : "loadFromFile",
+      "key" : "loadFromFile",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 21,
+        "endLine" : 71,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectSettingsTabProfile/memberField/loadFromFile",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "availableList" : {
+      "name" : "availableList",
+      "key" : "availableList",
+      "type" : "javax.swing.JList",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 19,
+        "endLine" : 81,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectSettingsTabProfile/memberField/availableList",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "stereoField" : {
+      "name" : "stereoField",
+      "key" : "stereoField",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 23,
+        "endLine" : 91,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectSettingsTabProfile/memberField/stereoField",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "unregisterProfile" : {
+      "name" : "unregisterProfile",
+      "key" : "unregisterProfile",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 21,
+        "endLine" : 74,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectSettingsTabProfile/memberField/unregisterProfile",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "removeButton" : {
+      "name" : "removeButton",
+      "key" : "removeButton",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 21,
+        "endLine" : 79,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectSettingsTabProfile/memberField/removeButton",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "stereoLabel" : {
+      "name" : "stereoLabel",
+      "key" : "stereoLabel",
+      "type" : "javax.swing.JLabel",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 20,
+        "endLine" : 87,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectSettingsTabProfile/memberField/stereoLabel",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "addButton" : {
+      "name" : "addButton",
+      "key" : "addButton",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 21,
+        "endLine" : 77,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectSettingsTabProfile/memberField/addButton",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "usedList" : {
+      "name" : "usedList",
+      "key" : "usedList",
+      "type" : "javax.swing.JList",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 19,
+        "endLine" : 83,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectSettingsTabProfile/memberField/usedList",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.ProjectSettingsTabProfile/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 230,
+        "startColumn" : 17,
+        "endLine" : 230,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "arg0",
+        "key" : "arg0",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 230,
+          "startColumn" : 45,
+          "endLine" : 230,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectSettingsTabProfile/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "getActiveDependents" : {
+      "name" : "getActiveDependents",
+      "key" : "org.argouml.ui.ProjectSettingsTabProfile/method/getActiveDependents",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 362,
+        "startColumn" : 27,
+        "endLine" : 362,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "selected",
+        "key" : "selected",
+        "type" : "org.argouml.profile.Profile",
+        "position" : {
+          "startLine" : 362,
+          "startColumn" : 55,
+          "endLine" : 362,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectSettingsTabProfile/method/getActiveDependents"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "refreshLists" : {
+      "name" : "refreshLists",
+      "key" : "org.argouml.ui.ProjectSettingsTabProfile/method/refreshLists",
+      "type" : "void",
+      "position" : {
+        "startLine" : 201,
+        "startColumn" : 18,
+        "endLine" : 201,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "handleSettingsTabRefresh" : {
+      "name" : "handleSettingsTabRefresh",
+      "key" : "org.argouml.ui.ProjectSettingsTabProfile/method/handleSettingsTabRefresh",
+      "type" : "void",
+      "position" : {
+        "startLine" : 402,
+        "startColumn" : 17,
+        "endLine" : 402,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "getAvailableProfiles" : {
+      "name" : "getAvailableProfiles",
+      "key" : "org.argouml.ui.ProjectSettingsTabProfile/method/getAvailableProfiles",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 213,
+        "startColumn" : 27,
+        "endLine" : 213,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "getAvailableDependents" : {
+      "name" : "getAvailableDependents",
+      "key" : "org.argouml.ui.ProjectSettingsTabProfile/method/getAvailableDependents",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 346,
+        "startColumn" : 27,
+        "endLine" : 346,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "selected",
+        "key" : "selected",
+        "type" : "org.argouml.profile.Profile",
+        "position" : {
+          "startLine" : 346,
+          "startColumn" : 58,
+          "endLine" : 346,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectSettingsTabProfile/method/getAvailableDependents"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "getTabPanel" : {
+      "name" : "getTabPanel",
+      "key" : "org.argouml.ui.ProjectSettingsTabProfile/method/getTabPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 390,
+        "startColumn" : 19,
+        "endLine" : 390,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "getUsedProfiles" : {
+      "name" : "getUsedProfiles",
+      "key" : "org.argouml.ui.ProjectSettingsTabProfile/method/getUsedProfiles",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 208,
+        "startColumn" : 27,
+        "endLine" : 208,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "getTabKey" : {
+      "name" : "getTabKey",
+      "key" : "org.argouml.ui.ProjectSettingsTabProfile/method/getTabKey",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 382,
+        "startColumn" : 19,
+        "endLine" : 382,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "handleResetToDefault" : {
+      "name" : "handleResetToDefault",
+      "key" : "org.argouml.ui.ProjectSettingsTabProfile/method/handleResetToDefault",
+      "type" : "void",
+      "position" : {
+        "startLine" : 394,
+        "startColumn" : 17,
+        "endLine" : 394,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "handleSettingsTabCancel" : {
+      "name" : "handleSettingsTabCancel",
+      "key" : "org.argouml.ui.ProjectSettingsTabProfile/method/handleSettingsTabCancel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 398,
+        "startColumn" : 17,
+        "endLine" : 398,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    },
+    "handleSettingsTabSave" : {
+      "name" : "handleSettingsTabSave",
+      "key" : "org.argouml.ui.ProjectSettingsTabProfile/method/handleSettingsTabSave",
+      "type" : "void",
+      "position" : {
+        "startLine" : 421,
+        "startColumn" : 17,
+        "endLine" : 421,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProfile"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.GUISettingsTabInterface", "java.awt.event.ActionListener" ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

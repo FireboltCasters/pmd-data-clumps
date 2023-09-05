@@ -1,0 +1,52 @@
+{
+  "name" : "Decoder",
+  "key" : "org.apache.commons.codec.Decoder",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "decode" : {
+      "name" : "decode",
+      "key" : "org.apache.commons.codec.Decoder/method/decode",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 12,
+        "endLine" : 52,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pObject",
+        "key" : "pObject",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 26,
+          "endLine" : 52,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.Decoder/method/decode"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.Decoder"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

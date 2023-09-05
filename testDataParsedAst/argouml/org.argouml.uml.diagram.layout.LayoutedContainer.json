@@ -1,0 +1,126 @@
+{
+  "name" : "LayoutedContainer",
+  "key" : "org.argouml.uml.diagram.layout.LayoutedContainer",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "add" : {
+      "name" : "add",
+      "key" : "org.argouml.uml.diagram.layout.LayoutedContainer/method/add",
+      "type" : "void",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 10,
+        "endLine" : 42,
+        "endColumn" : 13
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "LayoutedObject",
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 29,
+          "endLine" : 42,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.layout.LayoutedContainer/method/add"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.layout.LayoutedContainer"
+    },
+    "getContent" : {
+      "name" : "getContent",
+      "key" : "org.argouml.uml.diagram.layout.LayoutedContainer/method/getContent",
+      "type" : "LayoutedObject[]",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 23,
+        "endLine" : 57,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.layout.LayoutedContainer"
+    },
+    "resize" : {
+      "name" : "resize",
+      "key" : "org.argouml.uml.diagram.layout.LayoutedContainer/method/resize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 10,
+        "endLine" : 64,
+        "endColumn" : 16
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newSize",
+        "key" : "newSize",
+        "type" : "java.awt.Dimension",
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 27,
+          "endLine" : 64,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.layout.LayoutedContainer/method/resize"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.layout.LayoutedContainer"
+    },
+    "remove" : {
+      "name" : "remove",
+      "key" : "org.argouml.uml.diagram.layout.LayoutedContainer/method/remove",
+      "type" : "void",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 10,
+        "endLine" : 49,
+        "endColumn" : 16
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "LayoutedObject",
+        "position" : {
+          "startLine" : 49,
+          "startColumn" : 32,
+          "endLine" : 49,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.layout.LayoutedContainer/method/remove"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.layout.LayoutedContainer"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,187 @@
+{
+  "name" : "BCodec",
+  "key" : "org.apache.commons.codec.net.BCodec",
+  "type" : "class",
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "charset" : {
+      "name" : "charset",
+      "key" : "charset",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 20,
+        "endLine" : 49,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.net.BCodec/memberField/charset",
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodec"
+    }
+  },
+  "methods" : {
+    "getEncoding" : {
+      "name" : "getEncoding",
+      "key" : "org.apache.commons.codec.net.BCodec/method/getEncoding",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 22,
+        "endLine" : 72,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodec"
+    },
+    "encode" : {
+      "name" : "encode",
+      "key" : "org.apache.commons.codec.net.BCodec/method/encode",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 19,
+        "endLine" : 163,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "value",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 33,
+          "endLine" : 163,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.net.BCodec/method/encode"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodec"
+    },
+    "getDefaultCharset" : {
+      "name" : "getDefaultCharset",
+      "key" : "org.apache.commons.codec.net.BCodec/method/getDefaultCharset",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 204,
+        "startColumn" : 19,
+        "endLine" : 204,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodec"
+    },
+    "doDecoding" : {
+      "name" : "doDecoding",
+      "key" : "org.apache.commons.codec.net.BCodec/method/doDecoding",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 22,
+        "endLine" : 83,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "bytes",
+        "key" : "bytes",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 40,
+          "endLine" : 83,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.net.BCodec/method/doDecoding"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodec"
+    },
+    "doEncoding" : {
+      "name" : "doEncoding",
+      "key" : "org.apache.commons.codec.net.BCodec/method/doEncoding",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 22,
+        "endLine" : 76,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "bytes",
+        "key" : "bytes",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 76,
+          "startColumn" : 40,
+          "endLine" : 76,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.net.BCodec/method/doEncoding"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodec"
+    },
+    "decode" : {
+      "name" : "decode",
+      "key" : "org.apache.commons.codec.net.BCodec/method/decode",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 187,
+        "startColumn" : 19,
+        "endLine" : 187,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "value",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 187,
+          "startColumn" : 33,
+          "endLine" : 187,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.net.BCodec/method/decode"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodec"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.apache.commons.codec.StringEncoder", "org.apache.commons.codec.StringDecoder" ],
+  "extends_" : [ "RFC1522Codec" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

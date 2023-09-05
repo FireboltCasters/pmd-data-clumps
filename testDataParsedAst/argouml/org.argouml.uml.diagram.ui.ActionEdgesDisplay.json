@@ -1,0 +1,146 @@
+{
+  "name" : "ActionEdgesDisplay",
+  "key" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay",
+  "type" : "class",
+  "position" : {
+    "startLine" : 52,
+    "startColumn" : 8,
+    "endLine" : 52,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "hideEdges" : {
+      "name" : "hideEdges",
+      "key" : "hideEdges",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 35,
+        "endLine" : 57,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay/memberField/hideEdges",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay"
+    },
+    "show" : {
+      "name" : "show",
+      "key" : "show",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 21,
+        "endLine" : 60,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay/memberField/show",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay"
+    },
+    "showEdges" : {
+      "name" : "showEdges",
+      "key" : "showEdges",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 35,
+        "endLine" : 55,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay/memberField/showEdges",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 17,
+        "endLine" : 82,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 82,
+          "startColumn" : 45,
+          "endLine" : 82,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay"
+    },
+    "getShowEdges" : {
+      "name" : "getShowEdges",
+      "key" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay/method/getShowEdges",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 34,
+        "endLine" : 141,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 20,
+        "endLine" : 133,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay"
+    },
+    "getHideEdges" : {
+      "name" : "getHideEdges",
+      "key" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay/method/getHideEdges",
+      "type" : "org.tigris.gef.undo.UndoableAction",
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 34,
+        "endLine" : 149,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionEdgesDisplay"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

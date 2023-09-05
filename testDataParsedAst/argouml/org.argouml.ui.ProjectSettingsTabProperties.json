@@ -1,0 +1,180 @@
+{
+  "name" : "ProjectSettingsTabProperties",
+  "key" : "org.argouml.ui.ProjectSettingsTabProperties",
+  "type" : "class",
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 8,
+    "endLine" : 50,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "userFullname" : {
+      "name" : "userFullname",
+      "key" : "userFullname",
+      "type" : "javax.swing.JTextField",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 24,
+        "endLine" : 56,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectSettingsTabProperties/memberField/userFullname",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProperties"
+    },
+    "description" : {
+      "name" : "description",
+      "key" : "description",
+      "type" : "javax.swing.JTextField",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 24,
+        "endLine" : 69,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectSettingsTabProperties/memberField/description",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProperties"
+    },
+    "userEmail" : {
+      "name" : "userEmail",
+      "key" : "userEmail",
+      "type" : "javax.swing.JTextField",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 24,
+        "endLine" : 62,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectSettingsTabProperties/memberField/userEmail",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProperties"
+    },
+    "version" : {
+      "name" : "version",
+      "key" : "version",
+      "type" : "javax.swing.JTextField",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 24,
+        "endLine" : 76,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectSettingsTabProperties/memberField/version",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProperties"
+    }
+  },
+  "methods" : {
+    "handleSettingsTabRefresh" : {
+      "name" : "handleSettingsTabRefresh",
+      "key" : "org.argouml.ui.ProjectSettingsTabProperties/method/handleSettingsTabRefresh",
+      "type" : "void",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 17,
+        "endLine" : 139,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProperties"
+    },
+    "getTabPanel" : {
+      "name" : "getTabPanel",
+      "key" : "org.argouml.ui.ProjectSettingsTabProperties/method/getTabPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 181,
+        "startColumn" : 19,
+        "endLine" : 181,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProperties"
+    },
+    "getTabKey" : {
+      "name" : "getTabKey",
+      "key" : "org.argouml.ui.ProjectSettingsTabProperties/method/getTabKey",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 176,
+        "startColumn" : 19,
+        "endLine" : 176,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProperties"
+    },
+    "handleSettingsTabSave" : {
+      "name" : "handleSettingsTabSave",
+      "key" : "org.argouml.ui.ProjectSettingsTabProperties/method/handleSettingsTabSave",
+      "type" : "void",
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 17,
+        "endLine" : 150,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProperties"
+    },
+    "handleSettingsTabCancel" : {
+      "name" : "handleSettingsTabCancel",
+      "key" : "org.argouml.ui.ProjectSettingsTabProperties/method/handleSettingsTabCancel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 17,
+        "endLine" : 160,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProperties"
+    },
+    "handleResetToDefault" : {
+      "name" : "handleResetToDefault",
+      "key" : "org.argouml.ui.ProjectSettingsTabProperties/method/handleResetToDefault",
+      "type" : "void",
+      "position" : {
+        "startLine" : 167,
+        "startColumn" : 17,
+        "endLine" : 167,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectSettingsTabProperties"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.GUISettingsTabInterface" ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

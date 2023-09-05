@@ -1,0 +1,65 @@
+{
+  "name" : "AndCM",
+  "key" : "org.argouml.cognitive.AndCM",
+  "type" : "class",
+  "position" : {
+    "startLine" : 138,
+    "startColumn" : 1,
+    "endLine" : 138,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "isRelevant" : {
+      "name" : "isRelevant",
+      "key" : "org.argouml.cognitive.AndCM/method/isRelevant",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 20,
+        "endLine" : 142,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "Critic",
+        "position" : {
+          "startLine" : 142,
+          "startColumn" : 38,
+          "endLine" : 142,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.AndCM/method/isRelevant"
+      }, {
+        "name" : "d",
+        "key" : "d",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 142,
+          "startColumn" : 50,
+          "endLine" : 142,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.AndCM/method/isRelevant"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.AndCM"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.cognitive.CompositeCM" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

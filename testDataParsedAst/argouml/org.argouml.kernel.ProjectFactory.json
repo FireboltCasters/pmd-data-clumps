@@ -1,0 +1,84 @@
+{
+  "name" : "ProjectFactory",
+  "key" : "org.argouml.kernel.ProjectFactory",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "INSTANCE" : {
+      "name" : "INSTANCE",
+      "key" : "INSTANCE",
+      "type" : "org.argouml.kernel.ProjectFactory",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 41,
+        "endLine" : 47,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectFactory/memberField/INSTANCE",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectFactory"
+    }
+  },
+  "methods" : {
+    "createProject" : {
+      "name" : "createProject",
+      "key" : "org.argouml.kernel.ProjectFactory/method/createProject",
+      "type" : "Project",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 20,
+        "endLine" : 63,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "uri",
+        "key" : "uri",
+        "type" : "java.net.URI",
+        "position" : {
+          "startLine" : 63,
+          "startColumn" : 38,
+          "endLine" : 63,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectFactory/method/createProject"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectFactory"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.kernel.ProjectFactory/method/getInstance",
+      "type" : "org.argouml.kernel.ProjectFactory",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 34,
+        "endLine" : 67,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectFactory"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

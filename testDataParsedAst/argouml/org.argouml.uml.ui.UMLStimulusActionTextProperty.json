@@ -1,0 +1,155 @@
+{
+  "name" : "UMLStimulusActionTextProperty",
+  "key" : "org.argouml.uml.ui.UMLStimulusActionTextProperty",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "thePropertyName" : {
+      "name" : "thePropertyName",
+      "key" : "thePropertyName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 20,
+        "endLine" : 38,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLStimulusActionTextProperty/memberField/thePropertyName",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLStimulusActionTextProperty"
+    }
+  },
+  "methods" : {
+    "getProperty" : {
+      "name" : "getProperty",
+      "key" : "org.argouml.uml.ui.UMLStimulusActionTextProperty/method/getProperty",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 19,
+        "endLine" : 87,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "container",
+        "key" : "container",
+        "type" : "UMLUserInterfaceContainer",
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 57,
+          "endLine" : 87,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLStimulusActionTextProperty/method/getProperty"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLStimulusActionTextProperty"
+    },
+    "setProperty" : {
+      "name" : "setProperty",
+      "key" : "org.argouml.uml.ui.UMLStimulusActionTextProperty/method/setProperty",
+      "type" : "void",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 17,
+        "endLine" : 54,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "container",
+        "key" : "container",
+        "type" : "UMLUserInterfaceContainer",
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 55,
+          "endLine" : 54,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLStimulusActionTextProperty/method/setProperty"
+      }, {
+        "name" : "newValue",
+        "key" : "newValue",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 20,
+          "endLine" : 55,
+          "endColumn" : 28
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLStimulusActionTextProperty/method/setProperty"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLStimulusActionTextProperty"
+    },
+    "targetChanged" : {
+      "name" : "targetChanged",
+      "key" : "org.argouml.uml.ui.UMLStimulusActionTextProperty/method/targetChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 10,
+        "endLine" : 109,
+        "endColumn" : 23
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLStimulusActionTextProperty"
+    },
+    "isAffected" : {
+      "name" : "isAffected",
+      "key" : "org.argouml.uml.ui.UMLStimulusActionTextProperty/method/isAffected",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 13,
+        "endLine" : 99,
+        "endColumn" : 23
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 99,
+          "startColumn" : 44,
+          "endLine" : 99,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLStimulusActionTextProperty/method/isAffected"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLStimulusActionTextProperty"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

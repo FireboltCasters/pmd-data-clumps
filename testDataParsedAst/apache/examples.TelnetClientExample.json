@@ -1,0 +1,126 @@
+{
+  "name" : "TelnetClientExample",
+  "key" : "examples.TelnetClientExample",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "tc" : {
+      "name" : "tc",
+      "key" : "tc",
+      "type" : "org.apache.commons.net.telnet.TelnetClient",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 25,
+        "endLine" : 49,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "examples.TelnetClientExample/memberField/tc",
+      "classOrInterfaceKey" : "examples.TelnetClientExample"
+    }
+  },
+  "methods" : {
+    "main" : {
+      "name" : "main",
+      "key" : "examples.TelnetClientExample/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 24,
+        "endLine" : 54,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 38,
+          "endLine" : 54,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.TelnetClientExample/method/main"
+      } ],
+      "classOrInterfaceKey" : "examples.TelnetClientExample"
+    },
+    "receivedNegotiation" : {
+      "name" : "receivedNegotiation",
+      "key" : "examples.TelnetClientExample/method/receivedNegotiation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 273,
+        "startColumn" : 17,
+        "endLine" : 273,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "negotiation_code",
+        "key" : "negotiation_code",
+        "type" : "int",
+        "position" : {
+          "startLine" : 273,
+          "startColumn" : 41,
+          "endLine" : 273,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.TelnetClientExample/method/receivedNegotiation"
+      }, {
+        "name" : "option_code",
+        "key" : "option_code",
+        "type" : "int",
+        "position" : {
+          "startLine" : 273,
+          "startColumn" : 63,
+          "endLine" : 273,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.TelnetClientExample/method/receivedNegotiation"
+      } ],
+      "classOrInterfaceKey" : "examples.TelnetClientExample"
+    },
+    "run" : {
+      "name" : "run",
+      "key" : "examples.TelnetClientExample/method/run",
+      "type" : "void",
+      "position" : {
+        "startLine" : 300,
+        "startColumn" : 17,
+        "endLine" : 300,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "examples.TelnetClientExample"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.lang.Runnable", "org.apache.commons.net.telnet.TelnetNotificationHandler" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

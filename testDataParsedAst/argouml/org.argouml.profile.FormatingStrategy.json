@@ -1,0 +1,107 @@
+{
+  "name" : "FormatingStrategy",
+  "key" : "org.argouml.profile.FormatingStrategy",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "formatCollection" : {
+      "name" : "formatCollection",
+      "key" : "org.argouml.profile.FormatingStrategy/method/formatCollection",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 28,
+        "endLine" : 59,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "iter",
+        "key" : "iter",
+        "type" : "java.util.Iterator",
+        "position" : {
+          "startLine" : 59,
+          "startColumn" : 54,
+          "endLine" : 59,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.FormatingStrategy/method/formatCollection"
+      }, {
+        "name" : "namespace",
+        "key" : "namespace",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 59,
+          "startColumn" : 67,
+          "endLine" : 59,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.FormatingStrategy/method/formatCollection"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.FormatingStrategy"
+    },
+    "formatElement" : {
+      "name" : "formatElement",
+      "key" : "org.argouml.profile.FormatingStrategy/method/formatElement",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 28,
+        "endLine" : 47,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 47,
+          "startColumn" : 49,
+          "endLine" : 47,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.FormatingStrategy/method/formatElement"
+      }, {
+        "name" : "namespace",
+        "key" : "namespace",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 47,
+          "startColumn" : 65,
+          "endLine" : 47,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.FormatingStrategy/method/formatElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.FormatingStrategy"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

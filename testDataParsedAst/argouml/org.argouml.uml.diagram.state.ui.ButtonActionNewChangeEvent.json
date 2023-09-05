@@ -1,0 +1,84 @@
+{
+  "name" : "ButtonActionNewChangeEvent",
+  "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewChangeEvent",
+  "type" : "class",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getIconName" : {
+      "name" : "getIconName",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewChangeEvent/method/getIconName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 22,
+        "endLine" : 44,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewChangeEvent"
+    },
+    "createEvent" : {
+      "name" : "createEvent",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewChangeEvent/method/createEvent",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 22,
+        "endLine" : 36,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ns",
+        "key" : "ns",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 36,
+          "startColumn" : 41,
+          "endLine" : 36,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewChangeEvent/method/createEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewChangeEvent"
+    },
+    "getKeyName" : {
+      "name" : "getKeyName",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewChangeEvent/method/getKeyName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 22,
+        "endLine" : 40,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewChangeEvent"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ButtonActionNewEvent" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

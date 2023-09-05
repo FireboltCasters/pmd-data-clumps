@@ -1,0 +1,1681 @@
+{
+  "name" : "ProjectSettings",
+  "key" : "org.argouml.kernel.ProjectSettings",
+  "type" : "class",
+  "position" : {
+    "startLine" : 57,
+    "startColumn" : 8,
+    "endLine" : 57,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "showProperties" : {
+      "name" : "showProperties",
+      "key" : "showProperties",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 21,
+        "endLine" : 67,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/showProperties",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "showSingularMultiplicities" : {
+      "name" : "showSingularMultiplicities",
+      "key" : "showSingularMultiplicities",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 21,
+        "endLine" : 70,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/showSingularMultiplicities",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "defaultShadowWidth" : {
+      "name" : "defaultShadowWidth",
+      "key" : "defaultShadowWidth",
+      "type" : "int",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 17,
+        "endLine" : 71,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/defaultShadowWidth",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "generationOutputDir" : {
+      "name" : "generationOutputDir",
+      "key" : "generationOutputDir",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 20,
+        "endLine" : 87,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/generationOutputDir",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "showAssociationNames" : {
+      "name" : "showAssociationNames",
+      "key" : "showAssociationNames",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 21,
+        "endLine" : 63,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/showAssociationNames",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "showTypes" : {
+      "name" : "showTypes",
+      "key" : "showTypes",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 21,
+        "endLine" : 68,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/showTypes",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "useGuillemots" : {
+      "name" : "useGuillemots",
+      "key" : "useGuillemots",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 21,
+        "endLine" : 62,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/useGuillemots",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "fontBoldItalic" : {
+      "name" : "fontBoldItalic",
+      "key" : "fontBoldItalic",
+      "type" : "java.awt.Font",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 18,
+        "endLine" : 82,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/fontBoldItalic",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "fontName" : {
+      "name" : "fontName",
+      "key" : "fontName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 20,
+        "endLine" : 75,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/fontName",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "notationLanguage" : {
+      "name" : "notationLanguage",
+      "key" : "notationLanguage",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 20,
+        "endLine" : 60,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/notationLanguage",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "showVisibility" : {
+      "name" : "showVisibility",
+      "key" : "showVisibility",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 21,
+        "endLine" : 64,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/showVisibility",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "fontBold" : {
+      "name" : "fontBold",
+      "key" : "fontBold",
+      "type" : "java.awt.Font",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 18,
+        "endLine" : 81,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/fontBold",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "showMultiplicity" : {
+      "name" : "showMultiplicity",
+      "key" : "showMultiplicity",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 21,
+        "endLine" : 65,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/showMultiplicity",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "hideBidirectionalArrows" : {
+      "name" : "hideBidirectionalArrows",
+      "key" : "hideBidirectionalArrows",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 21,
+        "endLine" : 77,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/hideBidirectionalArrows",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "fontSize" : {
+      "name" : "fontSize",
+      "key" : "fontSize",
+      "type" : "int",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 17,
+        "endLine" : 76,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/fontSize",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "fontItalic" : {
+      "name" : "fontItalic",
+      "key" : "fontItalic",
+      "type" : "java.awt.Font",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 18,
+        "endLine" : 80,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/fontItalic",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "fontPlain" : {
+      "name" : "fontPlain",
+      "key" : "fontPlain",
+      "type" : "java.awt.Font",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 18,
+        "endLine" : 79,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/fontPlain",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "showInitialValue" : {
+      "name" : "showInitialValue",
+      "key" : "showInitialValue",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 21,
+        "endLine" : 66,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/showInitialValue",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "showBoldNames" : {
+      "name" : "showBoldNames",
+      "key" : "showBoldNames",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 21,
+        "endLine" : 61,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/showBoldNames",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "showStereotypes" : {
+      "name" : "showStereotypes",
+      "key" : "showStereotypes",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 21,
+        "endLine" : 69,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/showStereotypes",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "defaultStereotypeView" : {
+      "name" : "defaultStereotypeView",
+      "key" : "defaultStereotypeView",
+      "type" : "int",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 17,
+        "endLine" : 72,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/defaultStereotypeView",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "headerComment" : {
+      "name" : "headerComment",
+      "key" : "headerComment",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 20,
+        "endLine" : 85,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.ProjectSettings/memberField/headerComment",
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    }
+  },
+  "methods" : {
+    "getShowAssociationNamesValue" : {
+      "name" : "getShowAssociationNamesValue",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowAssociationNamesValue",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 438,
+        "startColumn" : 20,
+        "endLine" : 438,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getHideBidirectionalArrows" : {
+      "name" : "getHideBidirectionalArrows",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getHideBidirectionalArrows",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 829,
+        "startColumn" : 19,
+        "endLine" : 829,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setShowBoldNames" : {
+      "name" : "setShowBoldNames",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setShowBoldNames",
+      "type" : "void",
+      "position" : {
+        "startLine" : 338,
+        "startColumn" : 17,
+        "endLine" : 338,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "showem",
+        "key" : "showem",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 338,
+          "startColumn" : 48,
+          "endLine" : 338,
+          "endColumn" : 54
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setShowBoldNames"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setShowTypes" : {
+      "name" : "setShowTypes",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setShowTypes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 700,
+        "startColumn" : 17,
+        "endLine" : 700,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "showem",
+        "key" : "showem",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 700,
+          "startColumn" : 44,
+          "endLine" : 700,
+          "endColumn" : 50
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setShowTypes"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowPropertiesValue" : {
+      "name" : "getShowPropertiesValue",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowPropertiesValue",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 636,
+        "startColumn" : 20,
+        "endLine" : 636,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "initFonts" : {
+      "name" : "initFonts",
+      "key" : "org.argouml.kernel.ProjectSettings/method/initFonts",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1128,
+        "startColumn" : 18,
+        "endLine" : 1128,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getNotationName" : {
+      "name" : "getNotationName",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getNotationName",
+      "type" : "org.argouml.notation.NotationName",
+      "position" : {
+        "startLine" : 265,
+        "startColumn" : 25,
+        "endLine" : 265,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowSingularMultiplicities" : {
+      "name" : "getShowSingularMultiplicities",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowSingularMultiplicities",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 778,
+        "startColumn" : 19,
+        "endLine" : 778,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "init" : {
+      "name" : "init",
+      "key" : "org.argouml.kernel.ProjectSettings/method/init",
+      "type" : "void",
+      "position" : {
+        "startLine" : 249,
+        "startColumn" : 18,
+        "endLine" : 249,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "value",
+        "type" : "int",
+        "position" : {
+          "startLine" : 249,
+          "startColumn" : 27,
+          "endLine" : 249,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/init"
+      }, {
+        "name" : "key",
+        "key" : "key",
+        "type" : "org.argouml.configuration.ConfigurationKey",
+        "position" : {
+          "startLine" : 249,
+          "startColumn" : 51,
+          "endLine" : 249,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/init"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowTypes" : {
+      "name" : "getShowTypes",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowTypes",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 679,
+        "startColumn" : 19,
+        "endLine" : 679,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setFontName" : {
+      "name" : "setFontName",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setFontName",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1095,
+        "startColumn" : 17,
+        "endLine" : 1095,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newFontName",
+        "key" : "newFontName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1095,
+          "startColumn" : 36,
+          "endLine" : 1095,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setFontName"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowBoldNames" : {
+      "name" : "getShowBoldNames",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowBoldNames",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 317,
+        "startColumn" : 19,
+        "endLine" : 317,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setDefaultShadowWidth" : {
+      "name" : "setDefaultShadowWidth",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setDefaultShadowWidth",
+      "type" : "void",
+      "position" : {
+        "startLine" : 927,
+        "startColumn" : 17,
+        "endLine" : 927,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "width",
+        "key" : "width",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 927,
+          "startColumn" : 46,
+          "endLine" : 927,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setDefaultShadowWidth"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "fireNotationEvent" : {
+      "name" : "fireNotationEvent",
+      "key" : "org.argouml.kernel.ProjectSettings/method/fireNotationEvent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1043,
+        "startColumn" : 18,
+        "endLine" : 1043,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "org.argouml.configuration.ConfigurationKey",
+        "position" : {
+          "startLine" : 1043,
+          "startColumn" : 53,
+          "endLine" : 1043,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/fireNotationEvent"
+      }, {
+        "name" : "oldValue",
+        "key" : "oldValue",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1043,
+          "startColumn" : 65,
+          "endLine" : 1043,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/fireNotationEvent"
+      }, {
+        "name" : "newValue",
+        "key" : "newValue",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1044,
+          "startColumn" : 20,
+          "endLine" : 1044,
+          "endColumn" : 28
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/fireNotationEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setFontSize" : {
+      "name" : "setFontSize",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setFontSize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1119,
+        "startColumn" : 17,
+        "endLine" : 1119,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newFontSize",
+        "key" : "newFontSize",
+        "type" : "int",
+        "position" : {
+          "startLine" : 1119,
+          "startColumn" : 33,
+          "endLine" : 1119,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setFontSize"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getFontItalic" : {
+      "name" : "getFontItalic",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getFontItalic",
+      "type" : "java.awt.Font",
+      "position" : {
+        "startLine" : 1152,
+        "startColumn" : 17,
+        "endLine" : 1152,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getDefaultStereotypeViewValue" : {
+      "name" : "getDefaultStereotypeViewValue",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getDefaultStereotypeViewValue",
+      "type" : "int",
+      "position" : {
+        "startLine" : 943,
+        "startColumn" : 16,
+        "endLine" : 943,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowVisibility" : {
+      "name" : "getShowVisibility",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowVisibility",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 481,
+        "startColumn" : 19,
+        "endLine" : 481,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setShowVisibility" : {
+      "name" : "setShowVisibility",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setShowVisibility",
+      "type" : "void",
+      "position" : {
+        "startLine" : 502,
+        "startColumn" : 17,
+        "endLine" : 502,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "showem",
+        "key" : "showem",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 502,
+          "startColumn" : 49,
+          "endLine" : 502,
+          "endColumn" : 55
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setShowVisibility"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowInitialValueValue" : {
+      "name" : "getShowInitialValueValue",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowInitialValueValue",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 586,
+        "startColumn" : 20,
+        "endLine" : 586,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getFont" : {
+      "name" : "getFont",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getFont",
+      "type" : "java.awt.Font",
+      "position" : {
+        "startLine" : 1182,
+        "startColumn" : 17,
+        "endLine" : 1182,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fontStyle",
+        "key" : "fontStyle",
+        "type" : "int",
+        "position" : {
+          "startLine" : 1182,
+          "startColumn" : 29,
+          "endLine" : 1182,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/getFont"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setGenerationOutputDir" : {
+      "name" : "setGenerationOutputDir",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setGenerationOutputDir",
+      "type" : "void",
+      "position" : {
+        "startLine" : 960,
+        "startColumn" : 17,
+        "endLine" : 960,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "od",
+        "key" : "od",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 960,
+          "startColumn" : 47,
+          "endLine" : 960,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setGenerationOutputDir"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getRightGuillemot" : {
+      "name" : "getRightGuillemot",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getRightGuillemot",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 422,
+        "startColumn" : 19,
+        "endLine" : 422,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setShowInitialValue" : {
+      "name" : "setShowInitialValue",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setShowInitialValue",
+      "type" : "void",
+      "position" : {
+        "startLine" : 600,
+        "startColumn" : 17,
+        "endLine" : 600,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "showem",
+        "key" : "showem",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 600,
+          "startColumn" : 51,
+          "endLine" : 600,
+          "endColumn" : 57
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setShowInitialValue"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getDefaultShadowWidthValue" : {
+      "name" : "getDefaultShadowWidthValue",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getDefaultShadowWidthValue",
+      "type" : "int",
+      "position" : {
+        "startLine" : 891,
+        "startColumn" : 16,
+        "endLine" : 891,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowMultiplicityValue" : {
+      "name" : "getShowMultiplicityValue",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowMultiplicityValue",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 537,
+        "startColumn" : 20,
+        "endLine" : 537,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getFontSize" : {
+      "name" : "getFontSize",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getFontSize",
+      "type" : "int",
+      "position" : {
+        "startLine" : 1111,
+        "startColumn" : 16,
+        "endLine" : 1111,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setShowMultiplicity" : {
+      "name" : "setShowMultiplicity",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setShowMultiplicity",
+      "type" : "void",
+      "position" : {
+        "startLine" : 551,
+        "startColumn" : 17,
+        "endLine" : 551,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "showem",
+        "key" : "showem",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 551,
+          "startColumn" : 51,
+          "endLine" : 551,
+          "endColumn" : 57
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setShowMultiplicity"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getFontPlain" : {
+      "name" : "getFontPlain",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getFontPlain",
+      "type" : "java.awt.Font",
+      "position" : {
+        "startLine" : 1142,
+        "startColumn" : 17,
+        "endLine" : 1142,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getUseGuillemotsValue" : {
+      "name" : "getUseGuillemotsValue",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getUseGuillemotsValue",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 373,
+        "startColumn" : 20,
+        "endLine" : 373,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "fireDiagramAppearanceEvent" : {
+      "name" : "fireDiagramAppearanceEvent",
+      "key" : "org.argouml.kernel.ProjectSettings/method/fireDiagramAppearanceEvent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1073,
+        "startColumn" : 18,
+        "endLine" : 1073,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "org.argouml.configuration.ConfigurationKey",
+        "position" : {
+          "startLine" : 1073,
+          "startColumn" : 62,
+          "endLine" : 1073,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/fireDiagramAppearanceEvent"
+      }, {
+        "name" : "oldValue",
+        "key" : "oldValue",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1074,
+          "startColumn" : 20,
+          "endLine" : 1074,
+          "endColumn" : 28
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/fireDiagramAppearanceEvent"
+      }, {
+        "name" : "newValue",
+        "key" : "newValue",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1074,
+          "startColumn" : 37,
+          "endLine" : 1074,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/fireDiagramAppearanceEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setHideBidirectionalArrows" : {
+      "name" : "setHideBidirectionalArrows",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setHideBidirectionalArrows",
+      "type" : "void",
+      "position" : {
+        "startLine" : 855,
+        "startColumn" : 17,
+        "endLine" : 855,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "hideem",
+        "key" : "hideem",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 855,
+          "startColumn" : 58,
+          "endLine" : 855,
+          "endColumn" : 64
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setHideBidirectionalArrows"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowMultiplicity" : {
+      "name" : "getShowMultiplicity",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowMultiplicity",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 530,
+        "startColumn" : 19,
+        "endLine" : 530,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setShowProperties" : {
+      "name" : "setShowProperties",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setShowProperties",
+      "type" : "void",
+      "position" : {
+        "startLine" : 650,
+        "startColumn" : 17,
+        "endLine" : 650,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "showem",
+        "key" : "showem",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 650,
+          "startColumn" : 49,
+          "endLine" : 650,
+          "endColumn" : 55
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setShowProperties"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setShowSingularMultiplicities" : {
+      "name" : "setShowSingularMultiplicities",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setShowSingularMultiplicities",
+      "type" : "void",
+      "position" : {
+        "startLine" : 799,
+        "startColumn" : 17,
+        "endLine" : 799,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "showem",
+        "key" : "showem",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 799,
+          "startColumn" : 61,
+          "endLine" : 799,
+          "endColumn" : 67
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setShowSingularMultiplicities"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowInitialValue" : {
+      "name" : "getShowInitialValue",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowInitialValue",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 579,
+        "startColumn" : 19,
+        "endLine" : 579,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowSingularMultiplicitiesValue" : {
+      "name" : "getShowSingularMultiplicitiesValue",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowSingularMultiplicitiesValue",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 785,
+        "startColumn" : 20,
+        "endLine" : 785,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getFontName" : {
+      "name" : "getFontName",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getFontName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 1087,
+        "startColumn" : 19,
+        "endLine" : 1087,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setHeaderComment" : {
+      "name" : "setHeaderComment",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setHeaderComment",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1007,
+        "startColumn" : 17,
+        "endLine" : 1007,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1007,
+          "startColumn" : 41,
+          "endLine" : 1007,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setHeaderComment"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowBoldNamesValue" : {
+      "name" : "getShowBoldNamesValue",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowBoldNamesValue",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 324,
+        "startColumn" : 20,
+        "endLine" : 324,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setShowStereotypes" : {
+      "name" : "setShowStereotypes",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setShowStereotypes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 750,
+        "startColumn" : 17,
+        "endLine" : 750,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "showem",
+        "key" : "showem",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 750,
+          "startColumn" : 50,
+          "endLine" : 750,
+          "endColumn" : 56
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setShowStereotypes"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getHideBidirectionalArrowsValue" : {
+      "name" : "getHideBidirectionalArrowsValue",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getHideBidirectionalArrowsValue",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 838,
+        "startColumn" : 20,
+        "endLine" : 838,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getFontBoldItalic" : {
+      "name" : "getFontBoldItalic",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getFontBoldItalic",
+      "type" : "java.awt.Font",
+      "position" : {
+        "startLine" : 1172,
+        "startColumn" : 17,
+        "endLine" : 1172,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowStereotypesValue" : {
+      "name" : "getShowStereotypesValue",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowStereotypesValue",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 736,
+        "startColumn" : 20,
+        "endLine" : 736,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setUseGuillemots" : {
+      "name" : "setUseGuillemots",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setUseGuillemots",
+      "type" : "void",
+      "position" : {
+        "startLine" : 389,
+        "startColumn" : 17,
+        "endLine" : 389,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "showem",
+        "key" : "showem",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 389,
+          "startColumn" : 48,
+          "endLine" : 389,
+          "endColumn" : 54
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setUseGuillemots"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getUseGuillemots" : {
+      "name" : "getUseGuillemots",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getUseGuillemots",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 366,
+        "startColumn" : 19,
+        "endLine" : 366,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setShowAssociationNames" : {
+      "name" : "setShowAssociationNames",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setShowAssociationNames",
+      "type" : "void",
+      "position" : {
+        "startLine" : 452,
+        "startColumn" : 17,
+        "endLine" : 452,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "showem",
+        "key" : "showem",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 452,
+          "startColumn" : 55,
+          "endLine" : 452,
+          "endColumn" : 61
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setShowAssociationNames"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getLeftGuillemot" : {
+      "name" : "getLeftGuillemot",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getLeftGuillemot",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 415,
+        "startColumn" : 19,
+        "endLine" : 415,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowProperties" : {
+      "name" : "getShowProperties",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowProperties",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 629,
+        "startColumn" : 19,
+        "endLine" : 629,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowTypesValue" : {
+      "name" : "getShowTypesValue",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowTypesValue",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 686,
+        "startColumn" : 20,
+        "endLine" : 686,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getHeaderComment" : {
+      "name" : "getHeaderComment",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getHeaderComment",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 968,
+        "startColumn" : 19,
+        "endLine" : 968,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getDefaultStereotypeView" : {
+      "name" : "getDefaultStereotypeView",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getDefaultStereotypeView",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 936,
+        "startColumn" : 19,
+        "endLine" : 936,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowStereotypes" : {
+      "name" : "getShowStereotypes",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowStereotypes",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 729,
+        "startColumn" : 19,
+        "endLine" : 729,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setDefaultStereotypeView" : {
+      "name" : "setDefaultStereotypeView",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setDefaultStereotypeView",
+      "type" : "void",
+      "position" : {
+        "startLine" : 975,
+        "startColumn" : 17,
+        "endLine" : 975,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newView",
+        "key" : "newView",
+        "type" : "int",
+        "position" : {
+          "startLine" : 975,
+          "startColumn" : 52,
+          "endLine" : 975,
+          "endColumn" : 59
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setDefaultStereotypeView"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getNotationLanguage" : {
+      "name" : "getNotationLanguage",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getNotationLanguage",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 258,
+        "startColumn" : 19,
+        "endLine" : 258,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowAssociationNames" : {
+      "name" : "getShowAssociationNames",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowAssociationNames",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 431,
+        "startColumn" : 19,
+        "endLine" : 431,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getFontBold" : {
+      "name" : "getFontBold",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getFontBold",
+      "type" : "java.awt.Font",
+      "position" : {
+        "startLine" : 1162,
+        "startColumn" : 17,
+        "endLine" : 1162,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getGenerationOutputDir" : {
+      "name" : "getGenerationOutputDir",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getGenerationOutputDir",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 953,
+        "startColumn" : 19,
+        "endLine" : 953,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getShowVisibilityValue" : {
+      "name" : "getShowVisibilityValue",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getShowVisibilityValue",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 488,
+        "startColumn" : 20,
+        "endLine" : 488,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "getDefaultShadowWidth" : {
+      "name" : "getDefaultShadowWidth",
+      "key" : "org.argouml.kernel.ProjectSettings/method/getDefaultShadowWidth",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 884,
+        "startColumn" : 19,
+        "endLine" : 884,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    },
+    "setNotationLanguage" : {
+      "name" : "setNotationLanguage",
+      "key" : "org.argouml.kernel.ProjectSettings/method/setNotationLanguage",
+      "type" : "void",
+      "position" : {
+        "startLine" : 308,
+        "startColumn" : 17,
+        "endLine" : 308,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "nn",
+        "key" : "nn",
+        "type" : "org.argouml.notation.NotationName",
+        "position" : {
+          "startLine" : 308,
+          "startColumn" : 50,
+          "endLine" : 308,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.ProjectSettings/method/setNotationLanguage"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.ProjectSettings"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,478 @@
+{
+  "name" : "Metaphone",
+  "key" : "org.apache.commons.codec.language.Metaphone",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "vowels" : {
+      "name" : "vowels",
+      "key" : "vowels",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 20,
+        "endLine" : 41,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.Metaphone/memberField/vowels",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Metaphone"
+    },
+    "varson" : {
+      "name" : "varson",
+      "key" : "varson",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 20,
+        "endLine" : 51,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.Metaphone/memberField/varson",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Metaphone"
+    },
+    "frontv" : {
+      "name" : "frontv",
+      "key" : "frontv",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 20,
+        "endLine" : 46,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.Metaphone/memberField/frontv",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Metaphone"
+    },
+    "maxCodeLen" : {
+      "name" : "maxCodeLen",
+      "key" : "maxCodeLen",
+      "type" : "int",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.Metaphone/memberField/maxCodeLen",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Metaphone"
+    }
+  },
+  "methods" : {
+    "isVowel" : {
+      "name" : "isVowel",
+      "key" : "org.apache.commons.codec.language.Metaphone/method/isVowel",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 309,
+        "startColumn" : 18,
+        "endLine" : 309,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "string",
+        "key" : "string",
+        "type" : "java.lang.StringBuffer",
+        "position" : {
+          "startLine" : 309,
+          "startColumn" : 39,
+          "endLine" : 309,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/isVowel"
+      }, {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 309,
+          "startColumn" : 51,
+          "endLine" : 309,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/isVowel"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Metaphone"
+    },
+    "encode" : {
+      "name" : "encode",
+      "key" : "org.apache.commons.codec.language.Metaphone/method/encode",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 371,
+        "startColumn" : 19,
+        "endLine" : 371,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pString",
+        "key" : "pString",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 371,
+          "startColumn" : 33,
+          "endLine" : 371,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/encode"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Metaphone"
+    },
+    "isNextChar" : {
+      "name" : "isNextChar",
+      "key" : "org.apache.commons.codec.language.Metaphone/method/isNextChar",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 322,
+        "startColumn" : 18,
+        "endLine" : 322,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "string",
+        "key" : "string",
+        "type" : "java.lang.StringBuffer",
+        "position" : {
+          "startLine" : 322,
+          "startColumn" : 42,
+          "endLine" : 322,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/isNextChar"
+      }, {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 322,
+          "startColumn" : 54,
+          "endLine" : 322,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/isNextChar"
+      }, {
+        "name" : "c",
+        "key" : "c",
+        "type" : "char",
+        "position" : {
+          "startLine" : 322,
+          "startColumn" : 66,
+          "endLine" : 322,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/isNextChar"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Metaphone"
+    },
+    "isLastChar" : {
+      "name" : "isLastChar",
+      "key" : "org.apache.commons.codec.language.Metaphone/method/isLastChar",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 341,
+        "startColumn" : 18,
+        "endLine" : 341,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "wdsz",
+        "key" : "wdsz",
+        "type" : "int",
+        "position" : {
+          "startLine" : 341,
+          "startColumn" : 33,
+          "endLine" : 341,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/isLastChar"
+      }, {
+        "name" : "n",
+        "key" : "n",
+        "type" : "int",
+        "position" : {
+          "startLine" : 341,
+          "startColumn" : 43,
+          "endLine" : 341,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/isLastChar"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Metaphone"
+    },
+    "getMaxCodeLen" : {
+      "name" : "getMaxCodeLen",
+      "key" : "org.apache.commons.codec.language.Metaphone/method/getMaxCodeLen",
+      "type" : "int",
+      "position" : {
+        "startLine" : 391,
+        "startColumn" : 16,
+        "endLine" : 391,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Metaphone"
+    },
+    "setMaxCodeLen" : {
+      "name" : "setMaxCodeLen",
+      "key" : "org.apache.commons.codec.language.Metaphone/method/setMaxCodeLen",
+      "type" : "void",
+      "position" : {
+        "startLine" : 397,
+        "startColumn" : 17,
+        "endLine" : 397,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "maxCodeLen",
+        "key" : "maxCodeLen",
+        "type" : "int",
+        "position" : {
+          "startLine" : 397,
+          "startColumn" : 35,
+          "endLine" : 397,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/setMaxCodeLen"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Metaphone"
+    },
+    "metaphone" : {
+      "name" : "metaphone",
+      "key" : "org.apache.commons.codec.language.Metaphone/method/metaphone",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 19,
+        "endLine" : 75,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "txt",
+        "key" : "txt",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 75,
+          "startColumn" : 36,
+          "endLine" : 75,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/metaphone"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Metaphone"
+    },
+    "isPreviousChar" : {
+      "name" : "isPreviousChar",
+      "key" : "org.apache.commons.codec.language.Metaphone/method/isPreviousChar",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 313,
+        "startColumn" : 18,
+        "endLine" : 313,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "string",
+        "key" : "string",
+        "type" : "java.lang.StringBuffer",
+        "position" : {
+          "startLine" : 313,
+          "startColumn" : 46,
+          "endLine" : 313,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/isPreviousChar"
+      }, {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 313,
+          "startColumn" : 58,
+          "endLine" : 313,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/isPreviousChar"
+      }, {
+        "name" : "c",
+        "key" : "c",
+        "type" : "char",
+        "position" : {
+          "startLine" : 313,
+          "startColumn" : 70,
+          "endLine" : 313,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/isPreviousChar"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Metaphone"
+    },
+    "regionMatch" : {
+      "name" : "regionMatch",
+      "key" : "org.apache.commons.codec.language.Metaphone/method/regionMatch",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 331,
+        "startColumn" : 18,
+        "endLine" : 331,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "string",
+        "key" : "string",
+        "type" : "java.lang.StringBuffer",
+        "position" : {
+          "startLine" : 331,
+          "startColumn" : 43,
+          "endLine" : 331,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/regionMatch"
+      }, {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 331,
+          "startColumn" : 55,
+          "endLine" : 331,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/regionMatch"
+      }, {
+        "name" : "test",
+        "key" : "test",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 331,
+          "startColumn" : 69,
+          "endLine" : 331,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/regionMatch"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Metaphone"
+    },
+    "isMetaphoneEqual" : {
+      "name" : "isMetaphoneEqual",
+      "key" : "org.apache.commons.codec.language.Metaphone/method/isMetaphoneEqual",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 383,
+        "startColumn" : 20,
+        "endLine" : 383,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "str1",
+        "key" : "str1",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 383,
+          "startColumn" : 44,
+          "endLine" : 383,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/isMetaphoneEqual"
+      }, {
+        "name" : "str2",
+        "key" : "str2",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 383,
+          "startColumn" : 57,
+          "endLine" : 383,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Metaphone/method/isMetaphoneEqual"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Metaphone"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.apache.commons.codec.StringEncoder" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

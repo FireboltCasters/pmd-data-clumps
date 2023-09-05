@@ -1,0 +1,965 @@
+{
+  "name" : "DefaultUndoManager",
+  "key" : "org.argouml.kernel.DefaultUndoManager",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 1,
+    "endLine" : 44,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "undoMax" : {
+      "name" : "undoMax",
+      "key" : "undoMax",
+      "type" : "int",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 17,
+        "endLine" : 53,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.DefaultUndoManager/memberField/undoMax",
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "listeners" : {
+      "name" : "listeners",
+      "key" : "listeners",
+      "type" : "java.util.ArrayList",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 47,
+        "endLine" : 55,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.DefaultUndoManager/memberField/listeners",
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "newInteraction" : {
+      "name" : "newInteraction",
+      "key" : "newInteraction",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 21,
+        "endLine" : 61,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.DefaultUndoManager/memberField/newInteraction",
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 33,
+        "endLine" : 46,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.DefaultUndoManager/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "INSTANCE" : {
+      "name" : "INSTANCE",
+      "key" : "INSTANCE",
+      "type" : "UndoManager",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 38,
+        "endLine" : 72,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.DefaultUndoManager/memberField/INSTANCE",
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "newInteractionLabel" : {
+      "name" : "newInteractionLabel",
+      "key" : "newInteractionLabel",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 20,
+        "endLine" : 67,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.DefaultUndoManager/memberField/newInteractionLabel",
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "redoStack" : {
+      "name" : "redoStack",
+      "key" : "redoStack",
+      "type" : "org.argouml.kernel.DefaultUndoManager.RedoStack",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 23,
+        "endLine" : 70,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.DefaultUndoManager/memberField/redoStack",
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "undoStack" : {
+      "name" : "undoStack",
+      "key" : "undoStack",
+      "type" : "org.argouml.kernel.DefaultUndoManager.UndoStack",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 23,
+        "endLine" : 69,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.kernel.DefaultUndoManager/memberField/undoStack",
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    }
+  },
+  "methods" : {
+    "undo" : {
+      "name" : "undo",
+      "key" : "org.argouml.kernel.DefaultUndoManager/method/undo",
+      "type" : "void",
+      "position" : {
+        "startLine" : 129,
+        "startColumn" : 30,
+        "endLine" : 129,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "startInteraction" : {
+      "name" : "startInteraction",
+      "key" : "org.argouml.kernel.DefaultUndoManager/method/startInteraction",
+      "type" : "void",
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 30,
+        "endLine" : 145,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "label",
+        "key" : "label",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 54,
+          "endLine" : 145,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.DefaultUndoManager/method/startInteraction"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "addCommand" : {
+      "name" : "addCommand",
+      "key" : "org.argouml.kernel.DefaultUndoManager/method/addCommand",
+      "type" : "void",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 30,
+        "endLine" : 96,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "command",
+        "key" : "command",
+        "type" : "Command",
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 49,
+          "endLine" : 96,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.DefaultUndoManager/method/addCommand"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "fire" : {
+      "name" : "fire",
+      "key" : "org.argouml.kernel.DefaultUndoManager/method/fire",
+      "type" : "void",
+      "position" : {
+        "startLine" : 159,
+        "startColumn" : 18,
+        "endLine" : 159,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "property",
+        "key" : "property",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 159,
+          "startColumn" : 36,
+          "endLine" : 159,
+          "endColumn" : 44
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.DefaultUndoManager/method/fire"
+      }, {
+        "name" : "value",
+        "key" : "value",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 159,
+          "startColumn" : 59,
+          "endLine" : 159,
+          "endColumn" : 64
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.DefaultUndoManager/method/fire"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.kernel.DefaultUndoManager/method/getInstance",
+      "type" : "UndoManager",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 31,
+        "endLine" : 87,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "redo" : {
+      "name" : "redo",
+      "key" : "org.argouml.kernel.DefaultUndoManager/method/redo",
+      "type" : "void",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 30,
+        "endLine" : 139,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "addPropertyChangeListener" : {
+      "name" : "addPropertyChangeListener",
+      "key" : "org.argouml.kernel.DefaultUndoManager/method/addPropertyChangeListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 17,
+        "endLine" : 151,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "java.beans.PropertyChangeListener",
+        "position" : {
+          "startLine" : 151,
+          "startColumn" : 66,
+          "endLine" : 151,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.DefaultUndoManager/method/addPropertyChangeListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "removePropertyChangeListener" : {
+      "name" : "removePropertyChangeListener",
+      "key" : "org.argouml.kernel.DefaultUndoManager/method/removePropertyChangeListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 17,
+        "endLine" : 155,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "java.beans.PropertyChangeListener",
+        "position" : {
+          "startLine" : 155,
+          "startColumn" : 69,
+          "endLine" : 155,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.DefaultUndoManager/method/removePropertyChangeListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "execute" : {
+      "name" : "execute",
+      "key" : "org.argouml.kernel.DefaultUndoManager/method/execute",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 32,
+        "endLine" : 91,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "command",
+        "key" : "command",
+        "type" : "Command",
+        "position" : {
+          "startLine" : 91,
+          "startColumn" : 48,
+          "endLine" : 91,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.DefaultUndoManager/method/execute"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    },
+    "setUndoMax" : {
+      "name" : "setUndoMax",
+      "key" : "org.argouml.kernel.DefaultUndoManager/method/setUndoMax",
+      "type" : "void",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 17,
+        "endLine" : 124,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "max",
+        "key" : "max",
+        "type" : "int",
+        "position" : {
+          "startLine" : 124,
+          "startColumn" : 32,
+          "endLine" : 124,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.kernel.DefaultUndoManager/method/setUndoMax"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "UndoManager" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.kernel.DefaultUndoManager.InteractionStack" : {
+      "name" : "InteractionStack",
+      "key" : "org.argouml.kernel.DefaultUndoManager.InteractionStack",
+      "type" : "class",
+      "position" : {
+        "startLine" : 248,
+        "startColumn" : 22,
+        "endLine" : 248,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE", "ABSTRACT" ],
+      "fields" : {
+        "sizeProperty" : {
+          "name" : "sizeProperty",
+          "key" : "sizeProperty",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 253,
+            "startColumn" : 24,
+            "endLine" : 253,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.kernel.DefaultUndoManager.InteractionStack/memberField/sizeProperty",
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.InteractionStack"
+        },
+        "addedProperty" : {
+          "name" : "addedProperty",
+          "key" : "addedProperty",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 251,
+            "startColumn" : 24,
+            "endLine" : 251,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.kernel.DefaultUndoManager.InteractionStack/memberField/addedProperty",
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.InteractionStack"
+        },
+        "removedProperty" : {
+          "name" : "removedProperty",
+          "key" : "removedProperty",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 252,
+            "startColumn" : 24,
+            "endLine" : 252,
+            "endColumn" : 39
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.kernel.DefaultUndoManager.InteractionStack/memberField/removedProperty",
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.InteractionStack"
+        },
+        "labelProperty" : {
+          "name" : "labelProperty",
+          "key" : "labelProperty",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 250,
+            "startColumn" : 24,
+            "endLine" : 250,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.kernel.DefaultUndoManager.InteractionStack/memberField/labelProperty",
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.InteractionStack"
+        }
+      },
+      "methods" : {
+        "pop" : {
+          "name" : "pop",
+          "key" : "org.argouml.kernel.DefaultUndoManager.InteractionStack/method/pop",
+          "type" : "org.argouml.kernel.DefaultUndoManager.Interaction",
+          "position" : {
+            "startLine" : 274,
+            "startColumn" : 28,
+            "endLine" : 274,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.InteractionStack"
+        },
+        "fireLabel" : {
+          "name" : "fireLabel",
+          "key" : "org.argouml.kernel.DefaultUndoManager.InteractionStack/method/fireLabel",
+          "type" : "void",
+          "position" : {
+            "startLine" : 282,
+            "startColumn" : 22,
+            "endLine" : 282,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.InteractionStack"
+        },
+        "getLabel" : {
+          "name" : "getLabel",
+          "key" : "org.argouml.kernel.DefaultUndoManager.InteractionStack/method/getLabel",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 286,
+            "startColumn" : 35,
+            "endLine" : 286,
+            "endColumn" : 43
+          },
+          "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.InteractionStack"
+        },
+        "push" : {
+          "name" : "push",
+          "key" : "org.argouml.kernel.DefaultUndoManager.InteractionStack/method/push",
+          "type" : "org.argouml.kernel.DefaultUndoManager.Interaction",
+          "position" : {
+            "startLine" : 266,
+            "startColumn" : 28,
+            "endLine" : 266,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "item",
+            "key" : "item",
+            "type" : "org.argouml.kernel.DefaultUndoManager.Interaction",
+            "position" : {
+              "startLine" : 266,
+              "startColumn" : 45,
+              "endLine" : 266,
+              "endColumn" : 49
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.kernel.DefaultUndoManager.InteractionStack/method/push"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.InteractionStack"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "java.util.Stack", "org.argouml.kernel.DefaultUndoManager.Interaction" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.kernel.DefaultUndoManager",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.kernel.DefaultUndoManager.UndoStack" : {
+      "name" : "UndoStack",
+      "key" : "org.argouml.kernel.DefaultUndoManager.UndoStack",
+      "type" : "class",
+      "position" : {
+        "startLine" : 289,
+        "startColumn" : 13,
+        "endLine" : 289,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "fields" : { },
+      "methods" : {
+        "pop" : {
+          "name" : "pop",
+          "key" : "org.argouml.kernel.DefaultUndoManager.UndoStack/method/pop",
+          "type" : "org.argouml.kernel.DefaultUndoManager.Interaction",
+          "position" : {
+            "startLine" : 307,
+            "startColumn" : 28,
+            "endLine" : 307,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.UndoStack"
+        },
+        "getLabel" : {
+          "name" : "getLabel",
+          "key" : "org.argouml.kernel.DefaultUndoManager.UndoStack/method/getLabel",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 321,
+            "startColumn" : 26,
+            "endLine" : 321,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.UndoStack"
+        },
+        "clear" : {
+          "name" : "clear",
+          "key" : "org.argouml.kernel.DefaultUndoManager.UndoStack/method/clear",
+          "type" : "void",
+          "position" : {
+            "startLine" : 315,
+            "startColumn" : 21,
+            "endLine" : 315,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.UndoStack"
+        },
+        "push" : {
+          "name" : "push",
+          "key" : "org.argouml.kernel.DefaultUndoManager.UndoStack/method/push",
+          "type" : "org.argouml.kernel.DefaultUndoManager.Interaction",
+          "position" : {
+            "startLine" : 299,
+            "startColumn" : 28,
+            "endLine" : 299,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "item",
+            "key" : "item",
+            "type" : "org.argouml.kernel.DefaultUndoManager.Interaction",
+            "position" : {
+              "startLine" : 299,
+              "startColumn" : 45,
+              "endLine" : 299,
+              "endColumn" : 49
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.kernel.DefaultUndoManager.UndoStack/method/push"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.UndoStack"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.kernel.DefaultUndoManager.InteractionStack" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.kernel.DefaultUndoManager",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.kernel.DefaultUndoManager.RedoStack" : {
+      "name" : "RedoStack",
+      "key" : "org.argouml.kernel.DefaultUndoManager.RedoStack",
+      "type" : "class",
+      "position" : {
+        "startLine" : 330,
+        "startColumn" : 13,
+        "endLine" : 330,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "fields" : { },
+      "methods" : {
+        "pop" : {
+          "name" : "pop",
+          "key" : "org.argouml.kernel.DefaultUndoManager.RedoStack/method/pop",
+          "type" : "org.argouml.kernel.DefaultUndoManager.Interaction",
+          "position" : {
+            "startLine" : 349,
+            "startColumn" : 28,
+            "endLine" : 349,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.RedoStack"
+        },
+        "getLabel" : {
+          "name" : "getLabel",
+          "key" : "org.argouml.kernel.DefaultUndoManager.RedoStack/method/getLabel",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 363,
+            "startColumn" : 26,
+            "endLine" : 363,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.RedoStack"
+        },
+        "clear" : {
+          "name" : "clear",
+          "key" : "org.argouml.kernel.DefaultUndoManager.RedoStack/method/clear",
+          "type" : "void",
+          "position" : {
+            "startLine" : 357,
+            "startColumn" : 21,
+            "endLine" : 357,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.RedoStack"
+        },
+        "push" : {
+          "name" : "push",
+          "key" : "org.argouml.kernel.DefaultUndoManager.RedoStack/method/push",
+          "type" : "org.argouml.kernel.DefaultUndoManager.Interaction",
+          "position" : {
+            "startLine" : 341,
+            "startColumn" : 28,
+            "endLine" : 341,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "item",
+            "key" : "item",
+            "type" : "org.argouml.kernel.DefaultUndoManager.Interaction",
+            "position" : {
+              "startLine" : 341,
+              "startColumn" : 45,
+              "endLine" : 341,
+              "endColumn" : 49
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.kernel.DefaultUndoManager.RedoStack/method/push"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.RedoStack"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.kernel.DefaultUndoManager.InteractionStack" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.kernel.DefaultUndoManager",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.kernel.DefaultUndoManager.Interaction" : {
+      "name" : "Interaction",
+      "key" : "org.argouml.kernel.DefaultUndoManager.Interaction",
+      "type" : "class",
+      "position" : {
+        "startLine" : 173,
+        "startColumn" : 5,
+        "endLine" : 173,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : {
+        "label" : {
+          "name" : "label",
+          "key" : "label",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 177,
+            "startColumn" : 24,
+            "endLine" : 177,
+            "endColumn" : 29
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.kernel.DefaultUndoManager.Interaction/memberField/label",
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.Interaction"
+        },
+        "commands" : {
+          "name" : "commands",
+          "key" : "commands",
+          "type" : "java.util.List",
+          "position" : {
+            "startLine" : 175,
+            "startColumn" : 31,
+            "endLine" : 175,
+            "endColumn" : 39
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.kernel.DefaultUndoManager.Interaction/memberField/commands",
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.Interaction"
+        }
+      },
+      "methods" : {
+        "getUndoLabel" : {
+          "name" : "getUndoLabel",
+          "key" : "org.argouml.kernel.DefaultUndoManager.Interaction/method/getUndoLabel",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 226,
+            "startColumn" : 24,
+            "endLine" : 226,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.Interaction"
+        },
+        "undo" : {
+          "name" : "undo",
+          "key" : "org.argouml.kernel.DefaultUndoManager.Interaction/method/undo",
+          "type" : "void",
+          "position" : {
+            "startLine" : 183,
+            "startColumn" : 21,
+            "endLine" : 183,
+            "endColumn" : 25
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.Interaction"
+        },
+        "isRedoable" : {
+          "name" : "isRedoable",
+          "key" : "org.argouml.kernel.DefaultUndoManager.Interaction/method/isRedoable",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 210,
+            "startColumn" : 24,
+            "endLine" : 210,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.Interaction"
+        },
+        "getRedoLabel" : {
+          "name" : "getRedoLabel",
+          "key" : "org.argouml.kernel.DefaultUndoManager.Interaction/method/getRedoLabel",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 235,
+            "startColumn" : 24,
+            "endLine" : 235,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.Interaction"
+        },
+        "isUndoable" : {
+          "name" : "isUndoable",
+          "key" : "org.argouml.kernel.DefaultUndoManager.Interaction/method/isUndoable",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 199,
+            "startColumn" : 24,
+            "endLine" : 199,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.Interaction"
+        },
+        "addCommand" : {
+          "name" : "addCommand",
+          "key" : "org.argouml.kernel.DefaultUndoManager.Interaction/method/addCommand",
+          "type" : "void",
+          "position" : {
+            "startLine" : 221,
+            "startColumn" : 22,
+            "endLine" : 221,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "command",
+            "key" : "command",
+            "type" : "Command",
+            "position" : {
+              "startLine" : 221,
+              "startColumn" : 41,
+              "endLine" : 221,
+              "endColumn" : 48
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.kernel.DefaultUndoManager.Interaction/method/addCommand"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.Interaction"
+        },
+        "execute" : {
+          "name" : "execute",
+          "key" : "org.argouml.kernel.DefaultUndoManager.Interaction/method/execute",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 191,
+            "startColumn" : 23,
+            "endLine" : 191,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.Interaction"
+        },
+        "getCommands" : {
+          "name" : "getCommands",
+          "key" : "org.argouml.kernel.DefaultUndoManager.Interaction/method/getCommands",
+          "type" : "java.util.List",
+          "position" : {
+            "startLine" : 243,
+            "startColumn" : 23,
+            "endLine" : 243,
+            "endColumn" : 34
+          },
+          "modifiers" : [ ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.kernel.DefaultUndoManager.Interaction"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "AbstractCommand" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.kernel.DefaultUndoManager",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

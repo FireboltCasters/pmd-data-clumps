@@ -1,0 +1,216 @@
+{
+  "name" : "UMLComboBoxNavigator",
+  "key" : "org.argouml.uml.ui.UMLComboBoxNavigator",
+  "type" : "class",
+  "position" : {
+    "startLine" : 48,
+    "startColumn" : 8,
+    "endLine" : 48,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "theContainer" : {
+      "name" : "theContainer",
+      "key" : "theContainer",
+      "type" : "UMLUserInterfaceContainer",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 39,
+        "endLine" : 54,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLComboBoxNavigator/memberField/theContainer",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxNavigator"
+    },
+    "icon" : {
+      "name" : "icon",
+      "key" : "icon",
+      "type" : "javax.swing.ImageIcon",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 30,
+        "endLine" : 51,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLComboBoxNavigator/memberField/icon",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxNavigator"
+    },
+    "theButton" : {
+      "name" : "theButton",
+      "key" : "theButton",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 21,
+        "endLine" : 58,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLComboBoxNavigator/memberField/theButton",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxNavigator"
+    },
+    "theComboBox" : {
+      "name" : "theComboBox",
+      "key" : "theComboBox",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 23,
+        "endLine" : 56,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLComboBoxNavigator/memberField/theComboBox",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxNavigator"
+    }
+  },
+  "methods" : {
+    "setButtonEnabled" : {
+      "name" : "setButtonEnabled",
+      "key" : "org.argouml.uml.ui.UMLComboBoxNavigator/method/setButtonEnabled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 159,
+        "startColumn" : 18,
+        "endLine" : 159,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 159,
+          "startColumn" : 42,
+          "endLine" : 159,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLComboBoxNavigator/method/setButtonEnabled"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxNavigator"
+    },
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.UMLComboBoxNavigator/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 17,
+        "endLine" : 128,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 128,
+          "startColumn" : 66,
+          "endLine" : 128,
+          "endColumn" : 71
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLComboBoxNavigator/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxNavigator"
+    },
+    "setEnabled" : {
+      "name" : "setEnabled",
+      "key" : "org.argouml.uml.ui.UMLComboBoxNavigator/method/setEnabled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 176,
+        "startColumn" : 17,
+        "endLine" : 176,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "enabled",
+        "key" : "enabled",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 176,
+          "startColumn" : 36,
+          "endLine" : 176,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLComboBoxNavigator/method/setEnabled"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxNavigator"
+    },
+    "itemStateChanged" : {
+      "name" : "itemStateChanged",
+      "key" : "org.argouml.uml.ui.UMLComboBoxNavigator/method/itemStateChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 17,
+        "endLine" : 151,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "java.awt.event.ItemEvent",
+        "position" : {
+          "startLine" : 151,
+          "startColumn" : 44,
+          "endLine" : 151,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLComboBoxNavigator/method/itemStateChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxNavigator"
+    },
+    "getPreferredSize" : {
+      "name" : "getPreferredSize",
+      "key" : "org.argouml.uml.ui.UMLComboBoxNavigator/method/getPreferredSize",
+      "type" : "java.awt.Dimension",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 22,
+        "endLine" : 114,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLComboBoxNavigator"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.event.ActionListener", "java.awt.event.ItemListener" ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

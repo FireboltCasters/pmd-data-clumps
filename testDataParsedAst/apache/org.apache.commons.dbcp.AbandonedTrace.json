@@ -1,0 +1,341 @@
+{
+  "name" : "AbandonedTrace",
+  "key" : "org.apache.commons.dbcp.AbandonedTrace",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "lastUsed" : {
+      "name" : "lastUsed",
+      "key" : "lastUsed",
+      "type" : "long",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 18,
+        "endLine" : 52,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.AbandonedTrace/memberField/lastUsed",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    },
+    "parent" : {
+      "name" : "parent",
+      "key" : "parent",
+      "type" : "org.apache.commons.dbcp.AbandonedTrace",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 28,
+        "endLine" : 45,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.AbandonedTrace/memberField/parent",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    },
+    "trace" : {
+      "name" : "trace",
+      "key" : "trace",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 18,
+        "endLine" : 50,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.AbandonedTrace/memberField/trace",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    },
+    "createdBy" : {
+      "name" : "createdBy",
+      "key" : "createdBy",
+      "type" : "java.lang.Exception",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 23,
+        "endLine" : 47,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.AbandonedTrace/memberField/createdBy",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    },
+    "format" : {
+      "name" : "format",
+      "key" : "format",
+      "type" : "java.text.SimpleDateFormat",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 37,
+        "endLine" : 38,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.AbandonedTrace/memberField/format",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    },
+    "createdTime" : {
+      "name" : "createdTime",
+      "key" : "createdTime",
+      "type" : "long",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 18,
+        "endLine" : 48,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.AbandonedTrace/memberField/createdTime",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    },
+    "config" : {
+      "name" : "config",
+      "key" : "config",
+      "type" : "AbandonedConfig",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 29,
+        "endLine" : 43,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.AbandonedTrace/memberField/config",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    }
+  },
+  "methods" : {
+    "init" : {
+      "name" : "init",
+      "key" : "org.apache.commons.dbcp.AbandonedTrace/method/init",
+      "type" : "void",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 18,
+        "endLine" : 87,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parent",
+        "key" : "parent",
+        "type" : "org.apache.commons.dbcp.AbandonedTrace",
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 38,
+          "endLine" : 87,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.AbandonedTrace/method/init"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    },
+    "setLastUsed" : {
+      "name" : "setLastUsed",
+      "key" : "org.apache.commons.dbcp.AbandonedTrace/method/setLastUsed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 20,
+        "endLine" : 139,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "time",
+        "key" : "time",
+        "type" : "long",
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 37,
+          "endLine" : 139,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.AbandonedTrace/method/setLastUsed"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    },
+    "getLastUsed" : {
+      "name" : "getLastUsed",
+      "key" : "org.apache.commons.dbcp.AbandonedTrace/method/getLastUsed",
+      "type" : "long",
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 20,
+        "endLine" : 115,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    },
+    "setStackTrace" : {
+      "name" : "setStackTrace",
+      "key" : "org.apache.commons.dbcp.AbandonedTrace/method/setStackTrace",
+      "type" : "void",
+      "position" : {
+        "startLine" : 152,
+        "startColumn" : 20,
+        "endLine" : 152,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    },
+    "printStackTrace" : {
+      "name" : "printStackTrace",
+      "key" : "org.apache.commons.dbcp.AbandonedTrace/method/printStackTrace",
+      "type" : "void",
+      "position" : {
+        "startLine" : 201,
+        "startColumn" : 17,
+        "endLine" : 201,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    },
+    "removeTrace" : {
+      "name" : "removeTrace",
+      "key" : "org.apache.commons.dbcp.AbandonedTrace/method/removeTrace",
+      "type" : "void",
+      "position" : {
+        "startLine" : 220,
+        "startColumn" : 33,
+        "endLine" : 220,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "trace",
+        "key" : "trace",
+        "type" : "org.apache.commons.dbcp.AbandonedTrace",
+        "position" : {
+          "startLine" : 220,
+          "startColumn" : 60,
+          "endLine" : 220,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.AbandonedTrace/method/removeTrace"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    },
+    "getTrace" : {
+      "name" : "getTrace",
+      "key" : "org.apache.commons.dbcp.AbandonedTrace/method/getTrace",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 193,
+        "startColumn" : 20,
+        "endLine" : 193,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    },
+    "getConfig" : {
+      "name" : "getConfig",
+      "key" : "org.apache.commons.dbcp.AbandonedTrace/method/getConfig",
+      "type" : "AbandonedConfig",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 31,
+        "endLine" : 106,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    },
+    "addTrace" : {
+      "name" : "addTrace",
+      "key" : "org.apache.commons.dbcp.AbandonedTrace/method/addTrace",
+      "type" : "void",
+      "position" : {
+        "startLine" : 171,
+        "startColumn" : 20,
+        "endLine" : 171,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "trace",
+        "key" : "trace",
+        "type" : "org.apache.commons.dbcp.AbandonedTrace",
+        "position" : {
+          "startLine" : 171,
+          "startColumn" : 44,
+          "endLine" : 171,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.AbandonedTrace/method/addTrace"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    },
+    "clearTrace" : {
+      "name" : "clearTrace",
+      "key" : "org.apache.commons.dbcp.AbandonedTrace/method/clearTrace",
+      "type" : "void",
+      "position" : {
+        "startLine" : 182,
+        "startColumn" : 33,
+        "endLine" : 182,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PROTECTED", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.AbandonedTrace"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

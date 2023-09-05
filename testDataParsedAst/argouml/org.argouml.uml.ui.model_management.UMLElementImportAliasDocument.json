@@ -1,0 +1,68 @@
+{
+  "name" : "UMLElementImportAliasDocument",
+  "key" : "org.argouml.uml.ui.model_management.UMLElementImportAliasDocument",
+  "type" : "class",
+  "position" : {
+    "startLine" : 135,
+    "startColumn" : 1,
+    "endLine" : 135,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "getProperty" : {
+      "name" : "getProperty",
+      "key" : "org.argouml.uml.ui.model_management.UMLElementImportAliasDocument/method/getProperty",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 157,
+        "startColumn" : 22,
+        "endLine" : 157,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.UMLElementImportAliasDocument"
+    },
+    "setProperty" : {
+      "name" : "setProperty",
+      "key" : "org.argouml.uml.ui.model_management.UMLElementImportAliasDocument/method/setProperty",
+      "type" : "void",
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 20,
+        "endLine" : 147,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "text",
+        "key" : "text",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 147,
+          "startColumn" : 39,
+          "endLine" : 147,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.model_management.UMLElementImportAliasDocument/method/setProperty"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.UMLElementImportAliasDocument"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLPlainTextDocument" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,799 @@
+{
+  "name" : "UmlFilePersister",
+  "key" : "org.argouml.persistence.UmlFilePersister",
+  "type" : "class",
+  "position" : {
+    "startLine" : 82,
+    "startColumn" : 8,
+    "endLine" : 82,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "UML_PHASES_LOAD" : {
+      "name" : "UML_PHASES_LOAD",
+      "key" : "UML_PHASES_LOAD",
+      "type" : "int",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 32,
+        "endLine" : 96,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.UmlFilePersister/memberField/UML_PHASES_LOAD",
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 33,
+        "endLine" : 101,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.UmlFilePersister/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "ARGO_TEE" : {
+      "name" : "ARGO_TEE",
+      "key" : "ARGO_TEE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 33,
+        "endLine" : 104,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.UmlFilePersister/memberField/ARGO_TEE",
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "PERSISTENCE_VERSION" : {
+      "name" : "PERSISTENCE_VERSION",
+      "key" : "PERSISTENCE_VERSION",
+      "type" : "int",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 29,
+        "endLine" : 90,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.UmlFilePersister/memberField/PERSISTENCE_VERSION",
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    }
+  },
+  "methods" : {
+    "doSave" : {
+      "name" : "doSave",
+      "key" : "org.argouml.persistence.UmlFilePersister/method/doSave",
+      "type" : "void",
+      "position" : {
+        "startLine" : 140,
+        "startColumn" : 17,
+        "endLine" : 140,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 140,
+          "startColumn" : 32,
+          "endLine" : 140,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/doSave"
+      }, {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 140,
+          "startColumn" : 46,
+          "endLine" : 140,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/doSave"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "getVersion" : {
+      "name" : "getVersion",
+      "key" : "org.argouml.persistence.UmlFilePersister/method/getVersion",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 621,
+        "startColumn" : 22,
+        "endLine" : 621,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rootLine",
+        "key" : "rootLine",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 621,
+          "startColumn" : 40,
+          "endLine" : 621,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/getVersion"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "getExtension" : {
+      "name" : "getExtension",
+      "key" : "org.argouml.persistence.UmlFilePersister/method/getExtension",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 19,
+        "endLine" : 116,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "checkVersion" : {
+      "name" : "checkVersion",
+      "key" : "org.argouml.persistence.UmlFilePersister/method/checkVersion",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 402,
+        "startColumn" : 23,
+        "endLine" : 402,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fileVersion",
+        "key" : "fileVersion",
+        "type" : "int",
+        "position" : {
+          "startLine" : 402,
+          "startColumn" : 40,
+          "endLine" : 402,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/checkVersion"
+      }, {
+        "name" : "releaseVersion",
+        "key" : "releaseVersion",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 402,
+          "startColumn" : 60,
+          "endLine" : 402,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/checkVersion"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "hasAnIcon" : {
+      "name" : "hasAnIcon",
+      "key" : "org.argouml.persistence.UmlFilePersister/method/hasAnIcon",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 639,
+        "startColumn" : 20,
+        "endLine" : 639,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "getReleaseVersion" : {
+      "name" : "getReleaseVersion",
+      "key" : "org.argouml.persistence.UmlFilePersister/method/getReleaseVersion",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 580,
+        "startColumn" : 22,
+        "endLine" : 580,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "inputStream",
+        "key" : "inputStream",
+        "type" : "java.io.InputStream",
+        "position" : {
+          "startLine" : 580,
+          "startColumn" : 52,
+          "endLine" : 580,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/getReleaseVersion"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "getReleaseVersionFromFile" : {
+      "name" : "getReleaseVersionFromFile",
+      "key" : "org.argouml.persistence.UmlFilePersister/method/getReleaseVersionFromFile",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 550,
+        "startColumn" : 20,
+        "endLine" : 550,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 550,
+          "startColumn" : 51,
+          "endLine" : 550,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/getReleaseVersionFromFile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "transform" : {
+      "name" : "transform",
+      "key" : "org.argouml.persistence.UmlFilePersister/method/transform",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 428,
+        "startColumn" : 23,
+        "endLine" : 428,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 428,
+          "startColumn" : 38,
+          "endLine" : 428,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/transform"
+      }, {
+        "name" : "version",
+        "key" : "version",
+        "type" : "int",
+        "position" : {
+          "startLine" : 428,
+          "startColumn" : 48,
+          "endLine" : 428,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/transform"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "isSaveEnabled" : {
+      "name" : "isSaveEnabled",
+      "key" : "org.argouml.persistence.UmlFilePersister/method/isSaveEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 217,
+        "startColumn" : 20,
+        "endLine" : 217,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "doLoad" : {
+      "name" : "doLoad",
+      "key" : "org.argouml.persistence.UmlFilePersister/method/doLoad",
+      "type" : "org.argouml.kernel.Project",
+      "position" : {
+        "startLine" : 308,
+        "startColumn" : 23,
+        "endLine" : 308,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "originalFile",
+        "key" : "originalFile",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 308,
+          "startColumn" : 35,
+          "endLine" : 308,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/doLoad"
+      }, {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 308,
+          "startColumn" : 54,
+          "endLine" : 308,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/doLoad"
+      }, {
+        "name" : "progressMgr",
+        "key" : "progressMgr",
+        "type" : "ProgressMgr",
+        "position" : {
+          "startLine" : 309,
+          "startColumn" : 25,
+          "endLine" : 309,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/doLoad"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "getPersistenceVersionFromFile" : {
+      "name" : "getPersistenceVersionFromFile",
+      "key" : "org.argouml.persistence.UmlFilePersister/method/getPersistenceVersionFromFile",
+      "type" : "int",
+      "position" : {
+        "startLine" : 481,
+        "startColumn" : 17,
+        "endLine" : 481,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 481,
+          "startColumn" : 52,
+          "endLine" : 481,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/getPersistenceVersionFromFile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "writeProject" : {
+      "name" : "writeProject",
+      "key" : "org.argouml.persistence.UmlFilePersister/method/writeProject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 229,
+        "startColumn" : 10,
+        "endLine" : 229,
+        "endColumn" : 22
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 229,
+          "startColumn" : 31,
+          "endLine" : 229,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/writeProject"
+      }, {
+        "name" : "oStream",
+        "key" : "oStream",
+        "type" : "java.io.OutputStream",
+        "position" : {
+          "startLine" : 230,
+          "startColumn" : 26,
+          "endLine" : 230,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/writeProject"
+      }, {
+        "name" : "progressMgr",
+        "key" : "progressMgr",
+        "type" : "ProgressMgr",
+        "position" : {
+          "startLine" : 231,
+          "startColumn" : 25,
+          "endLine" : 231,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/writeProject"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "getDesc" : {
+      "name" : "getDesc",
+      "key" : "org.argouml.persistence.UmlFilePersister/method/getDesc",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 22,
+        "endLine" : 123,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    },
+    "getPersistenceVersion" : {
+      "name" : "getPersistenceVersion",
+      "key" : "org.argouml.persistence.UmlFilePersister/method/getPersistenceVersion",
+      "type" : "int",
+      "position" : {
+        "startLine" : 512,
+        "startColumn" : 19,
+        "endLine" : 512,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "inputStream",
+        "key" : "inputStream",
+        "type" : "java.io.InputStream",
+        "position" : {
+          "startLine" : 512,
+          "startColumn" : 53,
+          "endLine" : 512,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.UmlFilePersister/method/getPersistenceVersion"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbstractFilePersister" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream" : {
+      "name" : "XmlFilterOutputStream",
+      "key" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream",
+      "type" : "class",
+      "position" : {
+        "startLine" : 649,
+        "startColumn" : 5,
+        "endLine" : 649,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : {
+        "inBB" : {
+          "name" : "inBB",
+          "key" : "inBB",
+          "type" : "java.nio.ByteBuffer",
+          "position" : {
+            "startLine" : 660,
+            "startColumn" : 28,
+            "endLine" : 660,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/memberField/inBB",
+          "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream"
+        },
+        "bytes" : {
+          "name" : "bytes",
+          "key" : "bytes",
+          "type" : "byte[]",
+          "position" : {
+            "startLine" : 657,
+            "startColumn" : 24,
+            "endLine" : 657,
+            "endColumn" : 29
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/memberField/bytes",
+          "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream"
+        },
+        "pattern" : {
+          "name" : "pattern",
+          "key" : "pattern",
+          "type" : "java.util.regex.Pattern",
+          "position" : {
+            "startLine" : 665,
+            "startColumn" : 31,
+            "endLine" : 665,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/memberField/pattern",
+          "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream"
+        },
+        "decoder" : {
+          "name" : "decoder",
+          "key" : "decoder",
+          "type" : "java.nio.charset.CharsetDecoder",
+          "position" : {
+            "startLine" : 651,
+            "startColumn" : 32,
+            "endLine" : 651,
+            "endColumn" : 39
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/memberField/decoder",
+          "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream"
+        },
+        "outBB" : {
+          "name" : "outBB",
+          "key" : "outBB",
+          "type" : "java.nio.ByteBuffer",
+          "position" : {
+            "startLine" : 658,
+            "startColumn" : 28,
+            "endLine" : 658,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/memberField/outBB",
+          "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream"
+        },
+        "BUFFER_SIZE" : {
+          "name" : "BUFFER_SIZE",
+          "key" : "BUFFER_SIZE",
+          "type" : "int",
+          "position" : {
+            "startLine" : 655,
+            "startColumn" : 34,
+            "endLine" : 655,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/memberField/BUFFER_SIZE",
+          "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream"
+        },
+        "outCB" : {
+          "name" : "outCB",
+          "key" : "outCB",
+          "type" : "java.nio.CharBuffer",
+          "position" : {
+            "startLine" : 662,
+            "startColumn" : 28,
+            "endLine" : 662,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/memberField/outCB",
+          "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream"
+        },
+        "headerProcessed" : {
+          "name" : "headerProcessed",
+          "key" : "headerProcessed",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 653,
+            "startColumn" : 25,
+            "endLine" : 653,
+            "endColumn" : 40
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/memberField/headerProcessed",
+          "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream"
+        }
+      },
+      "methods" : {
+        "processHeader" : {
+          "name" : "processHeader",
+          "key" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/method/processHeader",
+          "type" : "void",
+          "position" : {
+            "startLine" : 751,
+            "startColumn" : 22,
+            "endLine" : 751,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream"
+        },
+        "reallyClose" : {
+          "name" : "reallyClose",
+          "key" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/method/reallyClose",
+          "type" : "void",
+          "position" : {
+            "startLine" : 789,
+            "startColumn" : 21,
+            "endLine" : 789,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream"
+        },
+        "flush" : {
+          "name" : "flush",
+          "key" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/method/flush",
+          "type" : "void",
+          "position" : {
+            "startLine" : 798,
+            "startColumn" : 21,
+            "endLine" : 798,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream"
+        },
+        "startEntry" : {
+          "name" : "startEntry",
+          "key" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/method/startEntry",
+          "type" : "void",
+          "position" : {
+            "startLine" : 699,
+            "startColumn" : 21,
+            "endLine" : 699,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream"
+        },
+        "write" : {
+          "name" : "write",
+          "key" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/method/write",
+          "type" : "void",
+          "position" : {
+            "startLine" : 727,
+            "startColumn" : 21,
+            "endLine" : 727,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "b",
+            "key" : "b",
+            "type" : "int",
+            "position" : {
+              "startLine" : 727,
+              "startColumn" : 31,
+              "endLine" : 727,
+              "endColumn" : 32
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/method/write"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream"
+        },
+        "close" : {
+          "name" : "close",
+          "key" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/method/close",
+          "type" : "void",
+          "position" : {
+            "startLine" : 780,
+            "startColumn" : 21,
+            "endLine" : 780,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream"
+        },
+        "resetBuffers" : {
+          "name" : "resetBuffers",
+          "key" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream/method/resetBuffers",
+          "type" : "void",
+          "position" : {
+            "startLine" : 704,
+            "startColumn" : 22,
+            "endLine" : 704,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.persistence.UmlFilePersister.XmlFilterOutputStream"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "java.io.FilterOutputStream" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.persistence.UmlFilePersister",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,83 @@
+{
+  "name" : "ActionManageProfiles",
+  "key" : "org.argouml.ui.explorer.ActionManageProfiles",
+  "type" : "class",
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "dialog" : {
+      "name" : "dialog",
+      "key" : "dialog",
+      "type" : "org.argouml.ui.ProjectSettingsDialog",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 35,
+        "endLine" : 50,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.ActionManageProfiles/memberField/dialog",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ActionManageProfiles"
+    },
+    "profilesTab" : {
+      "name" : "profilesTab",
+      "key" : "profilesTab",
+      "type" : "org.argouml.ui.ProjectSettingsTabProfile",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 39,
+        "endLine" : 51,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.ActionManageProfiles/memberField/profilesTab",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ActionManageProfiles"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.explorer.ActionManageProfiles/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 17,
+        "endLine" : 67,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 45,
+          "endLine" : 67,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ActionManageProfiles/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ActionManageProfiles"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.AbstractAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

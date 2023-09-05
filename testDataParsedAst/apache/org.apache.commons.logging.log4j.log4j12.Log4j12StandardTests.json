@@ -1,0 +1,52 @@
+{
+  "name" : "Log4j12StandardTests",
+  "key" : "org.apache.commons.logging.log4j.log4j12.Log4j12StandardTests",
+  "type" : "class",
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "setUpTestAppender" : {
+      "name" : "setUpTestAppender",
+      "key" : "org.apache.commons.logging.log4j.log4j12.Log4j12StandardTests/method/setUpTestAppender",
+      "type" : "void",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 17,
+        "endLine" : 34,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "logEvents",
+        "key" : "logEvents",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 34,
+          "startColumn" : 40,
+          "endLine" : 34,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.log4j.log4j12.Log4j12StandardTests/method/setUpTestAppender"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.log4j.log4j12.Log4j12StandardTests"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.logging.log4j.StandardTests" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

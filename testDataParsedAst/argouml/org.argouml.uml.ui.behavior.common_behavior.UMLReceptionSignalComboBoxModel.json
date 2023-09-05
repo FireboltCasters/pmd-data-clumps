@@ -1,0 +1,113 @@
+{
+  "name" : "UMLReceptionSignalComboBoxModel",
+  "key" : "org.argouml.uml.ui.behavior.common_behavior.UMLReceptionSignalComboBoxModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.UMLReceptionSignalComboBoxModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 20,
+        "endLine" : 54,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.UMLReceptionSignalComboBoxModel"
+    },
+    "getSelectedModelElement" : {
+      "name" : "getSelectedModelElement",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.UMLReceptionSignalComboBoxModel/method/getSelectedModelElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 22,
+        "endLine" : 80,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.UMLReceptionSignalComboBoxModel"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.UMLReceptionSignalComboBoxModel/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 17,
+        "endLine" : 96,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "evt",
+        "key" : "evt",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 52,
+          "endLine" : 96,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.common_behavior.UMLReceptionSignalComboBoxModel/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.UMLReceptionSignalComboBoxModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.UMLReceptionSignalComboBoxModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 23,
+        "endLine" : 73,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "m",
+        "key" : "m",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 45,
+          "endLine" : 73,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.common_behavior.UMLReceptionSignalComboBoxModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.UMLReceptionSignalComboBoxModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLComboBoxModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

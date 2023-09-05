@@ -1,0 +1,175 @@
+{
+  "name" : "ProblemsDialog",
+  "key" : "org.argouml.uml.reveng.ui.ProblemsDialog",
+  "type" : "class",
+  "position" : {
+    "startLine" : 48,
+    "startColumn" : 1,
+    "endLine" : 48,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "parentFrame" : {
+      "name" : "parentFrame",
+      "key" : "parentFrame",
+      "type" : "java.awt.Frame",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 19,
+        "endLine" : 50,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.ProblemsDialog/memberField/parentFrame",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ProblemsDialog"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 131,
+        "startColumn" : 31,
+        "endLine" : 131,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.ProblemsDialog/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ProblemsDialog"
+    },
+    "abortButton" : {
+      "name" : "abortButton",
+      "key" : "abortButton",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 21,
+        "endLine" : 51,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.ProblemsDialog/memberField/abortButton",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ProblemsDialog"
+    },
+    "aborted" : {
+      "name" : "aborted",
+      "key" : "aborted",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 21,
+        "endLine" : 54,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.ProblemsDialog/memberField/aborted",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ProblemsDialog"
+    },
+    "northLabel" : {
+      "name" : "northLabel",
+      "key" : "northLabel",
+      "type" : "javax.swing.JLabel",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 20,
+        "endLine" : 53,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.ProblemsDialog/memberField/northLabel",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ProblemsDialog"
+    },
+    "continueButton" : {
+      "name" : "continueButton",
+      "key" : "continueButton",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 21,
+        "endLine" : 52,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.ProblemsDialog/memberField/continueButton",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ProblemsDialog"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.reveng.ui.ProblemsDialog/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 17,
+        "endLine" : 108,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 108,
+          "startColumn" : 45,
+          "endLine" : 108,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.ProblemsDialog/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ProblemsDialog"
+    },
+    "disposeDialog" : {
+      "name" : "disposeDialog",
+      "key" : "org.argouml.uml.reveng.ui.ProblemsDialog/method/disposeDialog",
+      "type" : "void",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 18,
+        "endLine" : 123,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ProblemsDialog"
+    },
+    "isAborted" : {
+      "name" : "isAborted",
+      "key" : "org.argouml.uml.reveng.ui.ProblemsDialog/method/isAborted",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 20,
+        "endLine" : 119,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.ProblemsDialog"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.event.ActionListener" ],
+  "extends_" : [ "javax.swing.JDialog" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

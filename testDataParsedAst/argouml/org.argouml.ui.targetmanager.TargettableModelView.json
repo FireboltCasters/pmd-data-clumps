@@ -1,0 +1,39 @@
+{
+  "name" : "TargettableModelView",
+  "key" : "org.argouml.ui.targetmanager.TargettableModelView",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "getTargettableModel" : {
+      "name" : "getTargettableModel",
+      "key" : "org.argouml.ui.targetmanager.TargettableModelView/method/getTargettableModel",
+      "type" : "TargetListener",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 27,
+        "endLine" : 43,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargettableModelView"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

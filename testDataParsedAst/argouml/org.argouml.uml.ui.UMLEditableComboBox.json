@@ -1,0 +1,577 @@
+{
+  "name" : "UMLEditableComboBox",
+  "key" : "org.argouml.uml.ui.UMLEditableComboBox",
+  "type" : "class",
+  "position" : {
+    "startLine" : 54,
+    "startColumn" : 17,
+    "endLine" : 54,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.UMLEditableComboBox/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 266,
+        "startColumn" : 17,
+        "endLine" : 266,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 266,
+          "startColumn" : 45,
+          "endLine" : 266,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLEditableComboBox/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox"
+    },
+    "focusGained" : {
+      "name" : "focusGained",
+      "key" : "org.argouml.uml.ui.UMLEditableComboBox/method/focusGained",
+      "type" : "void",
+      "position" : {
+        "startLine" : 293,
+        "startColumn" : 23,
+        "endLine" : 293,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "arg0",
+        "key" : "arg0",
+        "type" : "java.awt.event.FocusEvent",
+        "position" : {
+          "startLine" : 293,
+          "startColumn" : 46,
+          "endLine" : 293,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLEditableComboBox/method/focusGained"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox"
+    },
+    "doOnEdit" : {
+      "name" : "doOnEdit",
+      "key" : "org.argouml.uml.ui.UMLEditableComboBox/method/doOnEdit",
+      "type" : "void",
+      "position" : {
+        "startLine" : 288,
+        "startColumn" : 29,
+        "endLine" : 288,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 288,
+          "startColumn" : 45,
+          "endLine" : 288,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLEditableComboBox/method/doOnEdit"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox"
+    },
+    "focusLost" : {
+      "name" : "focusLost",
+      "key" : "org.argouml.uml.ui.UMLEditableComboBox/method/focusLost",
+      "type" : "void",
+      "position" : {
+        "startLine" : 304,
+        "startColumn" : 23,
+        "endLine" : 304,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "arg0",
+        "key" : "arg0",
+        "type" : "java.awt.event.FocusEvent",
+        "position" : {
+          "startLine" : 304,
+          "startColumn" : 44,
+          "endLine" : 304,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLEditableComboBox/method/focusLost"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.event.FocusListener" ],
+  "extends_" : [ "UMLComboBox2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor" : {
+      "name" : "UMLComboBoxEditor",
+      "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor",
+      "type" : "class",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 15,
+        "endLine" : 67,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "fields" : {
+        "panel" : {
+          "name" : "panel",
+          "key" : "panel",
+          "type" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel",
+          "position" : {
+            "startLine" : 151,
+            "startColumn" : 31,
+            "endLine" : 151,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor/memberField/panel",
+          "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor"
+        },
+        "theShowIcon" : {
+          "name" : "theShowIcon",
+          "key" : "theShowIcon",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 156,
+            "startColumn" : 25,
+            "endLine" : 156,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor/memberField/theShowIcon",
+          "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor"
+        }
+      },
+      "methods" : {
+        "isShowIcon" : {
+          "name" : "isShowIcon",
+          "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor/method/isShowIcon",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 189,
+            "startColumn" : 24,
+            "endLine" : 189,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor"
+        },
+        "selectAll" : {
+          "name" : "selectAll",
+          "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor/method/selectAll",
+          "type" : "void",
+          "position" : {
+            "startLine" : 227,
+            "startColumn" : 21,
+            "endLine" : 227,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor"
+        },
+        "setShowIcon" : {
+          "name" : "setShowIcon",
+          "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor/method/setShowIcon",
+          "type" : "void",
+          "position" : {
+            "startLine" : 197,
+            "startColumn" : 21,
+            "endLine" : 197,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "showIcon",
+            "key" : "showIcon",
+            "type" : "boolean",
+            "position" : {
+              "startLine" : 197,
+              "startColumn" : 41,
+              "endLine" : 197,
+              "endColumn" : 49
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor/method/setShowIcon"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor"
+        },
+        "removeActionListener" : {
+          "name" : "removeActionListener",
+          "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor/method/removeActionListener",
+          "type" : "void",
+          "position" : {
+            "startLine" : 220,
+            "startColumn" : 21,
+            "endLine" : 220,
+            "endColumn" : 41
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "l",
+            "key" : "l",
+            "type" : "java.awt.event.ActionListener",
+            "position" : {
+              "startLine" : 220,
+              "startColumn" : 57,
+              "endLine" : 220,
+              "endColumn" : 58
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor/method/removeActionListener"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor"
+        },
+        "addActionListener" : {
+          "name" : "addActionListener",
+          "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor/method/addActionListener",
+          "type" : "void",
+          "position" : {
+            "startLine" : 211,
+            "startColumn" : 21,
+            "endLine" : 211,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "l",
+            "key" : "l",
+            "type" : "java.awt.event.ActionListener",
+            "position" : {
+              "startLine" : 211,
+              "startColumn" : 54,
+              "endLine" : 211,
+              "endColumn" : 55
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor/method/addActionListener"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor"
+        },
+        "getItem" : {
+          "name" : "getItem",
+          "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor/method/getItem",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 234,
+            "startColumn" : 23,
+            "endLine" : 234,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor"
+        },
+        "getEditorComponent" : {
+          "name" : "getEditorComponent",
+          "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor/method/getEditorComponent",
+          "type" : "java.awt.Component",
+          "position" : {
+            "startLine" : 204,
+            "startColumn" : 26,
+            "endLine" : 204,
+            "endColumn" : 44
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor"
+        },
+        "setItem" : {
+          "name" : "setItem",
+          "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor/method/setItem",
+          "type" : "void",
+          "position" : {
+            "startLine" : 173,
+            "startColumn" : 21,
+            "endLine" : 173,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "anObject",
+            "key" : "anObject",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 173,
+              "startColumn" : 36,
+              "endLine" : 173,
+              "endColumn" : 44
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor/method/setItem"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "javax.swing.plaf.basic.BasicComboBoxEditor" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.UMLEditableComboBox",
+      "innerDefinedClasses" : {
+        "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel" : {
+          "name" : "UMLImagePanel",
+          "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel",
+          "type" : "class",
+          "position" : {
+            "startLine" : 76,
+            "startColumn" : 17,
+            "endLine" : 76,
+            "endColumn" : 22
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "fields" : {
+            "theTextField" : {
+              "name" : "theTextField",
+              "key" : "theTextField",
+              "type" : "javax.swing.JTextField",
+              "position" : {
+                "startLine" : 85,
+                "startColumn" : 32,
+                "endLine" : 85,
+                "endColumn" : 44
+              },
+              "modifiers" : [ "PRIVATE" ],
+              "ignore" : false,
+              "memberFieldKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel/memberField/theTextField",
+              "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel"
+            },
+            "imageIconLabel" : {
+              "name" : "imageIconLabel",
+              "key" : "imageIconLabel",
+              "type" : "javax.swing.JLabel",
+              "position" : {
+                "startLine" : 81,
+                "startColumn" : 28,
+                "endLine" : 81,
+                "endColumn" : 42
+              },
+              "modifiers" : [ "PRIVATE" ],
+              "ignore" : false,
+              "memberFieldKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel/memberField/imageIconLabel",
+              "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel"
+            }
+          },
+          "methods" : {
+            "setIcon" : {
+              "name" : "setIcon",
+              "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel/method/setIcon",
+              "type" : "void",
+              "position" : {
+                "startLine" : 120,
+                "startColumn" : 25,
+                "endLine" : 120,
+                "endColumn" : 32
+              },
+              "modifiers" : [ "PUBLIC" ],
+              "overrideAnnotation" : false,
+              "returnType" : null,
+              "parameters" : [ {
+                "name" : "i",
+                "key" : "i",
+                "type" : "javax.swing.Icon",
+                "position" : {
+                  "startLine" : 120,
+                  "startColumn" : 38,
+                  "endLine" : 120,
+                  "endColumn" : 39
+                },
+                "modifiers" : [ ],
+                "ignore" : false,
+                "methodKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel/method/setIcon"
+              } ],
+              "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel"
+            },
+            "selectAll" : {
+              "name" : "selectAll",
+              "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel/method/selectAll",
+              "type" : "void",
+              "position" : {
+                "startLine" : 137,
+                "startColumn" : 25,
+                "endLine" : 137,
+                "endColumn" : 34
+              },
+              "modifiers" : [ "PUBLIC" ],
+              "overrideAnnotation" : false,
+              "returnType" : null,
+              "parameters" : [ ],
+              "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel"
+            },
+            "removeActionListener" : {
+              "name" : "removeActionListener",
+              "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel/method/removeActionListener",
+              "type" : "void",
+              "position" : {
+                "startLine" : 145,
+                "startColumn" : 25,
+                "endLine" : 145,
+                "endColumn" : 45
+              },
+              "modifiers" : [ "PUBLIC" ],
+              "overrideAnnotation" : false,
+              "returnType" : null,
+              "parameters" : [ {
+                "name" : "l",
+                "key" : "l",
+                "type" : "java.awt.event.ActionListener",
+                "position" : {
+                  "startLine" : 145,
+                  "startColumn" : 61,
+                  "endLine" : 145,
+                  "endColumn" : 62
+                },
+                "modifiers" : [ ],
+                "ignore" : false,
+                "methodKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel/method/removeActionListener"
+              } ],
+              "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel"
+            },
+            "getText" : {
+              "name" : "getText",
+              "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel/method/getText",
+              "type" : "java.lang.String",
+              "position" : {
+                "startLine" : 112,
+                "startColumn" : 27,
+                "endLine" : 112,
+                "endColumn" : 34
+              },
+              "modifiers" : [ "PUBLIC" ],
+              "overrideAnnotation" : false,
+              "returnType" : null,
+              "parameters" : [ ],
+              "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel"
+            },
+            "addActionListener" : {
+              "name" : "addActionListener",
+              "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel/method/addActionListener",
+              "type" : "void",
+              "position" : {
+                "startLine" : 141,
+                "startColumn" : 25,
+                "endLine" : 141,
+                "endColumn" : 42
+              },
+              "modifiers" : [ "PUBLIC" ],
+              "overrideAnnotation" : false,
+              "returnType" : null,
+              "parameters" : [ {
+                "name" : "l",
+                "key" : "l",
+                "type" : "java.awt.event.ActionListener",
+                "position" : {
+                  "startLine" : 141,
+                  "startColumn" : 58,
+                  "endLine" : 141,
+                  "endColumn" : 59
+                },
+                "modifiers" : [ ],
+                "ignore" : false,
+                "methodKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel/method/addActionListener"
+              } ],
+              "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel"
+            },
+            "setText" : {
+              "name" : "setText",
+              "key" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel/method/setText",
+              "type" : "void",
+              "position" : {
+                "startLine" : 108,
+                "startColumn" : 25,
+                "endLine" : 108,
+                "endColumn" : 32
+              },
+              "modifiers" : [ "PUBLIC" ],
+              "overrideAnnotation" : false,
+              "returnType" : null,
+              "parameters" : [ {
+                "name" : "text",
+                "key" : "text",
+                "type" : "java.lang.String",
+                "position" : {
+                  "startLine" : 108,
+                  "startColumn" : 40,
+                  "endLine" : 108,
+                  "endColumn" : 44
+                },
+                "modifiers" : [ ],
+                "ignore" : false,
+                "methodKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel/method/setText"
+              } ],
+              "classOrInterfaceKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor.UMLImagePanel"
+            }
+          },
+          "fileKey" : null,
+          "anonymous" : false,
+          "auxclass" : false,
+          "implements_" : [ ],
+          "extends_" : [ "javax.swing.JPanel" ],
+          "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.UMLEditableComboBox.UMLComboBoxEditor",
+          "innerDefinedClasses" : { },
+          "innerDefinedInterfaces" : { }
+        }
+      },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

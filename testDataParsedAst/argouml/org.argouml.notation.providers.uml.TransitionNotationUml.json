@@ -1,0 +1,691 @@
+{
+  "name" : "TransitionNotationUml",
+  "key" : "org.argouml.notation.providers.uml.TransitionNotationUml",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "generateEvent" : {
+      "name" : "generateEvent",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/generateEvent",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 511,
+        "startColumn" : 20,
+        "endLine" : 511,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "m",
+        "key" : "m",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 511,
+          "startColumn" : 41,
+          "endLine" : 511,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/generateEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "generateKind" : {
+      "name" : "generateKind",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/generateKind",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 616,
+        "startColumn" : 20,
+        "endLine" : 616,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "kind",
+        "key" : "kind",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 616,
+          "startColumn" : 59,
+          "endLine" : 616,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/generateKind"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "parseEffect" : {
+      "name" : "parseEffect",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/parseEffect",
+      "type" : "void",
+      "position" : {
+        "startLine" : 433,
+        "startColumn" : 18,
+        "endLine" : 433,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "trans",
+        "key" : "trans",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 433,
+          "startColumn" : 37,
+          "endLine" : 433,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/parseEffect"
+      }, {
+        "name" : "actions",
+        "key" : "actions",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 433,
+          "startColumn" : 51,
+          "endLine" : 433,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/parseEffect"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "parseGuard" : {
+      "name" : "parseGuard",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/parseGuard",
+      "type" : "void",
+      "position" : {
+        "startLine" : 362,
+        "startColumn" : 18,
+        "endLine" : 362,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "trans",
+        "key" : "trans",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 362,
+          "startColumn" : 36,
+          "endLine" : 362,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/parseGuard"
+      }, {
+        "name" : "guard",
+        "key" : "guard",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 362,
+          "startColumn" : 50,
+          "endLine" : 362,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/parseGuard"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "generateExpression" : {
+      "name" : "generateExpression",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/generateExpression",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 574,
+        "startColumn" : 20,
+        "endLine" : 574,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expr",
+        "key" : "expr",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 574,
+          "startColumn" : 46,
+          "endLine" : 574,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/generateExpression"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "parse" : {
+      "name" : "parse",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/parse",
+      "type" : "void",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 17,
+        "endLine" : 61,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 30,
+          "endLine" : 61,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/parse"
+      }, {
+        "name" : "text",
+        "key" : "text",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 51,
+          "endLine" : 61,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/parse"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "delete" : {
+      "name" : "delete",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/delete",
+      "type" : "void",
+      "position" : {
+        "startLine" : 473,
+        "startColumn" : 18,
+        "endLine" : 473,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 473,
+          "startColumn" : 32,
+          "endLine" : 473,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/delete"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "addListenersForTransition" : {
+      "name" : "addListenersForTransition",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/addListenersForTransition",
+      "type" : "void",
+      "position" : {
+        "startLine" : 703,
+        "startColumn" : 18,
+        "endLine" : 703,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "java.beans.PropertyChangeListener",
+        "position" : {
+          "startLine" : 703,
+          "startColumn" : 67,
+          "endLine" : 703,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/addListenersForTransition"
+      }, {
+        "name" : "transition",
+        "key" : "transition",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 704,
+          "startColumn" : 20,
+          "endLine" : 704,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/addListenersForTransition"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "generateParameterList" : {
+      "name" : "generateParameterList",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/generateParameterList",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 556,
+        "startColumn" : 20,
+        "endLine" : 556,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parameterListOwner",
+        "key" : "parameterListOwner",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 556,
+          "startColumn" : 49,
+          "endLine" : 556,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/generateParameterList"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "initialiseListener" : {
+      "name" : "initialiseListener",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/initialiseListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 647,
+        "startColumn" : 17,
+        "endLine" : 647,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "java.beans.PropertyChangeListener",
+        "position" : {
+          "startLine" : 647,
+          "startColumn" : 59,
+          "endLine" : 647,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/initialiseListener"
+      }, {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 648,
+          "startColumn" : 20,
+          "endLine" : 648,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/initialiseListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "parseTrigger" : {
+      "name" : "parseTrigger",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/parseTrigger",
+      "type" : "void",
+      "position" : {
+        "startLine" : 170,
+        "startColumn" : 18,
+        "endLine" : 170,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "trans",
+        "key" : "trans",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 170,
+          "startColumn" : 38,
+          "endLine" : 170,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/parseTrigger"
+      }, {
+        "name" : "trigger",
+        "key" : "trigger",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 170,
+          "startColumn" : 52,
+          "endLine" : 170,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/parseTrigger"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "getParsingHelp" : {
+      "name" : "getParsingHelp",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/getParsingHelp",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 482,
+        "startColumn" : 19,
+        "endLine" : 482,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "generateGuard" : {
+      "name" : "generateGuard",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/generateGuard",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 535,
+        "startColumn" : 20,
+        "endLine" : 535,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "m",
+        "key" : "m",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 535,
+          "startColumn" : 41,
+          "endLine" : 535,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/generateGuard"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "addListenersForAction" : {
+      "name" : "addListenersForAction",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/addListenersForAction",
+      "type" : "void",
+      "position" : {
+        "startLine" : 652,
+        "startColumn" : 18,
+        "endLine" : 652,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "java.beans.PropertyChangeListener",
+        "position" : {
+          "startLine" : 652,
+          "startColumn" : 63,
+          "endLine" : 652,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/addListenersForAction"
+      }, {
+        "name" : "action",
+        "key" : "action",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 653,
+          "startColumn" : 20,
+          "endLine" : 653,
+          "endColumn" : 26
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/addListenersForAction"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "generateParameter" : {
+      "name" : "generateParameter",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/generateParameter",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 594,
+        "startColumn" : 19,
+        "endLine" : 594,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parameter",
+        "key" : "parameter",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 594,
+          "startColumn" : 44,
+          "endLine" : 594,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/generateParameter"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 489,
+        "startColumn" : 19,
+        "endLine" : 489,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 489,
+          "startColumn" : 35,
+          "endLine" : 489,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/toString"
+      }, {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.util.Map",
+        "position" : {
+          "startLine" : 489,
+          "startColumn" : 53,
+          "endLine" : 489,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/toString"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "generateClassifierRef" : {
+      "name" : "generateClassifierRef",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/generateClassifierRef",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 637,
+        "startColumn" : 20,
+        "endLine" : 637,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "cls",
+        "key" : "cls",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 637,
+          "startColumn" : 49,
+          "endLine" : 637,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/generateClassifierRef"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "addListenersForEvent" : {
+      "name" : "addListenersForEvent",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/addListenersForEvent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 678,
+        "startColumn" : 18,
+        "endLine" : 678,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "java.beans.PropertyChangeListener",
+        "position" : {
+          "startLine" : 678,
+          "startColumn" : 62,
+          "endLine" : 678,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/addListenersForEvent"
+      }, {
+        "name" : "event",
+        "key" : "event",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 679,
+          "startColumn" : 20,
+          "endLine" : 679,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/addListenersForEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    },
+    "parseTransition" : {
+      "name" : "parseTransition",
+      "key" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/parseTransition",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 22,
+        "endLine" : 110,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "trans",
+        "key" : "trans",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 45,
+          "endLine" : 110,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/parseTransition"
+      }, {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 59,
+          "endLine" : 110,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.TransitionNotationUml/method/parseTransition"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.TransitionNotationUml"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.notation.providers.TransitionNotation" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

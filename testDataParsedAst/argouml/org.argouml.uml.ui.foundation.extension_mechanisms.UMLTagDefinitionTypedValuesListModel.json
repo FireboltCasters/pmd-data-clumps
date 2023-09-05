@@ -1,0 +1,68 @@
+{
+  "name" : "UMLTagDefinitionTypedValuesListModel",
+  "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionTypedValuesListModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 1,
+    "endLine" : 40,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionTypedValuesListModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 20,
+        "endLine" : 53,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionTypedValuesListModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionTypedValuesListModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 23,
+        "endLine" : 69,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 45,
+          "endLine" : 69,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionTypedValuesListModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.UMLTagDefinitionTypedValuesListModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLModelElementListModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

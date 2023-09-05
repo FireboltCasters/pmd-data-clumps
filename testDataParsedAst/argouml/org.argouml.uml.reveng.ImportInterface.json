@@ -1,0 +1,206 @@
+{
+  "name" : "ImportInterface",
+  "key" : "org.argouml.uml.reveng.ImportInterface",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "SOURCE_PATH_TAG" : {
+      "name" : "SOURCE_PATH_TAG",
+      "key" : "SOURCE_PATH_TAG",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 32,
+        "endLine" : 54,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ImportInterface/memberField/SOURCE_PATH_TAG",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportInterface"
+    },
+    "SOURCE_MODIFIERS_TAG" : {
+      "name" : "SOURCE_MODIFIERS_TAG",
+      "key" : "SOURCE_MODIFIERS_TAG",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 32,
+        "endLine" : 62,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ImportInterface/memberField/SOURCE_MODIFIERS_TAG",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportInterface"
+    }
+  },
+  "methods" : {
+    "getImportSettings" : {
+      "name" : "getImportSettings",
+      "key" : "org.argouml.uml.reveng.ImportInterface/method/getImportSettings",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 33,
+        "endLine" : 124,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportInterface"
+    },
+    "getSuffixFilters" : {
+      "name" : "getSuffixFilters",
+      "key" : "org.argouml.uml.reveng.ImportInterface/method/getSuffixFilters",
+      "type" : "org.argouml.util.SuffixFilter[]",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 20,
+        "endLine" : 69,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportInterface"
+    },
+    "isParseable" : {
+      "name" : "isParseable",
+      "key" : "org.argouml.uml.reveng.ImportInterface/method/isParseable",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 13,
+        "endLine" : 80,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 80,
+          "startColumn" : 30,
+          "endLine" : 80,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ImportInterface/method/isParseable"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportInterface"
+    },
+    "parseFiles" : {
+      "name" : "parseFiles",
+      "key" : "org.argouml.uml.reveng.ImportInterface/method/parseFiles",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 16,
+        "endLine" : 107,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "p",
+        "key" : "p",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 35,
+          "endLine" : 107,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ImportInterface/method/parseFiles"
+      }, {
+        "name" : "files",
+        "key" : "files",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 61,
+          "endLine" : 107,
+          "endColumn" : 66
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ImportInterface/method/parseFiles"
+      }, {
+        "name" : "settings",
+        "key" : "settings",
+        "type" : "ImportSettings",
+        "position" : {
+          "startLine" : 108,
+          "startColumn" : 28,
+          "endLine" : 108,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ImportInterface/method/parseFiles"
+      }, {
+        "name" : "monitor",
+        "key" : "monitor",
+        "type" : "org.argouml.taskmgmt.ProgressMonitor",
+        "position" : {
+          "startLine" : 108,
+          "startColumn" : 54,
+          "endLine" : 108,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ImportInterface/method/parseFiles"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportInterface"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.moduleloader.ModuleInterface" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.reveng.ImportInterface.ImportException" : {
+      "name" : "ImportException",
+      "key" : "org.argouml.uml.reveng.ImportInterface.ImportException",
+      "type" : "class",
+      "position" : {
+        "startLine" : 131,
+        "startColumn" : 12,
+        "endLine" : 131,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : { },
+      "methods" : { },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "java.lang.Exception" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.reveng.ImportInterface",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

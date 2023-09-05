@@ -1,0 +1,124 @@
+{
+  "name" : "PropPanelExtensionPoint",
+  "key" : "org.argouml.uml.ui.behavior.use_cases.PropPanelExtensionPoint",
+  "type" : "class",
+  "position" : {
+    "startLine" : 51,
+    "startColumn" : 8,
+    "endLine" : 51,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 31,
+        "endLine" : 56,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.use_cases.PropPanelExtensionPoint/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.PropPanelExtensionPoint"
+    }
+  },
+  "methods" : {
+    "navigateUp" : {
+      "name" : "navigateUp",
+      "key" : "org.argouml.uml.ui.behavior.use_cases.PropPanelExtensionPoint/method/navigateUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 17,
+        "endLine" : 103,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.PropPanelExtensionPoint"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.ui.behavior.use_cases.PropPanelExtensionPoint.ActionNewExtensionPoint" : {
+      "name" : "ActionNewExtensionPoint",
+      "key" : "org.argouml.uml.ui.behavior.use_cases.PropPanelExtensionPoint.ActionNewExtensionPoint",
+      "type" : "class",
+      "position" : {
+        "startLine" : 121,
+        "startColumn" : 20,
+        "endLine" : 121,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "serialVersionUID" : {
+          "name" : "serialVersionUID",
+          "key" : "serialVersionUID",
+          "type" : "long",
+          "position" : {
+            "startLine" : 127,
+            "startColumn" : 35,
+            "endLine" : 127,
+            "endColumn" : 51
+          },
+          "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.ui.behavior.use_cases.PropPanelExtensionPoint.ActionNewExtensionPoint/memberField/serialVersionUID",
+          "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.PropPanelExtensionPoint.ActionNewExtensionPoint"
+        }
+      },
+      "methods" : {
+        "actionPerformed" : {
+          "name" : "actionPerformed",
+          "key" : "org.argouml.uml.ui.behavior.use_cases.PropPanelExtensionPoint.ActionNewExtensionPoint/method/actionPerformed",
+          "type" : "void",
+          "position" : {
+            "startLine" : 142,
+            "startColumn" : 21,
+            "endLine" : 142,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "e",
+            "key" : "e",
+            "type" : "java.awt.event.ActionEvent",
+            "position" : {
+              "startLine" : 142,
+              "startColumn" : 49,
+              "endLine" : 142,
+              "endColumn" : 50
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.behavior.use_cases.PropPanelExtensionPoint.ActionNewExtensionPoint/method/actionPerformed"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.PropPanelExtensionPoint.ActionNewExtensionPoint"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.uml.ui.AbstractActionNewModelElement" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.behavior.use_cases.PropPanelExtensionPoint",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,214 @@
+{
+  "name" : "StatusBar",
+  "key" : "org.argouml.ui.StatusBar",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "msg" : {
+      "name" : "msg",
+      "key" : "msg",
+      "type" : "javax.swing.JLabel",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 20,
+        "endLine" : 44,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StatusBar/memberField/msg",
+      "classOrInterfaceKey" : "org.argouml.ui.StatusBar"
+    },
+    "statusText" : {
+      "name" : "statusText",
+      "key" : "statusText",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 20,
+        "endLine" : 46,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StatusBar/memberField/statusText",
+      "classOrInterfaceKey" : "org.argouml.ui.StatusBar"
+    },
+    "progress" : {
+      "name" : "progress",
+      "key" : "progress",
+      "type" : "javax.swing.JProgressBar",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 26,
+        "endLine" : 45,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.StatusBar/memberField/progress",
+      "classOrInterfaceKey" : "org.argouml.ui.StatusBar"
+    }
+  },
+  "methods" : {
+    "doFakeProgress" : {
+      "name" : "doFakeProgress",
+      "key" : "org.argouml.ui.StatusBar/method/doFakeProgress",
+      "type" : "void",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 30,
+        "endLine" : 96,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 52,
+          "endLine" : 96,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.StatusBar/method/doFakeProgress"
+      }, {
+        "name" : "work",
+        "key" : "work",
+        "type" : "int",
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 59,
+          "endLine" : 96,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.StatusBar/method/doFakeProgress"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.StatusBar"
+    },
+    "showProgress" : {
+      "name" : "showProgress",
+      "key" : "org.argouml.ui.StatusBar/method/showProgress",
+      "type" : "void",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 17,
+        "endLine" : 80,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "percent",
+        "key" : "percent",
+        "type" : "int",
+        "position" : {
+          "startLine" : 80,
+          "startColumn" : 34,
+          "endLine" : 80,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.StatusBar/method/showProgress"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.StatusBar"
+    },
+    "incProgress" : {
+      "name" : "incProgress",
+      "key" : "org.argouml.ui.StatusBar/method/incProgress",
+      "type" : "void",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 17,
+        "endLine" : 87,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "delataPercent",
+        "key" : "delataPercent",
+        "type" : "int",
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 33,
+          "endLine" : 87,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.StatusBar/method/incProgress"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.StatusBar"
+    },
+    "showStatus" : {
+      "name" : "showStatus",
+      "key" : "org.argouml.ui.StatusBar/method/showStatus",
+      "type" : "void",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 17,
+        "endLine" : 72,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 35,
+          "endLine" : 72,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.StatusBar/method/showStatus"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.StatusBar"
+    },
+    "run" : {
+      "name" : "run",
+      "key" : "org.argouml.ui.StatusBar/method/run",
+      "type" : "void",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 30,
+        "endLine" : 108,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.StatusBar"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.lang.Runnable", "org.tigris.gef.ui.IStatusBar" ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

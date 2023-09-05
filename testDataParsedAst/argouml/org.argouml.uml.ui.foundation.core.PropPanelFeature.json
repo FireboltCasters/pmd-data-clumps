@@ -1,0 +1,132 @@
+{
+  "name" : "PropPanelFeature",
+  "key" : "org.argouml.uml.ui.foundation.core.PropPanelFeature",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 17,
+    "endLine" : 40,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "ownerScopeCheckbox" : {
+      "name" : "ownerScopeCheckbox",
+      "key" : "ownerScopeCheckbox",
+      "type" : "UMLFeatureOwnerScopeCheckBox",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 42,
+        "endLine" : 42,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelFeature/memberField/ownerScopeCheckbox",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelFeature"
+    },
+    "visibilityPanel" : {
+      "name" : "visibilityPanel",
+      "key" : "visibilityPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 20,
+        "endLine" : 48,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelFeature/memberField/visibilityPanel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelFeature"
+    },
+    "ownerListModel" : {
+      "name" : "ownerListModel",
+      "key" : "ownerListModel",
+      "type" : "UMLFeatureOwnerListModel",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 45,
+        "endLine" : 46,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelFeature/memberField/ownerListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelFeature"
+    },
+    "ownerScroll" : {
+      "name" : "ownerScroll",
+      "key" : "ownerScroll",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 20,
+        "endLine" : 44,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelFeature/memberField/ownerScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelFeature"
+    }
+  },
+  "methods" : {
+    "getVisibilityPanel" : {
+      "name" : "getVisibilityPanel",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelFeature/method/getVisibilityPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 22,
+        "endLine" : 122,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelFeature"
+    },
+    "getOwnerScroll" : {
+      "name" : "getOwnerScroll",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelFeature/method/getOwnerScroll",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 19,
+        "endLine" : 97,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelFeature"
+    },
+    "getOwnerScopeCheckbox" : {
+      "name" : "getOwnerScopeCheckbox",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelFeature/method/getOwnerScopeCheckbox",
+      "type" : "UMLFeatureOwnerScopeCheckBox",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 41,
+        "endLine" : 112,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelFeature"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "PropPanelModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

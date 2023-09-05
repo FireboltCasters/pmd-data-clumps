@@ -1,0 +1,55 @@
+{
+  "name" : "FigClassAssociationClass",
+  "key" : "org.argouml.uml.diagram.ui.FigClassAssociationClass",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 31,
+        "endLine" : 40,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigClassAssociationClass/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigClassAssociationClass"
+    }
+  },
+  "methods" : {
+    "getRemoveDelegate" : {
+      "name" : "getRemoveDelegate",
+      "key" : "org.argouml.uml.diagram.ui.FigClassAssociationClass/method/getRemoveDelegate",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 19,
+        "endLine" : 65,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigClassAssociationClass"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.diagram.static_structure.ui.FigClass" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,1033 @@
+{
+  "name" : "ConfigurationHandler",
+  "key" : "org.argouml.configuration.ConfigurationHandler",
+  "type" : "class",
+  "position" : {
+    "startLine" : 52,
+    "startColumn" : 17,
+    "endLine" : 52,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "loaded" : {
+      "name" : "loaded",
+      "key" : "loaded",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 21,
+        "endLine" : 75,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.configuration.ConfigurationHandler/memberField/loaded",
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "loadedFromFile" : {
+      "name" : "loadedFromFile",
+      "key" : "loadedFromFile",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 18,
+        "endLine" : 58,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.configuration.ConfigurationHandler/memberField/loadedFromFile",
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 33,
+        "endLine" : 85,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.configuration.ConfigurationHandler/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "loadedFromURL" : {
+      "name" : "loadedFromURL",
+      "key" : "loadedFromURL",
+      "type" : "java.net.URL",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 17,
+        "endLine" : 64,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.configuration.ConfigurationHandler/memberField/loadedFromURL",
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "pcl" : {
+      "name" : "pcl",
+      "key" : "pcl",
+      "type" : "java.beans.PropertyChangeSupport",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 42,
+        "endLine" : 80,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.configuration.ConfigurationHandler/memberField/pcl",
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "changeable" : {
+      "name" : "changeable",
+      "key" : "changeable",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 21,
+        "endLine" : 69,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.configuration.ConfigurationHandler/memberField/changeable",
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    }
+  },
+  "methods" : {
+    "save" : {
+      "name" : "save",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/save",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 267,
+        "startColumn" : 26,
+        "endLine" : 267,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "url",
+        "key" : "url",
+        "type" : "java.net.URL",
+        "position" : {
+          "startLine" : 267,
+          "startColumn" : 35,
+          "endLine" : 267,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/save"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "setInteger" : {
+      "name" : "setInteger",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/setInteger",
+      "type" : "void",
+      "position" : {
+        "startLine" : 391,
+        "startColumn" : 23,
+        "endLine" : 391,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "ConfigurationKey",
+        "position" : {
+          "startLine" : 391,
+          "startColumn" : 51,
+          "endLine" : 391,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/setInteger"
+      }, {
+        "name" : "value",
+        "key" : "value",
+        "type" : "int",
+        "position" : {
+          "startLine" : 391,
+          "startColumn" : 60,
+          "endLine" : 391,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/setInteger"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "getDouble" : {
+      "name" : "getDouble",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/getDouble",
+      "type" : "double",
+      "position" : {
+        "startLine" : 325,
+        "startColumn" : 25,
+        "endLine" : 325,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "ConfigurationKey",
+        "position" : {
+          "startLine" : 325,
+          "startColumn" : 52,
+          "endLine" : 325,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/getDouble"
+      }, {
+        "name" : "defaultValue",
+        "key" : "defaultValue",
+        "type" : "double",
+        "position" : {
+          "startLine" : 325,
+          "startColumn" : 64,
+          "endLine" : 325,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/getDouble"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "isChangeable" : {
+      "name" : "isChangeable",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/isChangeable",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 193,
+        "startColumn" : 26,
+        "endLine" : 193,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "getInteger" : {
+      "name" : "getInteger",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/getInteger",
+      "type" : "int",
+      "position" : {
+        "startLine" : 305,
+        "startColumn" : 22,
+        "endLine" : 305,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "ConfigurationKey",
+        "position" : {
+          "startLine" : 305,
+          "startColumn" : 50,
+          "endLine" : 305,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/getInteger"
+      }, {
+        "name" : "defaultValue",
+        "key" : "defaultValue",
+        "type" : "int",
+        "position" : {
+          "startLine" : 305,
+          "startColumn" : 59,
+          "endLine" : 305,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/getInteger"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "isLoaded" : {
+      "name" : "isLoaded",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/isLoaded",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 200,
+        "startColumn" : 26,
+        "endLine" : 200,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "workerSetValue" : {
+      "name" : "workerSetValue",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/workerSetValue",
+      "type" : "void",
+      "position" : {
+        "startLine" : 364,
+        "startColumn" : 31,
+        "endLine" : 364,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "ConfigurationKey",
+        "position" : {
+          "startLine" : 364,
+          "startColumn" : 63,
+          "endLine" : 364,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/workerSetValue"
+      }, {
+        "name" : "newValue",
+        "key" : "newValue",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 365,
+          "startColumn" : 53,
+          "endLine" : 365,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/workerSetValue"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "remove" : {
+      "name" : "remove",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/remove",
+      "type" : "void",
+      "position" : {
+        "startLine" : 564,
+        "startColumn" : 26,
+        "endLine" : 564,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 564,
+          "startColumn" : 40,
+          "endLine" : 564,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/remove"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "setDouble" : {
+      "name" : "setDouble",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/setDouble",
+      "type" : "void",
+      "position" : {
+        "startLine" : 401,
+        "startColumn" : 23,
+        "endLine" : 401,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "ConfigurationKey",
+        "position" : {
+          "startLine" : 401,
+          "startColumn" : 50,
+          "endLine" : 401,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/setDouble"
+      }, {
+        "name" : "value",
+        "key" : "value",
+        "type" : "double",
+        "position" : {
+          "startLine" : 401,
+          "startColumn" : 62,
+          "endLine" : 401,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/setDouble"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "saveURL" : {
+      "name" : "saveURL",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/saveURL",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 524,
+        "startColumn" : 29,
+        "endLine" : 524,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "url",
+        "key" : "url",
+        "type" : "java.net.URL",
+        "position" : {
+          "startLine" : 524,
+          "startColumn" : 41,
+          "endLine" : 524,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/saveURL"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "load" : {
+      "name" : "load",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/load",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 229,
+        "startColumn" : 26,
+        "endLine" : 229,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "url",
+        "key" : "url",
+        "type" : "java.net.URL",
+        "position" : {
+          "startLine" : 229,
+          "startColumn" : 35,
+          "endLine" : 229,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/load"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "getDefaultPath" : {
+      "name" : "getDefaultPath",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/getDefaultPath",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 28,
+        "endLine" : 112,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "getBoolean" : {
+      "name" : "getBoolean",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/getBoolean",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 345,
+        "startColumn" : 26,
+        "endLine" : 345,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "ConfigurationKey",
+        "position" : {
+          "startLine" : 345,
+          "startColumn" : 54,
+          "endLine" : 345,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/getBoolean"
+      }, {
+        "name" : "defaultValue",
+        "key" : "defaultValue",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 346,
+          "startColumn" : 45,
+          "endLine" : 346,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/getBoolean"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "addListener" : {
+      "name" : "addListener",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/addListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 447,
+        "startColumn" : 23,
+        "endLine" : 447,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "ConfigurationKey",
+        "position" : {
+          "startLine" : 447,
+          "startColumn" : 52,
+          "endLine" : 447,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/addListener"
+      }, {
+        "name" : "p",
+        "key" : "p",
+        "type" : "java.beans.PropertyChangeListener",
+        "position" : {
+          "startLine" : 448,
+          "startColumn" : 58,
+          "endLine" : 448,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/addListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "hasKey" : {
+      "name" : "hasKey",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/hasKey",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 535,
+        "startColumn" : 20,
+        "endLine" : 535,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "ConfigurationKey",
+        "position" : {
+          "startLine" : 535,
+          "startColumn" : 44,
+          "endLine" : 535,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/hasKey"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "saveFile" : {
+      "name" : "saveFile",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/saveFile",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 515,
+        "startColumn" : 29,
+        "endLine" : 515,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 515,
+          "startColumn" : 43,
+          "endLine" : 515,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/saveFile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "getString" : {
+      "name" : "getString",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/getString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 290,
+        "startColumn" : 25,
+        "endLine" : 290,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "ConfigurationKey",
+        "position" : {
+          "startLine" : 290,
+          "startColumn" : 52,
+          "endLine" : 290,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/getString"
+      }, {
+        "name" : "defaultValue",
+        "key" : "defaultValue",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 290,
+          "startColumn" : 64,
+          "endLine" : 290,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/getString"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "removeListener" : {
+      "name" : "removeListener",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/removeListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 463,
+        "startColumn" : 23,
+        "endLine" : 463,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "ConfigurationKey",
+        "position" : {
+          "startLine" : 463,
+          "startColumn" : 55,
+          "endLine" : 463,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/removeListener"
+      }, {
+        "name" : "p",
+        "key" : "p",
+        "type" : "java.beans.PropertyChangeListener",
+        "position" : {
+          "startLine" : 464,
+          "startColumn" : 61,
+          "endLine" : 464,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/removeListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "saveUnspecified" : {
+      "name" : "saveUnspecified",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/saveUnspecified",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 486,
+        "startColumn" : 13,
+        "endLine" : 486,
+        "endColumn" : 28
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "loadIfNecessary" : {
+      "name" : "loadIfNecessary",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/loadIfNecessary",
+      "type" : "void",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 18,
+        "endLine" : 119,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "loadUnspecified" : {
+      "name" : "loadUnspecified",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/loadUnspecified",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 477,
+        "startColumn" : 13,
+        "endLine" : 477,
+        "endColumn" : 28
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "getValue" : {
+      "name" : "getValue",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/getValue",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 549,
+        "startColumn" : 28,
+        "endLine" : 549,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 549,
+          "startColumn" : 44,
+          "endLine" : 549,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/getValue"
+      }, {
+        "name" : "defaultValue",
+        "key" : "defaultValue",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 549,
+          "startColumn" : 56,
+          "endLine" : 549,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/getValue"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "setString" : {
+      "name" : "setString",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/setString",
+      "type" : "void",
+      "position" : {
+        "startLine" : 381,
+        "startColumn" : 23,
+        "endLine" : 381,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "ConfigurationKey",
+        "position" : {
+          "startLine" : 381,
+          "startColumn" : 50,
+          "endLine" : 381,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/setString"
+      }, {
+        "name" : "newValue",
+        "key" : "newValue",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 381,
+          "startColumn" : 62,
+          "endLine" : 381,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/setString"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "setValue" : {
+      "name" : "setValue",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/setValue",
+      "type" : "void",
+      "position" : {
+        "startLine" : 557,
+        "startColumn" : 26,
+        "endLine" : 557,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 557,
+          "startColumn" : 42,
+          "endLine" : 557,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/setValue"
+      }, {
+        "name" : "value",
+        "key" : "value",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 557,
+          "startColumn" : 54,
+          "endLine" : 557,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/setValue"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "loadDefault" : {
+      "name" : "loadDefault",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/loadDefault",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 134,
+        "startColumn" : 26,
+        "endLine" : 134,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "loadFile" : {
+      "name" : "loadFile",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/loadFile",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 497,
+        "startColumn" : 29,
+        "endLine" : 497,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 497,
+          "startColumn" : 43,
+          "endLine" : 497,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/loadFile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "loadURL" : {
+      "name" : "loadURL",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/loadURL",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 506,
+        "startColumn" : 29,
+        "endLine" : 506,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "url",
+        "key" : "url",
+        "type" : "java.net.URL",
+        "position" : {
+          "startLine" : 506,
+          "startColumn" : 41,
+          "endLine" : 506,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/loadURL"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "saveDefault" : {
+      "name" : "saveDefault",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/saveDefault",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 166,
+        "startColumn" : 26,
+        "endLine" : 166,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "force",
+        "key" : "force",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 166,
+          "startColumn" : 46,
+          "endLine" : 166,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/saveDefault"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    },
+    "setBoolean" : {
+      "name" : "setBoolean",
+      "key" : "org.argouml.configuration.ConfigurationHandler/method/setBoolean",
+      "type" : "void",
+      "position" : {
+        "startLine" : 411,
+        "startColumn" : 23,
+        "endLine" : 411,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "ConfigurationKey",
+        "position" : {
+          "startLine" : 411,
+          "startColumn" : 51,
+          "endLine" : 411,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/setBoolean"
+      }, {
+        "name" : "value",
+        "key" : "value",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 411,
+          "startColumn" : 64,
+          "endLine" : 411,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationHandler/method/setBoolean"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationHandler"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

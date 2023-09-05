@@ -1,0 +1,100 @@
+{
+  "name" : "ActionAddContextSignal",
+  "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddContextSignal",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getSelected" : {
+      "name" : "getSelected",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddContextSignal/method/getSelected",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 20,
+        "endLine" : 62,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddContextSignal"
+    },
+    "getChoices" : {
+      "name" : "getChoices",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddContextSignal/method/getChoices",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 20,
+        "endLine" : 50,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddContextSignal"
+    },
+    "doIt" : {
+      "name" : "doIt",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddContextSignal/method/doIt",
+      "type" : "void",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 20,
+        "endLine" : 74,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "selected",
+        "key" : "selected",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 74,
+          "startColumn" : 36,
+          "endLine" : 74,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddContextSignal/method/doIt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddContextSignal"
+    },
+    "getDialogTitle" : {
+      "name" : "getDialogTitle",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddContextSignal/method/getDialogTitle",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 22,
+        "endLine" : 69,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddContextSignal"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionAddModelElement2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

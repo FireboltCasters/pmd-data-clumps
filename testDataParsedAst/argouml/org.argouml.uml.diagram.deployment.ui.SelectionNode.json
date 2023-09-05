@@ -1,0 +1,230 @@
+{
+  "name" : "SelectionNode",
+  "key" : "org.argouml.uml.diagram.deployment.ui.SelectionNode",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "instructions" : {
+      "name" : "instructions",
+      "key" : "instructions",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 27,
+        "endLine" : 51,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode/memberField/instructions",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode"
+    },
+    "icons" : {
+      "name" : "icons",
+      "key" : "icons",
+      "type" : "javax.swing.Icon[]",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 25,
+        "endLine" : 42,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode/memberField/icons",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode"
+    },
+    "associationIcon" : {
+      "name" : "associationIcon",
+      "key" : "associationIcon",
+      "type" : "javax.swing.Icon",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 25,
+        "endLine" : 39,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode/memberField/associationIcon",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode"
+    }
+  },
+  "methods" : {
+    "getIcons" : {
+      "name" : "getIcons",
+      "key" : "org.argouml.uml.diagram.deployment.ui.SelectionNode/method/getIcons",
+      "type" : "javax.swing.Icon[]",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 22,
+        "endLine" : 70,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode"
+    },
+    "getNewNodeType" : {
+      "name" : "getNewNodeType",
+      "key" : "org.argouml.uml.diagram.deployment.ui.SelectionNode/method/getNewNodeType",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 22,
+        "endLine" : 90,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 90,
+          "startColumn" : 41,
+          "endLine" : 90,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode/method/getNewNodeType"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode"
+    },
+    "getNewNode" : {
+      "name" : "getNewNode",
+      "key" : "org.argouml.uml.diagram.deployment.ui.SelectionNode/method/getNewNode",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 22,
+        "endLine" : 85,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 37,
+          "endLine" : 85,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode/method/getNewNode"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode"
+    },
+    "getInstructions" : {
+      "name" : "getInstructions",
+      "key" : "org.argouml.uml.diagram.deployment.ui.SelectionNode/method/getInstructions",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 22,
+        "endLine" : 75,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 75,
+          "startColumn" : 42,
+          "endLine" : 75,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode/method/getInstructions"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode"
+    },
+    "isReverseEdge" : {
+      "name" : "isReverseEdge",
+      "key" : "org.argouml.uml.diagram.deployment.ui.SelectionNode/method/isReverseEdge",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 95,
+        "startColumn" : 23,
+        "endLine" : 95,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 95,
+          "startColumn" : 41,
+          "endLine" : 95,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode/method/isReverseEdge"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode"
+    },
+    "getNewEdgeType" : {
+      "name" : "getNewEdgeType",
+      "key" : "org.argouml.uml.diagram.deployment.ui.SelectionNode/method/getNewEdgeType",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 22,
+        "endLine" : 80,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 80,
+          "startColumn" : 41,
+          "endLine" : 80,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode/method/getNewEdgeType"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.ui.SelectionNode"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.diagram.ui.SelectionNodeClarifiers2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

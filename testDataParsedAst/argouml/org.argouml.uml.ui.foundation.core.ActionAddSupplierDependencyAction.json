@@ -1,0 +1,100 @@
+{
+  "name" : "ActionAddSupplierDependencyAction",
+  "key" : "org.argouml.uml.ui.foundation.core.ActionAddSupplierDependencyAction",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getSelected" : {
+      "name" : "getSelected",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionAddSupplierDependencyAction/method/getSelected",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 20,
+        "endLine" : 108,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionAddSupplierDependencyAction"
+    },
+    "getChoices" : {
+      "name" : "getChoices",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionAddSupplierDependencyAction/method/getChoices",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 20,
+        "endLine" : 85,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionAddSupplierDependencyAction"
+    },
+    "doIt" : {
+      "name" : "doIt",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionAddSupplierDependencyAction/method/doIt",
+      "type" : "void",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 20,
+        "endLine" : 60,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "selected",
+        "key" : "selected",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 36,
+          "endLine" : 60,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.ActionAddSupplierDependencyAction/method/doIt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionAddSupplierDependencyAction"
+    },
+    "getDialogTitle" : {
+      "name" : "getDialogTitle",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionAddSupplierDependencyAction/method/getDialogTitle",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 22,
+        "endLine" : 101,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionAddSupplierDependencyAction"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionAddModelElement2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

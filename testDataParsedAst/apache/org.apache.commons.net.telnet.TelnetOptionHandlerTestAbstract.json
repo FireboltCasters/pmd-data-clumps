@@ -1,0 +1,165 @@
+{
+  "name" : "TelnetOptionHandlerTestAbstract",
+  "key" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract",
+  "type" : "class",
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 17,
+    "endLine" : 29,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "opthand3" : {
+      "name" : "opthand3",
+      "key" : "opthand3",
+      "type" : "TelnetOptionHandler",
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 25,
+        "endLine" : 33,
+        "endColumn" : 33
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract/memberField/opthand3",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract"
+    },
+    "opthand2" : {
+      "name" : "opthand2",
+      "key" : "opthand2",
+      "type" : "TelnetOptionHandler",
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 25,
+        "endLine" : 32,
+        "endColumn" : 33
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract/memberField/opthand2",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract"
+    },
+    "opthand1" : {
+      "name" : "opthand1",
+      "key" : "opthand1",
+      "type" : "TelnetOptionHandler",
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 25,
+        "endLine" : 31,
+        "endColumn" : 33
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract/memberField/opthand1",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract"
+    }
+  },
+  "methods" : {
+    "testWill" : {
+      "name" : "testWill",
+      "key" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract/method/testWill",
+      "type" : "void",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 17,
+        "endLine" : 71,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract"
+    },
+    "testConstructors" : {
+      "name" : "testConstructors",
+      "key" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract/method/testConstructors",
+      "type" : "void",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 17,
+        "endLine" : 49,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 29,
+        "endLine" : 43,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract"
+    },
+    "testAnswerSubnegotiation" : {
+      "name" : "testAnswerSubnegotiation",
+      "key" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract/method/testAnswerSubnegotiation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 26,
+        "endLine" : 104,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract"
+    },
+    "testDo" : {
+      "name" : "testDo",
+      "key" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract/method/testDo",
+      "type" : "void",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 17,
+        "endLine" : 84,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract"
+    },
+    "testStartSubnegotiation" : {
+      "name" : "testStartSubnegotiation",
+      "key" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract/method/testStartSubnegotiation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 26,
+        "endLine" : 98,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetOptionHandlerTestAbstract"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

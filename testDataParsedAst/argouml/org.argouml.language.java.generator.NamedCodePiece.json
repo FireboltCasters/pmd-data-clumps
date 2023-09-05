@@ -1,0 +1,120 @@
+{
+  "name" : "NamedCodePiece",
+  "key" : "org.argouml.language.java.generator.NamedCodePiece",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 10,
+    "endLine" : 42,
+    "endColumn" : 15
+  },
+  "modifiers" : [ "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "write" : {
+      "name" : "write",
+      "key" : "org.argouml.language.java.generator.NamedCodePiece/method/write",
+      "type" : "void",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 26,
+        "endLine" : 58,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reader",
+        "key" : "reader",
+        "type" : "java.io.BufferedReader",
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 47,
+          "endLine" : 58,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.NamedCodePiece/method/write"
+      }, {
+        "name" : "writer",
+        "key" : "writer",
+        "type" : "java.io.BufferedWriter",
+        "position" : {
+          "startLine" : 59,
+          "startColumn" : 47,
+          "endLine" : 59,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.NamedCodePiece/method/write"
+      }, {
+        "name" : "parseStateStack",
+        "key" : "parseStateStack",
+        "type" : "java.util.Stack",
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 50,
+          "endLine" : 60,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.NamedCodePiece/method/write"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.NamedCodePiece"
+    },
+    "ffCodePiece" : {
+      "name" : "ffCodePiece",
+      "key" : "org.argouml.language.java.generator.NamedCodePiece/method/ffCodePiece",
+      "type" : "void",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 23,
+        "endLine" : 74,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reader",
+        "key" : "reader",
+        "type" : "java.io.BufferedReader",
+        "position" : {
+          "startLine" : 74,
+          "startColumn" : 50,
+          "endLine" : 74,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.NamedCodePiece/method/ffCodePiece"
+      }, {
+        "name" : "writer",
+        "key" : "writer",
+        "type" : "java.io.BufferedWriter",
+        "position" : {
+          "startLine" : 75,
+          "startColumn" : 50,
+          "endLine" : 75,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.NamedCodePiece/method/ffCodePiece"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.NamedCodePiece"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "CodePiece" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

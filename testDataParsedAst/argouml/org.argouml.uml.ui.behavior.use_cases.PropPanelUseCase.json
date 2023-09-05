@@ -1,0 +1,38 @@
+{
+  "name" : "PropPanelUseCase",
+  "key" : "org.argouml.uml.ui.behavior.use_cases.PropPanelUseCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 48,
+    "startColumn" : 8,
+    "endLine" : 48,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 31,
+        "endLine" : 111,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.use_cases.PropPanelUseCase/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.PropPanelUseCase"
+    }
+  },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelClassifier" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

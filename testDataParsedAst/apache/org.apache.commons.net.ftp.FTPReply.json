@@ -1,0 +1,1354 @@
+{
+  "name" : "FTPReply",
+  "key" : "org.apache.commons.net.ftp.FTPReply",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 14,
+    "endLine" : 30,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "CODE_450" : {
+      "name" : "CODE_450",
+      "key" : "CODE_450",
+      "type" : "int",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 29,
+        "endLine" : 58,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_450",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_451" : {
+      "name" : "CODE_451",
+      "key" : "CODE_451",
+      "type" : "int",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 29,
+        "endLine" : 59,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_451",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_331" : {
+      "name" : "CODE_331",
+      "key" : "CODE_331",
+      "type" : "int",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 29,
+        "endLine" : 52,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_331",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_452" : {
+      "name" : "CODE_452",
+      "key" : "CODE_452",
+      "type" : "int",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 29,
+        "endLine" : 60,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_452",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "TRANSFER_ABORTED" : {
+      "name" : "TRANSFER_ABORTED",
+      "key" : "TRANSFER_ABORTED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 29,
+        "endLine" : 98,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/TRANSFER_ABORTED",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_250" : {
+      "name" : "CODE_250",
+      "key" : "CODE_250",
+      "type" : "int",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 29,
+        "endLine" : 50,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_250",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "RESTART_MARKER" : {
+      "name" : "RESTART_MARKER",
+      "key" : "RESTART_MARKER",
+      "type" : "int",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 29,
+        "endLine" : 74,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/RESTART_MARKER",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "NEED_ACCOUNT" : {
+      "name" : "NEED_ACCOUNT",
+      "key" : "NEED_ACCOUNT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 29,
+        "endLine" : 94,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/NEED_ACCOUNT",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "FILE_ACTION_OK" : {
+      "name" : "FILE_ACTION_OK",
+      "key" : "FILE_ACTION_OK",
+      "type" : "int",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 29,
+        "endLine" : 91,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/FILE_ACTION_OK",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_200" : {
+      "name" : "CODE_200",
+      "key" : "CODE_200",
+      "type" : "int",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 29,
+        "endLine" : 37,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_200",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_125" : {
+      "name" : "CODE_125",
+      "key" : "CODE_125",
+      "type" : "int",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 29,
+        "endLine" : 35,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_125",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_202" : {
+      "name" : "CODE_202",
+      "key" : "CODE_202",
+      "type" : "int",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 29,
+        "endLine" : 38,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_202",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_521" : {
+      "name" : "CODE_521",
+      "key" : "CODE_521",
+      "type" : "int",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 29,
+        "endLine" : 66,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_521",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "FILE_STATUS_OK" : {
+      "name" : "FILE_STATUS_OK",
+      "key" : "FILE_STATUS_OK",
+      "type" : "int",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 29,
+        "endLine" : 77,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/FILE_STATUS_OK",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_120" : {
+      "name" : "CODE_120",
+      "key" : "CODE_120",
+      "type" : "int",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 29,
+        "endLine" : 34,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_120",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "STORAGE_ALLOCATION_EXCEEDED" : {
+      "name" : "STORAGE_ALLOCATION_EXCEEDED",
+      "key" : "STORAGE_ALLOCATION_EXCEEDED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 29,
+        "endLine" : 111,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/STORAGE_ALLOCATION_EXCEEDED",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "NAME_SYSTEM_TYPE" : {
+      "name" : "NAME_SYSTEM_TYPE",
+      "key" : "NAME_SYSTEM_TYPE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 29,
+        "endLine" : 84,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/NAME_SYSTEM_TYPE",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "PAGE_TYPE_UNKNOWN" : {
+      "name" : "PAGE_TYPE_UNKNOWN",
+      "key" : "PAGE_TYPE_UNKNOWN",
+      "type" : "int",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 29,
+        "endLine" : 110,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/PAGE_TYPE_UNKNOWN",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "NEED_PASSWORD" : {
+      "name" : "NEED_PASSWORD",
+      "key" : "NEED_PASSWORD",
+      "type" : "int",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 29,
+        "endLine" : 93,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/NEED_PASSWORD",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "DATA_CONNECTION_OPEN" : {
+      "name" : "DATA_CONNECTION_OPEN",
+      "key" : "DATA_CONNECTION_OPEN",
+      "type" : "int",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 29,
+        "endLine" : 87,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/DATA_CONNECTION_OPEN",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "NOT_LOGGED_IN" : {
+      "name" : "NOT_LOGGED_IN",
+      "key" : "NOT_LOGGED_IN",
+      "type" : "int",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 29,
+        "endLine" : 107,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/NOT_LOGGED_IN",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "USER_LOGGED_IN" : {
+      "name" : "USER_LOGGED_IN",
+      "key" : "USER_LOGGED_IN",
+      "type" : "int",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 29,
+        "endLine" : 90,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/USER_LOGGED_IN",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "FILE_ACTION_NOT_TAKEN" : {
+      "name" : "FILE_ACTION_NOT_TAKEN",
+      "key" : "FILE_ACTION_NOT_TAKEN",
+      "type" : "int",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 29,
+        "endLine" : 99,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/FILE_ACTION_NOT_TAKEN",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CLOSING_DATA_CONNECTION" : {
+      "name" : "CLOSING_DATA_CONNECTION",
+      "key" : "CLOSING_DATA_CONNECTION",
+      "type" : "int",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 29,
+        "endLine" : 88,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CLOSING_DATA_CONNECTION",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "FILE_ACTION_PENDING" : {
+      "name" : "FILE_ACTION_PENDING",
+      "key" : "FILE_ACTION_PENDING",
+      "type" : "int",
+      "position" : {
+        "startLine" : 95,
+        "startColumn" : 29,
+        "endLine" : 95,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/FILE_ACTION_PENDING",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_552" : {
+      "name" : "CODE_552",
+      "key" : "CODE_552",
+      "type" : "int",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 29,
+        "endLine" : 71,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_552",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_553" : {
+      "name" : "CODE_553",
+      "key" : "CODE_553",
+      "type" : "int",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 29,
+        "endLine" : 72,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_553",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_350" : {
+      "name" : "CODE_350",
+      "key" : "CODE_350",
+      "type" : "int",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 29,
+        "endLine" : 54,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_350",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_230" : {
+      "name" : "CODE_230",
+      "key" : "CODE_230",
+      "type" : "int",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 29,
+        "endLine" : 49,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_230",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_110" : {
+      "name" : "CODE_110",
+      "key" : "CODE_110",
+      "type" : "int",
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 29,
+        "endLine" : 33,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_110",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_550" : {
+      "name" : "CODE_550",
+      "key" : "CODE_550",
+      "type" : "int",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 29,
+        "endLine" : 69,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_550",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_551" : {
+      "name" : "CODE_551",
+      "key" : "CODE_551",
+      "type" : "int",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 29,
+        "endLine" : 70,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_551",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "INSUFFICIENT_STORAGE" : {
+      "name" : "INSUFFICIENT_STORAGE",
+      "key" : "INSUFFICIENT_STORAGE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 29,
+        "endLine" : 101,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/INSUFFICIENT_STORAGE",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_150" : {
+      "name" : "CODE_150",
+      "key" : "CODE_150",
+      "type" : "int",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 29,
+        "endLine" : 36,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_150",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "DIRECTORY_STATUS" : {
+      "name" : "DIRECTORY_STATUS",
+      "key" : "DIRECTORY_STATUS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 29,
+        "endLine" : 81,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/DIRECTORY_STATUS",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "COMMAND_NOT_IMPLEMENTED" : {
+      "name" : "COMMAND_NOT_IMPLEMENTED",
+      "key" : "COMMAND_NOT_IMPLEMENTED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 29,
+        "endLine" : 104,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/COMMAND_NOT_IMPLEMENTED",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "SERVICE_NOT_AVAILABLE" : {
+      "name" : "SERVICE_NOT_AVAILABLE",
+      "key" : "SERVICE_NOT_AVAILABLE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 29,
+        "endLine" : 96,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/SERVICE_NOT_AVAILABLE",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "DATA_CONNECTION_ALREADY_OPEN" : {
+      "name" : "DATA_CONNECTION_ALREADY_OPEN",
+      "key" : "DATA_CONNECTION_ALREADY_OPEN",
+      "type" : "int",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 29,
+        "endLine" : 76,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/DATA_CONNECTION_ALREADY_OPEN",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "NEED_ACCOUNT_FOR_STORING_FILES" : {
+      "name" : "NEED_ACCOUNT_FOR_STORING_FILES",
+      "key" : "NEED_ACCOUNT_FOR_STORING_FILES",
+      "type" : "int",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 29,
+        "endLine" : 108,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/NEED_ACCOUNT_FOR_STORING_FILES",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "SERVICE_READY" : {
+      "name" : "SERVICE_READY",
+      "key" : "SERVICE_READY",
+      "type" : "int",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 29,
+        "endLine" : 85,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/SERVICE_READY",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "COMMAND_OK" : {
+      "name" : "COMMAND_OK",
+      "key" : "COMMAND_OK",
+      "type" : "int",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 29,
+        "endLine" : 78,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/COMMAND_OK",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_226" : {
+      "name" : "CODE_226",
+      "key" : "CODE_226",
+      "type" : "int",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 29,
+        "endLine" : 47,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_226",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_501" : {
+      "name" : "CODE_501",
+      "key" : "CODE_501",
+      "type" : "int",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 29,
+        "endLine" : 62,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_501",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_227" : {
+      "name" : "CODE_227",
+      "key" : "CODE_227",
+      "type" : "int",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 29,
+        "endLine" : 48,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_227",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_425" : {
+      "name" : "CODE_425",
+      "key" : "CODE_425",
+      "type" : "int",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 29,
+        "endLine" : 56,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_425",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_502" : {
+      "name" : "CODE_502",
+      "key" : "CODE_502",
+      "type" : "int",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 29,
+        "endLine" : 63,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_502",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "FILE_STATUS" : {
+      "name" : "FILE_STATUS",
+      "key" : "FILE_STATUS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 29,
+        "endLine" : 82,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/FILE_STATUS",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_426" : {
+      "name" : "CODE_426",
+      "key" : "CODE_426",
+      "type" : "int",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 29,
+        "endLine" : 57,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_426",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_503" : {
+      "name" : "CODE_503",
+      "key" : "CODE_503",
+      "type" : "int",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 29,
+        "endLine" : 64,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_503",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_504" : {
+      "name" : "CODE_504",
+      "key" : "CODE_504",
+      "type" : "int",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 29,
+        "endLine" : 65,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_504",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_421" : {
+      "name" : "CODE_421",
+      "key" : "CODE_421",
+      "type" : "int",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 29,
+        "endLine" : 55,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_421",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "SERVICE_NOT_READY" : {
+      "name" : "SERVICE_NOT_READY",
+      "key" : "SERVICE_NOT_READY",
+      "type" : "int",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 29,
+        "endLine" : 75,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/SERVICE_NOT_READY",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_225" : {
+      "name" : "CODE_225",
+      "key" : "CODE_225",
+      "type" : "int",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 29,
+        "endLine" : 46,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_225",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_500" : {
+      "name" : "CODE_500",
+      "key" : "CODE_500",
+      "type" : "int",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 29,
+        "endLine" : 61,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_500",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "UNRECOGNIZED_COMMAND" : {
+      "name" : "UNRECOGNIZED_COMMAND",
+      "key" : "UNRECOGNIZED_COMMAND",
+      "type" : "int",
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 29,
+        "endLine" : 102,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/UNRECOGNIZED_COMMAND",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "FILE_UNAVAILABLE" : {
+      "name" : "FILE_UNAVAILABLE",
+      "key" : "FILE_UNAVAILABLE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 29,
+        "endLine" : 109,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/FILE_UNAVAILABLE",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "BAD_COMMAND_SEQUENCE" : {
+      "name" : "BAD_COMMAND_SEQUENCE",
+      "key" : "BAD_COMMAND_SEQUENCE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 29,
+        "endLine" : 105,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/BAD_COMMAND_SEQUENCE",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_220" : {
+      "name" : "CODE_220",
+      "key" : "CODE_220",
+      "type" : "int",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 29,
+        "endLine" : 44,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_220",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "ACTION_ABORTED" : {
+      "name" : "ACTION_ABORTED",
+      "key" : "ACTION_ABORTED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 29,
+        "endLine" : 100,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/ACTION_ABORTED",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_221" : {
+      "name" : "CODE_221",
+      "key" : "CODE_221",
+      "type" : "int",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 29,
+        "endLine" : 45,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_221",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "SERVICE_CLOSING_CONTROL_CONNECTION" : {
+      "name" : "SERVICE_CLOSING_CONTROL_CONNECTION",
+      "key" : "SERVICE_CLOSING_CONTROL_CONNECTION",
+      "type" : "int",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 29,
+        "endLine" : 86,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/SERVICE_CLOSING_CONTROL_CONNECTION",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "ENTERING_PASSIVE_MODE" : {
+      "name" : "ENTERING_PASSIVE_MODE",
+      "key" : "ENTERING_PASSIVE_MODE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 29,
+        "endLine" : 89,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/ENTERING_PASSIVE_MODE",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "COMMAND_NOT_IMPLEMENTED_FOR_PARAMETER" : {
+      "name" : "COMMAND_NOT_IMPLEMENTED_FOR_PARAMETER",
+      "key" : "COMMAND_NOT_IMPLEMENTED_FOR_PARAMETER",
+      "type" : "int",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 29,
+        "endLine" : 106,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/COMMAND_NOT_IMPLEMENTED_FOR_PARAMETER",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "FILE_NAME_NOT_ALLOWED" : {
+      "name" : "FILE_NAME_NOT_ALLOWED",
+      "key" : "FILE_NAME_NOT_ALLOWED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 29,
+        "endLine" : 112,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/FILE_NAME_NOT_ALLOWED",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "PATHNAME_CREATED" : {
+      "name" : "PATHNAME_CREATED",
+      "key" : "PATHNAME_CREATED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 29,
+        "endLine" : 92,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/PATHNAME_CREATED",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CANNOT_OPEN_DATA_CONNECTION" : {
+      "name" : "CANNOT_OPEN_DATA_CONNECTION",
+      "key" : "CANNOT_OPEN_DATA_CONNECTION",
+      "type" : "int",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 29,
+        "endLine" : 97,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CANNOT_OPEN_DATA_CONNECTION",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_215" : {
+      "name" : "CODE_215",
+      "key" : "CODE_215",
+      "type" : "int",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 29,
+        "endLine" : 43,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_215",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "HELP_MESSAGE" : {
+      "name" : "HELP_MESSAGE",
+      "key" : "HELP_MESSAGE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 29,
+        "endLine" : 83,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/HELP_MESSAGE",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "COMMAND_IS_SUPERFLUOUS" : {
+      "name" : "COMMAND_IS_SUPERFLUOUS",
+      "key" : "COMMAND_IS_SUPERFLUOUS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 29,
+        "endLine" : 79,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/COMMAND_IS_SUPERFLUOUS",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "SYSTEM_STATUS" : {
+      "name" : "SYSTEM_STATUS",
+      "key" : "SYSTEM_STATUS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 29,
+        "endLine" : 80,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/SYSTEM_STATUS",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_211" : {
+      "name" : "CODE_211",
+      "key" : "CODE_211",
+      "type" : "int",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 29,
+        "endLine" : 39,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_211",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_332" : {
+      "name" : "CODE_332",
+      "key" : "CODE_332",
+      "type" : "int",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 29,
+        "endLine" : 53,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_332",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_530" : {
+      "name" : "CODE_530",
+      "key" : "CODE_530",
+      "type" : "int",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 29,
+        "endLine" : 67,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_530",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "SYNTAX_ERROR_IN_ARGUMENTS" : {
+      "name" : "SYNTAX_ERROR_IN_ARGUMENTS",
+      "key" : "SYNTAX_ERROR_IN_ARGUMENTS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 29,
+        "endLine" : 103,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/SYNTAX_ERROR_IN_ARGUMENTS",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_212" : {
+      "name" : "CODE_212",
+      "key" : "CODE_212",
+      "type" : "int",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 29,
+        "endLine" : 40,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_212",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_213" : {
+      "name" : "CODE_213",
+      "key" : "CODE_213",
+      "type" : "int",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 29,
+        "endLine" : 41,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_213",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_257" : {
+      "name" : "CODE_257",
+      "key" : "CODE_257",
+      "type" : "int",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 29,
+        "endLine" : 51,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_257",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_532" : {
+      "name" : "CODE_532",
+      "key" : "CODE_532",
+      "type" : "int",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 29,
+        "endLine" : 68,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_532",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "CODE_214" : {
+      "name" : "CODE_214",
+      "key" : "CODE_214",
+      "type" : "int",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 29,
+        "endLine" : 42,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPReply/memberField/CODE_214",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    }
+  },
+  "methods" : {
+    "isNegativeTransient" : {
+      "name" : "isNegativeTransient",
+      "key" : "org.apache.commons.net.ftp.FTPReply/method/isNegativeTransient",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 178,
+        "startColumn" : 27,
+        "endLine" : 178,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reply",
+        "key" : "reply",
+        "type" : "int",
+        "position" : {
+          "startLine" : 178,
+          "startColumn" : 51,
+          "endLine" : 178,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPReply/method/isNegativeTransient"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "isPositiveIntermediate" : {
+      "name" : "isPositiveIntermediate",
+      "key" : "org.apache.commons.net.ftp.FTPReply/method/isPositiveIntermediate",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 27,
+        "endLine" : 163,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reply",
+        "key" : "reply",
+        "type" : "int",
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 54,
+          "endLine" : 163,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPReply/method/isPositiveIntermediate"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "isPositivePreliminary" : {
+      "name" : "isPositivePreliminary",
+      "key" : "org.apache.commons.net.ftp.FTPReply/method/isPositivePreliminary",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 27,
+        "endLine" : 130,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reply",
+        "key" : "reply",
+        "type" : "int",
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 53,
+          "endLine" : 130,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPReply/method/isPositivePreliminary"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "isPositiveCompletion" : {
+      "name" : "isPositiveCompletion",
+      "key" : "org.apache.commons.net.ftp.FTPReply/method/isPositiveCompletion",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 27,
+        "endLine" : 145,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reply",
+        "key" : "reply",
+        "type" : "int",
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 52,
+          "endLine" : 145,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPReply/method/isPositiveCompletion"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    },
+    "isNegativePermanent" : {
+      "name" : "isNegativePermanent",
+      "key" : "org.apache.commons.net.ftp.FTPReply/method/isNegativePermanent",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 193,
+        "startColumn" : 27,
+        "endLine" : 193,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reply",
+        "key" : "reply",
+        "type" : "int",
+        "position" : {
+          "startLine" : 193,
+          "startColumn" : 51,
+          "endLine" : 193,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPReply/method/isNegativePermanent"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPReply"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

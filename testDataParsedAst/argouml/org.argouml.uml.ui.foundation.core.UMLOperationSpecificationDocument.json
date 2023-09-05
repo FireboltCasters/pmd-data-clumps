@@ -1,0 +1,84 @@
+{
+  "name" : "UMLOperationSpecificationDocument",
+  "key" : "org.argouml.uml.ui.foundation.core.UMLOperationSpecificationDocument",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 31,
+        "endLine" : 38,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.UMLOperationSpecificationDocument/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLOperationSpecificationDocument"
+    }
+  },
+  "methods" : {
+    "getProperty" : {
+      "name" : "getProperty",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLOperationSpecificationDocument/method/getProperty",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 22,
+        "endLine" : 61,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLOperationSpecificationDocument"
+    },
+    "setProperty" : {
+      "name" : "setProperty",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLOperationSpecificationDocument/method/setProperty",
+      "type" : "void",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 20,
+        "endLine" : 50,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "text",
+        "key" : "text",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 39,
+          "endLine" : 50,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.UMLOperationSpecificationDocument/method/setProperty"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLOperationSpecificationDocument"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLPlainTextDocument" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

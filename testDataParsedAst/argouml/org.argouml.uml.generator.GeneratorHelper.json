@@ -1,0 +1,107 @@
+{
+  "name" : "GeneratorHelper",
+  "key" : "org.argouml.uml.generator.GeneratorHelper",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 14,
+    "endLine" : 38,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "makeLanguage" : {
+      "name" : "makeLanguage",
+      "key" : "org.argouml.uml.generator.GeneratorHelper/method/makeLanguage",
+      "type" : "Language",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 28,
+        "endLine" : 124,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theName",
+        "key" : "theName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 124,
+          "startColumn" : 48,
+          "endLine" : 124,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.GeneratorHelper/method/makeLanguage"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.generator.GeneratorHelper"
+    },
+    "generate" : {
+      "name" : "generate",
+      "key" : "org.argouml.uml.generator.GeneratorHelper/method/generate",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 30,
+        "endLine" : 71,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "lang",
+        "key" : "lang",
+        "type" : "Language",
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 22,
+          "endLine" : 72,
+          "endColumn" : 26
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.GeneratorHelper/method/generate"
+      }, {
+        "name" : "elem",
+        "key" : "elem",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 35,
+          "endLine" : 72,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.GeneratorHelper/method/generate"
+      }, {
+        "name" : "deps",
+        "key" : "deps",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 49,
+          "endLine" : 72,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.generator.GeneratorHelper/method/generate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.generator.GeneratorHelper"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

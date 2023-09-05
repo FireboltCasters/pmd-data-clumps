@@ -1,0 +1,123 @@
+{
+  "name" : "ExtendedNNTPOps",
+  "key" : "examples.nntp.ExtendedNNTPOps",
+  "type" : "class",
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "client" : {
+      "name" : "client",
+      "key" : "client",
+      "type" : "org.apache.commons.net.nntp.NNTPClient",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 13,
+        "endLine" : 35,
+        "endColumn" : 19
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "examples.nntp.ExtendedNNTPOps/memberField/client",
+      "classOrInterfaceKey" : "examples.nntp.ExtendedNNTPOps"
+    }
+  },
+  "methods" : {
+    "main" : {
+      "name" : "main",
+      "key" : "examples.nntp.ExtendedNNTPOps/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 21,
+        "endLine" : 77,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 35,
+          "endLine" : 77,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.nntp.ExtendedNNTPOps/method/main"
+      } ],
+      "classOrInterfaceKey" : "examples.nntp.ExtendedNNTPOps"
+    },
+    "demo" : {
+      "name" : "demo",
+      "key" : "examples.nntp.ExtendedNNTPOps/method/demo",
+      "type" : "void",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 14,
+        "endLine" : 43,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "host",
+        "key" : "host",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 43,
+          "startColumn" : 26,
+          "endLine" : 43,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.nntp.ExtendedNNTPOps/method/demo"
+      }, {
+        "name" : "user",
+        "key" : "user",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 43,
+          "startColumn" : 39,
+          "endLine" : 43,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.nntp.ExtendedNNTPOps/method/demo"
+      }, {
+        "name" : "password",
+        "key" : "password",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 43,
+          "startColumn" : 52,
+          "endLine" : 43,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.nntp.ExtendedNNTPOps/method/demo"
+      } ],
+      "classOrInterfaceKey" : "examples.nntp.ExtendedNNTPOps"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

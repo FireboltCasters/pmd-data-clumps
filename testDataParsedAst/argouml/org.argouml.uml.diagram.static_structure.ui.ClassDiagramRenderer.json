@@ -1,0 +1,190 @@
+{
+  "name" : "ClassDiagramRenderer",
+  "key" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer",
+  "type" : "class",
+  "position" : {
+    "startLine" : 91,
+    "startColumn" : 8,
+    "endLine" : 91,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 23,
+        "endLine" : 96,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 33,
+        "endLine" : 101,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer"
+    }
+  },
+  "methods" : {
+    "getFigEdgeFor" : {
+      "name" : "getFigEdgeFor",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer/method/getFigEdgeFor",
+      "type" : "org.tigris.gef.presentation.FigEdge",
+      "position" : {
+        "startLine" : 178,
+        "startColumn" : 20,
+        "endLine" : 178,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "gm",
+        "key" : "gm",
+        "type" : "org.tigris.gef.graph.GraphModel",
+        "position" : {
+          "startLine" : 178,
+          "startColumn" : 45,
+          "endLine" : 178,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer/method/getFigEdgeFor"
+      }, {
+        "name" : "lay",
+        "key" : "lay",
+        "type" : "org.tigris.gef.base.Layer",
+        "position" : {
+          "startLine" : 178,
+          "startColumn" : 55,
+          "endLine" : 178,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer/method/getFigEdgeFor"
+      }, {
+        "name" : "edge",
+        "key" : "edge",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 179,
+          "startColumn" : 13,
+          "endLine" : 179,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer/method/getFigEdgeFor"
+      }, {
+        "name" : "styleAttribute",
+        "key" : "styleAttribute",
+        "type" : "java.util.Map",
+        "position" : {
+          "startLine" : 179,
+          "startColumn" : 23,
+          "endLine" : 179,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer/method/getFigEdgeFor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer"
+    },
+    "getFigNodeFor" : {
+      "name" : "getFigNodeFor",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer/method/getFigNodeFor",
+      "type" : "org.tigris.gef.presentation.FigNode",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 20,
+        "endLine" : 109,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "gm",
+        "key" : "gm",
+        "type" : "org.tigris.gef.graph.GraphModel",
+        "position" : {
+          "startLine" : 109,
+          "startColumn" : 45,
+          "endLine" : 109,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer/method/getFigNodeFor"
+      }, {
+        "name" : "lay",
+        "key" : "lay",
+        "type" : "org.tigris.gef.base.Layer",
+        "position" : {
+          "startLine" : 109,
+          "startColumn" : 55,
+          "endLine" : 109,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer/method/getFigNodeFor"
+      }, {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 13,
+          "endLine" : 110,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer/method/getFigNodeFor"
+      }, {
+        "name" : "styleAttributes",
+        "key" : "styleAttributes",
+        "type" : "java.util.Map",
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 23,
+          "endLine" : 110,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer/method/getFigNodeFor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.diagram.UmlDiagramRenderer" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

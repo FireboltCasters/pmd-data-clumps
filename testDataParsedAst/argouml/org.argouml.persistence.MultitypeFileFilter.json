@@ -1,0 +1,159 @@
+{
+  "name" : "MultitypeFileFilter",
+  "key" : "org.argouml.persistence.MultitypeFileFilter",
+  "type" : "class",
+  "position" : {
+    "startLine" : 467,
+    "startColumn" : 1,
+    "endLine" : 467,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "extensions" : {
+      "name" : "extensions",
+      "key" : "extensions",
+      "type" : "java.util.ArrayList",
+      "position" : {
+        "startLine" : 469,
+        "startColumn" : 31,
+        "endLine" : 469,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.MultitypeFileFilter/memberField/extensions",
+      "classOrInterfaceKey" : "org.argouml.persistence.MultitypeFileFilter"
+    },
+    "filters" : {
+      "name" : "filters",
+      "key" : "filters",
+      "type" : "java.util.ArrayList",
+      "position" : {
+        "startLine" : 468,
+        "startColumn" : 35,
+        "endLine" : 468,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.MultitypeFileFilter/memberField/filters",
+      "classOrInterfaceKey" : "org.argouml.persistence.MultitypeFileFilter"
+    },
+    "desc" : {
+      "name" : "desc",
+      "key" : "desc",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 470,
+        "startColumn" : 20,
+        "endLine" : 470,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.MultitypeFileFilter/memberField/desc",
+      "classOrInterfaceKey" : "org.argouml.persistence.MultitypeFileFilter"
+    }
+  },
+  "methods" : {
+    "add" : {
+      "name" : "add",
+      "key" : "org.argouml.persistence.MultitypeFileFilter/method/add",
+      "type" : "void",
+      "position" : {
+        "startLine" : 486,
+        "startColumn" : 17,
+        "endLine" : 486,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "filter",
+        "key" : "filter",
+        "type" : "AbstractFilePersister",
+        "position" : {
+          "startLine" : 486,
+          "startColumn" : 43,
+          "endLine" : 486,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.MultitypeFileFilter/method/add"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.MultitypeFileFilter"
+    },
+    "getAll" : {
+      "name" : "getAll",
+      "key" : "org.argouml.persistence.MultitypeFileFilter/method/getAll",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 504,
+        "startColumn" : 35,
+        "endLine" : 504,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.MultitypeFileFilter"
+    },
+    "getDescription" : {
+      "name" : "getDescription",
+      "key" : "org.argouml.persistence.MultitypeFileFilter/method/getDescription",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 527,
+        "startColumn" : 19,
+        "endLine" : 527,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.MultitypeFileFilter"
+    },
+    "accept" : {
+      "name" : "accept",
+      "key" : "org.argouml.persistence.MultitypeFileFilter/method/accept",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 514,
+        "startColumn" : 20,
+        "endLine" : 514,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "arg0",
+        "key" : "arg0",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 514,
+          "startColumn" : 32,
+          "endLine" : 514,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.MultitypeFileFilter/method/accept"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.MultitypeFileFilter"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.filechooser.FileFilter" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

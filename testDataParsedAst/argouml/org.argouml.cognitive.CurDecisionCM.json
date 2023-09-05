@@ -1,0 +1,65 @@
+{
+  "name" : "CurDecisionCM",
+  "key" : "org.argouml.cognitive.CurDecisionCM",
+  "type" : "class",
+  "position" : {
+    "startLine" : 101,
+    "startColumn" : 1,
+    "endLine" : 101,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "isRelevant" : {
+      "name" : "isRelevant",
+      "key" : "org.argouml.cognitive.CurDecisionCM/method/isRelevant",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 20,
+        "endLine" : 105,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "Critic",
+        "position" : {
+          "startLine" : 105,
+          "startColumn" : 38,
+          "endLine" : 105,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CurDecisionCM/method/isRelevant"
+      }, {
+        "name" : "d",
+        "key" : "d",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 105,
+          "startColumn" : 50,
+          "endLine" : 105,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.CurDecisionCM/method/isRelevant"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.CurDecisionCM"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "ControlMech" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,97 @@
+{
+  "name" : "HelpListener",
+  "key" : "org.argouml.ui.HelpListener",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "myStatusBar" : {
+      "name" : "myStatusBar",
+      "key" : "myStatusBar",
+      "type" : "StatusBar",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 23,
+        "endLine" : 43,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HelpListener/memberField/myStatusBar",
+      "classOrInterfaceKey" : "org.argouml.ui.HelpListener"
+    }
+  },
+  "methods" : {
+    "helpChanged" : {
+      "name" : "helpChanged",
+      "key" : "org.argouml.ui.HelpListener/method/helpChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 17,
+        "endLine" : 49,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.application.events.ArgoHelpEvent",
+        "position" : {
+          "startLine" : 49,
+          "startColumn" : 43,
+          "endLine" : 49,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.HelpListener/method/helpChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.HelpListener"
+    },
+    "helpRemoved" : {
+      "name" : "helpRemoved",
+      "key" : "org.argouml.ui.HelpListener/method/helpRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 17,
+        "endLine" : 53,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.application.events.ArgoHelpEvent",
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 43,
+          "endLine" : 53,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.HelpListener/method/helpRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.HelpListener"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.events.ArgoHelpEventListener" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

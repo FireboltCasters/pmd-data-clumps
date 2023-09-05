@@ -1,0 +1,52 @@
+{
+  "name" : "UMLReceptionSignalComboBox",
+  "key" : "org.argouml.uml.ui.behavior.common_behavior.UMLReceptionSignalComboBox",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "doIt" : {
+      "name" : "doIt",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.UMLReceptionSignalComboBox/method/doIt",
+      "type" : "void",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 20,
+        "endLine" : 56,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 56,
+          "startColumn" : 37,
+          "endLine" : 56,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.common_behavior.UMLReceptionSignalComboBox/method/doIt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.UMLReceptionSignalComboBox"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLComboBox2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

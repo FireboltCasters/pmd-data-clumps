@@ -1,0 +1,266 @@
+{
+  "name" : "NewGroupsOrNewsQuery",
+  "key" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 14,
+    "endLine" : 43,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "__time" : {
+      "name" : "__time",
+      "key" : "__time",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 28,
+        "endLine" : 45,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/memberField/__time",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery"
+    },
+    "__distributions" : {
+      "name" : "__distributions",
+      "key" : "__distributions",
+      "type" : "java.lang.StringBuffer",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 26,
+        "endLine" : 46,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/memberField/__distributions",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery"
+    },
+    "__date" : {
+      "name" : "__date",
+      "key" : "__date",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 20,
+        "endLine" : 45,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/memberField/__date",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery"
+    },
+    "__newsgroups" : {
+      "name" : "__newsgroups",
+      "key" : "__newsgroups",
+      "type" : "java.lang.StringBuffer",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 26,
+        "endLine" : 47,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/memberField/__newsgroups",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery"
+    },
+    "__isGMT" : {
+      "name" : "__isGMT",
+      "key" : "__isGMT",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 21,
+        "endLine" : 48,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/memberField/__isGMT",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery"
+    }
+  },
+  "methods" : {
+    "addNewsgroup" : {
+      "name" : "addNewsgroup",
+      "key" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/method/addNewsgroup",
+      "type" : "void",
+      "position" : {
+        "startLine" : 173,
+        "startColumn" : 17,
+        "endLine" : 173,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newsgroup",
+        "key" : "newsgroup",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 173,
+          "startColumn" : 37,
+          "endLine" : 173,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/method/addNewsgroup"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery"
+    },
+    "getTime" : {
+      "name" : "getTime",
+      "key" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/method/getTime",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 243,
+        "startColumn" : 19,
+        "endLine" : 243,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery"
+    },
+    "isGMT" : {
+      "name" : "isGMT",
+      "key" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/method/isGMT",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 253,
+        "startColumn" : 20,
+        "endLine" : 253,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery"
+    },
+    "getDistributions" : {
+      "name" : "getDistributions",
+      "key" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/method/getDistributions",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 265,
+        "startColumn" : 19,
+        "endLine" : 265,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery"
+    },
+    "getNewsgroups" : {
+      "name" : "getNewsgroups",
+      "key" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/method/getNewsgroups",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 277,
+        "startColumn" : 19,
+        "endLine" : 277,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery"
+    },
+    "getDate" : {
+      "name" : "getDate",
+      "key" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/method/getDate",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 232,
+        "startColumn" : 19,
+        "endLine" : 232,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery"
+    },
+    "addDistribution" : {
+      "name" : "addDistribution",
+      "key" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/method/addDistribution",
+      "type" : "void",
+      "position" : {
+        "startLine" : 217,
+        "startColumn" : 17,
+        "endLine" : 217,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "distribution",
+        "key" : "distribution",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 217,
+          "startColumn" : 40,
+          "endLine" : 217,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/method/addDistribution"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery"
+    },
+    "omitNewsgroup" : {
+      "name" : "omitNewsgroup",
+      "key" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/method/omitNewsgroup",
+      "type" : "void",
+      "position" : {
+        "startLine" : 201,
+        "startColumn" : 17,
+        "endLine" : 201,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newsgroup",
+        "key" : "newsgroup",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 201,
+          "startColumn" : 38,
+          "endLine" : 201,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery/method/omitNewsgroup"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NewGroupsOrNewsQuery"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

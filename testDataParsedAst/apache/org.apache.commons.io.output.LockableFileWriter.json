@@ -1,0 +1,256 @@
+{
+  "name" : "LockableFileWriter",
+  "key" : "org.apache.commons.io.output.LockableFileWriter",
+  "type" : "class",
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 8,
+    "endLine" : 50,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "lockFile" : {
+      "name" : "lockFile",
+      "key" : "lockFile",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 24,
+        "endLine" : 60,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.LockableFileWriter/memberField/lockFile",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriter"
+    },
+    "LCK" : {
+      "name" : "LCK",
+      "key" : "LCK",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 33,
+        "endLine" : 55,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.LockableFileWriter/memberField/LCK",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriter"
+    },
+    "out" : {
+      "name" : "out",
+      "key" : "out",
+      "type" : "java.io.Writer",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 26,
+        "endLine" : 58,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.LockableFileWriter/memberField/out",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriter"
+    }
+  },
+  "methods" : {
+    "initWriter" : {
+      "name" : "initWriter",
+      "key" : "org.apache.commons.io.output.LockableFileWriter/method/initWriter",
+      "type" : "java.io.Writer",
+      "position" : {
+        "startLine" : 230,
+        "startColumn" : 20,
+        "endLine" : 230,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 230,
+          "startColumn" : 36,
+          "endLine" : 230,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.LockableFileWriter/method/initWriter"
+      }, {
+        "name" : "encoding",
+        "key" : "encoding",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 230,
+          "startColumn" : 49,
+          "endLine" : 230,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.LockableFileWriter/method/initWriter"
+      }, {
+        "name" : "append",
+        "key" : "append",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 230,
+          "startColumn" : 67,
+          "endLine" : 230,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.LockableFileWriter/method/initWriter"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriter"
+    },
+    "flush" : {
+      "name" : "flush",
+      "key" : "org.apache.commons.io.output.LockableFileWriter/method/flush",
+      "type" : "void",
+      "position" : {
+        "startLine" : 302,
+        "startColumn" : 17,
+        "endLine" : 302,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriter"
+    },
+    "testLockDir" : {
+      "name" : "testLockDir",
+      "key" : "org.apache.commons.io.output.LockableFileWriter/method/testLockDir",
+      "type" : "void",
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 18,
+        "endLine" : 194,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "lockDir",
+        "key" : "lockDir",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 194,
+          "startColumn" : 35,
+          "endLine" : 194,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.LockableFileWriter/method/testLockDir"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriter"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.io.output.LockableFileWriter/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 267,
+        "startColumn" : 17,
+        "endLine" : 267,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriter"
+    },
+    "write" : {
+      "name" : "write",
+      "key" : "org.apache.commons.io.output.LockableFileWriter/method/write",
+      "type" : "void",
+      "position" : {
+        "startLine" : 297,
+        "startColumn" : 17,
+        "endLine" : 297,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "str",
+        "key" : "str",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 297,
+          "startColumn" : 30,
+          "endLine" : 297,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.LockableFileWriter/method/write"
+      }, {
+        "name" : "st",
+        "key" : "st",
+        "type" : "int",
+        "position" : {
+          "startLine" : 297,
+          "startColumn" : 39,
+          "endLine" : 297,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.LockableFileWriter/method/write"
+      }, {
+        "name" : "end",
+        "key" : "end",
+        "type" : "int",
+        "position" : {
+          "startLine" : 297,
+          "startColumn" : 47,
+          "endLine" : 297,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.LockableFileWriter/method/write"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriter"
+    },
+    "createLock" : {
+      "name" : "createLock",
+      "key" : "org.apache.commons.io.output.LockableFileWriter/method/createLock",
+      "type" : "void",
+      "position" : {
+        "startLine" : 210,
+        "startColumn" : 18,
+        "endLine" : 210,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriter"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.io.Writer" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

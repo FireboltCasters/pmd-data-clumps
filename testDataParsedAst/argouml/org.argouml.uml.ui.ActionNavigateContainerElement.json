@@ -1,0 +1,52 @@
+{
+  "name" : "ActionNavigateContainerElement",
+  "key" : "org.argouml.uml.ui.ActionNavigateContainerElement",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "navigateTo" : {
+      "name" : "navigateTo",
+      "key" : "org.argouml.uml.ui.ActionNavigateContainerElement/method/navigateTo",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 22,
+        "endLine" : 42,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "source",
+        "key" : "source",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 40,
+          "endLine" : 42,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionNavigateContainerElement/method/navigateTo"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionNavigateContainerElement"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbstractActionNavigate" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

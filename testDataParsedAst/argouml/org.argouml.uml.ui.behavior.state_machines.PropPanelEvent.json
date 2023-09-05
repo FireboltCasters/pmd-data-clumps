@@ -1,0 +1,86 @@
+{
+  "name" : "PropPanelEvent",
+  "key" : "org.argouml.uml.ui.behavior.state_machines.PropPanelEvent",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 17,
+    "endLine" : 44,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "paramScroll" : {
+      "name" : "paramScroll",
+      "key" : "paramScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 25,
+        "endLine" : 46,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelEvent/memberField/paramScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelEvent"
+    },
+    "paramListModel" : {
+      "name" : "paramListModel",
+      "key" : "paramListModel",
+      "type" : "UMLEventParameterListModel",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 40,
+        "endLine" : 48,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelEvent/memberField/paramListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelEvent"
+    }
+  },
+  "methods" : {
+    "getParameterScroll" : {
+      "name" : "getParameterScroll",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.PropPanelEvent/method/getParameterScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 27,
+        "endLine" : 105,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelEvent"
+    },
+    "initialize" : {
+      "name" : "initialize",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.PropPanelEvent/method/initialize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 20,
+        "endLine" : 80,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.PropPanelEvent"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

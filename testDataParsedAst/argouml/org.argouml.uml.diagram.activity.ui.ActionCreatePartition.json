@@ -1,0 +1,68 @@
+{
+  "name" : "ActionCreatePartition",
+  "key" : "org.argouml.uml.diagram.activity.ui.ActionCreatePartition",
+  "type" : "class",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "machine" : {
+      "name" : "machine",
+      "key" : "machine",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 20,
+        "endLine" : 36,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.ActionCreatePartition/memberField/machine",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.ActionCreatePartition"
+    }
+  },
+  "methods" : {
+    "createMode" : {
+      "name" : "createMode",
+      "key" : "org.argouml.uml.diagram.activity.ui.ActionCreatePartition/method/createMode",
+      "type" : "org.tigris.gef.base.Mode",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 20,
+        "endLine" : 50,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instructions",
+        "key" : "instructions",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 38,
+          "endLine" : 50,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.ActionCreatePartition/method/createMode"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.ActionCreatePartition"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.ui.CmdCreateNode" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

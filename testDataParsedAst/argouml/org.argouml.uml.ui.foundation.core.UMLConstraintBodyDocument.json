@@ -1,0 +1,68 @@
+{
+  "name" : "UMLConstraintBodyDocument",
+  "key" : "org.argouml.uml.ui.foundation.core.UMLConstraintBodyDocument",
+  "type" : "class",
+  "position" : {
+    "startLine" : 80,
+    "startColumn" : 1,
+    "endLine" : 80,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "getProperty" : {
+      "name" : "getProperty",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLConstraintBodyDocument/method/getProperty",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 22,
+        "endLine" : 99,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLConstraintBodyDocument"
+    },
+    "setProperty" : {
+      "name" : "setProperty",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLConstraintBodyDocument/method/setProperty",
+      "type" : "void",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 20,
+        "endLine" : 92,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "text",
+        "key" : "text",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 39,
+          "endLine" : 92,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.UMLConstraintBodyDocument/method/setProperty"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLConstraintBodyDocument"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLPlainTextDocument" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,154 @@
+{
+  "name" : "TodoListMemberFilePersister",
+  "key" : "org.argouml.persistence.TodoListMemberFilePersister",
+  "type" : "class",
+  "position" : {
+    "startLine" : 52,
+    "startColumn" : 1,
+    "endLine" : 52,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "TO_DO_TEE" : {
+      "name" : "TO_DO_TEE",
+      "key" : "TO_DO_TEE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 33,
+        "endLine" : 57,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.TodoListMemberFilePersister/memberField/TO_DO_TEE",
+      "classOrInterfaceKey" : "org.argouml.persistence.TodoListMemberFilePersister"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 33,
+        "endLine" : 54,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.TodoListMemberFilePersister/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.persistence.TodoListMemberFilePersister"
+    }
+  },
+  "methods" : {
+    "load" : {
+      "name" : "load",
+      "key" : "org.argouml.persistence.TodoListMemberFilePersister/method/load",
+      "type" : "void",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 17,
+        "endLine" : 83,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 30,
+          "endLine" : 83,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.TodoListMemberFilePersister/method/load"
+      }, {
+        "name" : "url",
+        "key" : "url",
+        "type" : "java.net.URL",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 43,
+          "endLine" : 83,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.TodoListMemberFilePersister/method/load"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.TodoListMemberFilePersister"
+    },
+    "save" : {
+      "name" : "save",
+      "key" : "org.argouml.persistence.TodoListMemberFilePersister/method/save",
+      "type" : "void",
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 17,
+        "endLine" : 147,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "member",
+        "key" : "member",
+        "type" : "org.argouml.kernel.ProjectMember",
+        "position" : {
+          "startLine" : 147,
+          "startColumn" : 36,
+          "endLine" : 147,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.TodoListMemberFilePersister/method/save"
+      }, {
+        "name" : "outStream",
+        "key" : "outStream",
+        "type" : "java.io.OutputStream",
+        "position" : {
+          "startLine" : 147,
+          "startColumn" : 57,
+          "endLine" : 147,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.TodoListMemberFilePersister/method/save"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.TodoListMemberFilePersister"
+    },
+    "getMainTag" : {
+      "name" : "getMainTag",
+      "key" : "org.argouml.persistence.TodoListMemberFilePersister/method/getMainTag",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 25,
+        "endLine" : 94,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.TodoListMemberFilePersister"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "MemberFilePersister" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

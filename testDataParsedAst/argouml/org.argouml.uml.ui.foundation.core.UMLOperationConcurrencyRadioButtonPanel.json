@@ -1,0 +1,71 @@
+{
+  "name" : "UMLOperationConcurrencyRadioButtonPanel",
+  "key" : "org.argouml.uml.ui.foundation.core.UMLOperationConcurrencyRadioButtonPanel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "labelTextsAndActionCommands" : {
+      "name" : "labelTextsAndActionCommands",
+      "key" : "labelTextsAndActionCommands",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 35,
+        "endLine" : 42,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.UMLOperationConcurrencyRadioButtonPanel/memberField/labelTextsAndActionCommands",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLOperationConcurrencyRadioButtonPanel"
+    }
+  },
+  "methods" : {
+    "buildModel" : {
+      "name" : "buildModel",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLOperationConcurrencyRadioButtonPanel/method/buildModel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 17,
+        "endLine" : 79,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLOperationConcurrencyRadioButtonPanel"
+    },
+    "getCommands" : {
+      "name" : "getCommands",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLOperationConcurrencyRadioButtonPanel/method/getCommands",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 35,
+        "endLine" : 44,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLOperationConcurrencyRadioButtonPanel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLRadioButtonPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

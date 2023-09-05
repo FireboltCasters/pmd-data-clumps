@@ -1,0 +1,144 @@
+{
+  "name" : "OldZargoFilePersister",
+  "key" : "org.argouml.persistence.OldZargoFilePersister",
+  "type" : "class",
+  "position" : {
+    "startLine" : 54,
+    "startColumn" : 1,
+    "endLine" : 54,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 33,
+        "endLine" : 58,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.OldZargoFilePersister/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.persistence.OldZargoFilePersister"
+    },
+    "ARGO_MINI_TEE" : {
+      "name" : "ARGO_MINI_TEE",
+      "key" : "ARGO_MINI_TEE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 33,
+        "endLine" : 65,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.OldZargoFilePersister/memberField/ARGO_MINI_TEE",
+      "classOrInterfaceKey" : "org.argouml.persistence.OldZargoFilePersister"
+    }
+  },
+  "methods" : {
+    "doSave" : {
+      "name" : "doSave",
+      "key" : "org.argouml.persistence.OldZargoFilePersister/method/doSave",
+      "type" : "void",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 17,
+        "endLine" : 103,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 103,
+          "startColumn" : 32,
+          "endLine" : 103,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.OldZargoFilePersister/method/doSave"
+      }, {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 103,
+          "startColumn" : 46,
+          "endLine" : 103,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.OldZargoFilePersister/method/doSave"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.OldZargoFilePersister"
+    },
+    "isLoadEnabled" : {
+      "name" : "isLoadEnabled",
+      "key" : "org.argouml.persistence.OldZargoFilePersister/method/isLoadEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 244,
+        "startColumn" : 20,
+        "endLine" : 244,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.OldZargoFilePersister"
+    },
+    "isSaveEnabled" : {
+      "name" : "isSaveEnabled",
+      "key" : "org.argouml.persistence.OldZargoFilePersister/method/isSaveEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 20,
+        "endLine" : 84,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.OldZargoFilePersister"
+    },
+    "getDesc" : {
+      "name" : "getDesc",
+      "key" : "org.argouml.persistence.OldZargoFilePersister/method/getDesc",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 22,
+        "endLine" : 77,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.OldZargoFilePersister"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ZargoFilePersister" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

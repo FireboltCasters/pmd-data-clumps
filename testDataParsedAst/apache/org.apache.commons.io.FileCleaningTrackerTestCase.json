@@ -1,0 +1,307 @@
+{
+  "name" : "FileCleaningTrackerTestCase",
+  "key" : "org.apache.commons.io.FileCleaningTrackerTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "testFile" : {
+      "name" : "testFile",
+      "key" : "testFile",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 18,
+        "endLine" : 45,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.FileCleaningTrackerTestCase/memberField/testFile",
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    },
+    "theInstance" : {
+      "name" : "theInstance",
+      "key" : "theInstance",
+      "type" : "FileCleaningTracker",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 33,
+        "endLine" : 46,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.FileCleaningTrackerTestCase/memberField/theInstance",
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    }
+  },
+  "methods" : {
+    "testFileCleanerExitWhenFinished1" : {
+      "name" : "testFileCleanerExitWhenFinished1",
+      "key" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/testFileCleanerExitWhenFinished1",
+      "type" : "void",
+      "position" : {
+        "startLine" : 227,
+        "startColumn" : 17,
+        "endLine" : 227,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    },
+    "waitUntilTrackCount" : {
+      "name" : "waitUntilTrackCount",
+      "key" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/waitUntilTrackCount",
+      "type" : "void",
+      "position" : {
+        "startLine" : 291,
+        "startColumn" : 18,
+        "endLine" : 291,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    },
+    "newInstance" : {
+      "name" : "newInstance",
+      "key" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/newInstance",
+      "type" : "FileCleaningTracker",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 35,
+        "endLine" : 41,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 24,
+        "endLine" : 48,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 38,
+          "endLine" : 48,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    },
+    "testFileCleanerDirectory_NullStrategy" : {
+      "name" : "testFileCleanerDirectory_NullStrategy",
+      "key" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/testFileCleanerDirectory_NullStrategy",
+      "type" : "void",
+      "position" : {
+        "startLine" : 131,
+        "startColumn" : 17,
+        "endLine" : 131,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    },
+    "testFileCleanerExitWhenFinishedFirst" : {
+      "name" : "testFileCleanerExitWhenFinishedFirst",
+      "key" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/testFileCleanerExitWhenFinishedFirst",
+      "type" : "void",
+      "position" : {
+        "startLine" : 196,
+        "startColumn" : 17,
+        "endLine" : 196,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 20,
+        "endLine" : 69,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    },
+    "testFileCleanerFile" : {
+      "name" : "testFileCleanerFile",
+      "key" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/testFileCleanerFile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 17,
+        "endLine" : 91,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    },
+    "testFileCleanerDirectory" : {
+      "name" : "testFileCleanerDirectory",
+      "key" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/testFileCleanerDirectory",
+      "type" : "void",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 17,
+        "endLine" : 112,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 24,
+        "endLine" : 52,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    },
+    "testFileCleanerDirectory_ForceStrategy" : {
+      "name" : "testFileCleanerDirectory_ForceStrategy",
+      "key" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/testFileCleanerDirectory_ForceStrategy",
+      "type" : "void",
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 17,
+        "endLine" : 150,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    },
+    "testFileCleanerNull" : {
+      "name" : "testFileCleanerNull",
+      "key" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/testFileCleanerNull",
+      "type" : "void",
+      "position" : {
+        "startLine" : 169,
+        "startColumn" : 17,
+        "endLine" : 169,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    },
+    "testFileCleanerExitWhenFinished2" : {
+      "name" : "testFileCleanerExitWhenFinished2",
+      "key" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/testFileCleanerExitWhenFinished2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 257,
+        "startColumn" : 17,
+        "endLine" : 257,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 20,
+        "endLine" : 63,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    },
+    "testFileCleanerExitWhenFinished_NoTrackAfter" : {
+      "name" : "testFileCleanerExitWhenFinished_NoTrackAfter",
+      "key" : "org.apache.commons.io.FileCleaningTrackerTestCase/method/testFileCleanerExitWhenFinished_NoTrackAfter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 209,
+        "startColumn" : 17,
+        "endLine" : 209,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleaningTrackerTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.io.testtools.FileBasedTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,155 @@
+{
+  "name" : "ToDoByGoal",
+  "key" : "org.argouml.cognitive.ui.ToDoByGoal",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 33,
+        "endLine" : 40,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoByGoal/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoByGoal"
+    }
+  },
+  "methods" : {
+    "toDoItemsRemoved" : {
+      "name" : "toDoItemsRemoved",
+      "key" : "org.argouml.cognitive.ui.ToDoByGoal/method/toDoItemsRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 17,
+        "endLine" : 128,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tde",
+        "key" : "tde",
+        "type" : "org.argouml.cognitive.ToDoListEvent",
+        "position" : {
+          "startLine" : 128,
+          "startColumn" : 48,
+          "endLine" : 128,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoByGoal/method/toDoItemsRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoByGoal"
+    },
+    "toDoListChanged" : {
+      "name" : "toDoListChanged",
+      "key" : "org.argouml.cognitive.ui.ToDoByGoal/method/toDoListChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 17,
+        "endLine" : 149,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tde",
+        "key" : "tde",
+        "type" : "org.argouml.cognitive.ToDoListEvent",
+        "position" : {
+          "startLine" : 149,
+          "startColumn" : 47,
+          "endLine" : 149,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoByGoal/method/toDoListChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoByGoal"
+    },
+    "toDoItemsChanged" : {
+      "name" : "toDoItemsChanged",
+      "key" : "org.argouml.cognitive.ui.ToDoByGoal/method/toDoItemsChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 17,
+        "endLine" : 59,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tde",
+        "key" : "tde",
+        "type" : "org.argouml.cognitive.ToDoListEvent",
+        "position" : {
+          "startLine" : 59,
+          "startColumn" : 48,
+          "endLine" : 59,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoByGoal/method/toDoItemsChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoByGoal"
+    },
+    "toDoItemsAdded" : {
+      "name" : "toDoItemsAdded",
+      "key" : "org.argouml.cognitive.ui.ToDoByGoal/method/toDoItemsAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 17,
+        "endLine" : 92,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tde",
+        "key" : "tde",
+        "type" : "org.argouml.cognitive.ToDoListEvent",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 46,
+          "endLine" : 92,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoByGoal/method/toDoItemsAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoByGoal"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.cognitive.ToDoListListener" ],
+  "extends_" : [ "ToDoPerspective" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

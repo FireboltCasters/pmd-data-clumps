@@ -1,0 +1,52 @@
+{
+  "name" : "SelectionMoveClarifiers",
+  "key" : "org.argouml.uml.diagram.ui.SelectionMoveClarifiers",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "paint" : {
+      "name" : "paint",
+      "key" : "org.argouml.uml.diagram.ui.SelectionMoveClarifiers/method/paint",
+      "type" : "void",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 17,
+        "endLine" : 54,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "g",
+        "key" : "g",
+        "type" : "java.awt.Graphics",
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 32,
+          "endLine" : 54,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.SelectionMoveClarifiers/method/paint"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.SelectionMoveClarifiers"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.base.SelectionMove" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

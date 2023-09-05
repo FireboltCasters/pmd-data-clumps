@@ -1,0 +1,39 @@
+{
+  "name" : "FigNameWithAbstractAndBold",
+  "key" : "org.argouml.uml.diagram.ui.FigNameWithAbstractAndBold",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 1,
+    "endLine" : 44,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "getFigFontStyle" : {
+      "name" : "getFigFontStyle",
+      "key" : "org.argouml.uml.diagram.ui.FigNameWithAbstractAndBold/method/getFigFontStyle",
+      "type" : "int",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 19,
+        "endLine" : 59,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigNameWithAbstractAndBold"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "FigNameWithAbstract" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

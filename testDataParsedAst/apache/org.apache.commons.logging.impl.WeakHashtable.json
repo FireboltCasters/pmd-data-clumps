@@ -1,0 +1,749 @@
+{
+  "name" : "WeakHashtable",
+  "key" : "org.apache.commons.logging.impl.WeakHashtable",
+  "type" : "class",
+  "position" : {
+    "startLine" : 110,
+    "startColumn" : 14,
+    "endLine" : 110,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "PARTIAL_PURGE_COUNT" : {
+      "name" : "PARTIAL_PURGE_COUNT",
+      "key" : "PARTIAL_PURGE_COUNT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 30,
+        "endLine" : 122,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.WeakHashtable/memberField/PARTIAL_PURGE_COUNT",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "MAX_CHANGES_BEFORE_PURGE" : {
+      "name" : "MAX_CHANGES_BEFORE_PURGE",
+      "key" : "MAX_CHANGES_BEFORE_PURGE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 30,
+        "endLine" : 116,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.WeakHashtable/memberField/MAX_CHANGES_BEFORE_PURGE",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "changeCount" : {
+      "name" : "changeCount",
+      "key" : "changeCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 127,
+        "startColumn" : 17,
+        "endLine" : 127,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.WeakHashtable/memberField/changeCount",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "queue" : {
+      "name" : "queue",
+      "key" : "queue",
+      "type" : "java.lang.ref.ReferenceQueue",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 28,
+        "endLine" : 125,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.WeakHashtable/memberField/queue",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    }
+  },
+  "methods" : {
+    "purgeOne" : {
+      "name" : "purgeOne",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/purgeOne",
+      "type" : "void",
+      "position" : {
+        "startLine" : 333,
+        "startColumn" : 18,
+        "endLine" : 333,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "entrySet" : {
+      "name" : "entrySet",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/entrySet",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 156,
+        "startColumn" : 16,
+        "endLine" : 156,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "containsKey" : {
+      "name" : "containsKey",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/containsKey",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 20,
+        "endLine" : 139,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 39,
+          "endLine" : 139,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.WeakHashtable/method/containsKey"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "keys" : {
+      "name" : "keys",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/keys",
+      "type" : "java.util.Enumeration",
+      "position" : {
+        "startLine" : 185,
+        "startColumn" : 24,
+        "endLine" : 185,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "values" : {
+      "name" : "values",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/values",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 261,
+        "startColumn" : 23,
+        "endLine" : 261,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "isEmpty" : {
+      "name" : "isEmpty",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/isEmpty",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 286,
+        "startColumn" : 20,
+        "endLine" : 286,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "rehash" : {
+      "name" : "rehash",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/rehash",
+      "type" : "void",
+      "position" : {
+        "startLine" : 310,
+        "startColumn" : 20,
+        "endLine" : 310,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "purge" : {
+      "name" : "purge",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/purge",
+      "type" : "void",
+      "position" : {
+        "startLine" : 320,
+        "startColumn" : 18,
+        "endLine" : 320,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "put" : {
+      "name" : "put",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/put",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 220,
+        "startColumn" : 19,
+        "endLine" : 220,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 220,
+          "startColumn" : 30,
+          "endLine" : 220,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.WeakHashtable/method/put"
+      }, {
+        "name" : "value",
+        "key" : "value",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 220,
+          "startColumn" : 42,
+          "endLine" : 220,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.WeakHashtable/method/put"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "remove" : {
+      "name" : "remove",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/remove",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 269,
+        "startColumn" : 19,
+        "endLine" : 269,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 269,
+          "startColumn" : 33,
+          "endLine" : 269,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.WeakHashtable/method/remove"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "size" : {
+      "name" : "size",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/size",
+      "type" : "int",
+      "position" : {
+        "startLine" : 294,
+        "startColumn" : 16,
+        "endLine" : 294,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "elements" : {
+      "name" : "elements",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/elements",
+      "type" : "java.util.Enumeration",
+      "position" : {
+        "startLine" : 148,
+        "startColumn" : 24,
+        "endLine" : 148,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "get" : {
+      "name" : "get",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/get",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 176,
+        "startColumn" : 19,
+        "endLine" : 176,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 176,
+          "startColumn" : 30,
+          "endLine" : 176,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.WeakHashtable/method/get"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "putAll" : {
+      "name" : "putAll",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/putAll",
+      "type" : "void",
+      "position" : {
+        "startLine" : 248,
+        "startColumn" : 17,
+        "endLine" : 248,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.util.Map",
+        "position" : {
+          "startLine" : 248,
+          "startColumn" : 28,
+          "endLine" : 248,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.WeakHashtable/method/putAll"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 302,
+        "startColumn" : 19,
+        "endLine" : 302,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    },
+    "keySet" : {
+      "name" : "keySet",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable/method/keySet",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 203,
+        "startColumn" : 16,
+        "endLine" : 203,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.util.Hashtable" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.apache.commons.logging.impl.WeakHashtable.Referenced" : {
+      "name" : "Referenced",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable.Referenced",
+      "type" : "class",
+      "position" : {
+        "startLine" : 390,
+        "startColumn" : 26,
+        "endLine" : 390,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "fields" : {
+        "reference" : {
+          "name" : "reference",
+          "key" : "reference",
+          "type" : "java.lang.ref.WeakReference",
+          "position" : {
+            "startLine" : 392,
+            "startColumn" : 37,
+            "endLine" : 392,
+            "endColumn" : 46
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.logging.impl.WeakHashtable.Referenced/memberField/reference",
+          "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable.Referenced"
+        },
+        "hashCode" : {
+          "name" : "hashCode",
+          "key" : "hashCode",
+          "type" : "int",
+          "position" : {
+            "startLine" : 393,
+            "startColumn" : 37,
+            "endLine" : 393,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.logging.impl.WeakHashtable.Referenced/memberField/hashCode",
+          "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable.Referenced"
+        }
+      },
+      "methods" : {
+        "getValue" : {
+          "name" : "getValue",
+          "key" : "org.apache.commons.logging.impl.WeakHashtable.Referenced/method/getValue",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 422,
+            "startColumn" : 24,
+            "endLine" : 422,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable.Referenced"
+        },
+        "hashCode" : {
+          "name" : "hashCode",
+          "key" : "org.apache.commons.logging.impl.WeakHashtable.Referenced/method/hashCode",
+          "type" : "int",
+          "position" : {
+            "startLine" : 418,
+            "startColumn" : 20,
+            "endLine" : 418,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable.Referenced"
+        },
+        "equals" : {
+          "name" : "equals",
+          "key" : "org.apache.commons.logging.impl.WeakHashtable.Referenced/method/equals",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 426,
+            "startColumn" : 24,
+            "endLine" : 426,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "o",
+            "key" : "o",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 426,
+              "startColumn" : 38,
+              "endLine" : 426,
+              "endColumn" : 39
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.logging.impl.WeakHashtable.Referenced/method/equals"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable.Referenced"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.apache.commons.logging.impl.WeakHashtable",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.apache.commons.logging.impl.WeakHashtable.Entry" : {
+      "name" : "Entry",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable.Entry",
+      "type" : "class",
+      "position" : {
+        "startLine" : 344,
+        "startColumn" : 26,
+        "endLine" : 344,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "fields" : {
+        "value" : {
+          "name" : "value",
+          "key" : "value",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 347,
+            "startColumn" : 30,
+            "endLine" : 347,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.logging.impl.WeakHashtable.Entry/memberField/value",
+          "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable.Entry"
+        },
+        "key" : {
+          "name" : "key",
+          "key" : "key",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 346,
+            "startColumn" : 30,
+            "endLine" : 346,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.logging.impl.WeakHashtable.Entry/memberField/key",
+          "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable.Entry"
+        }
+      },
+      "methods" : {
+        "getValue" : {
+          "name" : "getValue",
+          "key" : "org.apache.commons.logging.impl.WeakHashtable.Entry/method/getValue",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 379,
+            "startColumn" : 23,
+            "endLine" : 379,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable.Entry"
+        },
+        "getKey" : {
+          "name" : "getKey",
+          "key" : "org.apache.commons.logging.impl.WeakHashtable.Entry/method/getKey",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 383,
+            "startColumn" : 23,
+            "endLine" : 383,
+            "endColumn" : 29
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable.Entry"
+        },
+        "hashCode" : {
+          "name" : "hashCode",
+          "key" : "org.apache.commons.logging.impl.WeakHashtable.Entry/method/hashCode",
+          "type" : "int",
+          "position" : {
+            "startLine" : 369,
+            "startColumn" : 20,
+            "endLine" : 369,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable.Entry"
+        },
+        "equals" : {
+          "name" : "equals",
+          "key" : "org.apache.commons.logging.impl.WeakHashtable.Entry/method/equals",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 354,
+            "startColumn" : 24,
+            "endLine" : 354,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "o",
+            "key" : "o",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 354,
+              "startColumn" : 38,
+              "endLine" : 354,
+              "endColumn" : 39
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.logging.impl.WeakHashtable.Entry/method/equals"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable.Entry"
+        },
+        "setValue" : {
+          "name" : "setValue",
+          "key" : "org.apache.commons.logging.impl.WeakHashtable.Entry/method/setValue",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 375,
+            "startColumn" : 23,
+            "endLine" : 375,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "value",
+            "key" : "value",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 375,
+              "startColumn" : 39,
+              "endLine" : 375,
+              "endColumn" : 44
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.logging.impl.WeakHashtable.Entry/method/setValue"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable.Entry"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "java.util.Map.Entry", "java.util.Map" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.apache.commons.logging.impl.WeakHashtable",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.apache.commons.logging.impl.WeakHashtable.WeakKey" : {
+      "name" : "WeakKey",
+      "key" : "org.apache.commons.logging.impl.WeakHashtable.WeakKey",
+      "type" : "class",
+      "position" : {
+        "startLine" : 463,
+        "startColumn" : 26,
+        "endLine" : 463,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "fields" : {
+        "referenced" : {
+          "name" : "referenced",
+          "key" : "referenced",
+          "type" : "org.apache.commons.logging.impl.WeakHashtable.Referenced",
+          "position" : {
+            "startLine" : 465,
+            "startColumn" : 34,
+            "endLine" : 465,
+            "endColumn" : 44
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.logging.impl.WeakHashtable.WeakKey/memberField/referenced",
+          "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable.WeakKey"
+        }
+      },
+      "methods" : {
+        "getReferenced" : {
+          "name" : "getReferenced",
+          "key" : "org.apache.commons.logging.impl.WeakHashtable.WeakKey/method/getReferenced",
+          "type" : "org.apache.commons.logging.impl.WeakHashtable.Referenced",
+          "position" : {
+            "startLine" : 474,
+            "startColumn" : 28,
+            "endLine" : 474,
+            "endColumn" : 41
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.logging.impl.WeakHashtable.WeakKey"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "java.lang.ref.WeakReference" ],
+      "definedInClassOrInterfaceTypeKey" : "org.apache.commons.logging.impl.WeakHashtable",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,113 @@
+{
+  "name" : "ConfigurableFTPFileEntryParserImpl",
+  "key" : "org.apache.commons.net.ftp.parser.ConfigurableFTPFileEntryParserImpl",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 17,
+    "endLine" : 43,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "timestampParser" : {
+      "name" : "timestampParser",
+      "key" : "timestampParser",
+      "type" : "FTPTimestampParser",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 29,
+        "endLine" : 48,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.ConfigurableFTPFileEntryParserImpl/memberField/timestampParser",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.ConfigurableFTPFileEntryParserImpl"
+    }
+  },
+  "methods" : {
+    "parseTimestamp" : {
+      "name" : "parseTimestamp",
+      "key" : "org.apache.commons.net.ftp.parser.ConfigurableFTPFileEntryParserImpl/method/parseTimestamp",
+      "type" : "java.util.Calendar",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 18,
+        "endLine" : 71,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "timestampStr",
+        "key" : "timestampStr",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 40,
+          "endLine" : 71,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.ConfigurableFTPFileEntryParserImpl/method/parseTimestamp"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.ConfigurableFTPFileEntryParserImpl"
+    },
+    "configure" : {
+      "name" : "configure",
+      "key" : "org.apache.commons.net.ftp.parser.ConfigurableFTPFileEntryParserImpl/method/configure",
+      "type" : "void",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 17,
+        "endLine" : 88,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "config",
+        "key" : "config",
+        "type" : "org.apache.commons.net.ftp.FTPClientConfig",
+        "position" : {
+          "startLine" : 88,
+          "startColumn" : 43,
+          "endLine" : 88,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.ConfigurableFTPFileEntryParserImpl/method/configure"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.ConfigurableFTPFileEntryParserImpl"
+    },
+    "getDefaultConfiguration" : {
+      "name" : "getDefaultConfiguration",
+      "key" : "org.apache.commons.net.ftp.parser.ConfigurableFTPFileEntryParserImpl/method/getDefaultConfiguration",
+      "type" : "org.apache.commons.net.ftp.FTPClientConfig",
+      "position" : {
+        "startLine" : 113,
+        "startColumn" : 40,
+        "endLine" : 113,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.ConfigurableFTPFileEntryParserImpl"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.apache.commons.net.ftp.Configurable" ],
+  "extends_" : [ "RegexFTPFileEntryParserImpl" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

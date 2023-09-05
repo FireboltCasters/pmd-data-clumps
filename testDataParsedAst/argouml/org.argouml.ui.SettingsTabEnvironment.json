@@ -1,0 +1,255 @@
+{
+  "name" : "SettingsTabEnvironment",
+  "key" : "org.argouml.ui.SettingsTabEnvironment",
+  "type" : "class",
+  "position" : {
+    "startLine" : 52,
+    "startColumn" : 1,
+    "endLine" : 52,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "fieldJavaHome" : {
+      "name" : "fieldJavaHome",
+      "key" : "fieldJavaHome",
+      "type" : "javax.swing.JTextField",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 24,
+        "endLine" : 56,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabEnvironment/memberField/fieldJavaHome",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabEnvironment"
+    },
+    "fieldUserHome" : {
+      "name" : "fieldUserHome",
+      "key" : "fieldUserHome",
+      "type" : "javax.swing.JTextField",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 24,
+        "endLine" : 57,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabEnvironment/memberField/fieldUserHome",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabEnvironment"
+    },
+    "theResolutions" : {
+      "name" : "theResolutions",
+      "key" : "theResolutions",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 37,
+        "endLine" : 62,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabEnvironment/memberField/theResolutions",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabEnvironment"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 216,
+        "startColumn" : 31,
+        "endLine" : 216,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabEnvironment/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabEnvironment"
+    },
+    "fieldGraphicsResolution" : {
+      "name" : "fieldGraphicsResolution",
+      "key" : "fieldGraphicsResolution",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 23,
+        "endLine" : 61,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabEnvironment/memberField/fieldGraphicsResolution",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabEnvironment"
+    },
+    "fieldStartupDir" : {
+      "name" : "fieldStartupDir",
+      "key" : "fieldStartupDir",
+      "type" : "javax.swing.JTextField",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 24,
+        "endLine" : 59,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabEnvironment/memberField/fieldStartupDir",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabEnvironment"
+    },
+    "fieldArgoExtDir" : {
+      "name" : "fieldArgoExtDir",
+      "key" : "fieldArgoExtDir",
+      "type" : "javax.swing.JTextField",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 24,
+        "endLine" : 55,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabEnvironment/memberField/fieldArgoExtDir",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabEnvironment"
+    },
+    "fieldUserDir" : {
+      "name" : "fieldUserDir",
+      "key" : "fieldUserDir",
+      "type" : "javax.swing.JTextField",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 24,
+        "endLine" : 58,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabEnvironment/memberField/fieldUserDir",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabEnvironment"
+    },
+    "fieldGraphicsFormat" : {
+      "name" : "fieldGraphicsFormat",
+      "key" : "fieldGraphicsFormat",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 23,
+        "endLine" : 60,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabEnvironment/memberField/fieldGraphicsFormat",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabEnvironment"
+    }
+  },
+  "methods" : {
+    "handleSettingsTabRefresh" : {
+      "name" : "handleSettingsTabRefresh",
+      "key" : "org.argouml.ui.SettingsTabEnvironment/method/handleSettingsTabRefresh",
+      "type" : "void",
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 17,
+        "endLine" : 149,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabEnvironment"
+    },
+    "getTabPanel" : {
+      "name" : "getTabPanel",
+      "key" : "org.argouml.ui.SettingsTabEnvironment/method/getTabPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 211,
+        "startColumn" : 19,
+        "endLine" : 211,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabEnvironment"
+    },
+    "getTabKey" : {
+      "name" : "getTabKey",
+      "key" : "org.argouml.ui.SettingsTabEnvironment/method/getTabKey",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 206,
+        "startColumn" : 19,
+        "endLine" : 206,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabEnvironment"
+    },
+    "handleSettingsTabSave" : {
+      "name" : "handleSettingsTabSave",
+      "key" : "org.argouml.ui.SettingsTabEnvironment/method/handleSettingsTabSave",
+      "type" : "void",
+      "position" : {
+        "startLine" : 178,
+        "startColumn" : 17,
+        "endLine" : 178,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabEnvironment"
+    },
+    "handleSettingsTabCancel" : {
+      "name" : "handleSettingsTabCancel",
+      "key" : "org.argouml.ui.SettingsTabEnvironment/method/handleSettingsTabCancel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 192,
+        "startColumn" : 17,
+        "endLine" : 192,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabEnvironment"
+    },
+    "handleResetToDefault" : {
+      "name" : "handleResetToDefault",
+      "key" : "org.argouml.ui.SettingsTabEnvironment/method/handleResetToDefault",
+      "type" : "void",
+      "position" : {
+        "startLine" : 199,
+        "startColumn" : 17,
+        "endLine" : 199,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabEnvironment"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.GUISettingsTabInterface" ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

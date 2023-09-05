@@ -1,0 +1,55 @@
+{
+  "name" : "BasicServletTestCase",
+  "key" : "org.apache.commons.logging.log4j.log4j12.BasicServletTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.logging.log4j.log4j12.BasicServletTestCase/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 24,
+        "endLine" : 36,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.log4j.log4j12.BasicServletTestCase"
+    },
+    "testBasics" : {
+      "name" : "testBasics",
+      "key" : "org.apache.commons.logging.log4j.log4j12.BasicServletTestCase/method/testBasics",
+      "type" : "void",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 17,
+        "endLine" : 67,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.log4j.log4j12.BasicServletTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

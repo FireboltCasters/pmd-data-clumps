@@ -1,0 +1,71 @@
+{
+  "name" : "FTPConfigEntryParserTest",
+  "key" : "org.apache.commons.net.ftp.parser.FTPConfigEntryParserTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "df" : {
+      "name" : "df",
+      "key" : "df",
+      "type" : "java.text.SimpleDateFormat",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 27,
+        "endLine" : 38,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.FTPConfigEntryParserTest/memberField/df",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPConfigEntryParserTest"
+    }
+  },
+  "methods" : {
+    "testParseEntryWithSymlink" : {
+      "name" : "testParseEntryWithSymlink",
+      "key" : "org.apache.commons.net.ftp.parser.FTPConfigEntryParserTest/method/testParseEntryWithSymlink",
+      "type" : "void",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 14,
+        "endLine" : 106,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPConfigEntryParserTest"
+    },
+    "testParseFieldsOnAIX" : {
+      "name" : "testParseFieldsOnAIX",
+      "key" : "org.apache.commons.net.ftp.parser.FTPConfigEntryParserTest/method/testParseFieldsOnAIX",
+      "type" : "void",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 14,
+        "endLine" : 40,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPConfigEntryParserTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

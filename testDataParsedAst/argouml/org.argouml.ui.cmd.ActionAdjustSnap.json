@@ -1,0 +1,159 @@
+{
+  "name" : "ActionAdjustSnap",
+  "key" : "org.argouml.ui.cmd.ActionAdjustSnap",
+  "type" : "class",
+  "position" : {
+    "startLine" : 53,
+    "startColumn" : 8,
+    "endLine" : 53,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "DEFAULT_ID" : {
+      "name" : "DEFAULT_ID",
+      "key" : "DEFAULT_ID",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 33,
+        "endLine" : 56,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.ActionAdjustSnap/memberField/DEFAULT_ID",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionAdjustSnap"
+    },
+    "guideSize" : {
+      "name" : "guideSize",
+      "key" : "guideSize",
+      "type" : "int",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 17,
+        "endLine" : 55,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.ActionAdjustSnap/memberField/guideSize",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionAdjustSnap"
+    },
+    "myGroup" : {
+      "name" : "myGroup",
+      "key" : "myGroup",
+      "type" : "javax.swing.ButtonGroup",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 32,
+        "endLine" : 57,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.ActionAdjustSnap/memberField/myGroup",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionAdjustSnap"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.cmd.ActionAdjustSnap/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 17,
+        "endLine" : 69,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 45,
+          "endLine" : 69,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.ActionAdjustSnap/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionAdjustSnap"
+    },
+    "setGroup" : {
+      "name" : "setGroup",
+      "key" : "org.argouml.ui.cmd.ActionAdjustSnap/method/setGroup",
+      "type" : "void",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 17,
+        "endLine" : 78,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "group",
+        "key" : "group",
+        "type" : "javax.swing.ButtonGroup",
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 38,
+          "endLine" : 78,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.ActionAdjustSnap/method/setGroup"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionAdjustSnap"
+    },
+    "init" : {
+      "name" : "init",
+      "key" : "org.argouml.ui.cmd.ActionAdjustSnap/method/init",
+      "type" : "void",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 17,
+        "endLine" : 88,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionAdjustSnap"
+    },
+    "createAdjustSnapActions" : {
+      "name" : "createAdjustSnapActions",
+      "key" : "org.argouml.ui.cmd.ActionAdjustSnap/method/createAdjustSnapActions",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 25,
+        "endLine" : 120,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionAdjustSnap"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.AbstractAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

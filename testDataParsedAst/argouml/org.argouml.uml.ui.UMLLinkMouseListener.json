@@ -1,0 +1,199 @@
+{
+  "name" : "UMLLinkMouseListener",
+  "key" : "org.argouml.uml.ui.UMLLinkMouseListener",
+  "type" : "class",
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "owner" : {
+      "name" : "owner",
+      "key" : "owner",
+      "type" : "javax.swing.JList",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 19,
+        "endLine" : 50,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLLinkMouseListener/memberField/owner",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLLinkMouseListener"
+    },
+    "numberOfMouseClicks" : {
+      "name" : "numberOfMouseClicks",
+      "key" : "numberOfMouseClicks",
+      "type" : "int",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLLinkMouseListener/memberField/numberOfMouseClicks",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLLinkMouseListener"
+    }
+  },
+  "methods" : {
+    "mouseReleased" : {
+      "name" : "mouseReleased",
+      "key" : "org.argouml.uml.ui.UMLLinkMouseListener/method/mouseReleased",
+      "type" : "void",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 17,
+        "endLine" : 123,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 123,
+          "startColumn" : 42,
+          "endLine" : 123,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLLinkMouseListener/method/mouseReleased"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLLinkMouseListener"
+    },
+    "mouseExited" : {
+      "name" : "mouseExited",
+      "key" : "org.argouml.uml.ui.UMLLinkMouseListener/method/mouseExited",
+      "type" : "void",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 17,
+        "endLine" : 108,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 108,
+          "startColumn" : 40,
+          "endLine" : 108,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLLinkMouseListener/method/mouseExited"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLLinkMouseListener"
+    },
+    "mouseEntered" : {
+      "name" : "mouseEntered",
+      "key" : "org.argouml.uml.ui.UMLLinkMouseListener/method/mouseEntered",
+      "type" : "void",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 17,
+        "endLine" : 101,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 41,
+          "endLine" : 101,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLLinkMouseListener/method/mouseEntered"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLLinkMouseListener"
+    },
+    "mouseClicked" : {
+      "name" : "mouseClicked",
+      "key" : "org.argouml.uml.ui.UMLLinkMouseListener/method/mouseClicked",
+      "type" : "void",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 17,
+        "endLine" : 85,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 41,
+          "endLine" : 85,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLLinkMouseListener/method/mouseClicked"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLLinkMouseListener"
+    },
+    "mousePressed" : {
+      "name" : "mousePressed",
+      "key" : "org.argouml.uml.ui.UMLLinkMouseListener/method/mousePressed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 17,
+        "endLine" : 115,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 115,
+          "startColumn" : 41,
+          "endLine" : 115,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLLinkMouseListener/method/mousePressed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLLinkMouseListener"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.event.MouseListener" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

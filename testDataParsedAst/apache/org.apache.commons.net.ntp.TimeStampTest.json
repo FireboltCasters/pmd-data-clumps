@@ -1,0 +1,146 @@
+{
+  "name" : "TimeStampTest",
+  "key" : "org.apache.commons.net.ntp.TimeStampTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 68,
+    "startColumn" : 8,
+    "endLine" : 68,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "TIME3" : {
+      "name" : "TIME3",
+      "key" : "TIME3",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 33,
+        "endLine" : 72,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.TimeStampTest/memberField/TIME3",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStampTest"
+    },
+    "TIME1" : {
+      "name" : "TIME1",
+      "key" : "TIME1",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 33,
+        "endLine" : 70,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.TimeStampTest/memberField/TIME1",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStampTest"
+    },
+    "TIME2" : {
+      "name" : "TIME2",
+      "key" : "TIME2",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 33,
+        "endLine" : 71,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.TimeStampTest/memberField/TIME2",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStampTest"
+    }
+  },
+  "methods" : {
+    "testCompare" : {
+      "name" : "testCompare",
+      "key" : "org.apache.commons.net.ntp.TimeStampTest/method/testCompare",
+      "type" : "void",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 17,
+        "endLine" : 82,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStampTest"
+    },
+    "testUTCString" : {
+      "name" : "testUTCString",
+      "key" : "org.apache.commons.net.ntp.TimeStampTest/method/testUTCString",
+      "type" : "void",
+      "position" : {
+        "startLine" : 113,
+        "startColumn" : 17,
+        "endLine" : 113,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStampTest"
+    },
+    "testDateConversion" : {
+      "name" : "testDateConversion",
+      "key" : "org.apache.commons.net.ntp.TimeStampTest/method/testDateConversion",
+      "type" : "void",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 17,
+        "endLine" : 119,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStampTest"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.net.ntp.TimeStampTest/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 24,
+        "endLine" : 77,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 36,
+          "endLine" : 77,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.TimeStampTest/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.TimeStampTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

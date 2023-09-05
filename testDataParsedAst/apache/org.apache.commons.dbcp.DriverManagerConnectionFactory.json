@@ -1,0 +1,100 @@
+{
+  "name" : "DriverManagerConnectionFactory",
+  "key" : "org.apache.commons.dbcp.DriverManagerConnectionFactory",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "_uname" : {
+      "name" : "_uname",
+      "key" : "_uname",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 22,
+        "endLine" : 56,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.DriverManagerConnectionFactory/memberField/_uname",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DriverManagerConnectionFactory"
+    },
+    "_connectUri" : {
+      "name" : "_connectUri",
+      "key" : "_connectUri",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 22,
+        "endLine" : 55,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.DriverManagerConnectionFactory/memberField/_connectUri",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DriverManagerConnectionFactory"
+    },
+    "_passwd" : {
+      "name" : "_passwd",
+      "key" : "_passwd",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 22,
+        "endLine" : 57,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.DriverManagerConnectionFactory/memberField/_passwd",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DriverManagerConnectionFactory"
+    },
+    "_props" : {
+      "name" : "_props",
+      "key" : "_props",
+      "type" : "java.util.Properties",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 26,
+        "endLine" : 58,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.DriverManagerConnectionFactory/memberField/_props",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DriverManagerConnectionFactory"
+    }
+  },
+  "methods" : {
+    "createConnection" : {
+      "name" : "createConnection",
+      "key" : "org.apache.commons.dbcp.DriverManagerConnectionFactory/method/createConnection",
+      "type" : "java.sql.Connection",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 23,
+        "endLine" : 43,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DriverManagerConnectionFactory"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "ConnectionFactory" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

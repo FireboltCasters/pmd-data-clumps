@@ -1,0 +1,116 @@
+{
+  "name" : "SuppressGAOptionHandlerTest",
+  "key" : "org.apache.commons.net.telnet.SuppressGAOptionHandlerTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 23,
+    "startColumn" : 8,
+    "endLine" : 23,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "testConstructors" : {
+      "name" : "testConstructors",
+      "key" : "org.apache.commons.net.telnet.SuppressGAOptionHandlerTest/method/testConstructors",
+      "type" : "void",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 17,
+        "endLine" : 46,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.SuppressGAOptionHandlerTest"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.net.telnet.SuppressGAOptionHandlerTest/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 20,
+        "endLine" : 36,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.SuppressGAOptionHandlerTest"
+    },
+    "testAnswerSubnegotiation" : {
+      "name" : "testAnswerSubnegotiation",
+      "key" : "org.apache.commons.net.telnet.SuppressGAOptionHandlerTest/method/testAnswerSubnegotiation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 17,
+        "endLine" : 70,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.SuppressGAOptionHandlerTest"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.net.telnet.SuppressGAOptionHandlerTest/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 24,
+        "endLine" : 28,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 28,
+          "startColumn" : 36,
+          "endLine" : 28,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.telnet.SuppressGAOptionHandlerTest/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.SuppressGAOptionHandlerTest"
+    },
+    "testStartSubnegotiation" : {
+      "name" : "testStartSubnegotiation",
+      "key" : "org.apache.commons.net.telnet.SuppressGAOptionHandlerTest/method/testStartSubnegotiation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.SuppressGAOptionHandlerTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "TelnetOptionHandlerTestAbstract" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

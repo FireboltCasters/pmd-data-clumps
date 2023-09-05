@@ -1,0 +1,157 @@
+{
+  "name" : "ArgoEditor",
+  "key" : "org.argouml.uml.diagram.ui.ArgoEditor",
+  "type" : "class",
+  "position" : {
+    "startLine" : 424,
+    "startColumn" : 1,
+    "endLine" : 424,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 549,
+        "startColumn" : 31,
+        "endLine" : 549,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ArgoEditor/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoEditor"
+    },
+    "argoRenderingHints" : {
+      "name" : "argoRenderingHints",
+      "key" : "argoRenderingHints",
+      "type" : "java.awt.RenderingHints",
+      "position" : {
+        "startLine" : 425,
+        "startColumn" : 29,
+        "endLine" : 425,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ArgoEditor/memberField/argoRenderingHints",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoEditor"
+    }
+  },
+  "methods" : {
+    "mouseEntered" : {
+      "name" : "mouseEntered",
+      "key" : "org.argouml.uml.diagram.ui.ArgoEditor/method/mouseEntered",
+      "type" : "void",
+      "position" : {
+        "startLine" : 452,
+        "startColumn" : 17,
+        "endLine" : 452,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 452,
+          "startColumn" : 41,
+          "endLine" : 452,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoEditor/method/mouseEntered"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoEditor"
+    },
+    "paint" : {
+      "name" : "paint",
+      "key" : "org.argouml.uml.diagram.ui.ArgoEditor/method/paint",
+      "type" : "void",
+      "position" : {
+        "startLine" : 500,
+        "startColumn" : 30,
+        "endLine" : 500,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "g",
+        "key" : "g",
+        "type" : "java.awt.Graphics",
+        "position" : {
+          "startLine" : 500,
+          "startColumn" : 45,
+          "endLine" : 500,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoEditor/method/paint"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoEditor"
+    },
+    "setupRenderingHints" : {
+      "name" : "setupRenderingHints",
+      "key" : "org.argouml.uml.diagram.ui.ArgoEditor/method/setupRenderingHints",
+      "type" : "void",
+      "position" : {
+        "startLine" : 523,
+        "startColumn" : 18,
+        "endLine" : 523,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoEditor"
+    },
+    "mouseMoved" : {
+      "name" : "mouseMoved",
+      "key" : "org.argouml.uml.diagram.ui.ArgoEditor/method/mouseMoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 467,
+        "startColumn" : 17,
+        "endLine" : 467,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 467,
+          "startColumn" : 39,
+          "endLine" : 467,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoEditor/method/mouseMoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoEditor"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.base.Editor" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

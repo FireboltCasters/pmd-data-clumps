@@ -1,0 +1,94 @@
+{
+  "name" : "RLoginClient",
+  "key" : "org.apache.commons.net.bsd.RLoginClient",
+  "type" : "class",
+  "position" : {
+    "startLine" : 65,
+    "startColumn" : 8,
+    "endLine" : 65,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "DEFAULT_PORT" : {
+      "name" : "DEFAULT_PORT",
+      "key" : "DEFAULT_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 29,
+        "endLine" : 71,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.bsd.RLoginClient/memberField/DEFAULT_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.bsd.RLoginClient"
+    }
+  },
+  "methods" : {
+    "rlogin" : {
+      "name" : "rlogin",
+      "key" : "org.apache.commons.net.bsd.RLoginClient/method/rlogin",
+      "type" : "void",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 17,
+        "endLine" : 122,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "localUsername",
+        "key" : "localUsername",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 122,
+          "startColumn" : 31,
+          "endLine" : 122,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.bsd.RLoginClient/method/rlogin"
+      }, {
+        "name" : "remoteUsername",
+        "key" : "remoteUsername",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 122,
+          "startColumn" : 53,
+          "endLine" : 122,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.bsd.RLoginClient/method/rlogin"
+      }, {
+        "name" : "terminalType",
+        "key" : "terminalType",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 123,
+          "startColumn" : 31,
+          "endLine" : 123,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.bsd.RLoginClient/method/rlogin"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.bsd.RLoginClient"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "RCommandClient" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,178 @@
+{
+  "name" : "CrCompInstanceWithoutNode",
+  "key" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode",
+  "type" : "class",
+  "position" : {
+    "startLine" : 46,
+    "startColumn" : 8,
+    "endLine" : 46,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "computeOffenders" : {
+      "name" : "computeOffenders",
+      "key" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode/method/computeOffenders",
+      "type" : "org.argouml.cognitive.ListSet",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 20,
+        "endLine" : 101,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "deploymentDiagram",
+        "key" : "deploymentDiagram",
+        "type" : "org.argouml.uml.diagram.deployment.ui.UMLDeploymentDiagram",
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 58,
+          "endLine" : 101,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode/method/computeOffenders"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode"
+    },
+    "predicate2" : {
+      "name" : "predicate2",
+      "key" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode/method/predicate2",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 20,
+        "endLine" : 60,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 38,
+          "endLine" : 60,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode/method/predicate2"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 51,
+          "endLine" : 60,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode/method/predicate2"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode"
+    },
+    "stillValid" : {
+      "name" : "stillValid",
+      "key" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode/method/stillValid",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 20,
+        "endLine" : 82,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "i",
+        "key" : "i",
+        "type" : "org.argouml.cognitive.ToDoItem",
+        "position" : {
+          "startLine" : 82,
+          "startColumn" : 40,
+          "endLine" : 82,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode/method/stillValid"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 82,
+          "startColumn" : 52,
+          "endLine" : 82,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode/method/stillValid"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode"
+    },
+    "toDoItem" : {
+      "name" : "toDoItem",
+      "key" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode/method/toDoItem",
+      "type" : "org.argouml.cognitive.ToDoItem",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 21,
+        "endLine" : 72,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 37,
+          "endLine" : 72,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode/method/toDoItem"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 50,
+          "endLine" : 72,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode/method/toDoItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrCompInstanceWithoutNode"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "CrUML" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

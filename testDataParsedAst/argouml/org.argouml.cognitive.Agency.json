@@ -1,0 +1,520 @@
+{
+  "name" : "Agency",
+  "key" : "org.argouml.cognitive.Agency",
+  "type" : "class",
+  "position" : {
+    "startLine" : 66,
+    "startColumn" : 8,
+    "endLine" : 66,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "critics" : {
+      "name" : "critics",
+      "key" : "critics",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 33,
+        "endLine" : 80,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Agency/memberField/critics",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "cachedCritics" : {
+      "name" : "cachedCritics",
+      "key" : "cachedCritics",
+      "type" : "java.util.Hashtable",
+      "position" : {
+        "startLine" : 252,
+        "startColumn" : 57,
+        "endLine" : 252,
+        "endColumn" : 70
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Agency/memberField/cachedCritics",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 33,
+        "endLine" : 70,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Agency/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "controlMech" : {
+      "name" : "controlMech",
+      "key" : "controlMech",
+      "type" : "ControlMech",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 25,
+        "endLine" : 86,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Agency/memberField/controlMech",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "singletonCritics" : {
+      "name" : "singletonCritics",
+      "key" : "singletonCritics",
+      "type" : "java.util.Hashtable",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 46,
+        "endLine" : 88,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Agency/memberField/singletonCritics",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "criticRegistry" : {
+      "name" : "criticRegistry",
+      "key" : "criticRegistry",
+      "type" : "java.util.Hashtable",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 51,
+        "endLine" : 77,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Agency/memberField/criticRegistry",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    }
+  },
+  "methods" : {
+    "theAgency" : {
+      "name" : "theAgency",
+      "key" : "org.argouml.cognitive.Agency/method/theAgency",
+      "type" : "org.argouml.cognitive.Agency",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 26,
+        "endLine" : 123,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "applyCritics" : {
+      "name" : "applyCritics",
+      "key" : "org.argouml.cognitive.Agency/method/applyCritics",
+      "type" : "void",
+      "position" : {
+        "startLine" : 355,
+        "startColumn" : 24,
+        "endLine" : 355,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 356,
+          "startColumn" : 16,
+          "endLine" : 356,
+          "endColumn" : 18
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Agency/method/applyCritics"
+      }, {
+        "name" : "d",
+        "key" : "d",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 357,
+          "startColumn" : 18,
+          "endLine" : 357,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Agency/method/applyCritics"
+      }, {
+        "name" : "theCritics",
+        "key" : "theCritics",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 358,
+          "startColumn" : 28,
+          "endLine" : 358,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Agency/method/applyCritics"
+      }, {
+        "name" : "reasonCode",
+        "key" : "reasonCode",
+        "type" : "long",
+        "position" : {
+          "startLine" : 359,
+          "startColumn" : 14,
+          "endLine" : 359,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Agency/method/applyCritics"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "notifyStaticObservers" : {
+      "name" : "notifyStaticObservers",
+      "key" : "org.argouml.cognitive.Agency/method/notifyStaticObservers",
+      "type" : "void",
+      "position" : {
+        "startLine" : 420,
+        "startColumn" : 24,
+        "endLine" : 420,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 420,
+          "startColumn" : 53,
+          "endLine" : 420,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Agency/method/notifyStaticObservers"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "getCriticRegistry" : {
+      "name" : "getCriticRegistry",
+      "key" : "org.argouml.cognitive.Agency/method/getCriticRegistry",
+      "type" : "java.util.Hashtable",
+      "position" : {
+        "startLine" : 134,
+        "startColumn" : 51,
+        "endLine" : 134,
+        "endColumn" : 68
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "addCritic" : {
+      "name" : "addCritic",
+      "key" : "org.argouml.cognitive.Agency/method/addCritic",
+      "type" : "void",
+      "position" : {
+        "startLine" : 157,
+        "startColumn" : 27,
+        "endLine" : 157,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "cr",
+        "key" : "cr",
+        "type" : "Critic",
+        "position" : {
+          "startLine" : 157,
+          "startColumn" : 44,
+          "endLine" : 157,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Agency/method/addCritic"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "criticsForSpecificClass" : {
+      "name" : "criticsForSpecificClass",
+      "key" : "org.argouml.cognitive.Agency/method/criticsForSpecificClass",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 295,
+        "startColumn" : 37,
+        "endLine" : 295,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "clazz",
+        "key" : "clazz",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 295,
+          "startColumn" : 67,
+          "endLine" : 295,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Agency/method/criticsForSpecificClass"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "criticListForSpecificClass" : {
+      "name" : "criticListForSpecificClass",
+      "key" : "org.argouml.cognitive.Agency/method/criticListForSpecificClass",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 308,
+        "startColumn" : 35,
+        "endLine" : 308,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "clazz",
+        "key" : "clazz",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 308,
+          "startColumn" : 68,
+          "endLine" : 308,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Agency/method/criticListForSpecificClass"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "determineActiveCritics" : {
+      "name" : "determineActiveCritics",
+      "key" : "org.argouml.cognitive.Agency/method/determineActiveCritics",
+      "type" : "void",
+      "position" : {
+        "startLine" : 390,
+        "startColumn" : 17,
+        "endLine" : 390,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "d",
+        "key" : "d",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 390,
+          "startColumn" : 49,
+          "endLine" : 390,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Agency/method/determineActiveCritics"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "criticsForClass" : {
+      "name" : "criticsForClass",
+      "key" : "org.argouml.cognitive.Agency/method/criticsForClass",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 262,
+        "startColumn" : 38,
+        "endLine" : 262,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "clazz",
+        "key" : "clazz",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 262,
+          "startColumn" : 60,
+          "endLine" : 262,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Agency/method/criticsForClass"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "getCritics" : {
+      "name" : "getCritics",
+      "key" : "org.argouml.cognitive.Agency/method/getCritics",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 34,
+        "endLine" : 143,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "addStaticObserver" : {
+      "name" : "addStaticObserver",
+      "key" : "org.argouml.cognitive.Agency/method/addStaticObserver",
+      "type" : "void",
+      "position" : {
+        "startLine" : 407,
+        "startColumn" : 24,
+        "endLine" : 407,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obs",
+        "key" : "obs",
+        "type" : "java.util.Observer",
+        "position" : {
+          "startLine" : 407,
+          "startColumn" : 51,
+          "endLine" : 407,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Agency/method/addStaticObserver"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "getCriticList" : {
+      "name" : "getCriticList",
+      "key" : "org.argouml.cognitive.Agency/method/getCriticList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 32,
+        "endLine" : 150,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "register" : {
+      "name" : "register",
+      "key" : "org.argouml.cognitive.Agency/method/register",
+      "type" : "void",
+      "position" : {
+        "startLine" : 245,
+        "startColumn" : 24,
+        "endLine" : 245,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "cr",
+        "key" : "cr",
+        "type" : "Critic",
+        "position" : {
+          "startLine" : 245,
+          "startColumn" : 40,
+          "endLine" : 245,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Agency/method/register"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    },
+    "applyAllCritics" : {
+      "name" : "applyAllCritics",
+      "key" : "org.argouml.cognitive.Agency/method/applyAllCritics",
+      "type" : "void",
+      "position" : {
+        "startLine" : 343,
+        "startColumn" : 24,
+        "endLine" : 343,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 343,
+          "startColumn" : 47,
+          "endLine" : 343,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Agency/method/applyAllCritics"
+      }, {
+        "name" : "d",
+        "key" : "d",
+        "type" : "Designer",
+        "position" : {
+          "startLine" : 343,
+          "startColumn" : 60,
+          "endLine" : 343,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Agency/method/applyAllCritics"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Agency"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.util.Observable" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

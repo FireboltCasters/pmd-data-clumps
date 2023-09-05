@@ -1,0 +1,87 @@
+{
+  "name" : "InitSubsystem",
+  "key" : "org.argouml.application.api.InitSubsystem",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "init" : {
+      "name" : "init",
+      "key" : "org.argouml.application.api.InitSubsystem/method/init",
+      "type" : "void",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 17,
+        "endLine" : 48,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.api.InitSubsystem"
+    },
+    "getDetailsTabs" : {
+      "name" : "getDetailsTabs",
+      "key" : "org.argouml.application.api.InitSubsystem/method/getDetailsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 37,
+        "endLine" : 72,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.api.InitSubsystem"
+    },
+    "getSettingsTabs" : {
+      "name" : "getSettingsTabs",
+      "key" : "org.argouml.application.api.InitSubsystem/method/getSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 42,
+        "endLine" : 56,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.api.InitSubsystem"
+    },
+    "getProjectSettingsTabs" : {
+      "name" : "getProjectSettingsTabs",
+      "key" : "org.argouml.application.api.InitSubsystem/method/getProjectSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 42,
+        "endLine" : 64,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.api.InitSubsystem"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

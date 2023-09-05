@@ -1,0 +1,132 @@
+{
+  "name" : "UMLWizard",
+  "key" : "org.argouml.uml.cognitive.critics.UMLWizard",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 17,
+    "endLine" : 40,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "suggestion" : {
+      "name" : "suggestion",
+      "key" : "suggestion",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 20,
+        "endLine" : 45,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.UMLWizard/memberField/suggestion",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.UMLWizard"
+    }
+  },
+  "methods" : {
+    "getModelElement" : {
+      "name" : "getModelElement",
+      "key" : "org.argouml.uml.cognitive.critics.UMLWizard/method/getModelElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 19,
+        "endLine" : 69,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.UMLWizard"
+    },
+    "offerSuggestion" : {
+      "name" : "offerSuggestion",
+      "key" : "org.argouml.uml.cognitive.critics.UMLWizard/method/offerSuggestion",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 19,
+        "endLine" : 84,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.UMLWizard"
+    },
+    "getNumSteps" : {
+      "name" : "getNumSteps",
+      "key" : "org.argouml.uml.cognitive.critics.UMLWizard/method/getNumSteps",
+      "type" : "int",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 16,
+        "endLine" : 62,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.UMLWizard"
+    },
+    "setSuggestion" : {
+      "name" : "setSuggestion",
+      "key" : "org.argouml.uml.cognitive.critics.UMLWizard/method/setSuggestion",
+      "type" : "void",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 17,
+        "endLine" : 97,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 97,
+          "startColumn" : 38,
+          "endLine" : 97,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.UMLWizard/method/setSuggestion"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.UMLWizard"
+    },
+    "getSuggestion" : {
+      "name" : "getSuggestion",
+      "key" : "org.argouml.uml.cognitive.critics.UMLWizard/method/getSuggestion",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 19,
+        "endLine" : 104,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.UMLWizard"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.cognitive.critics.Wizard" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

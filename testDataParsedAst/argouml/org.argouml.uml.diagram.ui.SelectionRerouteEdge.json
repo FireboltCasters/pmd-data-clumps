@@ -1,0 +1,171 @@
+{
+  "name" : "SelectionRerouteEdge",
+  "key" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge",
+  "type" : "class",
+  "position" : {
+    "startLine" : 58,
+    "startColumn" : 8,
+    "endLine" : 58,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "destFig" : {
+      "name" : "destFig",
+      "key" : "destFig",
+      "type" : "FigNodeModelElement",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 33,
+        "endLine" : 70,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge/memberField/destFig",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge"
+    },
+    "pointIndex" : {
+      "name" : "pointIndex",
+      "key" : "pointIndex",
+      "type" : "int",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 17,
+        "endLine" : 85,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge/memberField/pointIndex",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge"
+    },
+    "armed" : {
+      "name" : "armed",
+      "key" : "armed",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 21,
+        "endLine" : 78,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge/memberField/armed",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge"
+    },
+    "sourceFig" : {
+      "name" : "sourceFig",
+      "key" : "sourceFig",
+      "type" : "FigNodeModelElement",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 33,
+        "endLine" : 64,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge/memberField/sourceFig",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge"
+    }
+  },
+  "methods" : {
+    "mouseReleased" : {
+      "name" : "mouseReleased",
+      "key" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge/method/mouseReleased",
+      "type" : "void",
+      "position" : {
+        "startLine" : 166,
+        "startColumn" : 17,
+        "endLine" : 166,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 166,
+          "startColumn" : 42,
+          "endLine" : 166,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge/method/mouseReleased"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge"
+    },
+    "mouseDragged" : {
+      "name" : "mouseDragged",
+      "key" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge/method/mouseDragged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 17,
+        "endLine" : 142,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 142,
+          "startColumn" : 41,
+          "endLine" : 142,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge/method/mouseDragged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge"
+    },
+    "mousePressed" : {
+      "name" : "mousePressed",
+      "key" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge/method/mousePressed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 17,
+        "endLine" : 107,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 41,
+          "endLine" : 107,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge/method/mousePressed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.SelectionRerouteEdge"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "SelectionEdgeClarifiers" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

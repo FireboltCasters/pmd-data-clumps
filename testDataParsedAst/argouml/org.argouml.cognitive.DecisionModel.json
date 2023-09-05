@@ -1,0 +1,242 @@
+{
+  "name" : "DecisionModel",
+  "key" : "org.argouml.cognitive.DecisionModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 8,
+    "endLine" : 50,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "decisions" : {
+      "name" : "decisions",
+      "key" : "decisions",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 28,
+        "endLine" : 51,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.DecisionModel/memberField/decisions",
+      "classOrInterfaceKey" : "org.argouml.cognitive.DecisionModel"
+    }
+  },
+  "methods" : {
+    "setDecisionPriority" : {
+      "name" : "setDecisionPriority",
+      "key" : "org.argouml.cognitive.DecisionModel/method/setDecisionPriority",
+      "type" : "void",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 30,
+        "endLine" : 87,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "decision",
+        "key" : "decision",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 57,
+          "endLine" : 87,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.DecisionModel/method/setDecisionPriority"
+      }, {
+        "name" : "priority",
+        "key" : "priority",
+        "type" : "int",
+        "position" : {
+          "startLine" : 88,
+          "startColumn" : 12,
+          "endLine" : 88,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.DecisionModel/method/setDecisionPriority"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.DecisionModel"
+    },
+    "findDecision" : {
+      "name" : "findDecision",
+      "key" : "org.argouml.cognitive.DecisionModel/method/findDecision",
+      "type" : "Decision",
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 24,
+        "endLine" : 145,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "decName",
+        "key" : "decName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 44,
+          "endLine" : 145,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.DecisionModel/method/findDecision"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.DecisionModel"
+    },
+    "stopConsidering" : {
+      "name" : "stopConsidering",
+      "key" : "org.argouml.cognitive.DecisionModel/method/stopConsidering",
+      "type" : "void",
+      "position" : {
+        "startLine" : 135,
+        "startColumn" : 17,
+        "endLine" : 135,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "d",
+        "key" : "d",
+        "type" : "Decision",
+        "position" : {
+          "startLine" : 135,
+          "startColumn" : 42,
+          "endLine" : 135,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.DecisionModel/method/stopConsidering"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.DecisionModel"
+    },
+    "getDecisions" : {
+      "name" : "getDecisions",
+      "key" : "org.argouml.cognitive.DecisionModel/method/getDecisions",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 29,
+        "endLine" : 69,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.DecisionModel"
+    },
+    "startConsidering" : {
+      "name" : "startConsidering",
+      "key" : "org.argouml.cognitive.DecisionModel/method/startConsidering",
+      "type" : "void",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 17,
+        "endLine" : 123,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "d",
+        "key" : "d",
+        "type" : "Decision",
+        "position" : {
+          "startLine" : 123,
+          "startColumn" : 43,
+          "endLine" : 123,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.DecisionModel/method/startConsidering"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.DecisionModel"
+    },
+    "getDecisionList" : {
+      "name" : "getDecisionList",
+      "key" : "org.argouml.cognitive.DecisionModel/method/getDecisionList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 27,
+        "endLine" : 76,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.DecisionModel"
+    },
+    "defineDecision" : {
+      "name" : "defineDecision",
+      "key" : "org.argouml.cognitive.DecisionModel/method/defineDecision",
+      "type" : "void",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 17,
+        "endLine" : 109,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "decision",
+        "key" : "decision",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 109,
+          "startColumn" : 39,
+          "endLine" : 109,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.DecisionModel/method/defineDecision"
+      }, {
+        "name" : "priority",
+        "key" : "priority",
+        "type" : "int",
+        "position" : {
+          "startLine" : 109,
+          "startColumn" : 53,
+          "endLine" : 109,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.DecisionModel/method/defineDecision"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.DecisionModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.io.Serializable" ],
+  "extends_" : [ "java.util.Observable" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

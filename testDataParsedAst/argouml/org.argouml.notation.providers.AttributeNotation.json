@@ -1,0 +1,120 @@
+{
+  "name" : "AttributeNotation",
+  "key" : "org.argouml.notation.providers.AttributeNotation",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 17,
+    "endLine" : 42,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "updateListener" : {
+      "name" : "updateListener",
+      "key" : "org.argouml.notation.providers.AttributeNotation/method/updateListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 17,
+        "endLine" : 68,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "java.beans.PropertyChangeListener",
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 55,
+          "endLine" : 68,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.AttributeNotation/method/updateListener"
+      }, {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 20,
+          "endLine" : 69,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.AttributeNotation/method/updateListener"
+      }, {
+        "name" : "pce",
+        "key" : "pce",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 54,
+          "endLine" : 69,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.AttributeNotation/method/updateListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.AttributeNotation"
+    },
+    "initialiseListener" : {
+      "name" : "initialiseListener",
+      "key" : "org.argouml.notation.providers.AttributeNotation/method/initialiseListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 17,
+        "endLine" : 51,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "java.beans.PropertyChangeListener",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 59,
+          "endLine" : 51,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.AttributeNotation/method/initialiseListener"
+      }, {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 20,
+          "endLine" : 52,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.AttributeNotation/method/initialiseListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.AttributeNotation"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.notation.NotationProvider" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

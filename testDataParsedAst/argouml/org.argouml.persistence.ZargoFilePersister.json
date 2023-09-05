@@ -1,0 +1,873 @@
+{
+  "name" : "ZargoFilePersister",
+  "key" : "org.argouml.persistence.ZargoFilePersister",
+  "type" : "class",
+  "position" : {
+    "startLine" : 67,
+    "startColumn" : 1,
+    "endLine" : 67,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 33,
+        "endLine" : 71,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.ZargoFilePersister/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    }
+  },
+  "methods" : {
+    "doSave" : {
+      "name" : "doSave",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/doSave",
+      "type" : "void",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 17,
+        "endLine" : 112,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 112,
+          "startColumn" : 32,
+          "endLine" : 112,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/doSave"
+      }, {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 112,
+          "startColumn" : 46,
+          "endLine" : 112,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/doSave"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "copyMember" : {
+      "name" : "copyMember",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/copyMember",
+      "type" : "void",
+      "position" : {
+        "startLine" : 471,
+        "startColumn" : 18,
+        "endLine" : 471,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 471,
+          "startColumn" : 34,
+          "endLine" : 471,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/copyMember"
+      }, {
+        "name" : "tag",
+        "key" : "tag",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 471,
+          "startColumn" : 47,
+          "endLine" : 471,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/copyMember"
+      }, {
+        "name" : "outputEncoding",
+        "key" : "outputEncoding",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 471,
+          "startColumn" : 59,
+          "endLine" : 471,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/copyMember"
+      }, {
+        "name" : "writer",
+        "key" : "writer",
+        "type" : "java.io.PrintWriter",
+        "position" : {
+          "startLine" : 472,
+          "startColumn" : 25,
+          "endLine" : 472,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/copyMember"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "readerToWriter" : {
+      "name" : "readerToWriter",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/readerToWriter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 499,
+        "startColumn" : 18,
+        "endLine" : 499,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reader",
+        "key" : "reader",
+        "type" : "java.io.Reader",
+        "position" : {
+          "startLine" : 500,
+          "startColumn" : 20,
+          "endLine" : 500,
+          "endColumn" : 26
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/readerToWriter"
+      }, {
+        "name" : "writer",
+        "key" : "writer",
+        "type" : "java.io.Writer",
+        "position" : {
+          "startLine" : 501,
+          "startColumn" : 20,
+          "endLine" : 501,
+          "endColumn" : 26
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/readerToWriter"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "copyArgo" : {
+      "name" : "copyArgo",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/copyArgo",
+      "type" : "void",
+      "position" : {
+        "startLine" : 357,
+        "startColumn" : 18,
+        "endLine" : 357,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 357,
+          "startColumn" : 32,
+          "endLine" : 357,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/copyArgo"
+      }, {
+        "name" : "encoding",
+        "key" : "encoding",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 357,
+          "startColumn" : 45,
+          "endLine" : 357,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/copyArgo"
+      }, {
+        "name" : "writer",
+        "key" : "writer",
+        "type" : "java.io.PrintWriter",
+        "position" : {
+          "startLine" : 357,
+          "startColumn" : 67,
+          "endLine" : 357,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/copyArgo"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "toURL" : {
+      "name" : "toURL",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/toURL",
+      "type" : "java.net.URL",
+      "position" : {
+        "startLine" : 305,
+        "startColumn" : 17,
+        "endLine" : 305,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 305,
+          "startColumn" : 28,
+          "endLine" : 305,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/toURL"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "getExtension" : {
+      "name" : "getExtension",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/getExtension",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 19,
+        "endLine" : 84,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "makeZipEntryUrl" : {
+      "name" : "makeZipEntryUrl",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/makeZipEntryUrl",
+      "type" : "java.net.URL",
+      "position" : {
+        "startLine" : 546,
+        "startColumn" : 17,
+        "endLine" : 546,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "url",
+        "key" : "url",
+        "type" : "java.net.URL",
+        "position" : {
+          "startLine" : 546,
+          "startColumn" : 37,
+          "endLine" : 546,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/makeZipEntryUrl"
+      }, {
+        "name" : "entryName",
+        "key" : "entryName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 546,
+          "startColumn" : 49,
+          "endLine" : 546,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/makeZipEntryUrl"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "containsProfile" : {
+      "name" : "containsProfile",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/containsProfile",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 598,
+        "startColumn" : 21,
+        "endLine" : 598,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 598,
+          "startColumn" : 42,
+          "endLine" : 598,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/containsProfile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "openZipStreamAt" : {
+      "name" : "openZipStreamAt",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/openZipStreamAt",
+      "type" : "java.util.zip.ZipInputStream",
+      "position" : {
+        "startLine" : 527,
+        "startColumn" : 28,
+        "endLine" : 527,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "url",
+        "key" : "url",
+        "type" : "java.net.URL",
+        "position" : {
+          "startLine" : 527,
+          "startColumn" : 48,
+          "endLine" : 527,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/openZipStreamAt"
+      }, {
+        "name" : "ext",
+        "key" : "ext",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 527,
+          "startColumn" : 60,
+          "endLine" : 527,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/openZipStreamAt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "getEntryNames" : {
+      "name" : "getEntryNames",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/getEntryNames",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 607,
+        "startColumn" : 26,
+        "endLine" : 607,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 607,
+          "startColumn" : 45,
+          "endLine" : 607,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/getEntryNames"
+      }, {
+        "name" : "extension",
+        "key" : "extension",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 607,
+          "startColumn" : 58,
+          "endLine" : 607,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/getEntryNames"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "copyXmi" : {
+      "name" : "copyXmi",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/copyXmi",
+      "type" : "void",
+      "position" : {
+        "startLine" : 422,
+        "startColumn" : 18,
+        "endLine" : 422,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 422,
+          "startColumn" : 31,
+          "endLine" : 422,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/copyXmi"
+      }, {
+        "name" : "encoding",
+        "key" : "encoding",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 422,
+          "startColumn" : 44,
+          "endLine" : 422,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/copyXmi"
+      }, {
+        "name" : "writer",
+        "key" : "writer",
+        "type" : "java.io.PrintWriter",
+        "position" : {
+          "startLine" : 422,
+          "startColumn" : 66,
+          "endLine" : 422,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/copyXmi"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "getPgmlCount" : {
+      "name" : "getPgmlCount",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/getPgmlCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 590,
+        "startColumn" : 17,
+        "endLine" : 590,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 590,
+          "startColumn" : 35,
+          "endLine" : 590,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/getPgmlCount"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "copyDiagrams" : {
+      "name" : "copyDiagrams",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/copyDiagrams",
+      "type" : "void",
+      "position" : {
+        "startLine" : 439,
+        "startColumn" : 18,
+        "endLine" : 439,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 439,
+          "startColumn" : 36,
+          "endLine" : 439,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/copyDiagrams"
+      }, {
+        "name" : "encoding",
+        "key" : "encoding",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 439,
+          "startColumn" : 49,
+          "endLine" : 439,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/copyDiagrams"
+      }, {
+        "name" : "writer",
+        "key" : "writer",
+        "type" : "java.io.PrintWriter",
+        "position" : {
+          "startLine" : 439,
+          "startColumn" : 71,
+          "endLine" : 439,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/copyDiagrams"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "isSaveEnabled" : {
+      "name" : "isSaveEnabled",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/isSaveEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 200,
+        "startColumn" : 20,
+        "endLine" : 200,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "doLoad" : {
+      "name" : "doLoad",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/doLoad",
+      "type" : "org.argouml.kernel.Project",
+      "position" : {
+        "startLine" : 208,
+        "startColumn" : 20,
+        "endLine" : 208,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 208,
+          "startColumn" : 32,
+          "endLine" : 208,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/doLoad"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "loadFromZargo" : {
+      "name" : "loadFromZargo",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/loadFromZargo",
+      "type" : "org.argouml.kernel.Project",
+      "position" : {
+        "startLine" : 252,
+        "startColumn" : 21,
+        "endLine" : 252,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 252,
+          "startColumn" : 40,
+          "endLine" : 252,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/loadFromZargo"
+      }, {
+        "name" : "progressMgr",
+        "key" : "progressMgr",
+        "type" : "ProgressMgr",
+        "position" : {
+          "startLine" : 252,
+          "startColumn" : 58,
+          "endLine" : 252,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/loadFromZargo"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "zargoToUml" : {
+      "name" : "zargoToUml",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/zargoToUml",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 310,
+        "startColumn" : 18,
+        "endLine" : 310,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 310,
+          "startColumn" : 34,
+          "endLine" : 310,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/zargoToUml"
+      }, {
+        "name" : "progressMgr",
+        "key" : "progressMgr",
+        "type" : "ProgressMgr",
+        "position" : {
+          "startLine" : 310,
+          "startColumn" : 52,
+          "endLine" : 310,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/zargoToUml"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "openZipEntry" : {
+      "name" : "openZipEntry",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/openZipEntry",
+      "type" : "java.io.InputStream",
+      "position" : {
+        "startLine" : 541,
+        "startColumn" : 25,
+        "endLine" : 541,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "url",
+        "key" : "url",
+        "type" : "java.net.URL",
+        "position" : {
+          "startLine" : 541,
+          "startColumn" : 42,
+          "endLine" : 541,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/openZipEntry"
+      }, {
+        "name" : "entryName",
+        "key" : "entryName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 541,
+          "startColumn" : 54,
+          "endLine" : 541,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/openZipEntry"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "getDesc" : {
+      "name" : "getDesc",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/getDesc",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 22,
+        "endLine" : 92,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    },
+    "containsTodo" : {
+      "name" : "containsTodo",
+      "key" : "org.argouml.persistence.ZargoFilePersister/method/containsTodo",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 594,
+        "startColumn" : 21,
+        "endLine" : 594,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 594,
+          "startColumn" : 39,
+          "endLine" : 594,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZargoFilePersister/method/containsTodo"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "UmlFilePersister" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.persistence.ZargoFilePersister.SubInputStream" : {
+      "name" : "SubInputStream",
+      "key" : "org.argouml.persistence.ZargoFilePersister.SubInputStream",
+      "type" : "class",
+      "position" : {
+        "startLine" : 555,
+        "startColumn" : 20,
+        "endLine" : 555,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "in" : {
+          "name" : "in",
+          "key" : "in",
+          "type" : "java.util.zip.ZipInputStream",
+          "position" : {
+            "startLine" : 556,
+            "startColumn" : 32,
+            "endLine" : 556,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.persistence.ZargoFilePersister.SubInputStream/memberField/in",
+          "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister.SubInputStream"
+        }
+      },
+      "methods" : {
+        "getNextEntry" : {
+          "name" : "getNextEntry",
+          "key" : "org.argouml.persistence.ZargoFilePersister.SubInputStream/method/getNextEntry",
+          "type" : "java.util.zip.ZipEntry",
+          "position" : {
+            "startLine" : 585,
+            "startColumn" : 25,
+            "endLine" : 585,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister.SubInputStream"
+        },
+        "close" : {
+          "name" : "close",
+          "key" : "org.argouml.persistence.ZargoFilePersister.SubInputStream/method/close",
+          "type" : "void",
+          "position" : {
+            "startLine" : 573,
+            "startColumn" : 21,
+            "endLine" : 573,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.persistence.ZargoFilePersister.SubInputStream"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "java.io.FilterInputStream" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.persistence.ZargoFilePersister",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

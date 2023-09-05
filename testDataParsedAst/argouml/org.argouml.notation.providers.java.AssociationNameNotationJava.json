@@ -1,0 +1,165 @@
+{
+  "name" : "AssociationNameNotationJava",
+  "key" : "org.argouml.notation.providers.java.AssociationNameNotationJava",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getParsingHelp" : {
+      "name" : "getParsingHelp",
+      "key" : "org.argouml.notation.providers.java.AssociationNameNotationJava/method/getParsingHelp",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 19,
+        "endLine" : 71,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.java.AssociationNameNotationJava"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.notation.providers.java.AssociationNameNotationJava/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 19,
+        "endLine" : 97,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 97,
+          "startColumn" : 41,
+          "endLine" : 97,
+          "endColumn" : 53
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.java.AssociationNameNotationJava/method/toString"
+      }, {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.util.Map",
+        "position" : {
+          "startLine" : 97,
+          "startColumn" : 65,
+          "endLine" : 97,
+          "endColumn" : 69
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.java.AssociationNameNotationJava/method/toString"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.java.AssociationNameNotationJava"
+    },
+    "parse" : {
+      "name" : "parse",
+      "key" : "org.argouml.notation.providers.java.AssociationNameNotationJava/method/parse",
+      "type" : "void",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 17,
+        "endLine" : 78,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 36,
+          "endLine" : 78,
+          "endColumn" : 48
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.java.AssociationNameNotationJava/method/parse"
+      }, {
+        "name" : "text",
+        "key" : "text",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 63,
+          "endLine" : 78,
+          "endColumn" : 67
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.java.AssociationNameNotationJava/method/parse"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.java.AssociationNameNotationJava"
+    },
+    "initialiseListener" : {
+      "name" : "initialiseListener",
+      "key" : "org.argouml.notation.providers.java.AssociationNameNotationJava/method/initialiseListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 17,
+        "endLine" : 61,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "java.beans.PropertyChangeListener",
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 65,
+          "endLine" : 61,
+          "endColumn" : 73
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.java.AssociationNameNotationJava/method/initialiseListener"
+      }, {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 26,
+          "endLine" : 62,
+          "endColumn" : 38
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.java.AssociationNameNotationJava/method/initialiseListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.java.AssociationNameNotationJava"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.notation.providers.AssociationNameNotation" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

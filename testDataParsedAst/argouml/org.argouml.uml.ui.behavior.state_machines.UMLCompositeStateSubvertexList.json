@@ -1,0 +1,62 @@
+{
+  "name" : "UMLCompositeStateSubvertexList",
+  "key" : "org.argouml.uml.ui.behavior.state_machines.UMLCompositeStateSubvertexList",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getPopupMenu" : {
+      "name" : "getPopupMenu",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.UMLCompositeStateSubvertexList/method/getPopupMenu",
+      "type" : "javax.swing.JPopupMenu",
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 23,
+        "endLine" : 115,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.UMLCompositeStateSubvertexList"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLMutableLinkedList" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.ui.behavior.state_machines.UMLCompositeStateSubvertexList.PopupMenu" : {
+      "name" : "PopupMenu",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.UMLCompositeStateSubvertexList.PopupMenu",
+      "type" : "class",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 13,
+        "endLine" : 42,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "fields" : { },
+      "methods" : { },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "javax.swing.JPopupMenu" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.behavior.state_machines.UMLCompositeStateSubvertexList",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,68 @@
+{
+  "name" : "ActionCreateArgument",
+  "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionCreateArgument",
+  "type" : "class",
+  "position" : {
+    "startLine" : 141,
+    "startColumn" : 1,
+    "endLine" : 141,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 170,
+        "startColumn" : 31,
+        "endLine" : 170,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionCreateArgument/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionCreateArgument"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionCreateArgument/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 158,
+        "startColumn" : 17,
+        "endLine" : 158,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 158,
+          "startColumn" : 45,
+          "endLine" : 158,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionCreateArgument/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionCreateArgument"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionNewModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

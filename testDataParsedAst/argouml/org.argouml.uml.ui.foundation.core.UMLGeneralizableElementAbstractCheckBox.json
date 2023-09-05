@@ -1,0 +1,39 @@
+{
+  "name" : "UMLGeneralizableElementAbstractCheckBox",
+  "key" : "org.argouml.uml.ui.foundation.core.UMLGeneralizableElementAbstractCheckBox",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "buildModel" : {
+      "name" : "buildModel",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLGeneralizableElementAbstractCheckBox/method/buildModel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 17,
+        "endLine" : 50,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLGeneralizableElementAbstractCheckBox"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLCheckBox2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

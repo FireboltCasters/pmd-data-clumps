@@ -1,0 +1,87 @@
+{
+  "name" : "Command",
+  "key" : "org.argouml.kernel.Command",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "undo" : {
+      "name" : "undo",
+      "key" : "org.argouml.kernel.Command/method/undo",
+      "type" : "void",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 19,
+        "endLine" : 43,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.Command"
+    },
+    "isRedoable" : {
+      "name" : "isRedoable",
+      "key" : "org.argouml.kernel.Command/method/isRedoable",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 22,
+        "endLine" : 55,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.Command"
+    },
+    "isUndoable" : {
+      "name" : "isUndoable",
+      "key" : "org.argouml.kernel.Command/method/isUndoable",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 22,
+        "endLine" : 49,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.Command"
+    },
+    "execute" : {
+      "name" : "execute",
+      "key" : "org.argouml.kernel.Command/method/execute",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 28,
+        "endLine" : 38,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.kernel.Command"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

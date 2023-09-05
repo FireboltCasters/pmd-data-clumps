@@ -1,0 +1,112 @@
+{
+  "name" : "ActionShowXMLDump",
+  "key" : "org.argouml.ui.cmd.ActionShowXMLDump",
+  "type" : "class",
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 31,
+        "endLine" : 47,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.ActionShowXMLDump/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionShowXMLDump"
+    },
+    "INSET_PX" : {
+      "name" : "INSET_PX",
+      "key" : "INSET_PX",
+      "type" : "int",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 30,
+        "endLine" : 52,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.ActionShowXMLDump/memberField/INSET_PX",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionShowXMLDump"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.cmd.ActionShowXMLDump/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 17,
+        "endLine" : 64,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 45,
+          "endLine" : 64,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.ActionShowXMLDump/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionShowXMLDump"
+    },
+    "init" : {
+      "name" : "init",
+      "key" : "org.argouml.ui.cmd.ActionShowXMLDump/method/init",
+      "type" : "void",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 18,
+        "endLine" : 92,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pw",
+        "key" : "pw",
+        "type" : "javax.swing.JDialog",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 31,
+          "endLine" : 92,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.ActionShowXMLDump/method/init"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ActionShowXMLDump"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.AbstractAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

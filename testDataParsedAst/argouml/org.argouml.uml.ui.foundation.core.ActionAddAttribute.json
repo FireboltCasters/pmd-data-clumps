@@ -1,0 +1,115 @@
+{
+  "name" : "ActionAddAttribute",
+  "key" : "org.argouml.uml.ui.foundation.core.ActionAddAttribute",
+  "type" : "class",
+  "position" : {
+    "startLine" : 49,
+    "startColumn" : 8,
+    "endLine" : 49,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 131,
+        "startColumn" : 31,
+        "endLine" : 131,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.ActionAddAttribute/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionAddAttribute"
+    },
+    "targetFollower" : {
+      "name" : "targetFollower",
+      "key" : "targetFollower",
+      "type" : "org.argouml.uml.ui.foundation.core.ActionAddAttribute",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 39,
+        "endLine" : 51,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.ActionAddAttribute/memberField/targetFollower",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionAddAttribute"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionAddAttribute/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 17,
+        "endLine" : 90,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 90,
+          "startColumn" : 45,
+          "endLine" : 90,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.ActionAddAttribute/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionAddAttribute"
+    },
+    "shouldBeEnabled" : {
+      "name" : "shouldBeEnabled",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionAddAttribute/method/shouldBeEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 20,
+        "endLine" : 118,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionAddAttribute"
+    },
+    "getTargetFollower" : {
+      "name" : "getTargetFollower",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionAddAttribute/method/getTargetFollower",
+      "type" : "org.argouml.uml.ui.foundation.core.ActionAddAttribute",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 38,
+        "endLine" : 64,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionAddAttribute"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

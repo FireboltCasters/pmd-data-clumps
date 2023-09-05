@@ -1,0 +1,149 @@
+{
+  "name" : "TelnetTestSimpleServer",
+  "key" : "org.apache.commons.net.telnet.TelnetTestSimpleServer",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "clientSocket" : {
+      "name" : "clientSocket",
+      "key" : "clientSocket",
+      "type" : "java.net.Socket",
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 12,
+        "endLine" : 33,
+        "endColumn" : 24
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetTestSimpleServer/memberField/clientSocket",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetTestSimpleServer"
+    },
+    "serverSocket" : {
+      "name" : "serverSocket",
+      "key" : "serverSocket",
+      "type" : "java.net.ServerSocket",
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 18,
+        "endLine" : 32,
+        "endColumn" : 30
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetTestSimpleServer/memberField/serverSocket",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetTestSimpleServer"
+    },
+    "listener" : {
+      "name" : "listener",
+      "key" : "listener",
+      "type" : "java.lang.Thread",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 12,
+        "endLine" : 34,
+        "endColumn" : 20
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.TelnetTestSimpleServer/memberField/listener",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetTestSimpleServer"
+    }
+  },
+  "methods" : {
+    "disconnect" : {
+      "name" : "disconnect",
+      "key" : "org.apache.commons.net.telnet.TelnetTestSimpleServer/method/disconnect",
+      "type" : "void",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 17,
+        "endLine" : 101,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetTestSimpleServer"
+    },
+    "stop" : {
+      "name" : "stop",
+      "key" : "org.apache.commons.net.telnet.TelnetTestSimpleServer/method/stop",
+      "type" : "void",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 17,
+        "endLine" : 119,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetTestSimpleServer"
+    },
+    "run" : {
+      "name" : "run",
+      "key" : "org.apache.commons.net.telnet.TelnetTestSimpleServer/method/run",
+      "type" : "void",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 17,
+        "endLine" : 53,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetTestSimpleServer"
+    },
+    "getOutputStream" : {
+      "name" : "getOutputStream",
+      "key" : "org.apache.commons.net.telnet.TelnetTestSimpleServer/method/getOutputStream",
+      "type" : "java.io.OutputStream",
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 25,
+        "endLine" : 150,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetTestSimpleServer"
+    },
+    "getInputStream" : {
+      "name" : "getInputStream",
+      "key" : "org.apache.commons.net.telnet.TelnetTestSimpleServer/method/getInputStream",
+      "type" : "java.io.InputStream",
+      "position" : {
+        "startLine" : 135,
+        "startColumn" : 24,
+        "endLine" : 135,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.TelnetTestSimpleServer"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.lang.Runnable" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

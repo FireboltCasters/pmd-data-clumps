@@ -1,0 +1,229 @@
+{
+  "name" : "SourcePathDialog",
+  "key" : "org.argouml.uml.ui.SourcePathDialog",
+  "type" : "class",
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 8,
+    "endLine" : 50,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "delButton" : {
+      "name" : "delButton",
+      "key" : "delButton",
+      "type" : "javax.swing.JButton",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 21,
+        "endLine" : 59,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.SourcePathDialog/memberField/delButton",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.SourcePathDialog"
+    },
+    "srcPathCtrl" : {
+      "name" : "srcPathCtrl",
+      "key" : "srcPathCtrl",
+      "type" : "SourcePathController",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 34,
+        "endLine" : 52,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.SourcePathDialog/memberField/srcPathCtrl",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.SourcePathDialog"
+    },
+    "srcPathTableModel" : {
+      "name" : "srcPathTableModel",
+      "key" : "srcPathTableModel",
+      "type" : "SourcePathTableModel",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 34,
+        "endLine" : 54,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.SourcePathDialog/memberField/srcPathTableModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.SourcePathDialog"
+    },
+    "srcPathTable" : {
+      "name" : "srcPathTable",
+      "key" : "srcPathTable",
+      "type" : "javax.swing.JTable",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 20,
+        "endLine" : 57,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.SourcePathDialog/memberField/srcPathTable",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.SourcePathDialog"
+    },
+    "rowSM" : {
+      "name" : "rowSM",
+      "key" : "rowSM",
+      "type" : "javax.swing.ListSelectionModel",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 32,
+        "endLine" : 61,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.SourcePathDialog/memberField/rowSM",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.SourcePathDialog"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.SourcePathDialog/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 17,
+        "endLine" : 99,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 99,
+          "startColumn" : 45,
+          "endLine" : 99,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.SourcePathDialog/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.SourcePathDialog"
+    },
+    "deleteSelectedSettings" : {
+      "name" : "deleteSelectedSettings",
+      "key" : "org.argouml.uml.ui.SourcePathDialog/method/deleteSelectedSettings",
+      "type" : "void",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 18,
+        "endLine" : 144,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.SourcePathDialog"
+    },
+    "getSelectedIndexes" : {
+      "name" : "getSelectedIndexes",
+      "key" : "org.argouml.uml.ui.SourcePathDialog/method/getSelectedIndexes",
+      "type" : "int[]",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 19,
+        "endLine" : 122,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.SourcePathDialog"
+    },
+    "buttonOkActionPerformed" : {
+      "name" : "buttonOkActionPerformed",
+      "key" : "org.argouml.uml.ui.SourcePathDialog/method/buttonOkActionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 18,
+        "endLine" : 115,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.SourcePathDialog"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.event.ActionListener" ],
+  "extends_" : [ "org.argouml.util.ArgoDialog" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.ui.SourcePathDialog.SelectionListener" : {
+      "name" : "SelectionListener",
+      "key" : "org.argouml.uml.ui.SourcePathDialog.SelectionListener",
+      "type" : "class",
+      "position" : {
+        "startLine" : 183,
+        "startColumn" : 5,
+        "endLine" : 183,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : { },
+      "methods" : {
+        "valueChanged" : {
+          "name" : "valueChanged",
+          "key" : "org.argouml.uml.ui.SourcePathDialog.SelectionListener/method/valueChanged",
+          "type" : "void",
+          "position" : {
+            "startLine" : 184,
+            "startColumn" : 21,
+            "endLine" : 184,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "e",
+            "key" : "e",
+            "type" : "javax.swing.event.ListSelectionEvent",
+            "position" : {
+              "startLine" : 184,
+              "startColumn" : 71,
+              "endLine" : 184,
+              "endColumn" : 72
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.SourcePathDialog.SelectionListener/method/valueChanged"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.SourcePathDialog.SelectionListener"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "javax.swing.event.ListSelectionListener" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.SourcePathDialog",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

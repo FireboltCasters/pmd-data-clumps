@@ -1,0 +1,195 @@
+{
+  "name" : "AbstractPropPanelState",
+  "key" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 17,
+    "endLine" : 42,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "entryScroll" : {
+      "name" : "entryScroll",
+      "key" : "entryScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 25,
+        "endLine" : 44,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState/memberField/entryScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState"
+    },
+    "internalTransitionsScroll" : {
+      "name" : "internalTransitionsScroll",
+      "key" : "internalTransitionsScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 25,
+        "endLine" : 47,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState/memberField/internalTransitionsScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState"
+    },
+    "deferrableEventsScroll" : {
+      "name" : "deferrableEventsScroll",
+      "key" : "deferrableEventsScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 25,
+        "endLine" : 48,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState/memberField/deferrableEventsScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState"
+    },
+    "doScroll" : {
+      "name" : "doScroll",
+      "key" : "doScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 25,
+        "endLine" : 46,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState/memberField/doScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState"
+    },
+    "exitScroll" : {
+      "name" : "exitScroll",
+      "key" : "exitScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 25,
+        "endLine" : 45,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState/memberField/exitScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState"
+    }
+  },
+  "methods" : {
+    "getDoScroll" : {
+      "name" : "getDoScroll",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState/method/getDoScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 131,
+        "startColumn" : 27,
+        "endLine" : 131,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState"
+    },
+    "getDeferrableEventsScroll" : {
+      "name" : "getDeferrableEventsScroll",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState/method/getDeferrableEventsScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 27,
+        "endLine" : 145,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState"
+    },
+    "addExtraButtons" : {
+      "name" : "addExtraButtons",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState/method/addExtraButtons",
+      "type" : "void",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 20,
+        "endLine" : 103,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState"
+    },
+    "getExitScroll" : {
+      "name" : "getExitScroll",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState/method/getExitScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 27,
+        "endLine" : 124,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState"
+    },
+    "getInternalTransitionsScroll" : {
+      "name" : "getInternalTransitionsScroll",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState/method/getInternalTransitionsScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 27,
+        "endLine" : 138,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState"
+    },
+    "getEntryScroll" : {
+      "name" : "getEntryScroll",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState/method/getEntryScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 117,
+        "startColumn" : 27,
+        "endLine" : 117,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "PropPanelStateVertex" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,39 @@
+{
+  "name" : "ArgoProfileEvent",
+  "key" : "org.argouml.application.events.ArgoProfileEvent",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getEventStartRange" : {
+      "name" : "getEventStartRange",
+      "key" : "org.argouml.application.events.ArgoProfileEvent/method/getEventStartRange",
+      "type" : "int",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 16,
+        "endLine" : 48,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoProfileEvent"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ArgoEvent" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

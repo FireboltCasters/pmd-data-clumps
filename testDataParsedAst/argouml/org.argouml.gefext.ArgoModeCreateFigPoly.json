@@ -1,0 +1,94 @@
+{
+  "name" : "ArgoModeCreateFigPoly",
+  "key" : "org.argouml.gefext.ArgoModeCreateFigPoly",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "instructions" : {
+      "name" : "instructions",
+      "key" : "org.argouml.gefext.ArgoModeCreateFigPoly/method/instructions",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 19,
+        "endLine" : 43,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.gefext.ArgoModeCreateFigPoly"
+    },
+    "createNewItem" : {
+      "name" : "createNewItem",
+      "key" : "org.argouml.gefext.ArgoModeCreateFigPoly/method/createNewItem",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 16,
+        "endLine" : 51,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 41,
+          "endLine" : 51,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.gefext.ArgoModeCreateFigPoly/method/createNewItem"
+      }, {
+        "name" : "snapX",
+        "key" : "snapX",
+        "type" : "int",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 49,
+          "endLine" : 51,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.gefext.ArgoModeCreateFigPoly/method/createNewItem"
+      }, {
+        "name" : "snapY",
+        "key" : "snapY",
+        "type" : "int",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 60,
+          "endLine" : 51,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.gefext.ArgoModeCreateFigPoly/method/createNewItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.gefext.ArgoModeCreateFigPoly"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.base.ModeCreateFigPoly" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

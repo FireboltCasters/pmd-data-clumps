@@ -1,0 +1,293 @@
+{
+  "name" : "ProfileLoader",
+  "key" : "org.argouml.profile.init.ProfileLoader",
+  "type" : "class",
+  "position" : {
+    "startLine" : 54,
+    "startColumn" : 14,
+    "endLine" : 54,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "JAR_PREFIX" : {
+      "name" : "JAR_PREFIX",
+      "key" : "JAR_PREFIX",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 33,
+        "endLine" : 63,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.profile.init.ProfileLoader/memberField/JAR_PREFIX",
+      "classOrInterfaceKey" : "org.argouml.profile.init.ProfileLoader"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 33,
+        "endLine" : 58,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.profile.init.ProfileLoader/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.profile.init.ProfileLoader"
+    },
+    "FILE_PREFIX" : {
+      "name" : "FILE_PREFIX",
+      "key" : "FILE_PREFIX",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 33,
+        "endLine" : 68,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.profile.init.ProfileLoader/memberField/FILE_PREFIX",
+      "classOrInterfaceKey" : "org.argouml.profile.init.ProfileLoader"
+    }
+  },
+  "methods" : {
+    "doLoad" : {
+      "name" : "doLoad",
+      "key" : "org.argouml.profile.init.ProfileLoader/method/doLoad",
+      "type" : "void",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 17,
+        "endLine" : 74,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.profile.init.ProfileLoader"
+    },
+    "loadJavaCriticsForProfile" : {
+      "name" : "loadJavaCriticsForProfile",
+      "key" : "org.argouml.profile.init.ProfileLoader/method/loadJavaCriticsForProfile",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 192,
+        "startColumn" : 25,
+        "endLine" : 192,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "attr",
+        "key" : "attr",
+        "type" : "java.util.jar.Attributes",
+        "position" : {
+          "startLine" : 192,
+          "startColumn" : 62,
+          "endLine" : 192,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.init.ProfileLoader/method/loadJavaCriticsForProfile"
+      }, {
+        "name" : "classloader",
+        "key" : "classloader",
+        "type" : "java.lang.ClassLoader",
+        "position" : {
+          "startLine" : 193,
+          "startColumn" : 25,
+          "endLine" : 193,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.init.ProfileLoader/method/loadJavaCriticsForProfile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.init.ProfileLoader"
+    },
+    "loadManifestDependenciesForProfile" : {
+      "name" : "loadManifestDependenciesForProfile",
+      "key" : "org.argouml.profile.init.ProfileLoader/method/loadManifestDependenciesForProfile",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 169,
+        "startColumn" : 25,
+        "endLine" : 169,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "attr",
+        "key" : "attr",
+        "type" : "java.util.jar.Attributes",
+        "position" : {
+          "startLine" : 169,
+          "startColumn" : 71,
+          "endLine" : 169,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.init.ProfileLoader/method/loadManifestDependenciesForProfile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.init.ProfileLoader"
+    },
+    "huntForProfilesInDir" : {
+      "name" : "huntForProfilesInDir",
+      "key" : "org.argouml.profile.init.ProfileLoader/method/huntForProfilesInDir",
+      "type" : "void",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 18,
+        "endLine" : 83,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dir",
+        "key" : "dir",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 46,
+          "endLine" : 83,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.init.ProfileLoader/method/huntForProfilesInDir"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.init.ProfileLoader"
+    },
+    "loadProfilesFromJarFile" : {
+      "name" : "loadProfilesFromJarFile",
+      "key" : "org.argouml.profile.init.ProfileLoader/method/loadProfilesFromJarFile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 18,
+        "endLine" : 119,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "manifest",
+        "key" : "manifest",
+        "type" : "java.util.jar.Manifest",
+        "position" : {
+          "startLine" : 119,
+          "startColumn" : 51,
+          "endLine" : 119,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.init.ProfileLoader/method/loadProfilesFromJarFile"
+      }, {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 119,
+          "startColumn" : 66,
+          "endLine" : 119,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.init.ProfileLoader/method/loadProfilesFromJarFile"
+      }, {
+        "name" : "classloader",
+        "key" : "classloader",
+        "type" : "java.lang.ClassLoader",
+        "position" : {
+          "startLine" : 120,
+          "startColumn" : 25,
+          "endLine" : 120,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.init.ProfileLoader/method/loadProfilesFromJarFile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.init.ProfileLoader"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.profile.init.ProfileLoader.JarFileFilter" : {
+      "name" : "JarFileFilter",
+      "key" : "org.argouml.profile.init.ProfileLoader.JarFileFilter",
+      "type" : "class",
+      "position" : {
+        "startLine" : 223,
+        "startColumn" : 12,
+        "endLine" : 223,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "accept" : {
+          "name" : "accept",
+          "key" : "org.argouml.profile.init.ProfileLoader.JarFileFilter/method/accept",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 227,
+            "startColumn" : 24,
+            "endLine" : 227,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "pathname",
+            "key" : "pathname",
+            "type" : "java.io.File",
+            "position" : {
+              "startLine" : 227,
+              "startColumn" : 36,
+              "endLine" : 227,
+              "endColumn" : 44
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.profile.init.ProfileLoader.JarFileFilter/method/accept"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.profile.init.ProfileLoader.JarFileFilter"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "java.io.FileFilter" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.profile.init.ProfileLoader",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

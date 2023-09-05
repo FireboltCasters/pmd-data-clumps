@@ -1,0 +1,68 @@
+{
+  "name" : "ElementResidenceResidentListModel",
+  "key" : "org.argouml.uml.ui.foundation.core.ElementResidenceResidentListModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 94,
+    "startColumn" : 1,
+    "endLine" : 94,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.foundation.core.ElementResidenceResidentListModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 20,
+        "endLine" : 103,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ElementResidenceResidentListModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.foundation.core.ElementResidenceResidentListModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 23,
+        "endLine" : 110,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 45,
+          "endLine" : 110,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.ElementResidenceResidentListModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ElementResidenceResidentListModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLModelElementListModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,937 @@
+{
+  "name" : "AbstractFilePersister",
+  "key" : "org.argouml.persistence.AbstractFilePersister",
+  "type" : "class",
+  "position" : {
+    "startLine" : 54,
+    "startColumn" : 17,
+    "endLine" : 54,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 33,
+        "endLine" : 57,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.AbstractFilePersister/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "listenerList" : {
+      "name" : "listenerList",
+      "key" : "listenerList",
+      "type" : "javax.swing.event.EventListenerList",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 31,
+        "endLine" : 85,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.AbstractFilePersister/memberField/listenerList",
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "persistersByTag" : {
+      "name" : "persistersByTag",
+      "key" : "persistersByTag",
+      "type" : "java.util.Map",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 5,
+        "endLine" : 71,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.AbstractFilePersister/memberField/persistersByTag",
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "persistersByClass" : {
+      "name" : "persistersByClass",
+      "key" : "persistersByClass",
+      "type" : "java.util.Map",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 5,
+        "endLine" : 64,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.AbstractFilePersister/memberField/persistersByClass",
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    }
+  },
+  "methods" : {
+    "copyFile" : {
+      "name" : "copyFile",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/copyFile",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 20,
+        "endLine" : 128,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "src",
+        "key" : "src",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 128,
+          "startColumn" : 34,
+          "endLine" : 128,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/copyFile"
+      }, {
+        "name" : "dest",
+        "key" : "dest",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 128,
+          "startColumn" : 44,
+          "endLine" : 128,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/copyFile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "doSave" : {
+      "name" : "doSave",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/doSave",
+      "type" : "void",
+      "position" : {
+        "startLine" : 285,
+        "startColumn" : 29,
+        "endLine" : 285,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 285,
+          "startColumn" : 44,
+          "endLine" : 285,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/doSave"
+      }, {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 285,
+          "startColumn" : 58,
+          "endLine" : 285,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/doSave"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "isLoadEnabled" : {
+      "name" : "isLoadEnabled",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/isLoadEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 306,
+        "startColumn" : 20,
+        "endLine" : 306,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "removeProgressListener" : {
+      "name" : "removeProgressListener",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/removeProgressListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 333,
+        "startColumn" : 17,
+        "endLine" : 333,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "org.argouml.taskmgmt.ProgressListener",
+        "position" : {
+          "startLine" : 333,
+          "startColumn" : 57,
+          "endLine" : 333,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/removeProgressListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "getExtension" : {
+      "name" : "getExtension",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/getExtension",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 193,
+        "startColumn" : 27,
+        "endLine" : 193,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "filename",
+        "key" : "filename",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 193,
+          "startColumn" : 47,
+          "endLine" : 193,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/getExtension"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "isFileExtensionApplicable" : {
+      "name" : "isFileExtensionApplicable",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/isFileExtensionApplicable",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 208,
+        "startColumn" : 20,
+        "endLine" : 208,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "filename",
+        "key" : "filename",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 208,
+          "startColumn" : 53,
+          "endLine" : 208,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/isFileExtensionApplicable"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "postSave" : {
+      "name" : "postSave",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/postSave",
+      "type" : "void",
+      "position" : {
+        "startLine" : 264,
+        "startColumn" : 18,
+        "endLine" : 264,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 264,
+          "startColumn" : 35,
+          "endLine" : 264,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/postSave"
+      }, {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 264,
+          "startColumn" : 49,
+          "endLine" : 264,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/postSave"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "hasAnIcon" : {
+      "name" : "hasAnIcon",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/hasAnIcon",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 343,
+        "startColumn" : 29,
+        "endLine" : 343,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "save" : {
+      "name" : "save",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/save",
+      "type" : "void",
+      "position" : {
+        "startLine" : 235,
+        "startColumn" : 23,
+        "endLine" : 235,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 235,
+          "startColumn" : 36,
+          "endLine" : 235,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/save"
+      }, {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 235,
+          "startColumn" : 50,
+          "endLine" : 235,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/save"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "createTempFile" : {
+      "name" : "createTempFile",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/createTempFile",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 20,
+        "endLine" : 103,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 103,
+          "startColumn" : 40,
+          "endLine" : 103,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/createTempFile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "registerPersister" : {
+      "name" : "registerPersister",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/registerPersister",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 28,
+        "endLine" : 88,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "target",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 88,
+          "startColumn" : 52,
+          "endLine" : 88,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/registerPersister"
+      }, {
+        "name" : "tag",
+        "key" : "tag",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 88,
+          "startColumn" : 67,
+          "endLine" : 88,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/registerPersister"
+      }, {
+        "name" : "persister",
+        "key" : "persister",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 89,
+          "startColumn" : 50,
+          "endLine" : 89,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/registerPersister"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "newPersister" : {
+      "name" : "newPersister",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/newPersister",
+      "type" : "MemberFilePersister",
+      "position" : {
+        "startLine" : 389,
+        "startColumn" : 40,
+        "endLine" : 389,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "clazz",
+        "key" : "clazz",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 390,
+          "startColumn" : 50,
+          "endLine" : 390,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/newPersister"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "getDescription" : {
+      "name" : "getDescription",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/getDescription",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 215,
+        "startColumn" : 19,
+        "endLine" : 215,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "accept" : {
+      "name" : "accept",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/accept",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 20,
+        "endLine" : 154,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 154,
+          "startColumn" : 32,
+          "endLine" : 154,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/accept"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "isSaveEnabled" : {
+      "name" : "isSaveEnabled",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/isSaveEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 295,
+        "startColumn" : 20,
+        "endLine" : 295,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "doLoad" : {
+      "name" : "doLoad",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/doLoad",
+      "type" : "org.argouml.kernel.Project",
+      "position" : {
+        "startLine" : 313,
+        "startColumn" : 29,
+        "endLine" : 313,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 313,
+          "startColumn" : 41,
+          "endLine" : 313,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/doLoad"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "preSave" : {
+      "name" : "preSave",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/preSave",
+      "type" : "void",
+      "position" : {
+        "startLine" : 250,
+        "startColumn" : 18,
+        "endLine" : 250,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 250,
+          "startColumn" : 34,
+          "endLine" : 250,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/preSave"
+      }, {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 250,
+          "startColumn" : 48,
+          "endLine" : 250,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/preSave"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "getDesc" : {
+      "name" : "getDesc",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/getDesc",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 184,
+        "startColumn" : 31,
+        "endLine" : 184,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "addProgressListener" : {
+      "name" : "addProgressListener",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/addProgressListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 323,
+        "startColumn" : 17,
+        "endLine" : 323,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "org.argouml.taskmgmt.ProgressListener",
+        "position" : {
+          "startLine" : 323,
+          "startColumn" : 54,
+          "endLine" : 323,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/addProgressListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    },
+    "getMemberFilePersister" : {
+      "name" : "getMemberFilePersister",
+      "key" : "org.argouml.persistence.AbstractFilePersister/method/getMemberFilePersister",
+      "type" : "MemberFilePersister",
+      "position" : {
+        "startLine" : 380,
+        "startColumn" : 35,
+        "endLine" : 380,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tag",
+        "key" : "tag",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 380,
+          "startColumn" : 65,
+          "endLine" : 380,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.AbstractFilePersister/method/getMemberFilePersister"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "ProjectFilePersister" ],
+  "extends_" : [ "javax.swing.filechooser.FileFilter" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.persistence.AbstractFilePersister.ProgressMgr" : {
+      "name" : "ProgressMgr",
+      "key" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr",
+      "type" : "class",
+      "position" : {
+        "startLine" : 403,
+        "startColumn" : 5,
+        "endLine" : 403,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : {
+        "phasesCompleted" : {
+          "name" : "phasesCompleted",
+          "key" : "phasesCompleted",
+          "type" : "int",
+          "position" : {
+            "startLine" : 414,
+            "startColumn" : 21,
+            "endLine" : 414,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr/memberField/phasesCompleted",
+          "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr"
+        },
+        "numberOfPhases" : {
+          "name" : "numberOfPhases",
+          "key" : "numberOfPhases",
+          "type" : "int",
+          "position" : {
+            "startLine" : 422,
+            "startColumn" : 21,
+            "endLine" : 422,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr/memberField/numberOfPhases",
+          "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr"
+        },
+        "percentPhasesComplete" : {
+          "name" : "percentPhasesComplete",
+          "key" : "percentPhasesComplete",
+          "type" : "int",
+          "position" : {
+            "startLine" : 409,
+            "startColumn" : 21,
+            "endLine" : 409,
+            "endColumn" : 42
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr/memberField/percentPhasesComplete",
+          "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr"
+        }
+      },
+      "methods" : {
+        "getNumberOfPhases" : {
+          "name" : "getNumberOfPhases",
+          "key" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr/method/getNumberOfPhases",
+          "type" : "int",
+          "position" : {
+            "startLine" : 436,
+            "startColumn" : 20,
+            "endLine" : 436,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr"
+        },
+        "setNumberOfPhases" : {
+          "name" : "setNumberOfPhases",
+          "key" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr/method/setNumberOfPhases",
+          "type" : "void",
+          "position" : {
+            "startLine" : 432,
+            "startColumn" : 21,
+            "endLine" : 432,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "aNumberOfPhases",
+            "key" : "aNumberOfPhases",
+            "type" : "int",
+            "position" : {
+              "startLine" : 432,
+              "startColumn" : 43,
+              "endLine" : 432,
+              "endColumn" : 58
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr/method/setNumberOfPhases"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr"
+        },
+        "progress" : {
+          "name" : "progress",
+          "key" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr/method/progress",
+          "type" : "void",
+          "position" : {
+            "startLine" : 454,
+            "startColumn" : 21,
+            "endLine" : 454,
+            "endColumn" : 29
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "event",
+            "key" : "event",
+            "type" : "org.argouml.taskmgmt.ProgressEvent",
+            "position" : {
+              "startLine" : 454,
+              "startColumn" : 44,
+              "endLine" : 454,
+              "endColumn" : 49
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr/method/progress"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr"
+        },
+        "setPercentPhasesComplete" : {
+          "name" : "setPercentPhasesComplete",
+          "key" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr/method/setPercentPhasesComplete",
+          "type" : "void",
+          "position" : {
+            "startLine" : 424,
+            "startColumn" : 21,
+            "endLine" : 424,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "aPercentPhasesComplete",
+            "key" : "aPercentPhasesComplete",
+            "type" : "int",
+            "position" : {
+              "startLine" : 424,
+              "startColumn" : 50,
+              "endLine" : 424,
+              "endColumn" : 72
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr/method/setPercentPhasesComplete"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr"
+        },
+        "nextPhase" : {
+          "name" : "nextPhase",
+          "key" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr/method/nextPhase",
+          "type" : "void",
+          "position" : {
+            "startLine" : 440,
+            "startColumn" : 24,
+            "endLine" : 440,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr"
+        },
+        "fireProgressEvent" : {
+          "name" : "fireProgressEvent",
+          "key" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr/method/fireProgressEvent",
+          "type" : "void",
+          "position" : {
+            "startLine" : 468,
+            "startColumn" : 24,
+            "endLine" : 468,
+            "endColumn" : 41
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "percent",
+            "key" : "percent",
+            "type" : "long",
+            "position" : {
+              "startLine" : 468,
+              "startColumn" : 47,
+              "endLine" : 468,
+              "endColumn" : 54
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr/method/fireProgressEvent"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr"
+        },
+        "setPhasesCompleted" : {
+          "name" : "setPhasesCompleted",
+          "key" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr/method/setPhasesCompleted",
+          "type" : "void",
+          "position" : {
+            "startLine" : 428,
+            "startColumn" : 21,
+            "endLine" : 428,
+            "endColumn" : 39
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "aPhasesCompleted",
+            "key" : "aPhasesCompleted",
+            "type" : "int",
+            "position" : {
+              "startLine" : 428,
+              "startColumn" : 44,
+              "endLine" : 428,
+              "endColumn" : 60
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr/method/setPhasesCompleted"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.persistence.AbstractFilePersister.ProgressMgr"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "org.argouml.taskmgmt.ProgressListener" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.persistence.AbstractFilePersister",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

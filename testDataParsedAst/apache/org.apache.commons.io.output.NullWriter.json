@@ -1,0 +1,110 @@
+{
+  "name" : "NullWriter",
+  "key" : "org.apache.commons.io.output.NullWriter",
+  "type" : "class",
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "flush" : {
+      "name" : "flush",
+      "key" : "org.apache.commons.io.output.NullWriter/method/flush",
+      "type" : "void",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 17,
+        "endLine" : 63,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.NullWriter"
+    },
+    "write" : {
+      "name" : "write",
+      "key" : "org.apache.commons.io.output.NullWriter/method/write",
+      "type" : "void",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 17,
+        "endLine" : 58,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "str",
+        "key" : "str",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 30,
+          "endLine" : 58,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.NullWriter/method/write"
+      }, {
+        "name" : "st",
+        "key" : "st",
+        "type" : "int",
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 39,
+          "endLine" : 58,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.NullWriter/method/write"
+      }, {
+        "name" : "end",
+        "key" : "end",
+        "type" : "int",
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 47,
+          "endLine" : 58,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.NullWriter/method/write"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.NullWriter"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.io.output.NullWriter/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 17,
+        "endLine" : 68,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.NullWriter"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.io.Writer" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

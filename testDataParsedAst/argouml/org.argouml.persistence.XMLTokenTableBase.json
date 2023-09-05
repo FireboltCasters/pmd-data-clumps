@@ -1,0 +1,288 @@
+{
+  "name" : "XMLTokenTableBase",
+  "key" : "org.argouml.persistence.XMLTokenTableBase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 10,
+    "endLine" : 35,
+    "endColumn" : 15
+  },
+  "modifiers" : [ "ABSTRACT" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 33,
+        "endLine" : 36,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XMLTokenTableBase/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.persistence.XMLTokenTableBase"
+    },
+    "openTokens" : {
+      "name" : "openTokens",
+      "key" : "openTokens",
+      "type" : "int[]",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 24,
+        "endLine" : 44,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XMLTokenTableBase/memberField/openTokens",
+      "classOrInterfaceKey" : "org.argouml.persistence.XMLTokenTableBase"
+    },
+    "dbg" : {
+      "name" : "dbg",
+      "key" : "dbg",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 24,
+        "endLine" : 42,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XMLTokenTableBase/memberField/dbg",
+      "classOrInterfaceKey" : "org.argouml.persistence.XMLTokenTableBase"
+    },
+    "openTags" : {
+      "name" : "openTags",
+      "key" : "openTags",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 24,
+        "endLine" : 43,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XMLTokenTableBase/memberField/openTags",
+      "classOrInterfaceKey" : "org.argouml.persistence.XMLTokenTableBase"
+    },
+    "tokens" : {
+      "name" : "tokens",
+      "key" : "tokens",
+      "type" : "java.util.Hashtable",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 24,
+        "endLine" : 41,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XMLTokenTableBase/memberField/tokens",
+      "classOrInterfaceKey" : "org.argouml.persistence.XMLTokenTableBase"
+    },
+    "numOpen" : {
+      "name" : "numOpen",
+      "key" : "numOpen",
+      "type" : "int",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 24,
+        "endLine" : 45,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.XMLTokenTableBase/memberField/numOpen",
+      "classOrInterfaceKey" : "org.argouml.persistence.XMLTokenTableBase"
+    }
+  },
+  "methods" : {
+    "addToken" : {
+      "name" : "addToken",
+      "key" : "org.argouml.persistence.XMLTokenTableBase/method/addToken",
+      "type" : "void",
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 20,
+        "endLine" : 100,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 100,
+          "startColumn" : 36,
+          "endLine" : 100,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.XMLTokenTableBase/method/addToken"
+      }, {
+        "name" : "i",
+        "key" : "i",
+        "type" : "java.lang.Integer",
+        "position" : {
+          "startLine" : 100,
+          "startColumn" : 47,
+          "endLine" : 100,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.XMLTokenTableBase/method/addToken"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.XMLTokenTableBase"
+    },
+    "contains" : {
+      "name" : "contains",
+      "key" : "org.argouml.persistence.XMLTokenTableBase/method/contains",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 20,
+        "endLine" : 118,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "token",
+        "key" : "token",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 36,
+          "endLine" : 118,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.XMLTokenTableBase/method/contains"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.XMLTokenTableBase"
+    },
+    "setDbg" : {
+      "name" : "setDbg",
+      "key" : "org.argouml.persistence.XMLTokenTableBase/method/setDbg",
+      "type" : "void",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 20,
+        "endLine" : 86,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "d",
+        "key" : "d",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 86,
+          "startColumn" : 35,
+          "endLine" : 86,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.XMLTokenTableBase/method/setDbg"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.XMLTokenTableBase"
+    },
+    "setupTokens" : {
+      "name" : "setupTokens",
+      "key" : "org.argouml.persistence.XMLTokenTableBase/method/setupTokens",
+      "type" : "void",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 29,
+        "endLine" : 125,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.XMLTokenTableBase"
+    },
+    "getDbg" : {
+      "name" : "getDbg",
+      "key" : "org.argouml.persistence.XMLTokenTableBase/method/getDbg",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 20,
+        "endLine" : 91,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.XMLTokenTableBase"
+    },
+    "toToken" : {
+      "name" : "toToken",
+      "key" : "org.argouml.persistence.XMLTokenTableBase/method/toToken",
+      "type" : "int",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 22,
+        "endLine" : 69,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 37,
+          "endLine" : 69,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.XMLTokenTableBase/method/toToken"
+      }, {
+        "name" : "push",
+        "key" : "push",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 48,
+          "endLine" : 69,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.XMLTokenTableBase/method/toToken"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.XMLTokenTableBase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

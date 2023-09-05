@@ -1,0 +1,338 @@
+{
+  "name" : "NNTPCommand",
+  "key" : "org.apache.commons.net.nntp.NNTPCommand",
+  "type" : "class",
+  "position" : {
+    "startLine" : 27,
+    "startColumn" : 14,
+    "endLine" : 27,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "HELP" : {
+      "name" : "HELP",
+      "key" : "HELP",
+      "type" : "int",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 29,
+        "endLine" : 34,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/HELP",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "HEAD" : {
+      "name" : "HEAD",
+      "key" : "HEAD",
+      "type" : "int",
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 29,
+        "endLine" : 33,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/HEAD",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "NEWNEWS" : {
+      "name" : "NEWNEWS",
+      "key" : "NEWNEWS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 29,
+        "endLine" : 39,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/NEWNEWS",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "SLAVE" : {
+      "name" : "SLAVE",
+      "key" : "SLAVE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 29,
+        "endLine" : 43,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/SLAVE",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "POST" : {
+      "name" : "POST",
+      "key" : "POST",
+      "type" : "int",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 29,
+        "endLine" : 41,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/POST",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "QUIT" : {
+      "name" : "QUIT",
+      "key" : "QUIT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 29,
+        "endLine" : 42,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/QUIT",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "NEWGROUPS" : {
+      "name" : "NEWGROUPS",
+      "key" : "NEWGROUPS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 29,
+        "endLine" : 38,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/NEWGROUPS",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "GROUP" : {
+      "name" : "GROUP",
+      "key" : "GROUP",
+      "type" : "int",
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 29,
+        "endLine" : 32,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/GROUP",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "XOVER" : {
+      "name" : "XOVER",
+      "key" : "XOVER",
+      "type" : "int",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 29,
+        "endLine" : 46,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/XOVER",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "ARTICLE" : {
+      "name" : "ARTICLE",
+      "key" : "ARTICLE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 29,
+        "endLine" : 30,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/ARTICLE",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "STAT" : {
+      "name" : "STAT",
+      "key" : "STAT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 29,
+        "endLine" : 44,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/STAT",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "LAST" : {
+      "name" : "LAST",
+      "key" : "LAST",
+      "type" : "int",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 29,
+        "endLine" : 36,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/LAST",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "IHAVE" : {
+      "name" : "IHAVE",
+      "key" : "IHAVE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 29,
+        "endLine" : 35,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/IHAVE",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "NEXT" : {
+      "name" : "NEXT",
+      "key" : "NEXT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 29,
+        "endLine" : 40,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/NEXT",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "XHDR" : {
+      "name" : "XHDR",
+      "key" : "XHDR",
+      "type" : "int",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 29,
+        "endLine" : 47,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/XHDR",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "AUTHINFO" : {
+      "name" : "AUTHINFO",
+      "key" : "AUTHINFO",
+      "type" : "int",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 29,
+        "endLine" : 45,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/AUTHINFO",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "_commands" : {
+      "name" : "_commands",
+      "key" : "_commands",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 27,
+        "endLine" : 53,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/_commands",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "BODY" : {
+      "name" : "BODY",
+      "key" : "BODY",
+      "type" : "int",
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 29,
+        "endLine" : 31,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/BODY",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    },
+    "LIST" : {
+      "name" : "LIST",
+      "key" : "LIST",
+      "type" : "int",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 29,
+        "endLine" : 37,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.NNTPCommand/memberField/LIST",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    }
+  },
+  "methods" : {
+    "getCommand" : {
+      "name" : "getCommand",
+      "key" : "org.apache.commons.net.nntp.NNTPCommand/method/getCommand",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 32,
+        "endLine" : 68,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "command",
+        "key" : "command",
+        "type" : "int",
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 47,
+          "endLine" : 68,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.NNTPCommand/method/getCommand"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.NNTPCommand"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

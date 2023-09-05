@@ -1,0 +1,99 @@
+{
+  "name" : "ChildGenRelated",
+  "key" : "org.argouml.uml.ChildGenRelated",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 31,
+        "endLine" : 92,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ChildGenRelated/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ChildGenRelated"
+    },
+    "SINGLETON" : {
+      "name" : "SINGLETON",
+      "key" : "SINGLETON",
+      "type" : "org.argouml.uml.ChildGenRelated",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 42,
+        "endLine" : 48,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ChildGenRelated/memberField/SINGLETON",
+      "classOrInterfaceKey" : "org.argouml.uml.ChildGenRelated"
+    }
+  },
+  "methods" : {
+    "gen" : {
+      "name" : "gen",
+      "key" : "org.argouml.uml.ChildGenRelated/method/gen",
+      "type" : "java.util.Enumeration",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 24,
+        "endLine" : 63,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 63,
+          "startColumn" : 35,
+          "endLine" : 63,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ChildGenRelated/method/gen"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ChildGenRelated"
+    },
+    "getSingleton" : {
+      "name" : "getSingleton",
+      "key" : "org.argouml.uml.ChildGenRelated/method/getSingleton",
+      "type" : "org.argouml.uml.ChildGenRelated",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 35,
+        "endLine" : 53,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ChildGenRelated"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.tigris.gef.util.ChildGenerator" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

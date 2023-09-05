@@ -1,0 +1,52 @@
+{
+  "name" : "FTPFileEntryParserFactory",
+  "key" : "org.apache.commons.net.ftp.parser.FTPFileEntryParserFactory",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 24,
+    "startColumn" : 8,
+    "endLine" : 24,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "createFileEntryParser" : {
+      "name" : "createFileEntryParser",
+      "key" : "org.apache.commons.net.ftp.parser.FTPFileEntryParserFactory/method/createFileEntryParser",
+      "type" : "org.apache.commons.net.ftp.FTPFileEntryParser",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 31,
+        "endLine" : 63,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "config",
+        "key" : "config",
+        "type" : "org.apache.commons.net.ftp.FTPClientConfig",
+        "position" : {
+          "startLine" : 63,
+          "startColumn" : 69,
+          "endLine" : 63,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.FTPFileEntryParserFactory/method/createFileEntryParser"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPFileEntryParserFactory"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

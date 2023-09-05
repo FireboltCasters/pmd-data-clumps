@@ -1,0 +1,100 @@
+{
+  "name" : "AssociationsNode",
+  "key" : "org.argouml.ui.explorer.rules.AssociationsNode",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "parent" : {
+      "name" : "parent",
+      "key" : "parent",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 20,
+        "endLine" : 41,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.rules.AssociationsNode/memberField/parent",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.rules.AssociationsNode"
+    }
+  },
+  "methods" : {
+    "getParent" : {
+      "name" : "getParent",
+      "key" : "org.argouml.ui.explorer.rules.AssociationsNode/method/getParent",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 19,
+        "endLine" : 56,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.rules.AssociationsNode"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.ui.explorer.rules.AssociationsNode/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 19,
+        "endLine" : 63,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.rules.AssociationsNode"
+    },
+    "subsumes" : {
+      "name" : "subsumes",
+      "key" : "org.argouml.ui.explorer.rules.AssociationsNode/method/subsumes",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 20,
+        "endLine" : 70,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 36,
+          "endLine" : 70,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.rules.AssociationsNode/method/subsumes"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.rules.AssociationsNode"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.ui.explorer.WeakExplorerNode" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

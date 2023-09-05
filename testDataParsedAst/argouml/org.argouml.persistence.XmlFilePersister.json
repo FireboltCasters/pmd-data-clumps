@@ -1,0 +1,55 @@
+{
+  "name" : "XmlFilePersister",
+  "key" : "org.argouml.persistence.XmlFilePersister",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 1,
+    "endLine" : 33,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "getExtension" : {
+      "name" : "getExtension",
+      "key" : "org.argouml.persistence.XmlFilePersister/method/getExtension",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 19,
+        "endLine" : 39,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.XmlFilePersister"
+    },
+    "hasAnIcon" : {
+      "name" : "hasAnIcon",
+      "key" : "org.argouml.persistence.XmlFilePersister/method/hasAnIcon",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 20,
+        "endLine" : 49,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.XmlFilePersister"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "XmiFilePersister" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

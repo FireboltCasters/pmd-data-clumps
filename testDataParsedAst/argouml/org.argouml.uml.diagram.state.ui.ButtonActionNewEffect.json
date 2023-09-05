@@ -1,0 +1,129 @@
+{
+  "name" : "ButtonActionNewEffect",
+  "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEffect",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 10,
+    "endLine" : 42,
+    "endColumn" : 15
+  },
+  "modifiers" : [ "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEffect/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 17,
+        "endLine" : 54,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 45,
+          "endLine" : 54,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEffect/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEffect"
+    },
+    "getIconName" : {
+      "name" : "getIconName",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEffect/method/getIconName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 31,
+        "endLine" : 76,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEffect"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEffect/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 20,
+        "endLine" : 68,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEffect"
+    },
+    "createEvent" : {
+      "name" : "createEvent",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEffect/method/createEvent",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 31,
+        "endLine" : 73,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ns",
+        "key" : "ns",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 50,
+          "endLine" : 73,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEffect/method/createEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEffect"
+    },
+    "getKeyName" : {
+      "name" : "getKeyName",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEffect/method/getKeyName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 31,
+        "endLine" : 75,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEffect"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.tigris.toolbar.toolbutton.ModalAction" ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

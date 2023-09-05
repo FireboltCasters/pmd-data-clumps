@@ -1,0 +1,260 @@
+{
+  "name" : "FigEdgePort",
+  "key" : "org.argouml.uml.diagram.ui.FigEdgePort",
+  "type" : "class",
+  "position" : {
+    "startLine" : 49,
+    "startColumn" : 8,
+    "endLine" : 49,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "bigPort" : {
+      "name" : "bigPort",
+      "key" : "bigPort",
+      "type" : "org.tigris.gef.presentation.FigCircle",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 23,
+        "endLine" : 50,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigEdgePort/memberField/bigPort",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigEdgePort"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 31,
+        "endLine" : 139,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigEdgePort/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigEdgePort"
+    }
+  },
+  "methods" : {
+    "getPortFig" : {
+      "name" : "getPortFig",
+      "key" : "org.argouml.uml.diagram.ui.FigEdgePort/method/getPortFig",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 16,
+        "endLine" : 132,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "port",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 132,
+          "startColumn" : 34,
+          "endLine" : 132,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigEdgePort/method/getPortFig"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigEdgePort"
+    },
+    "hit" : {
+      "name" : "hit",
+      "key" : "org.argouml.uml.diagram.ui.FigEdgePort/method/hit",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 20,
+        "endLine" : 65,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "r",
+        "key" : "r",
+        "type" : "java.awt.Rectangle",
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 34,
+          "endLine" : 65,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigEdgePort/method/hit"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigEdgePort"
+    },
+    "hitFig" : {
+      "name" : "hitFig",
+      "key" : "org.argouml.uml.diagram.ui.FigEdgePort/method/hitFig",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 117,
+        "startColumn" : 16,
+        "endLine" : 117,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "r",
+        "key" : "r",
+        "type" : "java.awt.Rectangle",
+        "position" : {
+          "startLine" : 117,
+          "startColumn" : 33,
+          "endLine" : 117,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigEdgePort/method/hitFig"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigEdgePort"
+    },
+    "hitPort" : {
+      "name" : "hitPort",
+      "key" : "org.argouml.uml.diagram.ui.FigEdgePort/method/hitPort",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 19,
+        "endLine" : 109,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "x",
+        "key" : "x",
+        "type" : "int",
+        "position" : {
+          "startLine" : 109,
+          "startColumn" : 31,
+          "endLine" : 109,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigEdgePort/method/hitPort"
+      }, {
+        "name" : "y",
+        "key" : "y",
+        "type" : "int",
+        "position" : {
+          "startLine" : 109,
+          "startColumn" : 38,
+          "endLine" : 109,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigEdgePort/method/hitPort"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigEdgePort"
+    },
+    "getOwner" : {
+      "name" : "getOwner",
+      "key" : "org.argouml.uml.diagram.ui.FigEdgePort/method/getOwner",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 19,
+        "endLine" : 79,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigEdgePort"
+    },
+    "isSelectable" : {
+      "name" : "isSelectable",
+      "key" : "org.argouml.uml.diagram.ui.FigEdgePort/method/isSelectable",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 20,
+        "endLine" : 125,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigEdgePort"
+    },
+    "classNameAndBounds" : {
+      "name" : "classNameAndBounds",
+      "key" : "org.argouml.uml.diagram.ui.FigEdgePort/method/classNameAndBounds",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 19,
+        "endLine" : 99,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigEdgePort"
+    },
+    "setOwner" : {
+      "name" : "setOwner",
+      "key" : "org.argouml.uml.diagram.ui.FigEdgePort/method/setOwner",
+      "type" : "void",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 17,
+        "endLine" : 73,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "own",
+        "key" : "own",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 33,
+          "endLine" : 73,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigEdgePort/method/setOwner"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigEdgePort"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "FigNodeModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

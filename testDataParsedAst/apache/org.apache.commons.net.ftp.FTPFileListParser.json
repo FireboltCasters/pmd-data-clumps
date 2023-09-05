@@ -1,0 +1,52 @@
+{
+  "name" : "FTPFileListParser",
+  "key" : "org.apache.commons.net.ftp.FTPFileListParser",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "parseFileList" : {
+      "name" : "parseFileList",
+      "key" : "org.apache.commons.net.ftp.FTPFileListParser/method/parseFileList",
+      "type" : "FTPFile[]",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 15,
+        "endLine" : 70,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listStream",
+        "key" : "listStream",
+        "type" : "java.io.InputStream",
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 41,
+          "endLine" : 70,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPFileListParser/method/parseFileList"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPFileListParser"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

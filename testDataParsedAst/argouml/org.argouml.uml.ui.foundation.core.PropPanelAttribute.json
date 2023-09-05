@@ -1,0 +1,123 @@
+{
+  "name" : "PropPanelAttribute",
+  "key" : "org.argouml.uml.ui.foundation.core.PropPanelAttribute",
+  "type" : "class",
+  "position" : {
+    "startLine" : 51,
+    "startColumn" : 8,
+    "endLine" : 51,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 31,
+        "endLine" : 56,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelAttribute/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAttribute"
+    }
+  },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "PropPanelStructuralFeature" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.ui.foundation.core.PropPanelAttribute.UMLInitialValueExpressionModel" : {
+      "name" : "UMLInitialValueExpressionModel",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelAttribute.UMLInitialValueExpressionModel",
+      "type" : "class",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 13,
+        "endLine" : 128,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "fields" : { },
+      "methods" : {
+        "getExpression" : {
+          "name" : "getExpression",
+          "key" : "org.argouml.uml.ui.foundation.core.PropPanelAttribute.UMLInitialValueExpressionModel/method/getExpression",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 145,
+            "startColumn" : 23,
+            "endLine" : 145,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAttribute.UMLInitialValueExpressionModel"
+        },
+        "newExpression" : {
+          "name" : "newExpression",
+          "key" : "org.argouml.uml.ui.foundation.core.PropPanelAttribute.UMLInitialValueExpressionModel/method/newExpression",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 169,
+            "startColumn" : 23,
+            "endLine" : 169,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAttribute.UMLInitialValueExpressionModel"
+        },
+        "setExpression" : {
+          "name" : "setExpression",
+          "key" : "org.argouml.uml.ui.foundation.core.PropPanelAttribute.UMLInitialValueExpressionModel/method/setExpression",
+          "type" : "void",
+          "position" : {
+            "startLine" : 156,
+            "startColumn" : 21,
+            "endLine" : 156,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "expression",
+            "key" : "expression",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 156,
+              "startColumn" : 42,
+              "endLine" : 156,
+              "endColumn" : 52
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.foundation.core.PropPanelAttribute.UMLInitialValueExpressionModel/method/setExpression"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelAttribute.UMLInitialValueExpressionModel"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.uml.ui.UMLExpressionModel2" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.foundation.core.PropPanelAttribute",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

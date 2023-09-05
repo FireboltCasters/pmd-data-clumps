@@ -1,0 +1,101 @@
+{
+  "name" : "PropPanelCallState",
+  "key" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelCallState",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 31,
+        "endLine" : 128,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelCallState/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelCallState"
+    },
+    "callActionEntryList" : {
+      "name" : "callActionEntryList",
+      "key" : "callActionEntryList",
+      "type" : "javax.swing.JList",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 19,
+        "endLine" : 47,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelCallState/memberField/callActionEntryList",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelCallState"
+    },
+    "callActionEntryScroll" : {
+      "name" : "callActionEntryScroll",
+      "key" : "callActionEntryScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 25,
+        "endLine" : 46,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelCallState/memberField/callActionEntryScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelCallState"
+    }
+  },
+  "methods" : {
+    "addExtraButtons" : {
+      "name" : "addExtraButtons",
+      "key" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelCallState/method/addExtraButtons",
+      "type" : "void",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 20,
+        "endLine" : 109,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelCallState"
+    },
+    "getCallActionEntryScroll" : {
+      "name" : "getCallActionEntryScroll",
+      "key" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelCallState/method/getCallActionEntryScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 121,
+        "startColumn" : 27,
+        "endLine" : 121,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelCallState"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.behavior.state_machines.AbstractPropPanelState" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

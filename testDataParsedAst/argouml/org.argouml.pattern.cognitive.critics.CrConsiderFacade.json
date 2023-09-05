@@ -1,0 +1,81 @@
+{
+  "name" : "CrConsiderFacade",
+  "key" : "org.argouml.pattern.cognitive.critics.CrConsiderFacade",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 31,
+        "endLine" : 60,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.pattern.cognitive.critics.CrConsiderFacade/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.pattern.cognitive.critics.CrConsiderFacade"
+    }
+  },
+  "methods" : {
+    "predicate2" : {
+      "name" : "predicate2",
+      "key" : "org.argouml.pattern.cognitive.critics.CrConsiderFacade/method/predicate2",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 20,
+        "endLine" : 52,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 38,
+          "endLine" : 52,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.pattern.cognitive.critics.CrConsiderFacade/method/predicate2"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 51,
+          "endLine" : 52,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.pattern.cognitive.critics.CrConsiderFacade/method/predicate2"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.pattern.cognitive.critics.CrConsiderFacade"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.cognitive.critics.CrUML" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,216 @@
+{
+  "name" : "DiagramUndoManager",
+  "key" : "org.argouml.uml.diagram.DiagramUndoManager",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "startChain" : {
+      "name" : "startChain",
+      "key" : "startChain",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 21,
+        "endLine" : 46,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.DiagramUndoManager/memberField/startChain",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramUndoManager"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 33,
+        "endLine" : 44,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.DiagramUndoManager/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramUndoManager"
+    }
+  },
+  "methods" : {
+    "startChain" : {
+      "name" : "startChain",
+      "key" : "org.argouml.uml.diagram.DiagramUndoManager/method/startChain",
+      "type" : "void",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 17,
+        "endLine" : 53,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramUndoManager"
+    },
+    "addMemento" : {
+      "name" : "addMemento",
+      "key" : "org.argouml.uml.diagram.DiagramUndoManager/method/addMemento",
+      "type" : "void",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 17,
+        "endLine" : 62,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "memento",
+        "key" : "memento",
+        "type" : "org.tigris.gef.undo.Memento",
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 42,
+          "endLine" : 62,
+          "endColumn" : 49
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.DiagramUndoManager/method/addMemento"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramUndoManager"
+    },
+    "addPropertyChangeListener" : {
+      "name" : "addPropertyChangeListener",
+      "key" : "org.argouml.uml.diagram.DiagramUndoManager/method/addPropertyChangeListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 17,
+        "endLine" : 77,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "java.beans.PropertyChangeListener",
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 66,
+          "endLine" : 77,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.DiagramUndoManager/method/addPropertyChangeListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramUndoManager"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoManager" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.diagram.DiagramUndoManager.DiagramCommand" : {
+      "name" : "DiagramCommand",
+      "key" : "org.argouml.uml.diagram.DiagramUndoManager.DiagramCommand",
+      "type" : "class",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 13,
+        "endLine" : 83,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "fields" : {
+        "memento" : {
+          "name" : "memento",
+          "key" : "memento",
+          "type" : "org.tigris.gef.undo.Memento",
+          "position" : {
+            "startLine" : 86,
+            "startColumn" : 31,
+            "endLine" : 86,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.diagram.DiagramUndoManager.DiagramCommand/memberField/memento",
+          "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramUndoManager.DiagramCommand"
+        }
+      },
+      "methods" : {
+        "undo" : {
+          "name" : "undo",
+          "key" : "org.argouml.uml.diagram.DiagramUndoManager.DiagramCommand/method/undo",
+          "type" : "void",
+          "position" : {
+            "startLine" : 99,
+            "startColumn" : 21,
+            "endLine" : 99,
+            "endColumn" : 25
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramUndoManager.DiagramCommand"
+        },
+        "toString" : {
+          "name" : "toString",
+          "key" : "org.argouml.uml.diagram.DiagramUndoManager.DiagramCommand/method/toString",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 104,
+            "startColumn" : 23,
+            "endLine" : 104,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramUndoManager.DiagramCommand"
+        },
+        "execute" : {
+          "name" : "execute",
+          "key" : "org.argouml.uml.diagram.DiagramUndoManager.DiagramCommand/method/execute",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 93,
+            "startColumn" : 23,
+            "endLine" : 93,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramUndoManager.DiagramCommand"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.kernel.AbstractCommand" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.diagram.DiagramUndoManager",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

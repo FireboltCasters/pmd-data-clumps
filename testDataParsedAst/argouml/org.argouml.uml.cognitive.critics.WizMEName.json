@@ -1,0 +1,291 @@
+{
+  "name" : "WizMEName",
+  "key" : "org.argouml.uml.cognitive.critics.WizMEName",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "instructions" : {
+      "name" : "instructions",
+      "key" : "instructions",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 20,
+        "endLine" : 43,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.WizMEName/memberField/instructions",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizMEName"
+    },
+    "origSuggest" : {
+      "name" : "origSuggest",
+      "key" : "origSuggest",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 20,
+        "endLine" : 49,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.WizMEName/memberField/origSuggest",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizMEName"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 33,
+        "endLine" : 41,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.WizMEName/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizMEName"
+    },
+    "mustEdit" : {
+      "name" : "mustEdit",
+      "key" : "mustEdit",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 21,
+        "endLine" : 45,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.WizMEName/memberField/mustEdit",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizMEName"
+    },
+    "label" : {
+      "name" : "label",
+      "key" : "label",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 20,
+        "endLine" : 44,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.WizMEName/memberField/label",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizMEName"
+    },
+    "step1" : {
+      "name" : "step1",
+      "key" : "step1",
+      "type" : "org.argouml.cognitive.ui.WizStepTextField",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 30,
+        "endLine" : 47,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.WizMEName/memberField/step1",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizMEName"
+    }
+  },
+  "methods" : {
+    "canGoNext" : {
+      "name" : "canGoNext",
+      "key" : "org.argouml.uml.cognitive.critics.WizMEName/method/canGoNext",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 20,
+        "endLine" : 100,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizMEName"
+    },
+    "setInstructions" : {
+      "name" : "setInstructions",
+      "key" : "org.argouml.uml.cognitive.critics.WizMEName/method/setInstructions",
+      "type" : "void",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 17,
+        "endLine" : 60,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 40,
+          "endLine" : 60,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.WizMEName/method/setInstructions"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizMEName"
+    },
+    "makePanel" : {
+      "name" : "makePanel",
+      "key" : "org.argouml.uml.cognitive.critics.WizMEName/method/makePanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 19,
+        "endLine" : 73,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newStep",
+        "key" : "newStep",
+        "type" : "int",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 33,
+          "endLine" : 73,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.WizMEName/method/makePanel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizMEName"
+    },
+    "setMustEdit" : {
+      "name" : "setMustEdit",
+      "key" : "org.argouml.uml.cognitive.critics.WizMEName/method/setMustEdit",
+      "type" : "void",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 17,
+        "endLine" : 66,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "b",
+        "key" : "b",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 66,
+          "startColumn" : 37,
+          "endLine" : 66,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.WizMEName/method/setMustEdit"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizMEName"
+    },
+    "doAction" : {
+      "name" : "doAction",
+      "key" : "org.argouml.uml.cognitive.critics.WizMEName/method/doAction",
+      "type" : "void",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 17,
+        "endLine" : 112,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "oldStep",
+        "key" : "oldStep",
+        "type" : "int",
+        "position" : {
+          "startLine" : 112,
+          "startColumn" : 30,
+          "endLine" : 112,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.WizMEName/method/doAction"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizMEName"
+    },
+    "getInstructions" : {
+      "name" : "getInstructions",
+      "key" : "org.argouml.uml.cognitive.critics.WizMEName/method/getInstructions",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 134,
+        "startColumn" : 22,
+        "endLine" : 134,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizMEName"
+    },
+    "setSuggestion" : {
+      "name" : "setSuggestion",
+      "key" : "org.argouml.uml.cognitive.critics.WizMEName/method/setSuggestion",
+      "type" : "void",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 17,
+        "endLine" : 88,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 88,
+          "startColumn" : 38,
+          "endLine" : 88,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.WizMEName/method/setSuggestion"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.WizMEName"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "UMLWizard" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

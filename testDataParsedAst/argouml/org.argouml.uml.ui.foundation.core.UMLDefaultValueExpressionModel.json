@@ -1,0 +1,84 @@
+{
+  "name" : "UMLDefaultValueExpressionModel",
+  "key" : "org.argouml.uml.ui.foundation.core.UMLDefaultValueExpressionModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 145,
+    "startColumn" : 1,
+    "endLine" : 145,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "getExpression" : {
+      "name" : "getExpression",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLDefaultValueExpressionModel/method/getExpression",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 161,
+        "startColumn" : 19,
+        "endLine" : 161,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLDefaultValueExpressionModel"
+    },
+    "newExpression" : {
+      "name" : "newExpression",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLDefaultValueExpressionModel/method/newExpression",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 185,
+        "startColumn" : 19,
+        "endLine" : 185,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLDefaultValueExpressionModel"
+    },
+    "setExpression" : {
+      "name" : "setExpression",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLDefaultValueExpressionModel/method/setExpression",
+      "type" : "void",
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 17,
+        "endLine" : 172,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expression",
+        "key" : "expression",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 172,
+          "startColumn" : 38,
+          "endLine" : 172,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.UMLDefaultValueExpressionModel/method/setExpression"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLDefaultValueExpressionModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLExpressionModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

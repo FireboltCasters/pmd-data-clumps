@@ -1,0 +1,84 @@
+{
+  "name" : "ActionAddConcurrentRegion",
+  "key" : "org.argouml.uml.diagram.ui.ActionAddConcurrentRegion",
+  "type" : "class",
+  "position" : {
+    "startLine" : 60,
+    "startColumn" : 8,
+    "endLine" : 60,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 33,
+        "endLine" : 66,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionAddConcurrentRegion/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddConcurrentRegion"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.diagram.ui.ActionAddConcurrentRegion/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 17,
+        "endLine" : 96,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 45,
+          "endLine" : 96,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionAddConcurrentRegion/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddConcurrentRegion"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.uml.diagram.ui.ActionAddConcurrentRegion/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 20,
+        "endLine" : 87,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddConcurrentRegion"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

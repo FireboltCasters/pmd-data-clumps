@@ -1,0 +1,22 @@
+{
+  "name" : "PropPanelUMLUseCaseDiagram",
+  "key" : "org.argouml.uml.diagram.use_case.ui.PropPanelUMLUseCaseDiagram",
+  "type" : "class",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 1,
+    "endLine" : 34,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.diagram.ui.PropPanelDiagram" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

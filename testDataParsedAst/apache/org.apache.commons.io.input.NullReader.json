@@ -1,0 +1,409 @@
+{
+  "name" : "NullReader",
+  "key" : "org.apache.commons.io.input.NullReader",
+  "type" : "class",
+  "position" : {
+    "startLine" : 63,
+    "startColumn" : 8,
+    "endLine" : 63,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "readlimit" : {
+      "name" : "readlimit",
+      "key" : "readlimit",
+      "type" : "long",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 18,
+        "endLine" : 68,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.NullReader/memberField/readlimit",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "size" : {
+      "name" : "size",
+      "key" : "size",
+      "type" : "long",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 18,
+        "endLine" : 65,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.NullReader/memberField/size",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "markSupported" : {
+      "name" : "markSupported",
+      "key" : "markSupported",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 21,
+        "endLine" : 71,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.NullReader/memberField/markSupported",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "position" : {
+      "name" : "position",
+      "key" : "position",
+      "type" : "long",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 18,
+        "endLine" : 66,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.NullReader/memberField/position",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "throwEofException" : {
+      "name" : "throwEofException",
+      "key" : "throwEofException",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 21,
+        "endLine" : 70,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.NullReader/memberField/throwEofException",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "eof" : {
+      "name" : "eof",
+      "key" : "eof",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 21,
+        "endLine" : 69,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.NullReader/memberField/eof",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "mark" : {
+      "name" : "mark",
+      "key" : "mark",
+      "type" : "long",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 18,
+        "endLine" : 67,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.NullReader/memberField/mark",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    }
+  },
+  "methods" : {
+    "getSize" : {
+      "name" : "getSize",
+      "key" : "org.apache.commons.io.input.NullReader/method/getSize",
+      "type" : "long",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 17,
+        "endLine" : 114,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "getPosition" : {
+      "name" : "getPosition",
+      "key" : "org.apache.commons.io.input.NullReader/method/getPosition",
+      "type" : "long",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 17,
+        "endLine" : 105,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "read" : {
+      "name" : "read",
+      "key" : "org.apache.commons.io.input.NullReader/method/read",
+      "type" : "int",
+      "position" : {
+        "startLine" : 203,
+        "startColumn" : 16,
+        "endLine" : 203,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "chars",
+        "key" : "chars",
+        "type" : "char[]",
+        "position" : {
+          "startLine" : 203,
+          "startColumn" : 28,
+          "endLine" : 203,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullReader/method/read"
+      }, {
+        "name" : "offset",
+        "key" : "offset",
+        "type" : "int",
+        "position" : {
+          "startLine" : 203,
+          "startColumn" : 39,
+          "endLine" : 203,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullReader/method/read"
+      }, {
+        "name" : "length",
+        "key" : "length",
+        "type" : "int",
+        "position" : {
+          "startLine" : 203,
+          "startColumn" : 51,
+          "endLine" : 203,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullReader/method/read"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "markSupported" : {
+      "name" : "markSupported",
+      "key" : "org.apache.commons.io.input.NullReader/method/markSupported",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 20,
+        "endLine" : 150,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "reset" : {
+      "name" : "reset",
+      "key" : "org.apache.commons.io.input.NullReader/method/reset",
+      "type" : "void",
+      "position" : {
+        "startLine" : 228,
+        "startColumn" : 30,
+        "endLine" : 228,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "skip" : {
+      "name" : "skip",
+      "key" : "org.apache.commons.io.input.NullReader/method/skip",
+      "type" : "long",
+      "position" : {
+        "startLine" : 255,
+        "startColumn" : 17,
+        "endLine" : 255,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "numberOfChars",
+        "key" : "numberOfChars",
+        "type" : "long",
+        "position" : {
+          "startLine" : 255,
+          "startColumn" : 27,
+          "endLine" : 255,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullReader/method/skip"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.io.input.NullReader/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 17,
+        "endLine" : 124,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "mark" : {
+      "name" : "mark",
+      "key" : "org.apache.commons.io.input.NullReader/method/mark",
+      "type" : "void",
+      "position" : {
+        "startLine" : 137,
+        "startColumn" : 30,
+        "endLine" : 137,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "readlimit",
+        "key" : "readlimit",
+        "type" : "int",
+        "position" : {
+          "startLine" : 137,
+          "startColumn" : 39,
+          "endLine" : 137,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullReader/method/mark"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "processChars" : {
+      "name" : "processChars",
+      "key" : "org.apache.commons.io.input.NullReader/method/processChars",
+      "type" : "void",
+      "position" : {
+        "startLine" : 293,
+        "startColumn" : 20,
+        "endLine" : 293,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "chars",
+        "key" : "chars",
+        "type" : "char[]",
+        "position" : {
+          "startLine" : 293,
+          "startColumn" : 40,
+          "endLine" : 293,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullReader/method/processChars"
+      }, {
+        "name" : "offset",
+        "key" : "offset",
+        "type" : "int",
+        "position" : {
+          "startLine" : 293,
+          "startColumn" : 51,
+          "endLine" : 293,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullReader/method/processChars"
+      }, {
+        "name" : "length",
+        "key" : "length",
+        "type" : "int",
+        "position" : {
+          "startLine" : 293,
+          "startColumn" : 63,
+          "endLine" : 293,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullReader/method/processChars"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "doEndOfFile" : {
+      "name" : "doEndOfFile",
+      "key" : "org.apache.commons.io.input.NullReader/method/doEndOfFile",
+      "type" : "int",
+      "position" : {
+        "startLine" : 305,
+        "startColumn" : 17,
+        "endLine" : 305,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    },
+    "processChar" : {
+      "name" : "processChar",
+      "key" : "org.apache.commons.io.input.NullReader/method/processChar",
+      "type" : "int",
+      "position" : {
+        "startLine" : 278,
+        "startColumn" : 19,
+        "endLine" : 278,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReader"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.io.Reader" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

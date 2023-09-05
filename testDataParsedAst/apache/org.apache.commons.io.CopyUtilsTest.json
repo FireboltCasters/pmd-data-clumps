@@ -1,0 +1,259 @@
+{
+  "name" : "CopyUtilsTest",
+  "key" : "org.apache.commons.io.CopyUtilsTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "FILE_SIZE" : {
+      "name" : "FILE_SIZE",
+      "key" : "FILE_SIZE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 30,
+        "endLine" : 53,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.CopyUtilsTest/memberField/FILE_SIZE",
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtilsTest"
+    },
+    "inData" : {
+      "name" : "inData",
+      "key" : "inData",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 20,
+        "endLine" : 56,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.CopyUtilsTest/memberField/inData",
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtilsTest"
+    }
+  },
+  "methods" : {
+    "testCopy_readerToOutputStream" : {
+      "name" : "testCopy_readerToOutputStream",
+      "key" : "org.apache.commons.io.CopyUtilsTest/method/testCopy_readerToOutputStream",
+      "type" : "void",
+      "position" : {
+        "startLine" : 136,
+        "startColumn" : 17,
+        "endLine" : 136,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtilsTest"
+    },
+    "testCopy_stringToOutputStream" : {
+      "name" : "testCopy_stringToOutputStream",
+      "key" : "org.apache.commons.io.CopyUtilsTest/method/testCopy_stringToOutputStream",
+      "type" : "void",
+      "position" : {
+        "startLine" : 175,
+        "startColumn" : 17,
+        "endLine" : 175,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtilsTest"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.io.CopyUtilsTest/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 24,
+        "endLine" : 62,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtilsTest"
+    },
+    "testCopy_stringToWriter" : {
+      "name" : "testCopy_stringToWriter",
+      "key" : "org.apache.commons.io.CopyUtilsTest/method/testCopy_stringToWriter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 193,
+        "startColumn" : 17,
+        "endLine" : 193,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtilsTest"
+    },
+    "testCopy_byteArrayToOutputStream" : {
+      "name" : "testCopy_byteArrayToOutputStream",
+      "key" : "org.apache.commons.io.CopyUtilsTest/method/testCopy_byteArrayToOutputStream",
+      "type" : "void",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 17,
+        "endLine" : 84,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtilsTest"
+    },
+    "testCopy_inputStreamToOutputStream" : {
+      "name" : "testCopy_inputStreamToOutputStream",
+      "key" : "org.apache.commons.io.CopyUtilsTest/method/testCopy_inputStreamToOutputStream",
+      "type" : "void",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 17,
+        "endLine" : 106,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtilsTest"
+    },
+    "testCopy_readerToWriter" : {
+      "name" : "testCopy_readerToWriter",
+      "key" : "org.apache.commons.io.CopyUtilsTest/method/testCopy_readerToWriter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 156,
+        "startColumn" : 17,
+        "endLine" : 156,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtilsTest"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.io.CopyUtilsTest/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 17,
+        "endLine" : 74,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtilsTest"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.io.CopyUtilsTest/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 24,
+        "endLine" : 58,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 38,
+          "endLine" : 58,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.CopyUtilsTest/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtilsTest"
+    },
+    "testCopy_byteArrayToWriter" : {
+      "name" : "testCopy_byteArrayToWriter",
+      "key" : "org.apache.commons.io.CopyUtilsTest/method/testCopy_byteArrayToWriter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 17,
+        "endLine" : 94,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtilsTest"
+    },
+    "testCopy_inputStreamToWriter" : {
+      "name" : "testCopy_inputStreamToWriter",
+      "key" : "org.apache.commons.io.CopyUtilsTest/method/testCopy_inputStreamToWriter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 17,
+        "endLine" : 120,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtilsTest"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.io.CopyUtilsTest/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 17,
+        "endLine" : 77,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtilsTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.io.testtools.FileBasedTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

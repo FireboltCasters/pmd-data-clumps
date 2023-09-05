@@ -1,0 +1,81 @@
+{
+  "name" : "ProtocolCommandListener",
+  "key" : "org.apache.commons.net.ProtocolCommandListener",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "protocolCommandSent" : {
+      "name" : "protocolCommandSent",
+      "key" : "org.apache.commons.net.ProtocolCommandListener/method/protocolCommandSent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 17,
+        "endLine" : 47,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ProtocolCommandEvent",
+        "position" : {
+          "startLine" : 47,
+          "startColumn" : 58,
+          "endLine" : 47,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ProtocolCommandListener/method/protocolCommandSent"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ProtocolCommandListener"
+    },
+    "protocolReplyReceived" : {
+      "name" : "protocolReplyReceived",
+      "key" : "org.apache.commons.net.ProtocolCommandListener/method/protocolReplyReceived",
+      "type" : "void",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 17,
+        "endLine" : 55,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ProtocolCommandEvent",
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 60,
+          "endLine" : 55,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ProtocolCommandListener/method/protocolReplyReceived"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ProtocolCommandListener"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.util.EventListener" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

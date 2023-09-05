@@ -1,0 +1,97 @@
+{
+  "name" : "ActionModifierRoot",
+  "key" : "org.argouml.uml.diagram.ui.ActionModifierRoot",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 1,
+    "endLine" : 31,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 31,
+        "endLine" : 35,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionModifierRoot/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionModifierRoot"
+    }
+  },
+  "methods" : {
+    "valueOfTarget" : {
+      "name" : "valueOfTarget",
+      "key" : "org.argouml.uml.diagram.ui.ActionModifierRoot/method/valueOfTarget",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 13,
+        "endLine" : 57,
+        "endColumn" : 26
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 57,
+          "startColumn" : 34,
+          "endLine" : 57,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionModifierRoot/method/valueOfTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionModifierRoot"
+    },
+    "toggleValueOfTarget" : {
+      "name" : "toggleValueOfTarget",
+      "key" : "org.argouml.uml.diagram.ui.ActionModifierRoot/method/toggleValueOfTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 10,
+        "endLine" : 50,
+        "endColumn" : 29
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 37,
+          "endLine" : 50,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionModifierRoot/method/toggleValueOfTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionModifierRoot"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbstractActionCheckBoxMenuItem" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

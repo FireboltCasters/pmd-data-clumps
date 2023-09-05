@@ -1,0 +1,295 @@
+{
+  "name" : "FTPTimestampParserImpl",
+  "key" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "defaultDateFormat" : {
+      "name" : "defaultDateFormat",
+      "key" : "defaultDateFormat",
+      "type" : "java.text.SimpleDateFormat",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 27,
+        "endLine" : 42,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/memberField/defaultDateFormat",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl"
+    },
+    "recentDateFormat" : {
+      "name" : "recentDateFormat",
+      "key" : "recentDateFormat",
+      "type" : "java.text.SimpleDateFormat",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 27,
+        "endLine" : 43,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/memberField/recentDateFormat",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl"
+    }
+  },
+  "methods" : {
+    "getDefaultDateFormatString" : {
+      "name" : "getDefaultDateFormatString",
+      "key" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/getDefaultDateFormatString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 16,
+        "endLine" : 118,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl"
+    },
+    "getRecentDateFormatString" : {
+      "name" : "getRecentDateFormatString",
+      "key" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/getRecentDateFormatString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 16,
+        "endLine" : 139,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl"
+    },
+    "getDefaultDateFormat" : {
+      "name" : "getDefaultDateFormat",
+      "key" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/getDefaultDateFormat",
+      "type" : "java.text.SimpleDateFormat",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 26,
+        "endLine" : 112,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl"
+    },
+    "setRecentDateFormat" : {
+      "name" : "setRecentDateFormat",
+      "key" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/setRecentDateFormat",
+      "type" : "void",
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 15,
+        "endLine" : 145,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "format",
+        "key" : "format",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 42,
+          "endLine" : 145,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/setRecentDateFormat"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl"
+    },
+    "parseTimestamp" : {
+      "name" : "parseTimestamp",
+      "key" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/parseTimestamp",
+      "type" : "java.util.Calendar",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 18,
+        "endLine" : 69,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "timestampStr",
+        "key" : "timestampStr",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 40,
+          "endLine" : 69,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/parseTimestamp"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl"
+    },
+    "setDefaultDateFormat" : {
+      "name" : "setDefaultDateFormat",
+      "key" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/setDefaultDateFormat",
+      "type" : "void",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 15,
+        "endLine" : 124,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "format",
+        "key" : "format",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 124,
+          "startColumn" : 43,
+          "endLine" : 124,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/setDefaultDateFormat"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl"
+    },
+    "getRecentDateFormat" : {
+      "name" : "getRecentDateFormat",
+      "key" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/getRecentDateFormat",
+      "type" : "java.text.SimpleDateFormat",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 26,
+        "endLine" : 133,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl"
+    },
+    "getShortMonths" : {
+      "name" : "getShortMonths",
+      "key" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/getShortMonths",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 156,
+        "startColumn" : 18,
+        "endLine" : 156,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl"
+    },
+    "setServerTimeZone" : {
+      "name" : "setServerTimeZone",
+      "key" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/setServerTimeZone",
+      "type" : "void",
+      "position" : {
+        "startLine" : 173,
+        "startColumn" : 15,
+        "endLine" : 173,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "serverTimeZoneId",
+        "key" : "serverTimeZoneId",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 173,
+          "startColumn" : 40,
+          "endLine" : 173,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/setServerTimeZone"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl"
+    },
+    "configure" : {
+      "name" : "configure",
+      "key" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/configure",
+      "type" : "void",
+      "position" : {
+        "startLine" : 206,
+        "startColumn" : 14,
+        "endLine" : 206,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "config",
+        "key" : "config",
+        "type" : "org.apache.commons.net.ftp.FTPClientConfig",
+        "position" : {
+          "startLine" : 206,
+          "startColumn" : 40,
+          "endLine" : 206,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/configure"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl"
+    },
+    "getServerTimeZone" : {
+      "name" : "getServerTimeZone",
+      "key" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl/method/getServerTimeZone",
+      "type" : "java.util.TimeZone",
+      "position" : {
+        "startLine" : 164,
+        "startColumn" : 18,
+        "endLine" : 164,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParserImpl"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "FTPTimestampParser", "org.apache.commons.net.ftp.Configurable" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

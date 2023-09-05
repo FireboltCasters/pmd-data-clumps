@@ -1,0 +1,78 @@
+{
+  "name" : "OldModelMemberFilePersister",
+  "key" : "org.argouml.persistence.OldModelMemberFilePersister",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 1,
+    "endLine" : 40,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "save" : {
+      "name" : "save",
+      "key" : "org.argouml.persistence.OldModelMemberFilePersister/method/save",
+      "type" : "void",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 17,
+        "endLine" : 51,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "member",
+        "key" : "member",
+        "type" : "org.argouml.kernel.ProjectMember",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 36,
+          "endLine" : 51,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.OldModelMemberFilePersister/method/save"
+      }, {
+        "name" : "w",
+        "key" : "w",
+        "type" : "java.io.Writer",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 51,
+          "endLine" : 51,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.OldModelMemberFilePersister/method/save"
+      }, {
+        "name" : "xmlFragment",
+        "key" : "xmlFragment",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 62,
+          "endLine" : 51,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.OldModelMemberFilePersister/method/save"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.OldModelMemberFilePersister"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "XmiExtensionParser" ],
+  "extends_" : [ "ModelMemberFilePersister" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

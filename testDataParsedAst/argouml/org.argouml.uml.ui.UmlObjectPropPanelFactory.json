@@ -1,0 +1,110 @@
+{
+  "name" : "UmlObjectPropPanelFactory",
+  "key" : "org.argouml.uml.ui.UmlObjectPropPanelFactory",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 1,
+    "endLine" : 47,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "getExpressionPropPanel" : {
+      "name" : "getExpressionPropPanel",
+      "key" : "org.argouml.uml.ui.UmlObjectPropPanelFactory/method/getExpressionPropPanel",
+      "type" : "PropPanel",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 23,
+        "endLine" : 65,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "object",
+        "key" : "object",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 53,
+          "endLine" : 65,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UmlObjectPropPanelFactory/method/getExpressionPropPanel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UmlObjectPropPanelFactory"
+    },
+    "getMultiplicityPropPanel" : {
+      "name" : "getMultiplicityPropPanel",
+      "key" : "org.argouml.uml.ui.UmlObjectPropPanelFactory/method/getMultiplicityPropPanel",
+      "type" : "PropPanel",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 23,
+        "endLine" : 69,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "object",
+        "key" : "object",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 55,
+          "endLine" : 69,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UmlObjectPropPanelFactory/method/getMultiplicityPropPanel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UmlObjectPropPanelFactory"
+    },
+    "createPropPanel" : {
+      "name" : "createPropPanel",
+      "key" : "org.argouml.uml.ui.UmlObjectPropPanelFactory/method/createPropPanel",
+      "type" : "PropPanel",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 22,
+        "endLine" : 49,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "object",
+        "key" : "object",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 49,
+          "startColumn" : 45,
+          "endLine" : 49,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UmlObjectPropPanelFactory/method/createPropPanel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UmlObjectPropPanelFactory"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "PropPanelFactory" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

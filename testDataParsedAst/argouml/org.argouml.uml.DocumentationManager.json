@@ -1,0 +1,369 @@
+{
+  "name" : "DocumentationManager",
+  "key" : "org.argouml.uml.DocumentationManager",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LINE_SEPARATOR" : {
+      "name" : "LINE_SEPARATOR",
+      "key" : "LINE_SEPARATOR",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 33,
+        "endLine" : 45,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.DocumentationManager/memberField/LINE_SEPARATOR",
+      "classOrInterfaceKey" : "org.argouml.uml.DocumentationManager"
+    }
+  },
+  "methods" : {
+    "setDocs" : {
+      "name" : "setDocs",
+      "key" : "org.argouml.uml.DocumentationManager/method/setDocs",
+      "type" : "void",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 24,
+        "endLine" : 122,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 122,
+          "startColumn" : 39,
+          "endLine" : 122,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/setDocs"
+      }, {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 122,
+          "startColumn" : 49,
+          "endLine" : 122,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/setDocs"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.DocumentationManager"
+    },
+    "appendComment" : {
+      "name" : "appendComment",
+      "key" : "org.argouml.uml.DocumentationManager/method/appendComment",
+      "type" : "int",
+      "position" : {
+        "startLine" : 269,
+        "startColumn" : 24,
+        "endLine" : 269,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "sb",
+        "key" : "sb",
+        "type" : "java.lang.StringBuffer",
+        "position" : {
+          "startLine" : 269,
+          "startColumn" : 51,
+          "endLine" : 269,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/appendComment"
+      }, {
+        "name" : "prefix",
+        "key" : "prefix",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 269,
+          "startColumn" : 62,
+          "endLine" : 269,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/appendComment"
+      }, {
+        "name" : "comment",
+        "key" : "comment",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 270,
+          "startColumn" : 18,
+          "endLine" : 270,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/appendComment"
+      }, {
+        "name" : "nlprefix",
+        "key" : "nlprefix",
+        "type" : "int",
+        "position" : {
+          "startLine" : 270,
+          "startColumn" : 31,
+          "endLine" : 270,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/appendComment"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.DocumentationManager"
+    },
+    "hasDocs" : {
+      "name" : "hasDocs",
+      "key" : "org.argouml.uml.DocumentationManager/method/hasDocs",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 27,
+        "endLine" : 145,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 42,
+          "endLine" : 145,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/hasDocs"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.DocumentationManager"
+    },
+    "getComments" : {
+      "name" : "getComments",
+      "key" : "org.argouml.uml.DocumentationManager/method/getComments",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 225,
+        "startColumn" : 26,
+        "endLine" : 225,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 225,
+          "startColumn" : 45,
+          "endLine" : 225,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/getComments"
+      }, {
+        "name" : "header",
+        "key" : "header",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 226,
+          "startColumn" : 17,
+          "endLine" : 226,
+          "endColumn" : 23
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/getComments"
+      }, {
+        "name" : "prefix",
+        "key" : "prefix",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 226,
+          "startColumn" : 32,
+          "endLine" : 226,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/getComments"
+      }, {
+        "name" : "footer",
+        "key" : "footer",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 227,
+          "startColumn" : 17,
+          "endLine" : 227,
+          "endColumn" : 23
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/getComments"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.DocumentationManager"
+    },
+    "defaultFor" : {
+      "name" : "defaultFor",
+      "key" : "org.argouml.uml.DocumentationManager/method/defaultFor",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 26,
+        "endLine" : 172,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 172,
+          "startColumn" : 44,
+          "endLine" : 172,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/defaultFor"
+      }, {
+        "name" : "indent",
+        "key" : "indent",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 172,
+          "startColumn" : 54,
+          "endLine" : 172,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/defaultFor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.DocumentationManager"
+    },
+    "getDocs" : {
+      "name" : "getDocs",
+      "key" : "org.argouml.uml.DocumentationManager/method/getDocs",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 26,
+        "endLine" : 68,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 41,
+          "endLine" : 68,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/getDocs"
+      }, {
+        "name" : "indent",
+        "key" : "indent",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 51,
+          "endLine" : 68,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/getDocs"
+      }, {
+        "name" : "header",
+        "key" : "header",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 66,
+          "endLine" : 68,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/getDocs"
+      }, {
+        "name" : "prefix",
+        "key" : "prefix",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 13,
+          "endLine" : 69,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/getDocs"
+      }, {
+        "name" : "footer",
+        "key" : "footer",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 28,
+          "endLine" : 69,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.DocumentationManager/method/getDocs"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.DocumentationManager"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

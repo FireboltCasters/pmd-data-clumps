@@ -1,0 +1,128 @@
+{
+  "name" : "HelpBox",
+  "key" : "org.argouml.ui.HelpBox",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 135,
+        "startColumn" : 31,
+        "endLine" : 135,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HelpBox/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.HelpBox"
+    },
+    "panes" : {
+      "name" : "panes",
+      "key" : "panes",
+      "type" : "javax.swing.JEditorPane[]",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 27,
+        "endLine" : 59,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HelpBox/memberField/panes",
+      "classOrInterfaceKey" : "org.argouml.ui.HelpBox"
+    },
+    "pages" : {
+      "name" : "pages",
+      "key" : "pages",
+      "type" : "java.lang.String[][]",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 20,
+        "endLine" : 64,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HelpBox/memberField/pages",
+      "classOrInterfaceKey" : "org.argouml.ui.HelpBox"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 33,
+        "endLine" : 49,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HelpBox/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.ui.HelpBox"
+    },
+    "tabs" : {
+      "name" : "tabs",
+      "key" : "tabs",
+      "type" : "javax.swing.JTabbedPane",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 25,
+        "endLine" : 54,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.HelpBox/memberField/tabs",
+      "classOrInterfaceKey" : "org.argouml.ui.HelpBox"
+    }
+  },
+  "methods" : {
+    "hyperlinkUpdate" : {
+      "name" : "hyperlinkUpdate",
+      "key" : "org.argouml.ui.HelpBox/method/hyperlinkUpdate",
+      "type" : "void",
+      "position" : {
+        "startLine" : 121,
+        "startColumn" : 17,
+        "endLine" : 121,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "javax.swing.event.HyperlinkEvent",
+        "position" : {
+          "startLine" : 121,
+          "startColumn" : 48,
+          "endLine" : 121,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.HelpBox/method/hyperlinkUpdate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.HelpBox"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "javax.swing.event.HyperlinkListener" ],
+  "extends_" : [ "javax.swing.JFrame" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

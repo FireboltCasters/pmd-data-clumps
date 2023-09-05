@@ -1,0 +1,130 @@
+{
+  "name" : "InvalidTelnetOptionExceptionTest",
+  "key" : "org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 25,
+    "startColumn" : 8,
+    "endLine" : 25,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "msg1" : {
+      "name" : "msg1",
+      "key" : "msg1",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 20,
+        "endLine" : 28,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest/memberField/msg1",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest"
+    },
+    "code1" : {
+      "name" : "code1",
+      "key" : "code1",
+      "type" : "int",
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 17,
+        "endLine" : 29,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest/memberField/code1",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest"
+    },
+    "exc1" : {
+      "name" : "exc1",
+      "key" : "exc1",
+      "type" : "InvalidTelnetOptionException",
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 42,
+        "endLine" : 27,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest/memberField/exc1",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest"
+    }
+  },
+  "methods" : {
+    "testConstructors" : {
+      "name" : "testConstructors",
+      "key" : "org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest/method/testConstructors",
+      "type" : "void",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 17,
+        "endLine" : 52,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 20,
+        "endLine" : 42,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 24,
+        "endLine" : 34,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 34,
+          "startColumn" : 36,
+          "endLine" : 34,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

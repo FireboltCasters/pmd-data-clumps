@@ -1,0 +1,84 @@
+{
+  "name" : "ActionNewModelElementConstraint",
+  "key" : "org.argouml.uml.ui.foundation.core.ActionNewModelElementConstraint",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "SINGLETON" : {
+      "name" : "SINGLETON",
+      "key" : "SINGLETON",
+      "type" : "org.argouml.uml.ui.foundation.core.ActionNewModelElementConstraint",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 58,
+        "endLine" : 40,
+        "endColumn" : 67
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.ActionNewModelElementConstraint/memberField/SINGLETON",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionNewModelElementConstraint"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionNewModelElementConstraint/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 17,
+        "endLine" : 53,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 45,
+          "endLine" : 53,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.ActionNewModelElementConstraint/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionNewModelElementConstraint"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionNewModelElementConstraint/method/getInstance",
+      "type" : "org.argouml.uml.ui.foundation.core.ActionNewModelElementConstraint",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 51,
+        "endLine" : 61,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionNewModelElementConstraint"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionNewModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

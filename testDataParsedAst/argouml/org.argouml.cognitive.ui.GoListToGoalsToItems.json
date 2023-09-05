@@ -1,0 +1,297 @@
+{
+  "name" : "GoListToGoalsToItems",
+  "key" : "org.argouml.cognitive.ui.GoListToGoalsToItems",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getChildCount" : {
+      "name" : "getChildCount",
+      "key" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/getChildCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 16,
+        "endLine" : 79,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parent",
+        "key" : "parent",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 37,
+          "endLine" : 79,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/getChildCount"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems"
+    },
+    "getGoalList" : {
+      "name" : "getGoalList",
+      "key" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/getGoalList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 170,
+        "startColumn" : 23,
+        "endLine" : 170,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems"
+    },
+    "getIndexOfChild" : {
+      "name" : "getIndexOfChild",
+      "key" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/getIndexOfChild",
+      "type" : "int",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 16,
+        "endLine" : 104,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parent",
+        "key" : "parent",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 39,
+          "endLine" : 104,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/getIndexOfChild"
+      }, {
+        "name" : "child",
+        "key" : "child",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 54,
+          "endLine" : 104,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/getIndexOfChild"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems"
+    },
+    "valueForPathChanged" : {
+      "name" : "valueForPathChanged",
+      "key" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/valueForPathChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 17,
+        "endLine" : 144,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "path",
+        "key" : "path",
+        "type" : "javax.swing.tree.TreePath",
+        "position" : {
+          "startLine" : 144,
+          "startColumn" : 46,
+          "endLine" : 144,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/valueForPathChanged"
+      }, {
+        "name" : "newValue",
+        "key" : "newValue",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 144,
+          "startColumn" : 59,
+          "endLine" : 144,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/valueForPathChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems"
+    },
+    "getChild" : {
+      "name" : "getChild",
+      "key" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/getChild",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 19,
+        "endLine" : 53,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parent",
+        "key" : "parent",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 35,
+          "endLine" : 53,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/getChild"
+      }, {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 47,
+          "endLine" : 53,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/getChild"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems"
+    },
+    "getGoals" : {
+      "name" : "getGoals",
+      "key" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/getGoals",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 25,
+        "endLine" : 163,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems"
+    },
+    "addTreeModelListener" : {
+      "name" : "addTreeModelListener",
+      "key" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/addTreeModelListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 17,
+        "endLine" : 149,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "l",
+        "key" : "l",
+        "type" : "javax.swing.event.TreeModelListener",
+        "position" : {
+          "startLine" : 149,
+          "startColumn" : 56,
+          "endLine" : 149,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/addTreeModelListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems"
+    },
+    "isLeaf" : {
+      "name" : "isLeaf",
+      "key" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/isLeaf",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 20,
+        "endLine" : 130,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 34,
+          "endLine" : 130,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/isLeaf"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems"
+    },
+    "removeTreeModelListener" : {
+      "name" : "removeTreeModelListener",
+      "key" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/removeTreeModelListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 17,
+        "endLine" : 154,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "l",
+        "key" : "l",
+        "type" : "javax.swing.event.TreeModelListener",
+        "position" : {
+          "startLine" : 154,
+          "startColumn" : 59,
+          "endLine" : 154,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems/method/removeTreeModelListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.GoListToGoalsToItems"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbstractGoList" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

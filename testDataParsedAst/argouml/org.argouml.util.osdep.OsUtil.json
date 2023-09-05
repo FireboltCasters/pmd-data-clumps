@@ -1,0 +1,87 @@
+{
+  "name" : "OsUtil",
+  "key" : "org.argouml.util.osdep.OsUtil",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "isSunJdk" : {
+      "name" : "isSunJdk",
+      "key" : "org.argouml.util.osdep.OsUtil/method/isSunJdk",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 27,
+        "endLine" : 75,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.osdep.OsUtil"
+    },
+    "isWin32" : {
+      "name" : "isWin32",
+      "key" : "org.argouml.util.osdep.OsUtil/method/isWin32",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 27,
+        "endLine" : 47,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.osdep.OsUtil"
+    },
+    "isMac" : {
+      "name" : "isMac",
+      "key" : "org.argouml.util.osdep.OsUtil/method/isMac",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 27,
+        "endLine" : 56,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.osdep.OsUtil"
+    },
+    "isMacOSX" : {
+      "name" : "isMacOSX",
+      "key" : "org.argouml.util.osdep.OsUtil/method/isMacOSX",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 27,
+        "endLine" : 65,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.osdep.OsUtil"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,78 @@
+{
+  "name" : "SqlNullUncheckedMockResultSet",
+  "key" : "org.apache.commons.dbutils.wrappers.SqlNullUncheckedMockResultSet",
+  "type" : "class",
+  "position" : {
+    "startLine" : 813,
+    "startColumn" : 1,
+    "endLine" : 813,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "invoke" : {
+      "name" : "invoke",
+      "key" : "org.apache.commons.dbutils.wrappers.SqlNullUncheckedMockResultSet/method/invoke",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 819,
+        "startColumn" : 19,
+        "endLine" : 819,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "proxy",
+        "key" : "proxy",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 819,
+          "startColumn" : 33,
+          "endLine" : 819,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullUncheckedMockResultSet/method/invoke"
+      }, {
+        "name" : "method",
+        "key" : "method",
+        "type" : "java.lang.reflect.Method",
+        "position" : {
+          "startLine" : 819,
+          "startColumn" : 47,
+          "endLine" : 819,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullUncheckedMockResultSet/method/invoke"
+      }, {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.Object[]",
+        "position" : {
+          "startLine" : 819,
+          "startColumn" : 64,
+          "endLine" : 819,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.wrappers.SqlNullUncheckedMockResultSet/method/invoke"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.wrappers.SqlNullUncheckedMockResultSet"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.lang.reflect.InvocationHandler" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

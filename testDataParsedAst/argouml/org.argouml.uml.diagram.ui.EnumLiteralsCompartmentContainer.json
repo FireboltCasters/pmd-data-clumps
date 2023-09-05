@@ -1,0 +1,84 @@
+{
+  "name" : "EnumLiteralsCompartmentContainer",
+  "key" : "org.argouml.uml.diagram.ui.EnumLiteralsCompartmentContainer",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "isEnumLiteralsVisible" : {
+      "name" : "isEnumLiteralsVisible",
+      "key" : "org.argouml.uml.diagram.ui.EnumLiteralsCompartmentContainer/method/isEnumLiteralsVisible",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 13,
+        "endLine" : 44,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.EnumLiteralsCompartmentContainer"
+    },
+    "setEnumLiteralsVisible" : {
+      "name" : "setEnumLiteralsVisible",
+      "key" : "org.argouml.uml.diagram.ui.EnumLiteralsCompartmentContainer/method/setEnumLiteralsVisible",
+      "type" : "void",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 10,
+        "endLine" : 50,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "visible",
+        "key" : "visible",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 41,
+          "endLine" : 50,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.EnumLiteralsCompartmentContainer/method/setEnumLiteralsVisible"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.EnumLiteralsCompartmentContainer"
+    },
+    "getEnumLiteralsBounds" : {
+      "name" : "getEnumLiteralsBounds",
+      "key" : "org.argouml.uml.diagram.ui.EnumLiteralsCompartmentContainer/method/getEnumLiteralsBounds",
+      "type" : "java.awt.Rectangle",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 15,
+        "endLine" : 55,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.EnumLiteralsCompartmentContainer"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

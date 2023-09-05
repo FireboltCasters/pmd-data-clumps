@@ -1,0 +1,390 @@
+{
+  "name" : "POP3Client",
+  "key" : "org.apache.commons.net.pop3.POP3Client",
+  "type" : "class",
+  "position" : {
+    "startLine" : 49,
+    "startColumn" : 8,
+    "endLine" : 49,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "listMessages" : {
+      "name" : "listMessages",
+      "key" : "org.apache.commons.net.pop3.POP3Client/method/listMessages",
+      "type" : "POP3MessageInfo[]",
+      "position" : {
+        "startLine" : 366,
+        "startColumn" : 30,
+        "endLine" : 366,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3Client"
+    },
+    "deleteMessage" : {
+      "name" : "deleteMessage",
+      "key" : "org.apache.commons.net.pop3.POP3Client/method/deleteMessage",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 269,
+        "startColumn" : 20,
+        "endLine" : 269,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "messageId",
+        "key" : "messageId",
+        "type" : "int",
+        "position" : {
+          "startLine" : 269,
+          "startColumn" : 38,
+          "endLine" : 269,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.pop3.POP3Client/method/deleteMessage"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3Client"
+    },
+    "listUniqueIdentifier" : {
+      "name" : "listUniqueIdentifier",
+      "key" : "org.apache.commons.net.pop3.POP3Client/method/listUniqueIdentifier",
+      "type" : "POP3MessageInfo",
+      "position" : {
+        "startLine" : 409,
+        "startColumn" : 28,
+        "endLine" : 409,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "messageId",
+        "key" : "messageId",
+        "type" : "int",
+        "position" : {
+          "startLine" : 409,
+          "startColumn" : 53,
+          "endLine" : 409,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.pop3.POP3Client/method/listUniqueIdentifier"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3Client"
+    },
+    "login" : {
+      "name" : "login",
+      "key" : "org.apache.commons.net.pop3.POP3Client/method/login",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 177,
+        "startColumn" : 20,
+        "endLine" : 177,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "username",
+        "key" : "username",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 177,
+          "startColumn" : 33,
+          "endLine" : 177,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.pop3.POP3Client/method/login"
+      }, {
+        "name" : "timestamp",
+        "key" : "timestamp",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 177,
+          "startColumn" : 50,
+          "endLine" : 177,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.pop3.POP3Client/method/login"
+      }, {
+        "name" : "secret",
+        "key" : "secret",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 177,
+          "startColumn" : 68,
+          "endLine" : 177,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.pop3.POP3Client/method/login"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3Client"
+    },
+    "listMessage" : {
+      "name" : "listMessage",
+      "key" : "org.apache.commons.net.pop3.POP3Client/method/listMessage",
+      "type" : "POP3MessageInfo",
+      "position" : {
+        "startLine" : 338,
+        "startColumn" : 28,
+        "endLine" : 338,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "messageId",
+        "key" : "messageId",
+        "type" : "int",
+        "position" : {
+          "startLine" : 338,
+          "startColumn" : 44,
+          "endLine" : 338,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.pop3.POP3Client/method/listMessage"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3Client"
+    },
+    "__parseUID" : {
+      "name" : "__parseUID",
+      "key" : "org.apache.commons.net.pop3.POP3Client/method/__parseUID",
+      "type" : "POP3MessageInfo",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 36,
+        "endLine" : 81,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "line",
+        "key" : "line",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 81,
+          "startColumn" : 54,
+          "endLine" : 81,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.pop3.POP3Client/method/__parseUID"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3Client"
+    },
+    "listUniqueIdentifiers" : {
+      "name" : "listUniqueIdentifiers",
+      "key" : "org.apache.commons.net.pop3.POP3Client/method/listUniqueIdentifiers",
+      "type" : "POP3MessageInfo[]",
+      "position" : {
+        "startLine" : 438,
+        "startColumn" : 30,
+        "endLine" : 438,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3Client"
+    },
+    "retrieveMessageTop" : {
+      "name" : "retrieveMessageTop",
+      "key" : "org.apache.commons.net.pop3.POP3Client/method/retrieveMessageTop",
+      "type" : "java.io.Reader",
+      "position" : {
+        "startLine" : 535,
+        "startColumn" : 19,
+        "endLine" : 535,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "messageId",
+        "key" : "messageId",
+        "type" : "int",
+        "position" : {
+          "startLine" : 535,
+          "startColumn" : 42,
+          "endLine" : 535,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.pop3.POP3Client/method/retrieveMessageTop"
+      }, {
+        "name" : "numLines",
+        "key" : "numLines",
+        "type" : "int",
+        "position" : {
+          "startLine" : 535,
+          "startColumn" : 57,
+          "endLine" : 535,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.pop3.POP3Client/method/retrieveMessageTop"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3Client"
+    },
+    "noop" : {
+      "name" : "noop",
+      "key" : "org.apache.commons.net.pop3.POP3Client/method/noop",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 246,
+        "startColumn" : 20,
+        "endLine" : 246,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3Client"
+    },
+    "logout" : {
+      "name" : "logout",
+      "key" : "org.apache.commons.net.pop3.POP3Client/method/logout",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 225,
+        "startColumn" : 20,
+        "endLine" : 225,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3Client"
+    },
+    "__parseStatus" : {
+      "name" : "__parseStatus",
+      "key" : "org.apache.commons.net.pop3.POP3Client/method/__parseStatus",
+      "type" : "POP3MessageInfo",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 36,
+        "endLine" : 52,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "line",
+        "key" : "line",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 57,
+          "endLine" : 52,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.pop3.POP3Client/method/__parseStatus"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3Client"
+    },
+    "retrieveMessage" : {
+      "name" : "retrieveMessage",
+      "key" : "org.apache.commons.net.pop3.POP3Client/method/retrieveMessage",
+      "type" : "java.io.Reader",
+      "position" : {
+        "startLine" : 492,
+        "startColumn" : 19,
+        "endLine" : 492,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "messageId",
+        "key" : "messageId",
+        "type" : "int",
+        "position" : {
+          "startLine" : 492,
+          "startColumn" : 39,
+          "endLine" : 492,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.pop3.POP3Client/method/retrieveMessage"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3Client"
+    },
+    "reset" : {
+      "name" : "reset",
+      "key" : "org.apache.commons.net.pop3.POP3Client/method/reset",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 289,
+        "startColumn" : 20,
+        "endLine" : 289,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3Client"
+    },
+    "status" : {
+      "name" : "status",
+      "key" : "org.apache.commons.net.pop3.POP3Client/method/status",
+      "type" : "POP3MessageInfo",
+      "position" : {
+        "startLine" : 311,
+        "startColumn" : 28,
+        "endLine" : 311,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3Client"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "POP3" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

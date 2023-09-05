@@ -1,0 +1,52 @@
+{
+  "name" : "ActionNavigateOppositeLinkEnd",
+  "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionNavigateOppositeLinkEnd",
+  "type" : "class",
+  "position" : {
+    "startLine" : 69,
+    "startColumn" : 1,
+    "endLine" : 69,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "navigateTo" : {
+      "name" : "navigateTo",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionNavigateOppositeLinkEnd/method/navigateTo",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 22,
+        "endLine" : 83,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "source",
+        "key" : "source",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 40,
+          "endLine" : 83,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionNavigateOppositeLinkEnd/method/navigateTo"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionNavigateOppositeLinkEnd"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionNavigate" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

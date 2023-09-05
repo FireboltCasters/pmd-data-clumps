@@ -1,0 +1,123 @@
+{
+  "name" : "SavePNGAction2",
+  "key" : "org.argouml.uml.ui.SavePNGAction2",
+  "type" : "class",
+  "position" : {
+    "startLine" : 470,
+    "startColumn" : 1,
+    "endLine" : 470,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 472,
+        "startColumn" : 33,
+        "endLine" : 472,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.SavePNGAction2/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.SavePNGAction2"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.SavePNGAction2/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 478,
+        "startColumn" : 17,
+        "endLine" : 478,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 478,
+          "startColumn" : 45,
+          "endLine" : 478,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.SavePNGAction2/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.SavePNGAction2"
+    },
+    "saveGraphics" : {
+      "name" : "saveGraphics",
+      "key" : "org.argouml.uml.ui.SavePNGAction2/method/saveGraphics",
+      "type" : "void",
+      "position" : {
+        "startLine" : 504,
+        "startColumn" : 20,
+        "endLine" : 504,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.io.OutputStream",
+        "position" : {
+          "startLine" : 504,
+          "startColumn" : 46,
+          "endLine" : 504,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.SavePNGAction2/method/saveGraphics"
+      }, {
+        "name" : "ce",
+        "key" : "ce",
+        "type" : "org.tigris.gef.base.Editor",
+        "position" : {
+          "startLine" : 504,
+          "startColumn" : 56,
+          "endLine" : 504,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.SavePNGAction2/method/saveGraphics"
+      }, {
+        "name" : "drawingArea",
+        "key" : "drawingArea",
+        "type" : "java.awt.Rectangle",
+        "position" : {
+          "startLine" : 505,
+          "startColumn" : 23,
+          "endLine" : 505,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.SavePNGAction2/method/saveGraphics"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.SavePNGAction2"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.base.SavePNGAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

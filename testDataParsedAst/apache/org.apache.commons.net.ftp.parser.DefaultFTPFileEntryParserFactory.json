@@ -1,0 +1,164 @@
+{
+  "name" : "DefaultFTPFileEntryParserFactory",
+  "key" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "config" : {
+      "name" : "config",
+      "key" : "config",
+      "type" : "org.apache.commons.net.ftp.FTPClientConfig",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 26,
+        "endLine" : 36,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory/memberField/config",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory"
+    }
+  },
+  "methods" : {
+    "createNTFTPEntryParser" : {
+      "name" : "createNTFTPEntryParser",
+      "key" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory/method/createNTFTPEntryParser",
+      "type" : "org.apache.commons.net.ftp.FTPFileEntryParser",
+      "position" : {
+        "startLine" : 177,
+        "startColumn" : 31,
+        "endLine" : 177,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory"
+    },
+    "createFileEntryParser" : {
+      "name" : "createFileEntryParser",
+      "key" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory/method/createFileEntryParser",
+      "type" : "org.apache.commons.net.ftp.FTPFileEntryParser",
+      "position" : {
+        "startLine" : 158,
+        "startColumn" : 28,
+        "endLine" : 158,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "config",
+        "key" : "config",
+        "type" : "org.apache.commons.net.ftp.FTPClientConfig",
+        "position" : {
+          "startLine" : 158,
+          "startColumn" : 66,
+          "endLine" : 158,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory/method/createFileEntryParser"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory"
+    },
+    "createVMSVersioningFTPEntryParser" : {
+      "name" : "createVMSVersioningFTPEntryParser",
+      "key" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory/method/createVMSVersioningFTPEntryParser",
+      "type" : "org.apache.commons.net.ftp.FTPFileEntryParser",
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 31,
+        "endLine" : 172,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory"
+    },
+    "createUnixFTPEntryParser" : {
+      "name" : "createUnixFTPEntryParser",
+      "key" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory/method/createUnixFTPEntryParser",
+      "type" : "org.apache.commons.net.ftp.FTPFileEntryParser",
+      "position" : {
+        "startLine" : 167,
+        "startColumn" : 31,
+        "endLine" : 167,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory"
+    },
+    "createMVSEntryParser" : {
+      "name" : "createMVSEntryParser",
+      "key" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory/method/createMVSEntryParser",
+      "type" : "org.apache.commons.net.ftp.FTPFileEntryParser",
+      "position" : {
+        "startLine" : 212,
+        "startColumn" : 31,
+        "endLine" : 212,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory"
+    },
+    "createOS400FTPEntryParser" : {
+      "name" : "createOS400FTPEntryParser",
+      "key" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory/method/createOS400FTPEntryParser",
+      "type" : "org.apache.commons.net.ftp.FTPFileEntryParser",
+      "position" : {
+        "startLine" : 197,
+        "startColumn" : 31,
+        "endLine" : 197,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory"
+    },
+    "createOS2FTPEntryParser" : {
+      "name" : "createOS2FTPEntryParser",
+      "key" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory/method/createOS2FTPEntryParser",
+      "type" : "org.apache.commons.net.ftp.FTPFileEntryParser",
+      "position" : {
+        "startLine" : 192,
+        "startColumn" : 32,
+        "endLine" : 192,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "FTPFileEntryParserFactory" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

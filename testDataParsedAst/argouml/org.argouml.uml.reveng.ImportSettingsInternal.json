@@ -1,0 +1,103 @@
+{
+  "name" : "ImportSettingsInternal",
+  "key" : "org.argouml.uml.reveng.ImportSettingsInternal",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "isMinimizeFigsSelected" : {
+      "name" : "isMinimizeFigsSelected",
+      "key" : "org.argouml.uml.reveng.ImportSettingsInternal/method/isMinimizeFigsSelected",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 20,
+        "endLine" : 66,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportSettingsInternal"
+    },
+    "isDescendSelected" : {
+      "name" : "isDescendSelected",
+      "key" : "org.argouml.uml.reveng.ImportSettingsInternal/method/isDescendSelected",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 20,
+        "endLine" : 39,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportSettingsInternal"
+    },
+    "isCreateDiagramsSelected" : {
+      "name" : "isCreateDiagramsSelected",
+      "key" : "org.argouml.uml.reveng.ImportSettingsInternal/method/isCreateDiagramsSelected",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 20,
+        "endLine" : 60,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportSettingsInternal"
+    },
+    "isChangedOnlySelected" : {
+      "name" : "isChangedOnlySelected",
+      "key" : "org.argouml.uml.reveng.ImportSettingsInternal/method/isChangedOnlySelected",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 20,
+        "endLine" : 47,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportSettingsInternal"
+    },
+    "isDiagramLayoutSelected" : {
+      "name" : "isDiagramLayoutSelected",
+      "key" : "org.argouml.uml.reveng.ImportSettingsInternal/method/isDiagramLayoutSelected",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 20,
+        "endLine" : 54,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportSettingsInternal"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ImportSettings" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

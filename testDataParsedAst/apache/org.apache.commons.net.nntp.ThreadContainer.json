@@ -1,0 +1,160 @@
+{
+  "name" : "ThreadContainer",
+  "key" : "org.apache.commons.net.nntp.ThreadContainer",
+  "type" : "class",
+  "position" : {
+    "startLine" : 409,
+    "startColumn" : 1,
+    "endLine" : 409,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "threadable" : {
+      "name" : "threadable",
+      "key" : "threadable",
+      "type" : "Threadable",
+      "position" : {
+        "startLine" : 410,
+        "startColumn" : 13,
+        "endLine" : 410,
+        "endColumn" : 23
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.ThreadContainer/memberField/threadable",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.ThreadContainer"
+    },
+    "next" : {
+      "name" : "next",
+      "key" : "next",
+      "type" : "org.apache.commons.net.nntp.ThreadContainer",
+      "position" : {
+        "startLine" : 413,
+        "startColumn" : 18,
+        "endLine" : 413,
+        "endColumn" : 22
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.ThreadContainer/memberField/next",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.ThreadContainer"
+    },
+    "parent" : {
+      "name" : "parent",
+      "key" : "parent",
+      "type" : "org.apache.commons.net.nntp.ThreadContainer",
+      "position" : {
+        "startLine" : 411,
+        "startColumn" : 18,
+        "endLine" : 411,
+        "endColumn" : 24
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.ThreadContainer/memberField/parent",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.ThreadContainer"
+    },
+    "prev" : {
+      "name" : "prev",
+      "key" : "prev",
+      "type" : "org.apache.commons.net.nntp.ThreadContainer",
+      "position" : {
+        "startLine" : 412,
+        "startColumn" : 18,
+        "endLine" : 412,
+        "endColumn" : 22
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.ThreadContainer/memberField/prev",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.ThreadContainer"
+    },
+    "child" : {
+      "name" : "child",
+      "key" : "child",
+      "type" : "org.apache.commons.net.nntp.ThreadContainer",
+      "position" : {
+        "startLine" : 414,
+        "startColumn" : 18,
+        "endLine" : 414,
+        "endColumn" : 23
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.ThreadContainer/memberField/child",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.ThreadContainer"
+    }
+  },
+  "methods" : {
+    "findChild" : {
+      "name" : "findChild",
+      "key" : "org.apache.commons.net.nntp.ThreadContainer/method/findChild",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 421,
+        "startColumn" : 10,
+        "endLine" : 421,
+        "endColumn" : 19
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "target",
+        "type" : "org.apache.commons.net.nntp.ThreadContainer",
+        "position" : {
+          "startLine" : 421,
+          "startColumn" : 36,
+          "endLine" : 421,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.ThreadContainer/method/findChild"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.ThreadContainer"
+    },
+    "flush" : {
+      "name" : "flush",
+      "key" : "org.apache.commons.net.nntp.ThreadContainer/method/flush",
+      "type" : "void",
+      "position" : {
+        "startLine" : 433,
+        "startColumn" : 7,
+        "endLine" : 433,
+        "endColumn" : 12
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.ThreadContainer"
+    },
+    "reverseChildren" : {
+      "name" : "reverseChildren",
+      "key" : "org.apache.commons.net.nntp.ThreadContainer/method/reverseChildren",
+      "type" : "void",
+      "position" : {
+        "startLine" : 462,
+        "startColumn" : 7,
+        "endLine" : 462,
+        "endColumn" : 22
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.ThreadContainer"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

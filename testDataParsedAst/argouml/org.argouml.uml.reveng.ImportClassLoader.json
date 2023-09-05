@@ -1,0 +1,247 @@
+{
+  "name" : "ImportClassLoader",
+  "key" : "org.argouml.uml.reveng.ImportClassLoader",
+  "type" : "class",
+  "position" : {
+    "startLine" : 87,
+    "startColumn" : 14,
+    "endLine" : 87,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "instance" : {
+      "name" : "instance",
+      "key" : "instance",
+      "type" : "org.argouml.uml.reveng.ImportClassLoader",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 38,
+        "endLine" : 94,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ImportClassLoader/memberField/instance",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportClassLoader"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 33,
+        "endLine" : 92,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ImportClassLoader/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportClassLoader"
+    }
+  },
+  "methods" : {
+    "removeFile" : {
+      "name" : "removeFile",
+      "key" : "org.argouml.uml.reveng.ImportClassLoader/method/removeFile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 17,
+        "endLine" : 153,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 153,
+          "startColumn" : 33,
+          "endLine" : 153,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ImportClassLoader/method/removeFile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportClassLoader"
+    },
+    "loadUserPath" : {
+      "name" : "loadUserPath",
+      "key" : "org.argouml.uml.reveng.ImportClassLoader/method/loadUserPath",
+      "type" : "void",
+      "position" : {
+        "startLine" : 247,
+        "startColumn" : 17,
+        "endLine" : 247,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportClassLoader"
+    },
+    "saveUserPath" : {
+      "name" : "saveUserPath",
+      "key" : "org.argouml.uml.reveng.ImportClassLoader/method/saveUserPath",
+      "type" : "void",
+      "position" : {
+        "startLine" : 254,
+        "startColumn" : 17,
+        "endLine" : 254,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportClassLoader"
+    },
+    "setPath" : {
+      "name" : "setPath",
+      "key" : "org.argouml.uml.reveng.ImportClassLoader/method/setPath",
+      "type" : "void",
+      "position" : {
+        "startLine" : 232,
+        "startColumn" : 17,
+        "endLine" : 232,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "paths",
+        "key" : "paths",
+        "type" : "java.lang.Object[]",
+        "position" : {
+          "startLine" : 232,
+          "startColumn" : 34,
+          "endLine" : 232,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ImportClassLoader/method/setPath"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportClassLoader"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.uml.reveng.ImportClassLoader/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 260,
+        "startColumn" : 19,
+        "endLine" : 260,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportClassLoader"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.uml.reveng.ImportClassLoader/method/getInstance",
+      "type" : "org.argouml.uml.reveng.ImportClassLoader",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 37,
+        "endLine" : 133,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "urls",
+        "key" : "urls",
+        "type" : "java.net.URL[]",
+        "position" : {
+          "startLine" : 133,
+          "startColumn" : 55,
+          "endLine" : 133,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ImportClassLoader/method/getInstance"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportClassLoader"
+    },
+    "addFile" : {
+      "name" : "addFile",
+      "key" : "org.argouml.uml.reveng.ImportClassLoader/method/addFile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 17,
+        "endLine" : 143,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 143,
+          "startColumn" : 30,
+          "endLine" : 143,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ImportClassLoader/method/addFile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportClassLoader"
+    },
+    "getURLs" : {
+      "name" : "getURLs",
+      "key" : "org.argouml.uml.reveng.ImportClassLoader/method/getURLs",
+      "type" : "java.net.URL[]",
+      "position" : {
+        "startLine" : 205,
+        "startColumn" : 25,
+        "endLine" : 205,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "path",
+        "key" : "path",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 205,
+          "startColumn" : 40,
+          "endLine" : 205,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ImportClassLoader/method/getURLs"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ImportClassLoader"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.net.URLClassLoader" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

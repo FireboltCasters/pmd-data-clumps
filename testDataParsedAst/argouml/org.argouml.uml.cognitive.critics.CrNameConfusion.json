@@ -1,0 +1,397 @@
+{
+  "name" : "CrNameConfusion",
+  "key" : "org.argouml.uml.cognitive.critics.CrNameConfusion",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 31,
+        "endLine" : 52,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion"
+    }
+  },
+  "methods" : {
+    "initWizard" : {
+      "name" : "initWizard",
+      "key" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/initWizard",
+      "type" : "void",
+      "position" : {
+        "startLine" : 220,
+        "startColumn" : 17,
+        "endLine" : 220,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "w",
+        "key" : "w",
+        "type" : "org.argouml.cognitive.critics.Wizard",
+        "position" : {
+          "startLine" : 220,
+          "startColumn" : 35,
+          "endLine" : 220,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/initWizard"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion"
+    },
+    "computeOffenders" : {
+      "name" : "computeOffenders",
+      "key" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/computeOffenders",
+      "type" : "org.argouml.cognitive.ListSet",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 20,
+        "endLine" : 90,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 90,
+          "startColumn" : 44,
+          "endLine" : 90,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/computeOffenders"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion"
+    },
+    "strip" : {
+      "name" : "strip",
+      "key" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/strip",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 192,
+        "startColumn" : 19,
+        "endLine" : 192,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 192,
+          "startColumn" : 32,
+          "endLine" : 192,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/strip"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion"
+    },
+    "confusable" : {
+      "name" : "confusable",
+      "key" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/confusable",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 20,
+        "endLine" : 163,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stripped1",
+        "key" : "stripped1",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 38,
+          "endLine" : 163,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/confusable"
+      }, {
+        "name" : "stripped2",
+        "key" : "stripped2",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 56,
+          "endLine" : 163,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/confusable"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion"
+    },
+    "countDiffs" : {
+      "name" : "countDiffs",
+      "key" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/countDiffs",
+      "type" : "int",
+      "position" : {
+        "startLine" : 174,
+        "startColumn" : 16,
+        "endLine" : 174,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s1",
+        "key" : "s1",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 174,
+          "startColumn" : 34,
+          "endLine" : 174,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/countDiffs"
+      }, {
+        "name" : "s2",
+        "key" : "s2",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 174,
+          "startColumn" : 45,
+          "endLine" : 174,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/countDiffs"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion"
+    },
+    "predicate2" : {
+      "name" : "predicate2",
+      "key" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/predicate2",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 20,
+        "endLine" : 69,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 38,
+          "endLine" : 69,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/predicate2"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 51,
+          "endLine" : 69,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/predicate2"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion"
+    },
+    "stillValid" : {
+      "name" : "stillValid",
+      "key" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/stillValid",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 20,
+        "endLine" : 144,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "i",
+        "key" : "i",
+        "type" : "org.argouml.cognitive.ToDoItem",
+        "position" : {
+          "startLine" : 144,
+          "startColumn" : 40,
+          "endLine" : 144,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/stillValid"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 144,
+          "startColumn" : 52,
+          "endLine" : 144,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/stillValid"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion"
+    },
+    "getClarifier" : {
+      "name" : "getClarifier",
+      "key" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/getClarifier",
+      "type" : "javax.swing.Icon",
+      "position" : {
+        "startLine" : 210,
+        "startColumn" : 17,
+        "endLine" : 210,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion"
+    },
+    "getWizardClass" : {
+      "name" : "getWizardClass",
+      "key" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/getWizardClass",
+      "type" : "java.lang.Class",
+      "position" : {
+        "startLine" : 230,
+        "startColumn" : 18,
+        "endLine" : 230,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "org.argouml.cognitive.ToDoItem",
+        "position" : {
+          "startLine" : 230,
+          "startColumn" : 42,
+          "endLine" : 230,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/getWizardClass"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion"
+    },
+    "getCriticizedDesignMaterials" : {
+      "name" : "getCriticizedDesignMaterials",
+      "key" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/getCriticizedDesignMaterials",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 237,
+        "startColumn" : 24,
+        "endLine" : 237,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion"
+    },
+    "toDoItem" : {
+      "name" : "toDoItem",
+      "key" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/toDoItem",
+      "type" : "org.argouml.cognitive.ToDoItem",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 21,
+        "endLine" : 133,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 133,
+          "startColumn" : 37,
+          "endLine" : 133,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/toDoItem"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 133,
+          "startColumn" : 50,
+          "endLine" : 133,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion/method/toDoItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNameConfusion"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "CrUML" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

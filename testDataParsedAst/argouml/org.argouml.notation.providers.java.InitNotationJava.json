@@ -1,0 +1,87 @@
+{
+  "name" : "InitNotationJava",
+  "key" : "org.argouml.notation.providers.java.InitNotationJava",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "init" : {
+      "name" : "init",
+      "key" : "org.argouml.notation.providers.java.InitNotationJava/method/init",
+      "type" : "void",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 17,
+        "endLine" : 49,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.java.InitNotationJava"
+    },
+    "getDetailsTabs" : {
+      "name" : "getDetailsTabs",
+      "key" : "org.argouml.notation.providers.java.InitNotationJava/method/getDetailsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 37,
+        "endLine" : 82,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.java.InitNotationJava"
+    },
+    "getSettingsTabs" : {
+      "name" : "getSettingsTabs",
+      "key" : "org.argouml.notation.providers.java.InitNotationJava/method/getSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 42,
+        "endLine" : 78,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.java.InitNotationJava"
+    },
+    "getProjectSettingsTabs" : {
+      "name" : "getProjectSettingsTabs",
+      "key" : "org.argouml.notation.providers.java.InitNotationJava/method/getProjectSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 42,
+        "endLine" : 74,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.java.InitNotationJava"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.InitSubsystem" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

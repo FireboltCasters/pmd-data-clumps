@@ -1,0 +1,52 @@
+{
+  "name" : "UMLMessageActivatorComboBox",
+  "key" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBox",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "doIt" : {
+      "name" : "doIt",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBox/method/doIt",
+      "type" : "void",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 20,
+        "endLine" : 58,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 37,
+          "endLine" : 58,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBox/method/doIt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBox"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLComboBox2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

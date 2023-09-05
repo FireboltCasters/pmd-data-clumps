@@ -1,0 +1,216 @@
+{
+  "name" : "ZipFilePersister",
+  "key" : "org.argouml.persistence.ZipFilePersister",
+  "type" : "class",
+  "position" : {
+    "startLine" : 54,
+    "startColumn" : 1,
+    "endLine" : 54,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 33,
+        "endLine" : 58,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.ZipFilePersister/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.persistence.ZipFilePersister"
+    }
+  },
+  "methods" : {
+    "doSave" : {
+      "name" : "doSave",
+      "key" : "org.argouml.persistence.ZipFilePersister/method/doSave",
+      "type" : "void",
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 17,
+        "endLine" : 102,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 102,
+          "startColumn" : 32,
+          "endLine" : 102,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZipFilePersister/method/doSave"
+      }, {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 102,
+          "startColumn" : 46,
+          "endLine" : 102,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZipFilePersister/method/doSave"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZipFilePersister"
+    },
+    "getExtension" : {
+      "name" : "getExtension",
+      "key" : "org.argouml.persistence.ZipFilePersister/method/getExtension",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 19,
+        "endLine" : 70,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZipFilePersister"
+    },
+    "isSaveEnabled" : {
+      "name" : "isSaveEnabled",
+      "key" : "org.argouml.persistence.ZipFilePersister/method/isSaveEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 20,
+        "endLine" : 84,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZipFilePersister"
+    },
+    "doLoad" : {
+      "name" : "doLoad",
+      "key" : "org.argouml.persistence.ZipFilePersister/method/doLoad",
+      "type" : "org.argouml.kernel.Project",
+      "position" : {
+        "startLine" : 186,
+        "startColumn" : 20,
+        "endLine" : 186,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 186,
+          "startColumn" : 32,
+          "endLine" : 186,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZipFilePersister/method/doLoad"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZipFilePersister"
+    },
+    "hasAnIcon" : {
+      "name" : "hasAnIcon",
+      "key" : "org.argouml.persistence.ZipFilePersister/method/hasAnIcon",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 256,
+        "startColumn" : 20,
+        "endLine" : 256,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZipFilePersister"
+    },
+    "openZipStreamAt" : {
+      "name" : "openZipStreamAt",
+      "key" : "org.argouml.persistence.ZipFilePersister/method/openZipStreamAt",
+      "type" : "java.util.zip.ZipInputStream",
+      "position" : {
+        "startLine" : 240,
+        "startColumn" : 28,
+        "endLine" : 240,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "url",
+        "key" : "url",
+        "type" : "java.net.URL",
+        "position" : {
+          "startLine" : 240,
+          "startColumn" : 48,
+          "endLine" : 240,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZipFilePersister/method/openZipStreamAt"
+      }, {
+        "name" : "ext",
+        "key" : "ext",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 240,
+          "startColumn" : 60,
+          "endLine" : 240,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ZipFilePersister/method/openZipStreamAt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZipFilePersister"
+    },
+    "getDesc" : {
+      "name" : "getDesc",
+      "key" : "org.argouml.persistence.ZipFilePersister/method/getDesc",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 22,
+        "endLine" : 77,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ZipFilePersister"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "XmiFilePersister" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

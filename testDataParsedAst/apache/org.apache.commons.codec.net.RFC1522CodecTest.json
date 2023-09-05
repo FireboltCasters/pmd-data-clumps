@@ -1,0 +1,153 @@
+{
+  "name" : "RFC1522CodecTest",
+  "key" : "org.apache.commons.codec.net.RFC1522CodecTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "testNullInput" : {
+      "name" : "testNullInput",
+      "key" : "org.apache.commons.codec.net.RFC1522CodecTest/method/testNullInput",
+      "type" : "void",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 17,
+        "endLine" : 53,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.RFC1522CodecTest"
+    },
+    "testDecodeInvalid" : {
+      "name" : "testDecodeInvalid",
+      "key" : "org.apache.commons.codec.net.RFC1522CodecTest/method/testDecodeInvalid",
+      "type" : "void",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 17,
+        "endLine" : 59,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.RFC1522CodecTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.apache.commons.codec.net.RFC1522CodecTest.RFC1522TestCodec" : {
+      "name" : "RFC1522TestCodec",
+      "key" : "org.apache.commons.codec.net.RFC1522CodecTest.RFC1522TestCodec",
+      "type" : "class",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 5,
+        "endLine" : 37,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : { },
+      "methods" : {
+        "getEncoding" : {
+          "name" : "getEncoding",
+          "key" : "org.apache.commons.codec.net.RFC1522CodecTest.RFC1522TestCodec/method/getEncoding",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 47,
+            "startColumn" : 26,
+            "endLine" : 47,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.codec.net.RFC1522CodecTest.RFC1522TestCodec"
+        },
+        "doDecoding" : {
+          "name" : "doDecoding",
+          "key" : "org.apache.commons.codec.net.RFC1522CodecTest.RFC1522TestCodec/method/doDecoding",
+          "type" : "byte[]",
+          "position" : {
+            "startLine" : 39,
+            "startColumn" : 26,
+            "endLine" : 39,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "bytes",
+            "key" : "bytes",
+            "type" : "byte[]",
+            "position" : {
+              "startLine" : 39,
+              "startColumn" : 44,
+              "endLine" : 39,
+              "endColumn" : 49
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.codec.net.RFC1522CodecTest.RFC1522TestCodec/method/doDecoding"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.codec.net.RFC1522CodecTest.RFC1522TestCodec"
+        },
+        "doEncoding" : {
+          "name" : "doEncoding",
+          "key" : "org.apache.commons.codec.net.RFC1522CodecTest.RFC1522TestCodec/method/doEncoding",
+          "type" : "byte[]",
+          "position" : {
+            "startLine" : 43,
+            "startColumn" : 26,
+            "endLine" : 43,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "bytes",
+            "key" : "bytes",
+            "type" : "byte[]",
+            "position" : {
+              "startLine" : 43,
+              "startColumn" : 44,
+              "endLine" : 43,
+              "endColumn" : 49
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.codec.net.RFC1522CodecTest.RFC1522TestCodec/method/doEncoding"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.codec.net.RFC1522CodecTest.RFC1522TestCodec"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "RFC1522Codec" ],
+      "definedInClassOrInterfaceTypeKey" : "org.apache.commons.codec.net.RFC1522CodecTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

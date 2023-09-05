@@ -1,0 +1,2031 @@
+{
+  "name" : "ProjectBrowser",
+  "key" : "org.argouml.ui.ProjectBrowser",
+  "type" : "class",
+  "position" : {
+    "startLine" : 125,
+    "startColumn" : 14,
+    "endLine" : 125,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "theInstance" : {
+      "name" : "theInstance",
+      "key" : "theInstance",
+      "type" : "org.argouml.ui.ProjectBrowser",
+      "position" : {
+        "startLine" : 175,
+        "startColumn" : 35,
+        "endLine" : 175,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/theInstance",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "southEastPane" : {
+      "name" : "southEastPane",
+      "key" : "southEastPane",
+      "type" : "DetailsPane",
+      "position" : {
+        "startLine" : 190,
+        "startColumn" : 25,
+        "endLine" : 190,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/southEastPane",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "DEFAULT_COMPONENTHEIGHT" : {
+      "name" : "DEFAULT_COMPONENTHEIGHT",
+      "key" : "DEFAULT_COMPONENTHEIGHT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 137,
+        "startColumn" : 29,
+        "endLine" : 137,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/DEFAULT_COMPONENTHEIGHT",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 33,
+        "endLine" : 142,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "appName" : {
+      "name" : "appName",
+      "key" : "appName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 178,
+        "startColumn" : 20,
+        "endLine" : 178,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/appName",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "detailsPanesByCompassPoint" : {
+      "name" : "detailsPanesByCompassPoint",
+      "key" : "detailsPanesByCompassPoint",
+      "type" : "java.util.Map",
+      "position" : {
+        "startLine" : 193,
+        "startColumn" : 40,
+        "endLine" : 193,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/detailsPanesByCompassPoint",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "editorPane" : {
+      "name" : "editorPane",
+      "key" : "editorPane",
+      "type" : "MultiEditorPane",
+      "position" : {
+        "startLine" : 180,
+        "startColumn" : 29,
+        "endLine" : 180,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/editorPane",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "todoPane" : {
+      "name" : "todoPane",
+      "key" : "todoPane",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 223,
+        "startColumn" : 20,
+        "endLine" : 223,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/todoPane",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "removeFromDiagram" : {
+      "name" : "removeFromDiagram",
+      "key" : "removeFromDiagram",
+      "type" : "org.argouml.uml.diagram.ui.ActionRemoveFromDiagram",
+      "position" : {
+        "startLine" : 239,
+        "startColumn" : 43,
+        "endLine" : 239,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/removeFromDiagram",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "DEFAULT_COMPONENTWIDTH" : {
+      "name" : "DEFAULT_COMPONENTWIDTH",
+      "key" : "DEFAULT_COMPONENTWIDTH",
+      "type" : "int",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 29,
+        "endLine" : 132,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/DEFAULT_COMPONENTWIDTH",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "northPane" : {
+      "name" : "northPane",
+      "key" : "northPane",
+      "type" : "DetailsPane",
+      "position" : {
+        "startLine" : 187,
+        "startColumn" : 25,
+        "endLine" : 187,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/northPane",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "menuBar" : {
+      "name" : "menuBar",
+      "key" : "menuBar",
+      "type" : "org.argouml.ui.cmd.GenericArgoMenuBar",
+      "position" : {
+        "startLine" : 196,
+        "startColumn" : 32,
+        "endLine" : 196,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/menuBar",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 1987,
+        "startColumn" : 31,
+        "endLine" : 1987,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "workAreaPane" : {
+      "name" : "workAreaPane",
+      "key" : "workAreaPane",
+      "type" : "org.tigris.swidgets.BorderSplitPane",
+      "position" : {
+        "startLine" : 210,
+        "startColumn" : 29,
+        "endLine" : 210,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/workAreaPane",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "saveAction" : {
+      "name" : "saveAction",
+      "key" : "saveAction",
+      "type" : "javax.swing.AbstractAction",
+      "position" : {
+        "startLine" : 234,
+        "startColumn" : 28,
+        "endLine" : 234,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/saveAction",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "isMainApplication" : {
+      "name" : "isMainApplication",
+      "key" : "isMainApplication",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 169,
+        "startColumn" : 28,
+        "endLine" : 169,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/isMainApplication",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "northEastPane" : {
+      "name" : "northEastPane",
+      "key" : "northEastPane",
+      "type" : "DetailsPane",
+      "position" : {
+        "startLine" : 186,
+        "startColumn" : 25,
+        "endLine" : 186,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/northEastPane",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "statusBar" : {
+      "name" : "statusBar",
+      "key" : "statusBar",
+      "type" : "StatusBar",
+      "position" : {
+        "startLine" : 202,
+        "startColumn" : 23,
+        "endLine" : 202,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/statusBar",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "northWestPane" : {
+      "name" : "northWestPane",
+      "key" : "northWestPane",
+      "type" : "DetailsPane",
+      "position" : {
+        "startLine" : 188,
+        "startColumn" : 25,
+        "endLine" : 188,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/northWestPane",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "eastPane" : {
+      "name" : "eastPane",
+      "key" : "eastPane",
+      "type" : "DetailsPane",
+      "position" : {
+        "startLine" : 189,
+        "startColumn" : 25,
+        "endLine" : 189,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/eastPane",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "defaultFont" : {
+      "name" : "defaultFont",
+      "key" : "defaultFont",
+      "type" : "java.awt.Font",
+      "position" : {
+        "startLine" : 208,
+        "startColumn" : 18,
+        "endLine" : 208,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/defaultFont",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "titleHandler" : {
+      "name" : "titleHandler",
+      "key" : "titleHandler",
+      "type" : "org.argouml.ui.ProjectBrowser.TitleHandler",
+      "position" : {
+        "startLine" : 229,
+        "startColumn" : 26,
+        "endLine" : 229,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/titleHandler",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "southPane" : {
+      "name" : "southPane",
+      "key" : "southPane",
+      "type" : "DetailsPane",
+      "position" : {
+        "startLine" : 191,
+        "startColumn" : 25,
+        "endLine" : 191,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/southPane",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "explorerPane" : {
+      "name" : "explorerPane",
+      "key" : "explorerPane",
+      "type" : "NavigatorPane",
+      "position" : {
+        "startLine" : 216,
+        "startColumn" : 27,
+        "endLine" : 216,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectBrowser/memberField/explorerPane",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    }
+  },
+  "methods" : {
+    "getStatusBar" : {
+      "name" : "getStatusBar",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getStatusBar",
+      "type" : "StatusBar",
+      "position" : {
+        "startLine" : 851,
+        "startColumn" : 22,
+        "endLine" : 851,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "testSimulateErrors" : {
+      "name" : "testSimulateErrors",
+      "key" : "org.argouml.ui.ProjectBrowser/method/testSimulateErrors",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1465,
+        "startColumn" : 18,
+        "endLine" : 1465,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "loadProjectWithProgressMonitor" : {
+      "name" : "loadProjectWithProgressMonitor",
+      "key" : "org.argouml.ui.ProjectBrowser/method/loadProjectWithProgressMonitor",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1554,
+        "startColumn" : 17,
+        "endLine" : 1554,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 1554,
+          "startColumn" : 53,
+          "endLine" : 1554,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/loadProjectWithProgressMonitor"
+      }, {
+        "name" : "showUI",
+        "key" : "showUI",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1554,
+          "startColumn" : 67,
+          "endLine" : 1554,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/loadProjectWithProgressMonitor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getSavedHeight" : {
+      "name" : "getSavedHeight",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getSavedHeight",
+      "type" : "int",
+      "position" : {
+        "startLine" : 681,
+        "startColumn" : 17,
+        "endLine" : 681,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "height",
+        "key" : "height",
+        "type" : "org.argouml.configuration.ConfigurationKey",
+        "position" : {
+          "startLine" : 681,
+          "startColumn" : 49,
+          "endLine" : 681,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/getSavedHeight"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getEditorPane" : {
+      "name" : "getEditorPane",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getEditorPane",
+      "type" : "MultiEditorPane",
+      "position" : {
+        "startLine" : 866,
+        "startColumn" : 28,
+        "endLine" : 866,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "askConfirmationAndSave" : {
+      "name" : "askConfirmationAndSave",
+      "key" : "org.argouml.ui.ProjectBrowser/method/askConfirmationAndSave",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 1514,
+        "startColumn" : 20,
+        "endLine" : 1514,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getJMenuBar" : {
+      "name" : "getJMenuBar",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getJMenuBar",
+      "type" : "javax.swing.JMenuBar",
+      "position" : {
+        "startLine" : 859,
+        "startColumn" : 21,
+        "endLine" : 859,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getExplorerPane" : {
+      "name" : "getExplorerPane",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getExplorerPane",
+      "type" : "NavigatorPane",
+      "position" : {
+        "startLine" : 873,
+        "startColumn" : 26,
+        "endLine" : 873,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "addPanel" : {
+      "name" : "addPanel",
+      "key" : "org.argouml.ui.ProjectBrowser/method/addPanel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 616,
+        "startColumn" : 17,
+        "endLine" : 616,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "comp",
+        "key" : "comp",
+        "type" : "java.awt.Component",
+        "position" : {
+          "startLine" : 616,
+          "startColumn" : 36,
+          "endLine" : 616,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/addPanel"
+      }, {
+        "name" : "position",
+        "key" : "position",
+        "type" : "org.argouml.ui.ProjectBrowser.Position",
+        "position" : {
+          "startLine" : 616,
+          "startColumn" : 51,
+          "endLine" : 616,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/addPanel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getSavedWidth" : {
+      "name" : "getSavedWidth",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getSavedWidth",
+      "type" : "int",
+      "position" : {
+        "startLine" : 678,
+        "startColumn" : 17,
+        "endLine" : 678,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "width",
+        "key" : "width",
+        "type" : "org.argouml.configuration.ConfigurationKey",
+        "position" : {
+          "startLine" : 678,
+          "startColumn" : 48,
+          "endLine" : 678,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/getSavedWidth"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.ui.ProjectBrowser/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1136,
+        "startColumn" : 17,
+        "endLine" : 1136,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "evt",
+        "key" : "evt",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 1136,
+          "startColumn" : 52,
+          "endLine" : 1136,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "setVisible" : {
+      "name" : "setVisible",
+      "key" : "org.argouml.ui.ProjectBrowser/method/setVisible",
+      "type" : "void",
+      "position" : {
+        "startLine" : 978,
+        "startColumn" : 17,
+        "endLine" : 978,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "b",
+        "key" : "b",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 978,
+          "startColumn" : 36,
+          "endLine" : 978,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/setVisible"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "clearDialogs" : {
+      "name" : "clearDialogs",
+      "key" : "org.argouml.ui.ProjectBrowser/method/clearDialogs",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1899,
+        "startColumn" : 17,
+        "endLine" : 1899,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "jumpToDiagramShowing" : {
+      "name" : "jumpToDiagramShowing",
+      "key" : "org.argouml.ui.ProjectBrowser/method/jumpToDiagramShowing",
+      "type" : "void",
+      "position" : {
+        "startLine" : 914,
+        "startColumn" : 17,
+        "endLine" : 914,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "targets",
+        "key" : "targets",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 914,
+          "startColumn" : 49,
+          "endLine" : 914,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/jumpToDiagramShowing"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "assemblePanels" : {
+      "name" : "assemblePanels",
+      "key" : "org.argouml.ui.ProjectBrowser/method/assemblePanels",
+      "type" : "java.awt.Component",
+      "position" : {
+        "startLine" : 467,
+        "startColumn" : 23,
+        "endLine" : 467,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getTabProps" : {
+      "name" : "getTabProps",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getTabProps",
+      "type" : "org.argouml.uml.ui.TabProps",
+      "position" : {
+        "startLine" : 809,
+        "startColumn" : 21,
+        "endLine" : 809,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "setToDoItem" : {
+      "name" : "setToDoItem",
+      "key" : "org.argouml.ui.ProjectBrowser/method/setToDoItem",
+      "type" : "void",
+      "position" : {
+        "startLine" : 790,
+        "startColumn" : 17,
+        "endLine" : 790,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 790,
+          "startColumn" : 36,
+          "endLine" : 790,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/setToDoItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "loadProject" : {
+      "name" : "loadProject",
+      "key" : "org.argouml.ui.ProjectBrowser/method/loadProject",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 1573,
+        "startColumn" : 20,
+        "endLine" : 1573,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 1573,
+          "startColumn" : 37,
+          "endLine" : 1573,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/loadProject"
+      }, {
+        "name" : "showUI",
+        "key" : "showUI",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1573,
+          "startColumn" : 51,
+          "endLine" : 1573,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/loadProject"
+      }, {
+        "name" : "pmw",
+        "key" : "pmw",
+        "type" : "org.argouml.taskmgmt.ProgressMonitor",
+        "position" : {
+          "startLine" : 1574,
+          "startColumn" : 29,
+          "endLine" : 1574,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/loadProject"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getSavedDimensions" : {
+      "name" : "getSavedDimensions",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getSavedDimensions",
+      "type" : "java.awt.Dimension",
+      "position" : {
+        "startLine" : 674,
+        "startColumn" : 23,
+        "endLine" : 674,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "width",
+        "key" : "width",
+        "type" : "org.argouml.configuration.ConfigurationKey",
+        "position" : {
+          "startLine" : 674,
+          "startColumn" : 59,
+          "endLine" : 674,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/getSavedDimensions"
+      }, {
+        "name" : "height",
+        "key" : "height",
+        "type" : "org.argouml.configuration.ConfigurationKey",
+        "position" : {
+          "startLine" : 675,
+          "startColumn" : 30,
+          "endLine" : 675,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/getSavedDimensions"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getDetailsPane" : {
+      "name" : "getDetailsPane",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getDetailsPane",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 880,
+        "startColumn" : 19,
+        "endLine" : 880,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "dispose" : {
+      "name" : "dispose",
+      "key" : "org.argouml.ui.ProjectBrowser/method/dispose",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1110,
+        "startColumn" : 17,
+        "endLine" : 1110,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "targetChanged" : {
+      "name" : "targetChanged",
+      "key" : "org.argouml.ui.ProjectBrowser/method/targetChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1185,
+        "startColumn" : 18,
+        "endLine" : 1185,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "target",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 1185,
+          "startColumn" : 39,
+          "endLine" : 1185,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/targetChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getDefaultFont" : {
+      "name" : "getDefaultFont",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getDefaultFont",
+      "type" : "java.awt.Font",
+      "position" : {
+        "startLine" : 1238,
+        "startColumn" : 17,
+        "endLine" : 1238,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "removePanel" : {
+      "name" : "removePanel",
+      "key" : "org.argouml.ui.ProjectBrowser/method/removePanel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 625,
+        "startColumn" : 17,
+        "endLine" : 625,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "comp",
+        "key" : "comp",
+        "type" : "java.awt.Component",
+        "position" : {
+          "startLine" : 625,
+          "startColumn" : 39,
+          "endLine" : 625,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/removePanel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getNewFile" : {
+      "name" : "getNewFile",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getNewFile",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 1928,
+        "startColumn" : 20,
+        "endLine" : 1928,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "trySaveWithProgressMonitor" : {
+      "name" : "trySaveWithProgressMonitor",
+      "key" : "org.argouml.ui.ProjectBrowser/method/trySaveWithProgressMonitor",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1330,
+        "startColumn" : 17,
+        "endLine" : 1330,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "overwrite",
+        "key" : "overwrite",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1330,
+          "startColumn" : 52,
+          "endLine" : 1330,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/trySaveWithProgressMonitor"
+      }, {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 1330,
+          "startColumn" : 68,
+          "endLine" : 1330,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/trySaveWithProgressMonitor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "isFileReadonly" : {
+      "name" : "isFileReadonly",
+      "key" : "org.argouml.ui.ProjectBrowser/method/isFileReadonly",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 1311,
+        "startColumn" : 21,
+        "endLine" : 1311,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 1311,
+          "startColumn" : 41,
+          "endLine" : 1311,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/isFileReadonly"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "makeInstance" : {
+      "name" : "makeInstance",
+      "key" : "org.argouml.ui.ProjectBrowser/method/makeInstance",
+      "type" : "org.argouml.ui.ProjectBrowser",
+      "position" : {
+        "startLine" : 410,
+        "startColumn" : 34,
+        "endLine" : 410,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "splash",
+        "key" : "splash",
+        "type" : "SplashScreen",
+        "position" : {
+          "startLine" : 410,
+          "startColumn" : 60,
+          "endLine" : 410,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/makeInstance"
+      }, {
+        "name" : "mainApplication",
+        "key" : "mainApplication",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 411,
+          "startColumn" : 21,
+          "endLine" : 411,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/makeInstance"
+      }, {
+        "name" : "leftBottomPane",
+        "key" : "leftBottomPane",
+        "type" : "javax.swing.JPanel",
+        "position" : {
+          "startLine" : 411,
+          "startColumn" : 45,
+          "endLine" : 411,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/makeInstance"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "createPanels" : {
+      "name" : "createPanels",
+      "key" : "org.argouml.ui.ProjectBrowser/method/createPanels",
+      "type" : "void",
+      "position" : {
+        "startLine" : 432,
+        "startColumn" : 20,
+        "endLine" : 432,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "splash",
+        "key" : "splash",
+        "type" : "SplashScreen",
+        "position" : {
+          "startLine" : 432,
+          "startColumn" : 46,
+          "endLine" : 432,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/createPanels"
+      }, {
+        "name" : "leftBottomPane",
+        "key" : "leftBottomPane",
+        "type" : "javax.swing.JPanel",
+        "position" : {
+          "startLine" : 432,
+          "startColumn" : 61,
+          "endLine" : 432,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/createPanels"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "addKeyboardFocusListener" : {
+      "name" : "addKeyboardFocusListener",
+      "key" : "org.argouml.ui.ProjectBrowser/method/addKeyboardFocusListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 311,
+        "startColumn" : 18,
+        "endLine" : 311,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getTab" : {
+      "name" : "getTab",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getTab",
+      "type" : "org.argouml.application.api.AbstractArgoJPanel",
+      "position" : {
+        "startLine" : 834,
+        "startColumn" : 31,
+        "endLine" : 834,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tabClass",
+        "key" : "tabClass",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 834,
+          "startColumn" : 44,
+          "endLine" : 834,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/getTab"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getTodoPane" : {
+      "name" : "getTodoPane",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getTodoPane",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 1231,
+        "startColumn" : 19,
+        "endLine" : 1231,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "setTarget" : {
+      "name" : "setTarget",
+      "key" : "org.argouml.ui.ProjectBrowser/method/setTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 778,
+        "startColumn" : 18,
+        "endLine" : 778,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 778,
+          "startColumn" : 35,
+          "endLine" : 778,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/setTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "createDetailsPanes" : {
+      "name" : "createDetailsPanes",
+      "key" : "org.argouml.ui.ProjectBrowser/method/createDetailsPanes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 558,
+        "startColumn" : 18,
+        "endLine" : 558,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "tryExit" : {
+      "name" : "tryExit",
+      "key" : "org.argouml.ui.ProjectBrowser/method/tryExit",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1077,
+        "startColumn" : 17,
+        "endLine" : 1077,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "buildTitleWithCurrentProjectName" : {
+      "name" : "buildTitleWithCurrentProjectName",
+      "key" : "org.argouml.ui.ProjectBrowser/method/buildTitleWithCurrentProjectName",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1340,
+        "startColumn" : 17,
+        "endLine" : 1340,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getAppName" : {
+      "name" : "getAppName",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getAppName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 753,
+        "startColumn" : 19,
+        "endLine" : 753,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "setAppName" : {
+      "name" : "setAppName",
+      "key" : "org.argouml.ui.ProjectBrowser/method/setAppName",
+      "type" : "void",
+      "position" : {
+        "startLine" : 760,
+        "startColumn" : 17,
+        "endLine" : 760,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "n",
+        "key" : "n",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 760,
+          "startColumn" : 35,
+          "endLine" : 760,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/setAppName"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "showSaveIndicator" : {
+      "name" : "showSaveIndicator",
+      "key" : "org.argouml.ui.ProjectBrowser/method/showSaveIndicator",
+      "type" : "void",
+      "position" : {
+        "startLine" : 746,
+        "startColumn" : 17,
+        "endLine" : 746,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "targetRemoved" : {
+      "name" : "targetRemoved",
+      "key" : "org.argouml.ui.ProjectBrowser/method/targetRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1168,
+        "startColumn" : 17,
+        "endLine" : 1168,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 1168,
+          "startColumn" : 43,
+          "endLine" : 1168,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/targetRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getSaveAction" : {
+      "name" : "getSaveAction",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getSaveAction",
+      "type" : "javax.swing.AbstractAction",
+      "position" : {
+        "startLine" : 1913,
+        "startColumn" : 27,
+        "endLine" : 1913,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "showStatus" : {
+      "name" : "showStatus",
+      "key" : "org.argouml.ui.ProjectBrowser/method/showStatus",
+      "type" : "void",
+      "position" : {
+        "startLine" : 996,
+        "startColumn" : 17,
+        "endLine" : 996,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 996,
+          "startColumn" : 35,
+          "endLine" : 996,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/showStatus"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "reportError" : {
+      "name" : "reportError",
+      "key" : "org.argouml.ui.ProjectBrowser/method/reportError",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1867,
+        "startColumn" : 18,
+        "endLine" : 1867,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "monitor",
+        "key" : "monitor",
+        "type" : "org.argouml.taskmgmt.ProgressMonitor",
+        "position" : {
+          "startLine" : 1867,
+          "startColumn" : 46,
+          "endLine" : 1867,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/reportError"
+      }, {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1867,
+          "startColumn" : 68,
+          "endLine" : 1867,
+          "endColumn" : 75
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/reportError"
+      }, {
+        "name" : "explanation",
+        "key" : "explanation",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1868,
+          "startColumn" : 26,
+          "endLine" : 1868,
+          "endColumn" : 37
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/reportError"
+      }, {
+        "name" : "showUI",
+        "key" : "showUI",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1868,
+          "startColumn" : 47,
+          "endLine" : 1868,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/reportError"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "addFileSaved" : {
+      "name" : "addFileSaved",
+      "key" : "org.argouml.ui.ProjectBrowser/method/addFileSaved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1498,
+        "startColumn" : 17,
+        "endLine" : 1498,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 1498,
+          "startColumn" : 35,
+          "endLine" : 1498,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/addFileSaved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "makeDetailsPane" : {
+      "name" : "makeDetailsPane",
+      "key" : "org.argouml.ui.ProjectBrowser/method/makeDetailsPane",
+      "type" : "DetailsPane",
+      "position" : {
+        "startLine" : 1062,
+        "startColumn" : 25,
+        "endLine" : 1062,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "compassPoint",
+        "key" : "compassPoint",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1062,
+          "startColumn" : 48,
+          "endLine" : 1062,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/makeDetailsPane"
+      }, {
+        "name" : "orientation",
+        "key" : "orientation",
+        "type" : "org.tigris.swidgets.Orientation",
+        "position" : {
+          "startLine" : 1063,
+          "startColumn" : 53,
+          "endLine" : 1063,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/makeDetailsPane"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "determineRemoveEnabled" : {
+      "name" : "determineRemoveEnabled",
+      "key" : "org.argouml.ui.ProjectBrowser/method/determineRemoveEnabled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1215,
+        "startColumn" : 18,
+        "endLine" : 1215,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "restorePanelSizes" : {
+      "name" : "restorePanelSizes",
+      "key" : "org.argouml.ui.ProjectBrowser/method/restorePanelSizes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 634,
+        "startColumn" : 18,
+        "endLine" : 634,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "targetSet" : {
+      "name" : "targetSet",
+      "key" : "org.argouml.ui.ProjectBrowser/method/targetSet",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1175,
+        "startColumn" : 17,
+        "endLine" : 1175,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 1175,
+          "startColumn" : 39,
+          "endLine" : 1175,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/targetSet"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "trySave" : {
+      "name" : "trySave",
+      "key" : "org.argouml.ui.ProjectBrowser/method/trySave",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 1355,
+        "startColumn" : 20,
+        "endLine" : 1355,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "overwrite",
+        "key" : "overwrite",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1355,
+          "startColumn" : 36,
+          "endLine" : 1355,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/trySave"
+      }, {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 1356,
+          "startColumn" : 18,
+          "endLine" : 1356,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/trySave"
+      }, {
+        "name" : "pmw",
+        "key" : "pmw",
+        "type" : "org.argouml.taskmgmt.ProgressMonitor",
+        "position" : {
+          "startLine" : 1357,
+          "startColumn" : 29,
+          "endLine" : 1357,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/trySave"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "saveScreenConfiguration" : {
+      "name" : "saveScreenConfiguration",
+      "key" : "org.argouml.ui.ProjectBrowser/method/saveScreenConfiguration",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1009,
+        "startColumn" : 18,
+        "endLine" : 1009,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "updateStatus" : {
+      "name" : "updateStatus",
+      "key" : "org.argouml.ui.ProjectBrowser/method/updateStatus",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1000,
+        "startColumn" : 18,
+        "endLine" : 1000,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "status",
+        "key" : "status",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1000,
+          "startColumn" : 38,
+          "endLine" : 1000,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/updateStatus"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getRemoveFromDiagramAction" : {
+      "name" : "getRemoveFromDiagramAction",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getRemoveFromDiagramAction",
+      "type" : "javax.swing.AbstractAction",
+      "position" : {
+        "startLine" : 1921,
+        "startColumn" : 27,
+        "endLine" : 1921,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getInstance",
+      "type" : "org.argouml.ui.ProjectBrowser",
+      "position" : {
+        "startLine" : 391,
+        "startColumn" : 47,
+        "endLine" : 391,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "selectTabNamed" : {
+      "name" : "selectTabNamed",
+      "key" : "org.argouml.ui.ProjectBrowser/method/selectTabNamed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 894,
+        "startColumn" : 17,
+        "endLine" : 894,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tabName",
+        "key" : "tabName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 894,
+          "startColumn" : 39,
+          "endLine" : 894,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/selectTabNamed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "setApplicationIcon" : {
+      "name" : "setApplicationIcon",
+      "key" : "org.argouml.ui.ProjectBrowser/method/setApplicationIcon",
+      "type" : "void",
+      "position" : {
+        "startLine" : 348,
+        "startColumn" : 18,
+        "endLine" : 348,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "getLocale" : {
+      "name" : "getLocale",
+      "key" : "org.argouml.ui.ProjectBrowser/method/getLocale",
+      "type" : "java.util.Locale",
+      "position" : {
+        "startLine" : 420,
+        "startColumn" : 19,
+        "endLine" : 420,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    },
+    "targetAdded" : {
+      "name" : "targetAdded",
+      "key" : "org.argouml.ui.ProjectBrowser/method/targetAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1161,
+        "startColumn" : 17,
+        "endLine" : 1161,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 1161,
+          "startColumn" : 41,
+          "endLine" : 1161,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectBrowser/method/targetAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.tigris.gef.ui.IStatusBar", "java.beans.PropertyChangeListener", "org.argouml.ui.targetmanager.TargetListener" ],
+  "extends_" : [ "javax.swing.JFrame" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.ui.ProjectBrowser.WindowCloser" : {
+      "name" : "WindowCloser",
+      "key" : "org.argouml.ui.ProjectBrowser.WindowCloser",
+      "type" : "class",
+      "position" : {
+        "startLine" : 1117,
+        "startColumn" : 5,
+        "endLine" : 1117,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : { },
+      "methods" : {
+        "windowClosing" : {
+          "name" : "windowClosing",
+          "key" : "org.argouml.ui.ProjectBrowser.WindowCloser/method/windowClosing",
+          "type" : "void",
+          "position" : {
+            "startLine" : 1127,
+            "startColumn" : 21,
+            "endLine" : 1127,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "e",
+            "key" : "e",
+            "type" : "java.awt.event.WindowEvent",
+            "position" : {
+              "startLine" : 1127,
+              "startColumn" : 47,
+              "endLine" : 1127,
+              "endColumn" : 48
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.ProjectBrowser.WindowCloser/method/windowClosing"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser.WindowCloser"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "java.awt.event.WindowAdapter" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.ui.ProjectBrowser",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.ui.ProjectBrowser.TitleHandler" : {
+      "name" : "TitleHandler",
+      "key" : "org.argouml.ui.ProjectBrowser.TitleHandler",
+      "type" : "class",
+      "position" : {
+        "startLine" : 690,
+        "startColumn" : 13,
+        "endLine" : 690,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "fields" : {
+        "monitoredDiagram" : {
+          "name" : "monitoredDiagram",
+          "key" : "monitoredDiagram",
+          "type" : "org.argouml.uml.diagram.ArgoDiagram",
+          "position" : {
+            "startLine" : 692,
+            "startColumn" : 29,
+            "endLine" : 692,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.ProjectBrowser.TitleHandler/memberField/monitoredDiagram",
+          "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser.TitleHandler"
+        }
+      },
+      "methods" : {
+        "propertyChange" : {
+          "name" : "propertyChange",
+          "key" : "org.argouml.ui.ProjectBrowser.TitleHandler/method/propertyChange",
+          "type" : "void",
+          "position" : {
+            "startLine" : 733,
+            "startColumn" : 21,
+            "endLine" : 733,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "evt",
+            "key" : "evt",
+            "type" : "java.beans.PropertyChangeEvent",
+            "position" : {
+              "startLine" : 733,
+              "startColumn" : 56,
+              "endLine" : 733,
+              "endColumn" : 59
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.ProjectBrowser.TitleHandler/method/propertyChange"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser.TitleHandler"
+        },
+        "buildTitle" : {
+          "name" : "buildTitle",
+          "key" : "org.argouml.ui.ProjectBrowser.TitleHandler/method/buildTitle",
+          "type" : "void",
+          "position" : {
+            "startLine" : 700,
+            "startColumn" : 24,
+            "endLine" : 700,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "projectFileName",
+            "key" : "projectFileName",
+            "type" : "java.lang.String",
+            "position" : {
+              "startLine" : 700,
+              "startColumn" : 42,
+              "endLine" : 700,
+              "endColumn" : 57
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.ProjectBrowser.TitleHandler/method/buildTitle"
+          }, {
+            "name" : "activeDiagram",
+            "key" : "activeDiagram",
+            "type" : "org.argouml.uml.diagram.ArgoDiagram",
+            "position" : {
+              "startLine" : 701,
+              "startColumn" : 29,
+              "endLine" : 701,
+              "endColumn" : 42
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.ProjectBrowser.TitleHandler/method/buildTitle"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.ProjectBrowser.TitleHandler"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "java.beans.PropertyChangeListener" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.ui.ProjectBrowser",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

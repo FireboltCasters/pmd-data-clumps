@@ -1,0 +1,99 @@
+{
+  "name" : "ActionNewTransition",
+  "key" : "org.argouml.uml.ui.behavior.state_machines.ActionNewTransition",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "DESTINATION" : {
+      "name" : "DESTINATION",
+      "key" : "DESTINATION",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 32,
+        "endLine" : 55,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.ActionNewTransition/memberField/DESTINATION",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionNewTransition"
+    },
+    "SOURCE" : {
+      "name" : "SOURCE",
+      "key" : "SOURCE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 32,
+        "endLine" : 48,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.ActionNewTransition/memberField/SOURCE",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionNewTransition"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.ActionNewTransition/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 17,
+        "endLine" : 68,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 45,
+          "endLine" : 68,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.state_machines.ActionNewTransition/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionNewTransition"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.ActionNewTransition/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 20,
+        "endLine" : 83,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionNewTransition"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionNewModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

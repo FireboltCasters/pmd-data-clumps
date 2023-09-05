@@ -1,0 +1,22 @@
+{
+  "name" : "SPFigEdgeModelElement",
+  "key" : "org.argouml.uml.diagram.ui.SPFigEdgeModelElement",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.event.ItemListener" ],
+  "extends_" : [ "org.argouml.ui.StylePanelFig" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,83 @@
+{
+  "name" : "EnterpriseUnixFTPEntryParser",
+  "key" : "org.apache.commons.net.ftp.parser.EnterpriseUnixFTPEntryParser",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "MONTHS" : {
+      "name" : "MONTHS",
+      "key" : "MONTHS",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 33,
+        "endLine" : 42,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.EnterpriseUnixFTPEntryParser/memberField/MONTHS",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.EnterpriseUnixFTPEntryParser"
+    },
+    "REGEX" : {
+      "name" : "REGEX",
+      "key" : "REGEX",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 33,
+        "endLine" : 48,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.EnterpriseUnixFTPEntryParser/memberField/REGEX",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.EnterpriseUnixFTPEntryParser"
+    }
+  },
+  "methods" : {
+    "parseFTPEntry" : {
+      "name" : "parseFTPEntry",
+      "key" : "org.apache.commons.net.ftp.parser.EnterpriseUnixFTPEntryParser/method/parseFTPEntry",
+      "type" : "org.apache.commons.net.ftp.FTPFile",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 20,
+        "endLine" : 81,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "entry",
+        "key" : "entry",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 81,
+          "startColumn" : 41,
+          "endLine" : 81,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.EnterpriseUnixFTPEntryParser/method/parseFTPEntry"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.EnterpriseUnixFTPEntryParser"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "RegexFTPFileEntryParserImpl" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

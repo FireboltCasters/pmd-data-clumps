@@ -1,0 +1,102 @@
+{
+  "name" : "PrintManager",
+  "key" : "org.argouml.ui.cmd.PrintManager",
+  "type" : "class",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "printCmd" : {
+      "name" : "printCmd",
+      "key" : "printCmd",
+      "type" : "org.tigris.gef.base.PrintAction",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 31,
+        "endLine" : 36,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.PrintManager/memberField/printCmd",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.PrintManager"
+    },
+    "INSTANCE" : {
+      "name" : "INSTANCE",
+      "key" : "INSTANCE",
+      "type" : "org.argouml.ui.cmd.PrintManager",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 39,
+        "endLine" : 38,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.PrintManager/memberField/INSTANCE",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.PrintManager"
+    }
+  },
+  "methods" : {
+    "print" : {
+      "name" : "print",
+      "key" : "org.argouml.ui.cmd.PrintManager/method/print",
+      "type" : "void",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 17,
+        "endLine" : 57,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.PrintManager"
+    },
+    "showPageSetupDialog" : {
+      "name" : "showPageSetupDialog",
+      "key" : "org.argouml.ui.cmd.PrintManager/method/showPageSetupDialog",
+      "type" : "void",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 17,
+        "endLine" : 68,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.PrintManager"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.ui.cmd.PrintManager/method/getInstance",
+      "type" : "org.argouml.ui.cmd.PrintManager",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 32,
+        "endLine" : 43,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.PrintManager"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

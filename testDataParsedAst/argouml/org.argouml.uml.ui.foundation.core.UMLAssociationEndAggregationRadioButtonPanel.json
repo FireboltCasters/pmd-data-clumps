@@ -1,0 +1,55 @@
+{
+  "name" : "UMLAssociationEndAggregationRadioButtonPanel",
+  "key" : "org.argouml.uml.ui.foundation.core.UMLAssociationEndAggregationRadioButtonPanel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "labelTextsAndActionCommands" : {
+      "name" : "labelTextsAndActionCommands",
+      "key" : "labelTextsAndActionCommands",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 35,
+        "endLine" : 42,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.UMLAssociationEndAggregationRadioButtonPanel/memberField/labelTextsAndActionCommands",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLAssociationEndAggregationRadioButtonPanel"
+    }
+  },
+  "methods" : {
+    "buildModel" : {
+      "name" : "buildModel",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLAssociationEndAggregationRadioButtonPanel/method/buildModel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 17,
+        "endLine" : 74,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLAssociationEndAggregationRadioButtonPanel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLRadioButtonPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

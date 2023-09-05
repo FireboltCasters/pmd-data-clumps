@@ -1,0 +1,68 @@
+{
+  "name" : "ActionSetClassifierInStateType",
+  "key" : "org.argouml.uml.ui.behavior.activity_graphs.ActionSetClassifierInStateType",
+  "type" : "class",
+  "position" : {
+    "startLine" : 119,
+    "startColumn" : 1,
+    "endLine" : 119,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 31,
+        "endLine" : 124,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionSetClassifierInStateType/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionSetClassifierInStateType"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.behavior.activity_graphs.ActionSetClassifierInStateType/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 136,
+        "startColumn" : 17,
+        "endLine" : 136,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 136,
+          "startColumn" : 45,
+          "endLine" : 136,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionSetClassifierInStateType/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionSetClassifierInStateType"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

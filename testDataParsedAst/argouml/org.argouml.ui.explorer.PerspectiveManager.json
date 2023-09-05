@@ -1,0 +1,462 @@
+{
+  "name" : "PerspectiveManager",
+  "key" : "org.argouml.ui.explorer.PerspectiveManager",
+  "type" : "class",
+  "position" : {
+    "startLine" : 126,
+    "startColumn" : 14,
+    "endLine" : 126,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "instance" : {
+      "name" : "instance",
+      "key" : "instance",
+      "type" : "org.argouml.ui.explorer.PerspectiveManager",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 39,
+        "endLine" : 133,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.PerspectiveManager/memberField/instance",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "perspectiveListeners" : {
+      "name" : "perspectiveListeners",
+      "key" : "perspectiveListeners",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 135,
+        "startColumn" : 46,
+        "endLine" : 135,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.PerspectiveManager/memberField/perspectiveListeners",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 33,
+        "endLine" : 130,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.PerspectiveManager/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "perspectives" : {
+      "name" : "perspectives",
+      "key" : "perspectives",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 137,
+        "startColumn" : 39,
+        "endLine" : 137,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.PerspectiveManager/memberField/perspectives",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "rules" : {
+      "name" : "rules",
+      "key" : "rules",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 35,
+        "endLine" : 139,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.PerspectiveManager/memberField/rules",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    }
+  },
+  "methods" : {
+    "addAllPerspectives" : {
+      "name" : "addAllPerspectives",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/addAllPerspectives",
+      "type" : "void",
+      "position" : {
+        "startLine" : 193,
+        "startColumn" : 17,
+        "endLine" : 193,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newPerspectives",
+        "key" : "newPerspectives",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 194,
+          "startColumn" : 45,
+          "endLine" : 194,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.PerspectiveManager/method/addAllPerspectives"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "removeAllPerspectives" : {
+      "name" : "removeAllPerspectives",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/removeAllPerspectives",
+      "type" : "void",
+      "position" : {
+        "startLine" : 214,
+        "startColumn" : 17,
+        "endLine" : 214,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "loadUserPerspectives" : {
+      "name" : "loadUserPerspectives",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/loadUserPerspectives",
+      "type" : "void",
+      "position" : {
+        "startLine" : 235,
+        "startColumn" : 17,
+        "endLine" : 235,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "getDefaultPerspectives" : {
+      "name" : "getDefaultPerspectives",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/getDefaultPerspectives",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 328,
+        "startColumn" : 44,
+        "endLine" : 328,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "removePerspective" : {
+      "name" : "removePerspective",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/removePerspective",
+      "type" : "void",
+      "position" : {
+        "startLine" : 204,
+        "startColumn" : 17,
+        "endLine" : 204,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "perspective",
+        "key" : "perspective",
+        "type" : "ExplorerPerspective",
+        "position" : {
+          "startLine" : 204,
+          "startColumn" : 55,
+          "endLine" : 204,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.PerspectiveManager/method/removePerspective"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "removeListener" : {
+      "name" : "removeListener",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/removeListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 174,
+        "startColumn" : 17,
+        "endLine" : 174,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "PerspectiveManagerListener",
+        "position" : {
+          "startLine" : 174,
+          "startColumn" : 59,
+          "endLine" : 174,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.PerspectiveManager/method/removeListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "loadRules" : {
+      "name" : "loadRules",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/loadRules",
+      "type" : "void",
+      "position" : {
+        "startLine" : 505,
+        "startColumn" : 17,
+        "endLine" : 505,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "loadDefaultPerspectives" : {
+      "name" : "loadDefaultPerspectives",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/loadDefaultPerspectives",
+      "type" : "void",
+      "position" : {
+        "startLine" : 319,
+        "startColumn" : 17,
+        "endLine" : 319,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "addPerspective" : {
+      "name" : "addPerspective",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/addPerspective",
+      "type" : "void",
+      "position" : {
+        "startLine" : 182,
+        "startColumn" : 17,
+        "endLine" : 182,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "perspective",
+        "key" : "perspective",
+        "type" : "ExplorerPerspective",
+        "position" : {
+          "startLine" : 182,
+          "startColumn" : 52,
+          "endLine" : 182,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.PerspectiveManager/method/addPerspective"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "addRule" : {
+      "name" : "addRule",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/addRule",
+      "type" : "void",
+      "position" : {
+        "startLine" : 573,
+        "startColumn" : 17,
+        "endLine" : 573,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rule",
+        "key" : "rule",
+        "type" : "org.argouml.ui.explorer.rules.PerspectiveRule",
+        "position" : {
+          "startLine" : 573,
+          "startColumn" : 41,
+          "endLine" : 573,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.PerspectiveManager/method/addRule"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "saveUserPerspectives" : {
+      "name" : "saveUserPerspectives",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/saveUserPerspectives",
+      "type" : "void",
+      "position" : {
+        "startLine" : 597,
+        "startColumn" : 17,
+        "endLine" : 597,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "getPerspectives" : {
+      "name" : "getPerspectives",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/getPerspectives",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 227,
+        "startColumn" : 38,
+        "endLine" : 227,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "removeRule" : {
+      "name" : "removeRule",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/removeRule",
+      "type" : "void",
+      "position" : {
+        "startLine" : 583,
+        "startColumn" : 17,
+        "endLine" : 583,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rule",
+        "key" : "rule",
+        "type" : "org.argouml.ui.explorer.rules.PerspectiveRule",
+        "position" : {
+          "startLine" : 583,
+          "startColumn" : 44,
+          "endLine" : 583,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.PerspectiveManager/method/removeRule"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 608,
+        "startColumn" : 19,
+        "endLine" : 608,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/getInstance",
+      "type" : "org.argouml.ui.explorer.PerspectiveManager",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 38,
+        "endLine" : 144,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "getRules" : {
+      "name" : "getRules",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/getRules",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 590,
+        "startColumn" : 40,
+        "endLine" : 590,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    },
+    "addListener" : {
+      "name" : "addListener",
+      "key" : "org.argouml.ui.explorer.PerspectiveManager/method/addListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 166,
+        "startColumn" : 17,
+        "endLine" : 166,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "PerspectiveManagerListener",
+        "position" : {
+          "startLine" : 166,
+          "startColumn" : 56,
+          "endLine" : 166,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.PerspectiveManager/method/addListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveManager"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

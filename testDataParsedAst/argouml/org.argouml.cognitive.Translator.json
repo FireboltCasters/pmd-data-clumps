@@ -1,0 +1,139 @@
+{
+  "name" : "Translator",
+  "key" : "org.argouml.cognitive.Translator",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "translator" : {
+      "name" : "translator",
+      "key" : "translator",
+      "type" : "AbstractCognitiveTranslator",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 48,
+        "endLine" : 37,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.Translator/memberField/translator",
+      "classOrInterfaceKey" : "org.argouml.cognitive.Translator"
+    }
+  },
+  "methods" : {
+    "localize" : {
+      "name" : "localize",
+      "key" : "org.argouml.cognitive.Translator/method/localize",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 26,
+        "endLine" : 50,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 42,
+          "endLine" : 50,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Translator/method/localize"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Translator"
+    },
+    "messageFormat" : {
+      "name" : "messageFormat",
+      "key" : "org.argouml.cognitive.Translator/method/messageFormat",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 26,
+        "endLine" : 59,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 59,
+          "startColumn" : 47,
+          "endLine" : 59,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Translator/method/messageFormat"
+      }, {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.Object[]",
+        "position" : {
+          "startLine" : 59,
+          "startColumn" : 61,
+          "endLine" : 59,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Translator/method/messageFormat"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Translator"
+    },
+    "setTranslator" : {
+      "name" : "setTranslator",
+      "key" : "org.argouml.cognitive.Translator/method/setTranslator",
+      "type" : "void",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 24,
+        "endLine" : 42,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "trans",
+        "key" : "trans",
+        "type" : "AbstractCognitiveTranslator",
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 66,
+          "endLine" : 42,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.Translator/method/setTranslator"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.Translator"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

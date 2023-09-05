@@ -1,0 +1,165 @@
+{
+  "name" : "AssociationRoleNotationUml",
+  "key" : "org.argouml.notation.providers.uml.AssociationRoleNotationUml",
+  "type" : "class",
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getParsingHelp" : {
+      "name" : "getParsingHelp",
+      "key" : "org.argouml.notation.providers.uml.AssociationRoleNotationUml/method/getParsingHelp",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 19,
+        "endLine" : 59,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.AssociationRoleNotationUml"
+    },
+    "parseRole" : {
+      "name" : "parseRole",
+      "key" : "org.argouml.notation.providers.uml.AssociationRoleNotationUml/method/parseRole",
+      "type" : "void",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 20,
+        "endLine" : 92,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "role",
+        "key" : "role",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 37,
+          "endLine" : 92,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.AssociationRoleNotationUml/method/parseRole"
+      }, {
+        "name" : "text",
+        "key" : "text",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 50,
+          "endLine" : 92,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.AssociationRoleNotationUml/method/parseRole"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.AssociationRoleNotationUml"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.notation.providers.uml.AssociationRoleNotationUml/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 19,
+        "endLine" : 194,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 194,
+          "startColumn" : 35,
+          "endLine" : 194,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.AssociationRoleNotationUml/method/toString"
+      }, {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.util.Map",
+        "position" : {
+          "startLine" : 194,
+          "startColumn" : 53,
+          "endLine" : 194,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.AssociationRoleNotationUml/method/toString"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.AssociationRoleNotationUml"
+    },
+    "parse" : {
+      "name" : "parse",
+      "key" : "org.argouml.notation.providers.uml.AssociationRoleNotationUml/method/parse",
+      "type" : "void",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 17,
+        "endLine" : 66,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 66,
+          "startColumn" : 30,
+          "endLine" : 66,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.AssociationRoleNotationUml/method/parse"
+      }, {
+        "name" : "text",
+        "key" : "text",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 66,
+          "startColumn" : 51,
+          "endLine" : 66,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.AssociationRoleNotationUml/method/parse"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.AssociationRoleNotationUml"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.notation.providers.AssociationRoleNotation" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

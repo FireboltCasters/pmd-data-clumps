@@ -1,0 +1,126 @@
+{
+  "name" : "TreeModelUMLEventListener",
+  "key" : "org.argouml.ui.explorer.TreeModelUMLEventListener",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "structureChanged" : {
+      "name" : "structureChanged",
+      "key" : "org.argouml.ui.explorer.TreeModelUMLEventListener/method/structureChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 10,
+        "endLine" : 54,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.TreeModelUMLEventListener"
+    },
+    "modelElementRemoved" : {
+      "name" : "modelElementRemoved",
+      "key" : "org.argouml.ui.explorer.TreeModelUMLEventListener/method/modelElementRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 10,
+        "endLine" : 48,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 37,
+          "endLine" : 48,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.TreeModelUMLEventListener/method/modelElementRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.TreeModelUMLEventListener"
+    },
+    "modelElementChanged" : {
+      "name" : "modelElementChanged",
+      "key" : "org.argouml.ui.explorer.TreeModelUMLEventListener/method/modelElementChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 10,
+        "endLine" : 38,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 37,
+          "endLine" : 38,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.TreeModelUMLEventListener/method/modelElementChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.TreeModelUMLEventListener"
+    },
+    "modelElementAdded" : {
+      "name" : "modelElementAdded",
+      "key" : "org.argouml.ui.explorer.TreeModelUMLEventListener/method/modelElementAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 10,
+        "endLine" : 43,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 43,
+          "startColumn" : 35,
+          "endLine" : 43,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.TreeModelUMLEventListener/method/modelElementAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.TreeModelUMLEventListener"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

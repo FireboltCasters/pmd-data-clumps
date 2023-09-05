@@ -1,0 +1,97 @@
+{
+  "name" : "ActionSetClassifierRoleMultiplicity",
+  "key" : "org.argouml.uml.ui.behavior.collaborations.ActionSetClassifierRoleMultiplicity",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "SINGLETON" : {
+      "name" : "SINGLETON",
+      "key" : "SINGLETON",
+      "type" : "org.argouml.uml.ui.behavior.collaborations.ActionSetClassifierRoleMultiplicity",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 62,
+        "endLine" : 39,
+        "endColumn" : 71
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.collaborations.ActionSetClassifierRoleMultiplicity/memberField/SINGLETON",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.ActionSetClassifierRoleMultiplicity"
+    }
+  },
+  "methods" : {
+    "setSelectedItem" : {
+      "name" : "setSelectedItem",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.ActionSetClassifierRoleMultiplicity/method/setSelectedItem",
+      "type" : "void",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 17,
+        "endLine" : 53,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 40,
+          "endLine" : 53,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.collaborations.ActionSetClassifierRoleMultiplicity/method/setSelectedItem"
+      }, {
+        "name" : "target",
+        "key" : "target",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 53,
+          "endLine" : 53,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.collaborations.ActionSetClassifierRoleMultiplicity/method/setSelectedItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.ActionSetClassifierRoleMultiplicity"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.ActionSetClassifierRoleMultiplicity/method/getInstance",
+      "type" : "org.argouml.uml.ui.behavior.collaborations.ActionSetClassifierRoleMultiplicity",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 55,
+        "endLine" : 77,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.ActionSetClassifierRoleMultiplicity"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.ActionSetMultiplicity" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

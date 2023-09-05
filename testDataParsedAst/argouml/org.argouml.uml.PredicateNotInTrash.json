@@ -1,0 +1,52 @@
+{
+  "name" : "PredicateNotInTrash",
+  "key" : "org.argouml.uml.PredicateNotInTrash",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "predicate" : {
+      "name" : "predicate",
+      "key" : "org.argouml.uml.PredicateNotInTrash/method/predicate",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 20,
+        "endLine" : 42,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 37,
+          "endLine" : 42,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.PredicateNotInTrash/method/predicate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.PredicateNotInTrash"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.tigris.gef.util.Predicate" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

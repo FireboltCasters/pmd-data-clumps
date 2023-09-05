@@ -1,0 +1,914 @@
+{
+  "name" : "ExplorerTreeModel",
+  "key" : "org.argouml.ui.explorer.ExplorerTreeModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 65,
+    "startColumn" : 8,
+    "endLine" : 65,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 740,
+        "startColumn" : 31,
+        "endLine" : 740,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.ExplorerTreeModel/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 33,
+        "endLine" : 70,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.ExplorerTreeModel/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "modelElementMap" : {
+      "name" : "modelElementMap",
+      "key" : "modelElementMap",
+      "type" : "java.util.Map",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 48,
+        "endLine" : 84,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.ExplorerTreeModel/memberField/modelElementMap",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "tree" : {
+      "name" : "tree",
+      "key" : "tree",
+      "type" : "ExplorerTree",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 26,
+        "endLine" : 103,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.ExplorerTreeModel/memberField/tree",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "nodeUpdater" : {
+      "name" : "nodeUpdater",
+      "key" : "nodeUpdater",
+      "type" : "org.argouml.ui.explorer.ExplorerTreeModel.ExplorerUpdater",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 29,
+        "endLine" : 101,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.ExplorerTreeModel/memberField/nodeUpdater",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "rules" : {
+      "name" : "rules",
+      "key" : "rules",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 35,
+        "endLine" : 78,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.ExplorerTreeModel/memberField/rules",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "updatingChildren" : {
+      "name" : "updatingChildren",
+      "key" : "updatingChildren",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 36,
+        "endLine" : 94,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.ExplorerTreeModel/memberField/updatingChildren",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "order" : {
+      "name" : "order",
+      "key" : "order",
+      "type" : "java.util.Comparator",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 24,
+        "endLine" : 89,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.explorer.ExplorerTreeModel/memberField/order",
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    }
+  },
+  "methods" : {
+    "updateChildren" : {
+      "name" : "updateChildren",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/updateChildren",
+      "type" : "void",
+      "position" : {
+        "startLine" : 293,
+        "startColumn" : 17,
+        "endLine" : 293,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "path",
+        "key" : "path",
+        "type" : "javax.swing.tree.TreePath",
+        "position" : {
+          "startLine" : 293,
+          "startColumn" : 41,
+          "endLine" : 293,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/updateChildren"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "itemStateChanged" : {
+      "name" : "itemStateChanged",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/itemStateChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 719,
+        "startColumn" : 17,
+        "endLine" : 719,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ItemEvent",
+        "position" : {
+          "startLine" : 719,
+          "startColumn" : 44,
+          "endLine" : 719,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/itemStateChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "findNodes" : {
+      "name" : "findNodes",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/findNodes",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 705,
+        "startColumn" : 42,
+        "endLine" : 705,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 705,
+          "startColumn" : 59,
+          "endLine" : 705,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/findNodes"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "traverseModified" : {
+      "name" : "traverseModified",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/traverseModified",
+      "type" : "void",
+      "position" : {
+        "startLine" : 234,
+        "startColumn" : 18,
+        "endLine" : 234,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "start",
+        "key" : "start",
+        "type" : "javax.swing.tree.TreeNode",
+        "position" : {
+          "startLine" : 234,
+          "startColumn" : 44,
+          "endLine" : 234,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/traverseModified"
+      }, {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 234,
+          "startColumn" : 58,
+          "endLine" : 234,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/traverseModified"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "collectChildren" : {
+      "name" : "collectChildren",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/collectChildren",
+      "type" : "void",
+      "position" : {
+        "startLine" : 429,
+        "startColumn" : 18,
+        "endLine" : 429,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 429,
+          "startColumn" : 41,
+          "endLine" : 429,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/collectChildren"
+      }, {
+        "name" : "newChildren",
+        "key" : "newChildren",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 429,
+          "startColumn" : 60,
+          "endLine" : 429,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/collectChildren"
+      }, {
+        "name" : "deps",
+        "key" : "deps",
+        "type" : "java.util.Set",
+        "position" : {
+          "startLine" : 430,
+          "startColumn" : 10,
+          "endLine" : 430,
+          "endColumn" : 14
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/collectChildren"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "modelElementAdded" : {
+      "name" : "modelElementAdded",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/modelElementAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 223,
+        "startColumn" : 17,
+        "endLine" : 223,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 223,
+          "startColumn" : 42,
+          "endLine" : 223,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/modelElementAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "structureChanged" : {
+      "name" : "structureChanged",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/structureChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 263,
+        "startColumn" : 17,
+        "endLine" : 263,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "modelElementRemoved" : {
+      "name" : "modelElementRemoved",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/modelElementRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 249,
+        "startColumn" : 17,
+        "endLine" : 249,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 249,
+          "startColumn" : 44,
+          "endLine" : 249,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/modelElementRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "insertNodeInto" : {
+      "name" : "insertNodeInto",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/insertNodeInto",
+      "type" : "void",
+      "position" : {
+        "startLine" : 615,
+        "startColumn" : 17,
+        "endLine" : 615,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newChild",
+        "key" : "newChild",
+        "type" : "javax.swing.tree.MutableTreeNode",
+        "position" : {
+          "startLine" : 615,
+          "startColumn" : 48,
+          "endLine" : 615,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/insertNodeInto"
+      }, {
+        "name" : "parent",
+        "key" : "parent",
+        "type" : "javax.swing.tree.MutableTreeNode",
+        "position" : {
+          "startLine" : 616,
+          "startColumn" : 27,
+          "endLine" : 616,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/insertNodeInto"
+      }, {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 616,
+          "startColumn" : 39,
+          "endLine" : 616,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/insertNodeInto"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "reorderChildren" : {
+      "name" : "reorderChildren",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/reorderChildren",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 335,
+        "startColumn" : 26,
+        "endLine" : 335,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "ExplorerTreeNode",
+        "position" : {
+          "startLine" : 335,
+          "startColumn" : 59,
+          "endLine" : 335,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/reorderChildren"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "getNodeUpdater" : {
+      "name" : "getNodeUpdater",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/getNodeUpdater",
+      "type" : "org.argouml.ui.explorer.ExplorerTreeModel.ExplorerUpdater",
+      "position" : {
+        "startLine" : 733,
+        "startColumn" : 21,
+        "endLine" : 733,
+        "endColumn" : 35
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "modelElementChanged" : {
+      "name" : "modelElementChanged",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/modelElementChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 216,
+        "startColumn" : 17,
+        "endLine" : 216,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 216,
+          "startColumn" : 44,
+          "endLine" : 216,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/modelElementChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "removeNodesFromMap" : {
+      "name" : "removeNodesFromMap",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/removeNodesFromMap",
+      "type" : "void",
+      "position" : {
+        "startLine" : 654,
+        "startColumn" : 18,
+        "endLine" : 654,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "ExplorerTreeNode",
+        "position" : {
+          "startLine" : 654,
+          "startColumn" : 54,
+          "endLine" : 654,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/removeNodesFromMap"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "addNodesToMap" : {
+      "name" : "addNodesToMap",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/addNodesToMap",
+      "type" : "void",
+      "position" : {
+        "startLine" : 640,
+        "startColumn" : 18,
+        "endLine" : 640,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "ExplorerTreeNode",
+        "position" : {
+          "startLine" : 640,
+          "startColumn" : 49,
+          "endLine" : 640,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/addNodesToMap"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "addToMap" : {
+      "name" : "addToMap",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/addToMap",
+      "type" : "void",
+      "position" : {
+        "startLine" : 671,
+        "startColumn" : 18,
+        "endLine" : 671,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 671,
+          "startColumn" : 34,
+          "endLine" : 671,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/addToMap"
+      }, {
+        "name" : "node",
+        "key" : "node",
+        "type" : "ExplorerTreeNode",
+        "position" : {
+          "startLine" : 671,
+          "startColumn" : 65,
+          "endLine" : 671,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/addToMap"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "removeFromMap" : {
+      "name" : "removeFromMap",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/removeFromMap",
+      "type" : "void",
+      "position" : {
+        "startLine" : 689,
+        "startColumn" : 18,
+        "endLine" : 689,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 689,
+          "startColumn" : 39,
+          "endLine" : 689,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/removeFromMap"
+      }, {
+        "name" : "node",
+        "key" : "node",
+        "type" : "ExplorerTreeNode",
+        "position" : {
+          "startLine" : 689,
+          "startColumn" : 70,
+          "endLine" : 689,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/removeFromMap"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "removeNodeFromParent" : {
+      "name" : "removeNodeFromParent",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/removeNodeFromParent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 627,
+        "startColumn" : 17,
+        "endLine" : 627,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "javax.swing.tree.MutableTreeNode",
+        "position" : {
+          "startLine" : 627,
+          "startColumn" : 54,
+          "endLine" : 627,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/removeNodeFromParent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "prepareAddRemoveSets" : {
+      "name" : "prepareAddRemoveSets",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/prepareAddRemoveSets",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 499,
+        "startColumn" : 17,
+        "endLine" : 499,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "children",
+        "key" : "children",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 499,
+          "startColumn" : 43,
+          "endLine" : 499,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/prepareAddRemoveSets"
+      }, {
+        "name" : "newChildren",
+        "key" : "newChildren",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 499,
+          "startColumn" : 58,
+          "endLine" : 499,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/prepareAddRemoveSets"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    },
+    "mergeChildren" : {
+      "name" : "mergeChildren",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel/method/mergeChildren",
+      "type" : "void",
+      "position" : {
+        "startLine" : 563,
+        "startColumn" : 18,
+        "endLine" : 563,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "ExplorerTreeNode",
+        "position" : {
+          "startLine" : 563,
+          "startColumn" : 49,
+          "endLine" : 563,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/mergeChildren"
+      }, {
+        "name" : "children",
+        "key" : "children",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 563,
+          "startColumn" : 60,
+          "endLine" : 563,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/mergeChildren"
+      }, {
+        "name" : "newChildren",
+        "key" : "newChildren",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 564,
+          "startColumn" : 16,
+          "endLine" : 564,
+          "endColumn" : 27
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel/method/mergeChildren"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "TreeModelUMLEventListener", "java.awt.event.ItemListener" ],
+  "extends_" : [ "javax.swing.tree.DefaultTreeModel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.ui.explorer.ExplorerTreeModel.ExplorerUpdater" : {
+      "name" : "ExplorerUpdater",
+      "key" : "org.argouml.ui.explorer.ExplorerTreeModel.ExplorerUpdater",
+      "type" : "class",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 5,
+        "endLine" : 109,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : {
+        "MAX_UPDATES_PER_RUN" : {
+          "name" : "MAX_UPDATES_PER_RUN",
+          "key" : "MAX_UPDATES_PER_RUN",
+          "type" : "int",
+          "position" : {
+            "startLine" : 124,
+            "startColumn" : 26,
+            "endLine" : 124,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.explorer.ExplorerTreeModel.ExplorerUpdater/memberField/MAX_UPDATES_PER_RUN",
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel.ExplorerUpdater"
+        },
+        "pendingUpdates" : {
+          "name" : "pendingUpdates",
+          "key" : "pendingUpdates",
+          "type" : "java.util.LinkedList",
+          "position" : {
+            "startLine" : 113,
+            "startColumn" : 39,
+            "endLine" : 113,
+            "endColumn" : 53
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.explorer.ExplorerTreeModel.ExplorerUpdater/memberField/pendingUpdates",
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel.ExplorerUpdater"
+        },
+        "hot" : {
+          "name" : "hot",
+          "key" : "hot",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 119,
+            "startColumn" : 18,
+            "endLine" : 119,
+            "endColumn" : 21
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.ui.explorer.ExplorerTreeModel.ExplorerUpdater/memberField/hot",
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel.ExplorerUpdater"
+        }
+      },
+      "methods" : {
+        "schedule" : {
+          "name" : "schedule",
+          "key" : "org.argouml.ui.explorer.ExplorerTreeModel.ExplorerUpdater/method/schedule",
+          "type" : "void",
+          "position" : {
+            "startLine" : 144,
+            "startColumn" : 27,
+            "endLine" : 144,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "node",
+            "key" : "node",
+            "type" : "ExplorerTreeNode",
+            "position" : {
+              "startLine" : 144,
+              "startColumn" : 53,
+              "endLine" : 144,
+              "endColumn" : 57
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.ui.explorer.ExplorerTreeModel.ExplorerUpdater/method/schedule"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel.ExplorerUpdater"
+        },
+        "run" : {
+          "name" : "run",
+          "key" : "org.argouml.ui.explorer.ExplorerTreeModel.ExplorerUpdater/method/run",
+          "type" : "void",
+          "position" : {
+            "startLine" : 162,
+            "startColumn" : 14,
+            "endLine" : 162,
+            "endColumn" : 17
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.ui.explorer.ExplorerTreeModel.ExplorerUpdater"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "java.lang.Runnable" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.ui.explorer.ExplorerTreeModel",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

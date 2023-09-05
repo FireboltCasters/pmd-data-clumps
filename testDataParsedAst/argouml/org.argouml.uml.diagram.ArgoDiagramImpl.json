@@ -1,0 +1,691 @@
+{
+  "name" : "ArgoDiagramImpl",
+  "key" : "org.argouml.uml.diagram.ArgoDiagramImpl",
+  "type" : "class",
+  "position" : {
+    "startLine" : 79,
+    "startColumn" : 17,
+    "endLine" : 79,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 23,
+        "endLine" : 151,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 33,
+        "endLine" : 87,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "namespace" : {
+      "name" : "namespace",
+      "key" : "namespace",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 22,
+        "endLine" : 109,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/memberField/namespace",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "project" : {
+      "name" : "project",
+      "key" : "project",
+      "type" : "org.argouml.kernel.Project",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 21,
+        "endLine" : 107,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/memberField/project",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "id" : {
+      "name" : "id",
+      "key" : "id",
+      "type" : "org.argouml.util.ItemUID",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 21,
+        "endLine" : 82,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/memberField/id",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    }
+  },
+  "methods" : {
+    "setName" : {
+      "name" : "setName",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/setName",
+      "type" : "void",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 17,
+        "endLine" : 132,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "n",
+        "key" : "n",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 132,
+          "startColumn" : 32,
+          "endLine" : 132,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/setName"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "damage" : {
+      "name" : "damage",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/damage",
+      "type" : "void",
+      "position" : {
+        "startLine" : 179,
+        "startColumn" : 17,
+        "endLine" : 179,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "repair" : {
+      "name" : "repair",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/repair",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 210,
+        "startColumn" : 19,
+        "endLine" : 210,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "getNodes" : {
+      "name" : "getNodes",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/getNodes",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 197,
+        "startColumn" : 17,
+        "endLine" : 197,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "getVetoMessage" : {
+      "name" : "getVetoMessage",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/getVetoMessage",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 19,
+        "endLine" : 154,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "propertyName",
+        "key" : "propertyName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 154,
+          "startColumn" : 41,
+          "endLine" : 154,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/getVetoMessage"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "presentationsFor" : {
+      "name" : "presentationsFor",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/presentationsFor",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 418,
+        "startColumn" : 17,
+        "endLine" : 418,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 418,
+          "startColumn" : 41,
+          "endLine" : 418,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/presentationsFor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "getItemUID" : {
+      "name" : "getItemUID",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/getItemUID",
+      "type" : "org.argouml.util.ItemUID",
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 20,
+        "endLine" : 143,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "figDescription" : {
+      "name" : "figDescription",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/figDescription",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 390,
+        "startColumn" : 20,
+        "endLine" : 390,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 390,
+          "startColumn" : 39,
+          "endLine" : 390,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/figDescription"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "getOwner" : {
+      "name" : "getOwner",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/getOwner",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 541,
+        "startColumn" : 19,
+        "endLine" : 541,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "remove" : {
+      "name" : "remove",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/remove",
+      "type" : "void",
+      "position" : {
+        "startLine" : 432,
+        "startColumn" : 17,
+        "endLine" : 432,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "getFigIterator" : {
+      "name" : "getFigIterator",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/getFigIterator",
+      "type" : "java.util.Iterator",
+      "position" : {
+        "startLine" : 545,
+        "startColumn" : 26,
+        "endLine" : 545,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "setModelElementNamespace" : {
+      "name" : "setModelElementNamespace",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/setModelElementNamespace",
+      "type" : "void",
+      "position" : {
+        "startLine" : 489,
+        "startColumn" : 17,
+        "endLine" : 489,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 489,
+          "startColumn" : 49,
+          "endLine" : 489,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/setModelElementNamespace"
+      }, {
+        "name" : "ns",
+        "key" : "ns",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 489,
+          "startColumn" : 70,
+          "endLine" : 489,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/setModelElementNamespace"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "getNamespace" : {
+      "name" : "getNamespace",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/getNamespace",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 462,
+        "startColumn" : 19,
+        "endLine" : 462,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "setProject" : {
+      "name" : "setProject",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/setProject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 444,
+        "startColumn" : 17,
+        "endLine" : 444,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "p",
+        "key" : "p",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 444,
+          "startColumn" : 36,
+          "endLine" : 444,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/setProject"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "setItemUID" : {
+      "name" : "setItemUID",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/setItemUID",
+      "type" : "void",
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 17,
+        "endLine" : 138,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "i",
+        "key" : "i",
+        "type" : "org.argouml.util.ItemUID",
+        "position" : {
+          "startLine" : 138,
+          "startColumn" : 36,
+          "endLine" : 138,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/setItemUID"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 205,
+        "startColumn" : 19,
+        "endLine" : 205,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "encloserChanged" : {
+      "name" : "encloserChanged",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/encloserChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 452,
+        "startColumn" : 26,
+        "endLine" : 452,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "enclosed",
+        "key" : "enclosed",
+        "type" : "org.tigris.gef.presentation.FigNode",
+        "position" : {
+          "startLine" : 453,
+          "startColumn" : 21,
+          "endLine" : 453,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/encloserChanged"
+      }, {
+        "name" : "oldEncloser",
+        "key" : "oldEncloser",
+        "type" : "org.tigris.gef.presentation.FigNode",
+        "position" : {
+          "startLine" : 453,
+          "startColumn" : 39,
+          "endLine" : 453,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/encloserChanged"
+      }, {
+        "name" : "newEncloser",
+        "key" : "newEncloser",
+        "type" : "org.tigris.gef.presentation.FigNode",
+        "position" : {
+          "startLine" : 453,
+          "startColumn" : 60,
+          "endLine" : 453,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/encloserChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 529,
+        "startColumn" : 17,
+        "endLine" : 529,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "evt",
+        "key" : "evt",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 529,
+          "startColumn" : 52,
+          "endLine" : 529,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "getEdges" : {
+      "name" : "getEdges",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/getEdges",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 189,
+        "startColumn" : 17,
+        "endLine" : 189,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "repairFig" : {
+      "name" : "repairFig",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/repairFig",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 233,
+        "startColumn" : 21,
+        "endLine" : 233,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 233,
+          "startColumn" : 35,
+          "endLine" : 233,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/repairFig"
+      }, {
+        "name" : "report",
+        "key" : "report",
+        "type" : "java.lang.StringBuffer",
+        "position" : {
+          "startLine" : 233,
+          "startColumn" : 51,
+          "endLine" : 233,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/repairFig"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "getDependentElement" : {
+      "name" : "getDependentElement",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/getDependentElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 457,
+        "startColumn" : 19,
+        "endLine" : 457,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "setNamespace" : {
+      "name" : "setNamespace",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/setNamespace",
+      "type" : "void",
+      "position" : {
+        "startLine" : 467,
+        "startColumn" : 17,
+        "endLine" : 467,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ns",
+        "key" : "ns",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 467,
+          "startColumn" : 37,
+          "endLine" : 467,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/setNamespace"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "getProject" : {
+      "name" : "getProject",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/getProject",
+      "type" : "org.argouml.kernel.Project",
+      "position" : {
+        "startLine" : 448,
+        "startColumn" : 23,
+        "endLine" : 448,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    },
+    "getContainingFig" : {
+      "name" : "getContainingFig",
+      "key" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/getContainingFig",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 162,
+        "startColumn" : 16,
+        "endLine" : 162,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 162,
+          "startColumn" : 40,
+          "endLine" : 162,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ArgoDiagramImpl/method/getContainingFig"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ArgoDiagramImpl"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.beans.PropertyChangeListener", "ArgoDiagram", "org.argouml.util.IItemUID" ],
+  "extends_" : [ "org.tigris.gef.base.Diagram" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

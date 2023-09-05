@@ -1,0 +1,230 @@
+{
+  "name" : "KeyEventUtils",
+  "key" : "org.argouml.util.KeyEventUtils",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "SHIFT_MODIFIER" : {
+      "name" : "SHIFT_MODIFIER",
+      "key" : "SHIFT_MODIFIER",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 32,
+        "endLine" : 48,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.KeyEventUtils/memberField/SHIFT_MODIFIER",
+      "classOrInterfaceKey" : "org.argouml.util.KeyEventUtils"
+    },
+    "CTRL_MODIFIER" : {
+      "name" : "CTRL_MODIFIER",
+      "key" : "CTRL_MODIFIER",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 32,
+        "endLine" : 52,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.KeyEventUtils/memberField/CTRL_MODIFIER",
+      "classOrInterfaceKey" : "org.argouml.util.KeyEventUtils"
+    },
+    "META_MODIFIER" : {
+      "name" : "META_MODIFIER",
+      "key" : "META_MODIFIER",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 32,
+        "endLine" : 56,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.KeyEventUtils/memberField/META_MODIFIER",
+      "classOrInterfaceKey" : "org.argouml.util.KeyEventUtils"
+    },
+    "ALT_MODIFIER" : {
+      "name" : "ALT_MODIFIER",
+      "key" : "ALT_MODIFIER",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 32,
+        "endLine" : 60,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.KeyEventUtils/memberField/ALT_MODIFIER",
+      "classOrInterfaceKey" : "org.argouml.util.KeyEventUtils"
+    },
+    "MODIFIER_JOINER" : {
+      "name" : "MODIFIER_JOINER",
+      "key" : "MODIFIER_JOINER",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 32,
+        "endLine" : 44,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.KeyEventUtils/memberField/MODIFIER_JOINER",
+      "classOrInterfaceKey" : "org.argouml.util.KeyEventUtils"
+    },
+    "ALT_GRAPH_MODIFIER" : {
+      "name" : "ALT_GRAPH_MODIFIER",
+      "key" : "ALT_GRAPH_MODIFIER",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 32,
+        "endLine" : 64,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.KeyEventUtils/memberField/ALT_GRAPH_MODIFIER",
+      "classOrInterfaceKey" : "org.argouml.util.KeyEventUtils"
+    }
+  },
+  "methods" : {
+    "formatKeyStroke" : {
+      "name" : "formatKeyStroke",
+      "key" : "org.argouml.util.KeyEventUtils/method/formatKeyStroke",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 229,
+        "startColumn" : 26,
+        "endLine" : 229,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "keyStroke",
+        "key" : "keyStroke",
+        "type" : "javax.swing.KeyStroke",
+        "position" : {
+          "startLine" : 229,
+          "startColumn" : 52,
+          "endLine" : 229,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.KeyEventUtils/method/formatKeyStroke"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.KeyEventUtils"
+    },
+    "getKeyText" : {
+      "name" : "getKeyText",
+      "key" : "org.argouml.util.KeyEventUtils/method/getKeyText",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 175,
+        "startColumn" : 26,
+        "endLine" : 175,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "keyCode",
+        "key" : "keyCode",
+        "type" : "int",
+        "position" : {
+          "startLine" : 175,
+          "startColumn" : 41,
+          "endLine" : 175,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.KeyEventUtils/method/getKeyText"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.KeyEventUtils"
+    },
+    "isActionEvent" : {
+      "name" : "isActionEvent",
+      "key" : "org.argouml.util.KeyEventUtils/method/isActionEvent",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 33,
+        "endLine" : 76,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "evt",
+        "key" : "evt",
+        "type" : "java.awt.event.KeyEvent",
+        "position" : {
+          "startLine" : 76,
+          "startColumn" : 56,
+          "endLine" : 76,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.KeyEventUtils/method/isActionEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.KeyEventUtils"
+    },
+    "getModifiersText" : {
+      "name" : "getModifiersText",
+      "key" : "org.argouml.util.KeyEventUtils/method/getModifiersText",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 202,
+        "startColumn" : 26,
+        "endLine" : 202,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modifiers",
+        "key" : "modifiers",
+        "type" : "int",
+        "position" : {
+          "startLine" : 202,
+          "startColumn" : 47,
+          "endLine" : 202,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.KeyEventUtils/method/getModifiersText"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.KeyEventUtils"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

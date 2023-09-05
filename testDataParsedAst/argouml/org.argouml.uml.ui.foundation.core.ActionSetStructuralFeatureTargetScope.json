@@ -1,0 +1,84 @@
+{
+  "name" : "ActionSetStructuralFeatureTargetScope",
+  "key" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureTargetScope",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "SINGLETON" : {
+      "name" : "SINGLETON",
+      "key" : "SINGLETON",
+      "type" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureTargetScope",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 64,
+        "endLine" : 42,
+        "endColumn" : 73
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureTargetScope/memberField/SINGLETON",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureTargetScope"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureTargetScope/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 17,
+        "endLine" : 58,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 45,
+          "endLine" : 58,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureTargetScope/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureTargetScope"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureTargetScope/method/getInstance",
+      "type" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureTargetScope",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 57,
+        "endLine" : 77,
+        "endColumn" : 68
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureTargetScope"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

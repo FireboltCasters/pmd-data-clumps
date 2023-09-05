@@ -1,0 +1,52 @@
+{
+  "name" : "ArgoDiagramAppearanceEventListener",
+  "key" : "org.argouml.application.events.ArgoDiagramAppearanceEventListener",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "diagramFontChanged" : {
+      "name" : "diagramFontChanged",
+      "key" : "org.argouml.application.events.ArgoDiagramAppearanceEventListener/method/diagramFontChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 17,
+        "endLine" : 41,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "ArgoDiagramAppearanceEvent",
+        "position" : {
+          "startLine" : 41,
+          "startColumn" : 63,
+          "endLine" : 41,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoDiagramAppearanceEventListener/method/diagramFontChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoDiagramAppearanceEventListener"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.application.api.ArgoEventListener" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

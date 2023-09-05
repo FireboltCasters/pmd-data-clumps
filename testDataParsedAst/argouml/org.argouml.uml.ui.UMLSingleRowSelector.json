@@ -1,0 +1,102 @@
+{
+  "name" : "UMLSingleRowSelector",
+  "key" : "org.argouml.uml.ui.UMLSingleRowSelector",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "scroll" : {
+      "name" : "scroll",
+      "key" : "scroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 25,
+        "endLine" : 47,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLSingleRowSelector/memberField/scroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLSingleRowSelector"
+    },
+    "preferredSize" : {
+      "name" : "preferredSize",
+      "key" : "preferredSize",
+      "type" : "java.awt.Dimension",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 23,
+        "endLine" : 49,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLSingleRowSelector/memberField/preferredSize",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLSingleRowSelector"
+    }
+  },
+  "methods" : {
+    "getMaximumSize" : {
+      "name" : "getMaximumSize",
+      "key" : "org.argouml.uml.ui.UMLSingleRowSelector/method/getMaximumSize",
+      "type" : "java.awt.Dimension",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 22,
+        "endLine" : 86,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLSingleRowSelector"
+    },
+    "getPreferredSize" : {
+      "name" : "getPreferredSize",
+      "key" : "org.argouml.uml.ui.UMLSingleRowSelector/method/getPreferredSize",
+      "type" : "java.awt.Dimension",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 22,
+        "endLine" : 96,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLSingleRowSelector"
+    },
+    "getMinimumSize" : {
+      "name" : "getMinimumSize",
+      "key" : "org.argouml.uml.ui.UMLSingleRowSelector/method/getMinimumSize",
+      "type" : "java.awt.Dimension",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 22,
+        "endLine" : 76,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLSingleRowSelector"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

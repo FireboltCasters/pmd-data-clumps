@@ -1,0 +1,415 @@
+{
+  "name" : "CollabDiagramGraphModel",
+  "key" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 366,
+        "startColumn" : 31,
+        "endLine" : 366,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 33,
+        "endLine" : 50,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel"
+    }
+  },
+  "methods" : {
+    "getPorts" : {
+      "name" : "getPorts",
+      "key" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/getPorts",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 17,
+        "endLine" : 84,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "nodeOrEdge",
+        "key" : "nodeOrEdge",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 84,
+          "startColumn" : 33,
+          "endLine" : 84,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/getPorts"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel"
+    },
+    "getInEdges" : {
+      "name" : "getInEdges",
+      "key" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/getInEdges",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 17,
+        "endLine" : 107,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "port",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 35,
+          "endLine" : 107,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/getInEdges"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel"
+    },
+    "addNode" : {
+      "name" : "addNode",
+      "key" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/addNode",
+      "type" : "void",
+      "position" : {
+        "startLine" : 236,
+        "startColumn" : 17,
+        "endLine" : 236,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 236,
+          "startColumn" : 32,
+          "endLine" : 236,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/addNode"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel"
+    },
+    "canAddNode" : {
+      "name" : "canAddNode",
+      "key" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/canAddNode",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 20,
+        "endLine" : 141,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 141,
+          "startColumn" : 38,
+          "endLine" : 141,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/canAddNode"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel"
+    },
+    "addNodeRelatedEdges" : {
+      "name" : "addNodeRelatedEdges",
+      "key" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/addNodeRelatedEdges",
+      "type" : "void",
+      "position" : {
+        "startLine" : 275,
+        "startColumn" : 17,
+        "endLine" : 275,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 275,
+          "startColumn" : 44,
+          "endLine" : 275,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/addNodeRelatedEdges"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel"
+    },
+    "setCollaboration" : {
+      "name" : "setCollaboration",
+      "key" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/setCollaboration",
+      "type" : "void",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "collaboration",
+        "key" : "collaboration",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 56,
+          "startColumn" : 41,
+          "endLine" : 56,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/setCollaboration"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel"
+    },
+    "canConnect" : {
+      "name" : "canConnect",
+      "key" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/canConnect",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 325,
+        "startColumn" : 20,
+        "endLine" : 325,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fromP",
+        "key" : "fromP",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 325,
+          "startColumn" : 38,
+          "endLine" : 325,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/canConnect"
+      }, {
+        "name" : "toP",
+        "key" : "toP",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 325,
+          "startColumn" : 52,
+          "endLine" : 325,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/canConnect"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel"
+    },
+    "getOwner" : {
+      "name" : "getOwner",
+      "key" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/getOwner",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 19,
+        "endLine" : 98,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "port",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 35,
+          "endLine" : 98,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/getOwner"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel"
+    },
+    "getOutEdges" : {
+      "name" : "getOutEdges",
+      "key" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/getOutEdges",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 17,
+        "endLine" : 128,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "port",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 128,
+          "startColumn" : 36,
+          "endLine" : 128,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/getOutEdges"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel"
+    },
+    "addEdge" : {
+      "name" : "addEdge",
+      "key" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/addEdge",
+      "type" : "void",
+      "position" : {
+        "startLine" : 257,
+        "startColumn" : 17,
+        "endLine" : 257,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "edge",
+        "key" : "edge",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 257,
+          "startColumn" : 32,
+          "endLine" : 257,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/addEdge"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel"
+    },
+    "canAddEdge" : {
+      "name" : "canAddEdge",
+      "key" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/canAddEdge",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 20,
+        "endLine" : 165,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "edge",
+        "key" : "edge",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 165,
+          "startColumn" : 38,
+          "endLine" : 165,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/canAddEdge"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel"
+    },
+    "vetoableChange" : {
+      "name" : "vetoableChange",
+      "key" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/vetoableChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 339,
+        "startColumn" : 17,
+        "endLine" : 339,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pce",
+        "key" : "pce",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 339,
+          "startColumn" : 52,
+          "endLine" : 339,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel/method/vetoableChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.beans.VetoableChangeListener" ],
+  "extends_" : [ "org.argouml.uml.diagram.UMLMutableGraphSupport" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

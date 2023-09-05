@@ -1,0 +1,139 @@
+{
+  "name" : "ActionAddExistingNodes",
+  "key" : "org.argouml.uml.diagram.ui.ActionAddExistingNodes",
+  "type" : "class",
+  "position" : {
+    "startLine" : 48,
+    "startColumn" : 8,
+    "endLine" : 48,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "objects" : {
+      "name" : "objects",
+      "key" : "objects",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 24,
+        "endLine" : 53,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionAddExistingNodes/memberField/objects",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddExistingNodes"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.diagram.ui.ActionAddExistingNodes/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 17,
+        "endLine" : 86,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 86,
+          "startColumn" : 45,
+          "endLine" : 86,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionAddExistingNodes/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddExistingNodes"
+    },
+    "addNodes" : {
+      "name" : "addNodes",
+      "key" : "org.argouml.uml.diagram.ui.ActionAddExistingNodes/method/addNodes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 24,
+        "endLine" : 112,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElements",
+        "key" : "modelElements",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 112,
+          "startColumn" : 44,
+          "endLine" : 112,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionAddExistingNodes/method/addNodes"
+      }, {
+        "name" : "location",
+        "key" : "location",
+        "type" : "java.awt.Point",
+        "position" : {
+          "startLine" : 113,
+          "startColumn" : 19,
+          "endLine" : 113,
+          "endColumn" : 27
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionAddExistingNodes/method/addNodes"
+      }, {
+        "name" : "diagram",
+        "key" : "diagram",
+        "type" : "org.argouml.uml.diagram.ArgoDiagram",
+        "position" : {
+          "startLine" : 113,
+          "startColumn" : 41,
+          "endLine" : 113,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionAddExistingNodes/method/addNodes"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddExistingNodes"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.uml.diagram.ui.ActionAddExistingNodes/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 20,
+        "endLine" : 70,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionAddExistingNodes"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

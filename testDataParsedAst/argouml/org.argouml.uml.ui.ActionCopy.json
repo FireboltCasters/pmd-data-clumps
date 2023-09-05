@@ -1,0 +1,159 @@
+{
+  "name" : "ActionCopy",
+  "key" : "org.argouml.uml.ui.ActionCopy",
+  "type" : "class",
+  "position" : {
+    "startLine" : 48,
+    "startColumn" : 8,
+    "endLine" : 48,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "instance" : {
+      "name" : "instance",
+      "key" : "instance",
+      "type" : "org.argouml.uml.ui.ActionCopy",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 31,
+        "endLine" : 53,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.ActionCopy/memberField/instance",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionCopy"
+    },
+    "textSource" : {
+      "name" : "textSource",
+      "key" : "textSource",
+      "type" : "javax.swing.text.JTextComponent",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 28,
+        "endLine" : 80,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.ActionCopy/memberField/textSource",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionCopy"
+    },
+    "LOCALIZE_KEY" : {
+      "name" : "LOCALIZE_KEY",
+      "key" : "LOCALIZE_KEY",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 33,
+        "endLine" : 55,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.ActionCopy/memberField/LOCALIZE_KEY",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionCopy"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.ActionCopy/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 17,
+        "endLine" : 85,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 45,
+          "endLine" : 85,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionCopy/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionCopy"
+    },
+    "caretUpdate" : {
+      "name" : "caretUpdate",
+      "key" : "org.argouml.uml.ui.ActionCopy/method/caretUpdate",
+      "type" : "void",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 17,
+        "endLine" : 105,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "javax.swing.event.CaretEvent",
+        "position" : {
+          "startLine" : 105,
+          "startColumn" : 40,
+          "endLine" : 105,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionCopy/method/caretUpdate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionCopy"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.uml.ui.ActionCopy/method/getInstance",
+      "type" : "org.argouml.uml.ui.ActionCopy",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 30,
+        "endLine" : 76,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionCopy"
+    },
+    "isSystemClipBoardEmpty" : {
+      "name" : "isSystemClipBoardEmpty",
+      "key" : "org.argouml.uml.ui.ActionCopy/method/isSystemClipBoardEmpty",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 21,
+        "endLine" : 115,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionCopy"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "javax.swing.event.CaretListener" ],
+  "extends_" : [ "javax.swing.AbstractAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

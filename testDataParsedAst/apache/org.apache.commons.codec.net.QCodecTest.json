@@ -1,0 +1,275 @@
+{
+  "name" : "QCodecTest",
+  "key" : "org.apache.commons.codec.net.QCodecTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "RUSSIAN_STUFF_UNICODE" : {
+      "name" : "RUSSIAN_STUFF_UNICODE",
+      "key" : "RUSSIAN_STUFF_UNICODE",
+      "type" : "int[]",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 22,
+        "endLine" : 36,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.net.QCodecTest/memberField/RUSSIAN_STUFF_UNICODE",
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.QCodecTest"
+    },
+    "SWISS_GERMAN_STUFF_UNICODE" : {
+      "name" : "SWISS_GERMAN_STUFF_UNICODE",
+      "key" : "SWISS_GERMAN_STUFF_UNICODE",
+      "type" : "int[]",
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 22,
+        "endLine" : 32,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.net.QCodecTest/memberField/SWISS_GERMAN_STUFF_UNICODE",
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.QCodecTest"
+    }
+  },
+  "methods" : {
+    "testEncodeStringWithNull" : {
+      "name" : "testEncodeStringWithNull",
+      "key" : "org.apache.commons.codec.net.QCodecTest/method/testEncodeStringWithNull",
+      "type" : "void",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 17,
+        "endLine" : 107,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.QCodecTest"
+    },
+    "testEncodeDecodeNull" : {
+      "name" : "testEncodeDecodeNull",
+      "key" : "org.apache.commons.codec.net.QCodecTest/method/testEncodeDecodeNull",
+      "type" : "void",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 17,
+        "endLine" : 99,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.QCodecTest"
+    },
+    "testEncodeDecodeBlanks" : {
+      "name" : "testEncodeDecodeBlanks",
+      "key" : "org.apache.commons.codec.net.QCodecTest/method/testEncodeDecodeBlanks",
+      "type" : "void",
+      "position" : {
+        "startLine" : 178,
+        "startColumn" : 17,
+        "endLine" : 178,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.QCodecTest"
+    },
+    "testLetUsMakeCloverHappy" : {
+      "name" : "testLetUsMakeCloverHappy",
+      "key" : "org.apache.commons.codec.net.QCodecTest/method/testLetUsMakeCloverHappy",
+      "type" : "void",
+      "position" : {
+        "startLine" : 196,
+        "startColumn" : 17,
+        "endLine" : 196,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.QCodecTest"
+    },
+    "testEncodeObjects" : {
+      "name" : "testEncodeObjects",
+      "key" : "org.apache.commons.codec.net.QCodecTest/method/testEncodeObjects",
+      "type" : "void",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 17,
+        "endLine" : 122,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.QCodecTest"
+    },
+    "testUTF8RoundTrip" : {
+      "name" : "testUTF8RoundTrip",
+      "key" : "org.apache.commons.codec.net.QCodecTest/method/testUTF8RoundTrip",
+      "type" : "void",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 17,
+        "endLine" : 61,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.QCodecTest"
+    },
+    "testNullInput" : {
+      "name" : "testNullInput",
+      "key" : "org.apache.commons.codec.net.QCodecTest/method/testNullInput",
+      "type" : "void",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 17,
+        "endLine" : 55,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.QCodecTest"
+    },
+    "constructString" : {
+      "name" : "constructString",
+      "key" : "org.apache.commons.codec.net.QCodecTest/method/constructString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 20,
+        "endLine" : 45,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "unicodeChars",
+        "key" : "unicodeChars",
+        "type" : "int[]",
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 43,
+          "endLine" : 45,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.net.QCodecTest/method/constructString"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.QCodecTest"
+    },
+    "testInvalidEncoding" : {
+      "name" : "testInvalidEncoding",
+      "key" : "org.apache.commons.codec.net.QCodecTest/method/testInvalidEncoding",
+      "type" : "void",
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 17,
+        "endLine" : 142,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.QCodecTest"
+    },
+    "testDecodeObjects" : {
+      "name" : "testDecodeObjects",
+      "key" : "org.apache.commons.codec.net.QCodecTest/method/testDecodeObjects",
+      "type" : "void",
+      "position" : {
+        "startLine" : 158,
+        "startColumn" : 17,
+        "endLine" : 158,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.QCodecTest"
+    },
+    "testDecodeStringWithNull" : {
+      "name" : "testDecodeStringWithNull",
+      "key" : "org.apache.commons.codec.net.QCodecTest/method/testDecodeStringWithNull",
+      "type" : "void",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 17,
+        "endLine" : 114,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.QCodecTest"
+    },
+    "testUnsafeEncodeDecode" : {
+      "name" : "testUnsafeEncodeDecode",
+      "key" : "org.apache.commons.codec.net.QCodecTest/method/testUnsafeEncodeDecode",
+      "type" : "void",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 17,
+        "endLine" : 89,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.QCodecTest"
+    },
+    "testBasicEncodeDecode" : {
+      "name" : "testBasicEncodeDecode",
+      "key" : "org.apache.commons.codec.net.QCodecTest/method/testBasicEncodeDecode",
+      "type" : "void",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 17,
+        "endLine" : 79,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.QCodecTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

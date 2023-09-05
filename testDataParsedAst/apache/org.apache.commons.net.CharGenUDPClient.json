@@ -1,0 +1,189 @@
+{
+  "name" : "CharGenUDPClient",
+  "key" : "org.apache.commons.net.CharGenUDPClient",
+  "type" : "class",
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 14,
+    "endLine" : 50,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "QUOTE_OF_DAY_PORT" : {
+      "name" : "QUOTE_OF_DAY_PORT",
+      "key" : "QUOTE_OF_DAY_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 29,
+        "endLine" : 57,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.CharGenUDPClient/memberField/QUOTE_OF_DAY_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenUDPClient"
+    },
+    "DEFAULT_PORT" : {
+      "name" : "DEFAULT_PORT",
+      "key" : "DEFAULT_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 29,
+        "endLine" : 61,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.CharGenUDPClient/memberField/DEFAULT_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenUDPClient"
+    },
+    "__sendPacket" : {
+      "name" : "__sendPacket",
+      "key" : "__sendPacket",
+      "type" : "java.net.DatagramPacket",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 28,
+        "endLine" : 65,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.CharGenUDPClient/memberField/__sendPacket",
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenUDPClient"
+    },
+    "NETSTAT_PORT" : {
+      "name" : "NETSTAT_PORT",
+      "key" : "NETSTAT_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 29,
+        "endLine" : 55,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.CharGenUDPClient/memberField/NETSTAT_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenUDPClient"
+    },
+    "__receivePacket" : {
+      "name" : "__receivePacket",
+      "key" : "__receivePacket",
+      "type" : "java.net.DatagramPacket",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 28,
+        "endLine" : 64,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.CharGenUDPClient/memberField/__receivePacket",
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenUDPClient"
+    },
+    "__receiveData" : {
+      "name" : "__receiveData",
+      "key" : "__receiveData",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 20,
+        "endLine" : 63,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.CharGenUDPClient/memberField/__receiveData",
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenUDPClient"
+    },
+    "SYSTAT_PORT" : {
+      "name" : "SYSTAT_PORT",
+      "key" : "SYSTAT_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 29,
+        "endLine" : 53,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.CharGenUDPClient/memberField/SYSTAT_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenUDPClient"
+    },
+    "CHARGEN_PORT" : {
+      "name" : "CHARGEN_PORT",
+      "key" : "CHARGEN_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 29,
+        "endLine" : 59,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.CharGenUDPClient/memberField/CHARGEN_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenUDPClient"
+    }
+  },
+  "methods" : {
+    "receive" : {
+      "name" : "receive",
+      "key" : "org.apache.commons.net.CharGenUDPClient/method/receive",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 19,
+        "endLine" : 111,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenUDPClient"
+    },
+    "send" : {
+      "name" : "send",
+      "key" : "org.apache.commons.net.CharGenUDPClient/method/send",
+      "type" : "void",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 17,
+        "endLine" : 98,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "host",
+        "key" : "host",
+        "type" : "java.net.InetAddress",
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 34,
+          "endLine" : 98,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.CharGenUDPClient/method/send"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenUDPClient"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "DatagramSocketClient" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

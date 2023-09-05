@@ -1,0 +1,81 @@
+{
+  "name" : "SelectionSignal",
+  "key" : "org.argouml.uml.diagram.static_structure.ui.SelectionSignal",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 1,
+    "endLine" : 33,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "getNewNodeType" : {
+      "name" : "getNewNodeType",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.SelectionSignal/method/getNewNodeType",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 22,
+        "endLine" : 48,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 41,
+          "endLine" : 48,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.SelectionSignal/method/getNewNodeType"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.SelectionSignal"
+    },
+    "getNewNode" : {
+      "name" : "getNewNode",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.SelectionSignal/method/getNewNode",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 22,
+        "endLine" : 44,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 37,
+          "endLine" : 44,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.SelectionSignal/method/getNewNode"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.SelectionSignal"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "SelectionGeneralizableElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

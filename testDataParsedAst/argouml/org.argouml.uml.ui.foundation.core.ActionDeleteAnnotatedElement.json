@@ -1,0 +1,52 @@
+{
+  "name" : "ActionDeleteAnnotatedElement",
+  "key" : "org.argouml.uml.ui.foundation.core.ActionDeleteAnnotatedElement",
+  "type" : "class",
+  "position" : {
+    "startLine" : 120,
+    "startColumn" : 1,
+    "endLine" : 120,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.foundation.core.ActionDeleteAnnotatedElement/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 17,
+        "endLine" : 132,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "arg0",
+        "key" : "arg0",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 132,
+          "startColumn" : 45,
+          "endLine" : 132,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.ActionDeleteAnnotatedElement/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.ActionDeleteAnnotatedElement"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionRemoveElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

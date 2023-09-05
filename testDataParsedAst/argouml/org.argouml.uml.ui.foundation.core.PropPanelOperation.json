@@ -1,0 +1,240 @@
+{
+  "name" : "PropPanelOperation",
+  "key" : "org.argouml.uml.ui.foundation.core.PropPanelOperation",
+  "type" : "class",
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 8,
+    "endLine" : 50,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 31,
+        "endLine" : 55,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation"
+    }
+  },
+  "methods" : {
+    "addRaisedSignal" : {
+      "name" : "addRaisedSignal",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelOperation/method/addRaisedSignal",
+      "type" : "void",
+      "position" : {
+        "startLine" : 136,
+        "startColumn" : 17,
+        "endLine" : 136,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation"
+    },
+    "getDisplayNamespace" : {
+      "name" : "getDisplayNamespace",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelOperation/method/getDisplayNamespace",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 256,
+        "startColumn" : 22,
+        "endLine" : 256,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation"
+    },
+    "addMethod" : {
+      "name" : "addMethod",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelOperation/method/addMethod",
+      "type" : "void",
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 17,
+        "endLine" : 155,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "PropPanelFeature" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewRaisedSignal" : {
+      "name" : "ActionNewRaisedSignal",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewRaisedSignal",
+      "type" : "class",
+      "position" : {
+        "startLine" : 168,
+        "startColumn" : 13,
+        "endLine" : 168,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "fields" : {
+        "serialVersionUID" : {
+          "name" : "serialVersionUID",
+          "key" : "serialVersionUID",
+          "type" : "long",
+          "position" : {
+            "startLine" : 173,
+            "startColumn" : 35,
+            "endLine" : 173,
+            "endColumn" : 51
+          },
+          "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewRaisedSignal/memberField/serialVersionUID",
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewRaisedSignal"
+        }
+      },
+      "methods" : {
+        "actionPerformed" : {
+          "name" : "actionPerformed",
+          "key" : "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewRaisedSignal/method/actionPerformed",
+          "type" : "void",
+          "position" : {
+            "startLine" : 190,
+            "startColumn" : 21,
+            "endLine" : 190,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "e",
+            "key" : "e",
+            "type" : "java.awt.event.ActionEvent",
+            "position" : {
+              "startLine" : 190,
+              "startColumn" : 49,
+              "endLine" : 190,
+              "endColumn" : 50
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewRaisedSignal/method/actionPerformed"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewRaisedSignal"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.uml.ui.AbstractActionNewModelElement" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewMethod" : {
+      "name" : "ActionNewMethod",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewMethod",
+      "type" : "class",
+      "position" : {
+        "startLine" : 200,
+        "startColumn" : 13,
+        "endLine" : 200,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "fields" : {
+        "serialVersionUID" : {
+          "name" : "serialVersionUID",
+          "key" : "serialVersionUID",
+          "type" : "long",
+          "position" : {
+            "startLine" : 205,
+            "startColumn" : 35,
+            "endLine" : 205,
+            "endColumn" : 51
+          },
+          "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewMethod/memberField/serialVersionUID",
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewMethod"
+        }
+      },
+      "methods" : {
+        "actionPerformed" : {
+          "name" : "actionPerformed",
+          "key" : "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewMethod/method/actionPerformed",
+          "type" : "void",
+          "position" : {
+            "startLine" : 238,
+            "startColumn" : 21,
+            "endLine" : 238,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "e",
+            "key" : "e",
+            "type" : "java.awt.event.ActionEvent",
+            "position" : {
+              "startLine" : 238,
+              "startColumn" : 49,
+              "endLine" : 238,
+              "endColumn" : 50
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewMethod/method/actionPerformed"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewMethod"
+        },
+        "isEnabled" : {
+          "name" : "isEnabled",
+          "key" : "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewMethod/method/isEnabled",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 222,
+            "startColumn" : 24,
+            "endLine" : 222,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation.ActionNewMethod"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.uml.ui.AbstractActionNewModelElement" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.foundation.core.PropPanelOperation",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

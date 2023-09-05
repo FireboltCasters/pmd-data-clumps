@@ -1,0 +1,81 @@
+{
+  "name" : "PerspectiveComboBox",
+  "key" : "org.argouml.ui.explorer.PerspectiveComboBox",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "addPerspective" : {
+      "name" : "addPerspective",
+      "key" : "org.argouml.ui.explorer.PerspectiveComboBox/method/addPerspective",
+      "type" : "void",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 17,
+        "endLine" : 52,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "perspective",
+        "key" : "perspective",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 39,
+          "endLine" : 52,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.PerspectiveComboBox/method/addPerspective"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveComboBox"
+    },
+    "removePerspective" : {
+      "name" : "removePerspective",
+      "key" : "org.argouml.ui.explorer.PerspectiveComboBox/method/removePerspective",
+      "type" : "void",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 17,
+        "endLine" : 59,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "perspective",
+        "key" : "perspective",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 59,
+          "startColumn" : 42,
+          "endLine" : 59,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.PerspectiveComboBox/method/removePerspective"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.PerspectiveComboBox"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "PerspectiveManagerListener" ],
+  "extends_" : [ "javax.swing.JComboBox" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

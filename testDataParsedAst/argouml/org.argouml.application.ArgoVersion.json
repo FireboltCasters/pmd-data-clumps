@@ -1,0 +1,70 @@
+{
+  "name" : "ArgoVersion",
+  "key" : "org.argouml.application.ArgoVersion",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 7,
+    "endLine" : 42,
+    "endColumn" : 12
+  },
+  "modifiers" : [ "FINAL" ],
+  "fields" : {
+    "STABLE_VERSION" : {
+      "name" : "STABLE_VERSION",
+      "key" : "STABLE_VERSION",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 33,
+        "endLine" : 47,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.ArgoVersion/memberField/STABLE_VERSION",
+      "classOrInterfaceKey" : "org.argouml.application.ArgoVersion"
+    },
+    "VERSION" : {
+      "name" : "VERSION",
+      "key" : "VERSION",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 33,
+        "endLine" : 46,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.ArgoVersion/memberField/VERSION",
+      "classOrInterfaceKey" : "org.argouml.application.ArgoVersion"
+    }
+  },
+  "methods" : {
+    "init" : {
+      "name" : "init",
+      "key" : "org.argouml.application.ArgoVersion/method/init",
+      "type" : "void",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 17,
+        "endLine" : 52,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.ArgoVersion"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

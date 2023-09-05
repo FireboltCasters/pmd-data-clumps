@@ -1,0 +1,39 @@
+{
+  "name" : "ArgoNotationEvent",
+  "key" : "org.argouml.application.events.ArgoNotationEvent",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getEventStartRange" : {
+      "name" : "getEventStartRange",
+      "key" : "org.argouml.application.events.ArgoNotationEvent/method/getEventStartRange",
+      "type" : "int",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 16,
+        "endLine" : 46,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoNotationEvent"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ArgoEvent" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

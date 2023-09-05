@@ -1,0 +1,55 @@
+{
+  "name" : "SplashPanel",
+  "key" : "org.argouml.ui.SplashPanel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 1,
+    "endLine" : 44,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "splashImage" : {
+      "name" : "splashImage",
+      "key" : "splashImage",
+      "type" : "javax.swing.ImageIcon",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 23,
+        "endLine" : 46,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SplashPanel/memberField/splashImage",
+      "classOrInterfaceKey" : "org.argouml.ui.SplashPanel"
+    }
+  },
+  "methods" : {
+    "getImage" : {
+      "name" : "getImage",
+      "key" : "org.argouml.ui.SplashPanel/method/getImage",
+      "type" : "javax.swing.ImageIcon",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 22,
+        "endLine" : 84,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SplashPanel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

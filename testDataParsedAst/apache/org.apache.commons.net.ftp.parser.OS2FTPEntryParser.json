@@ -1,0 +1,99 @@
+{
+  "name" : "OS2FTPEntryParser",
+  "key" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParser",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "DEFAULT_DATE_FORMAT" : {
+      "name" : "DEFAULT_DATE_FORMAT",
+      "key" : "DEFAULT_DATE_FORMAT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 33,
+        "endLine" : 34,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParser/memberField/DEFAULT_DATE_FORMAT",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParser"
+    },
+    "REGEX" : {
+      "name" : "REGEX",
+      "key" : "REGEX",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 33,
+        "endLine" : 39,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParser/memberField/REGEX",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParser"
+    }
+  },
+  "methods" : {
+    "parseFTPEntry" : {
+      "name" : "parseFTPEntry",
+      "key" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParser/method/parseFTPEntry",
+      "type" : "org.apache.commons.net.ftp.FTPFile",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 20,
+        "endLine" : 87,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "entry",
+        "key" : "entry",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 41,
+          "endLine" : 87,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParser/method/parseFTPEntry"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParser"
+    },
+    "getDefaultConfiguration" : {
+      "name" : "getDefaultConfiguration",
+      "key" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParser/method/getDefaultConfiguration",
+      "type" : "org.apache.commons.net.ftp.FTPClientConfig",
+      "position" : {
+        "startLine" : 137,
+        "startColumn" : 31,
+        "endLine" : 137,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParser"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ConfigurableFTPFileEntryParserImpl" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

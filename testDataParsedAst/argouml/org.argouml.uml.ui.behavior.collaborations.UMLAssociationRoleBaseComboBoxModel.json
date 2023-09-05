@@ -1,0 +1,158 @@
+{
+  "name" : "UMLAssociationRoleBaseComboBoxModel",
+  "key" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "others" : {
+      "name" : "others",
+      "key" : "others",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 24,
+        "endLine" : 42,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel/memberField/others",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel"
+    }
+  },
+  "methods" : {
+    "removeOtherModelEventListeners" : {
+      "name" : "removeOtherModelEventListeners",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel/method/removeOtherModelEventListeners",
+      "type" : "void",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 20,
+        "endLine" : 128,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "oldTarget",
+        "key" : "oldTarget",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 128,
+          "startColumn" : 58,
+          "endLine" : 128,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel/method/removeOtherModelEventListeners"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel"
+    },
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 20,
+        "endLine" : 55,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel"
+    },
+    "getSelectedModelElement" : {
+      "name" : "getSelectedModelElement",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel/method/getSelectedModelElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 22,
+        "endLine" : 72,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 23,
+        "endLine" : 87,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 45,
+          "endLine" : 87,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel"
+    },
+    "addOtherModelEventListeners" : {
+      "name" : "addOtherModelEventListeners",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel/method/addOtherModelEventListeners",
+      "type" : "void",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 20,
+        "endLine" : 108,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newTarget",
+        "key" : "newTarget",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 108,
+          "startColumn" : 55,
+          "endLine" : 108,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel/method/addOtherModelEventListeners"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLComboBoxModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

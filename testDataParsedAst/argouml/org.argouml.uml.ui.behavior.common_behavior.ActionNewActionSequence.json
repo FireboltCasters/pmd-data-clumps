@@ -1,0 +1,87 @@
+{
+  "name" : "ActionNewActionSequence",
+  "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionNewActionSequence",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "SINGLETON" : {
+      "name" : "SINGLETON",
+      "key" : "SINGLETON",
+      "type" : "org.argouml.uml.ui.behavior.common_behavior.ActionNewActionSequence",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 50,
+        "endLine" : 43,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionNewActionSequence/memberField/SINGLETON",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionNewActionSequence"
+    }
+  },
+  "methods" : {
+    "createAction" : {
+      "name" : "createAction",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionNewActionSequence/method/createAction",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 22,
+        "endLine" : 59,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionNewActionSequence"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionNewActionSequence/method/getInstance",
+      "type" : "org.argouml.uml.ui.behavior.common_behavior.ActionNewActionSequence",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 43,
+        "endLine" : 67,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionNewActionSequence"
+    },
+    "getButtonInstance" : {
+      "name" : "getButtonInstance",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionNewActionSequence/method/getButtonInstance",
+      "type" : "ActionNewAction",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 35,
+        "endLine" : 71,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionNewActionSequence"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ActionNewAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

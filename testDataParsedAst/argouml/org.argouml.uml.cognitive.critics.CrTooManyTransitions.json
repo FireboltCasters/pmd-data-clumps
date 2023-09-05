@@ -1,0 +1,112 @@
+{
+  "name" : "CrTooManyTransitions",
+  "key" : "org.argouml.uml.cognitive.critics.CrTooManyTransitions",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 31,
+        "endLine" : 88,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.CrTooManyTransitions/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrTooManyTransitions"
+    },
+    "TRANSITIONS_THRESHOLD" : {
+      "name" : "TRANSITIONS_THRESHOLD",
+      "key" : "TRANSITIONS_THRESHOLD",
+      "type" : "int",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 30,
+        "endLine" : 43,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.CrTooManyTransitions/memberField/TRANSITIONS_THRESHOLD",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrTooManyTransitions"
+    }
+  },
+  "methods" : {
+    "predicate2" : {
+      "name" : "predicate2",
+      "key" : "org.argouml.uml.cognitive.critics.CrTooManyTransitions/method/predicate2",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 20,
+        "endLine" : 61,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 38,
+          "endLine" : 61,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrTooManyTransitions/method/predicate2"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 51,
+          "endLine" : 61,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrTooManyTransitions/method/predicate2"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrTooManyTransitions"
+    },
+    "getCriticizedDesignMaterials" : {
+      "name" : "getCriticizedDesignMaterials",
+      "key" : "org.argouml.uml.cognitive.critics.CrTooManyTransitions/method/getCriticizedDesignMaterials",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 24,
+        "endLine" : 79,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrTooManyTransitions"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbstractCrTooMany" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

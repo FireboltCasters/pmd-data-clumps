@@ -1,0 +1,38 @@
+{
+  "name" : "PersistenceException",
+  "key" : "org.argouml.persistence.PersistenceException",
+  "type" : "class",
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 1,
+    "endLine" : 32,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 31,
+        "endLine" : 68,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.PersistenceException/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.persistence.PersistenceException"
+    }
+  },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.lang.Exception" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

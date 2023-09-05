@@ -1,0 +1,110 @@
+{
+  "name" : "PredicateMType",
+  "key" : "org.argouml.ui.PredicateMType",
+  "type" : "class",
+  "position" : {
+    "startLine" : 702,
+    "startColumn" : 1,
+    "endLine" : 702,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 789,
+        "startColumn" : 31,
+        "endLine" : 789,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.PredicateMType/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.PredicateMType"
+    }
+  },
+  "methods" : {
+    "create" : {
+      "name" : "create",
+      "key" : "org.argouml.ui.PredicateMType/method/create",
+      "type" : "org.argouml.util.PredicateType",
+      "position" : {
+        "startLine" : 765,
+        "startColumn" : 33,
+        "endLine" : 765,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c0",
+        "key" : "c0",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 765,
+          "startColumn" : 47,
+          "endLine" : 765,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.PredicateMType/method/create"
+      }, {
+        "name" : "c1",
+        "key" : "c1",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 765,
+          "startColumn" : 58,
+          "endLine" : 765,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.PredicateMType/method/create"
+      }, {
+        "name" : "c2",
+        "key" : "c2",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 765,
+          "startColumn" : 69,
+          "endLine" : 765,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.PredicateMType/method/create"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.PredicateMType"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.ui.PredicateMType/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 775,
+        "startColumn" : 19,
+        "endLine" : 775,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.PredicateMType"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.util.PredicateType" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

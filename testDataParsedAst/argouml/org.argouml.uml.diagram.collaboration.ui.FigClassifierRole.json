@@ -1,0 +1,542 @@
+{
+  "name" : "FigClassifierRole",
+  "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole",
+  "type" : "class",
+  "position" : {
+    "startLine" : 60,
+    "startColumn" : 8,
+    "endLine" : 60,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "cover" : {
+      "name" : "cover",
+      "key" : "cover",
+      "type" : "org.tigris.gef.presentation.FigRect",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 21,
+        "endLine" : 73,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/memberField/cover",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "PADDING" : {
+      "name" : "PADDING",
+      "key" : "PADDING",
+      "type" : "int",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 30,
+        "endLine" : 65,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/memberField/PADDING",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "notationProvider" : {
+      "name" : "notationProvider",
+      "key" : "notationProvider",
+      "type" : "org.argouml.notation.NotationProvider",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 30,
+        "endLine" : 67,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/memberField/notationProvider",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    }
+  },
+  "methods" : {
+    "textEdited" : {
+      "name" : "textEdited",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/textEdited",
+      "type" : "void",
+      "position" : {
+        "startLine" : 396,
+        "startColumn" : 20,
+        "endLine" : 396,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ft",
+        "key" : "ft",
+        "type" : "org.tigris.gef.presentation.FigText",
+        "position" : {
+          "startLine" : 396,
+          "startColumn" : 39,
+          "endLine" : 396,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/textEdited"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "textEditStarted" : {
+      "name" : "textEditStarted",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/textEditStarted",
+      "type" : "void",
+      "position" : {
+        "startLine" : 408,
+        "startColumn" : 20,
+        "endLine" : 408,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ft",
+        "key" : "ft",
+        "type" : "org.tigris.gef.presentation.FigText",
+        "position" : {
+          "startLine" : 408,
+          "startColumn" : 44,
+          "endLine" : 408,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/textEditStarted"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "updateStereotypeText" : {
+      "name" : "updateStereotypeText",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/updateStereotypeText",
+      "type" : "void",
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 20,
+        "endLine" : 194,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "updateLayout" : {
+      "name" : "updateLayout",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/updateLayout",
+      "type" : "void",
+      "position" : {
+        "startLine" : 440,
+        "startColumn" : 20,
+        "endLine" : 440,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "org.argouml.model.UmlChangeEvent",
+        "position" : {
+          "startLine" : 440,
+          "startColumn" : 48,
+          "endLine" : 440,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/updateLayout"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "makeSelection" : {
+      "name" : "makeSelection",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/makeSelection",
+      "type" : "org.tigris.gef.base.Selection",
+      "position" : {
+        "startLine" : 455,
+        "startColumn" : 22,
+        "endLine" : 455,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "setLineColor" : {
+      "name" : "setLineColor",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/setLineColor",
+      "type" : "void",
+      "position" : {
+        "startLine" : 228,
+        "startColumn" : 17,
+        "endLine" : 228,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "col",
+        "key" : "col",
+        "type" : "java.awt.Color",
+        "position" : {
+          "startLine" : 228,
+          "startColumn" : 36,
+          "endLine" : 228,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/setLineColor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "getLineColor" : {
+      "name" : "getLineColor",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/getLineColor",
+      "type" : "java.awt.Color",
+      "position" : {
+        "startLine" : 236,
+        "startColumn" : 18,
+        "endLine" : 236,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "initNotationProviders" : {
+      "name" : "initNotationProviders",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/initNotationProviders",
+      "type" : "void",
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 20,
+        "endLine" : 153,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "own",
+        "key" : "own",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 153,
+          "startColumn" : 49,
+          "endLine" : 153,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/initNotationProviders"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "setLineWidth" : {
+      "name" : "setLineWidth",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/setLineWidth",
+      "type" : "void",
+      "position" : {
+        "startLine" : 274,
+        "startColumn" : 17,
+        "endLine" : 274,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "w",
+        "key" : "w",
+        "type" : "int",
+        "position" : {
+          "startLine" : 274,
+          "startColumn" : 34,
+          "endLine" : 274,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/setLineWidth"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "setFillColor" : {
+      "name" : "setFillColor",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/setFillColor",
+      "type" : "void",
+      "position" : {
+        "startLine" : 244,
+        "startColumn" : 17,
+        "endLine" : 244,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "col",
+        "key" : "col",
+        "type" : "java.awt.Color",
+        "position" : {
+          "startLine" : 244,
+          "startColumn" : 36,
+          "endLine" : 244,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/setFillColor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "setFilled" : {
+      "name" : "setFilled",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/setFilled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 260,
+        "startColumn" : 17,
+        "endLine" : 260,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 260,
+          "startColumn" : 35,
+          "endLine" : 260,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/setFilled"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "updateNameText" : {
+      "name" : "updateNameText",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/updateNameText",
+      "type" : "void",
+      "position" : {
+        "startLine" : 420,
+        "startColumn" : 20,
+        "endLine" : 420,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "modelChanged" : {
+      "name" : "modelChanged",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/modelChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 431,
+        "startColumn" : 20,
+        "endLine" : 431,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "mee",
+        "key" : "mee",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 431,
+          "startColumn" : 53,
+          "endLine" : 431,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/modelChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "getLineWidth" : {
+      "name" : "getLineWidth",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/getLineWidth",
+      "type" : "int",
+      "position" : {
+        "startLine" : 282,
+        "startColumn" : 16,
+        "endLine" : 282,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "getFillColor" : {
+      "name" : "getFillColor",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/getFillColor",
+      "type" : "java.awt.Color",
+      "position" : {
+        "startLine" : 252,
+        "startColumn" : 18,
+        "endLine" : 252,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "getMinimumSize" : {
+      "name" : "getMinimumSize",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/getMinimumSize",
+      "type" : "java.awt.Dimension",
+      "position" : {
+        "startLine" : 297,
+        "startColumn" : 22,
+        "endLine" : 297,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "clone" : {
+      "name" : "clone",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/clone",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 19,
+        "endLine" : 172,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "isFilled" : {
+      "name" : "isFilled",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/isFilled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 266,
+        "startColumn" : 20,
+        "endLine" : 266,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    },
+    "setStandardBounds" : {
+      "name" : "setStandardBounds",
+      "key" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/setStandardBounds",
+      "type" : "void",
+      "position" : {
+        "startLine" : 336,
+        "startColumn" : 20,
+        "endLine" : 336,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "x",
+        "key" : "x",
+        "type" : "int",
+        "position" : {
+          "startLine" : 336,
+          "startColumn" : 42,
+          "endLine" : 336,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/setStandardBounds"
+      }, {
+        "name" : "y",
+        "key" : "y",
+        "type" : "int",
+        "position" : {
+          "startLine" : 336,
+          "startColumn" : 49,
+          "endLine" : 336,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/setStandardBounds"
+      }, {
+        "name" : "w",
+        "key" : "w",
+        "type" : "int",
+        "position" : {
+          "startLine" : 336,
+          "startColumn" : 56,
+          "endLine" : 336,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/setStandardBounds"
+      }, {
+        "name" : "h",
+        "key" : "h",
+        "type" : "int",
+        "position" : {
+          "startLine" : 336,
+          "startColumn" : 63,
+          "endLine" : 336,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole/method/setStandardBounds"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.collaboration.ui.FigClassifierRole"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.diagram.ui.FigNodeModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

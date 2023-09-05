@@ -1,0 +1,22 @@
+{
+  "name" : "TabModelTarget",
+  "key" : "org.argouml.ui.TabModelTarget",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "TabTarget" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

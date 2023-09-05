@@ -1,0 +1,86 @@
+{
+  "name" : "PropPanelEnumeration",
+  "key" : "org.argouml.uml.ui.foundation.core.PropPanelEnumeration",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "literalsScroll" : {
+      "name" : "literalsScroll",
+      "key" : "literalsScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 25,
+        "endLine" : 38,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelEnumeration/memberField/literalsScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelEnumeration"
+    },
+    "literalsListModel" : {
+      "name" : "literalsListModel",
+      "key" : "literalsListModel",
+      "type" : "UMLEnumerationLiteralsListModel",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 52,
+        "endLine" : 40,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelEnumeration/memberField/literalsListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelEnumeration"
+    }
+  },
+  "methods" : {
+    "addEnumerationButtons" : {
+      "name" : "addEnumerationButtons",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelEnumeration/method/addEnumerationButtons",
+      "type" : "void",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 20,
+        "endLine" : 56,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelEnumeration"
+    },
+    "getLiteralsScroll" : {
+      "name" : "getLiteralsScroll",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelEnumeration/method/getLiteralsScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 24,
+        "endLine" : 66,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelEnumeration"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "PropPanelDataType" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,39 @@
+{
+  "name" : "ModeCreateDependency",
+  "key" : "org.argouml.uml.diagram.ui.ModeCreateDependency",
+  "type" : "class",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getMetaType" : {
+      "name" : "getMetaType",
+      "key" : "org.argouml.uml.diagram.ui.ModeCreateDependency/method/getMetaType",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 22,
+        "endLine" : 41,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ModeCreateDependency"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ModeCreateGraphEdge" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

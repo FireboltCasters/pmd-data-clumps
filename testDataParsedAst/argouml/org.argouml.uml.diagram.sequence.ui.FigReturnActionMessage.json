@@ -1,0 +1,68 @@
+{
+  "name" : "FigReturnActionMessage",
+  "key" : "org.argouml.uml.diagram.sequence.ui.FigReturnActionMessage",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 31,
+        "endLine" : 35,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.FigReturnActionMessage/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.FigReturnActionMessage"
+    }
+  },
+  "methods" : {
+    "setFig" : {
+      "name" : "setFig",
+      "key" : "org.argouml.uml.diagram.sequence.ui.FigReturnActionMessage/method/setFig",
+      "type" : "void",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 17,
+        "endLine" : 51,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 28,
+          "endLine" : 51,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.FigReturnActionMessage/method/setFig"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.FigReturnActionMessage"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "FigMessage" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

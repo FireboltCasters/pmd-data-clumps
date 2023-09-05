@@ -1,0 +1,2001 @@
+{
+  "name" : "JavaLexer",
+  "key" : "org.argouml.language.java.generator.JavaLexer",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "_tokenSet_2" : {
+      "name" : "_tokenSet_2",
+      "key" : "_tokenSet_2",
+      "type" : "antlr.collections.impl.BitSet",
+      "position" : {
+        "startLine" : 1924,
+        "startColumn" : 29,
+        "endLine" : 1924,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.language.java.generator.JavaLexer/memberField/_tokenSet_2",
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "_tokenSet_1" : {
+      "name" : "_tokenSet_1",
+      "key" : "_tokenSet_1",
+      "type" : "antlr.collections.impl.BitSet",
+      "position" : {
+        "startLine" : 1916,
+        "startColumn" : 29,
+        "endLine" : 1916,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.language.java.generator.JavaLexer/memberField/_tokenSet_1",
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "_tokenSet_0" : {
+      "name" : "_tokenSet_0",
+      "key" : "_tokenSet_0",
+      "type" : "antlr.collections.impl.BitSet",
+      "position" : {
+        "startLine" : 1907,
+        "startColumn" : 29,
+        "endLine" : 1907,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.language.java.generator.JavaLexer/memberField/_tokenSet_0",
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "_tokenSet_6" : {
+      "name" : "_tokenSet_6",
+      "key" : "_tokenSet_6",
+      "type" : "antlr.collections.impl.BitSet",
+      "position" : {
+        "startLine" : 1956,
+        "startColumn" : 29,
+        "endLine" : 1956,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.language.java.generator.JavaLexer/memberField/_tokenSet_6",
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "_tokenSet_5" : {
+      "name" : "_tokenSet_5",
+      "key" : "_tokenSet_5",
+      "type" : "antlr.collections.impl.BitSet",
+      "position" : {
+        "startLine" : 1950,
+        "startColumn" : 29,
+        "endLine" : 1950,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.language.java.generator.JavaLexer/memberField/_tokenSet_5",
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "_tokenSet_4" : {
+      "name" : "_tokenSet_4",
+      "key" : "_tokenSet_4",
+      "type" : "antlr.collections.impl.BitSet",
+      "position" : {
+        "startLine" : 1941,
+        "startColumn" : 29,
+        "endLine" : 1941,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.language.java.generator.JavaLexer/memberField/_tokenSet_4",
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "_tokenSet_3" : {
+      "name" : "_tokenSet_3",
+      "key" : "_tokenSet_3",
+      "type" : "antlr.collections.impl.BitSet",
+      "position" : {
+        "startLine" : 1932,
+        "startColumn" : 29,
+        "endLine" : 1932,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.language.java.generator.JavaLexer/memberField/_tokenSet_3",
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "_tokenSet_8" : {
+      "name" : "_tokenSet_8",
+      "key" : "_tokenSet_8",
+      "type" : "antlr.collections.impl.BitSet",
+      "position" : {
+        "startLine" : 1970,
+        "startColumn" : 29,
+        "endLine" : 1970,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.language.java.generator.JavaLexer/memberField/_tokenSet_8",
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "_tokenSet_7" : {
+      "name" : "_tokenSet_7",
+      "key" : "_tokenSet_7",
+      "type" : "antlr.collections.impl.BitSet",
+      "position" : {
+        "startLine" : 1963,
+        "startColumn" : 29,
+        "endLine" : 1963,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.language.java.generator.JavaLexer/memberField/_tokenSet_7",
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    }
+  },
+  "methods" : {
+    "mLCURLY" : {
+      "name" : "mLCURLY",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mLCURLY",
+      "type" : "void",
+      "position" : {
+        "startLine" : 444,
+        "startColumn" : 20,
+        "endLine" : 444,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 444,
+          "startColumn" : 36,
+          "endLine" : 444,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mLCURLY"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mBNOT" : {
+      "name" : "mBNOT",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mBNOT",
+      "type" : "void",
+      "position" : {
+        "startLine" : 535,
+        "startColumn" : 20,
+        "endLine" : 535,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 535,
+          "startColumn" : 34,
+          "endLine" : 535,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mBNOT"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mBXOR_ASSIGN" : {
+      "name" : "mBXOR_ASSIGN",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mBXOR_ASSIGN",
+      "type" : "void",
+      "position" : {
+        "startLine" : 860,
+        "startColumn" : 20,
+        "endLine" : 860,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 860,
+          "startColumn" : 41,
+          "endLine" : 860,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mBXOR_ASSIGN"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mINC" : {
+      "name" : "mINC",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mINC",
+      "type" : "void",
+      "position" : {
+        "startLine" : 613,
+        "startColumn" : 20,
+        "endLine" : 613,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 613,
+          "startColumn" : 33,
+          "endLine" : 613,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mINC"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mRCURLY" : {
+      "name" : "mRCURLY",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mRCURLY",
+      "type" : "void",
+      "position" : {
+        "startLine" : 457,
+        "startColumn" : 20,
+        "endLine" : 457,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 457,
+          "startColumn" : 36,
+          "endLine" : 457,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mRCURLY"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mLBRACK" : {
+      "name" : "mLBRACK",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mLBRACK",
+      "type" : "void",
+      "position" : {
+        "startLine" : 418,
+        "startColumn" : 20,
+        "endLine" : 418,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 418,
+          "startColumn" : 36,
+          "endLine" : 418,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mLBRACK"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mML_COMMENT" : {
+      "name" : "mML_COMMENT",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mML_COMMENT",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1118,
+        "startColumn" : 20,
+        "endLine" : 1118,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1118,
+          "startColumn" : 40,
+          "endLine" : 1118,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mML_COMMENT"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mSL" : {
+      "name" : "mSL",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mSL",
+      "type" : "void",
+      "position" : {
+        "startLine" : 795,
+        "startColumn" : 20,
+        "endLine" : 795,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 795,
+          "startColumn" : 32,
+          "endLine" : 795,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mSL"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mSL_COMMENT" : {
+      "name" : "mSL_COMMENT",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mSL_COMMENT",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1020,
+        "startColumn" : 20,
+        "endLine" : 1020,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1020,
+          "startColumn" : 40,
+          "endLine" : 1020,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mSL_COMMENT"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mRBRACK" : {
+      "name" : "mRBRACK",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mRBRACK",
+      "type" : "void",
+      "position" : {
+        "startLine" : 431,
+        "startColumn" : 20,
+        "endLine" : 431,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 431,
+          "startColumn" : 36,
+          "endLine" : 431,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mRBRACK"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mWS" : {
+      "name" : "mWS",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mWS",
+      "type" : "void",
+      "position" : {
+        "startLine" : 964,
+        "startColumn" : 20,
+        "endLine" : 964,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 964,
+          "startColumn" : 32,
+          "endLine" : 964,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mWS"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mSTRING_LITERAL" : {
+      "name" : "mSTRING_LITERAL",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mSTRING_LITERAL",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1347,
+        "startColumn" : 20,
+        "endLine" : 1347,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1347,
+          "startColumn" : 44,
+          "endLine" : 1347,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mSTRING_LITERAL"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mGE" : {
+      "name" : "mGE",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mGE",
+      "type" : "void",
+      "position" : {
+        "startLine" : 769,
+        "startColumn" : 20,
+        "endLine" : 769,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 769,
+          "startColumn" : 32,
+          "endLine" : 769,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mGE"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mNOT_EQUAL" : {
+      "name" : "mNOT_EQUAL",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mNOT_EQUAL",
+      "type" : "void",
+      "position" : {
+        "startLine" : 548,
+        "startColumn" : 20,
+        "endLine" : 548,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 548,
+          "startColumn" : 39,
+          "endLine" : 548,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mNOT_EQUAL"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mSR" : {
+      "name" : "mSR",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mSR",
+      "type" : "void",
+      "position" : {
+        "startLine" : 717,
+        "startColumn" : 20,
+        "endLine" : 717,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 717,
+          "startColumn" : 32,
+          "endLine" : 717,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mSR"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mLOR" : {
+      "name" : "mLOR",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mLOR",
+      "type" : "void",
+      "position" : {
+        "startLine" : 899,
+        "startColumn" : 20,
+        "endLine" : 899,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 899,
+          "startColumn" : 33,
+          "endLine" : 899,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mLOR"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mPLUS_ASSIGN" : {
+      "name" : "mPLUS_ASSIGN",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mPLUS_ASSIGN",
+      "type" : "void",
+      "position" : {
+        "startLine" : 600,
+        "startColumn" : 20,
+        "endLine" : 600,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 600,
+          "startColumn" : 41,
+          "endLine" : 600,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mPLUS_ASSIGN"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mNUM_INT" : {
+      "name" : "mNUM_INT",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mNUM_INT",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1539,
+        "startColumn" : 20,
+        "endLine" : 1539,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1539,
+          "startColumn" : 37,
+          "endLine" : 1539,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mNUM_INT"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mQUESTION" : {
+      "name" : "mQUESTION",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mQUESTION",
+      "type" : "void",
+      "position" : {
+        "startLine" : 379,
+        "startColumn" : 20,
+        "endLine" : 379,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 379,
+          "startColumn" : 38,
+          "endLine" : 379,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mQUESTION"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mSTAR" : {
+      "name" : "mSTAR",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mSTAR",
+      "type" : "void",
+      "position" : {
+        "startLine" : 665,
+        "startColumn" : 20,
+        "endLine" : 665,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 665,
+          "startColumn" : 34,
+          "endLine" : 665,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mSTAR"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mk_tokenSet_2" : {
+      "name" : "mk_tokenSet_2",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mk_tokenSet_2",
+      "type" : "long[]",
+      "position" : {
+        "startLine" : 1917,
+        "startColumn" : 30,
+        "endLine" : 1917,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mSTAR_ASSIGN" : {
+      "name" : "mSTAR_ASSIGN",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mSTAR_ASSIGN",
+      "type" : "void",
+      "position" : {
+        "startLine" : 678,
+        "startColumn" : 20,
+        "endLine" : 678,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 678,
+          "startColumn" : 41,
+          "endLine" : 678,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mSTAR_ASSIGN"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mk_tokenSet_1" : {
+      "name" : "mk_tokenSet_1",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mk_tokenSet_1",
+      "type" : "long[]",
+      "position" : {
+        "startLine" : 1908,
+        "startColumn" : 30,
+        "endLine" : 1908,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mk_tokenSet_4" : {
+      "name" : "mk_tokenSet_4",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mk_tokenSet_4",
+      "type" : "long[]",
+      "position" : {
+        "startLine" : 1933,
+        "startColumn" : 30,
+        "endLine" : 1933,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mGT" : {
+      "name" : "mGT",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mGT",
+      "type" : "void",
+      "position" : {
+        "startLine" : 782,
+        "startColumn" : 20,
+        "endLine" : 782,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 782,
+          "startColumn" : 32,
+          "endLine" : 782,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mGT"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mJAVADOC" : {
+      "name" : "mJAVADOC",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mJAVADOC",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1074,
+        "startColumn" : 20,
+        "endLine" : 1074,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1074,
+          "startColumn" : 37,
+          "endLine" : 1074,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mJAVADOC"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mk_tokenSet_3" : {
+      "name" : "mk_tokenSet_3",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mk_tokenSet_3",
+      "type" : "long[]",
+      "position" : {
+        "startLine" : 1925,
+        "startColumn" : 30,
+        "endLine" : 1925,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mk_tokenSet_0" : {
+      "name" : "mk_tokenSet_0",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mk_tokenSet_0",
+      "type" : "long[]",
+      "position" : {
+        "startLine" : 1900,
+        "startColumn" : 30,
+        "endLine" : 1900,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mVOCAB" : {
+      "name" : "mVOCAB",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mVOCAB",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1417,
+        "startColumn" : 23,
+        "endLine" : 1417,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1417,
+          "startColumn" : 38,
+          "endLine" : 1417,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mVOCAB"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mPLUS" : {
+      "name" : "mPLUS",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mPLUS",
+      "type" : "void",
+      "position" : {
+        "startLine" : 587,
+        "startColumn" : 20,
+        "endLine" : 587,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 587,
+          "startColumn" : 34,
+          "endLine" : 587,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mPLUS"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mk_tokenSet_6" : {
+      "name" : "mk_tokenSet_6",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mk_tokenSet_6",
+      "type" : "long[]",
+      "position" : {
+        "startLine" : 1951,
+        "startColumn" : 30,
+        "endLine" : 1951,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mk_tokenSet_5" : {
+      "name" : "mk_tokenSet_5",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mk_tokenSet_5",
+      "type" : "long[]",
+      "position" : {
+        "startLine" : 1942,
+        "startColumn" : 30,
+        "endLine" : 1942,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mBSR" : {
+      "name" : "mBSR",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mBSR",
+      "type" : "void",
+      "position" : {
+        "startLine" : 743,
+        "startColumn" : 20,
+        "endLine" : 743,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 743,
+          "startColumn" : 33,
+          "endLine" : 743,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mBSR"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mk_tokenSet_8" : {
+      "name" : "mk_tokenSet_8",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mk_tokenSet_8",
+      "type" : "long[]",
+      "position" : {
+        "startLine" : 1964,
+        "startColumn" : 30,
+        "endLine" : 1964,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mCOLON" : {
+      "name" : "mCOLON",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mCOLON",
+      "type" : "void",
+      "position" : {
+        "startLine" : 470,
+        "startColumn" : 20,
+        "endLine" : 470,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 470,
+          "startColumn" : 35,
+          "endLine" : 470,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mCOLON"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mLE" : {
+      "name" : "mLE",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mLE",
+      "type" : "void",
+      "position" : {
+        "startLine" : 821,
+        "startColumn" : 20,
+        "endLine" : 821,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 821,
+          "startColumn" : 32,
+          "endLine" : 821,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mLE"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mIDENT" : {
+      "name" : "mIDENT",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mIDENT",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1430,
+        "startColumn" : 20,
+        "endLine" : 1430,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1430,
+          "startColumn" : 35,
+          "endLine" : 1430,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mIDENT"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mk_tokenSet_7" : {
+      "name" : "mk_tokenSet_7",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mk_tokenSet_7",
+      "type" : "long[]",
+      "position" : {
+        "startLine" : 1957,
+        "startColumn" : 30,
+        "endLine" : 1957,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mSL_ASSIGN" : {
+      "name" : "mSL_ASSIGN",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mSL_ASSIGN",
+      "type" : "void",
+      "position" : {
+        "startLine" : 808,
+        "startColumn" : 20,
+        "endLine" : 808,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 808,
+          "startColumn" : 39,
+          "endLine" : 808,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mSL_ASSIGN"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mSR_ASSIGN" : {
+      "name" : "mSR_ASSIGN",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mSR_ASSIGN",
+      "type" : "void",
+      "position" : {
+        "startLine" : 730,
+        "startColumn" : 20,
+        "endLine" : 730,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 730,
+          "startColumn" : 39,
+          "endLine" : 730,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mSR_ASSIGN"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mBOR" : {
+      "name" : "mBOR",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mBOR",
+      "type" : "void",
+      "position" : {
+        "startLine" : 873,
+        "startColumn" : 20,
+        "endLine" : 873,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 873,
+          "startColumn" : 33,
+          "endLine" : 873,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mBOR"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mHEX_DIGIT" : {
+      "name" : "mHEX_DIGIT",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mHEX_DIGIT",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1378,
+        "startColumn" : 23,
+        "endLine" : 1378,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1378,
+          "startColumn" : 42,
+          "endLine" : 1378,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mHEX_DIGIT"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mFLOAT_SUFFIX" : {
+      "name" : "mFLOAT_SUFFIX",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mFLOAT_SUFFIX",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1861,
+        "startColumn" : 23,
+        "endLine" : 1861,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1861,
+          "startColumn" : 45,
+          "endLine" : 1861,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mFLOAT_SUFFIX"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mDIV_ASSIGN" : {
+      "name" : "mDIV_ASSIGN",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mDIV_ASSIGN",
+      "type" : "void",
+      "position" : {
+        "startLine" : 574,
+        "startColumn" : 20,
+        "endLine" : 574,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 574,
+          "startColumn" : 40,
+          "endLine" : 574,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mDIV_ASSIGN"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mLT" : {
+      "name" : "mLT",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mLT",
+      "type" : "void",
+      "position" : {
+        "startLine" : 834,
+        "startColumn" : 20,
+        "endLine" : 834,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 834,
+          "startColumn" : 32,
+          "endLine" : 834,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mLT"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mEQUAL" : {
+      "name" : "mEQUAL",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mEQUAL",
+      "type" : "void",
+      "position" : {
+        "startLine" : 509,
+        "startColumn" : 20,
+        "endLine" : 509,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 509,
+          "startColumn" : 35,
+          "endLine" : 509,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mEQUAL"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "nextToken" : {
+      "name" : "nextToken",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/nextToken",
+      "type" : "antlr.Token",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 14,
+        "endLine" : 98,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mASSIGN" : {
+      "name" : "mASSIGN",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mASSIGN",
+      "type" : "void",
+      "position" : {
+        "startLine" : 496,
+        "startColumn" : 20,
+        "endLine" : 496,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 496,
+          "startColumn" : 36,
+          "endLine" : 496,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mASSIGN"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mMINUS_ASSIGN" : {
+      "name" : "mMINUS_ASSIGN",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mMINUS_ASSIGN",
+      "type" : "void",
+      "position" : {
+        "startLine" : 639,
+        "startColumn" : 20,
+        "endLine" : 639,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 639,
+          "startColumn" : 42,
+          "endLine" : 639,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mMINUS_ASSIGN"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mBXOR" : {
+      "name" : "mBXOR",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mBXOR",
+      "type" : "void",
+      "position" : {
+        "startLine" : 847,
+        "startColumn" : 20,
+        "endLine" : 847,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 847,
+          "startColumn" : 34,
+          "endLine" : 847,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mBXOR"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mCOMMA" : {
+      "name" : "mCOMMA",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mCOMMA",
+      "type" : "void",
+      "position" : {
+        "startLine" : 483,
+        "startColumn" : 20,
+        "endLine" : 483,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 483,
+          "startColumn" : 35,
+          "endLine" : 483,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mCOMMA"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mBAND" : {
+      "name" : "mBAND",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mBAND",
+      "type" : "void",
+      "position" : {
+        "startLine" : 912,
+        "startColumn" : 20,
+        "endLine" : 912,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 912,
+          "startColumn" : 34,
+          "endLine" : 912,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mBAND"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mBSR_ASSIGN" : {
+      "name" : "mBSR_ASSIGN",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mBSR_ASSIGN",
+      "type" : "void",
+      "position" : {
+        "startLine" : 756,
+        "startColumn" : 20,
+        "endLine" : 756,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 756,
+          "startColumn" : 40,
+          "endLine" : 756,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mBSR_ASSIGN"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mBAND_ASSIGN" : {
+      "name" : "mBAND_ASSIGN",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mBAND_ASSIGN",
+      "type" : "void",
+      "position" : {
+        "startLine" : 925,
+        "startColumn" : 20,
+        "endLine" : 925,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 925,
+          "startColumn" : 41,
+          "endLine" : 925,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mBAND_ASSIGN"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mDIV" : {
+      "name" : "mDIV",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mDIV",
+      "type" : "void",
+      "position" : {
+        "startLine" : 561,
+        "startColumn" : 20,
+        "endLine" : 561,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 561,
+          "startColumn" : 33,
+          "endLine" : 561,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mDIV"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mBOR_ASSIGN" : {
+      "name" : "mBOR_ASSIGN",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mBOR_ASSIGN",
+      "type" : "void",
+      "position" : {
+        "startLine" : 886,
+        "startColumn" : 20,
+        "endLine" : 886,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 886,
+          "startColumn" : 40,
+          "endLine" : 886,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mBOR_ASSIGN"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mMINUS" : {
+      "name" : "mMINUS",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mMINUS",
+      "type" : "void",
+      "position" : {
+        "startLine" : 626,
+        "startColumn" : 20,
+        "endLine" : 626,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 626,
+          "startColumn" : 35,
+          "endLine" : 626,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mMINUS"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mMOD_ASSIGN" : {
+      "name" : "mMOD_ASSIGN",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mMOD_ASSIGN",
+      "type" : "void",
+      "position" : {
+        "startLine" : 704,
+        "startColumn" : 20,
+        "endLine" : 704,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 704,
+          "startColumn" : 40,
+          "endLine" : 704,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mMOD_ASSIGN"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mEXPONENT" : {
+      "name" : "mEXPONENT",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mEXPONENT",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1793,
+        "startColumn" : 23,
+        "endLine" : 1793,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1793,
+          "startColumn" : 41,
+          "endLine" : 1793,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mEXPONENT"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mDEC" : {
+      "name" : "mDEC",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mDEC",
+      "type" : "void",
+      "position" : {
+        "startLine" : 652,
+        "startColumn" : 20,
+        "endLine" : 652,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 652,
+          "startColumn" : 33,
+          "endLine" : 652,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mDEC"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mMOD" : {
+      "name" : "mMOD",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mMOD",
+      "type" : "void",
+      "position" : {
+        "startLine" : 691,
+        "startColumn" : 20,
+        "endLine" : 691,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 691,
+          "startColumn" : 33,
+          "endLine" : 691,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mMOD"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mCHAR_LITERAL" : {
+      "name" : "mCHAR_LITERAL",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mCHAR_LITERAL",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1187,
+        "startColumn" : 20,
+        "endLine" : 1187,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1187,
+          "startColumn" : 42,
+          "endLine" : 1187,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mCHAR_LITERAL"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mLPAREN" : {
+      "name" : "mLPAREN",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mLPAREN",
+      "type" : "void",
+      "position" : {
+        "startLine" : 392,
+        "startColumn" : 20,
+        "endLine" : 392,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 392,
+          "startColumn" : 36,
+          "endLine" : 392,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mLPAREN"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mLNOT" : {
+      "name" : "mLNOT",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mLNOT",
+      "type" : "void",
+      "position" : {
+        "startLine" : 522,
+        "startColumn" : 20,
+        "endLine" : 522,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 522,
+          "startColumn" : 34,
+          "endLine" : 522,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mLNOT"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mESC" : {
+      "name" : "mESC",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mESC",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1213,
+        "startColumn" : 23,
+        "endLine" : 1213,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PROTECTED", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1213,
+          "startColumn" : 36,
+          "endLine" : 1213,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mESC"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mLAND" : {
+      "name" : "mLAND",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mLAND",
+      "type" : "void",
+      "position" : {
+        "startLine" : 938,
+        "startColumn" : 20,
+        "endLine" : 938,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 938,
+          "startColumn" : 34,
+          "endLine" : 938,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mLAND"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mSEMI" : {
+      "name" : "mSEMI",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mSEMI",
+      "type" : "void",
+      "position" : {
+        "startLine" : 951,
+        "startColumn" : 20,
+        "endLine" : 951,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 951,
+          "startColumn" : 34,
+          "endLine" : 951,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mSEMI"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    },
+    "mRPAREN" : {
+      "name" : "mRPAREN",
+      "key" : "org.argouml.language.java.generator.JavaLexer/method/mRPAREN",
+      "type" : "void",
+      "position" : {
+        "startLine" : 405,
+        "startColumn" : 20,
+        "endLine" : 405,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "_createToken",
+        "key" : "_createToken",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 405,
+          "startColumn" : 36,
+          "endLine" : 405,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.language.java.generator.JavaLexer/method/mRPAREN"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.JavaLexer"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "JavaTokenTypes", "antlr.TokenStream" ],
+  "extends_" : [ "antlr.CharScanner" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

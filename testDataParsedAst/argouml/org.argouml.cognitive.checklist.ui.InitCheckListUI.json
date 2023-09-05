@@ -1,0 +1,87 @@
+{
+  "name" : "InitCheckListUI",
+  "key" : "org.argouml.cognitive.checklist.ui.InitCheckListUI",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "init" : {
+      "name" : "init",
+      "key" : "org.argouml.cognitive.checklist.ui.InitCheckListUI/method/init",
+      "type" : "void",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 17,
+        "endLine" : 59,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.InitCheckListUI"
+    },
+    "getDetailsTabs" : {
+      "name" : "getDetailsTabs",
+      "key" : "org.argouml.cognitive.checklist.ui.InitCheckListUI/method/getDetailsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 37,
+        "endLine" : 44,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.InitCheckListUI"
+    },
+    "getSettingsTabs" : {
+      "name" : "getSettingsTabs",
+      "key" : "org.argouml.cognitive.checklist.ui.InitCheckListUI/method/getSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 42,
+        "endLine" : 55,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.InitCheckListUI"
+    },
+    "getProjectSettingsTabs" : {
+      "name" : "getProjectSettingsTabs",
+      "key" : "org.argouml.cognitive.checklist.ui.InitCheckListUI/method/getProjectSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 42,
+        "endLine" : 51,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.checklist.ui.InitCheckListUI"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.InitSubsystem" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

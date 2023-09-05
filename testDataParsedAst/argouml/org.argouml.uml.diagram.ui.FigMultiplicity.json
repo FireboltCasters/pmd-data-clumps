@@ -1,0 +1,162 @@
+{
+  "name" : "FigMultiplicity",
+  "key" : "org.argouml.uml.diagram.ui.FigMultiplicity",
+  "type" : "class",
+  "position" : {
+    "startLine" : 485,
+    "startColumn" : 1,
+    "endLine" : 485,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "npArguments" : {
+      "name" : "npArguments",
+      "key" : "npArguments",
+      "type" : "java.util.HashMap",
+      "position" : {
+        "startLine" : 490,
+        "startColumn" : 37,
+        "endLine" : 490,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigMultiplicity/memberField/npArguments",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigMultiplicity"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 489,
+        "startColumn" : 31,
+        "endLine" : 489,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigMultiplicity/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigMultiplicity"
+    },
+    "multiplicityNotationProvider" : {
+      "name" : "multiplicityNotationProvider",
+      "key" : "multiplicityNotationProvider",
+      "type" : "org.argouml.notation.NotationProvider",
+      "position" : {
+        "startLine" : 488,
+        "startColumn" : 30,
+        "endLine" : 488,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigMultiplicity/memberField/multiplicityNotationProvider",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigMultiplicity"
+    }
+  },
+  "methods" : {
+    "textEdited" : {
+      "name" : "textEdited",
+      "key" : "org.argouml.uml.diagram.ui.FigMultiplicity/method/textEdited",
+      "type" : "void",
+      "position" : {
+        "startLine" : 516,
+        "startColumn" : 20,
+        "endLine" : 516,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigMultiplicity"
+    },
+    "textEditStarted" : {
+      "name" : "textEditStarted",
+      "key" : "org.argouml.uml.diagram.ui.FigMultiplicity/method/textEditStarted",
+      "type" : "void",
+      "position" : {
+        "startLine" : 522,
+        "startColumn" : 20,
+        "endLine" : 522,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigMultiplicity"
+    },
+    "update" : {
+      "name" : "update",
+      "key" : "org.argouml.uml.diagram.ui.FigMultiplicity/method/update",
+      "type" : "void",
+      "position" : {
+        "startLine" : 507,
+        "startColumn" : 20,
+        "endLine" : 507,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigMultiplicity"
+    },
+    "initNotationProviders" : {
+      "name" : "initNotationProviders",
+      "key" : "org.argouml.uml.diagram.ui.FigMultiplicity/method/initNotationProviders",
+      "type" : "void",
+      "position" : {
+        "startLine" : 536,
+        "startColumn" : 20,
+        "endLine" : 536,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "own",
+        "key" : "own",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 536,
+          "startColumn" : 49,
+          "endLine" : 536,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigMultiplicity/method/initNotationProviders"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigMultiplicity"
+    },
+    "setText" : {
+      "name" : "setText",
+      "key" : "org.argouml.uml.diagram.ui.FigMultiplicity/method/setText",
+      "type" : "void",
+      "position" : {
+        "startLine" : 500,
+        "startColumn" : 20,
+        "endLine" : 500,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigMultiplicity"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.beans.PropertyChangeListener" ],
+  "extends_" : [ "FigSingleLineText" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

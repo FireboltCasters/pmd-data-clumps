@@ -1,0 +1,87 @@
+{
+  "name" : "PriorityConfigTestCase",
+  "key" : "org.apache.commons.logging.config.PriorityConfigTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 48,
+    "startColumn" : 8,
+    "endLine" : 48,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.logging.config.PriorityConfigTestCase/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 24,
+        "endLine" : 56,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.config.PriorityConfigTestCase"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.logging.config.PriorityConfigTestCase/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 17,
+        "endLine" : 107,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.config.PriorityConfigTestCase"
+    },
+    "testPriority" : {
+      "name" : "testPriority",
+      "key" : "org.apache.commons.logging.config.PriorityConfigTestCase/method/testPriority",
+      "type" : "void",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 17,
+        "endLine" : 124,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.config.PriorityConfigTestCase"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.logging.config.PriorityConfigTestCase/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 17,
+        "endLine" : 114,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.config.PriorityConfigTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

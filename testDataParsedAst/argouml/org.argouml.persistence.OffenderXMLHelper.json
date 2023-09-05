@@ -1,0 +1,55 @@
+{
+  "name" : "OffenderXMLHelper",
+  "key" : "org.argouml.persistence.OffenderXMLHelper",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "item" : {
+      "name" : "item",
+      "key" : "item",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 26,
+        "endLine" : 42,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.OffenderXMLHelper/memberField/item",
+      "classOrInterfaceKey" : "org.argouml.persistence.OffenderXMLHelper"
+    }
+  },
+  "methods" : {
+    "getOffender" : {
+      "name" : "getOffender",
+      "key" : "org.argouml.persistence.OffenderXMLHelper/method/getOffender",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 19,
+        "endLine" : 64,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.OffenderXMLHelper"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

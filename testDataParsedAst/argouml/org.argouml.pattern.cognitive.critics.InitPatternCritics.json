@@ -1,0 +1,133 @@
+{
+  "name" : "InitPatternCritics",
+  "key" : "org.argouml.pattern.cognitive.critics.InitPatternCritics",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "crSingletonViolatedOPC" : {
+      "name" : "crSingletonViolatedOPC",
+      "key" : "crSingletonViolatedOPC",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 27,
+        "endLine" : 49,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.pattern.cognitive.critics.InitPatternCritics/memberField/crSingletonViolatedOPC",
+      "classOrInterfaceKey" : "org.argouml.pattern.cognitive.critics.InitPatternCritics"
+    },
+    "crConsiderSingleton" : {
+      "name" : "crConsiderSingleton",
+      "key" : "crConsiderSingleton",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 27,
+        "endLine" : 44,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.pattern.cognitive.critics.InitPatternCritics/memberField/crConsiderSingleton",
+      "classOrInterfaceKey" : "org.argouml.pattern.cognitive.critics.InitPatternCritics"
+    },
+    "crSingletonViolatedMSA" : {
+      "name" : "crSingletonViolatedMSA",
+      "key" : "crSingletonViolatedMSA",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 27,
+        "endLine" : 46,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.pattern.cognitive.critics.InitPatternCritics/memberField/crSingletonViolatedMSA",
+      "classOrInterfaceKey" : "org.argouml.pattern.cognitive.critics.InitPatternCritics"
+    }
+  },
+  "methods" : {
+    "init" : {
+      "name" : "init",
+      "key" : "org.argouml.pattern.cognitive.critics.InitPatternCritics/method/init",
+      "type" : "void",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 17,
+        "endLine" : 60,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.pattern.cognitive.critics.InitPatternCritics"
+    },
+    "getDetailsTabs" : {
+      "name" : "getDetailsTabs",
+      "key" : "org.argouml.pattern.cognitive.critics.InitPatternCritics/method/getDetailsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 37,
+        "endLine" : 67,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.pattern.cognitive.critics.InitPatternCritics"
+    },
+    "getSettingsTabs" : {
+      "name" : "getSettingsTabs",
+      "key" : "org.argouml.pattern.cognitive.critics.InitPatternCritics/method/getSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 42,
+        "endLine" : 56,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.pattern.cognitive.critics.InitPatternCritics"
+    },
+    "getProjectSettingsTabs" : {
+      "name" : "getProjectSettingsTabs",
+      "key" : "org.argouml.pattern.cognitive.critics.InitPatternCritics/method/getProjectSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 42,
+        "endLine" : 52,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.pattern.cognitive.critics.InitPatternCritics"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.InitSubsystem" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

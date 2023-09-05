@@ -1,0 +1,402 @@
+{
+  "name" : "CrUML",
+  "key" : "org.argouml.uml.cognitive.critics.CrUML",
+  "type" : "class",
+  "position" : {
+    "startLine" : 51,
+    "startColumn" : 8,
+    "endLine" : 51,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "OCL_START" : {
+      "name" : "OCL_START",
+      "key" : "OCL_START",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 189,
+        "startColumn" : 33,
+        "endLine" : 189,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.CrUML/memberField/OCL_START",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUML"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 270,
+        "startColumn" : 31,
+        "endLine" : 270,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.CrUML/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUML"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 33,
+        "endLine" : 55,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.CrUML/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUML"
+    },
+    "OCL_END" : {
+      "name" : "OCL_END",
+      "key" : "OCL_END",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 190,
+        "startColumn" : 33,
+        "endLine" : 190,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.CrUML/memberField/OCL_END",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUML"
+    },
+    "localizationPrefix" : {
+      "name" : "localizationPrefix",
+      "key" : "localizationPrefix",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 20,
+        "endLine" : 62,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.CrUML/memberField/localizationPrefix",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUML"
+    }
+  },
+  "methods" : {
+    "predicate" : {
+      "name" : "predicate",
+      "key" : "org.argouml.uml.cognitive.critics.CrUML/method/predicate",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 164,
+        "startColumn" : 20,
+        "endLine" : 164,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 164,
+          "startColumn" : 37,
+          "endLine" : 164,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUML/method/predicate"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 164,
+          "startColumn" : 50,
+          "endLine" : 164,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUML/method/predicate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUML"
+    },
+    "expand" : {
+      "name" : "expand",
+      "key" : "org.argouml.uml.cognitive.critics.CrUML/method/expand",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 200,
+        "startColumn" : 19,
+        "endLine" : 200,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "res",
+        "key" : "res",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 200,
+          "startColumn" : 33,
+          "endLine" : 200,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUML/method/expand"
+      }, {
+        "name" : "offs",
+        "key" : "offs",
+        "type" : "org.argouml.cognitive.ListSet",
+        "position" : {
+          "startLine" : 200,
+          "startColumn" : 46,
+          "endLine" : 200,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUML/method/expand"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUML"
+    },
+    "getDefaultSuggestion" : {
+      "name" : "getDefaultSuggestion",
+      "key" : "org.argouml.uml.cognitive.critics.CrUML/method/getDefaultSuggestion",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 22,
+        "endLine" : 128,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUML"
+    },
+    "predicate2" : {
+      "name" : "predicate2",
+      "key" : "org.argouml.uml.cognitive.critics.CrUML/method/predicate2",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 183,
+        "startColumn" : 20,
+        "endLine" : 183,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 38,
+          "endLine" : 183,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUML/method/predicate2"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 51,
+          "endLine" : 183,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUML/method/predicate2"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUML"
+    },
+    "getLocalizedString" : {
+      "name" : "getLocalizedString",
+      "key" : "org.argouml.uml.cognitive.critics.CrUML/method/getLocalizedString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 22,
+        "endLine" : 110,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 48,
+          "endLine" : 110,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUML/method/getLocalizedString"
+      }, {
+        "name" : "suffix",
+        "key" : "suffix",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 60,
+          "endLine" : 110,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUML/method/getLocalizedString"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUML"
+    },
+    "setupHeadAndDesc" : {
+      "name" : "setupHeadAndDesc",
+      "key" : "org.argouml.uml.cognitive.critics.CrUML/method/setupHeadAndDesc",
+      "type" : "void",
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 23,
+        "endLine" : 155,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUML"
+    },
+    "getClassSimpleName" : {
+      "name" : "getClassSimpleName",
+      "key" : "org.argouml.uml.cognitive.critics.CrUML/method/getClassSimpleName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 260,
+        "startColumn" : 26,
+        "endLine" : 260,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUML"
+    },
+    "getInstructions" : {
+      "name" : "getInstructions",
+      "key" : "org.argouml.uml.cognitive.critics.CrUML/method/getInstructions",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 22,
+        "endLine" : 119,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUML"
+    },
+    "toDoItem" : {
+      "name" : "toDoItem",
+      "key" : "org.argouml.uml.cognitive.critics.CrUML/method/toDoItem",
+      "type" : "org.argouml.cognitive.ToDoItem",
+      "position" : {
+        "startLine" : 251,
+        "startColumn" : 21,
+        "endLine" : 251,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 251,
+          "startColumn" : 37,
+          "endLine" : 251,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUML/method/toDoItem"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 251,
+          "startColumn" : 50,
+          "endLine" : 251,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUML/method/toDoItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUML"
+    },
+    "setResource" : {
+      "name" : "setResource",
+      "key" : "org.argouml.uml.cognitive.critics.CrUML/method/setResource",
+      "type" : "void",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 17,
+        "endLine" : 88,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "key",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 88,
+          "startColumn" : 36,
+          "endLine" : 88,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrUML/method/setResource"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrUML"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.cognitive.Critic" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

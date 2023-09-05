@@ -1,0 +1,100 @@
+{
+  "name" : "ConfigurationKeyImpl",
+  "key" : "org.argouml.configuration.ConfigurationKeyImpl",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "key" : {
+      "name" : "key",
+      "key" : "key",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 20,
+        "endLine" : 43,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.configuration.ConfigurationKeyImpl/memberField/key",
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationKeyImpl"
+    }
+  },
+  "methods" : {
+    "getKey" : {
+      "name" : "getKey",
+      "key" : "org.argouml.configuration.ConfigurationKeyImpl/method/getKey",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 25,
+        "endLine" : 116,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationKeyImpl"
+    },
+    "isChangedProperty" : {
+      "name" : "isChangedProperty",
+      "key" : "org.argouml.configuration.ConfigurationKeyImpl/method/isChangedProperty",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 126,
+        "startColumn" : 20,
+        "endLine" : 126,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pce",
+        "key" : "pce",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 58,
+          "endLine" : 126,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.configuration.ConfigurationKeyImpl/method/isChangedProperty"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationKeyImpl"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.configuration.ConfigurationKeyImpl/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 137,
+        "startColumn" : 19,
+        "endLine" : 137,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.configuration.ConfigurationKeyImpl"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "ConfigurationKey" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

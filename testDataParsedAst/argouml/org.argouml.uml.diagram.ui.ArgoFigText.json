@@ -1,0 +1,361 @@
+{
+  "name" : "ArgoFigText",
+  "key" : "org.argouml.uml.diagram.ui.ArgoFigText",
+  "type" : "class",
+  "position" : {
+    "startLine" : 48,
+    "startColumn" : 8,
+    "endLine" : 48,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "notifier" : {
+      "name" : "notifier",
+      "key" : "notifier",
+      "type" : "javax.management.NotificationBroadcasterSupport",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 44,
+        "endLine" : 51,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ArgoFigText/memberField/notifier",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoFigText"
+    }
+  },
+  "methods" : {
+    "getFigFontStyle" : {
+      "name" : "getFigFontStyle",
+      "key" : "org.argouml.uml.diagram.ui.ArgoFigText/method/getFigFontStyle",
+      "type" : "int",
+      "position" : {
+        "startLine" : 173,
+        "startColumn" : 19,
+        "endLine" : 173,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoFigText"
+    },
+    "updateListeners" : {
+      "name" : "updateListeners",
+      "key" : "org.argouml.uml.diagram.ui.ArgoFigText/method/updateListeners",
+      "type" : "void",
+      "position" : {
+        "startLine" : 183,
+        "startColumn" : 20,
+        "endLine" : 183,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "oldOwner",
+        "key" : "oldOwner",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 43,
+          "endLine" : 183,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoFigText/method/updateListeners"
+      }, {
+        "name" : "newOwner",
+        "key" : "newOwner",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 60,
+          "endLine" : 183,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoFigText/method/updateListeners"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoFigText"
+    },
+    "diagramFontChanged" : {
+      "name" : "diagramFontChanged",
+      "key" : "org.argouml.uml.diagram.ui.ArgoFigText/method/diagramFontChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 17,
+        "endLine" : 145,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.application.events.ArgoDiagramAppearanceEvent",
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 63,
+          "endLine" : 145,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoFigText/method/diagramFontChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoFigText"
+    },
+    "addNotificationListener" : {
+      "name" : "addNotificationListener",
+      "key" : "org.argouml.uml.diagram.ui.ArgoFigText/method/addNotificationListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 17,
+        "endLine" : 103,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "javax.management.NotificationListener",
+        "position" : {
+          "startLine" : 103,
+          "startColumn" : 62,
+          "endLine" : 103,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoFigText/method/addNotificationListener"
+      }, {
+        "name" : "filter",
+        "key" : "filter",
+        "type" : "javax.management.NotificationFilter",
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 28,
+          "endLine" : 104,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoFigText/method/addNotificationListener"
+      }, {
+        "name" : "handback",
+        "key" : "handback",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 43,
+          "endLine" : 104,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoFigText/method/addNotificationListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoFigText"
+    },
+    "setProject" : {
+      "name" : "setProject",
+      "key" : "org.argouml.uml.diagram.ui.ArgoFigText/method/setProject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 17,
+        "endLine" : 132,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "project",
+        "key" : "project",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 132,
+          "startColumn" : 36,
+          "endLine" : 132,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoFigText/method/setProject"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoFigText"
+    },
+    "deleteFromModel" : {
+      "name" : "deleteFromModel",
+      "key" : "org.argouml.uml.diagram.ui.ArgoFigText/method/deleteFromModel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 17,
+        "endLine" : 85,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoFigText"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.diagram.ui.ArgoFigText/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 196,
+        "startColumn" : 17,
+        "endLine" : 196,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pce",
+        "key" : "pce",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 196,
+          "startColumn" : 52,
+          "endLine" : 196,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoFigText/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoFigText"
+    },
+    "removeNotificationListener" : {
+      "name" : "removeNotificationListener",
+      "key" : "org.argouml.uml.diagram.ui.ArgoFigText/method/removeNotificationListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 17,
+        "endLine" : 119,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "javax.management.NotificationListener",
+        "position" : {
+          "startLine" : 119,
+          "startColumn" : 65,
+          "endLine" : 119,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoFigText/method/removeNotificationListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoFigText"
+    },
+    "getNotificationInfo" : {
+      "name" : "getNotificationInfo",
+      "key" : "org.argouml.uml.diagram.ui.ArgoFigText/method/getNotificationInfo",
+      "type" : "javax.management.MBeanNotificationInfo[]",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 36,
+        "endLine" : 112,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoFigText"
+    },
+    "getProject" : {
+      "name" : "getProject",
+      "key" : "org.argouml.uml.diagram.ui.ArgoFigText/method/getProject",
+      "type" : "org.argouml.kernel.Project",
+      "position" : {
+        "startLine" : 136,
+        "startColumn" : 20,
+        "endLine" : 136,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoFigText"
+    },
+    "updateFont" : {
+      "name" : "updateFont",
+      "key" : "org.argouml.uml.diagram.ui.ArgoFigText/method/updateFont",
+      "type" : "void",
+      "position" : {
+        "startLine" : 156,
+        "startColumn" : 20,
+        "endLine" : 156,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoFigText"
+    },
+    "setOwner" : {
+      "name" : "setOwner",
+      "key" : "org.argouml.uml.diagram.ui.ArgoFigText/method/setOwner",
+      "type" : "void",
+      "position" : {
+        "startLine" : 178,
+        "startColumn" : 17,
+        "endLine" : 178,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "own",
+        "key" : "own",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 178,
+          "startColumn" : 33,
+          "endLine" : 178,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ArgoFigText/method/setOwner"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ArgoFigText"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "javax.management.NotificationEmitter", "ArgoFig" ],
+  "extends_" : [ "org.tigris.gef.presentation.FigText" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

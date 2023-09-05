@@ -1,0 +1,55 @@
+{
+  "name" : "MethodImportInterface",
+  "key" : "org.argouml.uml.reveng.MethodImportInterface",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "beginMethodImports" : {
+      "name" : "beginMethodImports",
+      "key" : "org.argouml.uml.reveng.MethodImportInterface/method/beginMethodImports",
+      "type" : "void",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 17,
+        "endLine" : 40,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.MethodImportInterface"
+    },
+    "endMethodImports" : {
+      "name" : "endMethodImports",
+      "key" : "org.argouml.uml.reveng.MethodImportInterface/method/endMethodImports",
+      "type" : "void",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 17,
+        "endLine" : 42,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.MethodImportInterface"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

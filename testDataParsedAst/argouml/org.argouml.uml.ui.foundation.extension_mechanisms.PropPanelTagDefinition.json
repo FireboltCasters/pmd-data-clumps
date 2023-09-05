@@ -1,0 +1,254 @@
+{
+  "name" : "PropPanelTagDefinition",
+  "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition",
+  "type" : "class",
+  "position" : {
+    "startLine" : 60,
+    "startColumn" : 8,
+    "endLine" : 60,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 31,
+        "endLine" : 62,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition"
+    },
+    "typeComboBox" : {
+      "name" : "typeComboBox",
+      "key" : "typeComboBox",
+      "type" : "org.argouml.uml.ui.UMLComboBox2",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 26,
+        "endLine" : 65,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition/memberField/typeComboBox",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition"
+    },
+    "typedValuesScroll" : {
+      "name" : "typedValuesScroll",
+      "key" : "typedValuesScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 25,
+        "endLine" : 66,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition/memberField/typedValuesScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition"
+    },
+    "tdNamespaceComboBoxModel" : {
+      "name" : "tdNamespaceComboBoxModel",
+      "key" : "tdNamespaceComboBoxModel",
+      "type" : "org.argouml.uml.ui.UMLComboBoxModel2",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 31,
+        "endLine" : 72,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition/memberField/tdNamespaceComboBoxModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition"
+    },
+    "ownerComboBoxModel" : {
+      "name" : "ownerComboBoxModel",
+      "key" : "ownerComboBoxModel",
+      "type" : "UMLTagDefinitionOwnerComboBoxModel",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 5,
+        "endLine" : 70,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition/memberField/ownerComboBoxModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition"
+    },
+    "typedValuesListModel" : {
+      "name" : "typedValuesListModel",
+      "key" : "typedValuesListModel",
+      "type" : "UMLTagDefinitionTypedValuesListModel",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 57,
+        "endLine" : 76,
+        "endColumn" : 77
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition/memberField/typedValuesListModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition"
+    },
+    "ownerSelector" : {
+      "name" : "ownerSelector",
+      "key" : "ownerSelector",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 24,
+        "endLine" : 63,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition/memberField/ownerSelector",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition"
+    },
+    "multiplicityComboBox" : {
+      "name" : "multiplicityComboBox",
+      "key" : "multiplicityComboBox",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 20,
+        "endLine" : 82,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition/memberField/multiplicityComboBox",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition"
+    },
+    "tdNamespaceSelector" : {
+      "name" : "tdNamespaceSelector",
+      "key" : "tdNamespaceSelector",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 24,
+        "endLine" : 64,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition/memberField/tdNamespaceSelector",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition"
+    },
+    "typeComboBoxModel" : {
+      "name" : "typeComboBoxModel",
+      "key" : "typeComboBoxModel",
+      "type" : "UMLMetaClassComboBoxModel",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 46,
+        "endLine" : 74,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition/memberField/typeComboBoxModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition"
+    }
+  },
+  "methods" : {
+    "getMultiplicityComboBox" : {
+      "name" : "getMultiplicityComboBox",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition/method/getMultiplicityComboBox",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 152,
+        "startColumn" : 22,
+        "endLine" : 152,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition"
+    },
+    "getTypedValuesScroll" : {
+      "name" : "getTypedValuesScroll",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition/method/getTypedValuesScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 180,
+        "startColumn" : 24,
+        "endLine" : 180,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition"
+    },
+    "getOwnerSelector" : {
+      "name" : "getOwnerSelector",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition/method/getOwnerSelector",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 135,
+        "startColumn" : 26,
+        "endLine" : 135,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition"
+    },
+    "getTypeComboBox" : {
+      "name" : "getTypeComboBox",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition/method/getTypeComboBox",
+      "type" : "org.argouml.uml.ui.UMLComboBox2",
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 25,
+        "endLine" : 163,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition"
+    },
+    "getTDNamespaceSelector" : {
+      "name" : "getTDNamespaceSelector",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition/method/getTDNamespaceSelector",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 26,
+        "endLine" : 119,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

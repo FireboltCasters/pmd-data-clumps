@@ -1,0 +1,441 @@
+{
+  "name" : "BinaryCodecTest",
+  "key" : "org.apache.commons.codec.binary.BinaryCodecTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "BIT_6" : {
+      "name" : "BIT_6",
+      "key" : "BIT_6",
+      "type" : "int",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 30,
+        "endLine" : 49,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodecTest/memberField/BIT_6",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "BIT_7" : {
+      "name" : "BIT_7",
+      "key" : "BIT_7",
+      "type" : "int",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 30,
+        "endLine" : 52,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodecTest/memberField/BIT_7",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "instance" : {
+      "name" : "instance",
+      "key" : "instance",
+      "type" : "BinaryCodec",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 17,
+        "endLine" : 55,
+        "endColumn" : 25
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodecTest/memberField/instance",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "BIT_2" : {
+      "name" : "BIT_2",
+      "key" : "BIT_2",
+      "type" : "int",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 30,
+        "endLine" : 37,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodecTest/memberField/BIT_2",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "BIT_3" : {
+      "name" : "BIT_3",
+      "key" : "BIT_3",
+      "type" : "int",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 30,
+        "endLine" : 40,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodecTest/memberField/BIT_3",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "BIT_4" : {
+      "name" : "BIT_4",
+      "key" : "BIT_4",
+      "type" : "int",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 30,
+        "endLine" : 43,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodecTest/memberField/BIT_4",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "BIT_5" : {
+      "name" : "BIT_5",
+      "key" : "BIT_5",
+      "type" : "int",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 30,
+        "endLine" : 46,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodecTest/memberField/BIT_5",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "BIT_0" : {
+      "name" : "BIT_0",
+      "key" : "BIT_0",
+      "type" : "int",
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 30,
+        "endLine" : 31,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodecTest/memberField/BIT_0",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "BIT_1" : {
+      "name" : "BIT_1",
+      "key" : "BIT_1",
+      "type" : "int",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 30,
+        "endLine" : 34,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.BinaryCodecTest/memberField/BIT_1",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    }
+  },
+  "methods" : {
+    "testDecodeObjectException" : {
+      "name" : "testDecodeObjectException",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/testDecodeObjectException",
+      "type" : "void",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 17,
+        "endLine" : 90,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "testDecodeObject" : {
+      "name" : "testDecodeObject",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/testDecodeObject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 17,
+        "endLine" : 103,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "testToAsciiChars" : {
+      "name" : "testToAsciiChars",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/testToAsciiChars",
+      "type" : "void",
+      "position" : {
+        "startLine" : 820,
+        "startColumn" : 17,
+        "endLine" : 820,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "testToAsciiBytes" : {
+      "name" : "testToAsciiBytes",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/testToAsciiBytes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 698,
+        "startColumn" : 17,
+        "endLine" : 698,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 20,
+        "endLine" : 68,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "assertDecodeObject" : {
+      "name" : "assertDecodeObject",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/assertDecodeObject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 184,
+        "startColumn" : 10,
+        "endLine" : 184,
+        "endColumn" : 28
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "bits",
+        "key" : "bits",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 184,
+          "startColumn" : 36,
+          "endLine" : 184,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.binary.BinaryCodecTest/method/assertDecodeObject"
+      }, {
+        "name" : "encodeMe",
+        "key" : "encodeMe",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 184,
+          "startColumn" : 49,
+          "endLine" : 184,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.binary.BinaryCodecTest/method/assertDecodeObject"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "testToByteArrayFromString" : {
+      "name" : "testToByteArrayFromString",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/testToByteArrayFromString",
+      "type" : "void",
+      "position" : {
+        "startLine" : 297,
+        "startColumn" : 17,
+        "endLine" : 297,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "testEncodeObjectNull" : {
+      "name" : "testEncodeObjectNull",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/testEncodeObjectNull",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1069,
+        "startColumn" : 17,
+        "endLine" : 1069,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "testToAsciiString" : {
+      "name" : "testToAsciiString",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/testToAsciiString",
+      "type" : "void",
+      "position" : {
+        "startLine" : 945,
+        "startColumn" : 17,
+        "endLine" : 945,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "testFromAsciibyteArray" : {
+      "name" : "testFromAsciibyteArray",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/testFromAsciibyteArray",
+      "type" : "void",
+      "position" : {
+        "startLine" : 483,
+        "startColumn" : 17,
+        "endLine" : 483,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "testEncodeObject" : {
+      "name" : "testEncodeObject",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/testEncodeObject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1090,
+        "startColumn" : 17,
+        "endLine" : 1090,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "testFromAsciicharArray" : {
+      "name" : "testFromAsciicharArray",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/testFromAsciicharArray",
+      "type" : "void",
+      "position" : {
+        "startLine" : 390,
+        "startColumn" : 17,
+        "endLine" : 390,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "testEncodeObjectException" : {
+      "name" : "testEncodeObjectException",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/testEncodeObjectException",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1077,
+        "startColumn" : 17,
+        "endLine" : 1077,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 20,
+        "endLine" : 60,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "testDecodebyteArray" : {
+      "name" : "testDecodebyteArray",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/testDecodebyteArray",
+      "type" : "void",
+      "position" : {
+        "startLine" : 205,
+        "startColumn" : 17,
+        "endLine" : 205,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    },
+    "testEncodebyteArray" : {
+      "name" : "testEncodebyteArray",
+      "key" : "org.apache.commons.codec.binary.BinaryCodecTest/method/testEncodebyteArray",
+      "type" : "void",
+      "position" : {
+        "startLine" : 576,
+        "startColumn" : 17,
+        "endLine" : 576,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.BinaryCodecTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

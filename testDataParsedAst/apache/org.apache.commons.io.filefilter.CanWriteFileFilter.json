@@ -1,0 +1,83 @@
+{
+  "name" : "CanWriteFileFilter",
+  "key" : "org.apache.commons.io.filefilter.CanWriteFileFilter",
+  "type" : "class",
+  "position" : {
+    "startLine" : 54,
+    "startColumn" : 8,
+    "endLine" : 54,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "CAN_WRITE" : {
+      "name" : "CAN_WRITE",
+      "key" : "CAN_WRITE",
+      "type" : "IOFileFilter",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 38,
+        "endLine" : 57,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.filefilter.CanWriteFileFilter/memberField/CAN_WRITE",
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.CanWriteFileFilter"
+    },
+    "CANNOT_WRITE" : {
+      "name" : "CANNOT_WRITE",
+      "key" : "CANNOT_WRITE",
+      "type" : "IOFileFilter",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 38,
+        "endLine" : 60,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.filefilter.CanWriteFileFilter/memberField/CANNOT_WRITE",
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.CanWriteFileFilter"
+    }
+  },
+  "methods" : {
+    "accept" : {
+      "name" : "accept",
+      "key" : "org.apache.commons.io.filefilter.CanWriteFileFilter/method/accept",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 20,
+        "endLine" : 75,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 75,
+          "startColumn" : 32,
+          "endLine" : 75,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.filefilter.CanWriteFileFilter/method/accept"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.CanWriteFileFilter"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbstractFileFilter" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

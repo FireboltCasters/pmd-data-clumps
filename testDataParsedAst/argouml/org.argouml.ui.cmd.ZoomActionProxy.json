@@ -1,0 +1,68 @@
+{
+  "name" : "ZoomActionProxy",
+  "key" : "org.argouml.ui.cmd.ZoomActionProxy",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "zoomFactor" : {
+      "name" : "zoomFactor",
+      "key" : "zoomFactor",
+      "type" : "double",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 20,
+        "endLine" : 46,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.ZoomActionProxy/memberField/zoomFactor",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ZoomActionProxy"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.cmd.ZoomActionProxy/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 17,
+        "endLine" : 65,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "arg0",
+        "key" : "arg0",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 45,
+          "endLine" : 65,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.ZoomActionProxy/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ZoomActionProxy"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.base.ZoomAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

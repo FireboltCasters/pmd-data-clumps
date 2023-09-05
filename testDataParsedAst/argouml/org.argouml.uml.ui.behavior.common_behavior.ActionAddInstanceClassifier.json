@@ -1,0 +1,116 @@
+{
+  "name" : "ActionAddInstanceClassifier",
+  "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddInstanceClassifier",
+  "type" : "class",
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "choiceClass" : {
+      "name" : "choiceClass",
+      "key" : "choiceClass",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 20,
+        "endLine" : 47,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddInstanceClassifier/memberField/choiceClass",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddInstanceClassifier"
+    }
+  },
+  "methods" : {
+    "getSelected" : {
+      "name" : "getSelected",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddInstanceClassifier/method/getSelected",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 20,
+        "endLine" : 93,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddInstanceClassifier"
+    },
+    "getChoices" : {
+      "name" : "getChoices",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddInstanceClassifier/method/getChoices",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 20,
+        "endLine" : 76,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddInstanceClassifier"
+    },
+    "doIt" : {
+      "name" : "doIt",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddInstanceClassifier/method/doIt",
+      "type" : "void",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 20,
+        "endLine" : 71,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "selected",
+        "key" : "selected",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 36,
+          "endLine" : 71,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddInstanceClassifier/method/doIt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddInstanceClassifier"
+    },
+    "getDialogTitle" : {
+      "name" : "getDialogTitle",
+      "key" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddInstanceClassifier/method/getDialogTitle",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 22,
+        "endLine" : 88,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.common_behavior.ActionAddInstanceClassifier"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionAddModelElement2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

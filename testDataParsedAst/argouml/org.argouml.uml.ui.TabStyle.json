@@ -1,0 +1,684 @@
+{
+  "name" : "TabStyle",
+  "key" : "org.argouml.uml.ui.TabStyle",
+  "type" : "class",
+  "position" : {
+    "startLine" : 100,
+    "startColumn" : 8,
+    "endLine" : 100,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "shouldBeEnabled" : {
+      "name" : "shouldBeEnabled",
+      "key" : "shouldBeEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 21,
+        "endLine" : 107,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabStyle/memberField/shouldBeEnabled",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "stylePanelNames" : {
+      "name" : "stylePanelNames",
+      "key" : "stylePanelNames",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 121,
+        "startColumn" : 22,
+        "endLine" : 121,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabStyle/memberField/stylePanelNames",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 33,
+        "endLine" : 103,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabStyle/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "listenerList" : {
+      "name" : "listenerList",
+      "key" : "listenerList",
+      "type" : "javax.swing.event.EventListenerList",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 31,
+        "endLine" : 123,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabStyle/memberField/listenerList",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "panels" : {
+      "name" : "panels",
+      "key" : "panels",
+      "type" : "java.util.Hashtable",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 44,
+        "endLine" : 111,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabStyle/memberField/panels",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "blankPanel" : {
+      "name" : "blankPanel",
+      "key" : "blankPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 20,
+        "endLine" : 109,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabStyle/memberField/blankPanel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "lastPanel" : {
+      "name" : "lastPanel",
+      "key" : "lastPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 20,
+        "endLine" : 114,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabStyle/memberField/lastPanel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "stylePanel" : {
+      "name" : "stylePanel",
+      "key" : "stylePanel",
+      "type" : "org.argouml.ui.StylePanel",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 24,
+        "endLine" : 119,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabStyle/memberField/stylePanel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "target" : {
+      "name" : "target",
+      "key" : "target",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 17,
+        "endLine" : 105,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabStyle/memberField/target",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    }
+  },
+  "methods" : {
+    "fireTargetRemoved" : {
+      "name" : "fireTargetRemoved",
+      "key" : "org.argouml.uml.ui.TabStyle/method/fireTargetRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 513,
+        "startColumn" : 18,
+        "endLine" : 513,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "targetEvent",
+        "key" : "targetEvent",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 513,
+          "startColumn" : 48,
+          "endLine" : 513,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/fireTargetRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "targetRemoved" : {
+      "name" : "targetRemoved",
+      "key" : "org.argouml.uml.ui.TabStyle/method/targetRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 443,
+        "startColumn" : 17,
+        "endLine" : 443,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 443,
+          "startColumn" : 43,
+          "endLine" : 443,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/targetRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "refresh" : {
+      "name" : "refresh",
+      "key" : "org.argouml.uml.ui.TabStyle/method/refresh",
+      "type" : "void",
+      "position" : {
+        "startLine" : 269,
+        "startColumn" : 17,
+        "endLine" : 269,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "delayedVetoableChange" : {
+      "name" : "delayedVetoableChange",
+      "key" : "org.argouml.uml.ui.TabStyle/method/delayedVetoableChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 427,
+        "startColumn" : 17,
+        "endLine" : 427,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pce",
+        "key" : "pce",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 427,
+          "startColumn" : 59,
+          "endLine" : 427,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/delayedVetoableChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "panelClassFor" : {
+      "name" : "panelClassFor",
+      "key" : "org.argouml.uml.ui.TabStyle/method/panelClassFor",
+      "type" : "java.lang.Class",
+      "position" : {
+        "startLine" : 314,
+        "startColumn" : 18,
+        "endLine" : 314,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "targetClass",
+        "key" : "targetClass",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 314,
+          "startColumn" : 38,
+          "endLine" : 314,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/panelClassFor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "fireTargetSet" : {
+      "name" : "fireTargetSet",
+      "key" : "org.argouml.uml.ui.TabStyle/method/fireTargetSet",
+      "type" : "void",
+      "position" : {
+        "startLine" : 484,
+        "startColumn" : 18,
+        "endLine" : 484,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "targetEvent",
+        "key" : "targetEvent",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 484,
+          "startColumn" : 44,
+          "endLine" : 484,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/fireTargetSet"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "addTargetListener" : {
+      "name" : "addTargetListener",
+      "key" : "org.argouml.uml.ui.TabStyle/method/addTargetListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 467,
+        "startColumn" : 18,
+        "endLine" : 467,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "org.argouml.ui.targetmanager.TargetListener",
+        "position" : {
+          "startLine" : 467,
+          "startColumn" : 51,
+          "endLine" : 467,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/addTargetListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "findPanelFor" : {
+      "name" : "findPanelFor",
+      "key" : "org.argouml.uml.ui.TabStyle/method/findPanelFor",
+      "type" : "org.argouml.ui.StylePanel",
+      "position" : {
+        "startLine" : 280,
+        "startColumn" : 23,
+        "endLine" : 280,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "targetClass",
+        "key" : "targetClass",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 280,
+          "startColumn" : 42,
+          "endLine" : 280,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/findPanelFor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "shouldBeEnabled" : {
+      "name" : "shouldBeEnabled",
+      "key" : "org.argouml.uml.ui.TabStyle/method/shouldBeEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 376,
+        "startColumn" : 20,
+        "endLine" : 376,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "targetItem",
+        "key" : "targetItem",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 376,
+          "startColumn" : 43,
+          "endLine" : 376,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/shouldBeEnabled"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "getTarget" : {
+      "name" : "getTarget",
+      "key" : "org.argouml.uml.ui.TabStyle/method/getTarget",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 369,
+        "startColumn" : 19,
+        "endLine" : 369,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "targetSet" : {
+      "name" : "targetSet",
+      "key" : "org.argouml.uml.ui.TabStyle/method/targetSet",
+      "type" : "void",
+      "position" : {
+        "startLine" : 455,
+        "startColumn" : 17,
+        "endLine" : 455,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 455,
+          "startColumn" : 39,
+          "endLine" : 455,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/targetSet"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "removeTargetListener" : {
+      "name" : "removeTargetListener",
+      "key" : "org.argouml.uml.ui.TabStyle/method/removeTargetListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 477,
+        "startColumn" : 18,
+        "endLine" : 477,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "org.argouml.ui.targetmanager.TargetListener",
+        "position" : {
+          "startLine" : 477,
+          "startColumn" : 54,
+          "endLine" : 477,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/removeTargetListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "loadClass" : {
+      "name" : "loadClass",
+      "key" : "org.argouml.uml.ui.TabStyle/method/loadClass",
+      "type" : "java.lang.Class",
+      "position" : {
+        "startLine" : 348,
+        "startColumn" : 19,
+        "endLine" : 348,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 348,
+          "startColumn" : 36,
+          "endLine" : 348,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/loadClass"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "getStylePanelNames" : {
+      "name" : "getStylePanelNames",
+      "key" : "org.argouml.uml.ui.TabStyle/method/getStylePanelNames",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 362,
+        "startColumn" : 24,
+        "endLine" : 362,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "fireTargetAdded" : {
+      "name" : "fireTargetAdded",
+      "key" : "org.argouml.uml.ui.TabStyle/method/fireTargetAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 498,
+        "startColumn" : 18,
+        "endLine" : 498,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "targetEvent",
+        "key" : "targetEvent",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 498,
+          "startColumn" : 46,
+          "endLine" : 498,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/fireTargetAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "addPanel" : {
+      "name" : "addPanel",
+      "key" : "org.argouml.uml.ui.TabStyle/method/addPanel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 158,
+        "startColumn" : 17,
+        "endLine" : 158,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 158,
+          "startColumn" : 32,
+          "endLine" : 158,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/addPanel"
+      }, {
+        "name" : "s",
+        "key" : "s",
+        "type" : "org.argouml.ui.StylePanel",
+        "position" : {
+          "startLine" : 158,
+          "startColumn" : 46,
+          "endLine" : 158,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/addPanel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "setTarget" : {
+      "name" : "setTarget",
+      "key" : "org.argouml.uml.ui.TabStyle/method/setTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 168,
+        "startColumn" : 17,
+        "endLine" : 168,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 168,
+          "startColumn" : 34,
+          "endLine" : 168,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/setTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.ui.TabStyle/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 419,
+        "startColumn" : 17,
+        "endLine" : 419,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pce",
+        "key" : "pce",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 419,
+          "startColumn" : 52,
+          "endLine" : 419,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    },
+    "targetAdded" : {
+      "name" : "targetAdded",
+      "key" : "org.argouml.uml.ui.TabStyle/method/targetAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 434,
+        "startColumn" : 17,
+        "endLine" : 434,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 434,
+          "startColumn" : 41,
+          "endLine" : 434,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabStyle/method/targetAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabStyle"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.ui.TabFigTarget", "java.beans.PropertyChangeListener", "org.argouml.kernel.DelayedVChangeListener" ],
+  "extends_" : [ "org.argouml.application.api.AbstractArgoJPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

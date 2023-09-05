@@ -1,0 +1,371 @@
+{
+  "name" : "NoOpLog",
+  "key" : "org.apache.commons.logging.impl.NoOpLog",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "warn" : {
+      "name" : "warn",
+      "key" : "org.apache.commons.logging.impl.NoOpLog/method/warn",
+      "type" : "void",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 17,
+        "endLine" : 54,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 29,
+          "endLine" : 54,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.NoOpLog/method/warn"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 48,
+          "endLine" : 54,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.NoOpLog/method/warn"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.NoOpLog"
+    },
+    "trace" : {
+      "name" : "trace",
+      "key" : "org.apache.commons.logging.impl.NoOpLog/method/trace",
+      "type" : "void",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 17,
+        "endLine" : 42,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 30,
+          "endLine" : 42,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.NoOpLog/method/trace"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 49,
+          "endLine" : 42,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.NoOpLog/method/trace"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.NoOpLog"
+    },
+    "debug" : {
+      "name" : "debug",
+      "key" : "org.apache.commons.logging.impl.NoOpLog/method/debug",
+      "type" : "void",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 17,
+        "endLine" : 46,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 46,
+          "startColumn" : 30,
+          "endLine" : 46,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.NoOpLog/method/debug"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 46,
+          "startColumn" : 49,
+          "endLine" : 46,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.NoOpLog/method/debug"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.NoOpLog"
+    },
+    "isInfoEnabled" : {
+      "name" : "isInfoEnabled",
+      "key" : "org.apache.commons.logging.impl.NoOpLog/method/isInfoEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 26,
+        "endLine" : 90,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.NoOpLog"
+    },
+    "isErrorEnabled" : {
+      "name" : "isErrorEnabled",
+      "key" : "org.apache.commons.logging.impl.NoOpLog/method/isErrorEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 26,
+        "endLine" : 76,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.NoOpLog"
+    },
+    "isTraceEnabled" : {
+      "name" : "isTraceEnabled",
+      "key" : "org.apache.commons.logging.impl.NoOpLog/method/isTraceEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 26,
+        "endLine" : 97,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.NoOpLog"
+    },
+    "isDebugEnabled" : {
+      "name" : "isDebugEnabled",
+      "key" : "org.apache.commons.logging.impl.NoOpLog/method/isDebugEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 26,
+        "endLine" : 69,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.NoOpLog"
+    },
+    "isWarnEnabled" : {
+      "name" : "isWarnEnabled",
+      "key" : "org.apache.commons.logging.impl.NoOpLog/method/isWarnEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 26,
+        "endLine" : 104,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.NoOpLog"
+    },
+    "error" : {
+      "name" : "error",
+      "key" : "org.apache.commons.logging.impl.NoOpLog/method/error",
+      "type" : "void",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 17,
+        "endLine" : 58,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 30,
+          "endLine" : 58,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.NoOpLog/method/error"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 49,
+          "endLine" : 58,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.NoOpLog/method/error"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.NoOpLog"
+    },
+    "isFatalEnabled" : {
+      "name" : "isFatalEnabled",
+      "key" : "org.apache.commons.logging.impl.NoOpLog/method/isFatalEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 26,
+        "endLine" : 83,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.NoOpLog"
+    },
+    "info" : {
+      "name" : "info",
+      "key" : "org.apache.commons.logging.impl.NoOpLog/method/info",
+      "type" : "void",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 17,
+        "endLine" : 50,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 29,
+          "endLine" : 50,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.NoOpLog/method/info"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 48,
+          "endLine" : 50,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.NoOpLog/method/info"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.NoOpLog"
+    },
+    "fatal" : {
+      "name" : "fatal",
+      "key" : "org.apache.commons.logging.impl.NoOpLog/method/fatal",
+      "type" : "void",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 17,
+        "endLine" : 62,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 30,
+          "endLine" : 62,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.NoOpLog/method/fatal"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 49,
+          "endLine" : 62,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.NoOpLog/method/fatal"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.NoOpLog"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.apache.commons.logging.Log", "java.io.Serializable" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,101 @@
+{
+  "name" : "PropPanelGeneralization",
+  "key" : "org.argouml.uml.ui.foundation.core.PropPanelGeneralization",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "discriminatorTextField" : {
+      "name" : "discriminatorTextField",
+      "key" : "discriminatorTextField",
+      "type" : "javax.swing.JTextField",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 24,
+        "endLine" : 47,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelGeneralization/memberField/discriminatorTextField",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelGeneralization"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 31,
+        "endLine" : 45,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelGeneralization/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelGeneralization"
+    },
+    "discriminatorDocument" : {
+      "name" : "discriminatorDocument",
+      "key" : "discriminatorDocument",
+      "type" : "UMLDiscriminatorNameDocument",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 49,
+        "endLine" : 49,
+        "endColumn" : 70
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.core.PropPanelGeneralization/memberField/discriminatorDocument",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelGeneralization"
+    }
+  },
+  "methods" : {
+    "getDiscriminatorTextField" : {
+      "name" : "getDiscriminatorTextField",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelGeneralization/method/getDiscriminatorTextField",
+      "type" : "javax.swing.JTextField",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 26,
+        "endLine" : 97,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelGeneralization"
+    },
+    "navigateUp" : {
+      "name" : "navigateUp",
+      "key" : "org.argouml.uml.ui.foundation.core.PropPanelGeneralization/method/navigateUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 17,
+        "endLine" : 84,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.PropPanelGeneralization"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "PropPanelRelationship" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

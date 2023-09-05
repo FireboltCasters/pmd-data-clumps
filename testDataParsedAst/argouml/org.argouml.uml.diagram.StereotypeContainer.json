@@ -1,0 +1,68 @@
+{
+  "name" : "StereotypeContainer",
+  "key" : "org.argouml.uml.diagram.StereotypeContainer",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "setStereotypeVisible" : {
+      "name" : "setStereotypeVisible",
+      "key" : "org.argouml.uml.diagram.StereotypeContainer/method/setStereotypeVisible",
+      "type" : "void",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 10,
+        "endLine" : 44,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "visible",
+        "key" : "visible",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 39,
+          "endLine" : 44,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.StereotypeContainer/method/setStereotypeVisible"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.StereotypeContainer"
+    },
+    "isStereotypeVisible" : {
+      "name" : "isStereotypeVisible",
+      "key" : "org.argouml.uml.diagram.StereotypeContainer/method/isStereotypeVisible",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 13,
+        "endLine" : 38,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.StereotypeContainer"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

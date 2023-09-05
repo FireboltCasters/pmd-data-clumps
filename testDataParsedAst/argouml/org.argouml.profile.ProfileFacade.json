@@ -1,0 +1,203 @@
+{
+  "name" : "ProfileFacade",
+  "key" : "org.argouml.profile.ProfileFacade",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "manager" : {
+      "name" : "manager",
+      "key" : "manager",
+      "type" : "ProfileManager",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 35,
+        "endLine" : 79,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.profile.ProfileFacade/memberField/manager",
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileFacade"
+    }
+  },
+  "methods" : {
+    "getManager" : {
+      "name" : "getManager",
+      "key" : "org.argouml.profile.ProfileFacade/method/getManager",
+      "type" : "ProfileManager",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 34,
+        "endLine" : 57,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileFacade"
+    },
+    "notInitialized" : {
+      "name" : "notInitialized",
+      "key" : "org.argouml.profile.ProfileFacade/method/notInitialized",
+      "type" : "void",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 25,
+        "endLine" : 63,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "string",
+        "key" : "string",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 63,
+          "startColumn" : 47,
+          "endLine" : 63,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.ProfileFacade/method/notInitialized"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileFacade"
+    },
+    "isInitiated" : {
+      "name" : "isInitiated",
+      "key" : "org.argouml.profile.ProfileFacade/method/isInitiated",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 27,
+        "endLine" : 84,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileFacade"
+    },
+    "reset" : {
+      "name" : "reset",
+      "key" : "org.argouml.profile.ProfileFacade/method/reset",
+      "type" : "void",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 17,
+        "endLine" : 75,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileFacade"
+    },
+    "setManager" : {
+      "name" : "setManager",
+      "key" : "org.argouml.profile.ProfileFacade/method/setManager",
+      "type" : "void",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 24,
+        "endLine" : 71,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "profileManager",
+        "key" : "profileManager",
+        "type" : "ProfileManager",
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 50,
+          "endLine" : 71,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.ProfileFacade/method/setManager"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileFacade"
+    },
+    "remove" : {
+      "name" : "remove",
+      "key" : "org.argouml.profile.ProfileFacade/method/remove",
+      "type" : "void",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 24,
+        "endLine" : 50,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "profile",
+        "key" : "profile",
+        "type" : "Profile",
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 39,
+          "endLine" : 50,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.ProfileFacade/method/remove"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileFacade"
+    },
+    "register" : {
+      "name" : "register",
+      "key" : "org.argouml.profile.ProfileFacade/method/register",
+      "type" : "void",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 24,
+        "endLine" : 42,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "profile",
+        "key" : "profile",
+        "type" : "Profile",
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 41,
+          "endLine" : 42,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.ProfileFacade/method/register"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileFacade"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

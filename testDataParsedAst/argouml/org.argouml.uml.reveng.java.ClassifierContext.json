@@ -1,0 +1,110 @@
+{
+  "name" : "ClassifierContext",
+  "key" : "org.argouml.uml.reveng.java.ClassifierContext",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 1,
+    "endLine" : 37,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "mClassifier" : {
+      "name" : "mClassifier",
+      "key" : "mClassifier",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 20,
+        "endLine" : 40,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.java.ClassifierContext/memberField/mClassifier",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.java.ClassifierContext"
+    }
+  },
+  "methods" : {
+    "getInterface" : {
+      "name" : "getInterface",
+      "key" : "org.argouml.uml.reveng.java.ClassifierContext/method/getInterface",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 19,
+        "endLine" : 54,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 39,
+          "endLine" : 54,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.java.ClassifierContext/method/getInterface"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.java.ClassifierContext"
+    },
+    "get" : {
+      "name" : "get",
+      "key" : "org.argouml.uml.reveng.java.ClassifierContext/method/get",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 19,
+        "endLine" : 78,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "classifierName",
+        "key" : "classifierName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 30,
+          "endLine" : 78,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.java.ClassifierContext/method/get"
+      }, {
+        "name" : "interfacesOnly",
+        "key" : "interfacesOnly",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 54,
+          "endLine" : 78,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.java.ClassifierContext/method/get"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.java.ClassifierContext"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "Context" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

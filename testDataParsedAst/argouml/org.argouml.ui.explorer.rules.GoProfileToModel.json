@@ -1,0 +1,97 @@
+{
+  "name" : "GoProfileToModel",
+  "key" : "org.argouml.ui.explorer.rules.GoProfileToModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getChildren" : {
+      "name" : "getChildren",
+      "key" : "org.argouml.ui.explorer.rules.GoProfileToModel/method/getChildren",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 23,
+        "endLine" : 51,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parent",
+        "key" : "parent",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 42,
+          "endLine" : 51,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.rules.GoProfileToModel/method/getChildren"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.rules.GoProfileToModel"
+    },
+    "getRuleName" : {
+      "name" : "getRuleName",
+      "key" : "org.argouml.ui.explorer.rules.GoProfileToModel/method/getRuleName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 19,
+        "endLine" : 44,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.rules.GoProfileToModel"
+    },
+    "getDependencies" : {
+      "name" : "getDependencies",
+      "key" : "org.argouml.ui.explorer.rules.GoProfileToModel/method/getDependencies",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 16,
+        "endLine" : 66,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parent",
+        "key" : "parent",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 66,
+          "startColumn" : 39,
+          "endLine" : 66,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.rules.GoProfileToModel/method/getDependencies"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.rules.GoProfileToModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbstractPerspectiveRule" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

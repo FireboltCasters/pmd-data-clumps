@@ -1,0 +1,335 @@
+{
+  "name" : "ProfileManager",
+  "key" : "org.argouml.profile.ProfileManager",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "getRegisteredProfiles" : {
+      "name" : "getRegisteredProfiles",
+      "key" : "org.argouml.profile.ProfileManager/method/getRegisteredProfiles",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 19,
+        "endLine" : 56,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileManager"
+    },
+    "refreshRegisteredProfiles" : {
+      "name" : "refreshRegisteredProfiles",
+      "key" : "org.argouml.profile.ProfileManager/method/refreshRegisteredProfiles",
+      "type" : "void",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 10,
+        "endLine" : 110,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileManager"
+    },
+    "getDefaultProfiles" : {
+      "name" : "getDefaultProfiles",
+      "key" : "org.argouml.profile.ProfileManager/method/getDefaultProfiles",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 19,
+        "endLine" : 69,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileManager"
+    },
+    "addToDefaultProfiles" : {
+      "name" : "addToDefaultProfiles",
+      "key" : "org.argouml.profile.ProfileManager/method/addToDefaultProfiles",
+      "type" : "void",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 10,
+        "endLine" : 77,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "profile",
+        "key" : "profile",
+        "type" : "Profile",
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 39,
+          "endLine" : 77,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.ProfileManager/method/addToDefaultProfiles"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileManager"
+    },
+    "getUMLProfile" : {
+      "name" : "getUMLProfile",
+      "key" : "org.argouml.profile.ProfileManager/method/getUMLProfile",
+      "type" : "Profile",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 13,
+        "endLine" : 116,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileManager"
+    },
+    "removeSearchPathDirectory" : {
+      "name" : "removeSearchPathDirectory",
+      "key" : "org.argouml.profile.ProfileManager/method/removeSearchPathDirectory",
+      "type" : "void",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 10,
+        "endLine" : 99,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "path",
+        "key" : "path",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 99,
+          "startColumn" : 43,
+          "endLine" : 99,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.ProfileManager/method/removeSearchPathDirectory"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileManager"
+    },
+    "removeFromDefaultProfiles" : {
+      "name" : "removeFromDefaultProfiles",
+      "key" : "org.argouml.profile.ProfileManager/method/removeFromDefaultProfiles",
+      "type" : "void",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 10,
+        "endLine" : 84,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "profile",
+        "key" : "profile",
+        "type" : "Profile",
+        "position" : {
+          "startLine" : 84,
+          "startColumn" : 44,
+          "endLine" : 84,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.ProfileManager/method/removeFromDefaultProfiles"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileManager"
+    },
+    "removeProfile" : {
+      "name" : "removeProfile",
+      "key" : "org.argouml.profile.ProfileManager/method/removeProfile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 10,
+        "endLine" : 51,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "profile",
+        "key" : "profile",
+        "type" : "Profile",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 32,
+          "endLine" : 51,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.ProfileManager/method/removeProfile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileManager"
+    },
+    "getProfileForClass" : {
+      "name" : "getProfileForClass",
+      "key" : "org.argouml.profile.ProfileManager/method/getProfileForClass",
+      "type" : "Profile",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 13,
+        "endLine" : 64,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "className",
+        "key" : "className",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 39,
+          "endLine" : 64,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.ProfileManager/method/getProfileForClass"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileManager"
+    },
+    "lookForRegisteredProfile" : {
+      "name" : "lookForRegisteredProfile",
+      "key" : "org.argouml.profile.ProfileManager/method/lookForRegisteredProfile",
+      "type" : "Profile",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 13,
+        "endLine" : 124,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "profile",
+        "key" : "profile",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 124,
+          "startColumn" : 45,
+          "endLine" : 124,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.ProfileManager/method/lookForRegisteredProfile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileManager"
+    },
+    "registerProfile" : {
+      "name" : "registerProfile",
+      "key" : "org.argouml.profile.ProfileManager/method/registerProfile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 10,
+        "endLine" : 42,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "profile",
+        "key" : "profile",
+        "type" : "Profile",
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 34,
+          "endLine" : 42,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.ProfileManager/method/registerProfile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileManager"
+    },
+    "getSearchPathDirectories" : {
+      "name" : "getSearchPathDirectories",
+      "key" : "org.argouml.profile.ProfileManager/method/getSearchPathDirectories",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 18,
+        "endLine" : 104,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileManager"
+    },
+    "addSearchPathDirectory" : {
+      "name" : "addSearchPathDirectory",
+      "key" : "org.argouml.profile.ProfileManager/method/addSearchPathDirectory",
+      "type" : "void",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 10,
+        "endLine" : 92,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "path",
+        "key" : "path",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 40,
+          "endLine" : 92,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.ProfileManager/method/addSearchPathDirectory"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.ProfileManager"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

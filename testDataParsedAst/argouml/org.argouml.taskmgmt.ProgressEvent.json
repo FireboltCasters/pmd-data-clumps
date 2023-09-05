@@ -1,0 +1,101 @@
+{
+  "name" : "ProgressEvent",
+  "key" : "org.argouml.taskmgmt.ProgressEvent",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 31,
+        "endLine" : 75,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.taskmgmt.ProgressEvent/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.taskmgmt.ProgressEvent"
+    },
+    "length" : {
+      "name" : "length",
+      "key" : "length",
+      "type" : "long",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 18,
+        "endLine" : 37,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.taskmgmt.ProgressEvent/memberField/length",
+      "classOrInterfaceKey" : "org.argouml.taskmgmt.ProgressEvent"
+    },
+    "position" : {
+      "name" : "position",
+      "key" : "position",
+      "type" : "long",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 18,
+        "endLine" : 39,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.taskmgmt.ProgressEvent/memberField/position",
+      "classOrInterfaceKey" : "org.argouml.taskmgmt.ProgressEvent"
+    }
+  },
+  "methods" : {
+    "getPosition" : {
+      "name" : "getPosition",
+      "key" : "org.argouml.taskmgmt.ProgressEvent/method/getPosition",
+      "type" : "long",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 17,
+        "endLine" : 59,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.taskmgmt.ProgressEvent"
+    },
+    "getLength" : {
+      "name" : "getLength",
+      "key" : "org.argouml.taskmgmt.ProgressEvent/method/getLength",
+      "type" : "long",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 17,
+        "endLine" : 68,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.taskmgmt.ProgressEvent"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.util.EventObject" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

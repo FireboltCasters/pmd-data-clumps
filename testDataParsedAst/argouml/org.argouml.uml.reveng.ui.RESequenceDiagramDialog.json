@@ -1,0 +1,869 @@
+{
+  "name" : "RESequenceDiagramDialog",
+  "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog",
+  "type" : "class",
+  "position" : {
+    "startLine" : 97,
+    "startColumn" : 8,
+    "endLine" : 97,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "changingPanel" : {
+      "name" : "changingPanel",
+      "key" : "changingPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 137,
+        "startColumn" : 20,
+        "endLine" : 137,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/changingPanel",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "types" : {
+      "name" : "types",
+      "key" : "types",
+      "type" : "java.util.Hashtable",
+      "position" : {
+        "startLine" : 131,
+        "startColumn" : 29,
+        "endLine" : 131,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/types",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 33,
+        "endLine" : 103,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "portCnt" : {
+      "name" : "portCnt",
+      "key" : "portCnt",
+      "type" : "int",
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 17,
+        "endLine" : 142,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/portCnt",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "project" : {
+      "name" : "project",
+      "key" : "project",
+      "type" : "org.argouml.kernel.Project",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 27,
+        "endLine" : 116,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/project",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "modeller" : {
+      "name" : "modeller",
+      "key" : "modeller",
+      "type" : "org.argouml.uml.reveng.java.Modeller",
+      "position" : {
+        "startLine" : 121,
+        "startColumn" : 22,
+        "endLine" : 121,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/modeller",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "maxPort" : {
+      "name" : "maxPort",
+      "key" : "maxPort",
+      "type" : "int",
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 17,
+        "endLine" : 141,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/maxPort",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "diagram" : {
+      "name" : "diagram",
+      "key" : "diagram",
+      "type" : "org.argouml.uml.diagram.ArgoDiagram",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 31,
+        "endLine" : 133,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/diagram",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "maxXPos" : {
+      "name" : "maxXPos",
+      "key" : "maxXPos",
+      "type" : "int",
+      "position" : {
+        "startLine" : 140,
+        "startColumn" : 17,
+        "endLine" : 140,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/maxXPos",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "isNewSequenceDiagram" : {
+      "name" : "isNewSequenceDiagram",
+      "key" : "isNewSequenceDiagram",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 27,
+        "endLine" : 144,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/isNewSequenceDiagram",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 31,
+        "endLine" : 109,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "callTable" : {
+      "name" : "callTable",
+      "key" : "callTable",
+      "type" : "org.argouml.ui.CheckboxTableModel",
+      "position" : {
+        "startLine" : 135,
+        "startColumn" : 32,
+        "endLine" : 135,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/callTable",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "calls" : {
+      "name" : "calls",
+      "key" : "calls",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 129,
+        "startColumn" : 32,
+        "endLine" : 129,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/calls",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "calldata" : {
+      "name" : "calldata",
+      "key" : "calldata",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 32,
+        "endLine" : 130,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/calldata",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "manuPanel" : {
+      "name" : "manuPanel",
+      "key" : "manuPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 20,
+        "endLine" : 138,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/manuPanel",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "classifier" : {
+      "name" : "classifier",
+      "key" : "classifier",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 26,
+        "endLine" : 122,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/classifier",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "model" : {
+      "name" : "model",
+      "key" : "model",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 26,
+        "endLine" : 118,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/model",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "modeChoice" : {
+      "name" : "modeChoice",
+      "key" : "modeChoice",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 136,
+        "startColumn" : 23,
+        "endLine" : 136,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/modeChoice",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "X_OFFSET" : {
+      "name" : "X_OFFSET",
+      "key" : "X_OFFSET",
+      "type" : "int",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 30,
+        "endLine" : 111,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/X_OFFSET",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "autoPanel" : {
+      "name" : "autoPanel",
+      "key" : "autoPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 20,
+        "endLine" : 139,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/autoPanel",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "operation" : {
+      "name" : "operation",
+      "key" : "operation",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 26,
+        "endLine" : 123,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/operation",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "anonCnt" : {
+      "name" : "anonCnt",
+      "key" : "anonCnt",
+      "type" : "int",
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 17,
+        "endLine" : 143,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/anonCnt",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "figClassifierRole" : {
+      "name" : "figClassifierRole",
+      "key" : "figClassifierRole",
+      "type" : "org.argouml.uml.diagram.sequence.ui.FigClassifierRole",
+      "position" : {
+        "startLine" : 127,
+        "startColumn" : 37,
+        "endLine" : 127,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/memberField/figClassifierRole",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    }
+  },
+  "methods" : {
+    "parseBody" : {
+      "name" : "parseBody",
+      "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/parseBody",
+      "type" : "void",
+      "position" : {
+        "startLine" : 586,
+        "startColumn" : 18,
+        "endLine" : 586,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "getManuallyTab" : {
+      "name" : "getManuallyTab",
+      "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/getManuallyTab",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 445,
+        "startColumn" : 20,
+        "endLine" : 445,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "permissionLookup" : {
+      "name" : "permissionLookup",
+      "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/permissionLookup",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 873,
+        "startColumn" : 20,
+        "endLine" : 873,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "comp",
+        "key" : "comp",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 873,
+          "startColumn" : 44,
+          "endLine" : 873,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/permissionLookup"
+      }, {
+        "name" : "clsName",
+        "key" : "clsName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 873,
+          "startColumn" : 57,
+          "endLine" : 873,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/permissionLookup"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "itemStateChanged" : {
+      "name" : "itemStateChanged",
+      "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/itemStateChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 282,
+        "startColumn" : 17,
+        "endLine" : 282,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ItemEvent",
+        "position" : {
+          "startLine" : 282,
+          "startColumn" : 44,
+          "endLine" : 282,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/itemStateChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "getClassifierFromModel" : {
+      "name" : "getClassifierFromModel",
+      "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/getClassifierFromModel",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 763,
+        "startColumn" : 20,
+        "endLine" : 763,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "type",
+        "key" : "type",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 764,
+          "startColumn" : 26,
+          "endLine" : 764,
+          "endColumn" : 30
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/getClassifierFromModel"
+      }, {
+        "name" : "objName",
+        "key" : "objName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 765,
+          "startColumn" : 26,
+          "endLine" : 765,
+          "endColumn" : 33
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/getClassifierFromModel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "getBody" : {
+      "name" : "getBody",
+      "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/getBody",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 627,
+        "startColumn" : 27,
+        "endLine" : 627,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "operation",
+        "key" : "operation",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 627,
+          "startColumn" : 42,
+          "endLine" : 627,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/getBody"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "getContentPanel" : {
+      "name" : "getContentPanel",
+      "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/getContentPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 331,
+        "startColumn" : 20,
+        "endLine" : 331,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "buildSequenceDiagram" : {
+      "name" : "buildSequenceDiagram",
+      "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/buildSequenceDiagram",
+      "type" : "org.argouml.uml.diagram.ArgoDiagram",
+      "position" : {
+        "startLine" : 503,
+        "startColumn" : 25,
+        "endLine" : 503,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theClassifier",
+        "key" : "theClassifier",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 503,
+          "startColumn" : 53,
+          "endLine" : 503,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/buildSequenceDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "getNewTarget" : {
+      "name" : "getNewTarget",
+      "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/getNewTarget",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 301,
+        "startColumn" : 20,
+        "endLine" : 301,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "target",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 301,
+          "startColumn" : 40,
+          "endLine" : 301,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/getNewTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 250,
+        "startColumn" : 17,
+        "endLine" : 250,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 250,
+          "startColumn" : 45,
+          "endLine" : 250,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "buildAction" : {
+      "name" : "buildAction",
+      "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/buildAction",
+      "type" : "void",
+      "position" : {
+        "startLine" : 646,
+        "startColumn" : 18,
+        "endLine" : 646,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "call",
+        "key" : "call",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 647,
+          "startColumn" : 20,
+          "endLine" : 647,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/buildAction"
+      }, {
+        "name" : "startFig",
+        "key" : "startFig",
+        "type" : "org.argouml.uml.diagram.sequence.ui.FigClassifierRole",
+        "position" : {
+          "startLine" : 648,
+          "startColumn" : 31,
+          "endLine" : 648,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/buildAction"
+      }, {
+        "name" : "endFig",
+        "key" : "endFig",
+        "type" : "org.argouml.uml.diagram.sequence.ui.FigClassifierRole",
+        "position" : {
+          "startLine" : 649,
+          "startColumn" : 31,
+          "endLine" : 649,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/buildAction"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "getAutomaticallyTab" : {
+      "name" : "getAutomaticallyTab",
+      "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/getAutomaticallyTab",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 367,
+        "startColumn" : 20,
+        "endLine" : 367,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "ensureDirectedAssociation" : {
+      "name" : "ensureDirectedAssociation",
+      "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/ensureDirectedAssociation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 844,
+        "startColumn" : 18,
+        "endLine" : 844,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fromCls",
+        "key" : "fromCls",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 844,
+          "startColumn" : 51,
+          "endLine" : 844,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/ensureDirectedAssociation"
+      }, {
+        "name" : "toCls",
+        "key" : "toCls",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 844,
+          "startColumn" : 67,
+          "endLine" : 844,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/ensureDirectedAssociation"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "getFigClassifierRole" : {
+      "name" : "getFigClassifierRole",
+      "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/getFigClassifierRole",
+      "type" : "org.argouml.uml.diagram.sequence.ui.FigClassifierRole",
+      "position" : {
+        "startLine" : 524,
+        "startColumn" : 31,
+        "endLine" : 524,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theClassifier",
+        "key" : "theClassifier",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 525,
+          "startColumn" : 20,
+          "endLine" : 525,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/getFigClassifierRole"
+      }, {
+        "name" : "objName",
+        "key" : "objName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 526,
+          "startColumn" : 20,
+          "endLine" : 526,
+          "endColumn" : 27
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/getFigClassifierRole"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    },
+    "buildEdge" : {
+      "name" : "buildEdge",
+      "key" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/buildEdge",
+      "type" : "void",
+      "position" : {
+        "startLine" : 711,
+        "startColumn" : 18,
+        "endLine" : 711,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "call",
+        "key" : "call",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 712,
+          "startColumn" : 20,
+          "endLine" : 712,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/buildEdge"
+      }, {
+        "name" : "startFig",
+        "key" : "startFig",
+        "type" : "org.argouml.uml.diagram.sequence.ui.FigClassifierRole",
+        "position" : {
+          "startLine" : 713,
+          "startColumn" : 31,
+          "endLine" : 713,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/buildEdge"
+      }, {
+        "name" : "endFig",
+        "key" : "endFig",
+        "type" : "org.argouml.uml.diagram.sequence.ui.FigClassifierRole",
+        "position" : {
+          "startLine" : 714,
+          "startColumn" : 31,
+          "endLine" : 714,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/buildEdge"
+      }, {
+        "name" : "callType",
+        "key" : "callType",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 715,
+          "startColumn" : 20,
+          "endLine" : 715,
+          "endColumn" : 28
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog/method/buildEdge"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.ui.RESequenceDiagramDialog"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.event.ActionListener", "java.awt.event.ItemListener" ],
+  "extends_" : [ "org.argouml.util.ArgoDialog" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

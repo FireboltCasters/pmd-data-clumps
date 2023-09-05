@@ -1,0 +1,55 @@
+{
+  "name" : "DbcpException",
+  "key" : "org.apache.commons.dbcp.DbcpException",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "cause" : {
+      "name" : "cause",
+      "key" : "cause",
+      "type" : "java.lang.Throwable",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 25,
+        "endLine" : 96,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.DbcpException/memberField/cause",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DbcpException"
+    }
+  },
+  "methods" : {
+    "getCause" : {
+      "name" : "getCause",
+      "key" : "org.apache.commons.dbcp.DbcpException/method/getCause",
+      "type" : "java.lang.Throwable",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 22,
+        "endLine" : 105,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.DbcpException"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.lang.RuntimeException" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

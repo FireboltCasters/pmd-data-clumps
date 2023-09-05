@@ -1,0 +1,692 @@
+{
+  "name" : "FigConcurrentRegion",
+  "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion",
+  "type" : "class",
+  "position" : {
+    "startLine" : 57,
+    "startColumn" : 8,
+    "endLine" : 57,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "cover" : {
+      "name" : "cover",
+      "key" : "cover",
+      "type" : "org.tigris.gef.presentation.FigRect",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 21,
+        "endLine" : 63,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/memberField/cover",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "dividerline" : {
+      "name" : "dividerline",
+      "key" : "dividerline",
+      "type" : "org.tigris.gef.presentation.FigLine",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 21,
+        "endLine" : 64,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/memberField/dividerline",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 550,
+        "startColumn" : 31,
+        "endLine" : 550,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "curHandle" : {
+      "name" : "curHandle",
+      "key" : "curHandle",
+      "type" : "org.tigris.gef.presentation.Handle",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 27,
+        "endLine" : 65,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/memberField/curHandle",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    }
+  },
+  "methods" : {
+    "mouseDragged" : {
+      "name" : "mouseDragged",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/mouseDragged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 534,
+        "startColumn" : 17,
+        "endLine" : 534,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 534,
+          "startColumn" : 41,
+          "endLine" : 534,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/mouseDragged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "getInitialColor" : {
+      "name" : "getInitialColor",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/getInitialColor",
+      "type" : "java.awt.Color",
+      "position" : {
+        "startLine" : 471,
+        "startColumn" : 21,
+        "endLine" : 471,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "getLineColor" : {
+      "name" : "getLineColor",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/getLineColor",
+      "type" : "java.awt.Color",
+      "position" : {
+        "startLine" : 381,
+        "startColumn" : 18,
+        "endLine" : 381,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "getInitialWidth" : {
+      "name" : "getInitialWidth",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/getInitialWidth",
+      "type" : "int",
+      "position" : {
+        "startLine" : 450,
+        "startColumn" : 19,
+        "endLine" : 450,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "setLineWidth" : {
+      "name" : "setLineWidth",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setLineWidth",
+      "type" : "void",
+      "position" : {
+        "startLine" : 416,
+        "startColumn" : 17,
+        "endLine" : 416,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "w",
+        "key" : "w",
+        "type" : "int",
+        "position" : {
+          "startLine" : 416,
+          "startColumn" : 34,
+          "endLine" : 416,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setLineWidth"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "mousePressed" : {
+      "name" : "mousePressed",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/mousePressed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 517,
+        "startColumn" : 17,
+        "endLine" : 517,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 517,
+          "startColumn" : 41,
+          "endLine" : 517,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/mousePressed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "mouseReleased" : {
+      "name" : "mouseReleased",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/mouseReleased",
+      "type" : "void",
+      "position" : {
+        "startLine" : 527,
+        "startColumn" : 17,
+        "endLine" : 527,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 527,
+          "startColumn" : 42,
+          "endLine" : 527,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/mouseReleased"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "getLineWidth" : {
+      "name" : "getLineWidth",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/getLineWidth",
+      "type" : "int",
+      "position" : {
+        "startLine" : 423,
+        "startColumn" : 16,
+        "endLine" : 423,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "getMinimumSize" : {
+      "name" : "getMinimumSize",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/getMinimumSize",
+      "type" : "java.awt.Dimension",
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 22,
+        "endLine" : 160,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "isFilled" : {
+      "name" : "isFilled",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/isFilled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 409,
+        "startColumn" : 20,
+        "endLine" : 409,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "mouseMoved" : {
+      "name" : "mouseMoved",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/mouseMoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 543,
+        "startColumn" : 17,
+        "endLine" : 543,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 543,
+          "startColumn" : 39,
+          "endLine" : 543,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/mouseMoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "getInitialY" : {
+      "name" : "getInitialY",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/getInitialY",
+      "type" : "int",
+      "position" : {
+        "startLine" : 464,
+        "startColumn" : 19,
+        "endLine" : 464,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "getInitialX" : {
+      "name" : "getInitialX",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/getInitialX",
+      "type" : "int",
+      "position" : {
+        "startLine" : 457,
+        "startColumn" : 19,
+        "endLine" : 457,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "updateLayout" : {
+      "name" : "updateLayout",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/updateLayout",
+      "type" : "void",
+      "position" : {
+        "startLine" : 478,
+        "startColumn" : 20,
+        "endLine" : 478,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "org.argouml.model.UmlChangeEvent",
+        "position" : {
+          "startLine" : 478,
+          "startColumn" : 48,
+          "endLine" : 478,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/updateLayout"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "makeSelection" : {
+      "name" : "makeSelection",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/makeSelection",
+      "type" : "org.tigris.gef.base.Selection",
+      "position" : {
+        "startLine" : 433,
+        "startColumn" : 22,
+        "endLine" : 433,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "setLineColor" : {
+      "name" : "setLineColor",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setLineColor",
+      "type" : "void",
+      "position" : {
+        "startLine" : 373,
+        "startColumn" : 17,
+        "endLine" : 373,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "col",
+        "key" : "col",
+        "type" : "java.awt.Color",
+        "position" : {
+          "startLine" : 373,
+          "startColumn" : 36,
+          "endLine" : 373,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setLineColor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "getPopUpActions" : {
+      "name" : "getPopUpActions",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/getPopUpActions",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 19,
+        "endLine" : 144,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 144,
+          "startColumn" : 46,
+          "endLine" : 144,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/getPopUpActions"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "setBounds" : {
+      "name" : "setBounds",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setBounds",
+      "type" : "void",
+      "position" : {
+        "startLine" : 344,
+        "startColumn" : 17,
+        "endLine" : 344,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "yInc",
+        "key" : "yInc",
+        "type" : "int",
+        "position" : {
+          "startLine" : 344,
+          "startColumn" : 31,
+          "endLine" : 344,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setBounds"
+      }, {
+        "name" : "hInc",
+        "key" : "hInc",
+        "type" : "int",
+        "position" : {
+          "startLine" : 344,
+          "startColumn" : 41,
+          "endLine" : 344,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setBounds"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "setFillColor" : {
+      "name" : "setFillColor",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setFillColor",
+      "type" : "void",
+      "position" : {
+        "startLine" : 388,
+        "startColumn" : 17,
+        "endLine" : 388,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "col",
+        "key" : "col",
+        "type" : "java.awt.Color",
+        "position" : {
+          "startLine" : 388,
+          "startColumn" : 36,
+          "endLine" : 388,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setFillColor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "setFilled" : {
+      "name" : "setFilled",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setFilled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 402,
+        "startColumn" : 17,
+        "endLine" : 402,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 402,
+          "startColumn" : 35,
+          "endLine" : 402,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setFilled"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "getFillColor" : {
+      "name" : "getFillColor",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/getFillColor",
+      "type" : "java.awt.Color",
+      "position" : {
+        "startLine" : 395,
+        "startColumn" : 18,
+        "endLine" : 395,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "clone" : {
+      "name" : "clone",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/clone",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 19,
+        "endLine" : 130,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "getUseTrapRect" : {
+      "name" : "getUseTrapRect",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/getUseTrapRect",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 171,
+        "startColumn" : 20,
+        "endLine" : 171,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "getInitialHeight" : {
+      "name" : "getInitialHeight",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/getInitialHeight",
+      "type" : "int",
+      "position" : {
+        "startLine" : 443,
+        "startColumn" : 16,
+        "endLine" : 443,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    },
+    "setStandardBounds" : {
+      "name" : "setStandardBounds",
+      "key" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setStandardBounds",
+      "type" : "void",
+      "position" : {
+        "startLine" : 183,
+        "startColumn" : 20,
+        "endLine" : 183,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "x",
+        "key" : "x",
+        "type" : "int",
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 42,
+          "endLine" : 183,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setStandardBounds"
+      }, {
+        "name" : "y",
+        "key" : "y",
+        "type" : "int",
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 49,
+          "endLine" : 183,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setStandardBounds"
+      }, {
+        "name" : "w",
+        "key" : "w",
+        "type" : "int",
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 56,
+          "endLine" : 183,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setStandardBounds"
+      }, {
+        "name" : "h",
+        "key" : "h",
+        "type" : "int",
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 63,
+          "endLine" : 183,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion/method/setStandardBounds"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.FigConcurrentRegion"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.event.MouseListener", "java.awt.event.MouseMotionListener" ],
+  "extends_" : [ "FigState" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,712 @@
+{
+  "name" : "MetaphoneTest",
+  "key" : "org.apache.commons.codec.language.MetaphoneTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 28,
+    "startColumn" : 8,
+    "endLine" : 28,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "metaphone" : {
+      "name" : "metaphone",
+      "key" : "metaphone",
+      "type" : "Metaphone",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 23,
+        "endLine" : 34,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.MetaphoneTest/memberField/metaphone",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    }
+  },
+  "methods" : {
+    "testIsMetaphoneEqualAero" : {
+      "name" : "testIsMetaphoneEqualAero",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testIsMetaphoneEqualAero",
+      "type" : "void",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 17,
+        "endLine" : 114,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "makeEncoder" : {
+      "name" : "makeEncoder",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/makeEncoder",
+      "type" : "org.apache.commons.codec.StringEncoder",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 29,
+        "endLine" : 71,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testIsMetaphoneEqualGary" : {
+      "name" : "testIsMetaphoneEqualGary",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testIsMetaphoneEqualGary",
+      "type" : "void",
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 17,
+        "endLine" : 141,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testTranslateToJOfDGEOrDGIOrDGY" : {
+      "name" : "testTranslateToJOfDGEOrDGIOrDGY",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testTranslateToJOfDGEOrDGIOrDGY",
+      "type" : "void",
+      "position" : {
+        "startLine" : 415,
+        "startColumn" : 14,
+        "endLine" : 415,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testIsMetaphoneEqualXalan" : {
+      "name" : "testIsMetaphoneEqualXalan",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testIsMetaphoneEqualXalan",
+      "type" : "void",
+      "position" : {
+        "startLine" : 371,
+        "startColumn" : 17,
+        "endLine" : 371,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testSHAndSIOAndSIAToX" : {
+      "name" : "testSHAndSIOAndSIAToX",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testSHAndSIOAndSIAToX",
+      "type" : "void",
+      "position" : {
+        "startLine" : 435,
+        "startColumn" : 14,
+        "endLine" : 435,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "getMetaphone" : {
+      "name" : "getMetaphone",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/getMetaphone",
+      "type" : "Metaphone",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 23,
+        "endLine" : 67,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testMetaphone" : {
+      "name" : "testMetaphone",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testMetaphone",
+      "type" : "void",
+      "position" : {
+        "startLine" : 377,
+        "startColumn" : 17,
+        "endLine" : 377,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testIsMetaphoneEqualMary" : {
+      "name" : "testIsMetaphoneEqualMary",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testIsMetaphoneEqualMary",
+      "type" : "void",
+      "position" : {
+        "startLine" : 288,
+        "startColumn" : 17,
+        "endLine" : 288,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testWordEndingInMB" : {
+      "name" : "testWordEndingInMB",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testWordEndingInMB",
+      "type" : "void",
+      "position" : {
+        "startLine" : 391,
+        "startColumn" : 14,
+        "endLine" : 391,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testTCH" : {
+      "name" : "testTCH",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testTCH",
+      "type" : "void",
+      "position" : {
+        "startLine" : 446,
+        "startColumn" : 14,
+        "endLine" : 446,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "assertIsMetaphoneEqual" : {
+      "name" : "assertIsMetaphoneEqual",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/assertIsMetaphoneEqual",
+      "type" : "void",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 17,
+        "endLine" : 40,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "source",
+        "key" : "source",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 40,
+          "startColumn" : 47,
+          "endLine" : 40,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.MetaphoneTest/method/assertIsMetaphoneEqual"
+      }, {
+        "name" : "matches",
+        "key" : "matches",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 40,
+          "startColumn" : 64,
+          "endLine" : 40,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.MetaphoneTest/method/assertIsMetaphoneEqual"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "validateFixture" : {
+      "name" : "validateFixture",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/validateFixture",
+      "type" : "void",
+      "position" : {
+        "startLine" : 462,
+        "startColumn" : 17,
+        "endLine" : 462,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pairs",
+        "key" : "pairs",
+        "type" : "java.lang.String[][]",
+        "position" : {
+          "startLine" : 462,
+          "startColumn" : 44,
+          "endLine" : 462,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.MetaphoneTest/method/validateFixture"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testIsMetaphoneEqualParis" : {
+      "name" : "testIsMetaphoneEqualParis",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testIsMetaphoneEqualParis",
+      "type" : "void",
+      "position" : {
+        "startLine" : 318,
+        "startColumn" : 17,
+        "endLine" : 318,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testIsMetaphoneEqualPeter" : {
+      "name" : "testIsMetaphoneEqualPeter",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testIsMetaphoneEqualPeter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 325,
+        "startColumn" : 17,
+        "endLine" : 325,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 17,
+        "endLine" : 83,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testWordsWithCIA" : {
+      "name" : "testWordsWithCIA",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testWordsWithCIA",
+      "type" : "void",
+      "position" : {
+        "startLine" : 403,
+        "startColumn" : 14,
+        "endLine" : 403,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "assertMetaphoneEqual" : {
+      "name" : "assertMetaphoneEqual",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/assertMetaphoneEqual",
+      "type" : "void",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 17,
+        "endLine" : 54,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pairs",
+        "key" : "pairs",
+        "type" : "java.lang.String[][]",
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 49,
+          "endLine" : 54,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.MetaphoneTest/method/assertMetaphoneEqual"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testPHTOF" : {
+      "name" : "testPHTOF",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testPHTOF",
+      "type" : "void",
+      "position" : {
+        "startLine" : 431,
+        "startColumn" : 14,
+        "endLine" : 431,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testTIOAndTIAToX" : {
+      "name" : "testTIOAndTIAToX",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testTIOAndTIAToX",
+      "type" : "void",
+      "position" : {
+        "startLine" : 441,
+        "startColumn" : 14,
+        "endLine" : 441,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testIsMetaphoneEqualWhite" : {
+      "name" : "testIsMetaphoneEqualWhite",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testIsMetaphoneEqualWhite",
+      "type" : "void",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 17,
+        "endLine" : 123,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testIsMetaphoneEqualKnight" : {
+      "name" : "testIsMetaphoneEqualKnight",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testIsMetaphoneEqualKnight",
+      "type" : "void",
+      "position" : {
+        "startLine" : 264,
+        "startColumn" : 17,
+        "endLine" : 264,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testDiscardOfSilentGN" : {
+      "name" : "testDiscardOfSilentGN",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testDiscardOfSilentGN",
+      "type" : "void",
+      "position" : {
+        "startLine" : 426,
+        "startColumn" : 14,
+        "endLine" : 426,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "setMetaphone" : {
+      "name" : "setMetaphone",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/setMetaphone",
+      "type" : "void",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 18,
+        "endLine" : 79,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "metaphone",
+        "key" : "metaphone",
+        "type" : "Metaphone",
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 41,
+          "endLine" : 79,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.MetaphoneTest/method/setMetaphone"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testIsMetaphoneEqual1" : {
+      "name" : "testIsMetaphoneEqual1",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testIsMetaphoneEqual1",
+      "type" : "void",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 17,
+        "endLine" : 93,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testIsMetaphoneEqual2" : {
+      "name" : "testIsMetaphoneEqual2",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testIsMetaphoneEqual2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 17,
+        "endLine" : 104,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 17,
+        "endLine" : 88,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testIsMetaphoneEqualWright" : {
+      "name" : "testIsMetaphoneEqualWright",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testIsMetaphoneEqualWright",
+      "type" : "void",
+      "position" : {
+        "startLine" : 364,
+        "startColumn" : 17,
+        "endLine" : 364,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testDiscardOfSCEOrSCIOrSCY" : {
+      "name" : "testDiscardOfSCEOrSCIOrSCY",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testDiscardOfSCEOrSCIOrSCY",
+      "type" : "void",
+      "position" : {
+        "startLine" : 397,
+        "startColumn" : 14,
+        "endLine" : 397,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testTranslateOfSCHAndCH" : {
+      "name" : "testTranslateOfSCHAndCH",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testTranslateOfSCHAndCH",
+      "type" : "void",
+      "position" : {
+        "startLine" : 407,
+        "startColumn" : 14,
+        "endLine" : 407,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testExceedLength" : {
+      "name" : "testExceedLength",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testExceedLength",
+      "type" : "void",
+      "position" : {
+        "startLine" : 451,
+        "startColumn" : 14,
+        "endLine" : 451,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 24,
+        "endLine" : 30,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testSetMaxLengthWithTruncation" : {
+      "name" : "testSetMaxLengthWithTruncation",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testSetMaxLengthWithTruncation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 456,
+        "startColumn" : 14,
+        "endLine" : 456,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testIsMetaphoneEqualRay" : {
+      "name" : "testIsMetaphoneEqualRay",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testIsMetaphoneEqualRay",
+      "type" : "void",
+      "position" : {
+        "startLine" : 334,
+        "startColumn" : 17,
+        "endLine" : 334,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testIsMetaphoneEqualAlbert" : {
+      "name" : "testIsMetaphoneEqualAlbert",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testIsMetaphoneEqualAlbert",
+      "type" : "void",
+      "position" : {
+        "startLine" : 134,
+        "startColumn" : 17,
+        "endLine" : 134,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testIsMetaphoneEqualSusan" : {
+      "name" : "testIsMetaphoneEqualSusan",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testIsMetaphoneEqualSusan",
+      "type" : "void",
+      "position" : {
+        "startLine" : 341,
+        "startColumn" : 17,
+        "endLine" : 341,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testIsMetaphoneEqualJohn" : {
+      "name" : "testIsMetaphoneEqualJohn",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testIsMetaphoneEqualJohn",
+      "type" : "void",
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 17,
+        "endLine" : 194,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    },
+    "testDiscardOfSilentHAfterG" : {
+      "name" : "testDiscardOfSilentHAfterG",
+      "key" : "org.apache.commons.codec.language.MetaphoneTest/method/testDiscardOfSilentHAfterG",
+      "type" : "void",
+      "position" : {
+        "startLine" : 421,
+        "startColumn" : 14,
+        "endLine" : 421,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.MetaphoneTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.codec.StringEncoderAbstractTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

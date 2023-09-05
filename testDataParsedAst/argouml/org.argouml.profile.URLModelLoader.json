@@ -1,0 +1,94 @@
+{
+  "name" : "URLModelLoader",
+  "key" : "org.argouml.profile.URLModelLoader",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "loadModel" : {
+      "name" : "loadModel",
+      "key" : "org.argouml.profile.URLModelLoader/method/loadModel",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 23,
+        "endLine" : 93,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reference",
+        "key" : "reference",
+        "type" : "ProfileReference",
+        "position" : {
+          "startLine" : 93,
+          "startColumn" : 56,
+          "endLine" : 93,
+          "endColumn" : 65
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.URLModelLoader/method/loadModel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.URLModelLoader"
+    },
+    "makeZipEntryUrl" : {
+      "name" : "makeZipEntryUrl",
+      "key" : "org.argouml.profile.URLModelLoader/method/makeZipEntryUrl",
+      "type" : "java.net.URL",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 17,
+        "endLine" : 99,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "url",
+        "key" : "url",
+        "type" : "java.net.URL",
+        "position" : {
+          "startLine" : 99,
+          "startColumn" : 37,
+          "endLine" : 99,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.URLModelLoader/method/makeZipEntryUrl"
+      }, {
+        "name" : "entryName",
+        "key" : "entryName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 99,
+          "startColumn" : 49,
+          "endLine" : 99,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.URLModelLoader/method/makeZipEntryUrl"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.URLModelLoader"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "ProfileModelLoader" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,52 @@
+{
+  "name" : "WeakExplorerNode",
+  "key" : "org.argouml.ui.explorer.WeakExplorerNode",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 66,
+    "startColumn" : 8,
+    "endLine" : 66,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "subsumes" : {
+      "name" : "subsumes",
+      "key" : "org.argouml.ui.explorer.WeakExplorerNode/method/subsumes",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 13,
+        "endLine" : 94,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 94,
+          "startColumn" : 29,
+          "endLine" : 94,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.explorer.WeakExplorerNode/method/subsumes"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.explorer.WeakExplorerNode"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

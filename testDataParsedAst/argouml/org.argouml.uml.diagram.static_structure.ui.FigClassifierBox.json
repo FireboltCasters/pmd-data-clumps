@@ -1,0 +1,372 @@
+{
+  "name" : "FigClassifierBox",
+  "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox",
+  "type" : "class",
+  "position" : {
+    "startLine" : 64,
+    "startColumn" : 17,
+    "endLine" : 64,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "operationsFig" : {
+      "name" : "operationsFig",
+      "key" : "operationsFig",
+      "type" : "org.argouml.uml.diagram.ui.FigOperationsCompartment",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 38,
+        "endLine" : 70,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/memberField/operationsFig",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    },
+    "borderFig" : {
+      "name" : "borderFig",
+      "key" : "borderFig",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 19,
+        "endLine" : 73,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/memberField/borderFig",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    }
+  },
+  "methods" : {
+    "isOperationsVisible" : {
+      "name" : "isOperationsVisible",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/isOperationsVisible",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 212,
+        "startColumn" : 20,
+        "endLine" : 212,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    },
+    "buildModifierPopUp" : {
+      "name" : "buildModifierPopUp",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/buildModifierPopUp",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 321,
+        "startColumn" : 22,
+        "endLine" : 321,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    },
+    "buildAddMenu" : {
+      "name" : "buildAddMenu",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/buildAddMenu",
+      "type" : "org.argouml.ui.ArgoJMenu",
+      "position" : {
+        "startLine" : 299,
+        "startColumn" : 25,
+        "endLine" : 299,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    },
+    "updateOperations" : {
+      "name" : "updateOperations",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/updateOperations",
+      "type" : "void",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 20,
+        "endLine" : 130,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    },
+    "updateLayout" : {
+      "name" : "updateLayout",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/updateLayout",
+      "type" : "void",
+      "position" : {
+        "startLine" : 175,
+        "startColumn" : 20,
+        "endLine" : 175,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "org.argouml.model.UmlChangeEvent",
+        "position" : {
+          "startLine" : 175,
+          "startColumn" : 48,
+          "endLine" : 175,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/updateLayout"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    },
+    "getOperationsFig" : {
+      "name" : "getOperationsFig",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/getOperationsFig",
+      "type" : "org.argouml.uml.diagram.ui.FigOperationsCompartment",
+      "position" : {
+        "startLine" : 195,
+        "startColumn" : 40,
+        "endLine" : 195,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    },
+    "getPopUpActions" : {
+      "name" : "getPopUpActions",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/getPopUpActions",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 267,
+        "startColumn" : 19,
+        "endLine" : 267,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 267,
+          "startColumn" : 46,
+          "endLine" : 267,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/getPopUpActions"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    },
+    "classNameAndBounds" : {
+      "name" : "classNameAndBounds",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/classNameAndBounds",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 315,
+        "startColumn" : 19,
+        "endLine" : 315,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    },
+    "translate" : {
+      "name" : "translate",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/translate",
+      "type" : "void",
+      "position" : {
+        "startLine" : 251,
+        "startColumn" : 17,
+        "endLine" : 251,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dx",
+        "key" : "dx",
+        "type" : "int",
+        "position" : {
+          "startLine" : 251,
+          "startColumn" : 31,
+          "endLine" : 251,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/translate"
+      }, {
+        "name" : "dy",
+        "key" : "dy",
+        "type" : "int",
+        "position" : {
+          "startLine" : 251,
+          "startColumn" : 39,
+          "endLine" : 251,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/translate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    },
+    "clone" : {
+      "name" : "clone",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/clone",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 19,
+        "endLine" : 107,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    },
+    "renderingChanged" : {
+      "name" : "renderingChanged",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/renderingChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 146,
+        "startColumn" : 17,
+        "endLine" : 146,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 157,
+        "startColumn" : 17,
+        "endLine" : 157,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 157,
+          "startColumn" : 52,
+          "endLine" : 157,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    },
+    "buildShowPopUp" : {
+      "name" : "buildShowPopUp",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/buildShowPopUp",
+      "type" : "org.argouml.ui.ArgoJMenu",
+      "position" : {
+        "startLine" : 289,
+        "startColumn" : 25,
+        "endLine" : 289,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    },
+    "getOperationsBounds" : {
+      "name" : "getOperationsBounds",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/getOperationsBounds",
+      "type" : "java.awt.Rectangle",
+      "position" : {
+        "startLine" : 204,
+        "startColumn" : 22,
+        "endLine" : 204,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    },
+    "setOperationsVisible" : {
+      "name" : "setOperationsVisible",
+      "key" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/setOperationsVisible",
+      "type" : "void",
+      "position" : {
+        "startLine" : 219,
+        "startColumn" : 17,
+        "endLine" : 219,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "isVisible",
+        "key" : "isVisible",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 219,
+          "startColumn" : 46,
+          "endLine" : 219,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox/method/setOperationsVisible"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.static_structure.ui.FigClassifierBox"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.uml.diagram.OperationsCompartmentContainer" ],
+  "extends_" : [ "org.argouml.uml.diagram.ui.FigCompartmentBox" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

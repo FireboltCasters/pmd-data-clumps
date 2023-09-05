@@ -1,0 +1,71 @@
+{
+  "name" : "ToDoListEvent",
+  "key" : "org.argouml.cognitive.ToDoListEvent",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "items" : {
+      "name" : "items",
+      "key" : "items",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 28,
+        "endLine" : 37,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ToDoListEvent/memberField/items",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoListEvent"
+    }
+  },
+  "methods" : {
+    "getToDoItemList" : {
+      "name" : "getToDoItemList",
+      "key" : "org.argouml.cognitive.ToDoListEvent/method/getToDoItemList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 27,
+        "endLine" : 68,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoListEvent"
+    },
+    "getToDoItems" : {
+      "name" : "getToDoItems",
+      "key" : "org.argouml.cognitive.ToDoListEvent/method/getToDoItems",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 29,
+        "endLine" : 61,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ToDoListEvent"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

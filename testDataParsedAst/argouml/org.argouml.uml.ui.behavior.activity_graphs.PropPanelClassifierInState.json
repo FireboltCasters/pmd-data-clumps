@@ -1,0 +1,100 @@
+{
+  "name" : "PropPanelClassifierInState",
+  "key" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelClassifierInState",
+  "type" : "class",
+  "position" : {
+    "startLine" : 59,
+    "startColumn" : 8,
+    "endLine" : 59,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 31,
+        "endLine" : 64,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelClassifierInState/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelClassifierInState"
+    },
+    "typeComboBox" : {
+      "name" : "typeComboBox",
+      "key" : "typeComboBox",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 23,
+        "endLine" : 66,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelClassifierInState/memberField/typeComboBox",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelClassifierInState"
+    },
+    "statesScroll" : {
+      "name" : "statesScroll",
+      "key" : "statesScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 25,
+        "endLine" : 67,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelClassifierInState/memberField/statesScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelClassifierInState"
+    },
+    "typeComboBoxModel" : {
+      "name" : "typeComboBoxModel",
+      "key" : "typeComboBoxModel",
+      "type" : "org.argouml.uml.ui.behavior.activity_graphs.UMLClassifierInStateTypeComboBoxModel",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 51,
+        "endLine" : 69,
+        "endColumn" : 68
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelClassifierInState/memberField/typeComboBoxModel",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelClassifierInState"
+    }
+  },
+  "methods" : {
+    "getClassifierInStateTypeSelector" : {
+      "name" : "getClassifierInStateTypeSelector",
+      "key" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelClassifierInState/method/getClassifierInStateTypeSelector",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 25,
+        "endLine" : 107,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.PropPanelClassifierInState"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelClassifier" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

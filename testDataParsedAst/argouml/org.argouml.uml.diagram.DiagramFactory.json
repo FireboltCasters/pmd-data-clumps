@@ -1,0 +1,328 @@
+{
+  "name" : "DiagramFactory",
+  "key" : "org.argouml.uml.diagram.DiagramFactory",
+  "type" : "class",
+  "position" : {
+    "startLine" : 57,
+    "startColumn" : 14,
+    "endLine" : 57,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "diagramClasses" : {
+      "name" : "diagramClasses",
+      "key" : "diagramClasses",
+      "type" : "java.util.Map",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 44,
+        "endLine" : 68,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.DiagramFactory/memberField/diagramClasses",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramFactory"
+    },
+    "noStyleProperties" : {
+      "name" : "noStyleProperties",
+      "key" : "noStyleProperties",
+      "type" : "java.util.Map",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 23,
+        "endLine" : 59,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.DiagramFactory/memberField/noStyleProperties",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramFactory"
+    },
+    "diagrams" : {
+      "name" : "diagrams",
+      "key" : "diagrams",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 31,
+        "endLine" : 83,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.DiagramFactory/memberField/diagrams",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramFactory"
+    },
+    "factories" : {
+      "name" : "factories",
+      "key" : "factories",
+      "type" : "java.util.Map",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 55,
+        "endLine" : 85,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.DiagramFactory/memberField/factories",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramFactory"
+    },
+    "diagramFactory" : {
+      "name" : "diagramFactory",
+      "key" : "diagramFactory",
+      "type" : "org.argouml.uml.diagram.DiagramFactory",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 35,
+        "endLine" : 74,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.DiagramFactory/memberField/diagramFactory",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramFactory"
+    }
+  },
+  "methods" : {
+    "registerDiagramFactory" : {
+      "name" : "registerDiagramFactory",
+      "key" : "org.argouml.uml.diagram.DiagramFactory/method/registerDiagramFactory",
+      "type" : "void",
+      "position" : {
+        "startLine" : 273,
+        "startColumn" : 17,
+        "endLine" : 273,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "type",
+        "key" : "type",
+        "type" : "org.argouml.uml.diagram.DiagramFactory.DiagramType",
+        "position" : {
+          "startLine" : 274,
+          "startColumn" : 31,
+          "endLine" : 274,
+          "endColumn" : 35
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.DiagramFactory/method/registerDiagramFactory"
+      }, {
+        "name" : "factory",
+        "key" : "factory",
+        "type" : "DiagramFactoryInterface",
+        "position" : {
+          "startLine" : 275,
+          "startColumn" : 43,
+          "endLine" : 275,
+          "endColumn" : 50
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.DiagramFactory/method/registerDiagramFactory"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramFactory"
+    },
+    "createDefaultDiagram" : {
+      "name" : "createDefaultDiagram",
+      "key" : "org.argouml.uml.diagram.DiagramFactory/method/createDefaultDiagram",
+      "type" : "ArgoDiagram",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 24,
+        "endLine" : 125,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "namespace",
+        "key" : "namespace",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 125,
+          "startColumn" : 52,
+          "endLine" : 125,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.DiagramFactory/method/createDefaultDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramFactory"
+    },
+    "createRenderingElement" : {
+      "name" : "createRenderingElement",
+      "key" : "org.argouml.uml.diagram.DiagramFactory/method/createRenderingElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 259,
+        "startColumn" : 19,
+        "endLine" : 259,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "diagram",
+        "key" : "diagram",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 259,
+          "startColumn" : 49,
+          "endLine" : 259,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.DiagramFactory/method/createRenderingElement"
+      }, {
+        "name" : "model",
+        "key" : "model",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 259,
+          "startColumn" : 65,
+          "endLine" : 259,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.DiagramFactory/method/createRenderingElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramFactory"
+    },
+    "removeDiagram" : {
+      "name" : "removeDiagram",
+      "key" : "org.argouml.uml.diagram.DiagramFactory/method/removeDiagram",
+      "type" : "ArgoDiagram",
+      "position" : {
+        "startLine" : 229,
+        "startColumn" : 24,
+        "endLine" : 229,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "diagram",
+        "key" : "diagram",
+        "type" : "ArgoDiagram",
+        "position" : {
+          "startLine" : 229,
+          "startColumn" : 50,
+          "endLine" : 229,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.DiagramFactory/method/removeDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramFactory"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.uml.diagram.DiagramFactory/method/getInstance",
+      "type" : "org.argouml.uml.diagram.DiagramFactory",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 34,
+        "endLine" : 103,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramFactory"
+    },
+    "getDiagram" : {
+      "name" : "getDiagram",
+      "key" : "org.argouml.uml.diagram.DiagramFactory/method/getDiagram",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 30,
+        "endLine" : 111,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramFactory"
+    },
+    "createDiagram" : {
+      "name" : "createDiagram",
+      "key" : "org.argouml.uml.diagram.DiagramFactory/method/createDiagram",
+      "type" : "ArgoDiagram",
+      "position" : {
+        "startLine" : 170,
+        "startColumn" : 24,
+        "endLine" : 170,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "type",
+        "key" : "type",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 170,
+          "startColumn" : 44,
+          "endLine" : 170,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.DiagramFactory/method/createDiagram"
+      }, {
+        "name" : "namespace",
+        "key" : "namespace",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 170,
+          "startColumn" : 57,
+          "endLine" : 170,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.DiagramFactory/method/createDiagram"
+      }, {
+        "name" : "machine",
+        "key" : "machine",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 171,
+          "startColumn" : 20,
+          "endLine" : 171,
+          "endColumn" : 27
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.DiagramFactory/method/createDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.DiagramFactory"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

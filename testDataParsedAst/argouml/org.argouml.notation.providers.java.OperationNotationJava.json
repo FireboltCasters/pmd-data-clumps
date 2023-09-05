@@ -1,0 +1,197 @@
+{
+  "name" : "OperationNotationJava",
+  "key" : "org.argouml.notation.providers.java.OperationNotationJava",
+  "type" : "class",
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 33,
+        "endLine" : 50,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.providers.java.OperationNotationJava/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.notation.providers.java.OperationNotationJava"
+    }
+  },
+  "methods" : {
+    "getParsingHelp" : {
+      "name" : "getParsingHelp",
+      "key" : "org.argouml.notation.providers.java.OperationNotationJava/method/getParsingHelp",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 19,
+        "endLine" : 74,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.java.OperationNotationJava"
+    },
+    "generateConcurrency" : {
+      "name" : "generateConcurrency",
+      "key" : "org.argouml.notation.providers.java.OperationNotationJava/method/generateConcurrency",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 185,
+        "startColumn" : 27,
+        "endLine" : 185,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "op",
+        "key" : "op",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 185,
+          "startColumn" : 54,
+          "endLine" : 185,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.java.OperationNotationJava/method/generateConcurrency"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.java.OperationNotationJava"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.notation.providers.java.OperationNotationJava/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 19,
+        "endLine" : 81,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 81,
+          "startColumn" : 35,
+          "endLine" : 81,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.java.OperationNotationJava/method/toString"
+      }, {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.util.Map",
+        "position" : {
+          "startLine" : 81,
+          "startColumn" : 53,
+          "endLine" : 81,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.java.OperationNotationJava/method/toString"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.java.OperationNotationJava"
+    },
+    "parse" : {
+      "name" : "parse",
+      "key" : "org.argouml.notation.providers.java.OperationNotationJava/method/parse",
+      "type" : "void",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 17,
+        "endLine" : 65,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 30,
+          "endLine" : 65,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.java.OperationNotationJava/method/parse"
+      }, {
+        "name" : "text",
+        "key" : "text",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 51,
+          "endLine" : 65,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.java.OperationNotationJava/method/parse"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.java.OperationNotationJava"
+    },
+    "generateAbstractness" : {
+      "name" : "generateAbstractness",
+      "key" : "org.argouml.notation.providers.java.OperationNotationJava/method/generateAbstractness",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 200,
+        "startColumn" : 27,
+        "endLine" : 200,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "op",
+        "key" : "op",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 200,
+          "startColumn" : 55,
+          "endLine" : 200,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.java.OperationNotationJava/method/generateAbstractness"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.java.OperationNotationJava"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.notation.providers.OperationNotation" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

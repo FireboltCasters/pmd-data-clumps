@@ -1,0 +1,608 @@
+{
+  "name" : "DiagramInterface",
+  "key" : "org.argouml.uml.reveng.DiagramInterface",
+  "type" : "class",
+  "position" : {
+    "startLine" : 57,
+    "startColumn" : 8,
+    "endLine" : 57,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "currentLayer" : {
+      "name" : "currentLayer",
+      "key" : "currentLayer",
+      "type" : "org.tigris.gef.base.LayerPerspective",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 30,
+        "endLine" : 87,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.DiagramInterface/memberField/currentLayer",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "DIAGRAM_NAME_SUFFIX" : {
+      "name" : "DIAGRAM_NAME_SUFFIX",
+      "key" : "DIAGRAM_NAME_SUFFIX",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 33,
+        "endLine" : 60,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.DiagramInterface/memberField/DIAGRAM_NAME_SUFFIX",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 33,
+        "endLine" : 65,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.DiagramInterface/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "currentDiagram" : {
+      "name" : "currentDiagram",
+      "key" : "currentDiagram",
+      "type" : "org.argouml.uml.diagram.ArgoDiagram",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 25,
+        "endLine" : 92,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.DiagramInterface/memberField/currentDiagram",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "modifiedDiagrams" : {
+      "name" : "modifiedDiagrams",
+      "key" : "modifiedDiagrams",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 31,
+        "endLine" : 76,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.DiagramInterface/memberField/modifiedDiagrams",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "currentEditor" : {
+      "name" : "currentEditor",
+      "key" : "currentEditor",
+      "type" : "org.tigris.gef.base.Editor",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 20,
+        "endLine" : 70,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.DiagramInterface/memberField/currentEditor",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "DIAGRAM_NAME_SEPARATOR" : {
+      "name" : "DIAGRAM_NAME_SEPARATOR",
+      "key" : "DIAGRAM_NAME_SEPARATOR",
+      "type" : "char",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 31,
+        "endLine" : 59,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.DiagramInterface/memberField/DIAGRAM_NAME_SEPARATOR",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "currentGM" : {
+      "name" : "currentGM",
+      "key" : "currentGM",
+      "type" : "org.argouml.uml.diagram.static_structure.ClassDiagramGraphModel",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 36,
+        "endLine" : 82,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.DiagramInterface/memberField/currentGM",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    }
+  },
+  "methods" : {
+    "getEditor" : {
+      "name" : "getEditor",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/getEditor",
+      "type" : "org.tigris.gef.base.Editor",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 12,
+        "endLine" : 108,
+        "endColumn" : 21
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "resetModifiedDiagrams" : {
+      "name" : "resetModifiedDiagrams",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/resetModifiedDiagrams",
+      "type" : "void",
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 10,
+        "endLine" : 150,
+        "endColumn" : 31
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "addInterface" : {
+      "name" : "addInterface",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/addInterface",
+      "type" : "void",
+      "position" : {
+        "startLine" : 337,
+        "startColumn" : 17,
+        "endLine" : 337,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newInterface",
+        "key" : "newInterface",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 337,
+          "startColumn" : 37,
+          "endLine" : 337,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/addInterface"
+      }, {
+        "name" : "minimise",
+        "key" : "minimise",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 337,
+          "startColumn" : 59,
+          "endLine" : 337,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/addInterface"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "addPackage" : {
+      "name" : "addPackage",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/addPackage",
+      "type" : "void",
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 17,
+        "endLine" : 160,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newPackage",
+        "key" : "newPackage",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 160,
+          "startColumn" : 35,
+          "endLine" : 160,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/addPackage"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "isInDiagram" : {
+      "name" : "isInDiagram",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/isInDiagram",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 180,
+        "startColumn" : 20,
+        "endLine" : 180,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "p",
+        "key" : "p",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 180,
+          "startColumn" : 39,
+          "endLine" : 180,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/isInDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "addClassifier" : {
+      "name" : "addClassifier",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/addClassifier",
+      "type" : "void",
+      "position" : {
+        "startLine" : 282,
+        "startColumn" : 18,
+        "endLine" : 282,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "classifier",
+        "key" : "classifier",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 282,
+          "startColumn" : 39,
+          "endLine" : 282,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/addClassifier"
+      }, {
+        "name" : "minimise",
+        "key" : "minimise",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 282,
+          "startColumn" : 59,
+          "endLine" : 282,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/addClassifier"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "createRootClassDiagram" : {
+      "name" : "createRootClassDiagram",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/createRootClassDiagram",
+      "type" : "void",
+      "position" : {
+        "startLine" : 347,
+        "startColumn" : 17,
+        "endLine" : 347,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "getDiagramName" : {
+      "name" : "getDiagramName",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/getDiagramName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 205,
+        "startColumn" : 20,
+        "endLine" : 205,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "packageName",
+        "key" : "packageName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 205,
+          "startColumn" : 42,
+          "endLine" : 205,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/getDiagramName"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "selectClassDiagram" : {
+      "name" : "selectClassDiagram",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/selectClassDiagram",
+      "type" : "void",
+      "position" : {
+        "startLine" : 224,
+        "startColumn" : 17,
+        "endLine" : 224,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "p",
+        "key" : "p",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 224,
+          "startColumn" : 43,
+          "endLine" : 224,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/selectClassDiagram"
+      }, {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 224,
+          "startColumn" : 53,
+          "endLine" : 224,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/selectClassDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "getModifiedDiagramList" : {
+      "name" : "getModifiedDiagramList",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/getModifiedDiagramList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 30,
+        "endLine" : 143,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "isDiagramInProject" : {
+      "name" : "isDiagramInProject",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/isDiagramInProject",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 20,
+        "endLine" : 194,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 194,
+          "startColumn" : 46,
+          "endLine" : 194,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/isDiagramInProject"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "setCurrentDiagram" : {
+      "name" : "setCurrentDiagram",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/setCurrentDiagram",
+      "type" : "void",
+      "position" : {
+        "startLine" : 356,
+        "startColumn" : 17,
+        "endLine" : 356,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "diagram",
+        "key" : "diagram",
+        "type" : "org.argouml.uml.diagram.ArgoDiagram",
+        "position" : {
+          "startLine" : 356,
+          "startColumn" : 47,
+          "endLine" : 356,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/setCurrentDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "markDiagramAsModified" : {
+      "name" : "markDiagramAsModified",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/markDiagramAsModified",
+      "type" : "void",
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 10,
+        "endLine" : 120,
+        "endColumn" : 31
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "diagram",
+        "key" : "diagram",
+        "type" : "org.argouml.uml.diagram.ArgoDiagram",
+        "position" : {
+          "startLine" : 120,
+          "startColumn" : 44,
+          "endLine" : 120,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/markDiagramAsModified"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "getModifiedDiagrams" : {
+      "name" : "getModifiedDiagrams",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/getModifiedDiagrams",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 134,
+        "startColumn" : 32,
+        "endLine" : 134,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "addClassDiagram" : {
+      "name" : "addClassDiagram",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/addClassDiagram",
+      "type" : "void",
+      "position" : {
+        "startLine" : 248,
+        "startColumn" : 17,
+        "endLine" : 248,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ns",
+        "key" : "ns",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 248,
+          "startColumn" : 40,
+          "endLine" : 248,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/addClassDiagram"
+      }, {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 248,
+          "startColumn" : 51,
+          "endLine" : 248,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/addClassDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    },
+    "addClass" : {
+      "name" : "addClass",
+      "key" : "org.argouml.uml.reveng.DiagramInterface/method/addClass",
+      "type" : "void",
+      "position" : {
+        "startLine" : 271,
+        "startColumn" : 17,
+        "endLine" : 271,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newClass",
+        "key" : "newClass",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 271,
+          "startColumn" : 33,
+          "endLine" : 271,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/addClass"
+      }, {
+        "name" : "minimise",
+        "key" : "minimise",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 271,
+          "startColumn" : 51,
+          "endLine" : 271,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.DiagramInterface/method/addClass"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.DiagramInterface"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

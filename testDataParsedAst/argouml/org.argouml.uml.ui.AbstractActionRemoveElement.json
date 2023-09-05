@@ -1,0 +1,160 @@
+{
+  "name" : "AbstractActionRemoveElement",
+  "key" : "org.argouml.uml.ui.AbstractActionRemoveElement",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "objectToRemove" : {
+      "name" : "objectToRemove",
+      "key" : "objectToRemove",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 20,
+        "endLine" : 52,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.AbstractActionRemoveElement/memberField/objectToRemove",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionRemoveElement"
+    },
+    "target" : {
+      "name" : "target",
+      "key" : "target",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 20,
+        "endLine" : 50,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.AbstractActionRemoveElement/memberField/target",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionRemoveElement"
+    }
+  },
+  "methods" : {
+    "getTarget" : {
+      "name" : "getTarget",
+      "key" : "org.argouml.uml.ui.AbstractActionRemoveElement/method/getTarget",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 19,
+        "endLine" : 78,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionRemoveElement"
+    },
+    "getObjectToRemove" : {
+      "name" : "getObjectToRemove",
+      "key" : "org.argouml.uml.ui.AbstractActionRemoveElement/method/getObjectToRemove",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 19,
+        "endLine" : 97,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionRemoveElement"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.uml.ui.AbstractActionRemoveElement/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 20,
+        "endLine" : 115,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionRemoveElement"
+    },
+    "setTarget" : {
+      "name" : "setTarget",
+      "key" : "org.argouml.uml.ui.AbstractActionRemoveElement/method/setTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 17,
+        "endLine" : 87,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theTarget",
+        "key" : "theTarget",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 34,
+          "endLine" : 87,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.AbstractActionRemoveElement/method/setTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionRemoveElement"
+    },
+    "setObjectToRemove" : {
+      "name" : "setObjectToRemove",
+      "key" : "org.argouml.uml.ui.AbstractActionRemoveElement/method/setObjectToRemove",
+      "type" : "void",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 17,
+        "endLine" : 106,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theObjectToRemove",
+        "key" : "theObjectToRemove",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 106,
+          "startColumn" : 42,
+          "endLine" : 106,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.AbstractActionRemoveElement/method/setObjectToRemove"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.AbstractActionRemoveElement"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

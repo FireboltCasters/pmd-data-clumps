@@ -1,0 +1,22 @@
+{
+  "name" : "TransitionNotation",
+  "key" : "org.argouml.notation.providers.TransitionNotation",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 17,
+    "endLine" : 36,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.notation.NotationProvider" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

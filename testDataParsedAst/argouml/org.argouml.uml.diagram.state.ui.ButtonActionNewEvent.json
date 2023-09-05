@@ -1,0 +1,216 @@
+{
+  "name" : "ButtonActionNewEvent",
+  "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 10,
+    "endLine" : 43,
+    "endColumn" : 15
+  },
+  "modifiers" : [ "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 17,
+        "endLine" : 55,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 45,
+          "endLine" : 55,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent"
+    },
+    "getIconName" : {
+      "name" : "getIconName",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent/method/getIconName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 31,
+        "endLine" : 75,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent"
+    },
+    "targetSet" : {
+      "name" : "targetSet",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent/method/targetSet",
+      "type" : "void",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 17,
+        "endLine" : 86,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 86,
+          "startColumn" : 39,
+          "endLine" : 86,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent/method/targetSet"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent"
+    },
+    "isEnabled" : {
+      "name" : "isEnabled",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent/method/isEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 20,
+        "endLine" : 67,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent"
+    },
+    "targetRemoved" : {
+      "name" : "targetRemoved",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent/method/targetRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 17,
+        "endLine" : 82,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 82,
+          "startColumn" : 43,
+          "endLine" : 82,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent/method/targetRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent"
+    },
+    "createEvent" : {
+      "name" : "createEvent",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent/method/createEvent",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 31,
+        "endLine" : 72,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ns",
+        "key" : "ns",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 50,
+          "endLine" : 72,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent/method/createEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent"
+    },
+    "getKeyName" : {
+      "name" : "getKeyName",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent/method/getKeyName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 31,
+        "endLine" : 74,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent"
+    },
+    "targetAdded" : {
+      "name" : "targetAdded",
+      "key" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent/method/targetAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 17,
+        "endLine" : 78,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 41,
+          "endLine" : 78,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent/method/targetAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.state.ui.ButtonActionNewEvent"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.tigris.toolbar.toolbutton.ModalAction", "org.argouml.ui.targetmanager.TargetListener" ],
+  "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,912 @@
+{
+  "name" : "TesterStatement",
+  "key" : "org.apache.commons.dbcp.TesterStatement",
+  "type" : "class",
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "_maxRows" : {
+      "name" : "_maxRows",
+      "key" : "_maxRows",
+      "type" : "int",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 19,
+        "endLine" : 48,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TesterStatement/memberField/_maxRows",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "_queryTimeout" : {
+      "name" : "_queryTimeout",
+      "key" : "_queryTimeout",
+      "type" : "int",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 19,
+        "endLine" : 50,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TesterStatement/memberField/_queryTimeout",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "_resultSetConcurrency" : {
+      "name" : "_resultSetConcurrency",
+      "key" : "_resultSetConcurrency",
+      "type" : "int",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 19,
+        "endLine" : 54,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TesterStatement/memberField/_resultSetConcurrency",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "_fetchSize" : {
+      "name" : "_fetchSize",
+      "key" : "_fetchSize",
+      "type" : "int",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 19,
+        "endLine" : 53,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TesterStatement/memberField/_fetchSize",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "_maxFieldSize" : {
+      "name" : "_maxFieldSize",
+      "key" : "_maxFieldSize",
+      "type" : "int",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 19,
+        "endLine" : 47,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TesterStatement/memberField/_maxFieldSize",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "_open" : {
+      "name" : "_open",
+      "key" : "_open",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 23,
+        "endLine" : 44,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TesterStatement/memberField/_open",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "_resultSet" : {
+      "name" : "_resultSet",
+      "key" : "_resultSet",
+      "type" : "java.sql.ResultSet",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 25,
+        "endLine" : 56,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TesterStatement/memberField/_resultSet",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "_fetchDirection" : {
+      "name" : "_fetchDirection",
+      "key" : "_fetchDirection",
+      "type" : "int",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 19,
+        "endLine" : 52,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TesterStatement/memberField/_fetchDirection",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "_rowsUpdated" : {
+      "name" : "_rowsUpdated",
+      "key" : "_rowsUpdated",
+      "type" : "int",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 19,
+        "endLine" : 45,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TesterStatement/memberField/_rowsUpdated",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "_escapeProcessing" : {
+      "name" : "_escapeProcessing",
+      "key" : "_escapeProcessing",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 23,
+        "endLine" : 49,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TesterStatement/memberField/_escapeProcessing",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "_cursorName" : {
+      "name" : "_cursorName",
+      "key" : "_cursorName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 22,
+        "endLine" : 51,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TesterStatement/memberField/_cursorName",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "_resultSetType" : {
+      "name" : "_resultSetType",
+      "key" : "_resultSetType",
+      "type" : "int",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 19,
+        "endLine" : 55,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TesterStatement/memberField/_resultSetType",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "_executeResponse" : {
+      "name" : "_executeResponse",
+      "key" : "_executeResponse",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 23,
+        "endLine" : 46,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TesterStatement/memberField/_executeResponse",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "_connection" : {
+      "name" : "_connection",
+      "key" : "_connection",
+      "type" : "java.sql.Connection",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 26,
+        "endLine" : 43,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TesterStatement/memberField/_connection",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    }
+  },
+  "methods" : {
+    "cancel" : {
+      "name" : "cancel",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/cancel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 17,
+        "endLine" : 124,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "getResultSetHoldability" : {
+      "name" : "getResultSetHoldability",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/getResultSetHoldability",
+      "type" : "int",
+      "position" : {
+        "startLine" : 261,
+        "startColumn" : 16,
+        "endLine" : 261,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "getQueryTimeout" : {
+      "name" : "getQueryTimeout",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/getQueryTimeout",
+      "type" : "int",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 16,
+        "endLine" : 114,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "getWarnings" : {
+      "name" : "getWarnings",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/getWarnings",
+      "type" : "java.sql.SQLWarning",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 23,
+        "endLine" : 128,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "getMaxFieldSize" : {
+      "name" : "getMaxFieldSize",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/getMaxFieldSize",
+      "type" : "int",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 16,
+        "endLine" : 89,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "getUpdateCount" : {
+      "name" : "getUpdateCount",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/getUpdateCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 16,
+        "endLine" : 155,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "checkOpen" : {
+      "name" : "checkOpen",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/checkOpen",
+      "type" : "void",
+      "position" : {
+        "startLine" : 213,
+        "startColumn" : 20,
+        "endLine" : 213,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "getFetchSize" : {
+      "name" : "getFetchSize",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/getFetchSize",
+      "type" : "int",
+      "position" : {
+        "startLine" : 180,
+        "startColumn" : 16,
+        "endLine" : 180,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "setQueryTimeout" : {
+      "name" : "setQueryTimeout",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/setQueryTimeout",
+      "type" : "void",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 17,
+        "endLine" : 119,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "seconds",
+        "key" : "seconds",
+        "type" : "int",
+        "position" : {
+          "startLine" : 119,
+          "startColumn" : 37,
+          "endLine" : 119,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.TesterStatement/method/setQueryTimeout"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "setFetchDirection" : {
+      "name" : "setFetchDirection",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/setFetchDirection",
+      "type" : "void",
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 17,
+        "endLine" : 165,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "direction",
+        "key" : "direction",
+        "type" : "int",
+        "position" : {
+          "startLine" : 165,
+          "startColumn" : 39,
+          "endLine" : 165,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.TesterStatement/method/setFetchDirection"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "getConnection" : {
+      "name" : "getConnection",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/getConnection",
+      "type" : "java.sql.Connection",
+      "position" : {
+        "startLine" : 208,
+        "startColumn" : 23,
+        "endLine" : 208,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "setMaxRows" : {
+      "name" : "setMaxRows",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/setMaxRows",
+      "type" : "void",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 17,
+        "endLine" : 104,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "max",
+        "key" : "max",
+        "type" : "int",
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 32,
+          "endLine" : 104,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.TesterStatement/method/setMaxRows"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "setMaxFieldSize" : {
+      "name" : "setMaxFieldSize",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/setMaxFieldSize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 17,
+        "endLine" : 94,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "max",
+        "key" : "max",
+        "type" : "int",
+        "position" : {
+          "startLine" : 94,
+          "startColumn" : 37,
+          "endLine" : 94,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.TesterStatement/method/setMaxFieldSize"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "setCursorName" : {
+      "name" : "setCursorName",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/setCursorName",
+      "type" : "void",
+      "position" : {
+        "startLine" : 137,
+        "startColumn" : 17,
+        "endLine" : 137,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 137,
+          "startColumn" : 38,
+          "endLine" : 137,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.TesterStatement/method/setCursorName"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "clearBatch" : {
+      "name" : "clearBatch",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/clearBatch",
+      "type" : "void",
+      "position" : {
+        "startLine" : 199,
+        "startColumn" : 17,
+        "endLine" : 199,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 17,
+        "endLine" : 80,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "getFetchDirection" : {
+      "name" : "getFetchDirection",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/getFetchDirection",
+      "type" : "int",
+      "position" : {
+        "startLine" : 170,
+        "startColumn" : 16,
+        "endLine" : 170,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "getResultSetType" : {
+      "name" : "getResultSetType",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/getResultSetType",
+      "type" : "int",
+      "position" : {
+        "startLine" : 190,
+        "startColumn" : 16,
+        "endLine" : 190,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "executeBatch" : {
+      "name" : "executeBatch",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/executeBatch",
+      "type" : "int[]",
+      "position" : {
+        "startLine" : 203,
+        "startColumn" : 18,
+        "endLine" : 203,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "getGeneratedKeys" : {
+      "name" : "getGeneratedKeys",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/getGeneratedKeys",
+      "type" : "java.sql.ResultSet",
+      "position" : {
+        "startLine" : 227,
+        "startColumn" : 22,
+        "endLine" : 227,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "setFetchSize" : {
+      "name" : "setFetchSize",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/setFetchSize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 175,
+        "startColumn" : 17,
+        "endLine" : 175,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rows",
+        "key" : "rows",
+        "type" : "int",
+        "position" : {
+          "startLine" : 175,
+          "startColumn" : 34,
+          "endLine" : 175,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.TesterStatement/method/setFetchSize"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "getMoreResults" : {
+      "name" : "getMoreResults",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/getMoreResults",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 223,
+        "startColumn" : 20,
+        "endLine" : 223,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "current",
+        "key" : "current",
+        "type" : "int",
+        "position" : {
+          "startLine" : 223,
+          "startColumn" : 39,
+          "endLine" : 223,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.TesterStatement/method/getMoreResults"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "clearWarnings" : {
+      "name" : "clearWarnings",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/clearWarnings",
+      "type" : "void",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 17,
+        "endLine" : 133,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "addBatch" : {
+      "name" : "addBatch",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/addBatch",
+      "type" : "void",
+      "position" : {
+        "startLine" : 195,
+        "startColumn" : 17,
+        "endLine" : 195,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "sql",
+        "key" : "sql",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 195,
+          "startColumn" : 33,
+          "endLine" : 195,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.TesterStatement/method/addBatch"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "execute" : {
+      "name" : "execute",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/execute",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 256,
+        "startColumn" : 20,
+        "endLine" : 256,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "sql",
+        "key" : "sql",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 256,
+          "startColumn" : 35,
+          "endLine" : 256,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.TesterStatement/method/execute"
+      }, {
+        "name" : "columnNames",
+        "key" : "columnNames",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 256,
+          "startColumn" : 47,
+          "endLine" : 256,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.TesterStatement/method/execute"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "executeQuery" : {
+      "name" : "executeQuery",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/executeQuery",
+      "type" : "java.sql.ResultSet",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 22,
+        "endLine" : 58,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "sql",
+        "key" : "sql",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 42,
+          "endLine" : 58,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.TesterStatement/method/executeQuery"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "getResultSetConcurrency" : {
+      "name" : "getResultSetConcurrency",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/getResultSetConcurrency",
+      "type" : "int",
+      "position" : {
+        "startLine" : 185,
+        "startColumn" : 16,
+        "endLine" : 185,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "getResultSet" : {
+      "name" : "getResultSet",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/getResultSet",
+      "type" : "java.sql.ResultSet",
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 22,
+        "endLine" : 147,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "getMaxRows" : {
+      "name" : "getMaxRows",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/getMaxRows",
+      "type" : "int",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 16,
+        "endLine" : 99,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "setEscapeProcessing" : {
+      "name" : "setEscapeProcessing",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/setEscapeProcessing",
+      "type" : "void",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 17,
+        "endLine" : 109,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "enable",
+        "key" : "enable",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 109,
+          "startColumn" : 45,
+          "endLine" : 109,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.TesterStatement/method/setEscapeProcessing"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    },
+    "executeUpdate" : {
+      "name" : "executeUpdate",
+      "key" : "org.apache.commons.dbcp.TesterStatement/method/executeUpdate",
+      "type" : "int",
+      "position" : {
+        "startLine" : 241,
+        "startColumn" : 16,
+        "endLine" : 241,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "sql",
+        "key" : "sql",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 241,
+          "startColumn" : 37,
+          "endLine" : 241,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.TesterStatement/method/executeUpdate"
+      }, {
+        "name" : "columnNames",
+        "key" : "columnNames",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 241,
+          "startColumn" : 49,
+          "endLine" : 241,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.TesterStatement/method/executeUpdate"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TesterStatement"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.sql.Statement" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

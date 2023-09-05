@@ -1,0 +1,315 @@
+{
+  "name" : "ClAttributeCompartment",
+  "key" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "theInstance" : {
+      "name" : "theInstance",
+      "key" : "theInstance",
+      "type" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 43,
+        "endLine" : 48,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/memberField/theInstance",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment"
+    },
+    "WAVE_LENGTH" : {
+      "name" : "WAVE_LENGTH",
+      "key" : "WAVE_LENGTH",
+      "type" : "int",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 30,
+        "endLine" : 51,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/memberField/WAVE_LENGTH",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 33,
+        "endLine" : 45,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment"
+    },
+    "WAVE_HEIGHT" : {
+      "name" : "WAVE_HEIGHT",
+      "key" : "WAVE_HEIGHT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 30,
+        "endLine" : 52,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/memberField/WAVE_HEIGHT",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment"
+    },
+    "fig" : {
+      "name" : "fig",
+      "key" : "fig",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/memberField/fig",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment"
+    }
+  },
+  "methods" : {
+    "setFig" : {
+      "name" : "setFig",
+      "key" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/method/setFig",
+      "type" : "void",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 17,
+        "endLine" : 61,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 28,
+          "endLine" : 61,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/method/setFig"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment"
+    },
+    "getIconWidth" : {
+      "name" : "getIconWidth",
+      "key" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/method/getIconWidth",
+      "type" : "int",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 16,
+        "endLine" : 114,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment"
+    },
+    "getIconHeight" : {
+      "name" : "getIconHeight",
+      "key" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/method/getIconHeight",
+      "type" : "int",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 16,
+        "endLine" : 119,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment"
+    },
+    "hit" : {
+      "name" : "hit",
+      "key" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/method/hit",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 20,
+        "endLine" : 124,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "x",
+        "key" : "x",
+        "type" : "int",
+        "position" : {
+          "startLine" : 124,
+          "startColumn" : 28,
+          "endLine" : 124,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/method/hit"
+      }, {
+        "name" : "y",
+        "key" : "y",
+        "type" : "int",
+        "position" : {
+          "startLine" : 124,
+          "startColumn" : 35,
+          "endLine" : 124,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/method/hit"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment"
+    },
+    "setToDoItem" : {
+      "name" : "setToDoItem",
+      "key" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/method/setToDoItem",
+      "type" : "void",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 17,
+        "endLine" : 66,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "i",
+        "key" : "i",
+        "type" : "org.argouml.cognitive.ToDoItem",
+        "position" : {
+          "startLine" : 66,
+          "startColumn" : 38,
+          "endLine" : 66,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/method/setToDoItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment"
+    },
+    "paintIcon" : {
+      "name" : "paintIcon",
+      "key" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/method/paintIcon",
+      "type" : "void",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 17,
+        "endLine" : 72,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "java.awt.Component",
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 37,
+          "endLine" : 72,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/method/paintIcon"
+      }, {
+        "name" : "g",
+        "key" : "g",
+        "type" : "java.awt.Graphics",
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 49,
+          "endLine" : 72,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/method/paintIcon"
+      }, {
+        "name" : "x",
+        "key" : "x",
+        "type" : "int",
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 56,
+          "endLine" : 72,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/method/paintIcon"
+      }, {
+        "name" : "y",
+        "key" : "y",
+        "type" : "int",
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 63,
+          "endLine" : 72,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/method/paintIcon"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment"
+    },
+    "getTheInstance" : {
+      "name" : "getTheInstance",
+      "key" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment/method/getTheInstance",
+      "type" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 42,
+        "endLine" : 139,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.ClAttributeCompartment"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.ui.Clarifier" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

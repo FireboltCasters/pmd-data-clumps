@@ -1,0 +1,131 @@
+{
+  "name" : "ActionAddSignalsToSignalEvent",
+  "key" : "org.argouml.uml.ui.behavior.state_machines.ActionAddSignalsToSignalEvent",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 1,
+    "endLine" : 43,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 31,
+        "endLine" : 99,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddSignalsToSignalEvent/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddSignalsToSignalEvent"
+    },
+    "SINGLETON" : {
+      "name" : "SINGLETON",
+      "key" : "SINGLETON",
+      "type" : "org.argouml.uml.ui.behavior.state_machines.ActionAddSignalsToSignalEvent",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 55,
+        "endLine" : 47,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddSignalsToSignalEvent/memberField/SINGLETON",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddSignalsToSignalEvent"
+    }
+  },
+  "methods" : {
+    "getSelected" : {
+      "name" : "getSelected",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.ActionAddSignalsToSignalEvent/method/getSelected",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 20,
+        "endLine" : 70,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddSignalsToSignalEvent"
+    },
+    "getChoices" : {
+      "name" : "getChoices",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.ActionAddSignalsToSignalEvent/method/getChoices",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 20,
+        "endLine" : 59,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddSignalsToSignalEvent"
+    },
+    "doIt" : {
+      "name" : "doIt",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.ActionAddSignalsToSignalEvent/method/doIt",
+      "type" : "void",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 20,
+        "endLine" : 86,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "selected",
+        "key" : "selected",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 86,
+          "startColumn" : 36,
+          "endLine" : 86,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddSignalsToSignalEvent/method/doIt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddSignalsToSignalEvent"
+    },
+    "getDialogTitle" : {
+      "name" : "getDialogTitle",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.ActionAddSignalsToSignalEvent/method/getDialogTitle",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 22,
+        "endLine" : 80,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.ActionAddSignalsToSignalEvent"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionAddModelElement2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

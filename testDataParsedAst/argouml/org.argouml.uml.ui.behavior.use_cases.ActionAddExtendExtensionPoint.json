@@ -1,0 +1,132 @@
+{
+  "name" : "ActionAddExtendExtensionPoint",
+  "key" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "SINGLETON" : {
+      "name" : "SINGLETON",
+      "key" : "SINGLETON",
+      "type" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 56,
+        "endLine" : 43,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint/memberField/SINGLETON",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint"
+    }
+  },
+  "methods" : {
+    "getSelected" : {
+      "name" : "getSelected",
+      "key" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint/method/getSelected",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 20,
+        "endLine" : 77,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint"
+    },
+    "getChoices" : {
+      "name" : "getChoices",
+      "key" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint/method/getChoices",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 20,
+        "endLine" : 59,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint"
+    },
+    "doIt" : {
+      "name" : "doIt",
+      "key" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint/method/doIt",
+      "type" : "void",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 20,
+        "endLine" : 54,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "selected",
+        "key" : "selected",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 36,
+          "endLine" : 54,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint/method/doIt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint"
+    },
+    "getDialogTitle" : {
+      "name" : "getDialogTitle",
+      "key" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint/method/getDialogTitle",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 22,
+        "endLine" : 71,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint/method/getInstance",
+      "type" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 49,
+        "endLine" : 86,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.use_cases.ActionAddExtendExtensionPoint"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionAddModelElement2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

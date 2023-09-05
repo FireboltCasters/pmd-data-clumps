@@ -1,0 +1,371 @@
+{
+  "name" : "MyLog",
+  "key" : "org.apache.commons.logging.tccl.custom.MyLog",
+  "type" : "class",
+  "position" : {
+    "startLine" : 20,
+    "startColumn" : 8,
+    "endLine" : 20,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "warn" : {
+      "name" : "warn",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLog/method/warn",
+      "type" : "void",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 17,
+        "endLine" : 38,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 29,
+          "endLine" : 38,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLog/method/warn"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 48,
+          "endLine" : 38,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLog/method/warn"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLog"
+    },
+    "trace" : {
+      "name" : "trace",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLog/method/trace",
+      "type" : "void",
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 17,
+        "endLine" : 32,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 32,
+          "startColumn" : 30,
+          "endLine" : 32,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLog/method/trace"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 32,
+          "startColumn" : 49,
+          "endLine" : 32,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLog/method/trace"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLog"
+    },
+    "debug" : {
+      "name" : "debug",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLog/method/debug",
+      "type" : "void",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 17,
+        "endLine" : 34,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 34,
+          "startColumn" : 30,
+          "endLine" : 34,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLog/method/debug"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 34,
+          "startColumn" : 49,
+          "endLine" : 34,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLog/method/debug"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLog"
+    },
+    "isInfoEnabled" : {
+      "name" : "isInfoEnabled",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLog/method/isInfoEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 20,
+        "endLine" : 27,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLog"
+    },
+    "isErrorEnabled" : {
+      "name" : "isErrorEnabled",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLog/method/isErrorEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 25,
+        "startColumn" : 20,
+        "endLine" : 25,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLog"
+    },
+    "isTraceEnabled" : {
+      "name" : "isTraceEnabled",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLog/method/isTraceEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 20,
+        "endLine" : 28,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLog"
+    },
+    "isDebugEnabled" : {
+      "name" : "isDebugEnabled",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLog/method/isDebugEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 24,
+        "startColumn" : 20,
+        "endLine" : 24,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLog"
+    },
+    "isWarnEnabled" : {
+      "name" : "isWarnEnabled",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLog/method/isWarnEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 20,
+        "endLine" : 29,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLog"
+    },
+    "error" : {
+      "name" : "error",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLog/method/error",
+      "type" : "void",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 17,
+        "endLine" : 40,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 40,
+          "startColumn" : 30,
+          "endLine" : 40,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLog/method/error"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 40,
+          "startColumn" : 49,
+          "endLine" : 40,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLog/method/error"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLog"
+    },
+    "isFatalEnabled" : {
+      "name" : "isFatalEnabled",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLog/method/isFatalEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 26,
+        "startColumn" : 20,
+        "endLine" : 26,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLog"
+    },
+    "info" : {
+      "name" : "info",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLog/method/info",
+      "type" : "void",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 17,
+        "endLine" : 36,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 36,
+          "startColumn" : 29,
+          "endLine" : 36,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLog/method/info"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 36,
+          "startColumn" : 48,
+          "endLine" : 36,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLog/method/info"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLog"
+    },
+    "fatal" : {
+      "name" : "fatal",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLog/method/fatal",
+      "type" : "void",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 17,
+        "endLine" : 42,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 30,
+          "endLine" : 42,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLog/method/fatal"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 49,
+          "endLine" : 42,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLog/method/fatal"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLog"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.apache.commons.logging.Log" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,338 @@
+{
+  "name" : "ProjectActions",
+  "key" : "org.argouml.ui.ProjectActions",
+  "type" : "class",
+  "position" : {
+    "startLine" : 61,
+    "startColumn" : 14,
+    "endLine" : 61,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "theInstance" : {
+      "name" : "theInstance",
+      "key" : "theInstance",
+      "type" : "org.argouml.ui.ProjectActions",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 35,
+        "endLine" : 64,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectActions/memberField/theInstance",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectActions"
+    },
+    "redoAction" : {
+      "name" : "redoAction",
+      "key" : "redoAction",
+      "type" : "javax.swing.AbstractAction",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 34,
+        "endLine" : 91,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectActions/memberField/redoAction",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectActions"
+    },
+    "undoAction" : {
+      "name" : "undoAction",
+      "key" : "undoAction",
+      "type" : "ActionUndo",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 30,
+        "endLine" : 87,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectActions/memberField/undoAction",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectActions"
+    },
+    "removeFromDiagram" : {
+      "name" : "removeFromDiagram",
+      "key" : "removeFromDiagram",
+      "type" : "org.argouml.uml.diagram.ui.ActionRemoveFromDiagram",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 43,
+        "endLine" : 108,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ProjectActions/memberField/removeFromDiagram",
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectActions"
+    }
+  },
+  "methods" : {
+    "determineRemoveEnabled" : {
+      "name" : "determineRemoveEnabled",
+      "key" : "org.argouml.ui.ProjectActions/method/determineRemoveEnabled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 161,
+        "startColumn" : 18,
+        "endLine" : 161,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectActions"
+    },
+    "targetSet" : {
+      "name" : "targetSet",
+      "key" : "org.argouml.ui.ProjectActions/method/targetSet",
+      "type" : "void",
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 17,
+        "endLine" : 153,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 153,
+          "startColumn" : 39,
+          "endLine" : 153,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectActions/method/targetSet"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectActions"
+    },
+    "jumpToDiagramShowing" : {
+      "name" : "jumpToDiagramShowing",
+      "key" : "org.argouml.ui.ProjectActions/method/jumpToDiagramShowing",
+      "type" : "void",
+      "position" : {
+        "startLine" : 181,
+        "startColumn" : 24,
+        "endLine" : 181,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "targets",
+        "key" : "targets",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 181,
+          "startColumn" : 50,
+          "endLine" : 181,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectActions/method/jumpToDiagramShowing"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectActions"
+    },
+    "getUndoAction" : {
+      "name" : "getUndoAction",
+      "key" : "org.argouml.ui.ProjectActions/method/getUndoAction",
+      "type" : "javax.swing.AbstractAction",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 27,
+        "endLine" : 116,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectActions"
+    },
+    "getRedoAction" : {
+      "name" : "getRedoAction",
+      "key" : "org.argouml.ui.ProjectActions/method/getRedoAction",
+      "type" : "javax.swing.AbstractAction",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 27,
+        "endLine" : 124,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectActions"
+    },
+    "targetRemoved" : {
+      "name" : "targetRemoved",
+      "key" : "org.argouml.ui.ProjectActions/method/targetRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 146,
+        "startColumn" : 17,
+        "endLine" : 146,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 146,
+          "startColumn" : 43,
+          "endLine" : 146,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectActions/method/targetRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectActions"
+    },
+    "getRemoveFromDiagramAction" : {
+      "name" : "getRemoveFromDiagramAction",
+      "key" : "org.argouml.ui.ProjectActions/method/getRemoveFromDiagramAction",
+      "type" : "javax.swing.AbstractAction",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 27,
+        "endLine" : 132,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectActions"
+    },
+    "setTarget" : {
+      "name" : "setTarget",
+      "key" : "org.argouml.ui.ProjectActions/method/setTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 240,
+        "startColumn" : 25,
+        "endLine" : 240,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 240,
+          "startColumn" : 42,
+          "endLine" : 240,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectActions/method/setTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectActions"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.ui.ProjectActions/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 244,
+        "startColumn" : 17,
+        "endLine" : 244,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "evt",
+        "key" : "evt",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 244,
+          "startColumn" : 58,
+          "endLine" : 244,
+          "endColumn" : 61
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectActions/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectActions"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.ui.ProjectActions/method/getInstance",
+      "type" : "org.argouml.ui.ProjectActions",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 47,
+        "endLine" : 98,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectActions"
+    },
+    "targetAdded" : {
+      "name" : "targetAdded",
+      "key" : "org.argouml.ui.ProjectActions/method/targetAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 17,
+        "endLine" : 139,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 41,
+          "endLine" : 139,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ProjectActions/method/targetAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ProjectActions"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.ui.targetmanager.TargetListener", "java.beans.PropertyChangeListener" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

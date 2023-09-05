@@ -1,0 +1,68 @@
+{
+  "name" : "MessageThreading",
+  "key" : "examples.nntp.MessageThreading",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "usage" : {
+      "name" : "usage",
+      "key" : "examples.nntp.MessageThreading/method/usage",
+      "type" : "void",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 21,
+        "endLine" : 70,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "examples.nntp.MessageThreading"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "examples.nntp.MessageThreading/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 21,
+        "endLine" : 34,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 34,
+          "startColumn" : 35,
+          "endLine" : 34,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.nntp.MessageThreading/method/main"
+      } ],
+      "classOrInterfaceKey" : "examples.nntp.MessageThreading"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

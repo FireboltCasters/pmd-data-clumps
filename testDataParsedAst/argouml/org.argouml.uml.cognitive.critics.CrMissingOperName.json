@@ -1,0 +1,139 @@
+{
+  "name" : "CrMissingOperName",
+  "key" : "org.argouml.uml.cognitive.critics.CrMissingOperName",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "initWizard" : {
+      "name" : "initWizard",
+      "key" : "org.argouml.uml.cognitive.critics.CrMissingOperName/method/initWizard",
+      "type" : "void",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 17,
+        "endLine" : 71,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "w",
+        "key" : "w",
+        "type" : "org.argouml.cognitive.critics.Wizard",
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 35,
+          "endLine" : 71,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrMissingOperName/method/initWizard"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrMissingOperName"
+    },
+    "predicate2" : {
+      "name" : "predicate2",
+      "key" : "org.argouml.uml.cognitive.critics.CrMissingOperName/method/predicate2",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 20,
+        "endLine" : 57,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 57,
+          "startColumn" : 38,
+          "endLine" : 57,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrMissingOperName/method/predicate2"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 57,
+          "startColumn" : 51,
+          "endLine" : 57,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrMissingOperName/method/predicate2"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrMissingOperName"
+    },
+    "getWizardClass" : {
+      "name" : "getWizardClass",
+      "key" : "org.argouml.uml.cognitive.critics.CrMissingOperName/method/getWizardClass",
+      "type" : "java.lang.Class",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 18,
+        "endLine" : 94,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "org.argouml.cognitive.ToDoItem",
+        "position" : {
+          "startLine" : 94,
+          "startColumn" : 42,
+          "endLine" : 94,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrMissingOperName/method/getWizardClass"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrMissingOperName"
+    },
+    "getCriticizedDesignMaterials" : {
+      "name" : "getCriticizedDesignMaterials",
+      "key" : "org.argouml.uml.cognitive.critics.CrMissingOperName/method/getCriticizedDesignMaterials",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 24,
+        "endLine" : 101,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrMissingOperName"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "CrUML" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

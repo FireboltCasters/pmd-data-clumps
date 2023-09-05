@@ -1,0 +1,631 @@
+{
+  "name" : "FileSystemUtilsTestCase",
+  "key" : "org.apache.commons.io.FileSystemUtilsTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "testGetFreeSpaceWindows_String_ParseCommaFormatBytes" : {
+      "name" : "testGetFreeSpaceWindows_String_ParseCommaFormatBytes",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceWindows_String_ParseCommaFormatBytes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 162,
+        "startColumn" : 17,
+        "endLine" : 162,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceUnix_String_NormalResponseKbSolaris" : {
+      "name" : "testGetFreeSpaceUnix_String_NormalResponseKbSolaris",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceUnix_String_NormalResponseKbSolaris",
+      "type" : "void",
+      "position" : {
+        "startLine" : 338,
+        "startColumn" : 17,
+        "endLine" : 338,
+        "endColumn" : 68
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceOS_String_Unix" : {
+      "name" : "testGetFreeSpaceOS_String_Unix",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceOS_String_Unix",
+      "type" : "void",
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 17,
+        "endLine" : 151,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 24,
+        "endLine" : 40,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 40,
+          "startColumn" : 38,
+          "endLine" : 40,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.FileSystemUtilsTestCase/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceWindows_String_EmptyResponse" : {
+      "name" : "testGetFreeSpaceWindows_String_EmptyResponse",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceWindows_String_EmptyResponse",
+      "type" : "void",
+      "position" : {
+        "startLine" : 233,
+        "startColumn" : 17,
+        "endLine" : 233,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceUnix_String_EmptyPath" : {
+      "name" : "testGetFreeSpaceUnix_String_EmptyPath",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceUnix_String_EmptyPath",
+      "type" : "void",
+      "position" : {
+        "startLine" : 275,
+        "startColumn" : 17,
+        "endLine" : 275,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceOS_String_NullPath" : {
+      "name" : "testGetFreeSpaceOS_String_NullPath",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceOS_String_NullPath",
+      "type" : "void",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 17,
+        "endLine" : 105,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceOS_String_InitError" : {
+      "name" : "testGetFreeSpaceOS_String_InitError",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceOS_String_InitError",
+      "type" : "void",
+      "position" : {
+        "startLine" : 117,
+        "startColumn" : 17,
+        "endLine" : 117,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceWindows_String_StripDrive" : {
+      "name" : "testGetFreeSpaceWindows_String_StripDrive",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceWindows_String_StripDrive",
+      "type" : "void",
+      "position" : {
+        "startLine" : 216,
+        "startColumn" : 17,
+        "endLine" : 216,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpace_String" : {
+      "name" : "testGetFreeSpace_String",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpace_String",
+      "type" : "void",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 17,
+        "endLine" : 65,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceUnix_String_InvalidResponse4" : {
+      "name" : "testGetFreeSpaceUnix_String_InvalidResponse4",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceUnix_String_InvalidResponse4",
+      "type" : "void",
+      "position" : {
+        "startLine" : 456,
+        "startColumn" : 17,
+        "endLine" : 456,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceUnix_String_EmptyResponse" : {
+      "name" : "testGetFreeSpaceUnix_String_EmptyResponse",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceUnix_String_EmptyResponse",
+      "type" : "void",
+      "position" : {
+        "startLine" : 366,
+        "startColumn" : 17,
+        "endLine" : 366,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceUnix_String_InvalidResponse3" : {
+      "name" : "testGetFreeSpaceUnix_String_InvalidResponse3",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceUnix_String_InvalidResponse3",
+      "type" : "void",
+      "position" : {
+        "startLine" : 433,
+        "startColumn" : 17,
+        "endLine" : 433,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceUnix_String_InvalidResponse2" : {
+      "name" : "testGetFreeSpaceUnix_String_InvalidResponse2",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceUnix_String_InvalidResponse2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 410,
+        "startColumn" : 17,
+        "endLine" : 410,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 20,
+        "endLine" : 58,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceWindows_String_NormalResponse" : {
+      "name" : "testGetFreeSpaceWindows_String_NormalResponse",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceWindows_String_NormalResponse",
+      "type" : "void",
+      "position" : {
+        "startLine" : 199,
+        "startColumn" : 17,
+        "endLine" : 199,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceUnix_String_InvalidResponse1" : {
+      "name" : "testGetFreeSpaceUnix_String_InvalidResponse1",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceUnix_String_InvalidResponse1",
+      "type" : "void",
+      "position" : {
+        "startLine" : 387,
+        "startColumn" : 17,
+        "endLine" : 387,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceOS_String_Windows" : {
+      "name" : "testGetFreeSpaceOS_String_Windows",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceOS_String_Windows",
+      "type" : "void",
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 17,
+        "endLine" : 141,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceOS_String_Other" : {
+      "name" : "testGetFreeSpaceOS_String_Other",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceOS_String_Other",
+      "type" : "void",
+      "position" : {
+        "startLine" : 129,
+        "startColumn" : 17,
+        "endLine" : 129,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceWindows_String_InvalidTextResponse" : {
+      "name" : "testGetFreeSpaceWindows_String_InvalidTextResponse",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceWindows_String_InvalidTextResponse",
+      "type" : "void",
+      "position" : {
+        "startLine" : 251,
+        "startColumn" : 17,
+        "endLine" : 251,
+        "endColumn" : 67
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceWindows_String_EmptyMultiLineResponse" : {
+      "name" : "testGetFreeSpaceWindows_String_EmptyMultiLineResponse",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceWindows_String_EmptyMultiLineResponse",
+      "type" : "void",
+      "position" : {
+        "startLine" : 242,
+        "startColumn" : 17,
+        "endLine" : 242,
+        "endColumn" : 70
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 20,
+        "endLine" : 61,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceWindows_String_NoSuchDirectoryResponse" : {
+      "name" : "testGetFreeSpaceWindows_String_NoSuchDirectoryResponse",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceWindows_String_NoSuchDirectoryResponse",
+      "type" : "void",
+      "position" : {
+        "startLine" : 260,
+        "startColumn" : 17,
+        "endLine" : 260,
+        "endColumn" : 71
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceUnix_String_LongResponse" : {
+      "name" : "testGetFreeSpaceUnix_String_LongResponse",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceUnix_String_LongResponse",
+      "type" : "void",
+      "position" : {
+        "startLine" : 348,
+        "startColumn" : 17,
+        "endLine" : 348,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceUnix_String_NormalResponseKbFreeBSD" : {
+      "name" : "testGetFreeSpaceUnix_String_NormalResponseKbFreeBSD",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceUnix_String_NormalResponseKbFreeBSD",
+      "type" : "void",
+      "position" : {
+        "startLine" : 328,
+        "startColumn" : 17,
+        "endLine" : 328,
+        "endColumn" : 68
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 24,
+        "endLine" : 50,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceUnix_String_NormalResponseFreeBSD" : {
+      "name" : "testGetFreeSpaceUnix_String_NormalResponseFreeBSD",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceUnix_String_NormalResponseFreeBSD",
+      "type" : "void",
+      "position" : {
+        "startLine" : 308,
+        "startColumn" : 17,
+        "endLine" : 308,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceWindows_String_EmptyPath" : {
+      "name" : "testGetFreeSpaceWindows_String_EmptyPath",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceWindows_String_EmptyPath",
+      "type" : "void",
+      "position" : {
+        "startLine" : 182,
+        "startColumn" : 17,
+        "endLine" : 182,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceUnix_String_NormalResponseLinux" : {
+      "name" : "testGetFreeSpaceUnix_String_NormalResponseLinux",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceUnix_String_NormalResponseLinux",
+      "type" : "void",
+      "position" : {
+        "startLine" : 299,
+        "startColumn" : 17,
+        "endLine" : 299,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceUnix_String_NormalResponseKbLinux" : {
+      "name" : "testGetFreeSpaceUnix_String_NormalResponseKbLinux",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceUnix_String_NormalResponseKbLinux",
+      "type" : "void",
+      "position" : {
+        "startLine" : 318,
+        "startColumn" : 17,
+        "endLine" : 318,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    },
+    "testGetFreeSpaceUnix_String_LongResponseKb" : {
+      "name" : "testGetFreeSpaceUnix_String_LongResponseKb",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase/method/testGetFreeSpaceUnix_String_LongResponseKb",
+      "type" : "void",
+      "position" : {
+        "startLine" : 357,
+        "startColumn" : 17,
+        "endLine" : 357,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.io.testtools.FileBasedTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.apache.commons.io.FileSystemUtilsTestCase.MockFileSystemUtils" : {
+      "name" : "MockFileSystemUtils",
+      "key" : "org.apache.commons.io.FileSystemUtilsTestCase.MockFileSystemUtils",
+      "type" : "class",
+      "position" : {
+        "startLine" : 480,
+        "startColumn" : 12,
+        "endLine" : 480,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : {
+        "bytes" : {
+          "name" : "bytes",
+          "key" : "bytes",
+          "type" : "byte[]",
+          "position" : {
+            "startLine" : 482,
+            "startColumn" : 30,
+            "endLine" : 482,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.io.FileSystemUtilsTestCase.MockFileSystemUtils/memberField/bytes",
+          "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase.MockFileSystemUtils"
+        },
+        "exitCode" : {
+          "name" : "exitCode",
+          "key" : "exitCode",
+          "type" : "int",
+          "position" : {
+            "startLine" : 481,
+            "startColumn" : 27,
+            "endLine" : 481,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.io.FileSystemUtilsTestCase.MockFileSystemUtils/memberField/exitCode",
+          "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase.MockFileSystemUtils"
+        },
+        "cmd" : {
+          "name" : "cmd",
+          "key" : "cmd",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 483,
+            "startColumn" : 30,
+            "endLine" : 483,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.io.FileSystemUtilsTestCase.MockFileSystemUtils/memberField/cmd",
+          "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase.MockFileSystemUtils"
+        }
+      },
+      "methods" : {
+        "openProcess" : {
+          "name" : "openProcess",
+          "key" : "org.apache.commons.io.FileSystemUtilsTestCase.MockFileSystemUtils/method/openProcess",
+          "type" : "java.lang.Process",
+          "position" : {
+            "startLine" : 492,
+            "startColumn" : 17,
+            "endLine" : 492,
+            "endColumn" : 28
+          },
+          "modifiers" : [ ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "params",
+            "key" : "params",
+            "type" : "java.lang.String[]",
+            "position" : {
+              "startLine" : 492,
+              "startColumn" : 38,
+              "endLine" : 492,
+              "endColumn" : 44
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.io.FileSystemUtilsTestCase.MockFileSystemUtils/method/openProcess"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.io.FileSystemUtilsTestCase.MockFileSystemUtils"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "FileSystemUtils" ],
+      "definedInClassOrInterfaceTypeKey" : "org.apache.commons.io.FileSystemUtilsTestCase",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

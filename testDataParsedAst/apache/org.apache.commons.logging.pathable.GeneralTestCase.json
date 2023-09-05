@@ -1,0 +1,135 @@
+{
+  "name" : "GeneralTestCase",
+  "key" : "org.apache.commons.logging.pathable.GeneralTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "checkAndSetContext" : {
+      "name" : "checkAndSetContext",
+      "key" : "org.apache.commons.logging.pathable.GeneralTestCase/method/checkAndSetContext",
+      "type" : "void",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 25,
+        "endLine" : 88,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.pathable.GeneralTestCase"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.logging.pathable.GeneralTestCase/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 24,
+        "endLine" : 36,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.pathable.GeneralTestCase"
+    },
+    "testResetContext2" : {
+      "name" : "testResetContext2",
+      "key" : "org.apache.commons.logging.pathable.GeneralTestCase/method/testResetContext2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 17,
+        "endLine" : 116,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.pathable.GeneralTestCase"
+    },
+    "testResetProps1" : {
+      "name" : "testResetProps1",
+      "key" : "org.apache.commons.logging.pathable.GeneralTestCase/method/testResetProps1",
+      "type" : "void",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 17,
+        "endLine" : 73,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.pathable.GeneralTestCase"
+    },
+    "testResetProps2" : {
+      "name" : "testResetProps2",
+      "key" : "org.apache.commons.logging.pathable.GeneralTestCase/method/testResetProps2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 17,
+        "endLine" : 80,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.pathable.GeneralTestCase"
+    },
+    "checkAndSetProperties" : {
+      "name" : "checkAndSetProperties",
+      "key" : "org.apache.commons.logging.pathable.GeneralTestCase/method/checkAndSetProperties",
+      "type" : "void",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 25,
+        "endLine" : 54,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.pathable.GeneralTestCase"
+    },
+    "testResetContext1" : {
+      "name" : "testResetContext1",
+      "key" : "org.apache.commons.logging.pathable.GeneralTestCase/method/testResetContext1",
+      "type" : "void",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 17,
+        "endLine" : 109,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.pathable.GeneralTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

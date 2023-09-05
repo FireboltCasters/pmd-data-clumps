@@ -1,0 +1,344 @@
+{
+  "name" : "DeploymentDiagramGraphModel",
+  "key" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 425,
+        "startColumn" : 23,
+        "endLine" : 425,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 33,
+        "endLine" : 53,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel"
+    }
+  },
+  "methods" : {
+    "getPorts" : {
+      "name" : "getPorts",
+      "key" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/getPorts",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 17,
+        "endLine" : 63,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "nodeOrEdge",
+        "key" : "nodeOrEdge",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 63,
+          "startColumn" : 33,
+          "endLine" : 63,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/getPorts"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel"
+    },
+    "getInEdges" : {
+      "name" : "getInEdges",
+      "key" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/getInEdges",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 17,
+        "endLine" : 101,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "port",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 35,
+          "endLine" : 101,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/getInEdges"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel"
+    },
+    "addNode" : {
+      "name" : "addNode",
+      "key" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/addNode",
+      "type" : "void",
+      "position" : {
+        "startLine" : 274,
+        "startColumn" : 17,
+        "endLine" : 274,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 274,
+          "startColumn" : 32,
+          "endLine" : 274,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/addNode"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel"
+    },
+    "canAddNode" : {
+      "name" : "canAddNode",
+      "key" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/canAddNode",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 173,
+        "startColumn" : 20,
+        "endLine" : 173,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 173,
+          "startColumn" : 38,
+          "endLine" : 173,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/canAddNode"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel"
+    },
+    "addNodeRelatedEdges" : {
+      "name" : "addNodeRelatedEdges",
+      "key" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/addNodeRelatedEdges",
+      "type" : "void",
+      "position" : {
+        "startLine" : 311,
+        "startColumn" : 17,
+        "endLine" : 311,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "node",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 311,
+          "startColumn" : 44,
+          "endLine" : 311,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/addNodeRelatedEdges"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel"
+    },
+    "getOwner" : {
+      "name" : "getOwner",
+      "key" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/getOwner",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 19,
+        "endLine" : 93,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "port",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 93,
+          "startColumn" : 35,
+          "endLine" : 93,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/getOwner"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel"
+    },
+    "getOutEdges" : {
+      "name" : "getOutEdges",
+      "key" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/getOutEdges",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 162,
+        "startColumn" : 17,
+        "endLine" : 162,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "port",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 162,
+          "startColumn" : 36,
+          "endLine" : 162,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/getOutEdges"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel"
+    },
+    "addEdge" : {
+      "name" : "addEdge",
+      "key" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/addEdge",
+      "type" : "void",
+      "position" : {
+        "startLine" : 293,
+        "startColumn" : 17,
+        "endLine" : 293,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "edge",
+        "key" : "edge",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 293,
+          "startColumn" : 32,
+          "endLine" : 293,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/addEdge"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel"
+    },
+    "canAddEdge" : {
+      "name" : "canAddEdge",
+      "key" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/canAddEdge",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 212,
+        "startColumn" : 20,
+        "endLine" : 212,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "edge",
+        "key" : "edge",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 212,
+          "startColumn" : 38,
+          "endLine" : 212,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/canAddEdge"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel"
+    },
+    "vetoableChange" : {
+      "name" : "vetoableChange",
+      "key" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/vetoableChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 379,
+        "startColumn" : 17,
+        "endLine" : 379,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pce",
+        "key" : "pce",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 379,
+          "startColumn" : 52,
+          "endLine" : 379,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel/method/vetoableChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.beans.VetoableChangeListener" ],
+  "extends_" : [ "org.argouml.uml.diagram.UMLMutableGraphSupport" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

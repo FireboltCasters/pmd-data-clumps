@@ -1,0 +1,837 @@
+{
+  "name" : "ArgoEventPump",
+  "key" : "org.argouml.application.events.ArgoEventPump",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 14,
+    "endLine" : 43,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "listeners" : {
+      "name" : "listeners",
+      "key" : "listeners",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 24,
+        "endLine" : 54,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.events.ArgoEventPump/memberField/listeners",
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 33,
+        "endLine" : 47,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.events.ArgoEventPump/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "SINGLETON" : {
+      "name" : "SINGLETON",
+      "key" : "SINGLETON",
+      "type" : "org.argouml.application.events.ArgoEventPump",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 32,
+        "endLine" : 59,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.events.ArgoEventPump/memberField/SINGLETON",
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    }
+  },
+  "methods" : {
+    "doAddListener" : {
+      "name" : "doAddListener",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/doAddListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 20,
+        "endLine" : 108,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "int",
+        "position" : {
+          "startLine" : 108,
+          "startColumn" : 38,
+          "endLine" : 108,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/doAddListener"
+      }, {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "org.argouml.application.api.ArgoEventListener",
+        "position" : {
+          "startLine" : 108,
+          "startColumn" : 63,
+          "endLine" : 108,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/doAddListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "handleFireGeneratorEvent" : {
+      "name" : "handleFireGeneratorEvent",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/handleFireGeneratorEvent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 338,
+        "startColumn" : 18,
+        "endLine" : 338,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ArgoGeneratorEvent",
+        "position" : {
+          "startLine" : 339,
+          "startColumn" : 28,
+          "endLine" : 339,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/handleFireGeneratorEvent"
+      }, {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "ArgoGeneratorEventListener",
+        "position" : {
+          "startLine" : 340,
+          "startColumn" : 36,
+          "endLine" : 340,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/handleFireGeneratorEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "fireEvent" : {
+      "name" : "fireEvent",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/fireEvent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 428,
+        "startColumn" : 24,
+        "endLine" : 428,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ArgoEvent",
+        "position" : {
+          "startLine" : 428,
+          "startColumn" : 44,
+          "endLine" : 428,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/fireEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "handleFireDiagramAppearanceEvent" : {
+      "name" : "handleFireDiagramAppearanceEvent",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/handleFireDiagramAppearanceEvent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 220,
+        "startColumn" : 18,
+        "endLine" : 220,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ArgoDiagramAppearanceEvent",
+        "position" : {
+          "startLine" : 221,
+          "startColumn" : 42,
+          "endLine" : 221,
+          "endColumn" : 47
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/handleFireDiagramAppearanceEvent"
+      }, {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "ArgoDiagramAppearanceEventListener",
+        "position" : {
+          "startLine" : 222,
+          "startColumn" : 50,
+          "endLine" : 222,
+          "endColumn" : 58
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/handleFireDiagramAppearanceEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "removeListener" : {
+      "name" : "removeListener",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/removeListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 24,
+        "endLine" : 100,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "int",
+        "position" : {
+          "startLine" : 100,
+          "startColumn" : 43,
+          "endLine" : 100,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/removeListener"
+      }, {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "org.argouml.application.api.ArgoEventListener",
+        "position" : {
+          "startLine" : 100,
+          "startColumn" : 68,
+          "endLine" : 100,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/removeListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "handleFireStatusEvent" : {
+      "name" : "handleFireStatusEvent",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/handleFireStatusEvent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 278,
+        "startColumn" : 18,
+        "endLine" : 278,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ArgoStatusEvent",
+        "position" : {
+          "startLine" : 279,
+          "startColumn" : 25,
+          "endLine" : 279,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/handleFireStatusEvent"
+      }, {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "ArgoStatusEventListener",
+        "position" : {
+          "startLine" : 280,
+          "startColumn" : 33,
+          "endLine" : 280,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/handleFireStatusEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "fireNotationEventInternal" : {
+      "name" : "fireNotationEventInternal",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/fireNotationEventInternal",
+      "type" : "void",
+      "position" : {
+        "startLine" : 180,
+        "startColumn" : 18,
+        "endLine" : 180,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ArgoNotationEvent",
+        "position" : {
+          "startLine" : 180,
+          "startColumn" : 62,
+          "endLine" : 180,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/fireNotationEventInternal"
+      }, {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "ArgoNotationEventListener",
+        "position" : {
+          "startLine" : 181,
+          "startColumn" : 39,
+          "endLine" : 181,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/fireNotationEventInternal"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "doRemoveListener" : {
+      "name" : "doRemoveListener",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/doRemoveListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 126,
+        "startColumn" : 20,
+        "endLine" : 126,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "int",
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 41,
+          "endLine" : 126,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/doRemoveListener"
+      }, {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "org.argouml.application.api.ArgoEventListener",
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 66,
+          "endLine" : 126,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/doRemoveListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "handleFireEvent" : {
+      "name" : "handleFireEvent",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/handleFireEvent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 360,
+        "startColumn" : 18,
+        "endLine" : 360,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ArgoEvent",
+        "position" : {
+          "startLine" : 360,
+          "startColumn" : 44,
+          "endLine" : 360,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/handleFireEvent"
+      }, {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "org.argouml.application.api.ArgoEventListener",
+        "position" : {
+          "startLine" : 360,
+          "startColumn" : 69,
+          "endLine" : 360,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/handleFireEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "handleFireProfileEvent" : {
+      "name" : "handleFireProfileEvent",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/handleFireProfileEvent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 314,
+        "startColumn" : 18,
+        "endLine" : 314,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ArgoProfileEvent",
+        "position" : {
+          "startLine" : 315,
+          "startColumn" : 26,
+          "endLine" : 315,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/handleFireProfileEvent"
+      }, {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "ArgoProfileEventListener",
+        "position" : {
+          "startLine" : 316,
+          "startColumn" : 34,
+          "endLine" : 316,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/handleFireProfileEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "handleFireHelpEvent" : {
+      "name" : "handleFireHelpEvent",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/handleFireHelpEvent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 253,
+        "startColumn" : 18,
+        "endLine" : 253,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ArgoHelpEvent",
+        "position" : {
+          "startLine" : 254,
+          "startColumn" : 23,
+          "endLine" : 254,
+          "endColumn" : 28
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/handleFireHelpEvent"
+      }, {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "ArgoHelpEventListener",
+        "position" : {
+          "startLine" : 255,
+          "startColumn" : 31,
+          "endLine" : 255,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/handleFireHelpEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "handleFireNotationEvent" : {
+      "name" : "handleFireNotationEvent",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/handleFireNotationEvent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 162,
+        "startColumn" : 18,
+        "endLine" : 162,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ArgoNotationEvent",
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 33,
+          "endLine" : 163,
+          "endColumn" : 38
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/handleFireNotationEvent"
+      }, {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "ArgoNotationEventListener",
+        "position" : {
+          "startLine" : 164,
+          "startColumn" : 41,
+          "endLine" : 164,
+          "endColumn" : 49
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/handleFireNotationEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/getInstance",
+      "type" : "org.argouml.application.events.ArgoEventPump",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 33,
+        "endLine" : 64,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "doFireEvent" : {
+      "name" : "doFireEvent",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/doFireEvent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 435,
+        "startColumn" : 20,
+        "endLine" : 435,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ArgoEvent",
+        "position" : {
+          "startLine" : 435,
+          "startColumn" : 42,
+          "endLine" : 435,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/doFireEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "fireDiagramAppearanceEventInternal" : {
+      "name" : "fireDiagramAppearanceEventInternal",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/fireDiagramAppearanceEventInternal",
+      "type" : "void",
+      "position" : {
+        "startLine" : 234,
+        "startColumn" : 18,
+        "endLine" : 234,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ArgoDiagramAppearanceEvent",
+        "position" : {
+          "startLine" : 235,
+          "startColumn" : 46,
+          "endLine" : 235,
+          "endColumn" : 51
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/fireDiagramAppearanceEventInternal"
+      }, {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "ArgoDiagramAppearanceEventListener",
+        "position" : {
+          "startLine" : 236,
+          "startColumn" : 54,
+          "endLine" : 236,
+          "endColumn" : 62
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/fireDiagramAppearanceEventInternal"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    },
+    "addListener" : {
+      "name" : "addListener",
+      "key" : "org.argouml.application.events.ArgoEventPump/method/addListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 24,
+        "endLine" : 85,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "int",
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 40,
+          "endLine" : 85,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/addListener"
+      }, {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "org.argouml.application.api.ArgoEventListener",
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 65,
+          "endLine" : 85,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoEventPump/method/addListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.application.events.ArgoEventPump.Pair" : {
+      "name" : "Pair",
+      "key" : "org.argouml.application.events.ArgoEventPump.Pair",
+      "type" : "class",
+      "position" : {
+        "startLine" : 462,
+        "startColumn" : 12,
+        "endLine" : 462,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : {
+        "listener" : {
+          "name" : "listener",
+          "key" : "listener",
+          "type" : "org.argouml.application.api.ArgoEventListener",
+          "position" : {
+            "startLine" : 464,
+            "startColumn" : 35,
+            "endLine" : 464,
+            "endColumn" : 43
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.application.events.ArgoEventPump.Pair/memberField/listener",
+          "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump.Pair"
+        },
+        "eventType" : {
+          "name" : "eventType",
+          "key" : "eventType",
+          "type" : "int",
+          "position" : {
+            "startLine" : 463,
+            "startColumn" : 21,
+            "endLine" : 463,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.application.events.ArgoEventPump.Pair/memberField/eventType",
+          "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump.Pair"
+        }
+      },
+      "methods" : {
+        "getEventType" : {
+          "name" : "getEventType",
+          "key" : "org.argouml.application.events.ArgoEventPump.Pair/method/getEventType",
+          "type" : "int",
+          "position" : {
+            "startLine" : 480,
+            "startColumn" : 13,
+            "endLine" : 480,
+            "endColumn" : 25
+          },
+          "modifiers" : [ ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump.Pair"
+        },
+        "hashCode" : {
+          "name" : "hashCode",
+          "key" : "org.argouml.application.events.ArgoEventPump.Pair/method/hashCode",
+          "type" : "int",
+          "position" : {
+            "startLine" : 499,
+            "startColumn" : 20,
+            "endLine" : 499,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump.Pair"
+        },
+        "equals" : {
+          "name" : "equals",
+          "key" : "org.argouml.application.events.ArgoEventPump.Pair/method/equals",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 508,
+            "startColumn" : 24,
+            "endLine" : 508,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "o",
+            "key" : "o",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 508,
+              "startColumn" : 38,
+              "endLine" : 508,
+              "endColumn" : 39
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.application.events.ArgoEventPump.Pair/method/equals"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump.Pair"
+        },
+        "toString" : {
+          "name" : "toString",
+          "key" : "org.argouml.application.events.ArgoEventPump.Pair/method/toString",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 493,
+            "startColumn" : 23,
+            "endLine" : 493,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump.Pair"
+        },
+        "getListener" : {
+          "name" : "getListener",
+          "key" : "org.argouml.application.events.ArgoEventPump.Pair/method/getListener",
+          "type" : "org.argouml.application.api.ArgoEventListener",
+          "position" : {
+            "startLine" : 487,
+            "startColumn" : 27,
+            "endLine" : 487,
+            "endColumn" : 38
+          },
+          "modifiers" : [ ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.application.events.ArgoEventPump.Pair"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.application.events.ArgoEventPump",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,200 @@
+{
+  "name" : "LastRecentlyUsedMenuList",
+  "key" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList",
+  "type" : "class",
+  "position" : {
+    "startLine" : 54,
+    "startColumn" : 8,
+    "endLine" : 54,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "lruCount" : {
+      "name" : "lruCount",
+      "key" : "lruCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 17,
+        "endLine" : 69,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList/memberField/lruCount",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList"
+    },
+    "menuIndex" : {
+      "name" : "menuIndex",
+      "key" : "menuIndex",
+      "type" : "int",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 17,
+        "endLine" : 80,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList/memberField/menuIndex",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList"
+    },
+    "confKeys" : {
+      "name" : "confKeys",
+      "key" : "confKeys",
+      "type" : "org.argouml.configuration.ConfigurationKey[]",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 32,
+        "endLine" : 90,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList/memberField/confKeys",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList"
+    },
+    "menuItems" : {
+      "name" : "menuItems",
+      "key" : "menuItems",
+      "type" : "javax.swing.JMenuItem[]",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 25,
+        "endLine" : 85,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList/memberField/menuItems",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList"
+    },
+    "MAX_COUNT_DEFAULT" : {
+      "name" : "MAX_COUNT_DEFAULT",
+      "key" : "MAX_COUNT_DEFAULT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 30,
+        "endLine" : 59,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList/memberField/MAX_COUNT_DEFAULT",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList"
+    },
+    "maxCount" : {
+      "name" : "maxCount",
+      "key" : "maxCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 17,
+        "endLine" : 74,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList/memberField/maxCount",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList"
+    },
+    "fileMenu" : {
+      "name" : "fileMenu",
+      "key" : "fileMenu",
+      "type" : "javax.swing.JMenu",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 19,
+        "endLine" : 64,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList/memberField/fileMenu",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList"
+    }
+  },
+  "methods" : {
+    "addEntry" : {
+      "name" : "addEntry",
+      "key" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList/method/addEntry",
+      "type" : "void",
+      "position" : {
+        "startLine" : 177,
+        "startColumn" : 17,
+        "endLine" : 177,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "filename",
+        "key" : "filename",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 177,
+          "startColumn" : 33,
+          "endLine" : 177,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList/method/addEntry"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList"
+    },
+    "addEventHandler" : {
+      "name" : "addEventHandler",
+      "key" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList/method/addEventHandler",
+      "type" : "javax.swing.JMenuItem",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 23,
+        "endLine" : 99,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "filename",
+        "key" : "filename",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 99,
+          "startColumn" : 46,
+          "endLine" : 99,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList/method/addEventHandler"
+      }, {
+        "name" : "addAt",
+        "key" : "addAt",
+        "type" : "int",
+        "position" : {
+          "startLine" : 99,
+          "startColumn" : 60,
+          "endLine" : 99,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList/method/addEventHandler"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.LastRecentlyUsedMenuList"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

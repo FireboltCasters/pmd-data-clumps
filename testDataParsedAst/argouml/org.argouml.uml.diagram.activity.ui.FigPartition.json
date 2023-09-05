@@ -1,0 +1,968 @@
+{
+  "name" : "FigPartition",
+  "key" : "org.argouml.uml.diagram.activity.ui.FigPartition",
+  "type" : "class",
+  "position" : {
+    "startLine" : 52,
+    "startColumn" : 8,
+    "endLine" : 52,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "leftLine" : {
+      "name" : "leftLine",
+      "key" : "leftLine",
+      "type" : "org.tigris.gef.presentation.FigLine",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 21,
+        "endLine" : 54,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/memberField/leftLine",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "topLine" : {
+      "name" : "topLine",
+      "key" : "topLine",
+      "type" : "org.tigris.gef.presentation.FigLine",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 21,
+        "endLine" : 56,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/memberField/topLine",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "rightLine" : {
+      "name" : "rightLine",
+      "key" : "rightLine",
+      "type" : "org.tigris.gef.presentation.FigLine",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 21,
+        "endLine" : 55,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/memberField/rightLine",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "previousPartition" : {
+      "name" : "previousPartition",
+      "key" : "previousPartition",
+      "type" : "org.argouml.uml.diagram.activity.ui.FigPartition",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 26,
+        "endLine" : 60,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/memberField/previousPartition",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "bottomLine" : {
+      "name" : "bottomLine",
+      "key" : "bottomLine",
+      "type" : "org.tigris.gef.presentation.FigLine",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 21,
+        "endLine" : 57,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/memberField/bottomLine",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "seperator" : {
+      "name" : "seperator",
+      "key" : "seperator",
+      "type" : "org.tigris.gef.presentation.FigLine",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 21,
+        "endLine" : 58,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/memberField/seperator",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "nextPartition" : {
+      "name" : "nextPartition",
+      "key" : "nextPartition",
+      "type" : "org.argouml.uml.diagram.activity.ui.FigPartition",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 26,
+        "endLine" : 61,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/memberField/nextPartition",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    }
+  },
+  "methods" : {
+    "removeFromDiagramImpl" : {
+      "name" : "removeFromDiagramImpl",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/removeFromDiagramImpl",
+      "type" : "void",
+      "position" : {
+        "startLine" : 291,
+        "startColumn" : 17,
+        "endLine" : 291,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "placeString" : {
+      "name" : "placeString",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/placeString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 197,
+        "startColumn" : 19,
+        "endLine" : 197,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "getDragDependencies" : {
+      "name" : "getDragDependencies",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/getDragDependencies",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 393,
+        "startColumn" : 17,
+        "endLine" : 393,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "makeSelection" : {
+      "name" : "makeSelection",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/makeSelection",
+      "type" : "org.tigris.gef.base.Selection",
+      "position" : {
+        "startLine" : 245,
+        "startColumn" : 22,
+        "endLine" : 245,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "setNextPartition" : {
+      "name" : "setNextPartition",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setNextPartition",
+      "type" : "void",
+      "position" : {
+        "startLine" : 376,
+        "startColumn" : 10,
+        "endLine" : 376,
+        "endColumn" : 26
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "next",
+        "key" : "next",
+        "type" : "org.argouml.uml.diagram.activity.ui.FigPartition",
+        "position" : {
+          "startLine" : 376,
+          "startColumn" : 40,
+          "endLine" : 376,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setNextPartition"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "setLineColor" : {
+      "name" : "setLineColor",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setLineColor",
+      "type" : "void",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 17,
+        "endLine" : 128,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "col",
+        "key" : "col",
+        "type" : "java.awt.Color",
+        "position" : {
+          "startLine" : 128,
+          "startColumn" : 36,
+          "endLine" : 128,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setLineColor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "getLineColor" : {
+      "name" : "getLineColor",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/getLineColor",
+      "type" : "java.awt.Color",
+      "position" : {
+        "startLine" : 140,
+        "startColumn" : 18,
+        "endLine" : 140,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "setLineWidth" : {
+      "name" : "setLineWidth",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setLineWidth",
+      "type" : "void",
+      "position" : {
+        "startLine" : 180,
+        "startColumn" : 17,
+        "endLine" : 180,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "w",
+        "key" : "w",
+        "type" : "int",
+        "position" : {
+          "startLine" : 180,
+          "startColumn" : 34,
+          "endLine" : 180,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setLineWidth"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "getFigPool" : {
+      "name" : "getFigPool",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/getFigPool",
+      "type" : "FigPool",
+      "position" : {
+        "startLine" : 360,
+        "startColumn" : 21,
+        "endLine" : 360,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "setFillColor" : {
+      "name" : "setFillColor",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setFillColor",
+      "type" : "void",
+      "position" : {
+        "startLine" : 148,
+        "startColumn" : 17,
+        "endLine" : 148,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "col",
+        "key" : "col",
+        "type" : "java.awt.Color",
+        "position" : {
+          "startLine" : 148,
+          "startColumn" : 36,
+          "endLine" : 148,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setFillColor"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "setFilled" : {
+      "name" : "setFilled",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setFilled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 17,
+        "endLine" : 165,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 165,
+          "startColumn" : 35,
+          "endLine" : 165,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setFilled"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "getLineWidth" : {
+      "name" : "getLineWidth",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/getLineWidth",
+      "type" : "int",
+      "position" : {
+        "startLine" : 189,
+        "startColumn" : 16,
+        "endLine" : 189,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "getPartitions" : {
+      "name" : "getPartitions",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/getPartitions",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 344,
+        "startColumn" : 32,
+        "endLine" : 344,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "layer",
+        "key" : "layer",
+        "type" : "org.tigris.gef.base.Layer",
+        "position" : {
+          "startLine" : 344,
+          "startColumn" : 52,
+          "endLine" : 344,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/getPartitions"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "getFillColor" : {
+      "name" : "getFillColor",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/getFillColor",
+      "type" : "java.awt.Color",
+      "position" : {
+        "startLine" : 157,
+        "startColumn" : 18,
+        "endLine" : 157,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "getMinimumSize" : {
+      "name" : "getMinimumSize",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/getMinimumSize",
+      "type" : "java.awt.Dimension",
+      "position" : {
+        "startLine" : 206,
+        "startColumn" : 22,
+        "endLine" : 206,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "clone" : {
+      "name" : "clone",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/clone",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 19,
+        "endLine" : 111,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "translateWithContents" : {
+      "name" : "translateWithContents",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/translateWithContents",
+      "type" : "void",
+      "position" : {
+        "startLine" : 332,
+        "startColumn" : 18,
+        "endLine" : 332,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dx",
+        "key" : "dx",
+        "type" : "int",
+        "position" : {
+          "startLine" : 332,
+          "startColumn" : 44,
+          "endLine" : 332,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/translateWithContents"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "isFilled" : {
+      "name" : "isFilled",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/isFilled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 20,
+        "endLine" : 172,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "appendToPool" : {
+      "name" : "appendToPool",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/appendToPool",
+      "type" : "void",
+      "position" : {
+        "startLine" : 256,
+        "startColumn" : 17,
+        "endLine" : 256,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "activityGraph",
+        "key" : "activityGraph",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 256,
+          "startColumn" : 37,
+          "endLine" : 256,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/appendToPool"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "setStandardBounds" : {
+      "name" : "setStandardBounds",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setStandardBounds",
+      "type" : "void",
+      "position" : {
+        "startLine" : 222,
+        "startColumn" : 20,
+        "endLine" : 222,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "x",
+        "key" : "x",
+        "type" : "int",
+        "position" : {
+          "startLine" : 222,
+          "startColumn" : 42,
+          "endLine" : 222,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setStandardBounds"
+      }, {
+        "name" : "y",
+        "key" : "y",
+        "type" : "int",
+        "position" : {
+          "startLine" : 222,
+          "startColumn" : 49,
+          "endLine" : 222,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setStandardBounds"
+      }, {
+        "name" : "w",
+        "key" : "w",
+        "type" : "int",
+        "position" : {
+          "startLine" : 222,
+          "startColumn" : 56,
+          "endLine" : 222,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setStandardBounds"
+      }, {
+        "name" : "h",
+        "key" : "h",
+        "type" : "int",
+        "position" : {
+          "startLine" : 222,
+          "startColumn" : 63,
+          "endLine" : 222,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setStandardBounds"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    },
+    "setPreviousPartition" : {
+      "name" : "setPreviousPartition",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setPreviousPartition",
+      "type" : "void",
+      "position" : {
+        "startLine" : 383,
+        "startColumn" : 10,
+        "endLine" : 383,
+        "endColumn" : 30
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "previous",
+        "key" : "previous",
+        "type" : "org.argouml.uml.diagram.activity.ui.FigPartition",
+        "position" : {
+          "startLine" : 383,
+          "startColumn" : 44,
+          "endLine" : 383,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition/method/setPreviousPartition"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.diagram.ui.FigNodeModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition" : {
+      "name" : "SelectionPartition",
+      "key" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition",
+      "type" : "class",
+      "position" : {
+        "startLine" : 412,
+        "startColumn" : 13,
+        "endLine" : 412,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "fields" : {
+        "cw" : {
+          "name" : "cw",
+          "key" : "cw",
+          "type" : "int",
+          "position" : {
+            "startLine" : 416,
+            "startColumn" : 21,
+            "endLine" : 416,
+            "endColumn" : 23
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/memberField/cw",
+          "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition"
+        },
+        "cx" : {
+          "name" : "cx",
+          "key" : "cx",
+          "type" : "int",
+          "position" : {
+            "startLine" : 414,
+            "startColumn" : 21,
+            "endLine" : 414,
+            "endColumn" : 23
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/memberField/cx",
+          "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition"
+        },
+        "ch" : {
+          "name" : "ch",
+          "key" : "ch",
+          "type" : "int",
+          "position" : {
+            "startLine" : 417,
+            "startColumn" : 21,
+            "endLine" : 417,
+            "endColumn" : 23
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/memberField/ch",
+          "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition"
+        },
+        "cy" : {
+          "name" : "cy",
+          "key" : "cy",
+          "type" : "int",
+          "position" : {
+            "startLine" : 415,
+            "startColumn" : 21,
+            "endLine" : 415,
+            "endColumn" : 23
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/memberField/cy",
+          "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition"
+        }
+      },
+      "methods" : {
+        "setHandleBox" : {
+          "name" : "setHandleBox",
+          "key" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/setHandleBox",
+          "type" : "void",
+          "position" : {
+            "startLine" : 652,
+            "startColumn" : 22,
+            "endLine" : 652,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "neighbour",
+            "key" : "neighbour",
+            "type" : "org.argouml.uml.diagram.activity.ui.FigPartition",
+            "position" : {
+              "startLine" : 653,
+              "startColumn" : 23,
+              "endLine" : 653,
+              "endColumn" : 32
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/setHandleBox"
+          }, {
+            "name" : "x",
+            "key" : "x",
+            "type" : "int",
+            "position" : {
+              "startLine" : 654,
+              "startColumn" : 14,
+              "endLine" : 654,
+              "endColumn" : 15
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/setHandleBox"
+          }, {
+            "name" : "y",
+            "key" : "y",
+            "type" : "int",
+            "position" : {
+              "startLine" : 655,
+              "startColumn" : 14,
+              "endLine" : 655,
+              "endColumn" : 15
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/setHandleBox"
+          }, {
+            "name" : "width",
+            "key" : "width",
+            "type" : "int",
+            "position" : {
+              "startLine" : 656,
+              "startColumn" : 14,
+              "endLine" : 656,
+              "endColumn" : 19
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/setHandleBox"
+          }, {
+            "name" : "height",
+            "key" : "height",
+            "type" : "int",
+            "position" : {
+              "startLine" : 657,
+              "startColumn" : 14,
+              "endLine" : 657,
+              "endColumn" : 20
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/setHandleBox"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition"
+        },
+        "updateHandleBox" : {
+          "name" : "updateHandleBox",
+          "key" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/updateHandleBox",
+          "type" : "void",
+          "position" : {
+            "startLine" : 496,
+            "startColumn" : 22,
+            "endLine" : 496,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition"
+        },
+        "dragHandle" : {
+          "name" : "dragHandle",
+          "key" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/dragHandle",
+          "type" : "void",
+          "position" : {
+            "startLine" : 560,
+            "startColumn" : 21,
+            "endLine" : 560,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "mX",
+            "key" : "mX",
+            "type" : "int",
+            "position" : {
+              "startLine" : 560,
+              "startColumn" : 36,
+              "endLine" : 560,
+              "endColumn" : 38
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/dragHandle"
+          }, {
+            "name" : "mY",
+            "key" : "mY",
+            "type" : "int",
+            "position" : {
+              "startLine" : 560,
+              "startColumn" : 44,
+              "endLine" : 560,
+              "endColumn" : 46
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/dragHandle"
+          }, {
+            "name" : "anX",
+            "key" : "anX",
+            "type" : "int",
+            "position" : {
+              "startLine" : 560,
+              "startColumn" : 52,
+              "endLine" : 560,
+              "endColumn" : 55
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/dragHandle"
+          }, {
+            "name" : "anY",
+            "key" : "anY",
+            "type" : "int",
+            "position" : {
+              "startLine" : 560,
+              "startColumn" : 61,
+              "endLine" : 560,
+              "endColumn" : 64
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/dragHandle"
+          }, {
+            "name" : "hand",
+            "key" : "hand",
+            "type" : "org.tigris.gef.presentation.Handle",
+            "position" : {
+              "startLine" : 560,
+              "startColumn" : 73,
+              "endLine" : 560,
+              "endColumn" : 77
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/dragHandle"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition"
+        },
+        "hitHandle" : {
+          "name" : "hitHandle",
+          "key" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/hitHandle",
+          "type" : "void",
+          "position" : {
+            "startLine" : 439,
+            "startColumn" : 21,
+            "endLine" : 439,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "r",
+            "key" : "r",
+            "type" : "java.awt.Rectangle",
+            "position" : {
+              "startLine" : 439,
+              "startColumn" : 41,
+              "endLine" : 439,
+              "endColumn" : 42
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/hitHandle"
+          }, {
+            "name" : "h",
+            "key" : "h",
+            "type" : "org.tigris.gef.presentation.Handle",
+            "position" : {
+              "startLine" : 439,
+              "startColumn" : 51,
+              "endLine" : 439,
+              "endColumn" : 52
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/hitHandle"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition"
+        },
+        "paint" : {
+          "name" : "paint",
+          "key" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/paint",
+          "type" : "void",
+          "position" : {
+            "startLine" : 507,
+            "startColumn" : 21,
+            "endLine" : 507,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "g",
+            "key" : "g",
+            "type" : "java.awt.Graphics",
+            "position" : {
+              "startLine" : 507,
+              "startColumn" : 36,
+              "endLine" : 507,
+              "endColumn" : 37
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition/method/paint"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.FigPartition.SelectionPartition"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.tigris.gef.base.Selection" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.diagram.activity.ui.FigPartition",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,87 @@
+{
+  "name" : "InitUiCmdSubsystem",
+  "key" : "org.argouml.ui.cmd.InitUiCmdSubsystem",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "init" : {
+      "name" : "init",
+      "key" : "org.argouml.ui.cmd.InitUiCmdSubsystem/method/init",
+      "type" : "void",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 17,
+        "endLine" : 53,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.InitUiCmdSubsystem"
+    },
+    "getDetailsTabs" : {
+      "name" : "getDetailsTabs",
+      "key" : "org.argouml.ui.cmd.InitUiCmdSubsystem/method/getDetailsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 37,
+        "endLine" : 58,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.InitUiCmdSubsystem"
+    },
+    "getSettingsTabs" : {
+      "name" : "getSettingsTabs",
+      "key" : "org.argouml.ui.cmd.InitUiCmdSubsystem/method/getSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 42,
+        "endLine" : 46,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.InitUiCmdSubsystem"
+    },
+    "getProjectSettingsTabs" : {
+      "name" : "getProjectSettingsTabs",
+      "key" : "org.argouml.ui.cmd.InitUiCmdSubsystem/method/getProjectSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 42,
+        "endLine" : 42,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.InitUiCmdSubsystem"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.InitSubsystem" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,1069 @@
+{
+  "name" : "JOCLContentHandler",
+  "key" : "org.apache.commons.jocl.JOCLContentHandler",
+  "type" : "class",
+  "position" : {
+    "startLine" : 212,
+    "startColumn" : 8,
+    "endLine" : 212,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "_acceptEmptyNamespaceForAttributes" : {
+      "name" : "_acceptEmptyNamespaceForAttributes",
+      "key" : "_acceptEmptyNamespaceForAttributes",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 636,
+        "startColumn" : 23,
+        "endLine" : 636,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/_acceptEmptyNamespaceForAttributes",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "ELT_BYTE" : {
+      "name" : "ELT_BYTE",
+      "key" : "ELT_BYTE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 664,
+        "startColumn" : 35,
+        "endLine" : 664,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/ELT_BYTE",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "_acceptJoclPrefixForAttributes" : {
+      "name" : "_acceptJoclPrefixForAttributes",
+      "key" : "_acceptJoclPrefixForAttributes",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 646,
+        "startColumn" : 23,
+        "endLine" : 646,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/_acceptJoclPrefixForAttributes",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "ATT_CLASS" : {
+      "name" : "ATT_CLASS",
+      "key" : "ATT_CLASS",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 655,
+        "startColumn" : 35,
+        "endLine" : 655,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/ATT_CLASS",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "_typeList" : {
+      "name" : "_typeList",
+      "key" : "_typeList",
+      "type" : "java.util.ArrayList",
+      "position" : {
+        "startLine" : 600,
+        "startColumn" : 25,
+        "endLine" : 600,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/_typeList",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "_valueList" : {
+      "name" : "_valueList",
+      "key" : "_valueList",
+      "type" : "java.util.ArrayList",
+      "position" : {
+        "startLine" : 605,
+        "startColumn" : 25,
+        "endLine" : 605,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/_valueList",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "ELT_BOOLEAN" : {
+      "name" : "ELT_BOOLEAN",
+      "key" : "ELT_BOOLEAN",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 661,
+        "startColumn" : 35,
+        "endLine" : 661,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/ELT_BOOLEAN",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "_locator" : {
+      "name" : "_locator",
+      "key" : "_locator",
+      "type" : "org.xml.sax.Locator",
+      "position" : {
+        "startLine" : 649,
+        "startColumn" : 23,
+        "endLine" : 649,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/_locator",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "ELT_SHORT" : {
+      "name" : "ELT_SHORT",
+      "key" : "ELT_SHORT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 682,
+        "startColumn" : 35,
+        "endLine" : 682,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/ELT_SHORT",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "_cur" : {
+      "name" : "_cur",
+      "key" : "_cur",
+      "type" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails",
+      "position" : {
+        "startLine" : 610,
+        "startColumn" : 34,
+        "endLine" : 610,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/_cur",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "ELT_LONG" : {
+      "name" : "ELT_LONG",
+      "key" : "ELT_LONG",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 679,
+        "startColumn" : 35,
+        "endLine" : 679,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/ELT_LONG",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "ELT_OBJECT" : {
+      "name" : "ELT_OBJECT",
+      "key" : "ELT_OBJECT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 652,
+        "startColumn" : 35,
+        "endLine" : 652,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/ELT_OBJECT",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "ELT_CHAR" : {
+      "name" : "ELT_CHAR",
+      "key" : "ELT_CHAR",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 667,
+        "startColumn" : 35,
+        "endLine" : 667,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/ELT_CHAR",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "ELT_STRING" : {
+      "name" : "ELT_STRING",
+      "key" : "ELT_STRING",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 685,
+        "startColumn" : 35,
+        "endLine" : 685,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/ELT_STRING",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "JOCL_NAMESPACE_URI" : {
+      "name" : "JOCL_NAMESPACE_URI",
+      "key" : "JOCL_NAMESPACE_URI",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 590,
+        "startColumn" : 32,
+        "endLine" : 590,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/JOCL_NAMESPACE_URI",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "_acceptJoclPrefixForElements" : {
+      "name" : "_acceptJoclPrefixForElements",
+      "key" : "_acceptJoclPrefixForElements",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 628,
+        "startColumn" : 23,
+        "endLine" : 628,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/_acceptJoclPrefixForElements",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "ATT_VALUE" : {
+      "name" : "ATT_VALUE",
+      "key" : "ATT_VALUE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 688,
+        "startColumn" : 35,
+        "endLine" : 688,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/ATT_VALUE",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "_acceptEmptyNamespaceForElements" : {
+      "name" : "_acceptEmptyNamespaceForElements",
+      "key" : "_acceptEmptyNamespaceForElements",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 618,
+        "startColumn" : 23,
+        "endLine" : 618,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/_acceptEmptyNamespaceForElements",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "ELT_INT" : {
+      "name" : "ELT_INT",
+      "key" : "ELT_INT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 676,
+        "startColumn" : 35,
+        "endLine" : 676,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/ELT_INT",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "ELT_DOUBLE" : {
+      "name" : "ELT_DOUBLE",
+      "key" : "ELT_DOUBLE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 670,
+        "startColumn" : 35,
+        "endLine" : 670,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/ELT_DOUBLE",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "ATT_ISNULL" : {
+      "name" : "ATT_ISNULL",
+      "key" : "ATT_ISNULL",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 658,
+        "startColumn" : 35,
+        "endLine" : 658,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/ATT_ISNULL",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "ELT_FLOAT" : {
+      "name" : "ELT_FLOAT",
+      "key" : "ELT_FLOAT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 673,
+        "startColumn" : 35,
+        "endLine" : 673,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/ELT_FLOAT",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "JOCL_PREFIX" : {
+      "name" : "JOCL_PREFIX",
+      "key" : "JOCL_PREFIX",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 595,
+        "startColumn" : 32,
+        "endLine" : 595,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler/memberField/JOCL_PREFIX",
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    }
+  },
+  "methods" : {
+    "getAttributeValue" : {
+      "name" : "getAttributeValue",
+      "key" : "org.apache.commons.jocl.JOCLContentHandler/method/getAttributeValue",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 561,
+        "startColumn" : 22,
+        "endLine" : 561,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "localname",
+        "key" : "localname",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 561,
+          "startColumn" : 47,
+          "endLine" : 561,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/getAttributeValue"
+      }, {
+        "name" : "attr",
+        "key" : "attr",
+        "type" : "org.xml.sax.Attributes",
+        "position" : {
+          "startLine" : 561,
+          "startColumn" : 69,
+          "endLine" : 561,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/getAttributeValue"
+      }, {
+        "name" : "implied",
+        "key" : "implied",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 561,
+          "startColumn" : 82,
+          "endLine" : 561,
+          "endColumn" : 89
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/getAttributeValue"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "startElement" : {
+      "name" : "startElement",
+      "key" : "org.apache.commons.jocl.JOCLContentHandler/method/startElement",
+      "type" : "void",
+      "position" : {
+        "startLine" : 418,
+        "startColumn" : 17,
+        "endLine" : 418,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "uri",
+        "key" : "uri",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 418,
+          "startColumn" : 37,
+          "endLine" : 418,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/startElement"
+      }, {
+        "name" : "localName",
+        "key" : "localName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 418,
+          "startColumn" : 49,
+          "endLine" : 418,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/startElement"
+      }, {
+        "name" : "qname",
+        "key" : "qname",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 418,
+          "startColumn" : 67,
+          "endLine" : 418,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/startElement"
+      }, {
+        "name" : "attr",
+        "key" : "attr",
+        "type" : "org.xml.sax.Attributes",
+        "position" : {
+          "startLine" : 418,
+          "startColumn" : 85,
+          "endLine" : 418,
+          "endColumn" : 89
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/startElement"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "clear" : {
+      "name" : "clear",
+      "key" : "org.apache.commons.jocl.JOCLContentHandler/method/clear",
+      "type" : "void",
+      "position" : {
+        "startLine" : 383,
+        "startColumn" : 17,
+        "endLine" : 383,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "i",
+        "key" : "i",
+        "type" : "int",
+        "position" : {
+          "startLine" : 383,
+          "startColumn" : 27,
+          "endLine" : 383,
+          "endColumn" : 28
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/clear"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.jocl.JOCLContentHandler/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 221,
+        "startColumn" : 24,
+        "endLine" : 221,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 221,
+          "startColumn" : 38,
+          "endLine" : 221,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "isJoclNamespace" : {
+      "name" : "isJoclNamespace",
+      "key" : "org.apache.commons.jocl.JOCLContentHandler/method/isJoclNamespace",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 526,
+        "startColumn" : 23,
+        "endLine" : 526,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "uri",
+        "key" : "uri",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 526,
+          "startColumn" : 46,
+          "endLine" : 526,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/isJoclNamespace"
+      }, {
+        "name" : "localname",
+        "key" : "localname",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 526,
+          "startColumn" : 58,
+          "endLine" : 526,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/isJoclNamespace"
+      }, {
+        "name" : "qname",
+        "key" : "qname",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 526,
+          "startColumn" : 76,
+          "endLine" : 526,
+          "endColumn" : 81
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/isJoclNamespace"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "parse" : {
+      "name" : "parse",
+      "key" : "org.apache.commons.jocl.JOCLContentHandler/method/parse",
+      "type" : "org.apache.commons.jocl.JOCLContentHandler",
+      "position" : {
+        "startLine" : 329,
+        "startColumn" : 38,
+        "endLine" : 329,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "in",
+        "key" : "in",
+        "type" : "org.xml.sax.InputSource",
+        "position" : {
+          "startLine" : 329,
+          "startColumn" : 56,
+          "endLine" : 329,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/parse"
+      }, {
+        "name" : "reader",
+        "key" : "reader",
+        "type" : "org.xml.sax.XMLReader",
+        "position" : {
+          "startLine" : 329,
+          "startColumn" : 70,
+          "endLine" : 329,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/parse"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "getValue" : {
+      "name" : "getValue",
+      "key" : "org.apache.commons.jocl.JOCLContentHandler/method/getValue",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 398,
+        "startColumn" : 19,
+        "endLine" : 398,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "i",
+        "key" : "i",
+        "type" : "int",
+        "position" : {
+          "startLine" : 398,
+          "startColumn" : 32,
+          "endLine" : 398,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/getValue"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "getTypeArray" : {
+      "name" : "getTypeArray",
+      "key" : "org.apache.commons.jocl.JOCLContentHandler/method/getTypeArray",
+      "type" : "java.lang.Object[]",
+      "position" : {
+        "startLine" : 412,
+        "startColumn" : 21,
+        "endLine" : 412,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "endElement" : {
+      "name" : "endElement",
+      "key" : "org.apache.commons.jocl.JOCLContentHandler/method/endElement",
+      "type" : "void",
+      "position" : {
+        "startLine" : 473,
+        "startColumn" : 17,
+        "endLine" : 473,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "uri",
+        "key" : "uri",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 473,
+          "startColumn" : 35,
+          "endLine" : 473,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/endElement"
+      }, {
+        "name" : "localName",
+        "key" : "localName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 473,
+          "startColumn" : 47,
+          "endLine" : 473,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/endElement"
+      }, {
+        "name" : "qname",
+        "key" : "qname",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 473,
+          "startColumn" : 65,
+          "endLine" : 473,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/endElement"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "size" : {
+      "name" : "size",
+      "key" : "org.apache.commons.jocl.JOCLContentHandler/method/size",
+      "type" : "int",
+      "position" : {
+        "startLine" : 368,
+        "startColumn" : 16,
+        "endLine" : 368,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "getType" : {
+      "name" : "getType",
+      "key" : "org.apache.commons.jocl.JOCLContentHandler/method/getType",
+      "type" : "java.lang.Class",
+      "position" : {
+        "startLine" : 391,
+        "startColumn" : 18,
+        "endLine" : 391,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "i",
+        "key" : "i",
+        "type" : "int",
+        "position" : {
+          "startLine" : 391,
+          "startColumn" : 30,
+          "endLine" : 391,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/getType"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "addObject" : {
+      "name" : "addObject",
+      "key" : "org.apache.commons.jocl.JOCLContentHandler/method/addObject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 576,
+        "startColumn" : 20,
+        "endLine" : 576,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "type",
+        "key" : "type",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 576,
+          "startColumn" : 36,
+          "endLine" : 576,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/addObject"
+      }, {
+        "name" : "val",
+        "key" : "val",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 576,
+          "startColumn" : 49,
+          "endLine" : 576,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/addObject"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "setDocumentLocator" : {
+      "name" : "setDocumentLocator",
+      "key" : "org.apache.commons.jocl.JOCLContentHandler/method/setDocumentLocator",
+      "type" : "void",
+      "position" : {
+        "startLine" : 512,
+        "startColumn" : 17,
+        "endLine" : 512,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "locator",
+        "key" : "locator",
+        "type" : "org.xml.sax.Locator",
+        "position" : {
+          "startLine" : 512,
+          "startColumn" : 44,
+          "endLine" : 512,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.jocl.JOCLContentHandler/method/setDocumentLocator"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    },
+    "getValueArray" : {
+      "name" : "getValueArray",
+      "key" : "org.apache.commons.jocl.JOCLContentHandler/method/getValueArray",
+      "type" : "java.lang.Object[]",
+      "position" : {
+        "startLine" : 405,
+        "startColumn" : 21,
+        "endLine" : 405,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.xml.sax.ContentHandler" ],
+  "extends_" : [ "org.xml.sax.helpers.DefaultHandler" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails" : {
+      "name" : "ConstructorDetails",
+      "key" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails",
+      "type" : "class",
+      "position" : {
+        "startLine" : 690,
+        "startColumn" : 5,
+        "endLine" : 690,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : {
+        "_parent" : {
+          "name" : "_parent",
+          "key" : "_parent",
+          "type" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails",
+          "position" : {
+            "startLine" : 691,
+            "startColumn" : 36,
+            "endLine" : 691,
+            "endColumn" : 43
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails/memberField/_parent",
+          "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails"
+        },
+        "_isnull" : {
+          "name" : "_isnull",
+          "key" : "_isnull",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 695,
+            "startColumn" : 25,
+            "endLine" : 695,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails/memberField/_isnull",
+          "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails"
+        },
+        "_type" : {
+          "name" : "_type",
+          "key" : "_type",
+          "type" : "java.lang.Class",
+          "position" : {
+            "startLine" : 692,
+            "startColumn" : 23,
+            "endLine" : 692,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails/memberField/_type",
+          "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails"
+        },
+        "_argValues" : {
+          "name" : "_argValues",
+          "key" : "_argValues",
+          "type" : "java.util.ArrayList",
+          "position" : {
+            "startLine" : 694,
+            "startColumn" : 27,
+            "endLine" : 694,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails/memberField/_argValues",
+          "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails"
+        },
+        "_argTypes" : {
+          "name" : "_argTypes",
+          "key" : "_argTypes",
+          "type" : "java.util.ArrayList",
+          "position" : {
+            "startLine" : 693,
+            "startColumn" : 27,
+            "endLine" : 693,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails/memberField/_argTypes",
+          "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails"
+        }
+      },
+      "methods" : {
+        "getParent" : {
+          "name" : "getParent",
+          "key" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails/method/getParent",
+          "type" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails",
+          "position" : {
+            "startLine" : 729,
+            "startColumn" : 35,
+            "endLine" : 729,
+            "endColumn" : 44
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails"
+        },
+        "addArgument" : {
+          "name" : "addArgument",
+          "key" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails/method/addArgument",
+          "type" : "void",
+          "position" : {
+            "startLine" : 717,
+            "startColumn" : 21,
+            "endLine" : 717,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "type",
+            "key" : "type",
+            "type" : "java.lang.Class",
+            "position" : {
+              "startLine" : 717,
+              "startColumn" : 39,
+              "endLine" : 717,
+              "endColumn" : 43
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails/method/addArgument"
+          }, {
+            "name" : "val",
+            "key" : "val",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 717,
+              "startColumn" : 52,
+              "endLine" : 717,
+              "endColumn" : 55
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails/method/addArgument"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails"
+        },
+        "getType" : {
+          "name" : "getType",
+          "key" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails/method/getType",
+          "type" : "java.lang.Class",
+          "position" : {
+            "startLine" : 725,
+            "startColumn" : 22,
+            "endLine" : 725,
+            "endColumn" : 29
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails"
+        },
+        "createObject" : {
+          "name" : "createObject",
+          "key" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails/method/createObject",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 733,
+            "startColumn" : 23,
+            "endLine" : 733,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.jocl.JOCLContentHandler.ConstructorDetails"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.apache.commons.jocl.JOCLContentHandler",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

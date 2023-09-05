@@ -1,0 +1,1143 @@
+{
+  "name" : "ArgoParser",
+  "key" : "org.argouml.persistence.ArgoParser",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 1,
+    "endLine" : 41,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "ps" : {
+      "name" : "ps",
+      "key" : "ps",
+      "type" : "org.argouml.kernel.ProjectSettings",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 29,
+        "endLine" : 50,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.ArgoParser/memberField/ps",
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "memberList" : {
+      "name" : "memberList",
+      "key" : "memberList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 26,
+        "endLine" : 54,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.ArgoParser/memberField/memberList",
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 33,
+        "endLine" : 46,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.ArgoParser/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "project" : {
+      "name" : "project",
+      "key" : "project",
+      "type" : "org.argouml.kernel.Project",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 21,
+        "endLine" : 48,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.ArgoParser/memberField/project",
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "tokens" : {
+      "name" : "tokens",
+      "key" : "tokens",
+      "type" : "ArgoTokenTable",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 28,
+        "endLine" : 52,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.persistence.ArgoParser/memberField/tokens",
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    }
+  },
+  "methods" : {
+    "handleAuthorEmail" : {
+      "name" : "handleAuthorEmail",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleAuthorEmail",
+      "type" : "void",
+      "position" : {
+        "startLine" : 294,
+        "startColumn" : 20,
+        "endLine" : 294,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 294,
+          "startColumn" : 49,
+          "endLine" : 294,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleAuthorEmail"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "getMemberList" : {
+      "name" : "getMemberList",
+      "key" : "org.argouml.persistence.ArgoParser/method/getMemberList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 494,
+        "startColumn" : 25,
+        "endLine" : 494,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleShowVisibility" : {
+      "name" : "handleShowVisibility",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleShowVisibility",
+      "type" : "void",
+      "position" : {
+        "startLine" : 378,
+        "startColumn" : 20,
+        "endLine" : 378,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 378,
+          "startColumn" : 52,
+          "endLine" : 378,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleShowVisibility"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleSearchpath" : {
+      "name" : "handleSearchpath",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleSearchpath",
+      "type" : "void",
+      "position" : {
+        "startLine" : 318,
+        "startColumn" : 20,
+        "endLine" : 318,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 318,
+          "startColumn" : 48,
+          "endLine" : 318,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleSearchpath"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleDefaultShadowWidth" : {
+      "name" : "handleDefaultShadowWidth",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleDefaultShadowWidth",
+      "type" : "void",
+      "position" : {
+        "startLine" : 434,
+        "startColumn" : 20,
+        "endLine" : 434,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 434,
+          "startColumn" : 56,
+          "endLine" : 434,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleDefaultShadowWidth"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleUseGuillemots" : {
+      "name" : "handleUseGuillemots",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleUseGuillemots",
+      "type" : "void",
+      "position" : {
+        "startLine" : 370,
+        "startColumn" : 20,
+        "endLine" : 370,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 370,
+          "startColumn" : 51,
+          "endLine" : 370,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleUseGuillemots"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleFontName" : {
+      "name" : "handleFontName",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleFontName",
+      "type" : "void",
+      "position" : {
+        "startLine" : 442,
+        "startColumn" : 20,
+        "endLine" : 442,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 442,
+          "startColumn" : 46,
+          "endLine" : 442,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleFontName"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleShowTypes" : {
+      "name" : "handleShowTypes",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleShowTypes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 410,
+        "startColumn" : 20,
+        "endLine" : 410,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 410,
+          "startColumn" : 47,
+          "endLine" : 410,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleShowTypes"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleArgo" : {
+      "name" : "handleArgo",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleArgo",
+      "type" : "void",
+      "position" : {
+        "startLine" : 265,
+        "startColumn" : 20,
+        "endLine" : 265,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 265,
+          "startColumn" : 42,
+          "endLine" : 265,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleArgo"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleShowProperties" : {
+      "name" : "handleShowProperties",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleShowProperties",
+      "type" : "void",
+      "position" : {
+        "startLine" : 402,
+        "startColumn" : 20,
+        "endLine" : 402,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 402,
+          "startColumn" : 52,
+          "endLine" : 402,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleShowProperties"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleActiveDiagram" : {
+      "name" : "handleActiveDiagram",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleActiveDiagram",
+      "type" : "void",
+      "position" : {
+        "startLine" : 484,
+        "startColumn" : 20,
+        "endLine" : 484,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 484,
+          "startColumn" : 51,
+          "endLine" : 484,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleActiveDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "setProject" : {
+      "name" : "setProject",
+      "key" : "org.argouml.persistence.ArgoParser/method/setProject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 134,
+        "startColumn" : 17,
+        "endLine" : 134,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newProj",
+        "key" : "newProj",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 134,
+          "startColumn" : 36,
+          "endLine" : 134,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/setProject"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleDescription" : {
+      "name" : "handleDescription",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleDescription",
+      "type" : "void",
+      "position" : {
+        "startLine" : 310,
+        "startColumn" : 20,
+        "endLine" : 310,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 310,
+          "startColumn" : 49,
+          "endLine" : 310,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleDescription"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleGenerationOutputDir" : {
+      "name" : "handleGenerationOutputDir",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleGenerationOutputDir",
+      "type" : "void",
+      "position" : {
+        "startLine" : 462,
+        "startColumn" : 20,
+        "endLine" : 462,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 462,
+          "startColumn" : 57,
+          "endLine" : 462,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleGenerationOutputDir"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "readProject" : {
+      "name" : "readProject",
+      "key" : "org.argouml.persistence.ArgoParser/method/readProject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 17,
+        "endLine" : 92,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theProject",
+        "key" : "theProject",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 37,
+          "endLine" : 92,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/readProject"
+      }, {
+        "name" : "reader",
+        "key" : "reader",
+        "type" : "java.io.Reader",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 56,
+          "endLine" : 92,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/readProject"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "isElementOfInterest" : {
+      "name" : "isElementOfInterest",
+      "key" : "org.argouml.persistence.ArgoParser/method/isElementOfInterest",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 258,
+        "startColumn" : 23,
+        "endLine" : 258,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 258,
+          "startColumn" : 50,
+          "endLine" : 258,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/isElementOfInterest"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleShowMultiplicity" : {
+      "name" : "handleShowMultiplicity",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleShowMultiplicity",
+      "type" : "void",
+      "position" : {
+        "startLine" : 386,
+        "startColumn" : 20,
+        "endLine" : 386,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 386,
+          "startColumn" : 54,
+          "endLine" : 386,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleShowMultiplicity"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleShowAssociationNames" : {
+      "name" : "handleShowAssociationNames",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleShowAssociationNames",
+      "type" : "void",
+      "position" : {
+        "startLine" : 470,
+        "startColumn" : 20,
+        "endLine" : 470,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 470,
+          "startColumn" : 58,
+          "endLine" : 470,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleShowAssociationNames"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "preRead" : {
+      "name" : "preRead",
+      "key" : "org.argouml.persistence.ArgoParser/method/preRead",
+      "type" : "void",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 18,
+        "endLine" : 110,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theProject",
+        "key" : "theProject",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 34,
+          "endLine" : 110,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/preRead"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleAuthorName" : {
+      "name" : "handleAuthorName",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleAuthorName",
+      "type" : "void",
+      "position" : {
+        "startLine" : 286,
+        "startColumn" : 20,
+        "endLine" : 286,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 286,
+          "startColumn" : 48,
+          "endLine" : 286,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleAuthorName"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleNotationLanguage" : {
+      "name" : "handleNotationLanguage",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleNotationLanguage",
+      "type" : "void",
+      "position" : {
+        "startLine" : 349,
+        "startColumn" : 20,
+        "endLine" : 349,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 349,
+          "startColumn" : 54,
+          "endLine" : 349,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleNotationLanguage"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleSettings" : {
+      "name" : "handleSettings",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleSettings",
+      "type" : "void",
+      "position" : {
+        "startLine" : 279,
+        "startColumn" : 20,
+        "endLine" : 279,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 279,
+          "startColumn" : 46,
+          "endLine" : 279,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleSettings"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleShowStereotypes" : {
+      "name" : "handleShowStereotypes",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleShowStereotypes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 418,
+        "startColumn" : 20,
+        "endLine" : 418,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 418,
+          "startColumn" : 53,
+          "endLine" : 418,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleShowStereotypes"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleVersion" : {
+      "name" : "handleVersion",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleVersion",
+      "type" : "void",
+      "position" : {
+        "startLine" : 302,
+        "startColumn" : 20,
+        "endLine" : 302,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 302,
+          "startColumn" : 45,
+          "endLine" : 302,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleVersion"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleFontSize" : {
+      "name" : "handleFontSize",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleFontSize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 450,
+        "startColumn" : 20,
+        "endLine" : 450,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 450,
+          "startColumn" : 46,
+          "endLine" : 450,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleFontSize"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "logError" : {
+      "name" : "logError",
+      "key" : "org.argouml.persistence.ArgoParser/method/logError",
+      "type" : "void",
+      "position" : {
+        "startLine" : 117,
+        "startColumn" : 18,
+        "endLine" : 117,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "projectName",
+        "key" : "projectName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 117,
+          "startColumn" : 34,
+          "endLine" : 117,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/logError"
+      }, {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.xml.sax.SAXException",
+        "position" : {
+          "startLine" : 117,
+          "startColumn" : 60,
+          "endLine" : 117,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/logError"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleStartElement" : {
+      "name" : "handleStartElement",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleStartElement",
+      "type" : "void",
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 17,
+        "endLine" : 143,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 143,
+          "startColumn" : 47,
+          "endLine" : 143,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleStartElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleHistoryfile" : {
+      "name" : "handleHistoryfile",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleHistoryfile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 338,
+        "startColumn" : 20,
+        "endLine" : 338,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 338,
+          "startColumn" : 49,
+          "endLine" : 338,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleHistoryfile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleDocumentation" : {
+      "name" : "handleDocumentation",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleDocumentation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 272,
+        "startColumn" : 20,
+        "endLine" : 272,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 272,
+          "startColumn" : 51,
+          "endLine" : 272,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleDocumentation"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleEndElement" : {
+      "name" : "handleEndElement",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleEndElement",
+      "type" : "void",
+      "position" : {
+        "startLine" : 169,
+        "startColumn" : 17,
+        "endLine" : 169,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 169,
+          "startColumn" : 45,
+          "endLine" : 169,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleEndElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleMember" : {
+      "name" : "handleMember",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleMember",
+      "type" : "void",
+      "position" : {
+        "startLine" : 327,
+        "startColumn" : 20,
+        "endLine" : 327,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 327,
+          "startColumn" : 44,
+          "endLine" : 327,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleMember"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleShowSingularMultiplicities" : {
+      "name" : "handleShowSingularMultiplicities",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleShowSingularMultiplicities",
+      "type" : "void",
+      "position" : {
+        "startLine" : 426,
+        "startColumn" : 20,
+        "endLine" : 426,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 426,
+          "startColumn" : 64,
+          "endLine" : 426,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleShowSingularMultiplicities"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleHideBidirectionalArrows" : {
+      "name" : "handleHideBidirectionalArrows",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleHideBidirectionalArrows",
+      "type" : "void",
+      "position" : {
+        "startLine" : 478,
+        "startColumn" : 20,
+        "endLine" : 478,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 478,
+          "startColumn" : 61,
+          "endLine" : 478,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleHideBidirectionalArrows"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "getProject" : {
+      "name" : "getProject",
+      "key" : "org.argouml.persistence.ArgoParser/method/getProject",
+      "type" : "org.argouml.kernel.Project",
+      "position" : {
+        "startLine" : 126,
+        "startColumn" : 20,
+        "endLine" : 126,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleShowBoldNames" : {
+      "name" : "handleShowBoldNames",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleShowBoldNames",
+      "type" : "void",
+      "position" : {
+        "startLine" : 362,
+        "startColumn" : 20,
+        "endLine" : 362,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 362,
+          "startColumn" : 51,
+          "endLine" : 362,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleShowBoldNames"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    },
+    "handleShowInitialValue" : {
+      "name" : "handleShowInitialValue",
+      "key" : "org.argouml.persistence.ArgoParser/method/handleShowInitialValue",
+      "type" : "void",
+      "position" : {
+        "startLine" : 394,
+        "startColumn" : 20,
+        "endLine" : 394,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "XMLElement",
+        "position" : {
+          "startLine" : 394,
+          "startColumn" : 54,
+          "endLine" : 394,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.persistence.ArgoParser/method/handleShowInitialValue"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.persistence.ArgoParser"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "SAXParserBase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

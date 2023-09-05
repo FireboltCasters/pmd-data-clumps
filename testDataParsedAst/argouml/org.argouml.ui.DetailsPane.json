@@ -1,0 +1,1105 @@
+{
+  "name" : "DetailsPane",
+  "key" : "org.argouml.ui.DetailsPane",
+  "type" : "class",
+  "position" : {
+    "startLine" : 71,
+    "startColumn" : 8,
+    "endLine" : 71,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "orientation" : {
+      "name" : "orientation",
+      "key" : "orientation",
+      "type" : "org.tigris.swidgets.Orientation",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 25,
+        "endLine" : 110,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.DetailsPane/memberField/orientation",
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "hasTabs" : {
+      "name" : "hasTabs",
+      "key" : "hasTabs",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 21,
+        "endLine" : 112,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.DetailsPane/memberField/hasTabs",
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "leftArrowIcon" : {
+      "name" : "leftArrowIcon",
+      "key" : "leftArrowIcon",
+      "type" : "javax.swing.Icon",
+      "position" : {
+        "startLine" : 576,
+        "startColumn" : 18,
+        "endLine" : 576,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.DetailsPane/memberField/leftArrowIcon",
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "lastNonNullTab" : {
+      "name" : "lastNonNullTab",
+      "key" : "lastNonNullTab",
+      "type" : "int",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 17,
+        "endLine" : 101,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.DetailsPane/memberField/lastNonNullTab",
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 33,
+        "endLine" : 80,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.DetailsPane/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "currentTarget" : {
+      "name" : "currentTarget",
+      "key" : "currentTarget",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 20,
+        "endLine" : 90,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.DetailsPane/memberField/currentTarget",
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "listenerList" : {
+      "name" : "listenerList",
+      "key" : "listenerList",
+      "type" : "javax.swing.event.EventListenerList",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 31,
+        "endLine" : 108,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.DetailsPane/memberField/listenerList",
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "topLevelTabbedPane" : {
+      "name" : "topLevelTabbedPane",
+      "key" : "topLevelTabbedPane",
+      "type" : "javax.swing.JTabbedPane",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 25,
+        "endLine" : 85,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.DetailsPane/memberField/topLevelTabbedPane",
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "tabPanelList" : {
+      "name" : "tabPanelList",
+      "key" : "tabPanelList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 26,
+        "endLine" : 96,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.DetailsPane/memberField/tabPanelList",
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "upArrowIcon" : {
+      "name" : "upArrowIcon",
+      "key" : "upArrowIcon",
+      "type" : "javax.swing.Icon",
+      "position" : {
+        "startLine" : 571,
+        "startColumn" : 18,
+        "endLine" : 571,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.DetailsPane/memberField/upArrowIcon",
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    }
+  },
+  "methods" : {
+    "addTab" : {
+      "name" : "addTab",
+      "key" : "org.argouml.ui.DetailsPane/method/addTab",
+      "type" : "void",
+      "position" : {
+        "startLine" : 193,
+        "startColumn" : 17,
+        "endLine" : 193,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "p",
+        "key" : "p",
+        "type" : "org.argouml.application.api.AbstractArgoJPanel",
+        "position" : {
+          "startLine" : 193,
+          "startColumn" : 43,
+          "endLine" : 193,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/addTab"
+      }, {
+        "name" : "atEnd",
+        "key" : "atEnd",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 193,
+          "startColumn" : 54,
+          "endLine" : 193,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/addTab"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "myDoubleClick" : {
+      "name" : "myDoubleClick",
+      "key" : "org.argouml.ui.DetailsPane/method/myDoubleClick",
+      "type" : "void",
+      "position" : {
+        "startLine" : 508,
+        "startColumn" : 17,
+        "endLine" : 508,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tab",
+        "key" : "tab",
+        "type" : "int",
+        "position" : {
+          "startLine" : 508,
+          "startColumn" : 35,
+          "endLine" : 508,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/myDoubleClick"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "mouseExited" : {
+      "name" : "mouseExited",
+      "key" : "org.argouml.ui.DetailsPane/method/mouseExited",
+      "type" : "void",
+      "position" : {
+        "startLine" : 543,
+        "startColumn" : 17,
+        "endLine" : 543,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 543,
+          "startColumn" : 40,
+          "endLine" : 543,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/mouseExited"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "loadTabs" : {
+      "name" : "loadTabs",
+      "key" : "org.argouml.ui.DetailsPane/method/loadTabs",
+      "type" : "void",
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 18,
+        "endLine" : 163,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "direction",
+        "key" : "direction",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 34,
+          "endLine" : 163,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/loadTabs"
+      }, {
+        "name" : "theOrientation",
+        "key" : "theOrientation",
+        "type" : "org.tigris.swidgets.Orientation",
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 57,
+          "endLine" : 163,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/loadTabs"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "fireTargetRemoved" : {
+      "name" : "fireTargetRemoved",
+      "key" : "org.argouml.ui.DetailsPane/method/fireTargetRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 672,
+        "startColumn" : 18,
+        "endLine" : 672,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "targetEvent",
+        "key" : "targetEvent",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 672,
+          "startColumn" : 48,
+          "endLine" : 672,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/fireTargetRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "fireTargetSet" : {
+      "name" : "fireTargetSet",
+      "key" : "org.argouml.ui.DetailsPane/method/fireTargetSet",
+      "type" : "void",
+      "position" : {
+        "startLine" : 649,
+        "startColumn" : 18,
+        "endLine" : 649,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "targetEvent",
+        "key" : "targetEvent",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 649,
+          "startColumn" : 44,
+          "endLine" : 649,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/fireTargetSet"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "addTargetListener" : {
+      "name" : "addTargetListener",
+      "key" : "org.argouml.ui.DetailsPane/method/addTargetListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 18,
+        "endLine" : 118,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "org.argouml.ui.targetmanager.TargetListener",
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 51,
+          "endLine" : 118,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/addTargetListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "getTabCount" : {
+      "name" : "getTabCount",
+      "key" : "org.argouml.ui.DetailsPane/method/getTabCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 375,
+        "startColumn" : 16,
+        "endLine" : 375,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "mousePressed" : {
+      "name" : "mousePressed",
+      "key" : "org.argouml.ui.DetailsPane/method/mousePressed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 522,
+        "startColumn" : 17,
+        "endLine" : 522,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 522,
+          "startColumn" : 41,
+          "endLine" : 522,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/mousePressed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "mouseReleased" : {
+      "name" : "mouseReleased",
+      "key" : "org.argouml.ui.DetailsPane/method/mouseReleased",
+      "type" : "void",
+      "position" : {
+        "startLine" : 529,
+        "startColumn" : 17,
+        "endLine" : 529,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 529,
+          "startColumn" : 42,
+          "endLine" : 529,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/mouseReleased"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "getTarget" : {
+      "name" : "getTarget",
+      "key" : "org.argouml.ui.DetailsPane/method/getTarget",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 341,
+        "startColumn" : 19,
+        "endLine" : 341,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "mouseEntered" : {
+      "name" : "mouseEntered",
+      "key" : "org.argouml.ui.DetailsPane/method/mouseEntered",
+      "type" : "void",
+      "position" : {
+        "startLine" : 536,
+        "startColumn" : 17,
+        "endLine" : 536,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 536,
+          "startColumn" : 41,
+          "endLine" : 536,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/mouseEntered"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "getMinimumSize" : {
+      "name" : "getMinimumSize",
+      "key" : "org.argouml.ui.DetailsPane/method/getMinimumSize",
+      "type" : "java.awt.Dimension",
+      "position" : {
+        "startLine" : 349,
+        "startColumn" : 22,
+        "endLine" : 349,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "getTab" : {
+      "name" : "getTab",
+      "key" : "org.argouml.ui.DetailsPane/method/getTab",
+      "type" : "org.argouml.application.api.AbstractArgoJPanel",
+      "position" : {
+        "startLine" : 427,
+        "startColumn" : 31,
+        "endLine" : 427,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tabClass",
+        "key" : "tabClass",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 428,
+          "startColumn" : 50,
+          "endLine" : 428,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/getTab"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "fireTargetAdded" : {
+      "name" : "fireTargetAdded",
+      "key" : "org.argouml.ui.DetailsPane/method/fireTargetAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 660,
+        "startColumn" : 18,
+        "endLine" : 660,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "targetEvent",
+        "key" : "targetEvent",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 660,
+          "startColumn" : 46,
+          "endLine" : 660,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/fireTargetAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "setTarget" : {
+      "name" : "setTarget",
+      "key" : "org.argouml.ui.DetailsPane/method/setTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 254,
+        "startColumn" : 18,
+        "endLine" : 254,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "target",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 254,
+          "startColumn" : 35,
+          "endLine" : 254,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/setTarget"
+      }, {
+        "name" : "defaultToProperties",
+        "key" : "defaultToProperties",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 254,
+          "startColumn" : 51,
+          "endLine" : 254,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/setTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "setOrientation" : {
+      "name" : "setOrientation",
+      "key" : "org.argouml.ui.DetailsPane/method/setOrientation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 581,
+        "startColumn" : 17,
+        "endLine" : 581,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newOrientation",
+        "key" : "newOrientation",
+        "type" : "org.tigris.swidgets.Orientation",
+        "position" : {
+          "startLine" : 581,
+          "startColumn" : 44,
+          "endLine" : 581,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/setOrientation"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "addToPropTab" : {
+      "name" : "addToPropTab",
+      "key" : "org.argouml.ui.DetailsPane/method/addToPropTab",
+      "type" : "void",
+      "position" : {
+        "startLine" : 399,
+        "startColumn" : 17,
+        "endLine" : 399,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 399,
+          "startColumn" : 36,
+          "endLine" : 399,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/addToPropTab"
+      }, {
+        "name" : "p",
+        "key" : "p",
+        "type" : "org.argouml.uml.ui.PropPanel",
+        "position" : {
+          "startLine" : 399,
+          "startColumn" : 49,
+          "endLine" : 399,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/addToPropTab"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "getIndexOfNamedTab" : {
+      "name" : "getIndexOfNamedTab",
+      "key" : "org.argouml.ui.DetailsPane/method/getIndexOfNamedTab",
+      "type" : "int",
+      "position" : {
+        "startLine" : 360,
+        "startColumn" : 16,
+        "endLine" : 360,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tabName",
+        "key" : "tabName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 360,
+          "startColumn" : 42,
+          "endLine" : 360,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/getIndexOfNamedTab"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "getTabProps" : {
+      "name" : "getTabProps",
+      "key" : "org.argouml.ui.DetailsPane/method/getTabProps",
+      "type" : "org.argouml.uml.ui.TabProps",
+      "position" : {
+        "startLine" : 412,
+        "startColumn" : 21,
+        "endLine" : 412,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "targetRemoved" : {
+      "name" : "targetRemoved",
+      "key" : "org.argouml.ui.DetailsPane/method/targetRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 601,
+        "startColumn" : 17,
+        "endLine" : 601,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 601,
+          "startColumn" : 43,
+          "endLine" : 601,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/targetRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "setToDoItem" : {
+      "name" : "setToDoItem",
+      "key" : "org.argouml.ui.DetailsPane/method/setToDoItem",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 215,
+        "startColumn" : 20,
+        "endLine" : 215,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 215,
+          "startColumn" : 39,
+          "endLine" : 215,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/setToDoItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "mySingleClick" : {
+      "name" : "mySingleClick",
+      "key" : "org.argouml.ui.DetailsPane/method/mySingleClick",
+      "type" : "void",
+      "position" : {
+        "startLine" : 495,
+        "startColumn" : 17,
+        "endLine" : 495,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tab",
+        "key" : "tab",
+        "type" : "int",
+        "position" : {
+          "startLine" : 495,
+          "startColumn" : 35,
+          "endLine" : 495,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/mySingleClick"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "getTabs" : {
+      "name" : "getTabs",
+      "key" : "org.argouml.ui.DetailsPane/method/getTabs",
+      "type" : "javax.swing.JTabbedPane",
+      "position" : {
+        "startLine" : 184,
+        "startColumn" : 24,
+        "endLine" : 184,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "hasTabs" : {
+      "name" : "hasTabs",
+      "key" : "org.argouml.ui.DetailsPane/method/hasTabs",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 174,
+        "startColumn" : 13,
+        "endLine" : 174,
+        "endColumn" : 20
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "targetSet" : {
+      "name" : "targetSet",
+      "key" : "org.argouml.ui.DetailsPane/method/targetSet",
+      "type" : "void",
+      "position" : {
+        "startLine" : 609,
+        "startColumn" : 17,
+        "endLine" : 609,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 609,
+          "startColumn" : 39,
+          "endLine" : 609,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/targetSet"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "removeTargetListener" : {
+      "name" : "removeTargetListener",
+      "key" : "org.argouml.ui.DetailsPane/method/removeTargetListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 126,
+        "startColumn" : 18,
+        "endLine" : 126,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "org.argouml.ui.targetmanager.TargetListener",
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 54,
+          "endLine" : 126,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/removeTargetListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "selectPropsTab" : {
+      "name" : "selectPropsTab",
+      "key" : "org.argouml.ui.DetailsPane/method/selectPropsTab",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 234,
+        "startColumn" : 21,
+        "endLine" : 234,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "target",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 234,
+          "startColumn" : 43,
+          "endLine" : 234,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/selectPropsTab"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "mouseClicked" : {
+      "name" : "mouseClicked",
+      "key" : "org.argouml.ui.DetailsPane/method/mouseClicked",
+      "type" : "void",
+      "position" : {
+        "startLine" : 553,
+        "startColumn" : 17,
+        "endLine" : 553,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 553,
+          "startColumn" : 41,
+          "endLine" : 553,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/mouseClicked"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "enableTabs" : {
+      "name" : "enableTabs",
+      "key" : "org.argouml.ui.DetailsPane/method/enableTabs",
+      "type" : "void",
+      "position" : {
+        "startLine" : 620,
+        "startColumn" : 18,
+        "endLine" : 620,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "target",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 620,
+          "startColumn" : 36,
+          "endLine" : 620,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/enableTabs"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "selectTabNamed" : {
+      "name" : "selectTabNamed",
+      "key" : "org.argouml.ui.DetailsPane/method/selectTabNamed",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 384,
+        "startColumn" : 20,
+        "endLine" : 384,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tabName",
+        "key" : "tabName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 384,
+          "startColumn" : 42,
+          "endLine" : 384,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/selectTabNamed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "stateChanged" : {
+      "name" : "stateChanged",
+      "key" : "org.argouml.ui.DetailsPane/method/stateChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 448,
+        "startColumn" : 17,
+        "endLine" : 448,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "javax.swing.event.ChangeEvent",
+        "position" : {
+          "startLine" : 448,
+          "startColumn" : 42,
+          "endLine" : 448,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/stateChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    },
+    "targetAdded" : {
+      "name" : "targetAdded",
+      "key" : "org.argouml.ui.DetailsPane/method/targetAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 593,
+        "startColumn" : 17,
+        "endLine" : 593,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 593,
+          "startColumn" : 41,
+          "endLine" : 593,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.DetailsPane/method/targetAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.DetailsPane"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "javax.swing.event.ChangeListener", "java.awt.event.MouseListener", "org.tigris.swidgets.Orientable", "org.argouml.ui.targetmanager.TargetListener" ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

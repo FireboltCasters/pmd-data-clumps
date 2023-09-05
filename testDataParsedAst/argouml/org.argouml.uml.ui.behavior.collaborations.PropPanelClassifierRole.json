@@ -1,0 +1,70 @@
+{
+  "name" : "PropPanelClassifierRole",
+  "key" : "org.argouml.uml.ui.behavior.collaborations.PropPanelClassifierRole",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 31,
+        "endLine" : 48,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.collaborations.PropPanelClassifierRole/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.PropPanelClassifierRole"
+    },
+    "multiplicityComboBox" : {
+      "name" : "multiplicityComboBox",
+      "key" : "multiplicityComboBox",
+      "type" : "org.argouml.uml.ui.UMLMultiplicityPanel",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 34,
+        "endLine" : 53,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.collaborations.PropPanelClassifierRole/memberField/multiplicityComboBox",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.PropPanelClassifierRole"
+    }
+  },
+  "methods" : {
+    "getMultiplicityComboBox" : {
+      "name" : "getMultiplicityComboBox",
+      "key" : "org.argouml.uml.ui.behavior.collaborations.PropPanelClassifierRole/method/getMultiplicityComboBox",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 22,
+        "endLine" : 111,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.collaborations.PropPanelClassifierRole"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelClassifier" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

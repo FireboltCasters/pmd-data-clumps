@@ -1,0 +1,213 @@
+{
+  "name" : "CrNoInstanceVariables",
+  "key" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables",
+  "type" : "class",
+  "position" : {
+    "startLine" : 48,
+    "startColumn" : 8,
+    "endLine" : 48,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "MAX_DEPTH" : {
+      "name" : "MAX_DEPTH",
+      "key" : "MAX_DEPTH",
+      "type" : "int",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 30,
+        "endLine" : 50,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables/memberField/MAX_DEPTH",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables"
+    }
+  },
+  "methods" : {
+    "initWizard" : {
+      "name" : "initWizard",
+      "key" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables/method/initWizard",
+      "type" : "void",
+      "position" : {
+        "startLine" : 161,
+        "startColumn" : 17,
+        "endLine" : 161,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "w",
+        "key" : "w",
+        "type" : "org.argouml.cognitive.critics.Wizard",
+        "position" : {
+          "startLine" : 161,
+          "startColumn" : 35,
+          "endLine" : 161,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables/method/initWizard"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables"
+    },
+    "predicate2" : {
+      "name" : "predicate2",
+      "key" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables/method/predicate2",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 20,
+        "endLine" : 67,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 38,
+          "endLine" : 67,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables/method/predicate2"
+      }, {
+        "name" : "dsgr",
+        "key" : "dsgr",
+        "type" : "org.argouml.cognitive.Designer",
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 51,
+          "endLine" : 67,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables/method/predicate2"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables"
+    },
+    "getClarifier" : {
+      "name" : "getClarifier",
+      "key" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables/method/getClarifier",
+      "type" : "javax.swing.Icon",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 17,
+        "endLine" : 106,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables"
+    },
+    "getWizardClass" : {
+      "name" : "getWizardClass",
+      "key" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables/method/getWizardClass",
+      "type" : "java.lang.Class",
+      "position" : {
+        "startLine" : 174,
+        "startColumn" : 18,
+        "endLine" : 174,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "org.argouml.cognitive.ToDoItem",
+        "position" : {
+          "startLine" : 174,
+          "startColumn" : 42,
+          "endLine" : 174,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables/method/getWizardClass"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables"
+    },
+    "getCriticizedDesignMaterials" : {
+      "name" : "getCriticizedDesignMaterials",
+      "key" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables/method/getCriticizedDesignMaterials",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 181,
+        "startColumn" : 24,
+        "endLine" : 181,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables"
+    },
+    "findChangeableInstanceAttributeInInherited" : {
+      "name" : "findChangeableInstanceAttributeInInherited",
+      "key" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables/method/findChangeableInstanceAttributeInInherited",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 21,
+        "endLine" : 118,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 71,
+          "endLine" : 118,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables/method/findChangeableInstanceAttributeInInherited"
+      }, {
+        "name" : "depth",
+        "key" : "depth",
+        "type" : "int",
+        "position" : {
+          "startLine" : 119,
+          "startColumn" : 17,
+          "endLine" : 119,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables/method/findChangeableInstanceAttributeInInherited"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.CrNoInstanceVariables"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "CrUML" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,180 @@
+{
+  "name" : "TestDelegatingStatement",
+  "key" : "org.apache.commons.dbcp.TestDelegatingStatement",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "delegateConn" : {
+      "name" : "delegateConn",
+      "key" : "delegateConn",
+      "type" : "java.sql.Connection",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 24,
+        "endLine" : 41,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TestDelegatingStatement/memberField/delegateConn",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestDelegatingStatement"
+    },
+    "conn" : {
+      "name" : "conn",
+      "key" : "conn",
+      "type" : "DelegatingConnection",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 34,
+        "endLine" : 40,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TestDelegatingStatement/memberField/conn",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestDelegatingStatement"
+    },
+    "delegateStmt" : {
+      "name" : "delegateStmt",
+      "key" : "delegateStmt",
+      "type" : "java.sql.Statement",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 23,
+        "endLine" : 43,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TestDelegatingStatement/memberField/delegateStmt",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestDelegatingStatement"
+    },
+    "stmt" : {
+      "name" : "stmt",
+      "key" : "stmt",
+      "type" : "DelegatingStatement",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 33,
+        "endLine" : 42,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TestDelegatingStatement/memberField/stmt",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestDelegatingStatement"
+    }
+  },
+  "methods" : {
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.dbcp.TestDelegatingStatement/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 24,
+        "endLine" : 36,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestDelegatingStatement"
+    },
+    "testExecuteQueryReturnsNull" : {
+      "name" : "testExecuteQueryReturnsNull",
+      "key" : "org.apache.commons.dbcp.TestDelegatingStatement/method/testExecuteQueryReturnsNull",
+      "type" : "void",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 17,
+        "endLine" : 52,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestDelegatingStatement"
+    },
+    "testGetDelegate" : {
+      "name" : "testGetDelegate",
+      "key" : "org.apache.commons.dbcp.TestDelegatingStatement/method/testGetDelegate",
+      "type" : "void",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestDelegatingStatement"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.dbcp.TestDelegatingStatement/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 17,
+        "endLine" : 45,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestDelegatingStatement"
+    },
+    "testHashCode" : {
+      "name" : "testHashCode",
+      "key" : "org.apache.commons.dbcp.TestDelegatingStatement/method/testHashCode",
+      "type" : "void",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 17,
+        "endLine" : 60,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestDelegatingStatement"
+    },
+    "testEquals" : {
+      "name" : "testEquals",
+      "key" : "org.apache.commons.dbcp.TestDelegatingStatement/method/testEquals",
+      "type" : "void",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 17,
+        "endLine" : 67,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestDelegatingStatement"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

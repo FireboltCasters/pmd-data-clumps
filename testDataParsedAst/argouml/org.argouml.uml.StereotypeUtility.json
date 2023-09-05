@@ -1,0 +1,456 @@
+{
+  "name" : "StereotypeUtility",
+  "key" : "org.argouml.uml.StereotypeUtility",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getAppliableStereotypes" : {
+      "name" : "getAppliableStereotypes",
+      "key" : "org.argouml.uml.StereotypeUtility/method/getAppliableStereotypes",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 173,
+        "startColumn" : 39,
+        "endLine" : 173,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 174,
+          "startColumn" : 20,
+          "endLine" : 174,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/getAppliableStereotypes"
+      }, {
+        "name" : "allAppliedProfiles",
+        "key" : "allAppliedProfiles",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 174,
+          "startColumn" : 53,
+          "endLine" : 174,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/getAppliableStereotypes"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.StereotypeUtility"
+    },
+    "getStereotype" : {
+      "name" : "getStereotype",
+      "key" : "org.argouml.uml.StereotypeUtility/method/getStereotype",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 314,
+        "startColumn" : 27,
+        "endLine" : 314,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 314,
+          "startColumn" : 48,
+          "endLine" : 314,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/getStereotype"
+      }, {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 314,
+          "startColumn" : 60,
+          "endLine" : 314,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/getStereotype"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.StereotypeUtility"
+    },
+    "getAvailableStereotypes" : {
+      "name" : "getAvailableStereotypes",
+      "key" : "org.argouml.uml.StereotypeUtility/method/getAvailableStereotypes",
+      "type" : "java.util.Set",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 31,
+        "endLine" : 79,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 62,
+          "endLine" : 79,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/getAvailableStereotypes"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.StereotypeUtility"
+    },
+    "addAllUniqueModelElementsFrom" : {
+      "name" : "addAllUniqueModelElementsFrom",
+      "key" : "org.argouml.uml.StereotypeUtility/method/addAllUniqueModelElementsFrom",
+      "type" : "void",
+      "position" : {
+        "startLine" : 213,
+        "startColumn" : 25,
+        "endLine" : 213,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "elements",
+        "key" : "elements",
+        "type" : "java.util.Set",
+        "position" : {
+          "startLine" : 213,
+          "startColumn" : 67,
+          "endLine" : 213,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/addAllUniqueModelElementsFrom"
+      }, {
+        "name" : "paths",
+        "key" : "paths",
+        "type" : "java.util.Set",
+        "position" : {
+          "startLine" : 214,
+          "startColumn" : 23,
+          "endLine" : 214,
+          "endColumn" : 28
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/addAllUniqueModelElementsFrom"
+      }, {
+        "name" : "source",
+        "key" : "source",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 214,
+          "startColumn" : 49,
+          "endLine" : 214,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/addAllUniqueModelElementsFrom"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.StereotypeUtility"
+    },
+    "getApplyStereotypeActions" : {
+      "name" : "getApplyStereotypeActions",
+      "key" : "org.argouml.uml.StereotypeUtility/method/getApplyStereotypeActions",
+      "type" : "javax.swing.Action[]",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 28,
+        "endLine" : 56,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 56,
+          "startColumn" : 61,
+          "endLine" : 56,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/getApplyStereotypeActions"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.StereotypeUtility"
+    },
+    "getAllProfilePackages" : {
+      "name" : "getAllProfilePackages",
+      "key" : "org.argouml.uml.StereotypeUtility/method/getAllProfilePackages",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 189,
+        "startColumn" : 39,
+        "endLine" : 189,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "model",
+        "key" : "model",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 189,
+          "startColumn" : 68,
+          "endLine" : 189,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/getAllProfilePackages"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.StereotypeUtility"
+    },
+    "dealWithStereotypes" : {
+      "name" : "dealWithStereotypes",
+      "key" : "org.argouml.uml.StereotypeUtility/method/dealWithStereotypes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 256,
+        "startColumn" : 24,
+        "endLine" : 256,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "umlobject",
+        "key" : "umlobject",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 256,
+          "startColumn" : 51,
+          "endLine" : 256,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/dealWithStereotypes"
+      }, {
+        "name" : "stereotype",
+        "key" : "stereotype",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 256,
+          "startColumn" : 69,
+          "endLine" : 256,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/dealWithStereotypes"
+      }, {
+        "name" : "full",
+        "key" : "full",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 257,
+          "startColumn" : 21,
+          "endLine" : 257,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/dealWithStereotypes"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.StereotypeUtility"
+    },
+    "getTopLevelStereotypes" : {
+      "name" : "getTopLevelStereotypes",
+      "key" : "org.argouml.uml.StereotypeUtility/method/getTopLevelStereotypes",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 134,
+        "startColumn" : 39,
+        "endLine" : 134,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "topLevelModels",
+        "key" : "topLevelModels",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 135,
+          "startColumn" : 32,
+          "endLine" : 135,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/getTopLevelStereotypes"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.StereotypeUtility"
+    },
+    "getApplicableStereotypesInNamespace" : {
+      "name" : "getApplicableStereotypesInNamespace",
+      "key" : "org.argouml.uml.StereotypeUtility/method/getApplicableStereotypesInNamespace",
+      "type" : "void",
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 25,
+        "endLine" : 149,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 150,
+          "startColumn" : 20,
+          "endLine" : 150,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/getApplicableStereotypesInNamespace"
+      }, {
+        "name" : "paths",
+        "key" : "paths",
+        "type" : "java.util.Set",
+        "position" : {
+          "startLine" : 150,
+          "startColumn" : 44,
+          "endLine" : 150,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/getApplicableStereotypesInNamespace"
+      }, {
+        "name" : "availableStereotypes",
+        "key" : "availableStereotypes",
+        "type" : "java.util.Set",
+        "position" : {
+          "startLine" : 151,
+          "startColumn" : 25,
+          "endLine" : 151,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/getApplicableStereotypesInNamespace"
+      }, {
+        "name" : "namespace",
+        "key" : "namespace",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 151,
+          "startColumn" : 54,
+          "endLine" : 151,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/getApplicableStereotypesInNamespace"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.StereotypeUtility"
+    },
+    "recFindStereotype" : {
+      "name" : "recFindStereotype",
+      "key" : "org.argouml.uml.StereotypeUtility/method/recFindStereotype",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 352,
+        "startColumn" : 27,
+        "endLine" : 352,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 353,
+          "startColumn" : 20,
+          "endLine" : 353,
+          "endColumn" : 23
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/recFindStereotype"
+      }, {
+        "name" : "root",
+        "key" : "root",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 353,
+          "startColumn" : 32,
+          "endLine" : 353,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/recFindStereotype"
+      }, {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 353,
+          "startColumn" : 45,
+          "endLine" : 353,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.StereotypeUtility/method/recFindStereotype"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.StereotypeUtility"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

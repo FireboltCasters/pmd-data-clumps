@@ -1,0 +1,103 @@
+{
+  "name" : "CodePiece",
+  "key" : "org.argouml.language.java.generator.CodePiece",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 10,
+    "endLine" : 38,
+    "endColumn" : 15
+  },
+  "modifiers" : [ "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "getStartPosition" : {
+      "name" : "getStartPosition",
+      "key" : "org.argouml.language.java.generator.CodePiece/method/getStartPosition",
+      "type" : "int",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 25,
+        "endLine" : 48,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.CodePiece"
+    },
+    "getEndLine" : {
+      "name" : "getEndLine",
+      "key" : "org.argouml.language.java.generator.CodePiece/method/getEndLine",
+      "type" : "int",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 25,
+        "endLine" : 63,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.CodePiece"
+    },
+    "getText" : {
+      "name" : "getText",
+      "key" : "org.argouml.language.java.generator.CodePiece/method/getText",
+      "type" : "java.lang.StringBuffer",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 34,
+        "endLine" : 43,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.CodePiece"
+    },
+    "getEndPosition" : {
+      "name" : "getEndPosition",
+      "key" : "org.argouml.language.java.generator.CodePiece/method/getEndPosition",
+      "type" : "int",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 25,
+        "endLine" : 53,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.CodePiece"
+    },
+    "getStartLine" : {
+      "name" : "getStartLine",
+      "key" : "org.argouml.language.java.generator.CodePiece/method/getStartLine",
+      "type" : "int",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 25,
+        "endLine" : 58,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.language.java.generator.CodePiece"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

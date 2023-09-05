@@ -1,0 +1,168 @@
+{
+  "name" : "ArgoNotationEventListener",
+  "key" : "org.argouml.application.events.ArgoNotationEventListener",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "notationChanged" : {
+      "name" : "notationChanged",
+      "key" : "org.argouml.application.events.ArgoNotationEventListener/method/notationChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 17,
+        "endLine" : 41,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "ArgoNotationEvent",
+        "position" : {
+          "startLine" : 41,
+          "startColumn" : 51,
+          "endLine" : 41,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoNotationEventListener/method/notationChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoNotationEventListener"
+    },
+    "notationRemoved" : {
+      "name" : "notationRemoved",
+      "key" : "org.argouml.application.events.ArgoNotationEventListener/method/notationRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 17,
+        "endLine" : 53,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "ArgoNotationEvent",
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 51,
+          "endLine" : 53,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoNotationEventListener/method/notationRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoNotationEventListener"
+    },
+    "notationProviderAdded" : {
+      "name" : "notationProviderAdded",
+      "key" : "org.argouml.application.events.ArgoNotationEventListener/method/notationProviderAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 17,
+        "endLine" : 60,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "ArgoNotationEvent",
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 57,
+          "endLine" : 60,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoNotationEventListener/method/notationProviderAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoNotationEventListener"
+    },
+    "notationAdded" : {
+      "name" : "notationAdded",
+      "key" : "org.argouml.application.events.ArgoNotationEventListener/method/notationAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 17,
+        "endLine" : 47,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "ArgoNotationEvent",
+        "position" : {
+          "startLine" : 47,
+          "startColumn" : 49,
+          "endLine" : 47,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoNotationEventListener/method/notationAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoNotationEventListener"
+    },
+    "notationProviderRemoved" : {
+      "name" : "notationProviderRemoved",
+      "key" : "org.argouml.application.events.ArgoNotationEventListener/method/notationProviderRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 17,
+        "endLine" : 67,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "ArgoNotationEvent",
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 59,
+          "endLine" : 67,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoNotationEventListener/method/notationProviderRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoNotationEventListener"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.application.api.ArgoEventListener" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

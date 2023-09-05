@@ -1,0 +1,39 @@
+{
+  "name" : "UMLTransitionTriggerList",
+  "key" : "org.argouml.uml.ui.behavior.state_machines.UMLTransitionTriggerList",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getPopupMenu" : {
+      "name" : "getPopupMenu",
+      "key" : "org.argouml.uml.ui.behavior.state_machines.UMLTransitionTriggerList/method/getPopupMenu",
+      "type" : "javax.swing.JPopupMenu",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 23,
+        "endLine" : 51,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.state_machines.UMLTransitionTriggerList"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLMutableLinkedList" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

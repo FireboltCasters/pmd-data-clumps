@@ -1,0 +1,65 @@
+{
+  "name" : "DefaultDatagramSocketFactory",
+  "key" : "org.apache.commons.net.DefaultDatagramSocketFactory",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "createDatagramSocket" : {
+      "name" : "createDatagramSocket",
+      "key" : "org.apache.commons.net.DefaultDatagramSocketFactory/method/createDatagramSocket",
+      "type" : "java.net.DatagramSocket",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 27,
+        "endLine" : 68,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "port",
+        "type" : "int",
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 52,
+          "endLine" : 68,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.DefaultDatagramSocketFactory/method/createDatagramSocket"
+      }, {
+        "name" : "laddr",
+        "key" : "laddr",
+        "type" : "java.net.InetAddress",
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 70,
+          "endLine" : 68,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.DefaultDatagramSocketFactory/method/createDatagramSocket"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.DefaultDatagramSocketFactory"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "DatagramSocketFactory" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

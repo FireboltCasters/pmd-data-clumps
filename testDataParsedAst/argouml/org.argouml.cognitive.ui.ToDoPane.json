@@ -1,0 +1,969 @@
+{
+  "name" : "ToDoPane",
+  "key" : "org.argouml.cognitive.ui.ToDoPane",
+  "type" : "class",
+  "position" : {
+    "startLine" : 86,
+    "startColumn" : 8,
+    "endLine" : 86,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "toDoPerspectivesChanged" : {
+      "name" : "toDoPerspectivesChanged",
+      "key" : "toDoPerspectivesChanged",
+      "type" : "int",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 24,
+        "endLine" : 103,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/toDoPerspectivesChanged",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "ALARM_THRESHOLD" : {
+      "name" : "ALARM_THRESHOLD",
+      "key" : "ALARM_THRESHOLD",
+      "type" : "int",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 30,
+        "endLine" : 97,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/ALARM_THRESHOLD",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "dblClicksInToDoPane" : {
+      "name" : "dblClicksInToDoPane",
+      "key" : "dblClicksInToDoPane",
+      "type" : "int",
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 24,
+        "endLine" : 102,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/dblClicksInToDoPane",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 33,
+        "endLine" : 94,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "ALARM_COLOR" : {
+      "name" : "ALARM_COLOR",
+      "key" : "ALARM_COLOR",
+      "type" : "java.awt.Color",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 32,
+        "endLine" : 99,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/ALARM_COLOR",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "WARN_THRESHOLD" : {
+      "name" : "WARN_THRESHOLD",
+      "key" : "WARN_THRESHOLD",
+      "type" : "int",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 30,
+        "endLine" : 96,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/WARN_THRESHOLD",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "WARN_COLOR" : {
+      "name" : "WARN_COLOR",
+      "key" : "WARN_COLOR",
+      "type" : "java.awt.Color",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 32,
+        "endLine" : 98,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/WARN_COLOR",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "tree" : {
+      "name" : "tree",
+      "key" : "tree",
+      "type" : "javax.swing.JTree",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 19,
+        "endLine" : 105,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/tree",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "combo" : {
+      "name" : "combo",
+      "key" : "combo",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 23,
+        "endLine" : 106,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/combo",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "clicksInToDoPane" : {
+      "name" : "clicksInToDoPane",
+      "key" : "clicksInToDoPane",
+      "type" : "int",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 24,
+        "endLine" : 101,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/clicksInToDoPane",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "curPerspective" : {
+      "name" : "curPerspective",
+      "key" : "curPerspective",
+      "type" : "ToDoPerspective",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 29,
+        "endLine" : 112,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/curPerspective",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 578,
+        "startColumn" : 31,
+        "endLine" : 578,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "perspectives" : {
+      "name" : "perspectives",
+      "key" : "perspectives",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 35,
+        "endLine" : 111,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/perspectives",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "lastSel" : {
+      "name" : "lastSel",
+      "key" : "lastSel",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 20,
+        "endLine" : 116,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/lastSel",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "root" : {
+      "name" : "root",
+      "key" : "root",
+      "type" : "org.argouml.cognitive.ToDoList",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 22,
+        "endLine" : 114,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/root",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "countLabel" : {
+      "name" : "countLabel",
+      "key" : "countLabel",
+      "type" : "javax.swing.JLabel",
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 20,
+        "endLine" : 115,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.cognitive.ui.ToDoPane/memberField/countLabel",
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    }
+  },
+  "methods" : {
+    "setCurPerspective" : {
+      "name" : "setCurPerspective",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/setCurPerspective",
+      "type" : "void",
+      "position" : {
+        "startLine" : 237,
+        "startColumn" : 17,
+        "endLine" : 237,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "per",
+        "key" : "per",
+        "type" : "javax.swing.tree.TreeModel",
+        "position" : {
+          "startLine" : 237,
+          "startColumn" : 45,
+          "endLine" : 237,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/setCurPerspective"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "setPerspectives" : {
+      "name" : "setPerspectives",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/setPerspectives",
+      "type" : "void",
+      "position" : {
+        "startLine" : 205,
+        "startColumn" : 17,
+        "endLine" : 205,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pers",
+        "key" : "pers",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 205,
+          "startColumn" : 55,
+          "endLine" : 205,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/setPerspectives"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "mouseExited" : {
+      "name" : "mouseExited",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/mouseExited",
+      "type" : "void",
+      "position" : {
+        "startLine" : 340,
+        "startColumn" : 17,
+        "endLine" : 340,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 340,
+          "startColumn" : 40,
+          "endLine" : 340,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/mouseExited"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "myDoubleClick" : {
+      "name" : "myDoubleClick",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/myDoubleClick",
+      "type" : "void",
+      "position" : {
+        "startLine" : 526,
+        "startColumn" : 17,
+        "endLine" : 526,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "row",
+        "key" : "row",
+        "type" : "int",
+        "position" : {
+          "startLine" : 527,
+          "startColumn" : 45,
+          "endLine" : 527,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/myDoubleClick"
+      }, {
+        "name" : "path",
+        "key" : "path",
+        "type" : "javax.swing.tree.TreePath",
+        "position" : {
+          "startLine" : 528,
+          "startColumn" : 50,
+          "endLine" : 528,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/myDoubleClick"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "toDoItemsRemoved" : {
+      "name" : "toDoItemsRemoved",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/toDoItemsRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 423,
+        "startColumn" : 17,
+        "endLine" : 423,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tde",
+        "key" : "tde",
+        "type" : "org.argouml.cognitive.ToDoListEvent",
+        "position" : {
+          "startLine" : 423,
+          "startColumn" : 54,
+          "endLine" : 423,
+          "endColumn" : 57
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/toDoItemsRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "toDoListChanged" : {
+      "name" : "toDoListChanged",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/toDoListChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 437,
+        "startColumn" : 17,
+        "endLine" : 437,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tde",
+        "key" : "tde",
+        "type" : "org.argouml.cognitive.ToDoListEvent",
+        "position" : {
+          "startLine" : 437,
+          "startColumn" : 53,
+          "endLine" : 437,
+          "endColumn" : 56
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/toDoListChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "getPerspectiveList" : {
+      "name" : "getPerspectiveList",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/getPerspectiveList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 198,
+        "startColumn" : 34,
+        "endLine" : 198,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "mousePressed" : {
+      "name" : "mousePressed",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/mousePressed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 319,
+        "startColumn" : 17,
+        "endLine" : 319,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 319,
+          "startColumn" : 41,
+          "endLine" : 319,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/mousePressed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "mouseReleased" : {
+      "name" : "mouseReleased",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/mouseReleased",
+      "type" : "void",
+      "position" : {
+        "startLine" : 326,
+        "startColumn" : 17,
+        "endLine" : 326,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 326,
+          "startColumn" : 42,
+          "endLine" : 326,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/mouseReleased"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "mouseEntered" : {
+      "name" : "mouseEntered",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/mouseEntered",
+      "type" : "void",
+      "position" : {
+        "startLine" : 333,
+        "startColumn" : 17,
+        "endLine" : 333,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 333,
+          "startColumn" : 41,
+          "endLine" : 333,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/mouseEntered"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "getPerspectives" : {
+      "name" : "getPerspectives",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/getPerspectives",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 191,
+        "startColumn" : 36,
+        "endLine" : 191,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "getSelectedObject" : {
+      "name" : "getSelectedObject",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/getSelectedObject",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 250,
+        "startColumn" : 19,
+        "endLine" : 250,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "updateTree" : {
+      "name" : "updateTree",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/updateTree",
+      "type" : "void",
+      "position" : {
+        "startLine" : 482,
+        "startColumn" : 20,
+        "endLine" : 482,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "getRoot" : {
+      "name" : "getRoot",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/getRoot",
+      "type" : "org.argouml.cognitive.ToDoList",
+      "position" : {
+        "startLine" : 182,
+        "startColumn" : 21,
+        "endLine" : 182,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "toDoItemsChanged" : {
+      "name" : "toDoItemsChanged",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/toDoItemsChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 385,
+        "startColumn" : 17,
+        "endLine" : 385,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tde",
+        "key" : "tde",
+        "type" : "org.argouml.cognitive.ToDoListEvent",
+        "position" : {
+          "startLine" : 385,
+          "startColumn" : 54,
+          "endLine" : 385,
+          "endColumn" : 57
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/toDoItemsChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "toDoItemsAdded" : {
+      "name" : "toDoItemsAdded",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/toDoItemsAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 399,
+        "startColumn" : 17,
+        "endLine" : 399,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tde",
+        "key" : "tde",
+        "type" : "org.argouml.cognitive.ToDoListEvent",
+        "position" : {
+          "startLine" : 399,
+          "startColumn" : 52,
+          "endLine" : 399,
+          "endColumn" : 55
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/toDoItemsAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "itemStateChanged" : {
+      "name" : "itemStateChanged",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/itemStateChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 286,
+        "startColumn" : 17,
+        "endLine" : 286,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ItemEvent",
+        "position" : {
+          "startLine" : 286,
+          "startColumn" : 44,
+          "endLine" : 286,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/itemStateChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "valueChanged" : {
+      "name" : "valueChanged",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/valueChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 297,
+        "startColumn" : 17,
+        "endLine" : 297,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "javax.swing.event.TreeSelectionEvent",
+        "position" : {
+          "startLine" : 297,
+          "startColumn" : 49,
+          "endLine" : 297,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/valueChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "selectItem" : {
+      "name" : "selectItem",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/selectItem",
+      "type" : "void",
+      "position" : {
+        "startLine" : 257,
+        "startColumn" : 17,
+        "endLine" : 257,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "org.argouml.cognitive.ToDoItem",
+        "position" : {
+          "startLine" : 257,
+          "startColumn" : 37,
+          "endLine" : 257,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/selectItem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "setRoot" : {
+      "name" : "setRoot",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/setRoot",
+      "type" : "void",
+      "position" : {
+        "startLine" : 174,
+        "startColumn" : 17,
+        "endLine" : 174,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "r",
+        "key" : "r",
+        "type" : "org.argouml.cognitive.ToDoList",
+        "position" : {
+          "startLine" : 174,
+          "startColumn" : 34,
+          "endLine" : 174,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/setRoot"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "mySingleClick" : {
+      "name" : "mySingleClick",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/mySingleClick",
+      "type" : "void",
+      "position" : {
+        "startLine" : 513,
+        "startColumn" : 24,
+        "endLine" : 513,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "row",
+        "key" : "row",
+        "type" : "int",
+        "position" : {
+          "startLine" : 514,
+          "startColumn" : 45,
+          "endLine" : 514,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/mySingleClick"
+      }, {
+        "name" : "path",
+        "key" : "path",
+        "type" : "javax.swing.tree.TreePath",
+        "position" : {
+          "startLine" : 515,
+          "startColumn" : 50,
+          "endLine" : 515,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/mySingleClick"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "formatCountLabel" : {
+      "name" : "formatCountLabel",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/formatCountLabel",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 449,
+        "startColumn" : 27,
+        "endLine" : 449,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "size",
+        "key" : "size",
+        "type" : "int",
+        "position" : {
+          "startLine" : 449,
+          "startColumn" : 48,
+          "endLine" : 449,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/formatCountLabel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "mouseClicked" : {
+      "name" : "mouseClicked",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/mouseClicked",
+      "type" : "void",
+      "position" : {
+        "startLine" : 347,
+        "startColumn" : 17,
+        "endLine" : 347,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 347,
+          "startColumn" : 41,
+          "endLine" : 347,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/mouseClicked"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "buildPerspectives" : {
+      "name" : "buildPerspectives",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/buildPerspectives",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 546,
+        "startColumn" : 42,
+        "endLine" : 546,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "updateCountLabel" : {
+      "name" : "updateCountLabel",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/updateCountLabel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 471,
+        "startColumn" : 17,
+        "endLine" : 471,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "getCurPerspective" : {
+      "name" : "getCurPerspective",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/getCurPerspective",
+      "type" : "ToDoPerspective",
+      "position" : {
+        "startLine" : 230,
+        "startColumn" : 28,
+        "endLine" : 230,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    },
+    "swingInvoke" : {
+      "name" : "swingInvoke",
+      "key" : "org.argouml.cognitive.ui.ToDoPane/method/swingInvoke",
+      "type" : "void",
+      "position" : {
+        "startLine" : 374,
+        "startColumn" : 18,
+        "endLine" : 374,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "task",
+        "key" : "task",
+        "type" : "java.lang.Runnable",
+        "position" : {
+          "startLine" : 374,
+          "startColumn" : 39,
+          "endLine" : 374,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ToDoPane/method/swingInvoke"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ToDoPane"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.event.ItemListener", "javax.swing.event.TreeSelectionListener", "java.awt.event.MouseListener", "org.argouml.cognitive.ToDoListListener" ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

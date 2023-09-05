@@ -1,0 +1,52 @@
+{
+  "name" : "SubsystemUtility",
+  "key" : "org.argouml.application.SubsystemUtility",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "initSubsystem" : {
+      "name" : "initSubsystem",
+      "key" : "org.argouml.application.SubsystemUtility/method/initSubsystem",
+      "type" : "void",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 17,
+        "endLine" : 48,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "subsystem",
+        "key" : "subsystem",
+        "type" : "org.argouml.application.api.InitSubsystem",
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 45,
+          "endLine" : 48,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.SubsystemUtility/method/initSubsystem"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.SubsystemUtility"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

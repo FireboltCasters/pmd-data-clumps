@@ -1,0 +1,155 @@
+{
+  "name" : "UMLClassifierParameterListModel",
+  "key" : "org.argouml.uml.ui.foundation.core.UMLClassifierParameterListModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLClassifierParameterListModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 20,
+        "endLine" : 56,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLClassifierParameterListModel"
+    },
+    "moveToBottom" : {
+      "name" : "moveToBottom",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLClassifierParameterListModel/method/moveToBottom",
+      "type" : "void",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 20,
+        "endLine" : 87,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 37,
+          "endLine" : 87,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.UMLClassifierParameterListModel/method/moveToBottom"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLClassifierParameterListModel"
+    },
+    "moveToTop" : {
+      "name" : "moveToTop",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLClassifierParameterListModel/method/moveToTop",
+      "type" : "void",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 20,
+        "endLine" : 101,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 34,
+          "endLine" : 101,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.UMLClassifierParameterListModel/method/moveToTop"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLClassifierParameterListModel"
+    },
+    "moveDown" : {
+      "name" : "moveDown",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLClassifierParameterListModel/method/moveDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 20,
+        "endLine" : 73,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 33,
+          "endLine" : 73,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.UMLClassifierParameterListModel/method/moveDown"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLClassifierParameterListModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.foundation.core.UMLClassifierParameterListModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 23,
+        "endLine" : 65,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 45,
+          "endLine" : 65,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.foundation.core.UMLClassifierParameterListModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.core.UMLClassifierParameterListModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLModelElementOrderedListModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

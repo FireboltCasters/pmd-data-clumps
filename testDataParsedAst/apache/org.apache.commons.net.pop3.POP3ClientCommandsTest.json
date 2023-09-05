@@ -1,0 +1,483 @@
+{
+  "name" : "POP3ClientCommandsTest",
+  "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "p" : {
+      "name" : "p",
+      "key" : "p",
+      "type" : "POP3Client",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 16,
+        "endLine" : 46,
+        "endColumn" : 17
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/memberField/p",
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "password" : {
+      "name" : "password",
+      "key" : "password",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 12,
+        "endLine" : 50,
+        "endColumn" : 20
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/memberField/password",
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "mailhost" : {
+      "name" : "mailhost",
+      "key" : "mailhost",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 12,
+        "endLine" : 51,
+        "endColumn" : 20
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/memberField/mailhost",
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "emptyUser" : {
+      "name" : "emptyUser",
+      "key" : "emptyUser",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 12,
+        "endLine" : 49,
+        "endColumn" : 21
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/memberField/emptyUser",
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "user" : {
+      "name" : "user",
+      "key" : "user",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 12,
+        "endLine" : 48,
+        "endColumn" : 16
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/memberField/user",
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    }
+  },
+  "methods" : {
+    "testListMessagesOnEmptyMailbox" : {
+      "name" : "testListMessagesOnEmptyMailbox",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testListMessagesOnEmptyMailbox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 223,
+        "startColumn" : 17,
+        "endLine" : 223,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testListUniqueIDOnFullMailbox" : {
+      "name" : "testListUniqueIDOnFullMailbox",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testListUniqueIDOnFullMailbox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 283,
+        "startColumn" : 17,
+        "endLine" : 283,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testRetrieveOverSizedMessageTopOnFullMailbox" : {
+      "name" : "testRetrieveOverSizedMessageTopOnFullMailbox",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testRetrieveOverSizedMessageTopOnFullMailbox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 458,
+        "startColumn" : 17,
+        "endLine" : 458,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testListMessageOnFullMailbox" : {
+      "name" : "testListMessageOnFullMailbox",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testListMessageOnFullMailbox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 188,
+        "startColumn" : 17,
+        "endLine" : 188,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testListUniqueIDsOnFullMailbox" : {
+      "name" : "testListUniqueIDsOnFullMailbox",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testListUniqueIDsOnFullMailbox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 257,
+        "startColumn" : 17,
+        "endLine" : 257,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testResetAndDeleteShouldFails" : {
+      "name" : "testResetAndDeleteShouldFails",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testResetAndDeleteShouldFails",
+      "type" : "void",
+      "position" : {
+        "startLine" : 600,
+        "startColumn" : 17,
+        "endLine" : 600,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testRetrieveMessageOnEmptyMailbox" : {
+      "name" : "testRetrieveMessageOnEmptyMailbox",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testRetrieveMessageOnEmptyMailbox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 399,
+        "startColumn" : 17,
+        "endLine" : 399,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testRetrieveMessageTopOnEmptyMailbox" : {
+      "name" : "testRetrieveMessageTopOnEmptyMailbox",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testRetrieveMessageTopOnEmptyMailbox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 503,
+        "startColumn" : 17,
+        "endLine" : 503,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testDeleteWithReset" : {
+      "name" : "testDeleteWithReset",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testDeleteWithReset",
+      "type" : "void",
+      "position" : {
+        "startLine" : 535,
+        "startColumn" : 17,
+        "endLine" : 535,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testNoopCommand" : {
+      "name" : "testNoopCommand",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testNoopCommand",
+      "type" : "void",
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 17,
+        "endLine" : 102,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "login" : {
+      "name" : "login",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/login",
+      "type" : "void",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 18,
+        "endLine" : 92,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testRetrieveMessageOnFullMailbox" : {
+      "name" : "testRetrieveMessageOnFullMailbox",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testRetrieveMessageOnFullMailbox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 351,
+        "startColumn" : 17,
+        "endLine" : 351,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testDelete" : {
+      "name" : "testDelete",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testDelete",
+      "type" : "void",
+      "position" : {
+        "startLine" : 569,
+        "startColumn" : 17,
+        "endLine" : 569,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/suite",
+      "type" : "junit.framework.TestSuite",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 29,
+        "endLine" : 65,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testListUniqueIDsOnEmptyMailbox" : {
+      "name" : "testListUniqueIDsOnEmptyMailbox",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testListUniqueIDsOnEmptyMailbox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 317,
+        "startColumn" : 17,
+        "endLine" : 317,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testListMessageOnEmptyMailbox" : {
+      "name" : "testListMessageOnEmptyMailbox",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testListMessageOnEmptyMailbox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 242,
+        "startColumn" : 17,
+        "endLine" : 242,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testStatus" : {
+      "name" : "testStatus",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testStatus",
+      "type" : "void",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 17,
+        "endLine" : 123,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testRetrieveMessageTopOnFullMailbox" : {
+      "name" : "testRetrieveMessageTopOnFullMailbox",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testRetrieveMessageTopOnFullMailbox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 435,
+        "startColumn" : 17,
+        "endLine" : 435,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testRetrieveMessageTopShouldFails" : {
+      "name" : "testRetrieveMessageTopShouldFails",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testRetrieveMessageTopShouldFails",
+      "type" : "void",
+      "position" : {
+        "startLine" : 515,
+        "startColumn" : 17,
+        "endLine" : 515,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testListUniqueIdentifierOnEmptyMailbox" : {
+      "name" : "testListUniqueIdentifierOnEmptyMailbox",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testListUniqueIdentifierOnEmptyMailbox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 336,
+        "startColumn" : 17,
+        "endLine" : 336,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "reset" : {
+      "name" : "reset",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/reset",
+      "type" : "void",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 18,
+        "endLine" : 70,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testListMessagesOnFullMailbox" : {
+      "name" : "testListMessagesOnFullMailbox",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testListMessagesOnFullMailbox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 161,
+        "startColumn" : 17,
+        "endLine" : 161,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "testRetrieveMessageShouldFails" : {
+      "name" : "testRetrieveMessageShouldFails",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/testRetrieveMessageShouldFails",
+      "type" : "void",
+      "position" : {
+        "startLine" : 411,
+        "startColumn" : 17,
+        "endLine" : 411,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    },
+    "connect" : {
+      "name" : "connect",
+      "key" : "org.apache.commons.net.pop3.POP3ClientCommandsTest/method/connect",
+      "type" : "void",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 18,
+        "endLine" : 85,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3ClientCommandsTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

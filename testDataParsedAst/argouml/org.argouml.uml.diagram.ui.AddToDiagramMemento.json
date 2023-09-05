@@ -1,0 +1,133 @@
+{
+  "name" : "AddToDiagramMemento",
+  "key" : "org.argouml.uml.diagram.ui.AddToDiagramMemento",
+  "type" : "class",
+  "position" : {
+    "startLine" : 200,
+    "startColumn" : 1,
+    "endLine" : 200,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "nodesPlaced" : {
+      "name" : "nodesPlaced",
+      "key" : "nodesPlaced",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 202,
+        "startColumn" : 33,
+        "endLine" : 202,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.AddToDiagramMemento/memberField/nodesPlaced",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.AddToDiagramMemento"
+    },
+    "editor" : {
+      "name" : "editor",
+      "key" : "editor",
+      "type" : "org.tigris.gef.base.Editor",
+      "position" : {
+        "startLine" : 203,
+        "startColumn" : 26,
+        "endLine" : 203,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.AddToDiagramMemento/memberField/editor",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.AddToDiagramMemento"
+    },
+    "mgm" : {
+      "name" : "mgm",
+      "key" : "mgm",
+      "type" : "org.tigris.gef.graph.MutableGraphModel",
+      "position" : {
+        "startLine" : 204,
+        "startColumn" : 37,
+        "endLine" : 204,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.AddToDiagramMemento/memberField/mgm",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.AddToDiagramMemento"
+    }
+  },
+  "methods" : {
+    "undo" : {
+      "name" : "undo",
+      "key" : "org.argouml.uml.diagram.ui.AddToDiagramMemento/method/undo",
+      "type" : "void",
+      "position" : {
+        "startLine" : 212,
+        "startColumn" : 17,
+        "endLine" : 212,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.AddToDiagramMemento"
+    },
+    "dispose" : {
+      "name" : "dispose",
+      "key" : "org.argouml.uml.diagram.ui.AddToDiagramMemento/method/dispose",
+      "type" : "void",
+      "position" : {
+        "startLine" : 228,
+        "startColumn" : 17,
+        "endLine" : 228,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.AddToDiagramMemento"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.argouml.uml.diagram.ui.AddToDiagramMemento/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 231,
+        "startColumn" : 19,
+        "endLine" : 231,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.AddToDiagramMemento"
+    },
+    "redo" : {
+      "name" : "redo",
+      "key" : "org.argouml.uml.diagram.ui.AddToDiagramMemento/method/redo",
+      "type" : "void",
+      "position" : {
+        "startLine" : 220,
+        "startColumn" : 17,
+        "endLine" : 220,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.AddToDiagramMemento"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.undo.Memento" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

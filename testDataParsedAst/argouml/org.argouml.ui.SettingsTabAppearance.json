@@ -1,0 +1,241 @@
+{
+  "name" : "SettingsTabAppearance",
+  "key" : "org.argouml.ui.SettingsTabAppearance",
+  "type" : "class",
+  "position" : {
+    "startLine" : 55,
+    "startColumn" : 1,
+    "endLine" : 55,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 215,
+        "startColumn" : 31,
+        "endLine" : 215,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabAppearance/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabAppearance"
+    },
+    "lookAndFeel" : {
+      "name" : "lookAndFeel",
+      "key" : "lookAndFeel",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 23,
+        "endLine" : 59,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabAppearance/memberField/lookAndFeel",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabAppearance"
+    },
+    "metalTheme" : {
+      "name" : "metalTheme",
+      "key" : "metalTheme",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 23,
+        "endLine" : 60,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabAppearance/memberField/metalTheme",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabAppearance"
+    },
+    "language" : {
+      "name" : "language",
+      "key" : "language",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 25,
+        "endLine" : 61,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabAppearance/memberField/language",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabAppearance"
+    },
+    "metalLabel" : {
+      "name" : "metalLabel",
+      "key" : "metalLabel",
+      "type" : "javax.swing.JLabel",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 25,
+        "endLine" : 62,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabAppearance/memberField/metalLabel",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabAppearance"
+    },
+    "locale" : {
+      "name" : "locale",
+      "key" : "locale",
+      "type" : "java.util.Locale",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 20,
+        "endLine" : 65,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabAppearance/memberField/locale",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabAppearance"
+    },
+    "smoothEdges" : {
+      "name" : "smoothEdges",
+      "key" : "smoothEdges",
+      "type" : "javax.swing.JCheckBox",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 25,
+        "endLine" : 63,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.SettingsTabAppearance/memberField/smoothEdges",
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabAppearance"
+    }
+  },
+  "methods" : {
+    "handleSettingsTabRefresh" : {
+      "name" : "handleSettingsTabRefresh",
+      "key" : "org.argouml.ui.SettingsTabAppearance/method/handleSettingsTabRefresh",
+      "type" : "void",
+      "position" : {
+        "startLine" : 158,
+        "startColumn" : 17,
+        "endLine" : 158,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabAppearance"
+    },
+    "setMetalThemeState" : {
+      "name" : "setMetalThemeState",
+      "key" : "org.argouml.ui.SettingsTabAppearance/method/setMetalThemeState",
+      "type" : "void",
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 18,
+        "endLine" : 145,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabAppearance"
+    },
+    "getTabPanel" : {
+      "name" : "getTabPanel",
+      "key" : "org.argouml.ui.SettingsTabAppearance/method/getTabPanel",
+      "type" : "javax.swing.JPanel",
+      "position" : {
+        "startLine" : 210,
+        "startColumn" : 19,
+        "endLine" : 210,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabAppearance"
+    },
+    "getTabKey" : {
+      "name" : "getTabKey",
+      "key" : "org.argouml.ui.SettingsTabAppearance/method/getTabKey",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 205,
+        "startColumn" : 19,
+        "endLine" : 205,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabAppearance"
+    },
+    "handleSettingsTabSave" : {
+      "name" : "handleSettingsTabSave",
+      "key" : "org.argouml.ui.SettingsTabAppearance/method/handleSettingsTabSave",
+      "type" : "void",
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 17,
+        "endLine" : 172,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabAppearance"
+    },
+    "handleSettingsTabCancel" : {
+      "name" : "handleSettingsTabCancel",
+      "key" : "org.argouml.ui.SettingsTabAppearance/method/handleSettingsTabCancel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 193,
+        "startColumn" : 17,
+        "endLine" : 193,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabAppearance"
+    },
+    "handleResetToDefault" : {
+      "name" : "handleResetToDefault",
+      "key" : "org.argouml.ui.SettingsTabAppearance/method/handleResetToDefault",
+      "type" : "void",
+      "position" : {
+        "startLine" : 198,
+        "startColumn" : 17,
+        "endLine" : 198,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.SettingsTabAppearance"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.GUISettingsTabInterface" ],
+  "extends_" : [ "javax.swing.JPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

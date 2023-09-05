@@ -1,0 +1,1008 @@
+{
+  "name" : "NtpV3Packet",
+  "key" : "org.apache.commons.net.ntp.NtpV3Packet",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 28,
+    "startColumn" : 8,
+    "endLine" : 28,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "NTP_MINPOLL" : {
+      "name" : "NTP_MINPOLL",
+      "key" : "NTP_MINPOLL",
+      "type" : "int",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 29,
+        "endLine" : 51,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/NTP_MINPOLL",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "NTP_MINCLOCK" : {
+      "name" : "NTP_MINCLOCK",
+      "key" : "NTP_MINCLOCK",
+      "type" : "int",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 29,
+        "endLine" : 54,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/NTP_MINCLOCK",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "TYPE_DAYTIME" : {
+      "name" : "TYPE_DAYTIME",
+      "key" : "TYPE_DAYTIME",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 32,
+        "endLine" : 66,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/TYPE_DAYTIME",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "LI_LAST_MINUTE_HAS_59_SECONDS" : {
+      "name" : "LI_LAST_MINUTE_HAS_59_SECONDS",
+      "key" : "LI_LAST_MINUTE_HAS_59_SECONDS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 29,
+        "endLine" : 38,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/LI_LAST_MINUTE_HAS_59_SECONDS",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "MODE_SERVER" : {
+      "name" : "MODE_SERVER",
+      "key" : "MODE_SERVER",
+      "type" : "int",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 29,
+        "endLine" : 46,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/MODE_SERVER",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "TYPE_ICMP" : {
+      "name" : "TYPE_ICMP",
+      "key" : "TYPE_ICMP",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 32,
+        "endLine" : 64,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/TYPE_ICMP",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "MODE_RESERVED" : {
+      "name" : "MODE_RESERVED",
+      "key" : "MODE_RESERVED",
+      "type" : "int",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 29,
+        "endLine" : 42,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/MODE_RESERVED",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "MODE_CONTROL_MESSAGE" : {
+      "name" : "MODE_CONTROL_MESSAGE",
+      "key" : "MODE_CONTROL_MESSAGE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 29,
+        "endLine" : 48,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/MODE_CONTROL_MESSAGE",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "LI_NO_WARNING" : {
+      "name" : "LI_NO_WARNING",
+      "key" : "LI_NO_WARNING",
+      "type" : "int",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 29,
+        "endLine" : 36,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/LI_NO_WARNING",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "NTP_MAXPOLL" : {
+      "name" : "NTP_MAXPOLL",
+      "key" : "NTP_MAXPOLL",
+      "type" : "int",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 29,
+        "endLine" : 52,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/NTP_MAXPOLL",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "TYPE_NTP" : {
+      "name" : "TYPE_NTP",
+      "key" : "TYPE_NTP",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 32,
+        "endLine" : 63,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/TYPE_NTP",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "LI_ALARM_CONDITION" : {
+      "name" : "LI_ALARM_CONDITION",
+      "key" : "LI_ALARM_CONDITION",
+      "type" : "int",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 29,
+        "endLine" : 39,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/LI_ALARM_CONDITION",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "NTP_MAXCLOCK" : {
+      "name" : "NTP_MAXCLOCK",
+      "key" : "NTP_MAXCLOCK",
+      "type" : "int",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 29,
+        "endLine" : 55,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/NTP_MAXCLOCK",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "MODE_CLIENT" : {
+      "name" : "MODE_CLIENT",
+      "key" : "MODE_CLIENT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 29,
+        "endLine" : 45,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/MODE_CLIENT",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "MODE_SYMMETRIC_PASSIVE" : {
+      "name" : "MODE_SYMMETRIC_PASSIVE",
+      "key" : "MODE_SYMMETRIC_PASSIVE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 29,
+        "endLine" : 44,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/MODE_SYMMETRIC_PASSIVE",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "MODE_SYMMETRIC_ACTIVE" : {
+      "name" : "MODE_SYMMETRIC_ACTIVE",
+      "key" : "MODE_SYMMETRIC_ACTIVE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 29,
+        "endLine" : 43,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/MODE_SYMMETRIC_ACTIVE",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "LI_LAST_MINUTE_HAS_61_SECONDS" : {
+      "name" : "LI_LAST_MINUTE_HAS_61_SECONDS",
+      "key" : "LI_LAST_MINUTE_HAS_61_SECONDS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 29,
+        "endLine" : 37,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/LI_LAST_MINUTE_HAS_61_SECONDS",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "VERSION_4" : {
+      "name" : "VERSION_4",
+      "key" : "VERSION_4",
+      "type" : "int",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 29,
+        "endLine" : 58,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/VERSION_4",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "MODE_PRIVATE" : {
+      "name" : "MODE_PRIVATE",
+      "key" : "MODE_PRIVATE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 29,
+        "endLine" : 49,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/MODE_PRIVATE",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "VERSION_3" : {
+      "name" : "VERSION_3",
+      "key" : "VERSION_3",
+      "type" : "int",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 29,
+        "endLine" : 57,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/VERSION_3",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "MODE_BROADCAST" : {
+      "name" : "MODE_BROADCAST",
+      "key" : "MODE_BROADCAST",
+      "type" : "int",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 29,
+        "endLine" : 47,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/MODE_BROADCAST",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "NTP_PORT" : {
+      "name" : "NTP_PORT",
+      "key" : "NTP_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 29,
+        "endLine" : 34,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/NTP_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "TYPE_TIME" : {
+      "name" : "TYPE_TIME",
+      "key" : "TYPE_TIME",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 32,
+        "endLine" : 65,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ntp.NtpV3Packet/memberField/TYPE_TIME",
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    }
+  },
+  "methods" : {
+    "setReferenceId" : {
+      "name" : "setReferenceId",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/setReferenceId",
+      "type" : "void",
+      "position" : {
+        "startLine" : 180,
+        "startColumn" : 17,
+        "endLine" : 180,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "refId",
+        "key" : "refId",
+        "type" : "int",
+        "position" : {
+          "startLine" : 180,
+          "startColumn" : 36,
+          "endLine" : 180,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.NtpV3Packet/method/setReferenceId"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getReceiveTimeStamp" : {
+      "name" : "getReceiveTimeStamp",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getReceiveTimeStamp",
+      "type" : "TimeStamp",
+      "position" : {
+        "startLine" : 200,
+        "startColumn" : 22,
+        "endLine" : 200,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getReferenceIdString" : {
+      "name" : "getReferenceIdString",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getReferenceIdString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 169,
+        "startColumn" : 19,
+        "endLine" : 169,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "setDatagramPacket" : {
+      "name" : "setDatagramPacket",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/setDatagramPacket",
+      "type" : "void",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 17,
+        "endLine" : 76,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dp",
+        "key" : "dp",
+        "type" : "java.net.DatagramPacket",
+        "position" : {
+          "startLine" : 76,
+          "startColumn" : 50,
+          "endLine" : 76,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.NtpV3Packet/method/setDatagramPacket"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getReferenceId" : {
+      "name" : "getReferenceId",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getReferenceId",
+      "type" : "int",
+      "position" : {
+        "startLine" : 174,
+        "startColumn" : 16,
+        "endLine" : 174,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "setPoll" : {
+      "name" : "setPoll",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/setPoll",
+      "type" : "void",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 17,
+        "endLine" : 114,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "poll",
+        "key" : "poll",
+        "type" : "int",
+        "position" : {
+          "startLine" : 114,
+          "startColumn" : 29,
+          "endLine" : 114,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.NtpV3Packet/method/setPoll"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getRootDispersionInMillis" : {
+      "name" : "getRootDispersionInMillis",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getRootDispersionInMillis",
+      "type" : "long",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 17,
+        "endLine" : 139,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getRootDelayInMillisDouble" : {
+      "name" : "getRootDelayInMillisDouble",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getRootDelayInMillisDouble",
+      "type" : "double",
+      "position" : {
+        "startLine" : 129,
+        "startColumn" : 19,
+        "endLine" : 129,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "setReferenceTime" : {
+      "name" : "setReferenceTime",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/setReferenceTime",
+      "type" : "void",
+      "position" : {
+        "startLine" : 212,
+        "startColumn" : 17,
+        "endLine" : 212,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ts",
+        "key" : "ts",
+        "type" : "TimeStamp",
+        "position" : {
+          "startLine" : 212,
+          "startColumn" : 44,
+          "endLine" : 212,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.NtpV3Packet/method/setReferenceTime"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getReferenceTimeStamp" : {
+      "name" : "getReferenceTimeStamp",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getReferenceTimeStamp",
+      "type" : "TimeStamp",
+      "position" : {
+        "startLine" : 190,
+        "startColumn" : 22,
+        "endLine" : 190,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getLeapIndicator" : {
+      "name" : "getLeapIndicator",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getLeapIndicator",
+      "type" : "int",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 16,
+        "endLine" : 81,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "setLeapIndicator" : {
+      "name" : "setLeapIndicator",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/setLeapIndicator",
+      "type" : "void",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 17,
+        "endLine" : 87,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "li",
+        "key" : "li",
+        "type" : "int",
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 38,
+          "endLine" : 87,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.NtpV3Packet/method/setLeapIndicator"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getMode" : {
+      "name" : "getMode",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getMode",
+      "type" : "int",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 16,
+        "endLine" : 92,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "setOriginateTimeStamp" : {
+      "name" : "setOriginateTimeStamp",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/setOriginateTimeStamp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 218,
+        "startColumn" : 17,
+        "endLine" : 218,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ts",
+        "key" : "ts",
+        "type" : "TimeStamp",
+        "position" : {
+          "startLine" : 218,
+          "startColumn" : 49,
+          "endLine" : 218,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.NtpV3Packet/method/setOriginateTimeStamp"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "setReceiveTimeStamp" : {
+      "name" : "setReceiveTimeStamp",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/setReceiveTimeStamp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 224,
+        "startColumn" : 17,
+        "endLine" : 224,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ts",
+        "key" : "ts",
+        "type" : "TimeStamp",
+        "position" : {
+          "startLine" : 224,
+          "startColumn" : 47,
+          "endLine" : 224,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.NtpV3Packet/method/setReceiveTimeStamp"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getVersion" : {
+      "name" : "getVersion",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getVersion",
+      "type" : "int",
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 16,
+        "endLine" : 149,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getRootDispersion" : {
+      "name" : "getRootDispersion",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getRootDispersion",
+      "type" : "int",
+      "position" : {
+        "startLine" : 134,
+        "startColumn" : 16,
+        "endLine" : 134,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getModeName" : {
+      "name" : "getModeName",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getModeName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 19,
+        "endLine" : 97,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "setVersion" : {
+      "name" : "setVersion",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/setVersion",
+      "type" : "void",
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 17,
+        "endLine" : 154,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "mode",
+        "key" : "mode",
+        "type" : "int",
+        "position" : {
+          "startLine" : 154,
+          "startColumn" : 32,
+          "endLine" : 154,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.NtpV3Packet/method/setVersion"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getOriginateTimeStamp" : {
+      "name" : "getOriginateTimeStamp",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getOriginateTimeStamp",
+      "type" : "TimeStamp",
+      "position" : {
+        "startLine" : 195,
+        "startColumn" : 22,
+        "endLine" : 195,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getStratum" : {
+      "name" : "getStratum",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getStratum",
+      "type" : "int",
+      "position" : {
+        "startLine" : 159,
+        "startColumn" : 16,
+        "endLine" : 159,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "setMode" : {
+      "name" : "setMode",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/setMode",
+      "type" : "void",
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 17,
+        "endLine" : 102,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "mode",
+        "key" : "mode",
+        "type" : "int",
+        "position" : {
+          "startLine" : 102,
+          "startColumn" : 29,
+          "endLine" : 102,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.NtpV3Packet/method/setMode"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "setStratum" : {
+      "name" : "setStratum",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/setStratum",
+      "type" : "void",
+      "position" : {
+        "startLine" : 164,
+        "startColumn" : 17,
+        "endLine" : 164,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stratum",
+        "key" : "stratum",
+        "type" : "int",
+        "position" : {
+          "startLine" : 164,
+          "startColumn" : 32,
+          "endLine" : 164,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.NtpV3Packet/method/setStratum"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "setTransmitTime" : {
+      "name" : "setTransmitTime",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/setTransmitTime",
+      "type" : "void",
+      "position" : {
+        "startLine" : 206,
+        "startColumn" : 17,
+        "endLine" : 206,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ts",
+        "key" : "ts",
+        "type" : "TimeStamp",
+        "position" : {
+          "startLine" : 206,
+          "startColumn" : 43,
+          "endLine" : 206,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ntp.NtpV3Packet/method/setTransmitTime"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getPrecision" : {
+      "name" : "getPrecision",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getPrecision",
+      "type" : "int",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 16,
+        "endLine" : 119,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getTransmitTimeStamp" : {
+      "name" : "getTransmitTimeStamp",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getTransmitTimeStamp",
+      "type" : "TimeStamp",
+      "position" : {
+        "startLine" : 185,
+        "startColumn" : 22,
+        "endLine" : 185,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getDatagramPacket" : {
+      "name" : "getDatagramPacket",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getDatagramPacket",
+      "type" : "java.net.DatagramPacket",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 27,
+        "endLine" : 71,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getPoll" : {
+      "name" : "getPoll",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getPoll",
+      "type" : "int",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 16,
+        "endLine" : 108,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getType" : {
+      "name" : "getType",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getType",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 232,
+        "startColumn" : 19,
+        "endLine" : 232,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getRootDelay" : {
+      "name" : "getRootDelay",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getRootDelay",
+      "type" : "int",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 16,
+        "endLine" : 124,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    },
+    "getRootDispersionInMillisDouble" : {
+      "name" : "getRootDispersionInMillisDouble",
+      "key" : "org.apache.commons.net.ntp.NtpV3Packet/method/getRootDispersionInMillisDouble",
+      "type" : "double",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 19,
+        "endLine" : 144,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ntp.NtpV3Packet"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

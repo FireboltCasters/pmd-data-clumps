@@ -1,0 +1,52 @@
+{
+  "name" : "KeyStrokeCellRenderer",
+  "key" : "org.argouml.ui.cmd.KeyStrokeCellRenderer",
+  "type" : "class",
+  "position" : {
+    "startLine" : 607,
+    "startColumn" : 1,
+    "endLine" : 607,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "setValue" : {
+      "name" : "setValue",
+      "key" : "org.argouml.ui.cmd.KeyStrokeCellRenderer/method/setValue",
+      "type" : "void",
+      "position" : {
+        "startLine" : 623,
+        "startColumn" : 17,
+        "endLine" : 623,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "value",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 623,
+          "startColumn" : 33,
+          "endLine" : 623,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.KeyStrokeCellRenderer/method/setValue"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.KeyStrokeCellRenderer"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.table.DefaultTableCellRenderer" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

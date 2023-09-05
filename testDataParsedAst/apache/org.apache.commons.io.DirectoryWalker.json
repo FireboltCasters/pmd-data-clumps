@@ -1,0 +1,722 @@
+{
+  "name" : "DirectoryWalker",
+  "key" : "org.apache.commons.io.DirectoryWalker",
+  "type" : "class",
+  "position" : {
+    "startLine" : 251,
+    "startColumn" : 17,
+    "endLine" : 251,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "filter" : {
+      "name" : "filter",
+      "key" : "filter",
+      "type" : "java.io.FileFilter",
+      "position" : {
+        "startLine" : 256,
+        "startColumn" : 30,
+        "endLine" : 256,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.DirectoryWalker/memberField/filter",
+      "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker"
+    },
+    "depthLimit" : {
+      "name" : "depthLimit",
+      "key" : "depthLimit",
+      "type" : "int",
+      "position" : {
+        "startLine" : 260,
+        "startColumn" : 23,
+        "endLine" : 260,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.DirectoryWalker/memberField/depthLimit",
+      "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker"
+    }
+  },
+  "methods" : {
+    "checkIfCancelled" : {
+      "name" : "checkIfCancelled",
+      "key" : "org.apache.commons.io.DirectoryWalker/method/checkIfCancelled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 393,
+        "startColumn" : 26,
+        "endLine" : 393,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 393,
+          "startColumn" : 48,
+          "endLine" : 393,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/checkIfCancelled"
+      }, {
+        "name" : "depth",
+        "key" : "depth",
+        "type" : "int",
+        "position" : {
+          "startLine" : 393,
+          "startColumn" : 58,
+          "endLine" : 393,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/checkIfCancelled"
+      }, {
+        "name" : "results",
+        "key" : "results",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 393,
+          "startColumn" : 76,
+          "endLine" : 393,
+          "endColumn" : 83
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/checkIfCancelled"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker"
+    },
+    "handleDirectory" : {
+      "name" : "handleDirectory",
+      "key" : "org.apache.commons.io.DirectoryWalker/method/handleDirectory",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 488,
+        "startColumn" : 23,
+        "endLine" : 488,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "directory",
+        "key" : "directory",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 488,
+          "startColumn" : 44,
+          "endLine" : 488,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleDirectory"
+      }, {
+        "name" : "depth",
+        "key" : "depth",
+        "type" : "int",
+        "position" : {
+          "startLine" : 488,
+          "startColumn" : 59,
+          "endLine" : 488,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleDirectory"
+      }, {
+        "name" : "results",
+        "key" : "results",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 488,
+          "startColumn" : 77,
+          "endLine" : 488,
+          "endColumn" : 84
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleDirectory"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker"
+    },
+    "handleStart" : {
+      "name" : "handleStart",
+      "key" : "org.apache.commons.io.DirectoryWalker/method/handleStart",
+      "type" : "void",
+      "position" : {
+        "startLine" : 469,
+        "startColumn" : 20,
+        "endLine" : 469,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "startDirectory",
+        "key" : "startDirectory",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 469,
+          "startColumn" : 37,
+          "endLine" : 469,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleStart"
+      }, {
+        "name" : "results",
+        "key" : "results",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 469,
+          "startColumn" : 64,
+          "endLine" : 469,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleStart"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker"
+    },
+    "handleDirectoryEnd" : {
+      "name" : "handleDirectoryEnd",
+      "key" : "org.apache.commons.io.DirectoryWalker/method/handleDirectoryEnd",
+      "type" : "void",
+      "position" : {
+        "startLine" : 545,
+        "startColumn" : 20,
+        "endLine" : 545,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "directory",
+        "key" : "directory",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 545,
+          "startColumn" : 44,
+          "endLine" : 545,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleDirectoryEnd"
+      }, {
+        "name" : "depth",
+        "key" : "depth",
+        "type" : "int",
+        "position" : {
+          "startLine" : 545,
+          "startColumn" : 59,
+          "endLine" : 545,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleDirectoryEnd"
+      }, {
+        "name" : "results",
+        "key" : "results",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 545,
+          "startColumn" : 77,
+          "endLine" : 545,
+          "endColumn" : 84
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleDirectoryEnd"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker"
+    },
+    "handleEnd" : {
+      "name" : "handleEnd",
+      "key" : "org.apache.commons.io.DirectoryWalker/method/handleEnd",
+      "type" : "void",
+      "position" : {
+        "startLine" : 557,
+        "startColumn" : 20,
+        "endLine" : 557,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "results",
+        "key" : "results",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 557,
+          "startColumn" : 41,
+          "endLine" : 557,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleEnd"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker"
+    },
+    "handleIsCancelled" : {
+      "name" : "handleIsCancelled",
+      "key" : "org.apache.commons.io.DirectoryWalker/method/handleIsCancelled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 434,
+        "startColumn" : 23,
+        "endLine" : 434,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 435,
+          "startColumn" : 18,
+          "endLine" : 435,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleIsCancelled"
+      }, {
+        "name" : "depth",
+        "key" : "depth",
+        "type" : "int",
+        "position" : {
+          "startLine" : 435,
+          "startColumn" : 28,
+          "endLine" : 435,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleIsCancelled"
+      }, {
+        "name" : "results",
+        "key" : "results",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 435,
+          "startColumn" : 46,
+          "endLine" : 435,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleIsCancelled"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker"
+    },
+    "handleCancelled" : {
+      "name" : "handleCancelled",
+      "key" : "org.apache.commons.io.DirectoryWalker/method/handleCancelled",
+      "type" : "void",
+      "position" : {
+        "startLine" : 453,
+        "startColumn" : 20,
+        "endLine" : 453,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "startDirectory",
+        "key" : "startDirectory",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 453,
+          "startColumn" : 41,
+          "endLine" : 453,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleCancelled"
+      }, {
+        "name" : "results",
+        "key" : "results",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 453,
+          "startColumn" : 68,
+          "endLine" : 453,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleCancelled"
+      }, {
+        "name" : "cancel",
+        "key" : "cancel",
+        "type" : "org.apache.commons.io.DirectoryWalker.CancelException",
+        "position" : {
+          "startLine" : 454,
+          "startColumn" : 40,
+          "endLine" : 454,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleCancelled"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker"
+    },
+    "handleFile" : {
+      "name" : "handleFile",
+      "key" : "org.apache.commons.io.DirectoryWalker/method/handleFile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 517,
+        "startColumn" : 20,
+        "endLine" : 517,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 517,
+          "startColumn" : 36,
+          "endLine" : 517,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleFile"
+      }, {
+        "name" : "depth",
+        "key" : "depth",
+        "type" : "int",
+        "position" : {
+          "startLine" : 517,
+          "startColumn" : 46,
+          "endLine" : 517,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleFile"
+      }, {
+        "name" : "results",
+        "key" : "results",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 517,
+          "startColumn" : 64,
+          "endLine" : 517,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleFile"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker"
+    },
+    "handleRestricted" : {
+      "name" : "handleRestricted",
+      "key" : "org.apache.commons.io.DirectoryWalker/method/handleRestricted",
+      "type" : "void",
+      "position" : {
+        "startLine" : 531,
+        "startColumn" : 20,
+        "endLine" : 531,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "directory",
+        "key" : "directory",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 531,
+          "startColumn" : 42,
+          "endLine" : 531,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleRestricted"
+      }, {
+        "name" : "depth",
+        "key" : "depth",
+        "type" : "int",
+        "position" : {
+          "startLine" : 531,
+          "startColumn" : 57,
+          "endLine" : 531,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleRestricted"
+      }, {
+        "name" : "results",
+        "key" : "results",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 531,
+          "startColumn" : 75,
+          "endLine" : 531,
+          "endColumn" : 82
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleRestricted"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker"
+    },
+    "handleDirectoryStart" : {
+      "name" : "handleDirectoryStart",
+      "key" : "org.apache.commons.io.DirectoryWalker/method/handleDirectoryStart",
+      "type" : "void",
+      "position" : {
+        "startLine" : 503,
+        "startColumn" : 20,
+        "endLine" : 503,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "directory",
+        "key" : "directory",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 503,
+          "startColumn" : 46,
+          "endLine" : 503,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleDirectoryStart"
+      }, {
+        "name" : "depth",
+        "key" : "depth",
+        "type" : "int",
+        "position" : {
+          "startLine" : 503,
+          "startColumn" : 61,
+          "endLine" : 503,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleDirectoryStart"
+      }, {
+        "name" : "results",
+        "key" : "results",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 503,
+          "startColumn" : 79,
+          "endLine" : 503,
+          "endColumn" : 86
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/handleDirectoryStart"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker"
+    },
+    "walk" : {
+      "name" : "walk",
+      "key" : "org.apache.commons.io.DirectoryWalker/method/walk",
+      "type" : "void",
+      "position" : {
+        "startLine" : 350,
+        "startColumn" : 18,
+        "endLine" : 350,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "directory",
+        "key" : "directory",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 350,
+          "startColumn" : 28,
+          "endLine" : 350,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/walk"
+      }, {
+        "name" : "depth",
+        "key" : "depth",
+        "type" : "int",
+        "position" : {
+          "startLine" : 350,
+          "startColumn" : 43,
+          "endLine" : 350,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/walk"
+      }, {
+        "name" : "results",
+        "key" : "results",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 350,
+          "startColumn" : 61,
+          "endLine" : 350,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.DirectoryWalker/method/walk"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.apache.commons.io.DirectoryWalker.CancelException" : {
+      "name" : "CancelException",
+      "key" : "org.apache.commons.io.DirectoryWalker.CancelException",
+      "type" : "class",
+      "position" : {
+        "startLine" : 566,
+        "startColumn" : 19,
+        "endLine" : 566,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "serialVersionUID" : {
+          "name" : "serialVersionUID",
+          "key" : "serialVersionUID",
+          "type" : "long",
+          "position" : {
+            "startLine" : 569,
+            "startColumn" : 35,
+            "endLine" : 569,
+            "endColumn" : 51
+          },
+          "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.io.DirectoryWalker.CancelException/memberField/serialVersionUID",
+          "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker.CancelException"
+        },
+        "file" : {
+          "name" : "file",
+          "key" : "file",
+          "type" : "java.io.File",
+          "position" : {
+            "startLine" : 572,
+            "startColumn" : 22,
+            "endLine" : 572,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.io.DirectoryWalker.CancelException/memberField/file",
+          "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker.CancelException"
+        },
+        "depth" : {
+          "name" : "depth",
+          "key" : "depth",
+          "type" : "int",
+          "position" : {
+            "startLine" : 574,
+            "startColumn" : 21,
+            "endLine" : 574,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.io.DirectoryWalker.CancelException/memberField/depth",
+          "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker.CancelException"
+        }
+      },
+      "methods" : {
+        "getDepth" : {
+          "name" : "getDepth",
+          "key" : "org.apache.commons.io.DirectoryWalker.CancelException/method/getDepth",
+          "type" : "int",
+          "position" : {
+            "startLine" : 616,
+            "startColumn" : 20,
+            "endLine" : 616,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker.CancelException"
+        },
+        "getFile" : {
+          "name" : "getFile",
+          "key" : "org.apache.commons.io.DirectoryWalker.CancelException/method/getFile",
+          "type" : "java.io.File",
+          "position" : {
+            "startLine" : 607,
+            "startColumn" : 21,
+            "endLine" : 607,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.io.DirectoryWalker.CancelException"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "java.io.IOException" ],
+      "definedInClassOrInterfaceTypeKey" : "org.apache.commons.io.DirectoryWalker",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

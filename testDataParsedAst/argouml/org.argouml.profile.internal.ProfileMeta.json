@@ -1,0 +1,86 @@
+{
+  "name" : "ProfileMeta",
+  "key" : "org.argouml.profile.internal.ProfileMeta",
+  "type" : "class",
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "model" : {
+      "name" : "model",
+      "key" : "model",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 24,
+        "endLine" : 49,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.profile.internal.ProfileMeta/memberField/model",
+      "classOrInterfaceKey" : "org.argouml.profile.internal.ProfileMeta"
+    },
+    "PROFILE_FILE" : {
+      "name" : "PROFILE_FILE",
+      "key" : "PROFILE_FILE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 33,
+        "endLine" : 47,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.profile.internal.ProfileMeta/memberField/PROFILE_FILE",
+      "classOrInterfaceKey" : "org.argouml.profile.internal.ProfileMeta"
+    }
+  },
+  "methods" : {
+    "getProfilePackages" : {
+      "name" : "getProfilePackages",
+      "key" : "org.argouml.profile.internal.ProfileMeta/method/getProfilePackages",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 23,
+        "endLine" : 81,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.profile.internal.ProfileMeta"
+    },
+    "getDisplayName" : {
+      "name" : "getDisplayName",
+      "key" : "org.argouml.profile.internal.ProfileMeta/method/getDisplayName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 19,
+        "endLine" : 76,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.profile.internal.ProfileMeta"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.profile.Profile" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

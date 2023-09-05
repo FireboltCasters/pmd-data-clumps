@@ -1,0 +1,81 @@
+{
+  "name" : "StreamModelLoader",
+  "key" : "org.argouml.profile.StreamModelLoader",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 17,
+    "endLine" : 42,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 33,
+        "endLine" : 44,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.profile.StreamModelLoader/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.profile.StreamModelLoader"
+    }
+  },
+  "methods" : {
+    "loadModel" : {
+      "name" : "loadModel",
+      "key" : "org.argouml.profile.StreamModelLoader/method/loadModel",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 23,
+        "endLine" : 55,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "inputStream",
+        "key" : "inputStream",
+        "type" : "java.io.InputStream",
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 45,
+          "endLine" : 55,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.StreamModelLoader/method/loadModel"
+      }, {
+        "name" : "publicReference",
+        "key" : "publicReference",
+        "type" : "java.net.URL",
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 62,
+          "endLine" : 55,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.profile.StreamModelLoader/method/loadModel"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.profile.StreamModelLoader"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "ProfileModelLoader" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,1284 @@
+{
+  "name" : "UMLActivityDiagram",
+  "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram",
+  "type" : "class",
+  "position" : {
+    "startLine" : 78,
+    "startColumn" : 8,
+    "endLine" : 78,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "actionJoinPseudoState" : {
+      "name" : "actionJoinPseudoState",
+      "key" : "actionJoinPseudoState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 95,
+        "startColumn" : 20,
+        "endLine" : 95,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionJoinPseudoState",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionTerminateAction" : {
+      "name" : "actionTerminateAction",
+      "key" : "actionTerminateAction",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 20,
+        "endLine" : 111,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionTerminateAction",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionCallEvent" : {
+      "name" : "actionCallEvent",
+      "key" : "actionCallEvent",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 20,
+        "endLine" : 101,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionCallEvent",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionState" : {
+      "name" : "actionState",
+      "key" : "actionState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 20,
+        "endLine" : 90,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionState",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionCallAction" : {
+      "name" : "actionCallAction",
+      "key" : "actionCallAction",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 20,
+        "endLine" : 106,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionCallAction",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionSendAction" : {
+      "name" : "actionSendAction",
+      "key" : "actionSendAction",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 20,
+        "endLine" : 110,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionSendAction",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "theActivityGraph" : {
+      "name" : "theActivityGraph",
+      "key" : "theActivityGraph",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 20,
+        "endLine" : 88,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/theActivityGraph",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionSubactivityState" : {
+      "name" : "actionSubactivityState",
+      "key" : "actionSubactivityState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 20,
+        "endLine" : 100,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionSubactivityState",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionForkPseudoState" : {
+      "name" : "actionForkPseudoState",
+      "key" : "actionForkPseudoState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 20,
+        "endLine" : 94,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionForkPseudoState",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 31,
+        "endLine" : 83,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionSignalEvent" : {
+      "name" : "actionSignalEvent",
+      "key" : "actionSignalEvent",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 20,
+        "endLine" : 103,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionSignalEvent",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionObjectFlowState" : {
+      "name" : "actionObjectFlowState",
+      "key" : "actionObjectFlowState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 20,
+        "endLine" : 97,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionObjectFlowState",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionChangeEvent" : {
+      "name" : "actionChangeEvent",
+      "key" : "actionChangeEvent",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 20,
+        "endLine" : 102,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionChangeEvent",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionJunctionPseudoState" : {
+      "name" : "actionJunctionPseudoState",
+      "key" : "actionJunctionPseudoState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 20,
+        "endLine" : 93,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionJunctionPseudoState",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionGuard" : {
+      "name" : "actionGuard",
+      "key" : "actionGuard",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 20,
+        "endLine" : 105,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionGuard",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionCreateAction" : {
+      "name" : "actionCreateAction",
+      "key" : "actionCreateAction",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 20,
+        "endLine" : 107,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionCreateAction",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionTransition" : {
+      "name" : "actionTransition",
+      "key" : "actionTransition",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 20,
+        "endLine" : 96,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionTransition",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionReturnAction" : {
+      "name" : "actionReturnAction",
+      "key" : "actionReturnAction",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 20,
+        "endLine" : 109,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionReturnAction",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionDestroyAction" : {
+      "name" : "actionDestroyAction",
+      "key" : "actionDestroyAction",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 20,
+        "endLine" : 108,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionDestroyAction",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionStartPseudoState" : {
+      "name" : "actionStartPseudoState",
+      "key" : "actionStartPseudoState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 20,
+        "endLine" : 91,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionStartPseudoState",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionTimeEvent" : {
+      "name" : "actionTimeEvent",
+      "key" : "actionTimeEvent",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 20,
+        "endLine" : 104,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionTimeEvent",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionSwimlane" : {
+      "name" : "actionSwimlane",
+      "key" : "actionSwimlane",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 20,
+        "endLine" : 98,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionSwimlane",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionUninterpretedAction" : {
+      "name" : "actionUninterpretedAction",
+      "key" : "actionUninterpretedAction",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 20,
+        "endLine" : 112,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionUninterpretedAction",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionCallState" : {
+      "name" : "actionCallState",
+      "key" : "actionCallState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 20,
+        "endLine" : 99,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionCallState",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionActionSequence" : {
+      "name" : "actionActionSequence",
+      "key" : "actionActionSequence",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 113,
+        "startColumn" : 20,
+        "endLine" : 113,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionActionSequence",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "actionFinalPseudoState" : {
+      "name" : "actionFinalPseudoState",
+      "key" : "actionFinalPseudoState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 20,
+        "endLine" : 92,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/memberField/actionFinalPseudoState",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    }
+  },
+  "methods" : {
+    "getTriggerActions" : {
+      "name" : "getTriggerActions",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getTriggerActions",
+      "type" : "java.lang.Object[]",
+      "position" : {
+        "startLine" : 342,
+        "startColumn" : 24,
+        "endLine" : 342,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getRelocationCandidates" : {
+      "name" : "getRelocationCandidates",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getRelocationCandidates",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 644,
+        "startColumn" : 23,
+        "endLine" : 644,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "root",
+        "key" : "root",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 644,
+          "startColumn" : 54,
+          "endLine" : 644,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getRelocationCandidates"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionActionSequence" : {
+      "name" : "getActionActionSequence",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionActionSequence",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 616,
+        "startColumn" : 22,
+        "endLine" : 616,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionJunctionPseudoState" : {
+      "name" : "getActionJunctionPseudoState",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionJunctionPseudoState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 430,
+        "startColumn" : 22,
+        "endLine" : 430,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionDestroyAction" : {
+      "name" : "getActionDestroyAction",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionDestroyAction",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 579,
+        "startColumn" : 22,
+        "endLine" : 579,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionReturnAction" : {
+      "name" : "getActionReturnAction",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionReturnAction",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 586,
+        "startColumn" : 22,
+        "endLine" : 586,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getOwner" : {
+      "name" : "getOwner",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getOwner",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 269,
+        "startColumn" : 19,
+        "endLine" : 269,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "changePartition" : {
+      "name" : "changePartition",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/changePartition",
+      "type" : "void",
+      "position" : {
+        "startLine" : 724,
+        "startColumn" : 18,
+        "endLine" : 724,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "enclosed",
+        "key" : "enclosed",
+        "type" : "org.tigris.gef.presentation.FigNode",
+        "position" : {
+          "startLine" : 724,
+          "startColumn" : 42,
+          "endLine" : 724,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/changePartition"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionCreateAction" : {
+      "name" : "getActionCreateAction",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionCreateAction",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 572,
+        "startColumn" : 22,
+        "endLine" : 572,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionForkPseudoState" : {
+      "name" : "getActionForkPseudoState",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionForkPseudoState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 404,
+        "startColumn" : 22,
+        "endLine" : 404,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getUmlActions" : {
+      "name" : "getUmlActions",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getUmlActions",
+      "type" : "java.lang.Object[]",
+      "position" : {
+        "startLine" : 318,
+        "startColumn" : 24,
+        "endLine" : 318,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionStartPseudoState" : {
+      "name" : "getActionStartPseudoState",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionStartPseudoState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 466,
+        "startColumn" : 22,
+        "endLine" : 466,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionState" : {
+      "name" : "getActionState",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 479,
+        "startColumn" : 22,
+        "endLine" : 479,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getLabelName" : {
+      "name" : "getLabelName",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getLabelName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 371,
+        "startColumn" : 19,
+        "endLine" : 371,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 246,
+        "startColumn" : 17,
+        "endLine" : 246,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "evt",
+        "key" : "evt",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 246,
+          "startColumn" : 52,
+          "endLine" : 246,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getStateMachine" : {
+      "name" : "getStateMachine",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getStateMachine",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 288,
+        "startColumn" : 19,
+        "endLine" : 288,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionObjectFlowState" : {
+      "name" : "getActionObjectFlowState",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionObjectFlowState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 453,
+        "startColumn" : 22,
+        "endLine" : 453,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionSignalEvent" : {
+      "name" : "getActionSignalEvent",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionSignalEvent",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 541,
+        "startColumn" : 22,
+        "endLine" : 541,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionCallAction" : {
+      "name" : "getActionCallAction",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionCallAction",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 565,
+        "startColumn" : 22,
+        "endLine" : 565,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getEffectActions" : {
+      "name" : "getEffectActions",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getEffectActions",
+      "type" : "java.lang.Object[]",
+      "position" : {
+        "startLine" : 353,
+        "startColumn" : 24,
+        "endLine" : 353,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionChangeEvent" : {
+      "name" : "getActionChangeEvent",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionChangeEvent",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 531,
+        "startColumn" : 22,
+        "endLine" : 531,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "createGraphModel" : {
+      "name" : "createGraphModel",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/createGraphModel",
+      "type" : "org.argouml.uml.diagram.activity.ActivityDiagramGraphModel",
+      "position" : {
+        "startLine" : 235,
+        "startColumn" : 39,
+        "endLine" : 235,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionUninterpretedAction" : {
+      "name" : "getActionUninterpretedAction",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionUninterpretedAction",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 608,
+        "startColumn" : 22,
+        "endLine" : 608,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionJoinPseudoState" : {
+      "name" : "getActionJoinPseudoState",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionJoinPseudoState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 417,
+        "startColumn" : 22,
+        "endLine" : 417,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionTerminateAction" : {
+      "name" : "getActionTerminateAction",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionTerminateAction",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 600,
+        "startColumn" : 22,
+        "endLine" : 600,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionCallState" : {
+      "name" : "getActionCallState",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionCallState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 378,
+        "startColumn" : 22,
+        "endLine" : 378,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionSubactivityState" : {
+      "name" : "getActionSubactivityState",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionSubactivityState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 492,
+        "startColumn" : 22,
+        "endLine" : 492,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionTransition" : {
+      "name" : "getActionTransition",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionTransition",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 505,
+        "startColumn" : 22,
+        "endLine" : 505,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionTimeEvent" : {
+      "name" : "getActionTimeEvent",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionTimeEvent",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 551,
+        "startColumn" : 22,
+        "endLine" : 551,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionFinalPseudoState" : {
+      "name" : "getActionFinalPseudoState",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionFinalPseudoState",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 391,
+        "startColumn" : 22,
+        "endLine" : 391,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionGuard" : {
+      "name" : "getActionGuard",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionGuard",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 558,
+        "startColumn" : 22,
+        "endLine" : 558,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "relocate" : {
+      "name" : "relocate",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/relocate",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 655,
+        "startColumn" : 20,
+        "endLine" : 655,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "base",
+        "key" : "base",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 655,
+          "startColumn" : 36,
+          "endLine" : 655,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/relocate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "isStateInPartition" : {
+      "name" : "isStateInPartition",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/isStateInPartition",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 744,
+        "startColumn" : 21,
+        "endLine" : 744,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "state",
+        "key" : "state",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 744,
+          "startColumn" : 47,
+          "endLine" : 744,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/isStateInPartition"
+      }, {
+        "name" : "partition",
+        "key" : "partition",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 744,
+          "startColumn" : 61,
+          "endLine" : 744,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/isStateInPartition"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "setStateMachine" : {
+      "name" : "setStateMachine",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/setStateMachine",
+      "type" : "void",
+      "position" : {
+        "startLine" : 302,
+        "startColumn" : 17,
+        "endLine" : 302,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "sm",
+        "key" : "sm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 302,
+          "startColumn" : 40,
+          "endLine" : 302,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/setStateMachine"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionCallEvent" : {
+      "name" : "getActionCallEvent",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionCallEvent",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 521,
+        "startColumn" : 22,
+        "endLine" : 521,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "setup" : {
+      "name" : "setup",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/setup",
+      "type" : "void",
+      "position" : {
+        "startLine" : 202,
+        "startColumn" : 17,
+        "endLine" : 202,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "namespace",
+        "key" : "namespace",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 202,
+          "startColumn" : 30,
+          "endLine" : 202,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/setup"
+      }, {
+        "name" : "agraph",
+        "key" : "agraph",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 202,
+          "startColumn" : 48,
+          "endLine" : 202,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/setup"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "encloserChanged" : {
+      "name" : "encloserChanged",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/encloserChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 706,
+        "startColumn" : 17,
+        "endLine" : 706,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "enclosed",
+        "key" : "enclosed",
+        "type" : "org.tigris.gef.presentation.FigNode",
+        "position" : {
+          "startLine" : 707,
+          "startColumn" : 21,
+          "endLine" : 707,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/encloserChanged"
+      }, {
+        "name" : "oldEncloser",
+        "key" : "oldEncloser",
+        "type" : "org.tigris.gef.presentation.FigNode",
+        "position" : {
+          "startLine" : 707,
+          "startColumn" : 39,
+          "endLine" : 707,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/encloserChanged"
+      }, {
+        "name" : "newEncloser",
+        "key" : "newEncloser",
+        "type" : "org.tigris.gef.presentation.FigNode",
+        "position" : {
+          "startLine" : 707,
+          "startColumn" : 60,
+          "endLine" : 707,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/encloserChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "initialize" : {
+      "name" : "initialize",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/initialize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 162,
+        "startColumn" : 17,
+        "endLine" : 162,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 162,
+          "startColumn" : 35,
+          "endLine" : 162,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/initialize"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getDependentElement" : {
+      "name" : "getDependentElement",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getDependentElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 627,
+        "startColumn" : 19,
+        "endLine" : 627,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "isRelocationAllowed" : {
+      "name" : "isRelocationAllowed",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/isRelocationAllowed",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 634,
+        "startColumn" : 20,
+        "endLine" : 634,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "base",
+        "key" : "base",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 634,
+          "startColumn" : 47,
+          "endLine" : 634,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/isRelocationAllowed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "postLoad" : {
+      "name" : "postLoad",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/postLoad",
+      "type" : "void",
+      "position" : {
+        "startLine" : 664,
+        "startColumn" : 17,
+        "endLine" : 664,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionSendAction" : {
+      "name" : "getActionSendAction",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionSendAction",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 593,
+        "startColumn" : 22,
+        "endLine" : 593,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    },
+    "getActionSwimlane" : {
+      "name" : "getActionSwimlane",
+      "key" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram/method/getActionSwimlane",
+      "type" : "javax.swing.Action",
+      "position" : {
+        "startLine" : 443,
+        "startColumn" : 22,
+        "endLine" : 443,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.activity.ui.UMLActivityDiagram"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.diagram.ui.UMLDiagram" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

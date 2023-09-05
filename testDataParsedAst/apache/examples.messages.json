@@ -1,0 +1,94 @@
+{
+  "name" : "messages",
+  "key" : "examples.messages",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 14,
+    "endLine" : 33,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "main" : {
+      "name" : "main",
+      "key" : "examples.messages/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 30,
+        "endLine" : 57,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 57,
+          "startColumn" : 44,
+          "endLine" : 57,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.messages/method/main"
+      } ],
+      "classOrInterfaceKey" : "examples.messages"
+    },
+    "printMessageInfo" : {
+      "name" : "printMessageInfo",
+      "key" : "examples.messages/method/printMessageInfo",
+      "type" : "void",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 30,
+        "endLine" : 36,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "reader",
+        "key" : "reader",
+        "type" : "java.io.BufferedReader",
+        "position" : {
+          "startLine" : 36,
+          "startColumn" : 62,
+          "endLine" : 36,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.messages/method/printMessageInfo"
+      }, {
+        "name" : "id",
+        "key" : "id",
+        "type" : "int",
+        "position" : {
+          "startLine" : 36,
+          "startColumn" : 74,
+          "endLine" : 36,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.messages/method/printMessageInfo"
+      } ],
+      "classOrInterfaceKey" : "examples.messages"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

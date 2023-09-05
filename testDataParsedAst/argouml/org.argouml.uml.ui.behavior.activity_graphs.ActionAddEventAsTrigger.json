@@ -1,0 +1,116 @@
+{
+  "name" : "ActionAddEventAsTrigger",
+  "key" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddEventAsTrigger",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "SINGLETON" : {
+      "name" : "SINGLETON",
+      "key" : "SINGLETON",
+      "type" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddEventAsTrigger",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 49,
+        "endLine" : 47,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddEventAsTrigger/memberField/SINGLETON",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddEventAsTrigger"
+    }
+  },
+  "methods" : {
+    "getSelected" : {
+      "name" : "getSelected",
+      "key" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddEventAsTrigger/method/getSelected",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 20,
+        "endLine" : 75,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddEventAsTrigger"
+    },
+    "getChoices" : {
+      "name" : "getChoices",
+      "key" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddEventAsTrigger/method/getChoices",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 20,
+        "endLine" : 59,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddEventAsTrigger"
+    },
+    "doIt" : {
+      "name" : "doIt",
+      "key" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddEventAsTrigger/method/doIt",
+      "type" : "void",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 20,
+        "endLine" : 90,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "selected",
+        "key" : "selected",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 90,
+          "startColumn" : 36,
+          "endLine" : 90,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddEventAsTrigger/method/doIt"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddEventAsTrigger"
+    },
+    "getDialogTitle" : {
+      "name" : "getDialogTitle",
+      "key" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddEventAsTrigger/method/getDialogTitle",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 22,
+        "endLine" : 84,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.behavior.activity_graphs.ActionAddEventAsTrigger"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionAddModelElement2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

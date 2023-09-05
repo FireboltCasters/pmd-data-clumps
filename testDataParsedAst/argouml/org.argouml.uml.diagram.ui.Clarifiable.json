@@ -1,0 +1,52 @@
+{
+  "name" : "Clarifiable",
+  "key" : "org.argouml.uml.diagram.ui.Clarifiable",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "paintClarifiers" : {
+      "name" : "paintClarifiers",
+      "key" : "org.argouml.uml.diagram.ui.Clarifiable/method/paintClarifiers",
+      "type" : "void",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 10,
+        "endLine" : 38,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "g",
+        "key" : "g",
+        "type" : "java.awt.Graphics",
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 35,
+          "endLine" : 38,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.Clarifiable/method/paintClarifiers"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.Clarifiable"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

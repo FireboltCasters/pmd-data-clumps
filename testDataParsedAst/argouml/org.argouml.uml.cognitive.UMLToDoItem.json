@@ -1,0 +1,116 @@
+{
+  "name" : "UMLToDoItem",
+  "key" : "org.argouml.uml.cognitive.UMLToDoItem",
+  "type" : "class",
+  "position" : {
+    "startLine" : 60,
+    "startColumn" : 8,
+    "endLine" : 60,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "select" : {
+      "name" : "select",
+      "key" : "org.argouml.uml.cognitive.UMLToDoItem/method/select",
+      "type" : "void",
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 17,
+        "endLine" : 160,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.UMLToDoItem"
+    },
+    "deselect" : {
+      "name" : "deselect",
+      "key" : "org.argouml.uml.cognitive.UMLToDoItem/method/deselect",
+      "type" : "void",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 17,
+        "endLine" : 139,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.UMLToDoItem"
+    },
+    "getOffenders" : {
+      "name" : "getOffenders",
+      "key" : "org.argouml.uml.cognitive.UMLToDoItem/method/getOffenders",
+      "type" : "org.argouml.cognitive.ListSet",
+      "position" : {
+        "startLine" : 178,
+        "startColumn" : 20,
+        "endLine" : 178,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.UMLToDoItem"
+    },
+    "action" : {
+      "name" : "action",
+      "key" : "org.argouml.uml.cognitive.UMLToDoItem/method/action",
+      "type" : "void",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 17,
+        "endLine" : 128,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.UMLToDoItem"
+    },
+    "checkArgument" : {
+      "name" : "checkArgument",
+      "key" : "org.argouml.uml.cognitive.UMLToDoItem/method/checkArgument",
+      "type" : "void",
+      "position" : {
+        "startLine" : 191,
+        "startColumn" : 20,
+        "endLine" : 191,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dm",
+        "key" : "dm",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 191,
+          "startColumn" : 41,
+          "endLine" : 191,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.UMLToDoItem/method/checkArgument"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.UMLToDoItem"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.cognitive.ToDoItem" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

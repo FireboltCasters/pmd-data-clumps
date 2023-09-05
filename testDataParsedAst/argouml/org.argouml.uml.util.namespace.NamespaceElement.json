@@ -1,0 +1,39 @@
+{
+  "name" : "NamespaceElement",
+  "key" : "org.argouml.uml.util.namespace.NamespaceElement",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "getNamespaceElement" : {
+      "name" : "getNamespaceElement",
+      "key" : "org.argouml.uml.util.namespace.NamespaceElement/method/getNamespaceElement",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 12,
+        "endLine" : 39,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.util.namespace.NamespaceElement"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

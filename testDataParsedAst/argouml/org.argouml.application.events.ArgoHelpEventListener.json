@@ -1,0 +1,81 @@
+{
+  "name" : "ArgoHelpEventListener",
+  "key" : "org.argouml.application.events.ArgoHelpEventListener",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "helpChanged" : {
+      "name" : "helpChanged",
+      "key" : "org.argouml.application.events.ArgoHelpEventListener/method/helpChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 17,
+        "endLine" : 43,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "ArgoHelpEvent",
+        "position" : {
+          "startLine" : 43,
+          "startColumn" : 43,
+          "endLine" : 43,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoHelpEventListener/method/helpChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoHelpEventListener"
+    },
+    "helpRemoved" : {
+      "name" : "helpRemoved",
+      "key" : "org.argouml.application.events.ArgoHelpEventListener/method/helpRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 17,
+        "endLine" : 50,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "ArgoHelpEvent",
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 43,
+          "endLine" : 50,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.application.events.ArgoHelpEventListener/method/helpRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.application.events.ArgoHelpEventListener"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.application.api.ArgoEventListener" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,432 @@
+{
+  "name" : "TabSrc",
+  "key" : "org.argouml.uml.ui.TabSrc",
+  "type" : "class",
+  "position" : {
+    "startLine" : 51,
+    "startColumn" : 8,
+    "endLine" : 51,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 31,
+        "endLine" : 55,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabSrc/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    },
+    "fileName" : {
+      "name" : "fileName",
+      "key" : "fileName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 20,
+        "endLine" : 60,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabSrc/memberField/fileName",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    },
+    "predicates" : {
+      "name" : "predicates",
+      "key" : "predicates",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 36,
+        "endLine" : 69,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabSrc/memberField/predicates",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 33,
+        "endLine" : 57,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabSrc/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    },
+    "cbLang" : {
+      "name" : "cbLang",
+      "key" : "cbLang",
+      "type" : "org.argouml.language.ui.LanguageComboBox",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 30,
+        "endLine" : 63,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabSrc/memberField/cbLang",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    },
+    "cbFiles" : {
+      "name" : "cbFiles",
+      "key" : "cbFiles",
+      "type" : "javax.swing.JComboBox",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 23,
+        "endLine" : 64,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabSrc/memberField/cbFiles",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    },
+    "langName" : {
+      "name" : "langName",
+      "key" : "langName",
+      "type" : "org.argouml.uml.generator.Language",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 22,
+        "endLine" : 59,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabSrc/memberField/langName",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    },
+    "files" : {
+      "name" : "files",
+      "key" : "files",
+      "type" : "org.argouml.uml.generator.SourceUnit[]",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 26,
+        "endLine" : 61,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.TabSrc/memberField/files",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    }
+  },
+  "methods" : {
+    "shouldBeEnabled" : {
+      "name" : "shouldBeEnabled",
+      "key" : "org.argouml.uml.ui.TabSrc/method/shouldBeEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 168,
+        "startColumn" : 20,
+        "endLine" : 168,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "target",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 168,
+          "startColumn" : 43,
+          "endLine" : 168,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabSrc/method/shouldBeEnabled"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    },
+    "generateSource" : {
+      "name" : "generateSource",
+      "key" : "org.argouml.uml.ui.TabSrc/method/generateSource",
+      "type" : "void",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 18,
+        "endLine" : 106,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "elem",
+        "key" : "elem",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 106,
+          "startColumn" : 40,
+          "endLine" : 106,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabSrc/method/generateSource"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    },
+    "itemStateChanged" : {
+      "name" : "itemStateChanged",
+      "key" : "org.argouml.uml.ui.TabSrc/method/itemStateChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 184,
+        "startColumn" : 17,
+        "endLine" : 184,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "java.awt.event.ItemEvent",
+        "position" : {
+          "startLine" : 184,
+          "startColumn" : 44,
+          "endLine" : 184,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabSrc/method/itemStateChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    },
+    "addPredicate" : {
+      "name" : "addPredicate",
+      "key" : "org.argouml.uml.ui.TabSrc/method/addPredicate",
+      "type" : "void",
+      "position" : {
+        "startLine" : 219,
+        "startColumn" : 24,
+        "endLine" : 219,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "predicate",
+        "key" : "predicate",
+        "type" : "org.argouml.application.api.Predicate",
+        "position" : {
+          "startLine" : 219,
+          "startColumn" : 47,
+          "endLine" : 219,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabSrc/method/addPredicate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    },
+    "setTarget" : {
+      "name" : "setTarget",
+      "key" : "org.argouml.uml.ui.TabSrc/method/setTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 17,
+        "endLine" : 153,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 153,
+          "startColumn" : 34,
+          "endLine" : 153,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabSrc/method/setTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    },
+    "refresh" : {
+      "name" : "refresh",
+      "key" : "org.argouml.uml.ui.TabSrc/method/refresh",
+      "type" : "void",
+      "position" : {
+        "startLine" : 205,
+        "startColumn" : 17,
+        "endLine" : 205,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    },
+    "finalize" : {
+      "name" : "finalize",
+      "key" : "org.argouml.uml.ui.TabSrc/method/finalize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 20,
+        "endLine" : 98,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    },
+    "genText" : {
+      "name" : "genText",
+      "key" : "org.argouml.uml.ui.TabSrc/method/genText",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 127,
+        "startColumn" : 22,
+        "endLine" : 127,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelObject",
+        "key" : "modelObject",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 127,
+          "startColumn" : 37,
+          "endLine" : 127,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabSrc/method/genText"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    },
+    "parseText" : {
+      "name" : "parseText",
+      "key" : "org.argouml.uml.ui.TabSrc/method/parseText",
+      "type" : "void",
+      "position" : {
+        "startLine" : 137,
+        "startColumn" : 20,
+        "endLine" : 137,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 137,
+          "startColumn" : 37,
+          "endLine" : 137,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.TabSrc/method/parseText"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.event.ItemListener" ],
+  "extends_" : [ "org.argouml.ui.TabText" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.ui.TabSrc.DefaultPredicate" : {
+      "name" : "DefaultPredicate",
+      "key" : "org.argouml.uml.ui.TabSrc.DefaultPredicate",
+      "type" : "class",
+      "position" : {
+        "startLine" : 223,
+        "startColumn" : 5,
+        "endLine" : 223,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : { },
+      "methods" : {
+        "evaluate" : {
+          "name" : "evaluate",
+          "key" : "org.argouml.uml.ui.TabSrc.DefaultPredicate/method/evaluate",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 224,
+            "startColumn" : 24,
+            "endLine" : 224,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "object",
+            "key" : "object",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 224,
+              "startColumn" : 40,
+              "endLine" : 224,
+              "endColumn" : 46
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.TabSrc.DefaultPredicate/method/evaluate"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.TabSrc.DefaultPredicate"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "org.argouml.application.api.Predicate" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.TabSrc",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

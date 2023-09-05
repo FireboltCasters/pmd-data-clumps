@@ -1,0 +1,309 @@
+{
+  "name" : "LayoutHelper",
+  "key" : "org.argouml.uml.diagram.layout.LayoutHelper",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "NORTHEAST" : {
+      "name" : "NORTHEAST",
+      "key" : "NORTHEAST",
+      "type" : "int",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 29,
+        "endLine" : 47,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.layout.LayoutHelper/memberField/NORTHEAST",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.layout.LayoutHelper"
+    },
+    "NORTH" : {
+      "name" : "NORTH",
+      "key" : "NORTH",
+      "type" : "int",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 29,
+        "endLine" : 42,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.layout.LayoutHelper/memberField/NORTH",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.layout.LayoutHelper"
+    },
+    "SOUTHEAST" : {
+      "name" : "SOUTHEAST",
+      "key" : "SOUTHEAST",
+      "type" : "int",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 29,
+        "endLine" : 57,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.layout.LayoutHelper/memberField/SOUTHEAST",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.layout.LayoutHelper"
+    },
+    "WEST" : {
+      "name" : "WEST",
+      "key" : "WEST",
+      "type" : "int",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 29,
+        "endLine" : 72,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.layout.LayoutHelper/memberField/WEST",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.layout.LayoutHelper"
+    },
+    "SOUTHWEST" : {
+      "name" : "SOUTHWEST",
+      "key" : "SOUTHWEST",
+      "type" : "int",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 29,
+        "endLine" : 67,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.layout.LayoutHelper/memberField/SOUTHWEST",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.layout.LayoutHelper"
+    },
+    "SOUTH" : {
+      "name" : "SOUTH",
+      "key" : "SOUTH",
+      "type" : "int",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 29,
+        "endLine" : 62,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.layout.LayoutHelper/memberField/SOUTH",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.layout.LayoutHelper"
+    },
+    "EAST" : {
+      "name" : "EAST",
+      "key" : "EAST",
+      "type" : "int",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 29,
+        "endLine" : 52,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.layout.LayoutHelper/memberField/EAST",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.layout.LayoutHelper"
+    },
+    "NORTHWEST" : {
+      "name" : "NORTHWEST",
+      "key" : "NORTHWEST",
+      "type" : "int",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 29,
+        "endLine" : 77,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.layout.LayoutHelper/memberField/NORTHWEST",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.layout.LayoutHelper"
+    }
+  },
+  "methods" : {
+    "getRoutingPolygonStraightLine" : {
+      "name" : "getRoutingPolygonStraightLine",
+      "key" : "org.argouml.uml.diagram.layout.LayoutHelper/method/getRoutingPolygonStraightLine",
+      "type" : "java.awt.Polygon",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 27,
+        "endLine" : 139,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "start",
+        "key" : "start",
+        "type" : "java.awt.Point",
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 63,
+          "endLine" : 139,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.layout.LayoutHelper/method/getRoutingPolygonStraightLine"
+      }, {
+        "name" : "end",
+        "key" : "end",
+        "type" : "java.awt.Point",
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 76,
+          "endLine" : 139,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.layout.LayoutHelper/method/getRoutingPolygonStraightLine"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.layout.LayoutHelper"
+    },
+    "getRoutingPolygonStraightLineWithOffset" : {
+      "name" : "getRoutingPolygonStraightLineWithOffset",
+      "key" : "org.argouml.uml.diagram.layout.LayoutHelper/method/getRoutingPolygonStraightLineWithOffset",
+      "type" : "java.awt.Polygon",
+      "position" : {
+        "startLine" : 152,
+        "startColumn" : 27,
+        "endLine" : 152,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "start",
+        "key" : "start",
+        "type" : "java.awt.Point",
+        "position" : {
+          "startLine" : 152,
+          "startColumn" : 73,
+          "endLine" : 152,
+          "endColumn" : 78
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.layout.LayoutHelper/method/getRoutingPolygonStraightLineWithOffset"
+      }, {
+        "name" : "end",
+        "key" : "end",
+        "type" : "java.awt.Point",
+        "position" : {
+          "startLine" : 153,
+          "startColumn" : 55,
+          "endLine" : 153,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.layout.LayoutHelper/method/getRoutingPolygonStraightLineWithOffset"
+      }, {
+        "name" : "offset",
+        "key" : "offset",
+        "type" : "int",
+        "position" : {
+          "startLine" : 153,
+          "startColumn" : 64,
+          "endLine" : 153,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.layout.LayoutHelper/method/getRoutingPolygonStraightLineWithOffset"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.layout.LayoutHelper"
+    },
+    "getPointOnPerimeter" : {
+      "name" : "getPointOnPerimeter",
+      "key" : "org.argouml.uml.diagram.layout.LayoutHelper/method/getPointOnPerimeter",
+      "type" : "java.awt.Point",
+      "position" : {
+        "startLine" : 95,
+        "startColumn" : 25,
+        "endLine" : 95,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rect",
+        "key" : "rect",
+        "type" : "java.awt.Rectangle",
+        "position" : {
+          "startLine" : 95,
+          "startColumn" : 55,
+          "endLine" : 95,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.layout.LayoutHelper/method/getPointOnPerimeter"
+      }, {
+        "name" : "direction",
+        "key" : "direction",
+        "type" : "int",
+        "position" : {
+          "startLine" : 95,
+          "startColumn" : 65,
+          "endLine" : 95,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.layout.LayoutHelper/method/getPointOnPerimeter"
+      }, {
+        "name" : "xOff",
+        "key" : "xOff",
+        "type" : "double",
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 17,
+          "endLine" : 96,
+          "endColumn" : 21
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.layout.LayoutHelper/method/getPointOnPerimeter"
+      }, {
+        "name" : "yOff",
+        "key" : "yOff",
+        "type" : "double",
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 30,
+          "endLine" : 96,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.layout.LayoutHelper/method/getPointOnPerimeter"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.layout.LayoutHelper"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,39 @@
+{
+  "name" : "DetailsTabProvider",
+  "key" : "org.argouml.moduleloader.DetailsTabProvider",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "getDetailsTabs" : {
+      "name" : "getDetailsTabs",
+      "key" : "org.argouml.moduleloader.DetailsTabProvider/method/getDetailsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 37,
+        "endLine" : 42,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.moduleloader.DetailsTabProvider"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

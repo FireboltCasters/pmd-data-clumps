@@ -1,0 +1,212 @@
+{
+  "name" : "FigCompartmentBox",
+  "key" : "org.argouml.uml.diagram.ui.FigCompartmentBox",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 17,
+    "endLine" : 47,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "highlightedFigText" : {
+      "name" : "highlightedFigText",
+      "key" : "highlightedFigText",
+      "type" : "CompartmentFigText",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 39,
+        "endLine" : 52,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigCompartmentBox/memberField/highlightedFigText",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigCompartmentBox"
+    },
+    "borderFig" : {
+      "name" : "borderFig",
+      "key" : "borderFig",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 17,
+        "endLine" : 54,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.FigCompartmentBox/memberField/borderFig",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigCompartmentBox"
+    }
+  },
+  "methods" : {
+    "unhighlight" : {
+      "name" : "unhighlight",
+      "key" : "org.argouml.uml.diagram.ui.FigCompartmentBox/method/unhighlight",
+      "type" : "CompartmentFigText",
+      "position" : {
+        "startLine" : 166,
+        "startColumn" : 40,
+        "endLine" : 166,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PROTECTED", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fc",
+        "key" : "fc",
+        "type" : "FigEditableCompartment",
+        "position" : {
+          "startLine" : 166,
+          "startColumn" : 75,
+          "endLine" : 166,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigCompartmentBox/method/unhighlight"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigCompartmentBox"
+    },
+    "getBorderFig" : {
+      "name" : "getBorderFig",
+      "key" : "org.argouml.uml.diagram.ui.FigCompartmentBox/method/getBorderFig",
+      "type" : "org.tigris.gef.presentation.Fig",
+      "position" : {
+        "startLine" : 210,
+        "startColumn" : 19,
+        "endLine" : 210,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigCompartmentBox"
+    },
+    "mouseClicked" : {
+      "name" : "mouseClicked",
+      "key" : "org.argouml.uml.diagram.ui.FigCompartmentBox/method/mouseClicked",
+      "type" : "void",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 17,
+        "endLine" : 94,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "mouseEvent",
+        "key" : "mouseEvent",
+        "type" : "java.awt.event.MouseEvent",
+        "position" : {
+          "startLine" : 94,
+          "startColumn" : 41,
+          "endLine" : 94,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigCompartmentBox/method/mouseClicked"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigCompartmentBox"
+    },
+    "createContainedModelElement" : {
+      "name" : "createContainedModelElement",
+      "key" : "org.argouml.uml.diagram.ui.FigCompartmentBox/method/createContainedModelElement",
+      "type" : "void",
+      "position" : {
+        "startLine" : 185,
+        "startColumn" : 20,
+        "endLine" : 185,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fg",
+        "key" : "fg",
+        "type" : "org.tigris.gef.presentation.FigGroup",
+        "position" : {
+          "startLine" : 185,
+          "startColumn" : 57,
+          "endLine" : 185,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigCompartmentBox/method/createContainedModelElement"
+      }, {
+        "name" : "ie",
+        "key" : "ie",
+        "type" : "java.awt.event.InputEvent",
+        "position" : {
+          "startLine" : 185,
+          "startColumn" : 72,
+          "endLine" : 185,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigCompartmentBox/method/createContainedModelElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigCompartmentBox"
+    },
+    "translate" : {
+      "name" : "translate",
+      "key" : "org.argouml.uml.diagram.ui.FigCompartmentBox/method/translate",
+      "type" : "void",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 17,
+        "endLine" : 82,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dx",
+        "key" : "dx",
+        "type" : "int",
+        "position" : {
+          "startLine" : 82,
+          "startColumn" : 31,
+          "endLine" : 82,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigCompartmentBox/method/translate"
+      }, {
+        "name" : "dy",
+        "key" : "dy",
+        "type" : "int",
+        "position" : {
+          "startLine" : 82,
+          "startColumn" : 39,
+          "endLine" : 82,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.FigCompartmentBox/method/translate"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.FigCompartmentBox"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "FigNodeModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

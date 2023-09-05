@@ -1,0 +1,667 @@
+{
+  "name" : "NotationProviderFactory2",
+  "key" : "org.argouml.notation.NotationProviderFactory2",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 14,
+    "endLine" : 44,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "allLanguages" : {
+      "name" : "allLanguages",
+      "key" : "allLanguages",
+      "type" : "java.util.Map",
+      "position" : {
+        "startLine" : 167,
+        "startColumn" : 52,
+        "endLine" : 167,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/allLanguages",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "instance" : {
+      "name" : "instance",
+      "key" : "instance",
+      "type" : "org.argouml.notation.NotationProviderFactory2",
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 45,
+        "endLine" : 172,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/instance",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_STATEBODY" : {
+      "name" : "TYPE_STATEBODY",
+      "key" : "TYPE_STATEBODY",
+      "type" : "int",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 29,
+        "endLine" : 64,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_STATEBODY",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_TRANSITION" : {
+      "name" : "TYPE_TRANSITION",
+      "key" : "TYPE_TRANSITION",
+      "type" : "int",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 29,
+        "endLine" : 59,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_TRANSITION",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_OBJECT" : {
+      "name" : "TYPE_OBJECT",
+      "key" : "TYPE_OBJECT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 29,
+        "endLine" : 84,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_OBJECT",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_COMPONENTINSTANCE" : {
+      "name" : "TYPE_COMPONENTINSTANCE",
+      "key" : "TYPE_COMPONENTINSTANCE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 29,
+        "endLine" : 89,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_COMPONENTINSTANCE",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_ASSOCIATION_NAME" : {
+      "name" : "TYPE_ASSOCIATION_NAME",
+      "key" : "TYPE_ASSOCIATION_NAME",
+      "type" : "int",
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 29,
+        "endLine" : 145,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_ASSOCIATION_NAME",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "defaultLanguage" : {
+      "name" : "defaultLanguage",
+      "key" : "defaultLanguage",
+      "type" : "NotationName",
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 26,
+        "endLine" : 160,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/defaultLanguage",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "currentLanguage" : {
+      "name" : "currentLanguage",
+      "key" : "currentLanguage",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 27,
+        "endLine" : 49,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/currentLanguage",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_MESSAGE" : {
+      "name" : "TYPE_MESSAGE",
+      "key" : "TYPE_MESSAGE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 29,
+        "endLine" : 124,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_MESSAGE",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_CALLSTATE" : {
+      "name" : "TYPE_CALLSTATE",
+      "key" : "TYPE_CALLSTATE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 29,
+        "endLine" : 112,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_CALLSTATE",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_ASSOCIATION_END_NAME" : {
+      "name" : "TYPE_ASSOCIATION_END_NAME",
+      "key" : "TYPE_ASSOCIATION_END_NAME",
+      "type" : "int",
+      "position" : {
+        "startLine" : 135,
+        "startColumn" : 29,
+        "endLine" : 135,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_ASSOCIATION_END_NAME",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_ENUMERATION_LITERAL" : {
+      "name" : "TYPE_ENUMERATION_LITERAL",
+      "key" : "TYPE_ENUMERATION_LITERAL",
+      "type" : "int",
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 29,
+        "endLine" : 155,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_ENUMERATION_LITERAL",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_OBJECTFLOWSTATE_STATE" : {
+      "name" : "TYPE_OBJECTFLOWSTATE_STATE",
+      "key" : "TYPE_OBJECTFLOWSTATE_STATE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 29,
+        "endLine" : 106,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_OBJECTFLOWSTATE_STATE",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_MULTIPLICITY" : {
+      "name" : "TYPE_MULTIPLICITY",
+      "key" : "TYPE_MULTIPLICITY",
+      "type" : "int",
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 29,
+        "endLine" : 150,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_MULTIPLICITY",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 33,
+        "endLine" : 46,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_CLASSIFIERROLE" : {
+      "name" : "TYPE_CLASSIFIERROLE",
+      "key" : "TYPE_CLASSIFIERROLE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 29,
+        "endLine" : 118,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_CLASSIFIERROLE",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_ASSOCIATION_ROLE" : {
+      "name" : "TYPE_ASSOCIATION_ROLE",
+      "key" : "TYPE_ASSOCIATION_ROLE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 140,
+        "startColumn" : 29,
+        "endLine" : 140,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_ASSOCIATION_ROLE",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_ATTRIBUTE" : {
+      "name" : "TYPE_ATTRIBUTE",
+      "key" : "TYPE_ATTRIBUTE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 29,
+        "endLine" : 74,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_ATTRIBUTE",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_OPERATION" : {
+      "name" : "TYPE_OPERATION",
+      "key" : "TYPE_OPERATION",
+      "type" : "int",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 29,
+        "endLine" : 79,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_OPERATION",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_EXTENSION_POINT" : {
+      "name" : "TYPE_EXTENSION_POINT",
+      "key" : "TYPE_EXTENSION_POINT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 29,
+        "endLine" : 130,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_EXTENSION_POINT",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_ACTIONSTATE" : {
+      "name" : "TYPE_ACTIONSTATE",
+      "key" : "TYPE_ACTIONSTATE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 29,
+        "endLine" : 69,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_ACTIONSTATE",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_NODEINSTANCE" : {
+      "name" : "TYPE_NODEINSTANCE",
+      "key" : "TYPE_NODEINSTANCE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 29,
+        "endLine" : 94,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_NODEINSTANCE",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_OBJECTFLOWSTATE_TYPE" : {
+      "name" : "TYPE_OBJECTFLOWSTATE_TYPE",
+      "key" : "TYPE_OBJECTFLOWSTATE_TYPE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 29,
+        "endLine" : 100,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_OBJECTFLOWSTATE_TYPE",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "TYPE_NAME" : {
+      "name" : "TYPE_NAME",
+      "key" : "TYPE_NAME",
+      "type" : "int",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 29,
+        "endLine" : 54,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.NotationProviderFactory2/memberField/TYPE_NAME",
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    }
+  },
+  "methods" : {
+    "getNotationProvider" : {
+      "name" : "getNotationProvider",
+      "key" : "org.argouml.notation.NotationProviderFactory2/method/getNotationProvider",
+      "type" : "NotationProvider",
+      "position" : {
+        "startLine" : 289,
+        "startColumn" : 30,
+        "endLine" : 289,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "type",
+        "key" : "type",
+        "type" : "int",
+        "position" : {
+          "startLine" : 289,
+          "startColumn" : 54,
+          "endLine" : 289,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.NotationProviderFactory2/method/getNotationProvider"
+      }, {
+        "name" : "object",
+        "key" : "object",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 290,
+          "startColumn" : 20,
+          "endLine" : 290,
+          "endColumn" : 26
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.NotationProviderFactory2/method/getNotationProvider"
+      }, {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "java.beans.PropertyChangeListener",
+        "position" : {
+          "startLine" : 290,
+          "startColumn" : 51,
+          "endLine" : 290,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.NotationProviderFactory2/method/getNotationProvider"
+      }, {
+        "name" : "name",
+        "key" : "name",
+        "type" : "NotationName",
+        "position" : {
+          "startLine" : 291,
+          "startColumn" : 26,
+          "endLine" : 291,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.NotationProviderFactory2/method/getNotationProvider"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "setCurrentLanguage" : {
+      "name" : "setCurrentLanguage",
+      "key" : "org.argouml.notation.NotationProviderFactory2/method/setCurrentLanguage",
+      "type" : "void",
+      "position" : {
+        "startLine" : 373,
+        "startColumn" : 24,
+        "endLine" : 373,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theCurrentLanguage",
+        "key" : "theCurrentLanguage",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 373,
+          "startColumn" : 50,
+          "endLine" : 373,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.NotationProviderFactory2/method/setCurrentLanguage"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "setDefaultNotation" : {
+      "name" : "setDefaultNotation",
+      "key" : "org.argouml.notation.NotationProviderFactory2/method/setDefaultNotation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 345,
+        "startColumn" : 17,
+        "endLine" : 345,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "notationName",
+        "key" : "notationName",
+        "type" : "NotationName",
+        "position" : {
+          "startLine" : 345,
+          "startColumn" : 49,
+          "endLine" : 345,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.NotationProviderFactory2/method/setDefaultNotation"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.argouml.notation.NotationProviderFactory2/method/getInstance",
+      "type" : "org.argouml.notation.NotationProviderFactory2",
+      "position" : {
+        "startLine" : 185,
+        "startColumn" : 44,
+        "endLine" : 185,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "removeNotation" : {
+      "name" : "removeNotation",
+      "key" : "org.argouml.notation.NotationProviderFactory2/method/removeNotation",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 357,
+        "startColumn" : 20,
+        "endLine" : 357,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "notationName",
+        "key" : "notationName",
+        "type" : "NotationName",
+        "position" : {
+          "startLine" : 357,
+          "startColumn" : 48,
+          "endLine" : 357,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.NotationProviderFactory2/method/removeNotation"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "addNotationProvider" : {
+      "name" : "addNotationProvider",
+      "key" : "org.argouml.notation.NotationProviderFactory2/method/addNotationProvider",
+      "type" : "void",
+      "position" : {
+        "startLine" : 329,
+        "startColumn" : 17,
+        "endLine" : 329,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "type",
+        "key" : "type",
+        "type" : "int",
+        "position" : {
+          "startLine" : 329,
+          "startColumn" : 41,
+          "endLine" : 329,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.NotationProviderFactory2/method/addNotationProvider"
+      }, {
+        "name" : "notationName",
+        "key" : "notationName",
+        "type" : "NotationName",
+        "position" : {
+          "startLine" : 330,
+          "startColumn" : 26,
+          "endLine" : 330,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.NotationProviderFactory2/method/addNotationProvider"
+      }, {
+        "name" : "provider",
+        "key" : "provider",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 330,
+          "startColumn" : 46,
+          "endLine" : 330,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.NotationProviderFactory2/method/addNotationProvider"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    },
+    "getNotationProviderClass" : {
+      "name" : "getNotationProviderClass",
+      "key" : "org.argouml.notation.NotationProviderFactory2/method/getNotationProviderClass",
+      "type" : "java.lang.Class",
+      "position" : {
+        "startLine" : 310,
+        "startColumn" : 19,
+        "endLine" : 310,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "type",
+        "key" : "type",
+        "type" : "int",
+        "position" : {
+          "startLine" : 310,
+          "startColumn" : 48,
+          "endLine" : 310,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.NotationProviderFactory2/method/getNotationProviderClass"
+      }, {
+        "name" : "name",
+        "key" : "name",
+        "type" : "NotationName",
+        "position" : {
+          "startLine" : 310,
+          "startColumn" : 67,
+          "endLine" : 310,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.NotationProviderFactory2/method/getNotationProviderClass"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.NotationProviderFactory2"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,84 @@
+{
+  "name" : "StylePanelFigAssociationClass",
+  "key" : "org.argouml.uml.diagram.ui.StylePanelFigAssociationClass",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "setTargetBBox" : {
+      "name" : "setTargetBBox",
+      "key" : "org.argouml.uml.diagram.ui.StylePanelFigAssociationClass/method/setTargetBBox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 20,
+        "endLine" : 58,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.StylePanelFigAssociationClass"
+    },
+    "hasEditableBoundingBox" : {
+      "name" : "hasEditableBoundingBox",
+      "key" : "org.argouml.uml.diagram.ui.StylePanelFigAssociationClass/method/hasEditableBoundingBox",
+      "type" : "void",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 20,
+        "endLine" : 50,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "value",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 51,
+          "endLine" : 50,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.StylePanelFigAssociationClass/method/hasEditableBoundingBox"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.StylePanelFigAssociationClass"
+    },
+    "refresh" : {
+      "name" : "refresh",
+      "key" : "org.argouml.uml.diagram.ui.StylePanelFigAssociationClass/method/refresh",
+      "type" : "void",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 17,
+        "endLine" : 92,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.StylePanelFigAssociationClass"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.awt.event.ItemListener", "java.awt.event.FocusListener", "java.awt.event.KeyListener" ],
+  "extends_" : [ "org.argouml.uml.diagram.static_structure.ui.StylePanelFigClass" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

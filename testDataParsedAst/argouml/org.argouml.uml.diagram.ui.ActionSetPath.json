@@ -1,0 +1,114 @@
+{
+  "name" : "ActionSetPath",
+  "key" : "org.argouml.uml.diagram.ui.ActionSetPath",
+  "type" : "class",
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 1,
+    "endLine" : 50,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "SHOW_PATH" : {
+      "name" : "SHOW_PATH",
+      "key" : "SHOW_PATH",
+      "type" : "org.argouml.ui.UndoableAction",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 41,
+        "endLine" : 52,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionSetPath/memberField/SHOW_PATH",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionSetPath"
+    },
+    "HIDE_PATH" : {
+      "name" : "HIDE_PATH",
+      "key" : "HIDE_PATH",
+      "type" : "org.argouml.ui.UndoableAction",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 41,
+        "endLine" : 54,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionSetPath/memberField/HIDE_PATH",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionSetPath"
+    },
+    "isPathVisible" : {
+      "name" : "isPathVisible",
+      "key" : "isPathVisible",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 21,
+        "endLine" : 57,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.ActionSetPath/memberField/isPathVisible",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionSetPath"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.diagram.ui.ActionSetPath/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 126,
+        "startColumn" : 17,
+        "endLine" : 126,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 45,
+          "endLine" : 126,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.ActionSetPath/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionSetPath"
+    },
+    "getActions" : {
+      "name" : "getActions",
+      "key" : "org.argouml.uml.diagram.ui.ActionSetPath/method/getActions",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 46,
+        "endLine" : 83,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.ActionSetPath"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.ui.UndoableAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

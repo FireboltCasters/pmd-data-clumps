@@ -1,0 +1,257 @@
+{
+  "name" : "TargetEvent",
+  "key" : "org.argouml.ui.targetmanager.TargetEvent",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 173,
+        "startColumn" : 31,
+        "endLine" : 173,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.targetmanager.TargetEvent/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargetEvent"
+    },
+    "theOldTargets" : {
+      "name" : "theOldTargets",
+      "key" : "theOldTargets",
+      "type" : "java.lang.Object[]",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 22,
+        "endLine" : 64,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.targetmanager.TargetEvent/memberField/theOldTargets",
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargetEvent"
+    },
+    "TARGET_SET" : {
+      "name" : "TARGET_SET",
+      "key" : "TARGET_SET",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 32,
+        "endLine" : 44,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.targetmanager.TargetEvent/memberField/TARGET_SET",
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargetEvent"
+    },
+    "theNewTargets" : {
+      "name" : "theNewTargets",
+      "key" : "theNewTargets",
+      "type" : "java.lang.Object[]",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 22,
+        "endLine" : 69,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.targetmanager.TargetEvent/memberField/theNewTargets",
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargetEvent"
+    },
+    "TARGET_ADDED" : {
+      "name" : "TARGET_ADDED",
+      "key" : "TARGET_ADDED",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 32,
+        "endLine" : 49,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.targetmanager.TargetEvent/memberField/TARGET_ADDED",
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargetEvent"
+    },
+    "theEventName" : {
+      "name" : "theEventName",
+      "key" : "theEventName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 20,
+        "endLine" : 59,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.targetmanager.TargetEvent/memberField/theEventName",
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargetEvent"
+    },
+    "TARGET_REMOVED" : {
+      "name" : "TARGET_REMOVED",
+      "key" : "TARGET_REMOVED",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 32,
+        "endLine" : 54,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.targetmanager.TargetEvent/memberField/TARGET_REMOVED",
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargetEvent"
+    }
+  },
+  "methods" : {
+    "getAddedTargetCollection" : {
+      "name" : "getAddedTargetCollection",
+      "key" : "org.argouml.ui.targetmanager.TargetEvent/method/getAddedTargetCollection",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 23,
+        "endLine" : 150,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargetEvent"
+    },
+    "getName" : {
+      "name" : "getName",
+      "key" : "org.argouml.ui.targetmanager.TargetEvent/method/getName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 19,
+        "endLine" : 93,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargetEvent"
+    },
+    "getOldTargets" : {
+      "name" : "getOldTargets",
+      "key" : "org.argouml.ui.targetmanager.TargetEvent/method/getOldTargets",
+      "type" : "java.lang.Object[]",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 21,
+        "endLine" : 101,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargetEvent"
+    },
+    "getRemovedTargetCollection" : {
+      "name" : "getRemovedTargetCollection",
+      "key" : "org.argouml.ui.targetmanager.TargetEvent/method/getRemovedTargetCollection",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 126,
+        "startColumn" : 23,
+        "endLine" : 126,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargetEvent"
+    },
+    "getRemovedTargets" : {
+      "name" : "getRemovedTargets",
+      "key" : "org.argouml.ui.targetmanager.TargetEvent/method/getRemovedTargets",
+      "type" : "java.lang.Object[]",
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 21,
+        "endLine" : 142,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargetEvent"
+    },
+    "getNewTargets" : {
+      "name" : "getNewTargets",
+      "key" : "org.argouml.ui.targetmanager.TargetEvent/method/getNewTargets",
+      "type" : "java.lang.Object[]",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 21,
+        "endLine" : 109,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargetEvent"
+    },
+    "getAddedTargets" : {
+      "name" : "getAddedTargets",
+      "key" : "org.argouml.ui.targetmanager.TargetEvent/method/getAddedTargets",
+      "type" : "java.lang.Object[]",
+      "position" : {
+        "startLine" : 166,
+        "startColumn" : 21,
+        "endLine" : 166,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargetEvent"
+    },
+    "getNewTarget" : {
+      "name" : "getNewTarget",
+      "key" : "org.argouml.ui.targetmanager.TargetEvent/method/getNewTarget",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 117,
+        "startColumn" : 19,
+        "endLine" : 117,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.targetmanager.TargetEvent"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.util.EventObject" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,397 @@
+{
+  "name" : "JasonsHugeTheme",
+  "key" : "org.argouml.ui.JasonsHugeTheme",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "controlFont" : {
+      "name" : "controlFont",
+      "key" : "controlFont",
+      "type" : "javax.swing.plaf.FontUIResource",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 34,
+        "endLine" : 48,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.JasonsHugeTheme/memberField/controlFont",
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "primary2" : {
+      "name" : "primary2",
+      "key" : "primary2",
+      "type" : "javax.swing.plaf.ColorUIResource",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 35,
+        "endLine" : 38,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.JasonsHugeTheme/memberField/primary2",
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "secondary1" : {
+      "name" : "secondary1",
+      "key" : "secondary1",
+      "type" : "javax.swing.plaf.ColorUIResource",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 35,
+        "endLine" : 41,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.JasonsHugeTheme/memberField/secondary1",
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "windowTitleFont" : {
+      "name" : "windowTitleFont",
+      "key" : "windowTitleFont",
+      "type" : "javax.swing.plaf.FontUIResource",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 34,
+        "endLine" : 52,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.JasonsHugeTheme/memberField/windowTitleFont",
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "primary3" : {
+      "name" : "primary3",
+      "key" : "primary3",
+      "type" : "javax.swing.plaf.ColorUIResource",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 35,
+        "endLine" : 39,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.JasonsHugeTheme/memberField/primary3",
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "systemFont" : {
+      "name" : "systemFont",
+      "key" : "systemFont",
+      "type" : "javax.swing.plaf.FontUIResource",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 34,
+        "endLine" : 50,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.JasonsHugeTheme/memberField/systemFont",
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "secondary3" : {
+      "name" : "secondary3",
+      "key" : "secondary3",
+      "type" : "javax.swing.plaf.ColorUIResource",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 35,
+        "endLine" : 45,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.JasonsHugeTheme/memberField/secondary3",
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "secondary2" : {
+      "name" : "secondary2",
+      "key" : "secondary2",
+      "type" : "javax.swing.plaf.ColorUIResource",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 35,
+        "endLine" : 43,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.JasonsHugeTheme/memberField/secondary2",
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "primary1" : {
+      "name" : "primary1",
+      "key" : "primary1",
+      "type" : "javax.swing.plaf.ColorUIResource",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 35,
+        "endLine" : 37,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.JasonsHugeTheme/memberField/primary1",
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "userFont" : {
+      "name" : "userFont",
+      "key" : "userFont",
+      "type" : "javax.swing.plaf.FontUIResource",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 34,
+        "endLine" : 54,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.JasonsHugeTheme/memberField/userFont",
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "smallFont" : {
+      "name" : "smallFont",
+      "key" : "smallFont",
+      "type" : "javax.swing.plaf.FontUIResource",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 34,
+        "endLine" : 56,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.JasonsHugeTheme/memberField/smallFont",
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    }
+  },
+  "methods" : {
+    "getControlTextFont" : {
+      "name" : "getControlTextFont",
+      "key" : "org.argouml.ui.JasonsHugeTheme/method/getControlTextFont",
+      "type" : "javax.swing.plaf.FontUIResource",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 27,
+        "endLine" : 98,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "getName" : {
+      "name" : "getName",
+      "key" : "org.argouml.ui.JasonsHugeTheme/method/getName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 19,
+        "endLine" : 62,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "getUserTextFont" : {
+      "name" : "getUserTextFont",
+      "key" : "org.argouml.ui.JasonsHugeTheme/method/getUserTextFont",
+      "type" : "javax.swing.plaf.FontUIResource",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 27,
+        "endLine" : 108,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "getSubTextFont" : {
+      "name" : "getSubTextFont",
+      "key" : "org.argouml.ui.JasonsHugeTheme/method/getSubTextFont",
+      "type" : "javax.swing.plaf.FontUIResource",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 27,
+        "endLine" : 118,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "getWindowTitleFont" : {
+      "name" : "getWindowTitleFont",
+      "key" : "org.argouml.ui.JasonsHugeTheme/method/getWindowTitleFont",
+      "type" : "javax.swing.plaf.FontUIResource",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 27,
+        "endLine" : 123,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "getSystemTextFont" : {
+      "name" : "getSystemTextFont",
+      "key" : "org.argouml.ui.JasonsHugeTheme/method/getSystemTextFont",
+      "type" : "javax.swing.plaf.FontUIResource",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 27,
+        "endLine" : 103,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "getMenuTextFont" : {
+      "name" : "getMenuTextFont",
+      "key" : "org.argouml.ui.JasonsHugeTheme/method/getMenuTextFont",
+      "type" : "javax.swing.plaf.FontUIResource",
+      "position" : {
+        "startLine" : 113,
+        "startColumn" : 27,
+        "endLine" : 113,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "getPrimary2" : {
+      "name" : "getPrimary2",
+      "key" : "org.argouml.ui.JasonsHugeTheme/method/getPrimary2",
+      "type" : "javax.swing.plaf.ColorUIResource",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 31,
+        "endLine" : 73,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "getPrimary3" : {
+      "name" : "getPrimary3",
+      "key" : "org.argouml.ui.JasonsHugeTheme/method/getPrimary3",
+      "type" : "javax.swing.plaf.ColorUIResource",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 31,
+        "endLine" : 77,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "getSecondary1" : {
+      "name" : "getSecondary1",
+      "key" : "org.argouml.ui.JasonsHugeTheme/method/getSecondary1",
+      "type" : "javax.swing.plaf.ColorUIResource",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 31,
+        "endLine" : 83,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "getPrimary1" : {
+      "name" : "getPrimary1",
+      "key" : "org.argouml.ui.JasonsHugeTheme/method/getPrimary1",
+      "type" : "javax.swing.plaf.ColorUIResource",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 31,
+        "endLine" : 68,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "getSecondary2" : {
+      "name" : "getSecondary2",
+      "key" : "org.argouml.ui.JasonsHugeTheme/method/getSecondary2",
+      "type" : "javax.swing.plaf.ColorUIResource",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 31,
+        "endLine" : 88,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    },
+    "getSecondary3" : {
+      "name" : "getSecondary3",
+      "key" : "org.argouml.ui.JasonsHugeTheme/method/getSecondary3",
+      "type" : "javax.swing.plaf.ColorUIResource",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 31,
+        "endLine" : 93,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.ui.JasonsHugeTheme"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.plaf.metal.MetalTheme" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

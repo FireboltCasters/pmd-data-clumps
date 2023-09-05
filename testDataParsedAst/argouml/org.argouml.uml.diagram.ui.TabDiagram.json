@@ -1,0 +1,571 @@
+{
+  "name" : "TabDiagram",
+  "key" : "org.argouml.uml.diagram.ui.TabDiagram",
+  "type" : "class",
+  "position" : {
+    "startLine" : 82,
+    "startColumn" : 8,
+    "endLine" : 82,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "toolBar" : {
+      "name" : "toolBar",
+      "key" : "toolBar",
+      "type" : "javax.swing.JToolBar",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 22,
+        "endLine" : 111,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.TabDiagram/memberField/toolBar",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 409,
+        "startColumn" : 31,
+        "endLine" : 409,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.TabDiagram/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 33,
+        "endLine" : 90,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.TabDiagram/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "updatingSelection" : {
+      "name" : "updatingSelection",
+      "key" : "updatingSelection",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 21,
+        "endLine" : 105,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.TabDiagram/memberField/updatingSelection",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "graph" : {
+      "name" : "graph",
+      "key" : "graph",
+      "type" : "org.tigris.gef.graph.presentation.JGraph",
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 20,
+        "endLine" : 100,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.TabDiagram/memberField/graph",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "target" : {
+      "name" : "target",
+      "key" : "target",
+      "type" : "UMLDiagram",
+      "position" : {
+        "startLine" : 95,
+        "startColumn" : 24,
+        "endLine" : 95,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.ui.TabDiagram/memberField/target",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    }
+  },
+  "methods" : {
+    "setVisible" : {
+      "name" : "setVisible",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/setVisible",
+      "type" : "void",
+      "position" : {
+        "startLine" : 242,
+        "startColumn" : 17,
+        "endLine" : 242,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "b",
+        "key" : "b",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 242,
+          "startColumn" : 36,
+          "endLine" : 242,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.TabDiagram/method/setVisible"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "removeModeChangeListener" : {
+      "name" : "removeModeChangeListener",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/removeModeChangeListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 326,
+        "startColumn" : 17,
+        "endLine" : 326,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "org.tigris.gef.event.ModeChangeListener",
+        "position" : {
+          "startLine" : 326,
+          "startColumn" : 61,
+          "endLine" : 326,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.TabDiagram/method/removeModeChangeListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "select" : {
+      "name" : "select",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/select",
+      "type" : "void",
+      "position" : {
+        "startLine" : 378,
+        "startColumn" : 18,
+        "endLine" : 378,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "targets",
+        "key" : "targets",
+        "type" : "java.lang.Object[]",
+        "position" : {
+          "startLine" : 378,
+          "startColumn" : 34,
+          "endLine" : 378,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.TabDiagram/method/select"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "targetRemoved" : {
+      "name" : "targetRemoved",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/targetRemoved",
+      "type" : "void",
+      "position" : {
+        "startLine" : 362,
+        "startColumn" : 17,
+        "endLine" : 362,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 362,
+          "startColumn" : 43,
+          "endLine" : 362,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.TabDiagram/method/targetRemoved"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "refresh" : {
+      "name" : "refresh",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/refresh",
+      "type" : "void",
+      "position" : {
+        "startLine" : 218,
+        "startColumn" : 17,
+        "endLine" : 218,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "modeChange" : {
+      "name" : "modeChange",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/modeChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 313,
+        "startColumn" : 17,
+        "endLine" : 313,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "mce",
+        "key" : "mce",
+        "type" : "org.tigris.gef.event.ModeChangeEvent",
+        "position" : {
+          "startLine" : 313,
+          "startColumn" : 44,
+          "endLine" : 313,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.TabDiagram/method/modeChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "getJGraph" : {
+      "name" : "getJGraph",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/getJGraph",
+      "type" : "org.tigris.gef.graph.presentation.JGraph",
+      "position" : {
+        "startLine" : 235,
+        "startColumn" : 19,
+        "endLine" : 235,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "setToolBar" : {
+      "name" : "setToolBar",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/setToolBar",
+      "type" : "void",
+      "position" : {
+        "startLine" : 336,
+        "startColumn" : 17,
+        "endLine" : 336,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "toolbar",
+        "key" : "toolbar",
+        "type" : "javax.swing.JToolBar",
+        "position" : {
+          "startLine" : 336,
+          "startColumn" : 37,
+          "endLine" : 336,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.TabDiagram/method/setToolBar"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "shouldBeEnabled" : {
+      "name" : "shouldBeEnabled",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/shouldBeEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 225,
+        "startColumn" : 20,
+        "endLine" : 225,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newTarget",
+        "key" : "newTarget",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 225,
+          "startColumn" : 43,
+          "endLine" : 225,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.TabDiagram/method/shouldBeEnabled"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "getTarget" : {
+      "name" : "getTarget",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/getTarget",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 202,
+        "startColumn" : 19,
+        "endLine" : 202,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "targetSet" : {
+      "name" : "targetSet",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/targetSet",
+      "type" : "void",
+      "position" : {
+        "startLine" : 373,
+        "startColumn" : 17,
+        "endLine" : 373,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 373,
+          "startColumn" : 39,
+          "endLine" : 373,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.TabDiagram/method/targetSet"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "selectionChanged" : {
+      "name" : "selectionChanged",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/selectionChanged",
+      "type" : "void",
+      "position" : {
+        "startLine" : 256,
+        "startColumn" : 17,
+        "endLine" : 256,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "gse",
+        "key" : "gse",
+        "type" : "org.tigris.gef.event.GraphSelectionEvent",
+        "position" : {
+          "startLine" : 256,
+          "startColumn" : 54,
+          "endLine" : 256,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.TabDiagram/method/selectionChanged"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "clone" : {
+      "name" : "clone",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/clone",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 152,
+        "startColumn" : 19,
+        "endLine" : 152,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "setTarget" : {
+      "name" : "setTarget",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/setTarget",
+      "type" : "void",
+      "position" : {
+        "startLine" : 173,
+        "startColumn" : 17,
+        "endLine" : 173,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 173,
+          "startColumn" : 34,
+          "endLine" : 173,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.TabDiagram/method/setTarget"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "propertyChange" : {
+      "name" : "propertyChange",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/propertyChange",
+      "type" : "void",
+      "position" : {
+        "startLine" : 411,
+        "startColumn" : 17,
+        "endLine" : 411,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "arg0",
+        "key" : "arg0",
+        "type" : "java.beans.PropertyChangeEvent",
+        "position" : {
+          "startLine" : 411,
+          "startColumn" : 52,
+          "endLine" : 411,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.TabDiagram/method/propertyChange"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "getToolBar" : {
+      "name" : "getToolBar",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/getToolBar",
+      "type" : "javax.swing.JToolBar",
+      "position" : {
+        "startLine" : 211,
+        "startColumn" : 21,
+        "endLine" : 211,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "removeGraphSelectionListener" : {
+      "name" : "removeGraphSelectionListener",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/removeGraphSelectionListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 306,
+        "startColumn" : 17,
+        "endLine" : 306,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "org.tigris.gef.event.GraphSelectionListener",
+        "position" : {
+          "startLine" : 306,
+          "startColumn" : 69,
+          "endLine" : 306,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.TabDiagram/method/removeGraphSelectionListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    },
+    "targetAdded" : {
+      "name" : "targetAdded",
+      "key" : "org.argouml.uml.diagram.ui.TabDiagram/method/targetAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 353,
+        "startColumn" : 17,
+        "endLine" : 353,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "org.argouml.ui.targetmanager.TargetEvent",
+        "position" : {
+          "startLine" : 353,
+          "startColumn" : 41,
+          "endLine" : 353,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.ui.TabDiagram/method/targetAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.ui.TabDiagram"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.ui.TabModelTarget", "org.tigris.gef.event.GraphSelectionListener", "org.tigris.gef.event.ModeChangeListener", "java.beans.PropertyChangeListener" ],
+  "extends_" : [ "org.argouml.application.api.AbstractArgoJPanel" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,68 @@
+{
+  "name" : "ActionCreateContainedModelElement",
+  "key" : "org.argouml.ui.ActionCreateContainedModelElement",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "metaType" : {
+      "name" : "metaType",
+      "key" : "metaType",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 20,
+        "endLine" : 42,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.ActionCreateContainedModelElement/memberField/metaType",
+      "classOrInterfaceKey" : "org.argouml.ui.ActionCreateContainedModelElement"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.ui.ActionCreateContainedModelElement/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 17,
+        "endLine" : 62,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 45,
+          "endLine" : 62,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.ActionCreateContainedModelElement/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.ActionCreateContainedModelElement"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.AbstractActionNewModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

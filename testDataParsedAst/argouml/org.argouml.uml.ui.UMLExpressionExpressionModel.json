@@ -1,0 +1,84 @@
+{
+  "name" : "UMLExpressionExpressionModel",
+  "key" : "org.argouml.uml.ui.UMLExpressionExpressionModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getExpression" : {
+      "name" : "getExpression",
+      "key" : "org.argouml.uml.ui.UMLExpressionExpressionModel/method/getExpression",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 19,
+        "endLine" : 52,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLExpressionExpressionModel"
+    },
+    "newExpression" : {
+      "name" : "newExpression",
+      "key" : "org.argouml.uml.ui.UMLExpressionExpressionModel/method/newExpression",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 19,
+        "endLine" : 68,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLExpressionExpressionModel"
+    },
+    "setExpression" : {
+      "name" : "setExpression",
+      "key" : "org.argouml.uml.ui.UMLExpressionExpressionModel/method/setExpression",
+      "type" : "void",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 17,
+        "endLine" : 60,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expr",
+        "key" : "expr",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 38,
+          "endLine" : 60,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLExpressionExpressionModel/method/setExpression"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLExpressionExpressionModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "UMLExpressionModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

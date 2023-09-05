@@ -1,0 +1,112 @@
+{
+  "name" : "ShortcutField",
+  "key" : "org.argouml.ui.cmd.ShortcutField",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 31,
+        "endLine" : 48,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.ShortcutField/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ShortcutField"
+    },
+    "listenerList" : {
+      "name" : "listenerList",
+      "key" : "listenerList",
+      "type" : "javax.swing.event.EventListenerList",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 31,
+        "endLine" : 50,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.ui.cmd.ShortcutField/memberField/listenerList",
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ShortcutField"
+    }
+  },
+  "methods" : {
+    "addShortcutChangedListener" : {
+      "name" : "addShortcutChangedListener",
+      "key" : "org.argouml.ui.cmd.ShortcutField/method/addShortcutChangedListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 17,
+        "endLine" : 130,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "ShortcutChangedListener",
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 68,
+          "endLine" : 130,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.ShortcutField/method/addShortcutChangedListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ShortcutField"
+    },
+    "fireShortcutChangedEvent" : {
+      "name" : "fireShortcutChangedEvent",
+      "key" : "org.argouml.ui.cmd.ShortcutField/method/fireShortcutChangedEvent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 20,
+        "endLine" : 139,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "text",
+        "key" : "text",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 52,
+          "endLine" : 139,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.ui.cmd.ShortcutField/method/fireShortcutChangedEvent"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.ui.cmd.ShortcutField"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.JTextField" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

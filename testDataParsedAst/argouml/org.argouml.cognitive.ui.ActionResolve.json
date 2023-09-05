@@ -1,0 +1,52 @@
+{
+  "name" : "ActionResolve",
+  "key" : "org.argouml.cognitive.ui.ActionResolve",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.cognitive.ui.ActionResolve/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 17,
+        "endLine" : 46,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 46,
+          "startColumn" : 45,
+          "endLine" : 46,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.cognitive.ui.ActionResolve/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.cognitive.ui.ActionResolve"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ToDoItemAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

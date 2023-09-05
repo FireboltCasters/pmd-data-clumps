@@ -1,0 +1,296 @@
+{
+  "name" : "ActionSaveAllGraphics",
+  "key" : "org.argouml.uml.ui.ActionSaveAllGraphics",
+  "type" : "class",
+  "position" : {
+    "startLine" : 65,
+    "startColumn" : 8,
+    "endLine" : 65,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 33,
+        "endLine" : 66,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.ActionSaveAllGraphics/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveAllGraphics"
+    },
+    "overwrite" : {
+      "name" : "overwrite",
+      "key" : "overwrite",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 21,
+        "endLine" : 69,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.ActionSaveAllGraphics/memberField/overwrite",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveAllGraphics"
+    }
+  },
+  "methods" : {
+    "actionPerformed" : {
+      "name" : "actionPerformed",
+      "key" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/actionPerformed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 17,
+        "endLine" : 83,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ae",
+        "key" : "ae",
+        "type" : "java.awt.event.ActionEvent",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 46,
+          "endLine" : 83,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/actionPerformed"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveAllGraphics"
+    },
+    "trySave" : {
+      "name" : "trySave",
+      "key" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/trySave",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 20,
+        "endLine" : 103,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "canOverwrite",
+        "key" : "canOverwrite",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 103,
+          "startColumn" : 36,
+          "endLine" : 103,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/trySave"
+      }, {
+        "name" : "directory",
+        "key" : "directory",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 103,
+          "startColumn" : 55,
+          "endLine" : 103,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/trySave"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveAllGraphics"
+    },
+    "saveGraphicsToFile" : {
+      "name" : "saveGraphicsToFile",
+      "key" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/saveGraphicsToFile",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 200,
+        "startColumn" : 21,
+        "endLine" : 200,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "theFile",
+        "key" : "theFile",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 200,
+          "startColumn" : 45,
+          "endLine" : 200,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/saveGraphicsToFile"
+      }, {
+        "name" : "cmd",
+        "key" : "cmd",
+        "type" : "org.tigris.gef.base.SaveGraphicsAction",
+        "position" : {
+          "startLine" : 200,
+          "startColumn" : 73,
+          "endLine" : 200,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/saveGraphicsToFile"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveAllGraphics"
+    },
+    "getSaveDir" : {
+      "name" : "getSaveDir",
+      "key" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/getSaveDir",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 20,
+        "endLine" : 172,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "p",
+        "key" : "p",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 172,
+          "startColumn" : 39,
+          "endLine" : 172,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/getSaveDir"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveAllGraphics"
+    },
+    "showStatus" : {
+      "name" : "showStatus",
+      "key" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/showStatus",
+      "type" : "void",
+      "position" : {
+        "startLine" : 279,
+        "startColumn" : 18,
+        "endLine" : 279,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "text",
+        "key" : "text",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 279,
+          "startColumn" : 36,
+          "endLine" : 279,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/showStatus"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveAllGraphics"
+    },
+    "trySaveDiagram" : {
+      "name" : "trySaveDiagram",
+      "key" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/trySaveDiagram",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 23,
+        "endLine" : 130,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "target",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 45,
+          "endLine" : 130,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/trySaveDiagram"
+      }, {
+        "name" : "saveDir",
+        "key" : "saveDir",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 131,
+          "startColumn" : 18,
+          "endLine" : 131,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/trySaveDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveAllGraphics"
+    },
+    "getFileChooser" : {
+      "name" : "getFileChooser",
+      "key" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/getFileChooser",
+      "type" : "javax.swing.JFileChooser",
+      "position" : {
+        "startLine" : 257,
+        "startColumn" : 26,
+        "endLine" : 257,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "p",
+        "key" : "p",
+        "type" : "org.argouml.kernel.Project",
+        "position" : {
+          "startLine" : 257,
+          "startColumn" : 49,
+          "endLine" : 257,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionSaveAllGraphics/method/getFileChooser"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionSaveAllGraphics"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "javax.swing.AbstractAction" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

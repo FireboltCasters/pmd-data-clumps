@@ -1,0 +1,83 @@
+{
+  "name" : "SizeFileFilter",
+  "key" : "org.apache.commons.io.filefilter.SizeFileFilter",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "size" : {
+      "name" : "size",
+      "key" : "size",
+      "type" : "long",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 18,
+        "endLine" : 43,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.filefilter.SizeFileFilter/memberField/size",
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.SizeFileFilter"
+    },
+    "acceptLarger" : {
+      "name" : "acceptLarger",
+      "key" : "acceptLarger",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 21,
+        "endLine" : 45,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.filefilter.SizeFileFilter/memberField/acceptLarger",
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.SizeFileFilter"
+    }
+  },
+  "methods" : {
+    "accept" : {
+      "name" : "accept",
+      "key" : "org.apache.commons.io.filefilter.SizeFileFilter/method/accept",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 20,
+        "endLine" : 87,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 32,
+          "endLine" : 87,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.filefilter.SizeFileFilter/method/accept"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.SizeFileFilter"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbstractFileFilter" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

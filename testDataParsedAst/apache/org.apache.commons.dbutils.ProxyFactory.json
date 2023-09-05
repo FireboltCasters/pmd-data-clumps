@@ -1,0 +1,363 @@
+{
+  "name" : "ProxyFactory",
+  "key" : "org.apache.commons.dbutils.ProxyFactory",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "resultSetClass" : {
+      "name" : "resultSetClass",
+      "key" : "resultSetClass",
+      "type" : "java.lang.Class[]",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 34,
+        "endLine" : 76,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.ProxyFactory/memberField/resultSetClass",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    },
+    "instance" : {
+      "name" : "instance",
+      "key" : "instance",
+      "type" : "org.apache.commons.dbutils.ProxyFactory",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 39,
+        "endLine" : 59,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.ProxyFactory/memberField/instance",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    },
+    "driverClass" : {
+      "name" : "driverClass",
+      "key" : "driverClass",
+      "type" : "java.lang.Class[]",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 34,
+        "endLine" : 54,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.ProxyFactory/memberField/driverClass",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    },
+    "metaClass" : {
+      "name" : "metaClass",
+      "key" : "metaClass",
+      "type" : "java.lang.Class[]",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 34,
+        "endLine" : 64,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.ProxyFactory/memberField/metaClass",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    },
+    "callableStatementClass" : {
+      "name" : "callableStatementClass",
+      "key" : "callableStatementClass",
+      "type" : "java.lang.Class[]",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 34,
+        "endLine" : 42,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.ProxyFactory/memberField/callableStatementClass",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    },
+    "preparedStatementClass" : {
+      "name" : "preparedStatementClass",
+      "key" : "preparedStatementClass",
+      "type" : "java.lang.Class[]",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 34,
+        "endLine" : 70,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.ProxyFactory/memberField/preparedStatementClass",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    },
+    "connectionClass" : {
+      "name" : "connectionClass",
+      "key" : "connectionClass",
+      "type" : "java.lang.Class[]",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 34,
+        "endLine" : 48,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.ProxyFactory/memberField/connectionClass",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    },
+    "statementClass" : {
+      "name" : "statementClass",
+      "key" : "statementClass",
+      "type" : "java.lang.Class[]",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 34,
+        "endLine" : 82,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.ProxyFactory/memberField/statementClass",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    }
+  },
+  "methods" : {
+    "createStatement" : {
+      "name" : "createStatement",
+      "key" : "org.apache.commons.dbutils.ProxyFactory/method/createStatement",
+      "type" : "java.sql.Statement",
+      "position" : {
+        "startLine" : 178,
+        "startColumn" : 22,
+        "endLine" : 178,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "handler",
+        "key" : "handler",
+        "type" : "java.lang.reflect.InvocationHandler",
+        "position" : {
+          "startLine" : 178,
+          "startColumn" : 56,
+          "endLine" : 178,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.ProxyFactory/method/createStatement"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    },
+    "createCallableStatement" : {
+      "name" : "createCallableStatement",
+      "key" : "org.apache.commons.dbutils.ProxyFactory/method/createCallableStatement",
+      "type" : "java.sql.CallableStatement",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 30,
+        "endLine" : 106,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "handler",
+        "key" : "handler",
+        "type" : "java.lang.reflect.InvocationHandler",
+        "position" : {
+          "startLine" : 106,
+          "startColumn" : 72,
+          "endLine" : 106,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.ProxyFactory/method/createCallableStatement"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    },
+    "instance" : {
+      "name" : "instance",
+      "key" : "org.apache.commons.dbutils.ProxyFactory/method/instance",
+      "type" : "org.apache.commons.dbutils.ProxyFactory",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 32,
+        "endLine" : 90,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    },
+    "createDriver" : {
+      "name" : "createDriver",
+      "key" : "org.apache.commons.dbutils.ProxyFactory/method/createDriver",
+      "type" : "java.sql.Driver",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 19,
+        "endLine" : 130,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "handler",
+        "key" : "handler",
+        "type" : "java.lang.reflect.InvocationHandler",
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 50,
+          "endLine" : 130,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.ProxyFactory/method/createDriver"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    },
+    "createResultSetMetaData" : {
+      "name" : "createResultSetMetaData",
+      "key" : "org.apache.commons.dbutils.ProxyFactory/method/createResultSetMetaData",
+      "type" : "java.sql.ResultSetMetaData",
+      "position" : {
+        "startLine" : 166,
+        "startColumn" : 30,
+        "endLine" : 166,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "handler",
+        "key" : "handler",
+        "type" : "java.lang.reflect.InvocationHandler",
+        "position" : {
+          "startLine" : 166,
+          "startColumn" : 72,
+          "endLine" : 166,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.ProxyFactory/method/createResultSetMetaData"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    },
+    "createPreparedStatement" : {
+      "name" : "createPreparedStatement",
+      "key" : "org.apache.commons.dbutils.ProxyFactory/method/createPreparedStatement",
+      "type" : "java.sql.PreparedStatement",
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 30,
+        "endLine" : 142,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "handler",
+        "key" : "handler",
+        "type" : "java.lang.reflect.InvocationHandler",
+        "position" : {
+          "startLine" : 142,
+          "startColumn" : 72,
+          "endLine" : 142,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.ProxyFactory/method/createPreparedStatement"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    },
+    "createConnection" : {
+      "name" : "createConnection",
+      "key" : "org.apache.commons.dbutils.ProxyFactory/method/createConnection",
+      "type" : "java.sql.Connection",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 23,
+        "endLine" : 118,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "handler",
+        "key" : "handler",
+        "type" : "java.lang.reflect.InvocationHandler",
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 58,
+          "endLine" : 118,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.ProxyFactory/method/createConnection"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    },
+    "createResultSet" : {
+      "name" : "createResultSet",
+      "key" : "org.apache.commons.dbutils.ProxyFactory/method/createResultSet",
+      "type" : "java.sql.ResultSet",
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 22,
+        "endLine" : 154,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "handler",
+        "key" : "handler",
+        "type" : "java.lang.reflect.InvocationHandler",
+        "position" : {
+          "startLine" : 154,
+          "startColumn" : 56,
+          "endLine" : 154,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.ProxyFactory/method/createResultSet"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ProxyFactory"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

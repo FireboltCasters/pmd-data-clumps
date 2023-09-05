@@ -1,0 +1,522 @@
+{
+  "name" : "DoubleMetaphoneTest",
+  "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "doubleMetaphone" : {
+      "name" : "doubleMetaphone",
+      "key" : "doubleMetaphone",
+      "type" : "DoubleMetaphone",
+      "position" : {
+        "startLine" : 1006,
+        "startColumn" : 29,
+        "endLine" : 1006,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest/memberField/doubleMetaphone",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "MATCHES" : {
+      "name" : "MATCHES",
+      "key" : "MATCHES",
+      "type" : "java.lang.String[][]",
+      "position" : {
+        "startLine" : 595,
+        "startColumn" : 37,
+        "endLine" : 595,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest/memberField/MATCHES",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "FIXTURE" : {
+      "name" : "FIXTURE",
+      "key" : "FIXTURE",
+      "type" : "java.lang.String[][]",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 37,
+        "endLine" : 43,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest/memberField/FIXTURE",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    }
+  },
+  "methods" : {
+    "makeEncoder" : {
+      "name" : "makeEncoder",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/makeEncoder",
+      "type" : "org.apache.commons.codec.StringEncoder",
+      "position" : {
+        "startLine" : 1062,
+        "startColumn" : 29,
+        "endLine" : 1062,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "testIsDoubleMetaphoneEqualBasic" : {
+      "name" : "testIsDoubleMetaphoneEqualBasic",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/testIsDoubleMetaphoneEqualBasic",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1117,
+        "startColumn" : 17,
+        "endLine" : 1117,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "assertDoubleMetaphoneAlt" : {
+      "name" : "assertDoubleMetaphoneAlt",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/assertDoubleMetaphoneAlt",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1029,
+        "startColumn" : 17,
+        "endLine" : 1029,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expected",
+        "key" : "expected",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1029,
+          "startColumn" : 49,
+          "endLine" : 1029,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/assertDoubleMetaphoneAlt"
+      }, {
+        "name" : "source",
+        "key" : "source",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1029,
+          "startColumn" : 66,
+          "endLine" : 1029,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/assertDoubleMetaphoneAlt"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "setDoubleMetaphone" : {
+      "name" : "setDoubleMetaphone",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/setDoubleMetaphone",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1066,
+        "startColumn" : 18,
+        "endLine" : 1066,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "doubleMetaphone",
+        "key" : "doubleMetaphone",
+        "type" : "DoubleMetaphone",
+        "position" : {
+          "startLine" : 1066,
+          "startColumn" : 53,
+          "endLine" : 1066,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/setDoubleMetaphone"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "doubleMetaphoneNotEqualTest" : {
+      "name" : "doubleMetaphoneNotEqualTest",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/doubleMetaphoneNotEqualTest",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1048,
+        "startColumn" : 17,
+        "endLine" : 1048,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "alternate",
+        "key" : "alternate",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1048,
+          "startColumn" : 53,
+          "endLine" : 1048,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/doubleMetaphoneNotEqualTest"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "testEmpty" : {
+      "name" : "testEmpty",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/testEmpty",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1110,
+        "startColumn" : 17,
+        "endLine" : 1110,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "testIsDoubleMetaphoneEqualExtended1" : {
+      "name" : "testIsDoubleMetaphoneEqualExtended1",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/testIsDoubleMetaphoneEqualExtended1",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1135,
+        "startColumn" : 17,
+        "endLine" : 1135,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "testIsDoubleMetaphoneEqualExtended2" : {
+      "name" : "testIsDoubleMetaphoneEqualExtended2",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/testIsDoubleMetaphoneEqualExtended2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1142,
+        "startColumn" : 17,
+        "endLine" : 1142,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1075,
+        "startColumn" : 17,
+        "endLine" : 1075,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "testIsDoubleMetaphoneEqualExtended3" : {
+      "name" : "testIsDoubleMetaphoneEqualExtended3",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/testIsDoubleMetaphoneEqualExtended3",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1153,
+        "startColumn" : 17,
+        "endLine" : 1153,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "doubleMetaphoneEqualTest" : {
+      "name" : "doubleMetaphoneEqualTest",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/doubleMetaphoneEqualTest",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1033,
+        "startColumn" : 17,
+        "endLine" : 1033,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pairs",
+        "key" : "pairs",
+        "type" : "java.lang.String[][]",
+        "position" : {
+          "startLine" : 1033,
+          "startColumn" : 53,
+          "endLine" : 1033,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/doubleMetaphoneEqualTest"
+      }, {
+        "name" : "useAlternate",
+        "key" : "useAlternate",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 1033,
+          "startColumn" : 68,
+          "endLine" : 1033,
+          "endColumn" : 80
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/doubleMetaphoneEqualTest"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "testNTilde" : {
+      "name" : "testNTilde",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/testNTilde",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1206,
+        "startColumn" : 17,
+        "endLine" : 1206,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "testIsDoubleMetaphoneEqualWithMATCHES" : {
+      "name" : "testIsDoubleMetaphoneEqualWithMATCHES",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/testIsDoubleMetaphoneEqualWithMATCHES",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1184,
+        "startColumn" : 17,
+        "endLine" : 1184,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "testDoubleMetaphone" : {
+      "name" : "testDoubleMetaphone",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/testDoubleMetaphone",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1080,
+        "startColumn" : 17,
+        "endLine" : 1080,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "testIsDoubleMetaphoneNotEqual" : {
+      "name" : "testIsDoubleMetaphoneNotEqual",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/testIsDoubleMetaphoneNotEqual",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1197,
+        "startColumn" : 17,
+        "endLine" : 1197,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 1002,
+        "startColumn" : 24,
+        "endLine" : 1002,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "validateFixture" : {
+      "name" : "validateFixture",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/validateFixture",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1210,
+        "startColumn" : 17,
+        "endLine" : 1210,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pairs",
+        "key" : "pairs",
+        "type" : "java.lang.String[][]",
+        "position" : {
+          "startLine" : 1210,
+          "startColumn" : 44,
+          "endLine" : 1210,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/validateFixture"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "getDoubleMetaphone" : {
+      "name" : "getDoubleMetaphone",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/getDoubleMetaphone",
+      "type" : "DoubleMetaphone",
+      "position" : {
+        "startLine" : 1058,
+        "startColumn" : 29,
+        "endLine" : 1058,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1070,
+        "startColumn" : 17,
+        "endLine" : 1070,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "assertDoubleMetaphone" : {
+      "name" : "assertDoubleMetaphone",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/assertDoubleMetaphone",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1015,
+        "startColumn" : 18,
+        "endLine" : 1015,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expected",
+        "key" : "expected",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1015,
+          "startColumn" : 47,
+          "endLine" : 1015,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/assertDoubleMetaphone"
+      }, {
+        "name" : "source",
+        "key" : "source",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1015,
+          "startColumn" : 64,
+          "endLine" : 1015,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/assertDoubleMetaphone"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    },
+    "testCCedilla" : {
+      "name" : "testCCedilla",
+      "key" : "org.apache.commons.codec.language.DoubleMetaphoneTest/method/testCCedilla",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1202,
+        "startColumn" : 17,
+        "endLine" : 1202,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.DoubleMetaphoneTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.codec.StringEncoderAbstractTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

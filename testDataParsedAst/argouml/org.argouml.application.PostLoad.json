@@ -1,0 +1,70 @@
+{
+  "name" : "PostLoad",
+  "key" : "org.argouml.application.PostLoad",
+  "type" : "class",
+  "position" : {
+    "startLine" : 905,
+    "startColumn" : 1,
+    "endLine" : 905,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 909,
+        "startColumn" : 33,
+        "endLine" : 909,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.PostLoad/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.application.PostLoad"
+    },
+    "postLoadActions" : {
+      "name" : "postLoadActions",
+      "key" : "postLoadActions",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 914,
+        "startColumn" : 28,
+        "endLine" : 914,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.application.PostLoad/memberField/postLoadActions",
+      "classOrInterfaceKey" : "org.argouml.application.PostLoad"
+    }
+  },
+  "methods" : {
+    "run" : {
+      "name" : "run",
+      "key" : "org.argouml.application.PostLoad/method/run",
+      "type" : "void",
+      "position" : {
+        "startLine" : 929,
+        "startColumn" : 17,
+        "endLine" : 929,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.application.PostLoad"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.lang.Runnable" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

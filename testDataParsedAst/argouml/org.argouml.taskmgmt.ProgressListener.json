@@ -1,0 +1,52 @@
+{
+  "name" : "ProgressListener",
+  "key" : "org.argouml.taskmgmt.ProgressListener",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "progress" : {
+      "name" : "progress",
+      "key" : "org.argouml.taskmgmt.ProgressListener/method/progress",
+      "type" : "void",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 10,
+        "endLine" : 39,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "ProgressEvent",
+        "position" : {
+          "startLine" : 39,
+          "startColumn" : 33,
+          "endLine" : 39,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.taskmgmt.ProgressListener/method/progress"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.taskmgmt.ProgressListener"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.util.EventListener" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

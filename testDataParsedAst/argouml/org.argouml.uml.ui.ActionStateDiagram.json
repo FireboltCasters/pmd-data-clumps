@@ -1,0 +1,97 @@
+{
+  "name" : "ActionStateDiagram",
+  "key" : "org.argouml.uml.ui.ActionStateDiagram",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 31,
+        "endLine" : 96,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.ActionStateDiagram/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionStateDiagram"
+    }
+  },
+  "methods" : {
+    "hasNoDiagramYet" : {
+      "name" : "hasNoDiagramYet",
+      "key" : "org.argouml.uml.ui.ActionStateDiagram/method/hasNoDiagramYet",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 21,
+        "endLine" : 81,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "machine",
+        "key" : "machine",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 81,
+          "startColumn" : 44,
+          "endLine" : 81,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionStateDiagram/method/hasNoDiagramYet"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionStateDiagram"
+    },
+    "createDiagram" : {
+      "name" : "createDiagram",
+      "key" : "org.argouml.uml.ui.ActionStateDiagram/method/createDiagram",
+      "type" : "org.argouml.uml.diagram.ArgoDiagram",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 27,
+        "endLine" : 50,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "namespace",
+        "key" : "namespace",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 48,
+          "endLine" : 50,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.ActionStateDiagram/method/createDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.ActionStateDiagram"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ActionNewDiagram" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

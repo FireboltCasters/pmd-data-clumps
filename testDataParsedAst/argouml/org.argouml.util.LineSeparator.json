@@ -1,0 +1,191 @@
+{
+  "name" : "LineSeparator",
+  "key" : "org.argouml.util.LineSeparator",
+  "type" : "class",
+  "position" : {
+    "startLine" : 330,
+    "startColumn" : 1,
+    "endLine" : 330,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "hasLf" : {
+      "name" : "hasLf",
+      "key" : "hasLf",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 332,
+        "startColumn" : 21,
+        "endLine" : 332,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.LineSeparator/memberField/hasLf",
+      "classOrInterfaceKey" : "org.argouml.util.LineSeparator"
+    },
+    "hasPeeked" : {
+      "name" : "hasPeeked",
+      "key" : "hasPeeked",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 333,
+        "startColumn" : 21,
+        "endLine" : 333,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.LineSeparator/memberField/hasPeeked",
+      "classOrInterfaceKey" : "org.argouml.util.LineSeparator"
+    },
+    "hasCr" : {
+      "name" : "hasCr",
+      "key" : "hasCr",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 331,
+        "startColumn" : 21,
+        "endLine" : 331,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.LineSeparator/memberField/hasCr",
+      "classOrInterfaceKey" : "org.argouml.util.LineSeparator"
+    }
+  },
+  "methods" : {
+    "tokenLength" : {
+      "name" : "tokenLength",
+      "key" : "org.argouml.util.LineSeparator/method/tokenLength",
+      "type" : "int",
+      "position" : {
+        "startLine" : 354,
+        "startColumn" : 16,
+        "endLine" : 354,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.LineSeparator"
+    },
+    "addChar" : {
+      "name" : "addChar",
+      "key" : "org.argouml.util.LineSeparator/method/addChar",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 377,
+        "startColumn" : 20,
+        "endLine" : 377,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "char",
+        "position" : {
+          "startLine" : 377,
+          "startColumn" : 33,
+          "endLine" : 377,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.LineSeparator/method/addChar"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.LineSeparator"
+    },
+    "hasFreePart" : {
+      "name" : "hasFreePart",
+      "key" : "org.argouml.util.LineSeparator/method/hasFreePart",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 368,
+        "startColumn" : 20,
+        "endLine" : 368,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.LineSeparator"
+    },
+    "reset" : {
+      "name" : "reset",
+      "key" : "org.argouml.util.LineSeparator/method/reset",
+      "type" : "void",
+      "position" : {
+        "startLine" : 344,
+        "startColumn" : 17,
+        "endLine" : 344,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.LineSeparator"
+    },
+    "endChar" : {
+      "name" : "endChar",
+      "key" : "org.argouml.util.LineSeparator/method/endChar",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 396,
+        "startColumn" : 20,
+        "endLine" : 396,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "char",
+        "position" : {
+          "startLine" : 396,
+          "startColumn" : 33,
+          "endLine" : 396,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.LineSeparator/method/endChar"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.LineSeparator"
+    },
+    "getPeekCount" : {
+      "name" : "getPeekCount",
+      "key" : "org.argouml.util.LineSeparator/method/getPeekCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 361,
+        "startColumn" : 16,
+        "endLine" : 361,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.util.LineSeparator"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "CustomSeparator" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

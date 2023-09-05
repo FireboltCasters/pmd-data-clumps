@@ -1,0 +1,1363 @@
+{
+  "name" : "InitCognitiveCritics",
+  "key" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics",
+  "type" : "class",
+  "position" : {
+    "startLine" : 49,
+    "startColumn" : 8,
+    "endLine" : 49,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "crDisambigStateName" : {
+      "name" : "crDisambigStateName",
+      "key" : "crDisambigStateName",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 113,
+        "startColumn" : 27,
+        "endLine" : 113,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crDisambigStateName",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crInvalidBranch" : {
+      "name" : "crInvalidBranch",
+      "key" : "crInvalidBranch",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 27,
+        "endLine" : 151,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crInvalidBranch",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crTooManyOper" : {
+      "name" : "crTooManyOper",
+      "key" : "crTooManyOper",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 27,
+        "endLine" : 122,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crTooManyOper",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crObjectWithoutComponent" : {
+      "name" : "crObjectWithoutComponent",
+      "key" : "crObjectWithoutComponent",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 176,
+        "startColumn" : 27,
+        "endLine" : 176,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crObjectWithoutComponent",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNodeInsideElement" : {
+      "name" : "crNodeInsideElement",
+      "key" : "crNodeInsideElement",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 179,
+        "startColumn" : 27,
+        "endLine" : 179,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNodeInsideElement",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crUselessInterface" : {
+      "name" : "crUselessInterface",
+      "key" : "crUselessInterface",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 27,
+        "endLine" : 109,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crUselessInterface",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crInterfaceAllPublic" : {
+      "name" : "crInterfaceAllPublic",
+      "key" : "crInterfaceAllPublic",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 27,
+        "endLine" : 77,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crInterfaceAllPublic",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crInvalidInitial" : {
+      "name" : "crInvalidInitial",
+      "key" : "crInvalidInitial",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 210,
+        "startColumn" : 27,
+        "endLine" : 210,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crInvalidInitial",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crInvalidJoin" : {
+      "name" : "crInvalidJoin",
+      "key" : "crInvalidJoin",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 27,
+        "endLine" : 149,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crInvalidJoin",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNodesOverlap" : {
+      "name" : "crNodesOverlap",
+      "key" : "crNodesOverlap",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 250,
+        "startColumn" : 27,
+        "endLine" : 250,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNodesOverlap",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crUnconventionalOperName" : {
+      "name" : "crUnconventionalOperName",
+      "key" : "crUnconventionalOperName",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 229,
+        "startColumn" : 27,
+        "endLine" : 229,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crUnconventionalOperName",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crTooManyStates" : {
+      "name" : "crTooManyStates",
+      "key" : "crTooManyStates",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 27,
+        "endLine" : 124,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crTooManyStates",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crTooManyAssoc" : {
+      "name" : "crTooManyAssoc",
+      "key" : "crTooManyAssoc",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 27,
+        "endLine" : 118,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crTooManyAssoc",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crComponentWithoutNode" : {
+      "name" : "crComponentWithoutNode",
+      "key" : "crComponentWithoutNode",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 27,
+        "endLine" : 165,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crComponentWithoutNode",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crMissingClassName" : {
+      "name" : "crMissingClassName",
+      "key" : "crMissingClassName",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 27,
+        "endLine" : 91,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crMissingClassName",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crTooManyTransitions" : {
+      "name" : "crTooManyTransitions",
+      "key" : "crTooManyTransitions",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 126,
+        "startColumn" : 27,
+        "endLine" : 126,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crTooManyTransitions",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNoGuard" : {
+      "name" : "crNoGuard",
+      "key" : "crNoGuard",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 27,
+        "endLine" : 145,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNoGuard",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crInvalidJoinTriggerOrGuard" : {
+      "name" : "crInvalidJoinTriggerOrGuard",
+      "key" : "crInvalidJoinTriggerOrGuard",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 195,
+        "startColumn" : 27,
+        "endLine" : 195,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crInvalidJoinTriggerOrGuard",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crMultipleDeepHistoryStates" : {
+      "name" : "crMultipleDeepHistoryStates",
+      "key" : "crMultipleDeepHistoryStates",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 204,
+        "startColumn" : 27,
+        "endLine" : 204,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crMultipleDeepHistoryStates",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNonAggDataType" : {
+      "name" : "crNonAggDataType",
+      "key" : "crNonAggDataType",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 27,
+        "endLine" : 103,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNonAggDataType",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crForkOutgoingTransition" : {
+      "name" : "crForkOutgoingTransition",
+      "key" : "crForkOutgoingTransition",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 213,
+        "startColumn" : 27,
+        "endLine" : 213,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crForkOutgoingTransition",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crCompoundConstructorNeeded" : {
+      "name" : "crCompoundConstructorNeeded",
+      "key" : "crCompoundConstructorNeeded",
+      "type" : "org.argouml.cognitive.CompoundCritic",
+      "position" : {
+        "startLine" : 265,
+        "startColumn" : 35,
+        "endLine" : 265,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crCompoundConstructorNeeded",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crFinalSubclassed" : {
+      "name" : "crFinalSubclassed",
+      "key" : "crFinalSubclassed",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 27,
+        "endLine" : 70,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crFinalSubclassed",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNoTransitions" : {
+      "name" : "crNoTransitions",
+      "key" : "crNoTransitions",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 27,
+        "endLine" : 130,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNoTransitions",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crCircularComposition" : {
+      "name" : "crCircularComposition",
+      "key" : "crCircularComposition",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 27,
+        "endLine" : 62,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crCircularComposition",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crMergeClasses" : {
+      "name" : "crMergeClasses",
+      "key" : "crMergeClasses",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 161,
+        "startColumn" : 27,
+        "endLine" : 161,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crMergeClasses",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crInvalidSynch" : {
+      "name" : "crInvalidSynch",
+      "key" : "crInvalidSynch",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 192,
+        "startColumn" : 27,
+        "endLine" : 192,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crInvalidSynch",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crCircularAssocClass" : {
+      "name" : "crCircularAssocClass",
+      "key" : "crCircularAssocClass",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 27,
+        "endLine" : 58,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crCircularAssocClass",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crAttrNameConflict" : {
+      "name" : "crAttrNameConflict",
+      "key" : "crAttrNameConflict",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 27,
+        "endLine" : 54,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crAttrNameConflict",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crUselessAbstract" : {
+      "name" : "crUselessAbstract",
+      "key" : "crUselessAbstract",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 27,
+        "endLine" : 107,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crUselessAbstract",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crIllegalGeneralization" : {
+      "name" : "crIllegalGeneralization",
+      "key" : "crIllegalGeneralization",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 27,
+        "endLine" : 72,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crIllegalGeneralization",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNodeInstanceInsideElement" : {
+      "name" : "crNodeInstanceInsideElement",
+      "key" : "crNodeInstanceInsideElement",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 181,
+        "startColumn" : 27,
+        "endLine" : 181,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNodeInstanceInsideElement",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crUnconventionalAttrName" : {
+      "name" : "crUnconventionalAttrName",
+      "key" : "crUnconventionalAttrName",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 232,
+        "startColumn" : 27,
+        "endLine" : 232,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crUnconventionalAttrName",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crInvalidFork" : {
+      "name" : "crInvalidFork",
+      "key" : "crInvalidFork",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 27,
+        "endLine" : 147,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crInvalidFork",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crMissingStateName" : {
+      "name" : "crMissingStateName",
+      "key" : "crMissingStateName",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 27,
+        "endLine" : 97,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crMissingStateName",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crWrongLinkEnds" : {
+      "name" : "crWrongLinkEnds",
+      "key" : "crWrongLinkEnds",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 184,
+        "startColumn" : 27,
+        "endLine" : 184,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crWrongLinkEnds",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crDupRoleNames" : {
+      "name" : "crDupRoleNames",
+      "key" : "crDupRoleNames",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 27,
+        "endLine" : 68,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crDupRoleNames",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crMissingAttrName" : {
+      "name" : "crMissingAttrName",
+      "key" : "crMissingAttrName",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 27,
+        "endLine" : 93,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crMissingAttrName",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crMissingOperName" : {
+      "name" : "crMissingOperName",
+      "key" : "crMissingOperName",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 95,
+        "startColumn" : 27,
+        "endLine" : 95,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crMissingOperName",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crUnnavigableAssoc" : {
+      "name" : "crUnnavigableAssoc",
+      "key" : "crUnnavigableAssoc",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 27,
+        "endLine" : 87,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crUnnavigableAssoc",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crMultipleInitialStates" : {
+      "name" : "crMultipleInitialStates",
+      "key" : "crMultipleInitialStates",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 27,
+        "endLine" : 138,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crMultipleInitialStates",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crInterfaceWithoutComponent" : {
+      "name" : "crInterfaceWithoutComponent",
+      "key" : "crInterfaceWithoutComponent",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 173,
+        "startColumn" : 27,
+        "endLine" : 173,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crInterfaceWithoutComponent",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crOppEndConflict" : {
+      "name" : "crOppEndConflict",
+      "key" : "crOppEndConflict",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 27,
+        "endLine" : 105,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crOppEndConflict",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crSubclassReference" : {
+      "name" : "crSubclassReference",
+      "key" : "crSubclassReference",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 27,
+        "endLine" : 163,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crSubclassReference",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crAssocNameConflict" : {
+      "name" : "crAssocNameConflict",
+      "key" : "crAssocNameConflict",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 27,
+        "endLine" : 52,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crAssocNameConflict",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crTooManyAttr" : {
+      "name" : "crTooManyAttr",
+      "key" : "crTooManyAttr",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 27,
+        "endLine" : 120,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crTooManyAttr",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crConstructorNeeded" : {
+      "name" : "crConstructorNeeded",
+      "key" : "crConstructorNeeded",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 157,
+        "startColumn" : 27,
+        "endLine" : 157,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crConstructorNeeded",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crInvalidHistory" : {
+      "name" : "crInvalidHistory",
+      "key" : "crInvalidHistory",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 189,
+        "startColumn" : 27,
+        "endLine" : 189,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crInvalidHistory",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crInvalidPseudoStateTrigger" : {
+      "name" : "crInvalidPseudoStateTrigger",
+      "key" : "crInvalidPseudoStateTrigger",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 201,
+        "startColumn" : 27,
+        "endLine" : 201,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crInvalidPseudoStateTrigger",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crJoinIncomingTransition" : {
+      "name" : "crJoinIncomingTransition",
+      "key" : "crJoinIncomingTransition",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 216,
+        "startColumn" : 27,
+        "endLine" : 216,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crJoinIncomingTransition",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crReservedName" : {
+      "name" : "crReservedName",
+      "key" : "crReservedName",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 244,
+        "startColumn" : 27,
+        "endLine" : 244,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crReservedName",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crOperNameConflict" : {
+      "name" : "crOperNameConflict",
+      "key" : "crOperNameConflict",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 27,
+        "endLine" : 56,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crOperNameConflict",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crCircularInheritance" : {
+      "name" : "crCircularInheritance",
+      "key" : "crCircularInheritance",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 27,
+        "endLine" : 60,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crCircularInheritance",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crEmptyPackage" : {
+      "name" : "crEmptyPackage",
+      "key" : "crEmptyPackage",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 27,
+        "endLine" : 153,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crEmptyPackage",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crMultipleShallowHistoryStates" : {
+      "name" : "crMultipleShallowHistoryStates",
+      "key" : "crMultipleShallowHistoryStates",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 207,
+        "startColumn" : 27,
+        "endLine" : 207,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crMultipleShallowHistoryStates",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "noTrans1" : {
+      "name" : "noTrans1",
+      "key" : "noTrans1",
+      "type" : "org.argouml.cognitive.CompoundCritic",
+      "position" : {
+        "startLine" : 258,
+        "startColumn" : 35,
+        "endLine" : 258,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/noTrans1",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "noTrans2" : {
+      "name" : "noTrans2",
+      "key" : "noTrans2",
+      "type" : "org.argouml.cognitive.CompoundCritic",
+      "position" : {
+        "startLine" : 261,
+        "startColumn" : 35,
+        "endLine" : 261,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/noTrans2",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crUnconventionalPackName" : {
+      "name" : "crUnconventionalPackName",
+      "key" : "crUnconventionalPackName",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 238,
+        "startColumn" : 27,
+        "endLine" : 238,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crUnconventionalPackName",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNoInstanceVariables" : {
+      "name" : "crNoInstanceVariables",
+      "key" : "crNoInstanceVariables",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 27,
+        "endLine" : 99,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNoInstanceVariables",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crZeroLengthEdge" : {
+      "name" : "crZeroLengthEdge",
+      "key" : "crZeroLengthEdge",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 252,
+        "startColumn" : 27,
+        "endLine" : 252,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crZeroLengthEdge",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crDupParamName" : {
+      "name" : "crDupParamName",
+      "key" : "crDupParamName",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 27,
+        "endLine" : 66,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crDupParamName",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crInterfaceOperOnly" : {
+      "name" : "crInterfaceOperOnly",
+      "key" : "crInterfaceOperOnly",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 27,
+        "endLine" : 79,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crInterfaceOperOnly",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crMultipleAgg" : {
+      "name" : "crMultipleAgg",
+      "key" : "crMultipleAgg",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 27,
+        "endLine" : 81,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crMultipleAgg",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "clsNaming" : {
+      "name" : "clsNaming",
+      "key" : "clsNaming",
+      "type" : "org.argouml.cognitive.CompoundCritic",
+      "position" : {
+        "startLine" : 255,
+        "startColumn" : 35,
+        "endLine" : 255,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/clsNaming",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNWayAgg" : {
+      "name" : "crNWayAgg",
+      "key" : "crNWayAgg",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 27,
+        "endLine" : 83,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNWayAgg",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crIllegalName" : {
+      "name" : "crIllegalName",
+      "key" : "crIllegalName",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 247,
+        "startColumn" : 27,
+        "endLine" : 247,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crIllegalName",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNoAssociations" : {
+      "name" : "crNoAssociations",
+      "key" : "crNoAssociations",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 27,
+        "endLine" : 101,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNoAssociations",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crInstanceWithoutClassifier" : {
+      "name" : "crInstanceWithoutClassifier",
+      "key" : "crInstanceWithoutClassifier",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 186,
+        "startColumn" : 27,
+        "endLine" : 186,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crInstanceWithoutClassifier",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crCrossNamespaceAssoc" : {
+      "name" : "crCrossNamespaceAssoc",
+      "key" : "crCrossNamespaceAssoc",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 27,
+        "endLine" : 64,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crCrossNamespaceAssoc",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNoOperations" : {
+      "name" : "crNoOperations",
+      "key" : "crNoOperations",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 27,
+        "endLine" : 155,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNoOperations",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNoInitialState" : {
+      "name" : "crNoInitialState",
+      "key" : "crNoInitialState",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 27,
+        "endLine" : 141,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNoInitialState",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crDisambigClassName" : {
+      "name" : "crDisambigClassName",
+      "key" : "crDisambigClassName",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 27,
+        "endLine" : 111,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crDisambigClassName",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crTooManyClasses" : {
+      "name" : "crTooManyClasses",
+      "key" : "crTooManyClasses",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 27,
+        "endLine" : 128,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crTooManyClasses",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNoOutgoingTransitions" : {
+      "name" : "crNoOutgoingTransitions",
+      "key" : "crNoOutgoingTransitions",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 135,
+        "startColumn" : 27,
+        "endLine" : 135,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNoOutgoingTransitions",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crAlreadyRealizes" : {
+      "name" : "crAlreadyRealizes",
+      "key" : "crAlreadyRealizes",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 27,
+        "endLine" : 75,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crAlreadyRealizes",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNameConfusion" : {
+      "name" : "crNameConfusion",
+      "key" : "crNameConfusion",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 159,
+        "startColumn" : 27,
+        "endLine" : 159,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNameConfusion",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crCompInstanceWithoutNode" : {
+      "name" : "crCompInstanceWithoutNode",
+      "key" : "crCompInstanceWithoutNode",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 167,
+        "startColumn" : 27,
+        "endLine" : 167,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crCompInstanceWithoutNode",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crClassWithoutComponent" : {
+      "name" : "crClassWithoutComponent",
+      "key" : "crClassWithoutComponent",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 170,
+        "startColumn" : 27,
+        "endLine" : 170,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crClassWithoutComponent",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNoTriggerOrGuard" : {
+      "name" : "crNoTriggerOrGuard",
+      "key" : "crNoTriggerOrGuard",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 27,
+        "endLine" : 143,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNoTriggerOrGuard",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crUnconventionalClassName" : {
+      "name" : "crUnconventionalClassName",
+      "key" : "crUnconventionalClassName",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 235,
+        "startColumn" : 27,
+        "endLine" : 235,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crUnconventionalClassName",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNoIncomingTransitions" : {
+      "name" : "crNoIncomingTransitions",
+      "key" : "crNoIncomingTransitions",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 27,
+        "endLine" : 132,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNoIncomingTransitions",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNameConflictAC" : {
+      "name" : "crNameConflictAC",
+      "key" : "crNameConflictAC",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 27,
+        "endLine" : 89,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNameConflictAC",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crInvalidForkTriggerOrGuard" : {
+      "name" : "crInvalidForkTriggerOrGuard",
+      "key" : "crInvalidForkTriggerOrGuard",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 198,
+        "startColumn" : 27,
+        "endLine" : 198,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crInvalidForkTriggerOrGuard",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crClassMustBeAbstract" : {
+      "name" : "crClassMustBeAbstract",
+      "key" : "crClassMustBeAbstract",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 242,
+        "startColumn" : 27,
+        "endLine" : 242,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crClassMustBeAbstract",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "crNavFromInterface" : {
+      "name" : "crNavFromInterface",
+      "key" : "crNavFromInterface",
+      "type" : "org.argouml.cognitive.Critic",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 27,
+        "endLine" : 85,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/memberField/crNavFromInterface",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    }
+  },
+  "methods" : {
+    "init" : {
+      "name" : "init",
+      "key" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/method/init",
+      "type" : "void",
+      "position" : {
+        "startLine" : 271,
+        "startColumn" : 17,
+        "endLine" : 271,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "getDetailsTabs" : {
+      "name" : "getDetailsTabs",
+      "key" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/method/getDetailsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 431,
+        "startColumn" : 37,
+        "endLine" : 431,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "getSettingsTabs" : {
+      "name" : "getSettingsTabs",
+      "key" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/method/getSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 427,
+        "startColumn" : 42,
+        "endLine" : 427,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    },
+    "getProjectSettingsTabs" : {
+      "name" : "getProjectSettingsTabs",
+      "key" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics/method/getProjectSettingsTabs",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 423,
+        "startColumn" : 42,
+        "endLine" : 423,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.InitCognitiveCritics"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.argouml.application.api.InitSubsystem" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

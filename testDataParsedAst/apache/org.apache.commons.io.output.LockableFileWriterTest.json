@@ -1,0 +1,243 @@
+{
+  "name" : "LockableFileWriterTest",
+  "key" : "org.apache.commons.io.output.LockableFileWriterTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "lockFile" : {
+      "name" : "lockFile",
+      "key" : "lockFile",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 18,
+        "endLine" : 36,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.LockableFileWriterTest/memberField/lockFile",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriterTest"
+    },
+    "file" : {
+      "name" : "file",
+      "key" : "file",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 18,
+        "endLine" : 34,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.LockableFileWriterTest/memberField/file",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriterTest"
+    },
+    "altLockFile" : {
+      "name" : "altLockFile",
+      "key" : "altLockFile",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 18,
+        "endLine" : 38,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.LockableFileWriterTest/memberField/altLockFile",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriterTest"
+    },
+    "altLockDir" : {
+      "name" : "altLockDir",
+      "key" : "altLockDir",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 18,
+        "endLine" : 37,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.LockableFileWriterTest/memberField/altLockDir",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriterTest"
+    },
+    "lockDir" : {
+      "name" : "lockDir",
+      "key" : "lockDir",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 18,
+        "endLine" : 35,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.LockableFileWriterTest/memberField/lockDir",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriterTest"
+    }
+  },
+  "methods" : {
+    "testConstructor_fileName_nullFile" : {
+      "name" : "testConstructor_fileName_nullFile",
+      "key" : "org.apache.commons.io.output.LockableFileWriterTest/method/testConstructor_fileName_nullFile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 211,
+        "startColumn" : 17,
+        "endLine" : 211,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriterTest"
+    },
+    "testConstructor_File_nullFile" : {
+      "name" : "testConstructor_File_nullFile",
+      "key" : "org.apache.commons.io.output.LockableFileWriterTest/method/testConstructor_File_nullFile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 17,
+        "endLine" : 194,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriterTest"
+    },
+    "testAlternateLockDir" : {
+      "name" : "testAlternateLockDir",
+      "key" : "org.apache.commons.io.output.LockableFileWriterTest/method/testAlternateLockDir",
+      "type" : "void",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 17,
+        "endLine" : 103,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriterTest"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.io.output.LockableFileWriterTest/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 17,
+        "endLine" : 44,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriterTest"
+    },
+    "testFileNotLocked" : {
+      "name" : "testFileNotLocked",
+      "key" : "org.apache.commons.io.output.LockableFileWriterTest/method/testFileNotLocked",
+      "type" : "void",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 17,
+        "endLine" : 133,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriterTest"
+    },
+    "testFileLocked" : {
+      "name" : "testFileLocked",
+      "key" : "org.apache.commons.io.output.LockableFileWriterTest/method/testFileLocked",
+      "type" : "void",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 17,
+        "endLine" : 59,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriterTest"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.io.output.LockableFileWriterTest/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 17,
+        "endLine" : 52,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriterTest"
+    },
+    "testConstructor_File_encoding_badEncoding" : {
+      "name" : "testConstructor_File_encoding_badEncoding",
+      "key" : "org.apache.commons.io.output.LockableFileWriterTest/method/testConstructor_File_encoding_badEncoding",
+      "type" : "void",
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 17,
+        "endLine" : 160,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriterTest"
+    },
+    "testConstructor_File_directory" : {
+      "name" : "testConstructor_File_directory",
+      "key" : "org.apache.commons.io.output.LockableFileWriterTest/method/testConstructor_File_directory",
+      "type" : "void",
+      "position" : {
+        "startLine" : 177,
+        "startColumn" : 17,
+        "endLine" : 177,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.LockableFileWriterTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.io.testtools.FileBasedTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

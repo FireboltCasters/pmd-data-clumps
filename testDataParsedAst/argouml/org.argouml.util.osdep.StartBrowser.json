@@ -1,0 +1,68 @@
+{
+  "name" : "StartBrowser",
+  "key" : "org.argouml.util.osdep.StartBrowser",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 33,
+        "endLine" : 39,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.util.osdep.StartBrowser/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.util.osdep.StartBrowser"
+    }
+  },
+  "methods" : {
+    "openUrl" : {
+      "name" : "openUrl",
+      "key" : "org.argouml.util.osdep.StartBrowser/method/openUrl",
+      "type" : "void",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 24,
+        "endLine" : 89,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "url",
+        "key" : "url",
+        "type" : "java.net.URL",
+        "position" : {
+          "startLine" : 89,
+          "startColumn" : 36,
+          "endLine" : 89,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.util.osdep.StartBrowser/method/openUrl"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.util.osdep.StartBrowser"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

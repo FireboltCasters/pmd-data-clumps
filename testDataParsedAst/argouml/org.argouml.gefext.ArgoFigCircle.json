@@ -1,0 +1,155 @@
+{
+  "name" : "ArgoFigCircle",
+  "key" : "org.argouml.gefext.ArgoFigCircle",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "notifier" : {
+      "name" : "notifier",
+      "key" : "notifier",
+      "type" : "javax.management.NotificationBroadcasterSupport",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 44,
+        "endLine" : 44,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.gefext.ArgoFigCircle/memberField/notifier",
+      "classOrInterfaceKey" : "org.argouml.gefext.ArgoFigCircle"
+    }
+  },
+  "methods" : {
+    "addNotificationListener" : {
+      "name" : "addNotificationListener",
+      "key" : "org.argouml.gefext.ArgoFigCircle/method/addNotificationListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 17,
+        "endLine" : 74,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "javax.management.NotificationListener",
+        "position" : {
+          "startLine" : 74,
+          "startColumn" : 62,
+          "endLine" : 74,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.gefext.ArgoFigCircle/method/addNotificationListener"
+      }, {
+        "name" : "filter",
+        "key" : "filter",
+        "type" : "javax.management.NotificationFilter",
+        "position" : {
+          "startLine" : 75,
+          "startColumn" : 28,
+          "endLine" : 75,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.gefext.ArgoFigCircle/method/addNotificationListener"
+      }, {
+        "name" : "handback",
+        "key" : "handback",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 75,
+          "startColumn" : 43,
+          "endLine" : 75,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.gefext.ArgoFigCircle/method/addNotificationListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.gefext.ArgoFigCircle"
+    },
+    "deleteFromModel" : {
+      "name" : "deleteFromModel",
+      "key" : "org.argouml.gefext.ArgoFigCircle/method/deleteFromModel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.gefext.ArgoFigCircle"
+    },
+    "removeNotificationListener" : {
+      "name" : "removeNotificationListener",
+      "key" : "org.argouml.gefext.ArgoFigCircle/method/removeNotificationListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 17,
+        "endLine" : 90,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "javax.management.NotificationListener",
+        "position" : {
+          "startLine" : 90,
+          "startColumn" : 65,
+          "endLine" : 90,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.gefext.ArgoFigCircle/method/removeNotificationListener"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.gefext.ArgoFigCircle"
+    },
+    "getNotificationInfo" : {
+      "name" : "getNotificationInfo",
+      "key" : "org.argouml.gefext.ArgoFigCircle/method/getNotificationInfo",
+      "type" : "javax.management.MBeanNotificationInfo[]",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 36,
+        "endLine" : 83,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.gefext.ArgoFigCircle"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "javax.management.NotificationEmitter" ],
+  "extends_" : [ "org.tigris.gef.presentation.FigCircle" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

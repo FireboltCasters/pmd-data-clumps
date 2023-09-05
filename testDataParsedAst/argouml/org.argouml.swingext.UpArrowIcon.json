@@ -1,0 +1,123 @@
+{
+  "name" : "UpArrowIcon",
+  "key" : "org.argouml.swingext.UpArrowIcon",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getIconWidth" : {
+      "name" : "getIconWidth",
+      "key" : "org.argouml.swingext.UpArrowIcon/method/getIconWidth",
+      "type" : "int",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 16,
+        "endLine" : 47,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.swingext.UpArrowIcon"
+    },
+    "getIconHeight" : {
+      "name" : "getIconHeight",
+      "key" : "org.argouml.swingext.UpArrowIcon/method/getIconHeight",
+      "type" : "int",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 16,
+        "endLine" : 50,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.swingext.UpArrowIcon"
+    },
+    "paintIcon" : {
+      "name" : "paintIcon",
+      "key" : "org.argouml.swingext.UpArrowIcon/method/paintIcon",
+      "type" : "void",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 17,
+        "endLine" : 38,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "java.awt.Component",
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 37,
+          "endLine" : 38,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.swingext.UpArrowIcon/method/paintIcon"
+      }, {
+        "name" : "g",
+        "key" : "g",
+        "type" : "java.awt.Graphics",
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 49,
+          "endLine" : 38,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.swingext.UpArrowIcon/method/paintIcon"
+      }, {
+        "name" : "x",
+        "key" : "x",
+        "type" : "int",
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 56,
+          "endLine" : 38,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.swingext.UpArrowIcon/method/paintIcon"
+      }, {
+        "name" : "y",
+        "key" : "y",
+        "type" : "int",
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 63,
+          "endLine" : 38,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.swingext.UpArrowIcon/method/paintIcon"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.swingext.UpArrowIcon"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "javax.swing.Icon" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

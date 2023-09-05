@@ -1,0 +1,283 @@
+{
+  "name" : "Context",
+  "key" : "org.argouml.uml.reveng.java.Context",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 10,
+    "endLine" : 44,
+    "endColumn" : 15
+  },
+  "modifiers" : [ "ABSTRACT" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 33,
+        "endLine" : 46,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.java.Context/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.java.Context"
+    },
+    "context" : {
+      "name" : "context",
+      "key" : "context",
+      "type" : "org.argouml.uml.reveng.java.Context",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 21,
+        "endLine" : 49,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.reveng.java.Context/memberField/context",
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.java.Context"
+    }
+  },
+  "methods" : {
+    "getInterface" : {
+      "name" : "getInterface",
+      "key" : "org.argouml.uml.reveng.java.Context/method/getInterface",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 28,
+        "endLine" : 83,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 48,
+          "endLine" : 83,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.java.Context/method/getInterface"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.java.Context"
+    },
+    "get" : {
+      "name" : "get",
+      "key" : "org.argouml.uml.reveng.java.Context/method/get",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 28,
+        "endLine" : 73,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 39,
+          "endLine" : 73,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.java.Context/method/get"
+      }, {
+        "name" : "interfacesOnly",
+        "key" : "interfacesOnly",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 53,
+          "endLine" : 73,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.java.Context/method/get"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.java.Context"
+    },
+    "setContext" : {
+      "name" : "setContext",
+      "key" : "org.argouml.uml.reveng.java.Context/method/setContext",
+      "type" : "void",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 20,
+        "endLine" : 110,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "org.argouml.uml.reveng.java.Context",
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 39,
+          "endLine" : 110,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.java.Context/method/setContext"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.java.Context"
+    },
+    "getJavaName" : {
+      "name" : "getJavaName",
+      "key" : "org.argouml.uml.reveng.java.Context/method/getJavaName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 22,
+        "endLine" : 92,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "mPackage",
+        "key" : "mPackage",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 41,
+          "endLine" : 92,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.java.Context/method/getJavaName"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.java.Context"
+    },
+    "findClass" : {
+      "name" : "findClass",
+      "key" : "org.argouml.uml.reveng.java.Context/method/findClass",
+      "type" : "java.lang.Class",
+      "position" : {
+        "startLine" : 121,
+        "startColumn" : 24,
+        "endLine" : 121,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 121,
+          "startColumn" : 41,
+          "endLine" : 121,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.java.Context/method/findClass"
+      }, {
+        "name" : "interfacesOnly",
+        "key" : "interfacesOnly",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 121,
+          "startColumn" : 55,
+          "endLine" : 121,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.java.Context/method/findClass"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.java.Context"
+    },
+    "findClassOnUserClasspath" : {
+      "name" : "findClassOnUserClasspath",
+      "key" : "org.argouml.uml.reveng.java.Context/method/findClassOnUserClasspath",
+      "type" : "java.lang.Class",
+      "position" : {
+        "startLine" : 146,
+        "startColumn" : 22,
+        "endLine" : 146,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 146,
+          "startColumn" : 54,
+          "endLine" : 146,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.java.Context/method/findClassOnUserClasspath"
+      }, {
+        "name" : "interfacesOnly",
+        "key" : "interfacesOnly",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 147,
+          "startColumn" : 21,
+          "endLine" : 147,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.reveng.java.Context/method/findClassOnUserClasspath"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.java.Context"
+    },
+    "getContext" : {
+      "name" : "getContext",
+      "key" : "org.argouml.uml.reveng.java.Context/method/getContext",
+      "type" : "org.argouml.uml.reveng.java.Context",
+      "position" : {
+        "startLine" : 117,
+        "startColumn" : 23,
+        "endLine" : 117,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.reveng.java.Context"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,1016 @@
+{
+  "name" : "NotationUtilityUml",
+  "key" : "org.argouml.notation.providers.uml.NotationUtilityUml",
+  "type" : "class",
+  "position" : {
+    "startLine" : 51,
+    "startColumn" : 14,
+    "endLine" : 51,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "parameterCustomSep" : {
+      "name" : "parameterCustomSep",
+      "key" : "parameterCustomSep",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 48,
+        "endLine" : 75,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/memberField/parameterCustomSep",
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "operationCustomSep" : {
+      "name" : "operationCustomSep",
+      "key" : "operationCustomSep",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 40,
+        "endLine" : 70,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/memberField/operationCustomSep",
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "operationSpecialStrings" : {
+      "name" : "operationSpecialStrings",
+      "key" : "operationSpecialStrings",
+      "type" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertySpecialString[]",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 36,
+        "endLine" : 65,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/memberField/operationSpecialStrings",
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "attributeCustomSep" : {
+      "name" : "attributeCustomSep",
+      "key" : "attributeCustomSep",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 34,
+        "endLine" : 60,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/memberField/attributeCustomSep",
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "VISIBILITYCHARS" : {
+      "name" : "VISIBILITYCHARS",
+      "key" : "VISIBILITYCHARS",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 25,
+        "endLine" : 81,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/memberField/VISIBILITYCHARS",
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "attributeSpecialStrings" : {
+      "name" : "attributeSpecialStrings",
+      "key" : "attributeSpecialStrings",
+      "type" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertySpecialString[]",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 36,
+        "endLine" : 55,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/memberField/attributeSpecialStrings",
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    }
+  },
+  "methods" : {
+    "init" : {
+      "name" : "init",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/init",
+      "type" : "void",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 17,
+        "endLine" : 110,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "generateKind" : {
+      "name" : "generateKind",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateKind",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 1090,
+        "startColumn" : 27,
+        "endLine" : 1090,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "kind",
+        "key" : "kind",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 1090,
+          "startColumn" : 66,
+          "endLine" : 1090,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateKind"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "parseModelElement" : {
+      "name" : "parseModelElement",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/parseModelElement",
+      "type" : "void",
+      "position" : {
+        "startLine" : 270,
+        "startColumn" : 27,
+        "endLine" : 270,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "me",
+        "key" : "me",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 270,
+          "startColumn" : 52,
+          "endLine" : 270,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/parseModelElement"
+      }, {
+        "name" : "text",
+        "key" : "text",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 270,
+          "startColumn" : 63,
+          "endLine" : 270,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/parseModelElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "setProperties" : {
+      "name" : "setProperties",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/setProperties",
+      "type" : "void",
+      "position" : {
+        "startLine" : 711,
+        "startColumn" : 17,
+        "endLine" : 711,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "elem",
+        "key" : "elem",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 711,
+          "startColumn" : 38,
+          "endLine" : 711,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/setProperties"
+      }, {
+        "name" : "prop",
+        "key" : "prop",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 711,
+          "startColumn" : 57,
+          "endLine" : 711,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/setProperties"
+      }, {
+        "name" : "spec",
+        "key" : "spec",
+        "type" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertySpecialString[]",
+        "position" : {
+          "startLine" : 712,
+          "startColumn" : 37,
+          "endLine" : 712,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/setProperties"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "generateExpression" : {
+      "name" : "generateExpression",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateExpression",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 1066,
+        "startColumn" : 27,
+        "endLine" : 1066,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expr",
+        "key" : "expr",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 1066,
+          "startColumn" : 53,
+          "endLine" : 1066,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateExpression"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "setParamKind" : {
+      "name" : "setParamKind",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/setParamKind",
+      "type" : "void",
+      "position" : {
+        "startLine" : 665,
+        "startColumn" : 25,
+        "endLine" : 665,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parameter",
+        "key" : "parameter",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 665,
+          "startColumn" : 45,
+          "endLine" : 665,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/setParamKind"
+      }, {
+        "name" : "description",
+        "key" : "description",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 665,
+          "startColumn" : 63,
+          "endLine" : 665,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/setParamKind"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "generateTaggedValue" : {
+      "name" : "generateTaggedValue",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateTaggedValue",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 1109,
+        "startColumn" : 19,
+        "endLine" : 1109,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tv",
+        "key" : "tv",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 1109,
+          "startColumn" : 46,
+          "endLine" : 1109,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateTaggedValue"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "generateMultiplicity" : {
+      "name" : "generateMultiplicity",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateMultiplicity",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 1153,
+        "startColumn" : 26,
+        "endLine" : 1153,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "multiplicityOwner",
+        "key" : "multiplicityOwner",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 1153,
+          "startColumn" : 54,
+          "endLine" : 1153,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateMultiplicity"
+      }, {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.util.Map",
+        "position" : {
+          "startLine" : 1154,
+          "startColumn" : 17,
+          "endLine" : 1154,
+          "endColumn" : 21
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateMultiplicity"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "getType" : {
+      "name" : "getType",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/getType",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 686,
+        "startColumn" : 19,
+        "endLine" : 686,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 686,
+          "startColumn" : 34,
+          "endLine" : 686,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/getType"
+      }, {
+        "name" : "defaultSpace",
+        "key" : "defaultSpace",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 686,
+          "startColumn" : 47,
+          "endLine" : 686,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/getType"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "generateStereotype" : {
+      "name" : "generateStereotype",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateStereotype",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 985,
+        "startColumn" : 26,
+        "endLine" : 985,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "st",
+        "key" : "st",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 985,
+          "startColumn" : 52,
+          "endLine" : 985,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateStereotype"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "generateParameter" : {
+      "name" : "generateParameter",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateParameter",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 1044,
+        "startColumn" : 19,
+        "endLine" : 1044,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parameter",
+        "key" : "parameter",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 1044,
+          "startColumn" : 44,
+          "endLine" : 1044,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateParameter"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "generateActionSequence" : {
+      "name" : "generateActionSequence",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateActionSequence",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 1226,
+        "startColumn" : 19,
+        "endLine" : 1226,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "a",
+        "key" : "a",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 1226,
+          "startColumn" : 49,
+          "endLine" : 1226,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateActionSequence"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "generatePath" : {
+      "name" : "generatePath",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generatePath",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 451,
+        "startColumn" : 29,
+        "endLine" : 451,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "modelElement",
+        "key" : "modelElement",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 451,
+          "startColumn" : 49,
+          "endLine" : 451,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generatePath"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "generateVisibility" : {
+      "name" : "generateVisibility",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateVisibility",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 407,
+        "startColumn" : 26,
+        "endLine" : 407,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "o",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 407,
+          "startColumn" : 52,
+          "endLine" : 407,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateVisibility"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "indexOfNextCheckedSemicolon" : {
+      "name" : "indexOfNextCheckedSemicolon",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/indexOfNextCheckedSemicolon",
+      "type" : "int",
+      "position" : {
+        "startLine" : 862,
+        "startColumn" : 16,
+        "endLine" : 862,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "s",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 862,
+          "startColumn" : 51,
+          "endLine" : 862,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/indexOfNextCheckedSemicolon"
+      }, {
+        "name" : "start",
+        "key" : "start",
+        "type" : "int",
+        "position" : {
+          "startLine" : 862,
+          "startColumn" : 58,
+          "endLine" : 862,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/indexOfNextCheckedSemicolon"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "generateClassifierRef" : {
+      "name" : "generateClassifierRef",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateClassifierRef",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 1083,
+        "startColumn" : 27,
+        "endLine" : 1083,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "cls",
+        "key" : "cls",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 1083,
+          "startColumn" : 56,
+          "endLine" : 1083,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateClassifierRef"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "generateAction" : {
+      "name" : "generateAction",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateAction",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 1173,
+        "startColumn" : 19,
+        "endLine" : 1173,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "m",
+        "key" : "m",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 1173,
+          "startColumn" : 41,
+          "endLine" : 1173,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateAction"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "generateUninterpreted" : {
+      "name" : "generateUninterpreted",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateUninterpreted",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 1076,
+        "startColumn" : 27,
+        "endLine" : 1076,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "un",
+        "key" : "un",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1076,
+          "startColumn" : 56,
+          "endLine" : 1076,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/generateUninterpreted"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "parseParamList" : {
+      "name" : "parseParamList",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/parseParamList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 505,
+        "startColumn" : 17,
+        "endLine" : 505,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "op",
+        "key" : "op",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 505,
+          "startColumn" : 39,
+          "endLine" : 505,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/parseParamList"
+      }, {
+        "name" : "param",
+        "key" : "param",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 505,
+          "startColumn" : 50,
+          "endLine" : 505,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/parseParamList"
+      }, {
+        "name" : "paramOffset",
+        "key" : "paramOffset",
+        "type" : "int",
+        "position" : {
+          "startLine" : 505,
+          "startColumn" : 61,
+          "endLine" : 505,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/parseParamList"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "formatSingleStereotype" : {
+      "name" : "formatSingleStereotype",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/formatSingleStereotype",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 1027,
+        "startColumn" : 27,
+        "endLine" : 1027,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 1027,
+          "startColumn" : 57,
+          "endLine" : 1027,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/formatSingleStereotype"
+      }, {
+        "name" : "ps",
+        "key" : "ps",
+        "type" : "org.argouml.kernel.ProjectSettings",
+        "position" : {
+          "startLine" : 1028,
+          "startColumn" : 29,
+          "endLine" : 1028,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/formatSingleStereotype"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    },
+    "getVisibility" : {
+      "name" : "getVisibility",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/getVisibility",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 890,
+        "startColumn" : 19,
+        "endLine" : 890,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 890,
+          "startColumn" : 40,
+          "endLine" : 890,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml/method/getVisibility"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.notation.providers.uml.NotationUtilityUml.PropertySpecialString" : {
+      "name" : "PropertySpecialString",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertySpecialString",
+      "type" : "class",
+      "position" : {
+        "startLine" : 807,
+        "startColumn" : 12,
+        "endLine" : 807,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : {
+        "op" : {
+          "name" : "op",
+          "key" : "op",
+          "type" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertyOperation",
+          "position" : {
+            "startLine" : 810,
+            "startColumn" : 35,
+            "endLine" : 810,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertySpecialString/memberField/op",
+          "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertySpecialString"
+        },
+        "name" : {
+          "name" : "name",
+          "key" : "name",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 808,
+            "startColumn" : 24,
+            "endLine" : 808,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertySpecialString/memberField/name",
+          "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertySpecialString"
+        }
+      },
+      "methods" : {
+        "invoke" : {
+          "name" : "invoke",
+          "key" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertySpecialString/method/invoke",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 844,
+            "startColumn" : 17,
+            "endLine" : 844,
+            "endColumn" : 23
+          },
+          "modifiers" : [ ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "element",
+            "key" : "element",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 844,
+              "startColumn" : 31,
+              "endLine" : 844,
+              "endColumn" : 38
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertySpecialString/method/invoke"
+          }, {
+            "name" : "pname",
+            "key" : "pname",
+            "type" : "java.lang.String",
+            "position" : {
+              "startLine" : 844,
+              "startColumn" : 47,
+              "endLine" : 844,
+              "endColumn" : 52
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertySpecialString/method/invoke"
+          }, {
+            "name" : "value",
+            "key" : "value",
+            "type" : "java.lang.String",
+            "position" : {
+              "startLine" : 844,
+              "startColumn" : 61,
+              "endLine" : 844,
+              "endColumn" : 66
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertySpecialString/method/invoke"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertySpecialString"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.notation.providers.uml.NotationUtilityUml",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : {
+    "org.argouml.notation.providers.uml.NotationUtilityUml.PropertyOperation" : {
+      "name" : "PropertyOperation",
+      "key" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertyOperation",
+      "type" : "interface",
+      "position" : {
+        "startLine" : 759,
+        "startColumn" : 5,
+        "endLine" : 759,
+        "endColumn" : 14
+      },
+      "modifiers" : [ "ABSTRACT", "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "found" : {
+          "name" : "found",
+          "key" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertyOperation/method/found",
+          "type" : "void",
+          "position" : {
+            "startLine" : 769,
+            "startColumn" : 14,
+            "endLine" : 769,
+            "endColumn" : 19
+          },
+          "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "element",
+            "key" : "element",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 769,
+              "startColumn" : 27,
+              "endLine" : 769,
+              "endColumn" : 34
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertyOperation/method/found"
+          }, {
+            "name" : "value",
+            "key" : "value",
+            "type" : "java.lang.String",
+            "position" : {
+              "startLine" : 769,
+              "startColumn" : 43,
+              "endLine" : 769,
+              "endColumn" : 48
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertyOperation/method/found"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.notation.providers.uml.NotationUtilityUml.PropertyOperation"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.notation.providers.uml.NotationUtilityUml",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  }
+},

@@ -1,0 +1,557 @@
+{
+  "name" : "PropPanelTaggedValue",
+  "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue",
+  "type" : "class",
+  "position" : {
+    "startLine" : 58,
+    "startColumn" : 8,
+    "endLine" : 58,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "typeSelector" : {
+      "name" : "typeSelector",
+      "key" : "typeSelector",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 24,
+        "endLine" : 61,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue/memberField/typeSelector",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue"
+    },
+    "dataValuesScroll" : {
+      "name" : "dataValuesScroll",
+      "key" : "dataValuesScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 25,
+        "endLine" : 63,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue/memberField/dataValuesScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue"
+    },
+    "referenceValuesScroll" : {
+      "name" : "referenceValuesScroll",
+      "key" : "referenceValuesScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 25,
+        "endLine" : 62,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue/memberField/referenceValuesScroll",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue"
+    },
+    "modelElementSelector" : {
+      "name" : "modelElementSelector",
+      "key" : "modelElementSelector",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 24,
+        "endLine" : 60,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue/memberField/modelElementSelector",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue"
+    }
+  },
+  "methods" : {
+    "getTypeSelector" : {
+      "name" : "getTypeSelector",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue/method/getTypeSelector",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 134,
+        "startColumn" : 26,
+        "endLine" : 134,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue"
+    },
+    "getModelElementSelector" : {
+      "name" : "getModelElementSelector",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue/method/getModelElementSelector",
+      "type" : "javax.swing.JComponent",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 26,
+        "endLine" : 114,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue"
+    },
+    "getReferenceValuesScroll" : {
+      "name" : "getReferenceValuesScroll",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue/method/getReferenceValuesScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 27,
+        "endLine" : 91,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue"
+    },
+    "getDataValuesScroll" : {
+      "name" : "getDataValuesScroll",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue/method/getDataValuesScroll",
+      "type" : "javax.swing.JScrollPane",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 27,
+        "endLine" : 99,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.foundation.core.PropPanelModelElement" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLReferenceValueListModel" : {
+      "name" : "UMLReferenceValueListModel",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLReferenceValueListModel",
+      "type" : "class",
+      "position" : {
+        "startLine" : 299,
+        "startColumn" : 12,
+        "endLine" : 299,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "buildModelList" : {
+          "name" : "buildModelList",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLReferenceValueListModel/method/buildModelList",
+          "type" : "void",
+          "position" : {
+            "startLine" : 312,
+            "startColumn" : 24,
+            "endLine" : 312,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLReferenceValueListModel"
+        },
+        "isValidElement" : {
+          "name" : "isValidElement",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLReferenceValueListModel/method/isValidElement",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 322,
+            "startColumn" : 27,
+            "endLine" : 322,
+            "endColumn" : 41
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "element",
+            "key" : "element",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 322,
+              "startColumn" : 49,
+              "endLine" : 322,
+              "endColumn" : 56
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLReferenceValueListModel/method/isValidElement"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLReferenceValueListModel"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.uml.ui.UMLModelElementListModel2" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueTypeComboBoxModel" : {
+      "name" : "UMLTaggedValueTypeComboBoxModel",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueTypeComboBoxModel",
+      "type" : "class",
+      "position" : {
+        "startLine" : 257,
+        "startColumn" : 12,
+        "endLine" : 257,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "buildModelList" : {
+          "name" : "buildModelList",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueTypeComboBoxModel/method/buildModelList",
+          "type" : "void",
+          "position" : {
+            "startLine" : 270,
+            "startColumn" : 24,
+            "endLine" : 270,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueTypeComboBoxModel"
+        },
+        "getSelectedModelElement" : {
+          "name" : "getSelectedModelElement",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueTypeComboBoxModel/method/getSelectedModelElement",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 281,
+            "startColumn" : 26,
+            "endLine" : 281,
+            "endColumn" : 49
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueTypeComboBoxModel"
+        },
+        "isValidElement" : {
+          "name" : "isValidElement",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueTypeComboBoxModel/method/isValidElement",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 293,
+            "startColumn" : 27,
+            "endLine" : 293,
+            "endColumn" : 41
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "element",
+            "key" : "element",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 293,
+              "startColumn" : 49,
+              "endLine" : 293,
+              "endColumn" : 56
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueTypeComboBoxModel/method/isValidElement"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueTypeComboBoxModel"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.uml.ui.UMLComboBoxModel2" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.ActionSetTaggedValueType" : {
+      "name" : "ActionSetTaggedValueType",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.ActionSetTaggedValueType",
+      "type" : "class",
+      "position" : {
+        "startLine" : 227,
+        "startColumn" : 12,
+        "endLine" : 227,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "actionPerformed" : {
+          "name" : "actionPerformed",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.ActionSetTaggedValueType/method/actionPerformed",
+          "type" : "void",
+          "position" : {
+            "startLine" : 239,
+            "startColumn" : 21,
+            "endLine" : 239,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "e",
+            "key" : "e",
+            "type" : "java.awt.event.ActionEvent",
+            "position" : {
+              "startLine" : 239,
+              "startColumn" : 49,
+              "endLine" : 239,
+              "endColumn" : 50
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.ActionSetTaggedValueType/method/actionPerformed"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.ActionSetTaggedValueType"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueModelElementComboBoxModel" : {
+      "name" : "UMLTaggedValueModelElementComboBoxModel",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueModelElementComboBoxModel",
+      "type" : "class",
+      "position" : {
+        "startLine" : 181,
+        "startColumn" : 12,
+        "endLine" : 181,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "buildModelList" : {
+          "name" : "buildModelList",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueModelElementComboBoxModel/method/buildModelList",
+          "type" : "void",
+          "position" : {
+            "startLine" : 198,
+            "startColumn" : 24,
+            "endLine" : 198,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueModelElementComboBoxModel"
+        },
+        "getSelectedModelElement" : {
+          "name" : "getSelectedModelElement",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueModelElementComboBoxModel/method/getSelectedModelElement",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 209,
+            "startColumn" : 26,
+            "endLine" : 209,
+            "endColumn" : 49
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueModelElementComboBoxModel"
+        },
+        "isValidElement" : {
+          "name" : "isValidElement",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueModelElementComboBoxModel/method/isValidElement",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 221,
+            "startColumn" : 27,
+            "endLine" : 221,
+            "endColumn" : 41
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "element",
+            "key" : "element",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 221,
+              "startColumn" : 49,
+              "endLine" : 221,
+              "endColumn" : 56
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueModelElementComboBoxModel/method/isValidElement"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLTaggedValueModelElementComboBoxModel"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.uml.ui.UMLComboBoxModel2" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLDataValueListModel" : {
+      "name" : "UMLDataValueListModel",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLDataValueListModel",
+      "type" : "class",
+      "position" : {
+        "startLine" : 330,
+        "startColumn" : 12,
+        "endLine" : 330,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "buildModelList" : {
+          "name" : "buildModelList",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLDataValueListModel/method/buildModelList",
+          "type" : "void",
+          "position" : {
+            "startLine" : 343,
+            "startColumn" : 24,
+            "endLine" : 343,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLDataValueListModel"
+        },
+        "isValidElement" : {
+          "name" : "isValidElement",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLDataValueListModel/method/isValidElement",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 353,
+            "startColumn" : 27,
+            "endLine" : 353,
+            "endColumn" : 41
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "element",
+            "key" : "element",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 353,
+              "startColumn" : 49,
+              "endLine" : 353,
+              "endColumn" : 56
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLDataValueListModel/method/isValidElement"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.UMLDataValueListModel"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.argouml.uml.ui.UMLModelElementListModel2" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.ActionSetTaggedValueModelElement" : {
+      "name" : "ActionSetTaggedValueModelElement",
+      "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.ActionSetTaggedValueModelElement",
+      "type" : "class",
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 12,
+        "endLine" : 147,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "actionPerformed" : {
+          "name" : "actionPerformed",
+          "key" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.ActionSetTaggedValueModelElement/method/actionPerformed",
+          "type" : "void",
+          "position" : {
+            "startLine" : 159,
+            "startColumn" : 21,
+            "endLine" : 159,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "e",
+            "key" : "e",
+            "type" : "java.awt.event.ActionEvent",
+            "position" : {
+              "startLine" : 159,
+              "startColumn" : 49,
+              "endLine" : 159,
+              "endColumn" : 50
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.ActionSetTaggedValueModelElement/method/actionPerformed"
+          } ],
+          "classOrInterfaceKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue.ActionSetTaggedValueModelElement"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "org.tigris.gef.undo.UndoableAction" ],
+      "definedInClassOrInterfaceTypeKey" : "org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

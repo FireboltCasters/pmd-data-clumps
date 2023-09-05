@@ -1,0 +1,100 @@
+{
+  "name" : "UMLRecurrenceExpressionModel",
+  "key" : "org.argouml.uml.ui.UMLRecurrenceExpressionModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 33,
+        "endLine" : 38,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.ui.UMLRecurrenceExpressionModel/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLRecurrenceExpressionModel"
+    }
+  },
+  "methods" : {
+    "getExpression" : {
+      "name" : "getExpression",
+      "key" : "org.argouml.uml.ui.UMLRecurrenceExpressionModel/method/getExpression",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 19,
+        "endLine" : 55,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLRecurrenceExpressionModel"
+    },
+    "newExpression" : {
+      "name" : "newExpression",
+      "key" : "org.argouml.uml.ui.UMLRecurrenceExpressionModel/method/newExpression",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 19,
+        "endLine" : 76,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLRecurrenceExpressionModel"
+    },
+    "setExpression" : {
+      "name" : "setExpression",
+      "key" : "org.argouml.uml.ui.UMLRecurrenceExpressionModel/method/setExpression",
+      "type" : "void",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 17,
+        "endLine" : 63,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expression",
+        "key" : "expression",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 63,
+          "startColumn" : 38,
+          "endLine" : 63,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.UMLRecurrenceExpressionModel/method/setExpression"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.UMLRecurrenceExpressionModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "UMLExpressionModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

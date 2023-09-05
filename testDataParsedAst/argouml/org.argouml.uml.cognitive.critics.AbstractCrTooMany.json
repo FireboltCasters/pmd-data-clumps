@@ -1,0 +1,113 @@
+{
+  "name" : "AbstractCrTooMany",
+  "key" : "org.argouml.uml.cognitive.critics.AbstractCrTooMany",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 17,
+    "endLine" : 37,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "criticThreshold" : {
+      "name" : "criticThreshold",
+      "key" : "criticThreshold",
+      "type" : "int",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 17,
+        "endLine" : 39,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.cognitive.critics.AbstractCrTooMany/memberField/criticThreshold",
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.AbstractCrTooMany"
+    }
+  },
+  "methods" : {
+    "getWizardClass" : {
+      "name" : "getWizardClass",
+      "key" : "org.argouml.uml.cognitive.critics.AbstractCrTooMany/method/getWizardClass",
+      "type" : "java.lang.Class",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 18,
+        "endLine" : 68,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "item",
+        "key" : "item",
+        "type" : "org.argouml.cognitive.ToDoItem",
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 42,
+          "endLine" : 68,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.AbstractCrTooMany/method/getWizardClass"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.AbstractCrTooMany"
+    },
+    "setThreshold" : {
+      "name" : "setThreshold",
+      "key" : "org.argouml.uml.cognitive.critics.AbstractCrTooMany/method/setThreshold",
+      "type" : "void",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 17,
+        "endLine" : 48,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "threshold",
+        "key" : "threshold",
+        "type" : "int",
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 34,
+          "endLine" : 48,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.cognitive.critics.AbstractCrTooMany/method/setThreshold"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.AbstractCrTooMany"
+    },
+    "getThreshold" : {
+      "name" : "getThreshold",
+      "key" : "org.argouml.uml.cognitive.critics.AbstractCrTooMany/method/getThreshold",
+      "type" : "int",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 16,
+        "endLine" : 59,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.cognitive.critics.AbstractCrTooMany"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "CrUML" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

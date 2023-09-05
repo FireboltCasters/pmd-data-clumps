@@ -1,0 +1,68 @@
+{
+  "name" : "ElementImportImportedElementListModel",
+  "key" : "org.argouml.uml.ui.model_management.ElementImportImportedElementListModel",
+  "type" : "class",
+  "position" : {
+    "startLine" : 168,
+    "startColumn" : 1,
+    "endLine" : 168,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : { },
+  "methods" : {
+    "buildModelList" : {
+      "name" : "buildModelList",
+      "key" : "org.argouml.uml.ui.model_management.ElementImportImportedElementListModel/method/buildModelList",
+      "type" : "void",
+      "position" : {
+        "startLine" : 177,
+        "startColumn" : 20,
+        "endLine" : 177,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.ElementImportImportedElementListModel"
+    },
+    "isValidElement" : {
+      "name" : "isValidElement",
+      "key" : "org.argouml.uml.ui.model_management.ElementImportImportedElementListModel/method/isValidElement",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 184,
+        "startColumn" : 23,
+        "endLine" : 184,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "element",
+        "key" : "element",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 184,
+          "startColumn" : 45,
+          "endLine" : 184,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.ui.model_management.ElementImportImportedElementListModel/method/isValidElement"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.ui.model_management.ElementImportImportedElementListModel"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.argouml.uml.ui.UMLModelElementListModel2" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

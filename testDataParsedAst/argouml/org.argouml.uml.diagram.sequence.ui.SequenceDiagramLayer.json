@@ -1,0 +1,577 @@
+{
+  "name" : "SequenceDiagramLayer",
+  "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer",
+  "type" : "class",
+  "position" : {
+    "startLine" : 49,
+    "startColumn" : 8,
+    "endLine" : 49,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "OBJECT_DISTANCE" : {
+      "name" : "OBJECT_DISTANCE",
+      "key" : "OBJECT_DISTANCE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 29,
+        "endLine" : 60,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/memberField/OBJECT_DISTANCE",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "DIAGRAM_TOP_MARGIN" : {
+      "name" : "DIAGRAM_TOP_MARGIN",
+      "key" : "DIAGRAM_TOP_MARGIN",
+      "type" : "int",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 29,
+        "endLine" : 72,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/memberField/DIAGRAM_TOP_MARGIN",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "serialVersionUID",
+      "type" : "long",
+      "position" : {
+        "startLine" : 374,
+        "startColumn" : 31,
+        "endLine" : 374,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/memberField/serialVersionUID",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "LOG" : {
+      "name" : "LOG",
+      "key" : "LOG",
+      "type" : "org.apache.log4j.Logger",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 33,
+        "endLine" : 54,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/memberField/LOG",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "LINK_DISTANCE" : {
+      "name" : "LINK_DISTANCE",
+      "key" : "LINK_DISTANCE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 29,
+        "endLine" : 77,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/memberField/LINK_DISTANCE",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "DIAGRAM_LEFT_MARGIN" : {
+      "name" : "DIAGRAM_LEFT_MARGIN",
+      "key" : "DIAGRAM_LEFT_MARGIN",
+      "type" : "int",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 29,
+        "endLine" : 66,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/memberField/DIAGRAM_LEFT_MARGIN",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "figObjectsX" : {
+      "name" : "figObjectsX",
+      "key" : "figObjectsX",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 18,
+        "endLine" : 82,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/memberField/figObjectsX",
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    }
+  },
+  "methods" : {
+    "add" : {
+      "name" : "add",
+      "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/add",
+      "type" : "void",
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 17,
+        "endLine" : 150,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 150,
+          "startColumn" : 25,
+          "endLine" : 150,
+          "endColumn" : 26
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/add"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "getNodeIndex" : {
+      "name" : "getNodeIndex",
+      "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/getNodeIndex",
+      "type" : "int",
+      "position" : {
+        "startLine" : 179,
+        "startColumn" : 16,
+        "endLine" : 179,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "y",
+        "key" : "y",
+        "type" : "int",
+        "position" : {
+          "startLine" : 179,
+          "startColumn" : 33,
+          "endLine" : 179,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/getNodeIndex"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "updateActivations" : {
+      "name" : "updateActivations",
+      "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/updateActivations",
+      "type" : "void",
+      "position" : {
+        "startLine" : 288,
+        "startColumn" : 17,
+        "endLine" : 288,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "makeUniformNodeCount" : {
+      "name" : "makeUniformNodeCount",
+      "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/makeUniformNodeCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 204,
+        "startColumn" : 9,
+        "endLine" : 204,
+        "endColumn" : 29
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "distributeFigClassifierRoles" : {
+      "name" : "distributeFigClassifierRoles",
+      "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/distributeFigClassifierRoles",
+      "type" : "void",
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 18,
+        "endLine" : 112,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "FigClassifierRole",
+        "position" : {
+          "startLine" : 112,
+          "startColumn" : 65,
+          "endLine" : 112,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/distributeFigClassifierRoles"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "nodeAdded" : {
+      "name" : "nodeAdded",
+      "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/nodeAdded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 17,
+        "endLine" : 139,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ge",
+        "key" : "ge",
+        "type" : "org.tigris.gef.graph.GraphEvent",
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 38,
+          "endLine" : 139,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/nodeAdded"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "expandDiagram" : {
+      "name" : "expandDiagram",
+      "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/expandDiagram",
+      "type" : "void",
+      "position" : {
+        "startLine" : 242,
+        "startColumn" : 17,
+        "endLine" : 242,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "startNodeIndex",
+        "key" : "startNodeIndex",
+        "type" : "int",
+        "position" : {
+          "startLine" : 242,
+          "startColumn" : 35,
+          "endLine" : 242,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/expandDiagram"
+      }, {
+        "name" : "numberOfNodes",
+        "key" : "numberOfNodes",
+        "type" : "int",
+        "position" : {
+          "startLine" : 242,
+          "startColumn" : 55,
+          "endLine" : 242,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/expandDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "remove" : {
+      "name" : "remove",
+      "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/remove",
+      "type" : "void",
+      "position" : {
+        "startLine" : 302,
+        "startColumn" : 17,
+        "endLine" : 302,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 302,
+          "startColumn" : 28,
+          "endLine" : 302,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/remove"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "deleted" : {
+      "name" : "deleted",
+      "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/deleted",
+      "type" : "void",
+      "position" : {
+        "startLine" : 275,
+        "startColumn" : 17,
+        "endLine" : 275,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 275,
+          "startColumn" : 29,
+          "endLine" : 275,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/deleted"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "getFigMessages" : {
+      "name" : "getFigMessages",
+      "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/getFigMessages",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 352,
+        "startColumn" : 17,
+        "endLine" : 352,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "y",
+        "key" : "y",
+        "type" : "int",
+        "position" : {
+          "startLine" : 352,
+          "startColumn" : 36,
+          "endLine" : 352,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/getFigMessages"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "putInPosition" : {
+      "name" : "putInPosition",
+      "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/putInPosition",
+      "type" : "void",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 17,
+        "endLine" : 98,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 35,
+          "endLine" : 98,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/putInPosition"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "contractDiagram" : {
+      "name" : "contractDiagram",
+      "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/contractDiagram",
+      "type" : "void",
+      "position" : {
+        "startLine" : 225,
+        "startColumn" : 17,
+        "endLine" : 225,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "startNodeIndex",
+        "key" : "startNodeIndex",
+        "type" : "int",
+        "position" : {
+          "startLine" : 225,
+          "startColumn" : 37,
+          "endLine" : 225,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/contractDiagram"
+      }, {
+        "name" : "numberOfNodes",
+        "key" : "numberOfNodes",
+        "type" : "int",
+        "position" : {
+          "startLine" : 225,
+          "startColumn" : 57,
+          "endLine" : 225,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/contractDiagram"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "reshuffleFigClassifierRolesX" : {
+      "name" : "reshuffleFigClassifierRolesX",
+      "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/reshuffleFigClassifierRolesX",
+      "type" : "void",
+      "position" : {
+        "startLine" : 259,
+        "startColumn" : 18,
+        "endLine" : 259,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "f",
+        "key" : "f",
+        "type" : "org.tigris.gef.presentation.Fig",
+        "position" : {
+          "startLine" : 259,
+          "startColumn" : 51,
+          "endLine" : 259,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/reshuffleFigClassifierRolesX"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "updateNodeStates" : {
+      "name" : "updateNodeStates",
+      "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/updateNodeStates",
+      "type" : "void",
+      "position" : {
+        "startLine" : 338,
+        "startColumn" : 18,
+        "endLine" : 338,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fmp",
+        "key" : "fmp",
+        "type" : "FigMessagePort",
+        "position" : {
+          "startLine" : 338,
+          "startColumn" : 50,
+          "endLine" : 338,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/updateNodeStates"
+      }, {
+        "name" : "lifeLine",
+        "key" : "lifeLine",
+        "type" : "FigLifeLine",
+        "position" : {
+          "startLine" : 338,
+          "startColumn" : 67,
+          "endLine" : 338,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/updateNodeStates"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    },
+    "removeFigMessagePort" : {
+      "name" : "removeFigMessagePort",
+      "key" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/removeFigMessagePort",
+      "type" : "void",
+      "position" : {
+        "startLine" : 330,
+        "startColumn" : 18,
+        "endLine" : 330,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fmp",
+        "key" : "fmp",
+        "type" : "FigMessagePort",
+        "position" : {
+          "startLine" : 330,
+          "startColumn" : 54,
+          "endLine" : 330,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer/method/removeFigMessagePort"
+      } ],
+      "classOrInterfaceKey" : "org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.tigris.gef.base.LayerPerspectiveMutable" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},
