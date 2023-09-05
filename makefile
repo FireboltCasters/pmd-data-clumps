@@ -2,6 +2,7 @@
 
 # Default value for the DIRECTORY variable
 DIRECTORY := ./testSrc
+OUTPUT_FOLDER := ./output
 
 all: clean build run
 
@@ -17,8 +18,16 @@ build:
 		cp ./pmd-java-dist/target/pmd-java-bin-1.0.0-SNAPSHOT/lib/jackson-databind-2.12.3.jar ./pmd-bin-7.0.0-rc2/lib/
 
 run:
-#	./pmd-java-dist/target/pmd-java-bin-1.0.0-SNAPSHOT/bin/pmd -d /Users/nbaumgartner/Desktop/javaAnalyzeProject -f text -R custom-java-ruleset.xml
-	./pmd-bin-7.0.0-rc2/bin/pmd check -d $(DIRECTORY) -f text -R custom-java-ruleset.xml
+	@echo "Start time: $$(date)"; \
+	START_TIME=$$(date +%s); \
+	export OUTPUT_FOLDER=$(OUTPUT_FOLDER); \
+	rm -rf $(OUTPUT_FOLDER); \
+	./pmd-bin-7.0.0-rc2/bin/pmd check -d $(DIRECTORY) -f text -R custom-java-ruleset.xml; \
+	echo "End time: $$(date)"; \
+	END_TIME=$$(date +%s); \
+	ELAPSED_TIME=$$((END_TIME - START_TIME)); \
+	echo "Elapsed time: $$ELAPSED_TIME seconds"
+
 
 clean:
 	rm -rf ./pmd-java-dist/target/

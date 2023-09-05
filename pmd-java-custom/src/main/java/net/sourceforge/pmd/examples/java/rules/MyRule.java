@@ -1,5 +1,10 @@
 package net.sourceforge.pmd.examples.java.rules;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 import com.fasterxml.jackson.databind.SerializationFeature;
 import net.sourceforge.pmd.RuleContext;
 import net.sourceforge.pmd.examples.java.rules.parsedAstTypes.*;
@@ -78,26 +83,39 @@ public class MyRule extends AbstractJavaRule {
         return position;
     }
 
+        private AstPosition getAstPosition(ASTVariableDeclaratorId node){
+            AstPosition position = new AstPosition();
+            position.startLine = node.getBeginLine();
+            position.startColumn = node.getBeginColumn();
+            position.endLine = node.getEndLine();
+            position.endColumn = node.getEndColumn();
+            return position;
+        }
+
     private void extractFields(ASTClassOrInterfaceDeclaration node, ClassOrInterfaceTypeContext classContext){
         List<ASTFieldDeclaration> fields = node.descendants(ASTFieldDeclaration.class).toList();
 
+        String memberFieldKeyPre = getClassOrInterfaceKey(node)+"/memberField/";
+
         // search for rows like: private ArrayList javaArrayList, anotherArrayList[];
         for (ASTFieldDeclaration field : fields) {
-            System.out.println("field: "+field.getVariableName());
+            //String memberFieldKey = "";
+
             // now get from a row like: private ArrayList javaArrayList, anotherArrayList[];
             // the individual : javaArrayList and anotherArrayList[]
             List<ASTVariableDeclaratorId> fieldVariableDeclarators = field.descendants(ASTVariableDeclaratorId.class).toList();
             for(ASTVariableDeclaratorId fieldVariableDeclarator: fieldVariableDeclarators){
+                String memberFieldKey = "";
                 MemberFieldParameterTypeContext fieldContext = new MemberFieldParameterTypeContext();
                 // Set the properties of the fieldContext based on the field
                 fieldContext.name = fieldVariableDeclarator.getName();
                 fieldContext.key = fieldVariableDeclarator.getName();
 
+                // TODO: what is is varargs?
                 fieldContext.type = this.getQualifiedNameUnsafe(fieldVariableDeclarator.getTypeMirror());
 
-
                 // Set the position
-                fieldContext.position = this.getAstPosition(field);
+                fieldContext.position = this.getAstPosition(fieldVariableDeclarator);
 
                 fieldContext.classOrInterfaceKey = node.getCanonicalName();
 
@@ -110,11 +128,23 @@ public class MyRule extends AbstractJavaRule {
 
                 // Add the fieldContext to the classContext.fields
                 classContext.fields.put(fieldContext.name, fieldContext);
+                memberFieldKey = memberFieldKeyPre+fieldContext.key;
+
+                fieldContext.memberFieldKey = memberFieldKey;
             }
+            /**
+            // remove the last comma
+            if(memberFieldKey.length()>0){
+                memberFieldKey = memberFieldKey.substring(0, memberFieldKey.length()-1);
+            }
+            System.out.println("memberFieldKey: "+memberFieldKey);
+            */
         }
     }
 
     private void extractMethods(ASTClassOrInterfaceDeclaration node, ClassOrInterfaceTypeContext classContext){
+
+        String classOrInterfaceKey = getClassOrInterfaceKey(node);
 
         // If you want to only get the fields of the top-level class and not any inner classes, you would need to add a check to exclude fields that belong to inner classes. One way to do this could be to check the parent of each field and see if it's the top-level class node.
         List<ASTMethodDeclaration> methods = node.descendants(ASTMethodDeclaration.class).toList();
@@ -123,7 +153,7 @@ public class MyRule extends AbstractJavaRule {
             MethodTypeContext methodContext = new MethodTypeContext();
             // Set the properties of the methodContext based on the method
             methodContext.name = method.getMethodName();
-            methodContext.key = method.getMethodName(); // or other unique key
+            methodContext.key = classOrInterfaceKey+"/method/"+method.getMethodName(); // or other unique key
             methodContext.type = this.getQualifiedNameUnsafe(method.getResultTypeNode().getTypeMirror());
 
             // Set the position
@@ -145,31 +175,45 @@ public class MyRule extends AbstractJavaRule {
 
             methodContext.overrideAnnotation = method.isOverridden();
 
-
             // Extract the parameters
-            List<ASTFormalParameter> parameters = method.findChildrenOfType(ASTFormalParameter.class);
+            ASTFormalParameters parameters = method.getFormalParameters();
             for (ASTFormalParameter parameter : parameters) {
+
+                ASTVariableDeclaratorId parameterVariableDeclarator = parameter.getVarId();
 
                 MethodParameterTypeContext parameterContext = new MethodParameterTypeContext();
                 // Set the properties of the parameterContext based on the parameter
-                parameterContext.name = parameter.getImage();
-                parameterContext.key = parameter.getImage(); // or other unique key
-                parameterContext.type = this.getQualifiedNameUnsafe(parameter.getTypeMirror());
+                // now get from a row like: private ArrayList javaArrayList, anotherArrayList[];
+                // the individual : javaArrayList and anotherArrayList[]
+                String memberFieldKey = "";
+                // Set the properties of the fieldContext based on the field
+                parameterContext.name = parameterVariableDeclarator.getName();
+                parameterContext.key = parameterVariableDeclarator.getName();
+
+                // TODO: what is is varargs?
+                parameterContext.type = this.getQualifiedNameUnsafe(parameterVariableDeclarator.getTypeMirror());
+                /**
+                if (parameter.isVarargs()) {  // Hypothetical method; check PMD documentation
+                    System.out.println("This is a varargs parameter: " + parameter.getImage());
+                } else if (parameter.isArray()) {  // Hypothetical method; check PMD documentation
+                    System.out.println("This is an array parameter: " + parameter.getImage());
+                } else {
+                    System.out.println("This is a regular parameter: " + parameter.getImage());
+                }
+                */
+
 
                 // Set the position
-                AstPosition parameter_position = new AstPosition();
-                parameter_position.startLine = parameter.getBeginLine();
-                parameter_position.startColumn = parameter.getBeginColumn();
-                parameter_position.endLine = parameter.getEndLine();
-                parameter_position.endColumn = parameter.getEndColumn();
-                parameterContext.position = parameter_position;
+                parameterContext.position = this.getAstPosition(parameterVariableDeclarator);
 
                 // Extract the modifiers
-                ASTModifierList parameterModifiers = parameter.getFirstDescendantOfType(ASTModifierList.class);
-                Set<JModifier> parameterModifierSet = parameterModifiers.getEffectiveModifiers();
-                if (parameterModifierSet != null) {
-                    parameterContext.modifiers = parameterModifierSet.stream().map(Enum::name).collect(Collectors.toList());
+                ASTModifierList fieldModifiers = parameter.getFirstDescendantOfType(ASTModifierList.class);
+                Set<JModifier> modifierSet = fieldModifiers.getEffectiveModifiers();
+                if (modifierSet != null) {
+                    parameterContext.modifiers = modifierSet.stream().map(Enum::name).collect(Collectors.toList());
                 }
+
+                parameterContext.methodKey = methodContext.key;
 
                 // Add the parameterContext to the methodContext.parameters
                 methodContext.parameters.add(parameterContext);
@@ -181,11 +225,19 @@ public class MyRule extends AbstractJavaRule {
         }
     }
 
+    private String getClassOrInterfaceKey(ASTClassOrInterfaceDeclaration node){
+        String classOrInterfaceKey = node.getCanonicalName();
+        if(classOrInterfaceKey==null){
+            classOrInterfaceKey = node.getSimpleName();
+        }
+        return classOrInterfaceKey;
+    }
+
     private void extractClassInformations(ASTClassOrInterfaceDeclaration node, ClassOrInterfaceTypeContext classContext){
 
         // Set the properties of the classContext based on the node
         classContext.name = node.getSimpleName();
-        classContext.key = node.getCanonicalName();
+        classContext.key = getClassOrInterfaceKey(node);
         classContext.type = node.isInterface() ? "interface" : "class";
         // Set the position
         AstPosition class_position = new AstPosition();
@@ -247,9 +299,8 @@ public class MyRule extends AbstractJavaRule {
 
             String fullQualifiedNameWithGenerics = fullQualifiedName + genericQualifiedNames;
             String prettyString = TypePrettyPrint.prettyPrint(typeMirror);
-            System.out.println("-- prettyString: "+prettyString);
-
-            System.out.println("--> fullQualifiedNameWithGenerics: "+fullQualifiedNameWithGenerics);
+//            System.out.println("-- prettyString: "+prettyString);
+//            System.out.println("--> fullQualifiedNameWithGenerics: "+fullQualifiedNameWithGenerics);
             return fullQualifiedName;
         }
         return null;
@@ -283,7 +334,7 @@ public class MyRule extends AbstractJavaRule {
     }
 
     private ClassOrInterfaceTypeContext visitClassOrInterface(ASTClassOrInterfaceDeclaration node){
-        System.out.println("ASTClassOrInterfaceDeclaration");
+        //System.out.println("ASTClassOrInterfaceDeclaration");
 
         // Create a new instance of your ClassOrInterfaceTypeContext class
         ClassOrInterfaceTypeContext classContext = new ClassOrInterfaceTypeContext();
@@ -308,10 +359,6 @@ public class MyRule extends AbstractJavaRule {
         // recursive call for inner classes
         this.visitInnerClassesOrInterfaces(node, classContext);
 
-
-        // Write the outputRow to the file
-        // ...
-
         return classContext;
     }
 
@@ -330,16 +377,46 @@ public class MyRule extends AbstractJavaRule {
     }
 
     public Object visit(ASTClassOrInterfaceDeclaration node, Object data) {
-        System.out.println(node.getCanonicalName());
+        //System.out.println(node.getCanonicalName());
 
         ClassOrInterfaceTypeContext classContext = this.visitClassOrInterface(node);
 
+        //String outputFolder = System.getenv("DEBUG"); check if print debug or so
+        boolean debug = false;
+
         // Convert the classContext to JSON and add it to the output
         String outputRow = MyRule.convertToJson(classContext) + ",\n";
+        String fileName = classContext.key+".json";
 
-        System.out.println(outputRow);
+        if(debug){
+            System.out.println("fileName: "+fileName);
+            System.out.println(outputRow);
+            System.out.println("######################");
+        } else {
+            // Access the OUTPUT_FOLDER environment variable
+            String outputFolder = System.getenv("OUTPUT_FOLDER");
+            if (outputFolder == null) {
+                outputFolder = "./output";  // Default to current directory if not set
+            }
 
-        System.out.println("######################");
+//            String fileName = classContext.key;
+
+            // Create a File object
+            File file = new File(outputFolder, fileName);
+
+            // Create output folder if it doesn't exist
+            new File(outputFolder).mkdirs();
+
+            // Write the outputRow to a file
+            try (BufferedWriter writer = new BufferedWriter(new FileWriter(file, true))) {
+                writer.write(outputRow);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            // Print the absolute path of the file
+            System.out.println("AST Generated for: " + file.getAbsolutePath());
+        }
 
         //return super.visit(node, data);
         return null;
