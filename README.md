@@ -1,6 +1,6 @@
 # PMD Data Clumps
 
-This project should parse a projects classes, interfaces, methods and fields. This should increase the speed of: https://github.com/FireboltCasters/data-clumps which uses AntLR4 in web. This could be extracted to a server which then calls this jar and gives the parsed output back to [data-clumps](https://github.com/FireboltCasters/data-clumps).
+This project should parse a projects classes, interfaces, methods and fields. This should increase the speed of: https://github.com/FireboltCasters/data-clumps which uses AntLR4 in web. This could be extracted to a server which then calls this jar and gives the parsed output back to [data-clumps](https://github.com/FireboltCasters/data-clumps). Since the speed up in parsing is significant we then only pass the parsed files to the next python programm.
 
 ### Speed comparison
 
@@ -13,7 +13,9 @@ This project should parse a projects classes, interfaces, methods and fields. Th
 This shows a significant speed increase by using this project.
 
 
-## Setup
+## Usage
+
+### 1. Parsing your project
 
 For example our <Path_to_Project> is: /Users/nbaumgartner/Desktop/javaAnalyzeProject
 
@@ -21,6 +23,12 @@ For example our <Path_to_Project> is: /Users/nbaumgartner/Desktop/javaAnalyzePro
 make setup
 make build
 make run DIRECTORY=<Path_to_Project> OUTPUT_FOLDER<Output_Folder>
+```
+
+### 2. Analysing the parsed files
+
+```
+
 ```
 
 ## Roadmap:
