@@ -1,0 +1,102 @@
+{
+  "name" : "YellOnFlushAndCloseOutputStream",
+  "key" : "org.apache.commons.io.testtools.YellOnFlushAndCloseOutputStream",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "yellForFlush" : {
+      "name" : "yellForFlush",
+      "key" : "yellForFlush",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 21,
+        "endLine" : 33,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.testtools.YellOnFlushAndCloseOutputStream/memberField/yellForFlush",
+      "classOrInterfaceKey" : "org.apache.commons.io.testtools.YellOnFlushAndCloseOutputStream"
+    },
+    "yellForClose" : {
+      "name" : "yellForClose",
+      "key" : "yellForClose",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 21,
+        "endLine" : 34,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.testtools.YellOnFlushAndCloseOutputStream/memberField/yellForClose",
+      "classOrInterfaceKey" : "org.apache.commons.io.testtools.YellOnFlushAndCloseOutputStream"
+    }
+  },
+  "methods" : {
+    "flush" : {
+      "name" : "flush",
+      "key" : "org.apache.commons.io.testtools.YellOnFlushAndCloseOutputStream/method/flush",
+      "type" : "void",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 17,
+        "endLine" : 48,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.testtools.YellOnFlushAndCloseOutputStream"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.io.testtools.YellOnFlushAndCloseOutputStream/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.testtools.YellOnFlushAndCloseOutputStream"
+    },
+    "off" : {
+      "name" : "off",
+      "key" : "org.apache.commons.io.testtools.YellOnFlushAndCloseOutputStream/method/off",
+      "type" : "void",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 17,
+        "endLine" : 63,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.testtools.YellOnFlushAndCloseOutputStream"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.io.output.ProxyOutputStream" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

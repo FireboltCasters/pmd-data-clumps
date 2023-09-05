@@ -1,0 +1,81 @@
+{
+  "name" : "CopyUtils",
+  "key" : "org.apache.commons.io.CopyUtils",
+  "type" : "class",
+  "position" : {
+    "startLine" : 114,
+    "startColumn" : 8,
+    "endLine" : 114,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "DEFAULT_BUFFER_SIZE" : {
+      "name" : "DEFAULT_BUFFER_SIZE",
+      "key" : "DEFAULT_BUFFER_SIZE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 30,
+        "endLine" : 119,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.CopyUtils/memberField/DEFAULT_BUFFER_SIZE",
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtils"
+    }
+  },
+  "methods" : {
+    "copy" : {
+      "name" : "copy",
+      "key" : "org.apache.commons.io.CopyUtils/method/copy",
+      "type" : "void",
+      "position" : {
+        "startLine" : 327,
+        "startColumn" : 24,
+        "endLine" : 327,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "input",
+        "key" : "input",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 327,
+          "startColumn" : 36,
+          "endLine" : 327,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.CopyUtils/method/copy"
+      }, {
+        "name" : "output",
+        "key" : "output",
+        "type" : "java.io.Writer",
+        "position" : {
+          "startLine" : 327,
+          "startColumn" : 50,
+          "endLine" : 327,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.CopyUtils/method/copy"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.CopyUtils"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

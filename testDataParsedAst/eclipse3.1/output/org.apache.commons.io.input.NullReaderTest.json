@@ -1,0 +1,246 @@
+{
+  "name" : "NullReaderTest",
+  "key" : "org.apache.commons.io.input.NullReaderTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "testEOFException" : {
+      "name" : "testEOFException",
+      "key" : "org.apache.commons.io.input.NullReaderTest/method/testEOFException",
+      "type" : "void",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 17,
+        "endLine" : 123,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReaderTest"
+    },
+    "testMarkNotSupported" : {
+      "name" : "testMarkNotSupported",
+      "key" : "org.apache.commons.io.input.NullReaderTest/method/testMarkNotSupported",
+      "type" : "void",
+      "position" : {
+        "startLine" : 191,
+        "startColumn" : 17,
+        "endLine" : 191,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReaderTest"
+    },
+    "testSkip" : {
+      "name" : "testSkip",
+      "key" : "org.apache.commons.io.input.NullReaderTest/method/testSkip",
+      "type" : "void",
+      "position" : {
+        "startLine" : 213,
+        "startColumn" : 16,
+        "endLine" : 213,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReaderTest"
+    },
+    "testReadCharArray" : {
+      "name" : "testReadCharArray",
+      "key" : "org.apache.commons.io.input.NullReaderTest/method/testReadCharArray",
+      "type" : "void",
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 17,
+        "endLine" : 76,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReaderTest"
+    },
+    "testMarkAndReset" : {
+      "name" : "testMarkAndReset",
+      "key" : "org.apache.commons.io.input.NullReaderTest/method/testMarkAndReset",
+      "type" : "void",
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 17,
+        "endLine" : 138,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReaderTest"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.io.input.NullReaderTest/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 20,
+        "endLine" : 38,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReaderTest"
+    },
+    "testRead" : {
+      "name" : "testRead",
+      "key" : "org.apache.commons.io.input.NullReaderTest/method/testRead",
+      "type" : "void",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 17,
+        "endLine" : 50,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReaderTest"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.io.input.NullReaderTest/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 20,
+        "endLine" : 43,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullReaderTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.apache.commons.io.input.NullReaderTest.TestNullReader" : {
+      "name" : "TestNullReader",
+      "key" : "org.apache.commons.io.input.NullReaderTest.TestNullReader",
+      "type" : "class",
+      "position" : {
+        "startLine" : 234,
+        "startColumn" : 26,
+        "endLine" : 234,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : {
+        "processChars" : {
+          "name" : "processChars",
+          "key" : "org.apache.commons.io.input.NullReaderTest.TestNullReader/method/processChars",
+          "type" : "void",
+          "position" : {
+            "startLine" : 244,
+            "startColumn" : 24,
+            "endLine" : 244,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "chars",
+            "key" : "chars",
+            "type" : "char[]",
+            "position" : {
+              "startLine" : 244,
+              "startColumn" : 44,
+              "endLine" : 244,
+              "endColumn" : 49
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.io.input.NullReaderTest.TestNullReader/method/processChars"
+          }, {
+            "name" : "offset",
+            "key" : "offset",
+            "type" : "int",
+            "position" : {
+              "startLine" : 244,
+              "startColumn" : 55,
+              "endLine" : 244,
+              "endColumn" : 61
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.io.input.NullReaderTest.TestNullReader/method/processChars"
+          }, {
+            "name" : "length",
+            "key" : "length",
+            "type" : "int",
+            "position" : {
+              "startLine" : 244,
+              "startColumn" : 67,
+              "endLine" : 244,
+              "endColumn" : 73
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.io.input.NullReaderTest.TestNullReader/method/processChars"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.io.input.NullReaderTest.TestNullReader"
+        },
+        "processChar" : {
+          "name" : "processChar",
+          "key" : "org.apache.commons.io.input.NullReaderTest.TestNullReader/method/processChar",
+          "type" : "int",
+          "position" : {
+            "startLine" : 241,
+            "startColumn" : 23,
+            "endLine" : 241,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.io.input.NullReaderTest.TestNullReader"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "NullReader" ],
+      "definedInClassOrInterfaceTypeKey" : "org.apache.commons.io.input.NullReaderTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

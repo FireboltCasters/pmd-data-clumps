@@ -1,0 +1,103 @@
+{
+  "name" : "DateTimeCustomConfigTestCase",
+  "key" : "org.apache.commons.logging.simple.DateTimeCustomConfigTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.logging.simple.DateTimeCustomConfigTestCase/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 24,
+        "endLine" : 48,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.DateTimeCustomConfigTestCase"
+    },
+    "setProperties" : {
+      "name" : "setProperties",
+      "key" : "org.apache.commons.logging.simple.DateTimeCustomConfigTestCase/method/setProperties",
+      "type" : "void",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 17,
+        "endLine" : 66,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.DateTimeCustomConfigTestCase"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.logging.simple.DateTimeCustomConfigTestCase/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 17,
+        "endLine" : 80,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.DateTimeCustomConfigTestCase"
+    },
+    "checkShowDateTime" : {
+      "name" : "checkShowDateTime",
+      "key" : "org.apache.commons.logging.simple.DateTimeCustomConfigTestCase/method/checkShowDateTime",
+      "type" : "void",
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 20,
+        "endLine" : 100,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.DateTimeCustomConfigTestCase"
+    },
+    "checkDecoratedDateTime" : {
+      "name" : "checkDecoratedDateTime",
+      "key" : "org.apache.commons.logging.simple.DateTimeCustomConfigTestCase/method/checkDecoratedDateTime",
+      "type" : "void",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 20,
+        "endLine" : 88,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.DateTimeCustomConfigTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "CustomConfigTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

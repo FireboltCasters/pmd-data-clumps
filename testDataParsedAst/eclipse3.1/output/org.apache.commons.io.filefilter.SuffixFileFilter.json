@@ -1,0 +1,81 @@
+{
+  "name" : "SuffixFileFilter",
+  "key" : "org.apache.commons.io.filefilter.SuffixFileFilter",
+  "type" : "class",
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "suffixes" : {
+      "name" : "suffixes",
+      "key" : "suffixes",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 22,
+        "endLine" : 48,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.filefilter.SuffixFileFilter/memberField/suffixes",
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.SuffixFileFilter"
+    }
+  },
+  "methods" : {
+    "accept" : {
+      "name" : "accept",
+      "key" : "org.apache.commons.io.filefilter.SuffixFileFilter/method/accept",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 20,
+        "endLine" : 116,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "file",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 116,
+          "startColumn" : 32,
+          "endLine" : 116,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.filefilter.SuffixFileFilter/method/accept"
+      }, {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 116,
+          "startColumn" : 45,
+          "endLine" : 116,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.filefilter.SuffixFileFilter/method/accept"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.SuffixFileFilter"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbstractFileFilter" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,270 @@
+{
+  "name" : "FTPClientConfigTest",
+  "key" : "org.apache.commons.net.ftp.FTPClientConfigTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 26,
+    "startColumn" : 8,
+    "endLine" : 26,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "tooShort" : {
+      "name" : "tooShort",
+      "key" : "tooShort",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 12,
+        "endLine" : 65,
+        "endColumn" : 20
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfigTest/memberField/tooShort",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    },
+    "A" : {
+      "name" : "A",
+      "key" : "A",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 12,
+        "endLine" : 41,
+        "endColumn" : 13
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfigTest/memberField/A",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    },
+    "B" : {
+      "name" : "B",
+      "key" : "B",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 12,
+        "endLine" : 42,
+        "endColumn" : 13
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfigTest/memberField/B",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    },
+    "C" : {
+      "name" : "C",
+      "key" : "C",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 12,
+        "endLine" : 43,
+        "endColumn" : 13
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfigTest/memberField/C",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    },
+    "D" : {
+      "name" : "D",
+      "key" : "D",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 12,
+        "endLine" : 44,
+        "endColumn" : 13
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfigTest/memberField/D",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    },
+    "E" : {
+      "name" : "E",
+      "key" : "E",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 12,
+        "endLine" : 45,
+        "endColumn" : 13
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfigTest/memberField/E",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    },
+    "F" : {
+      "name" : "F",
+      "key" : "F",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 12,
+        "endLine" : 46,
+        "endColumn" : 13
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfigTest/memberField/F",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    },
+    "badDelim" : {
+      "name" : "badDelim",
+      "key" : "badDelim",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 12,
+        "endLine" : 63,
+        "endColumn" : 20
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfigTest/memberField/badDelim",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    },
+    "tooLong" : {
+      "name" : "tooLong",
+      "key" : "tooLong",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 12,
+        "endLine" : 64,
+        "endColumn" : 19
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfigTest/memberField/tooLong",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    },
+    "fakeLang" : {
+      "name" : "fakeLang",
+      "key" : "fakeLang",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 12,
+        "endLine" : 66,
+        "endColumn" : 20
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPClientConfigTest/memberField/fakeLang",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    }
+  },
+  "methods" : {
+    "testSetShortMonthNames" : {
+      "name" : "testSetShortMonthNames",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfigTest/method/testSetShortMonthNames",
+      "type" : "void",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 17,
+        "endLine" : 68,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    },
+    "testLookupDateFormatSymbols" : {
+      "name" : "testLookupDateFormatSymbols",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfigTest/method/testLookupDateFormatSymbols",
+      "type" : "void",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 17,
+        "endLine" : 74,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    },
+    "testFTPClientConfigStringStringStringStringStringString" : {
+      "name" : "testFTPClientConfigStringStringStringStringStringString",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfigTest/method/testFTPClientConfigStringStringStringStringStringString",
+      "type" : "void",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 17,
+        "endLine" : 51,
+        "endColumn" : 72
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    },
+    "testFTPClientConfigString" : {
+      "name" : "testFTPClientConfigString",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfigTest/method/testFTPClientConfigString",
+      "type" : "void",
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 17,
+        "endLine" : 31,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    },
+    "testGetDateFormatSymbols" : {
+      "name" : "testGetDateFormatSymbols",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfigTest/method/testGetDateFormatSymbols",
+      "type" : "void",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 17,
+        "endLine" : 132,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    },
+    "testGetServerLanguageCode" : {
+      "name" : "testGetServerLanguageCode",
+      "key" : "org.apache.commons.net.ftp.FTPClientConfigTest/method/testGetServerLanguageCode",
+      "type" : "void",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 17,
+        "endLine" : 71,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPClientConfigTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,68 @@
+{
+  "name" : "ArrayListHandler",
+  "key" : "org.apache.commons.dbutils.handlers.ArrayListHandler",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "convert" : {
+      "name" : "convert",
+      "key" : "convert",
+      "type" : "org.apache.commons.dbutils.RowProcessor",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 26,
+        "endLine" : 37,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.handlers.ArrayListHandler/memberField/convert",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.handlers.ArrayListHandler"
+    }
+  },
+  "methods" : {
+    "handleRow" : {
+      "name" : "handleRow",
+      "key" : "org.apache.commons.dbutils.handlers.ArrayListHandler/method/handleRow",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 22,
+        "endLine" : 67,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rs",
+        "key" : "rs",
+        "type" : "java.sql.ResultSet",
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 42,
+          "endLine" : 67,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.handlers.ArrayListHandler/method/handleRow"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.handlers.ArrayListHandler"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "GenericListHandler" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

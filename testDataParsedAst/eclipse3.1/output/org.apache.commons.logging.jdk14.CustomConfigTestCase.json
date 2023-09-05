@@ -1,0 +1,393 @@
+{
+  "name" : "CustomConfigTestCase",
+  "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "handler" : {
+      "name" : "handler",
+      "key" : "handler",
+      "type" : "TestHandler",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 27,
+        "endLine" : 63,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/memberField/handler",
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "manager" : {
+      "name" : "manager",
+      "key" : "manager",
+      "type" : "java.util.logging.LogManager",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 26,
+        "endLine" : 81,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/memberField/manager",
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "handlers" : {
+      "name" : "handlers",
+      "key" : "handlers",
+      "type" : "java.util.logging.Handler[]",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 23,
+        "endLine" : 69,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/memberField/handlers",
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "testLevels" : {
+      "name" : "testLevels",
+      "key" : "testLevels",
+      "type" : "java.util.logging.Level[]",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 21,
+        "endLine" : 87,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/memberField/testLevels",
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "testMessages" : {
+      "name" : "testMessages",
+      "key" : "testMessages",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 22,
+        "endLine" : 94,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/memberField/testMessages",
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "logger" : {
+      "name" : "logger",
+      "key" : "logger",
+      "type" : "java.util.logging.Logger",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 22,
+        "endLine" : 75,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/memberField/logger",
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    }
+  },
+  "methods" : {
+    "testPristineLogger" : {
+      "name" : "testPristineLogger",
+      "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/testPristineLogger",
+      "type" : "void",
+      "position" : {
+        "startLine" : 176,
+        "startColumn" : 17,
+        "endLine" : 176,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "checkLog" : {
+      "name" : "checkLog",
+      "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/checkLog",
+      "type" : "void",
+      "position" : {
+        "startLine" : 206,
+        "startColumn" : 20,
+        "endLine" : 206,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "setUpHandlers" : {
+      "name" : "setUpHandlers",
+      "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/setUpHandlers",
+      "type" : "void",
+      "position" : {
+        "startLine" : 284,
+        "startColumn" : 20,
+        "endLine" : 284,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "checkLogRecords" : {
+      "name" : "checkLogRecords",
+      "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/checkLogRecords",
+      "type" : "void",
+      "position" : {
+        "startLine" : 225,
+        "startColumn" : 20,
+        "endLine" : 225,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "thrown",
+        "key" : "thrown",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 225,
+          "startColumn" : 44,
+          "endLine" : 225,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/checkLogRecords"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 135,
+        "startColumn" : 17,
+        "endLine" : 135,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "testPristineHandlers" : {
+      "name" : "testPristineHandlers",
+      "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/testPristineHandlers",
+      "type" : "void",
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 17,
+        "endLine" : 165,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 117,
+        "startColumn" : 24,
+        "endLine" : 117,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "testPlainMessages" : {
+      "name" : "testPlainMessages",
+      "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/testPlainMessages",
+      "type" : "void",
+      "position" : {
+        "startLine" : 156,
+        "startColumn" : 17,
+        "endLine" : 156,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "testSerializable" : {
+      "name" : "testSerializable",
+      "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/testSerializable",
+      "type" : "void",
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 17,
+        "endLine" : 194,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "testExceptionMessages" : {
+      "name" : "testExceptionMessages",
+      "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/testExceptionMessages",
+      "type" : "void",
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 17,
+        "endLine" : 147,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "logPlainMessages" : {
+      "name" : "logPlainMessages",
+      "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/logPlainMessages",
+      "type" : "void",
+      "position" : {
+        "startLine" : 273,
+        "startColumn" : 20,
+        "endLine" : 273,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 17,
+        "endLine" : 104,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "logExceptionMessages" : {
+      "name" : "logExceptionMessages",
+      "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/logExceptionMessages",
+      "type" : "void",
+      "position" : {
+        "startLine" : 261,
+        "startColumn" : 20,
+        "endLine" : 261,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "setUpManager" : {
+      "name" : "setUpManager",
+      "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/setUpManager",
+      "type" : "void",
+      "position" : {
+        "startLine" : 318,
+        "startColumn" : 20,
+        "endLine" : 318,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "config",
+        "key" : "config",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 318,
+          "startColumn" : 40,
+          "endLine" : 318,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/setUpManager"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    },
+    "setUpLogger" : {
+      "name" : "setUpLogger",
+      "key" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/setUpLogger",
+      "type" : "void",
+      "position" : {
+        "startLine" : 312,
+        "startColumn" : 20,
+        "endLine" : 312,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 312,
+          "startColumn" : 39,
+          "endLine" : 312,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase/method/setUpLogger"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.jdk14.CustomConfigTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "DefaultConfigTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

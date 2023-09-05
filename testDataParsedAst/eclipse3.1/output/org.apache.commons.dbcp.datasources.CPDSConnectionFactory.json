@@ -1,0 +1,437 @@
+{
+  "name" : "CPDSConnectionFactory",
+  "key" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 1,
+    "endLine" : 43,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "pcMap" : {
+      "name" : "pcMap",
+      "key" : "pcMap",
+      "type" : "java.util.WeakHashMap",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 25,
+        "endLine" : 56,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/memberField/pcMap",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "NO_KEY_MESSAGE" : {
+      "name" : "NO_KEY_MESSAGE",
+      "key" : "NO_KEY_MESSAGE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 33,
+        "endLine" : 46,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/memberField/NO_KEY_MESSAGE",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "_cpds" : {
+      "name" : "_cpds",
+      "key" : "_cpds",
+      "type" : "javax.sql.ConnectionPoolDataSource",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 40,
+        "endLine" : 50,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/memberField/_cpds",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "validatingMap" : {
+      "name" : "validatingMap",
+      "key" : "validatingMap",
+      "type" : "java.util.Map",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 17,
+        "endLine" : 55,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/memberField/validatingMap",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "_pool" : {
+      "name" : "_pool",
+      "key" : "_pool",
+      "type" : "org.apache.commons.pool.ObjectPool",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 26,
+        "endLine" : 52,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/memberField/_pool",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "_password" : {
+      "name" : "_password",
+      "key" : "_password",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 22,
+        "endLine" : 54,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/memberField/_password",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "_username" : {
+      "name" : "_username",
+      "key" : "_username",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 22,
+        "endLine" : 53,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/memberField/_username",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "_validationQuery" : {
+      "name" : "_validationQuery",
+      "key" : "_validationQuery",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 22,
+        "endLine" : 51,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/memberField/_validationQuery",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    }
+  },
+  "methods" : {
+    "setPool" : {
+      "name" : "setPool",
+      "key" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/setPool",
+      "type" : "void",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 30,
+        "endLine" : 110,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pool",
+        "key" : "pool",
+        "type" : "org.apache.commons.pool.ObjectPool",
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 49,
+          "endLine" : 110,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/setPool"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "connectionErrorOccurred" : {
+      "name" : "connectionErrorOccurred",
+      "key" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/connectionErrorOccurred",
+      "type" : "void",
+      "position" : {
+        "startLine" : 252,
+        "startColumn" : 17,
+        "endLine" : 252,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "javax.sql.ConnectionEvent",
+        "position" : {
+          "startLine" : 252,
+          "startColumn" : 57,
+          "endLine" : 252,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/connectionErrorOccurred"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "destroyObject" : {
+      "name" : "destroyObject",
+      "key" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/destroyObject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 17,
+        "endLine" : 147,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 147,
+          "startColumn" : 38,
+          "endLine" : 147,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/destroyObject"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "validateObject" : {
+      "name" : "validateObject",
+      "key" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/validateObject",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 20,
+        "endLine" : 153,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 153,
+          "startColumn" : 42,
+          "endLine" : 153,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/validateObject"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "setCPDS" : {
+      "name" : "setCPDS",
+      "key" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/setCPDS",
+      "type" : "void",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 30,
+        "endLine" : 89,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "cpds",
+        "key" : "cpds",
+        "type" : "javax.sql.ConnectionPoolDataSource",
+        "position" : {
+          "startLine" : 89,
+          "startColumn" : 63,
+          "endLine" : 89,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/setCPDS"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "getPool" : {
+      "name" : "getPool",
+      "key" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/getPool",
+      "type" : "org.apache.commons.pool.ObjectPool",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 23,
+        "endLine" : 123,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "makeObject" : {
+      "name" : "makeObject",
+      "key" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/makeObject",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 127,
+        "startColumn" : 32,
+        "endLine" : 127,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "setValidationQuery" : {
+      "name" : "setValidationQuery",
+      "key" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/setValidationQuery",
+      "type" : "void",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 30,
+        "endLine" : 101,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "validationQuery",
+        "key" : "validationQuery",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 56,
+          "endLine" : 101,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/setValidationQuery"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "passivateObject" : {
+      "name" : "passivateObject",
+      "key" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/passivateObject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 206,
+        "startColumn" : 17,
+        "endLine" : 206,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 206,
+          "startColumn" : 40,
+          "endLine" : 206,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/passivateObject"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "connectionClosed" : {
+      "name" : "connectionClosed",
+      "key" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/connectionClosed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 222,
+        "startColumn" : 17,
+        "endLine" : 222,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "event",
+        "type" : "javax.sql.ConnectionEvent",
+        "position" : {
+          "startLine" : 222,
+          "startColumn" : 50,
+          "endLine" : 222,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/connectionClosed"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    },
+    "activateObject" : {
+      "name" : "activateObject",
+      "key" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/activateObject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 209,
+        "startColumn" : 17,
+        "endLine" : 209,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 209,
+          "startColumn" : 39,
+          "endLine" : 209,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory/method/activateObject"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.CPDSConnectionFactory"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.apache.commons.pool.PoolableObjectFactory", "javax.sql.ConnectionEventListener" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

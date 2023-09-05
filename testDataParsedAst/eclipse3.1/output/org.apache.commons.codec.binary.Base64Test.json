@@ -1,0 +1,452 @@
+{
+  "name" : "Base64Test",
+  "key" : "org.apache.commons.codec.binary.Base64Test",
+  "type" : "class",
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "_random" : {
+      "name" : "_random",
+      "key" : "_random",
+      "type" : "java.util.Random",
+      "position" : {
+        "startLine" : 644,
+        "startColumn" : 20,
+        "endLine" : 644,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.binary.Base64Test/memberField/_random",
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    }
+  },
+  "methods" : {
+    "testSingletonsChunked" : {
+      "name" : "testSingletonsChunked",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testSingletonsChunked",
+      "type" : "void",
+      "position" : {
+        "startLine" : 222,
+        "startColumn" : 17,
+        "endLine" : 222,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testObjectEncodeWithValidParameter" : {
+      "name" : "testObjectEncodeWithValidParameter",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testObjectEncodeWithValidParameter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 564,
+        "startColumn" : 17,
+        "endLine" : 564,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testDecodePadOnlyChunked" : {
+      "name" : "testDecodePadOnlyChunked",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testDecodePadOnlyChunked",
+      "type" : "void",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 17,
+        "endLine" : 71,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testSingletons" : {
+      "name" : "testSingletons",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testSingletons",
+      "type" : "void",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 17,
+        "endLine" : 114,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "getRandom" : {
+      "name" : "getRandom",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/getRandom",
+      "type" : "java.util.Random",
+      "position" : {
+        "startLine" : 649,
+        "startColumn" : 19,
+        "endLine" : 649,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testIgnoringNonBase64InDecode" : {
+      "name" : "testIgnoringNonBase64InDecode",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testIgnoringNonBase64InDecode",
+      "type" : "void",
+      "position" : {
+        "startLine" : 512,
+        "startColumn" : 14,
+        "endLine" : 512,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testRfc2045Section6Dot8ChunkSizeDefinition" : {
+      "name" : "testRfc2045Section6Dot8ChunkSizeDefinition",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testRfc2045Section6Dot8ChunkSizeDefinition",
+      "type" : "void",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 17,
+        "endLine" : 110,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testTriplets" : {
+      "name" : "testTriplets",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testTriplets",
+      "type" : "void",
+      "position" : {
+        "startLine" : 330,
+        "startColumn" : 17,
+        "endLine" : 330,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testTripletsChunked" : {
+      "name" : "testTripletsChunked",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testTripletsChunked",
+      "type" : "void",
+      "position" : {
+        "startLine" : 397,
+        "startColumn" : 17,
+        "endLine" : 397,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testObjectDecodeWithValidParameter" : {
+      "name" : "testObjectDecodeWithValidParameter",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testObjectDecodeWithValidParameter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 532,
+        "startColumn" : 17,
+        "endLine" : 532,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testObjectDecodeWithInvalidParameter" : {
+      "name" : "testObjectDecodeWithInvalidParameter",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testObjectDecodeWithInvalidParameter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 516,
+        "startColumn" : 17,
+        "endLine" : 516,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testBase64" : {
+      "name" : "testBase64",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testBase64",
+      "type" : "void",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 17,
+        "endLine" : 44,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testDecodePadMarkerIndex2" : {
+      "name" : "testDecodePadMarkerIndex2",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testDecodePadMarkerIndex2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 17,
+        "endLine" : 54,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testDecodePadOnly" : {
+      "name" : "testDecodePadOnly",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testDecodePadOnly",
+      "type" : "void",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 17,
+        "endLine" : 66,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testNonBase64Test" : {
+      "name" : "testNonBase64Test",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testNonBase64Test",
+      "type" : "void",
+      "position" : {
+        "startLine" : 483,
+        "startColumn" : 14,
+        "endLine" : 483,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testDecodePadMarkerIndex3" : {
+      "name" : "testDecodePadMarkerIndex3",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testDecodePadMarkerIndex3",
+      "type" : "void",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 17,
+        "endLine" : 61,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testDecodeWithWhitespace" : {
+      "name" : "testDecodeWithWhitespace",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testDecodeWithWhitespace",
+      "type" : "void",
+      "position" : {
+        "startLine" : 580,
+        "startColumn" : 17,
+        "endLine" : 580,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testEncodeDecodeRandom" : {
+      "name" : "testEncodeDecodeRandom",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testEncodeDecodeRandom",
+      "type" : "void",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 17,
+        "endLine" : 89,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testKnownDecodings" : {
+      "name" : "testKnownDecodings",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testKnownDecodings",
+      "type" : "void",
+      "position" : {
+        "startLine" : 474,
+        "startColumn" : 17,
+        "endLine" : 474,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testObjectEncodeWithInvalidParameter" : {
+      "name" : "testObjectEncodeWithInvalidParameter",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testObjectEncodeWithInvalidParameter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 548,
+        "startColumn" : 17,
+        "endLine" : 548,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testRfc2045Section2Dot1CrLfDefinition" : {
+      "name" : "testRfc2045Section2Dot1CrLfDefinition",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testRfc2045Section2Dot1CrLfDefinition",
+      "type" : "void",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 17,
+        "endLine" : 103,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testDiscardWhitespace" : {
+      "name" : "testDiscardWhitespace",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testDiscardWhitespace",
+      "type" : "void",
+      "position" : {
+        "startLine" : 602,
+        "startColumn" : 17,
+        "endLine" : 602,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testKnownEncodings" : {
+      "name" : "testKnownEncodings",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testKnownEncodings",
+      "type" : "void",
+      "position" : {
+        "startLine" : 464,
+        "startColumn" : 17,
+        "endLine" : 464,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 631,
+        "startColumn" : 20,
+        "endLine" : 631,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "data",
+        "key" : "data",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 631,
+          "startColumn" : 36,
+          "endLine" : 631,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.binary.Base64Test/method/toString"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    },
+    "testEncodeDecodeSmall" : {
+      "name" : "testEncodeDecodeSmall",
+      "key" : "org.apache.commons.codec.binary.Base64Test/method/testEncodeDecodeSmall",
+      "type" : "void",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 17,
+        "endLine" : 77,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.binary.Base64Test"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

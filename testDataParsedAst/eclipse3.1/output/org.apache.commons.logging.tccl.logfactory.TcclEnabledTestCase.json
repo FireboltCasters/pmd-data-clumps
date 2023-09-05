@@ -1,0 +1,103 @@
+{
+  "name" : "TcclEnabledTestCase",
+  "key" : "org.apache.commons.logging.tccl.logfactory.TcclEnabledTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.logging.tccl.logfactory.TcclEnabledTestCase/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 24,
+        "endLine" : 43,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.logfactory.TcclEnabledTestCase"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.logging.tccl.logfactory.TcclEnabledTestCase/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 17,
+        "endLine" : 89,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.logfactory.TcclEnabledTestCase"
+    },
+    "testTcclLoading" : {
+      "name" : "testTcclLoading",
+      "key" : "org.apache.commons.logging.tccl.logfactory.TcclEnabledTestCase/method/testTcclLoading",
+      "type" : "void",
+      "position" : {
+        "startLine" : 136,
+        "startColumn" : 17,
+        "endLine" : 136,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.logfactory.TcclEnabledTestCase"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.logging.tccl.logfactory.TcclEnabledTestCase/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 17,
+        "endLine" : 96,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.logfactory.TcclEnabledTestCase"
+    },
+    "testLoader" : {
+      "name" : "testLoader",
+      "key" : "org.apache.commons.logging.tccl.logfactory.TcclEnabledTestCase/method/testLoader",
+      "type" : "void",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 17,
+        "endLine" : 105,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.logfactory.TcclEnabledTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

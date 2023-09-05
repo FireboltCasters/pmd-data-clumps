@@ -1,0 +1,167 @@
+{
+  "name" : "TestAbandonedBasicDataSource",
+  "key" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource",
+  "type" : "class",
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "testAbandoned" : {
+      "name" : "testAbandoned",
+      "key" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource/method/testAbandoned",
+      "type" : "void",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 17,
+        "endLine" : 79,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 24,
+        "endLine" : 37,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource"
+    },
+    "testAbandonedCloseWithExceptions" : {
+      "name" : "testAbandonedCloseWithExceptions",
+      "key" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource/method/testAbandonedCloseWithExceptions",
+      "type" : "void",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 17,
+        "endLine" : 111,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 17,
+        "endLine" : 41,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource"
+    },
+    "getConnection1" : {
+      "name" : "getConnection1",
+      "key" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource/method/getConnection1",
+      "type" : "void",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 18,
+        "endLine" : 58,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 17,
+        "endLine" : 51,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource"
+    },
+    "getConnection3" : {
+      "name" : "getConnection3",
+      "key" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource/method/getConnection3",
+      "type" : "void",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 18,
+        "endLine" : 72,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource"
+    },
+    "getConnection2" : {
+      "name" : "getConnection2",
+      "key" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource/method/getConnection2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 18,
+        "endLine" : 65,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource"
+    },
+    "testAbandonedClose" : {
+      "name" : "testAbandonedClose",
+      "key" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource/method/testAbandonedClose",
+      "type" : "void",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 17,
+        "endLine" : 91,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestAbandonedBasicDataSource"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "TestBasicDataSource" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

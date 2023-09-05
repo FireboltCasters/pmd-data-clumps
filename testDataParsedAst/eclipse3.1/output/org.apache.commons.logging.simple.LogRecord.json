@@ -1,0 +1,68 @@
+{
+  "name" : "LogRecord",
+  "key" : "org.apache.commons.logging.simple.LogRecord",
+  "type" : "class",
+  "position" : {
+    "startLine" : 24,
+    "startColumn" : 8,
+    "endLine" : 24,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "t" : {
+      "name" : "t",
+      "key" : "t",
+      "type" : "java.lang.Throwable",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 22,
+        "endLine" : 35,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.simple.LogRecord/memberField/t",
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.LogRecord"
+    },
+    "type" : {
+      "name" : "type",
+      "key" : "type",
+      "type" : "int",
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 16,
+        "endLine" : 33,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.simple.LogRecord/memberField/type",
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.LogRecord"
+    },
+    "message" : {
+      "name" : "message",
+      "key" : "message",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 19,
+        "endLine" : 34,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.simple.LogRecord/memberField/message",
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.LogRecord"
+    }
+  },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.io.Serializable" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

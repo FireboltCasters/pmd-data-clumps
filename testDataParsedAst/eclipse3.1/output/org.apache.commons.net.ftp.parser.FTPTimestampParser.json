@@ -1,0 +1,83 @@
+{
+  "name" : "FTPTimestampParser",
+  "key" : "org.apache.commons.net.ftp.parser.FTPTimestampParser",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 26,
+    "startColumn" : 8,
+    "endLine" : 26,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "DEFAULT_RECENT_SDF" : {
+      "name" : "DEFAULT_RECENT_SDF",
+      "key" : "DEFAULT_RECENT_SDF",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 29,
+        "endLine" : 35,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParser/memberField/DEFAULT_RECENT_SDF",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParser"
+    },
+    "DEFAULT_SDF" : {
+      "name" : "DEFAULT_SDF",
+      "key" : "DEFAULT_SDF",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 29,
+        "endLine" : 31,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParser/memberField/DEFAULT_SDF",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParser"
+    }
+  },
+  "methods" : {
+    "parseTimestamp" : {
+      "name" : "parseTimestamp",
+      "key" : "org.apache.commons.net.ftp.parser.FTPTimestampParser/method/parseTimestamp",
+      "type" : "java.util.Calendar",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 18,
+        "endLine" : 48,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "timestampStr",
+        "key" : "timestampStr",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 40,
+          "endLine" : 48,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParser/method/parseTimestamp"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.FTPTimestampParser"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

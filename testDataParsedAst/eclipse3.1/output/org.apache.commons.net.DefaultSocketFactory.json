@@ -1,0 +1,146 @@
+{
+  "name" : "DefaultSocketFactory",
+  "key" : "org.apache.commons.net.DefaultSocketFactory",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "createSocket" : {
+      "name" : "createSocket",
+      "key" : "org.apache.commons.net.DefaultSocketFactory/method/createSocket",
+      "type" : "java.net.Socket",
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 19,
+        "endLine" : 100,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "address",
+        "key" : "address",
+        "type" : "java.net.InetAddress",
+        "position" : {
+          "startLine" : 100,
+          "startColumn" : 44,
+          "endLine" : 100,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.DefaultSocketFactory/method/createSocket"
+      }, {
+        "name" : "port",
+        "key" : "port",
+        "type" : "int",
+        "position" : {
+          "startLine" : 100,
+          "startColumn" : 57,
+          "endLine" : 100,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.DefaultSocketFactory/method/createSocket"
+      }, {
+        "name" : "localAddr",
+        "key" : "localAddr",
+        "type" : "java.net.InetAddress",
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 44,
+          "endLine" : 101,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.DefaultSocketFactory/method/createSocket"
+      }, {
+        "name" : "localPort",
+        "key" : "localPort",
+        "type" : "int",
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 59,
+          "endLine" : 101,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.DefaultSocketFactory/method/createSocket"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.DefaultSocketFactory"
+    },
+    "createServerSocket" : {
+      "name" : "createServerSocket",
+      "key" : "org.apache.commons.net.DefaultSocketFactory/method/createServerSocket",
+      "type" : "java.net.ServerSocket",
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 25,
+        "endLine" : 151,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "port",
+        "type" : "int",
+        "position" : {
+          "startLine" : 151,
+          "startColumn" : 48,
+          "endLine" : 151,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.DefaultSocketFactory/method/createServerSocket"
+      }, {
+        "name" : "backlog",
+        "key" : "backlog",
+        "type" : "int",
+        "position" : {
+          "startLine" : 151,
+          "startColumn" : 58,
+          "endLine" : 151,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.DefaultSocketFactory/method/createServerSocket"
+      }, {
+        "name" : "bindAddr",
+        "key" : "bindAddr",
+        "type" : "java.net.InetAddress",
+        "position" : {
+          "startLine" : 152,
+          "startColumn" : 56,
+          "endLine" : 152,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.DefaultSocketFactory/method/createServerSocket"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.DefaultSocketFactory"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "SocketFactory" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

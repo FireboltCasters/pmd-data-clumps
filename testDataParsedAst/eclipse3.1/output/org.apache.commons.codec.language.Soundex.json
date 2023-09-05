@@ -1,0 +1,360 @@
+{
+  "name" : "Soundex",
+  "key" : "org.apache.commons.codec.language.Soundex",
+  "type" : "class",
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "US_ENGLISH_MAPPING" : {
+      "name" : "US_ENGLISH_MAPPING",
+      "key" : "US_ENGLISH_MAPPING",
+      "type" : "char[]",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 32,
+        "endLine" : 56,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.Soundex/memberField/US_ENGLISH_MAPPING",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Soundex"
+    },
+    "soundexMapping" : {
+      "name" : "soundexMapping",
+      "key" : "soundexMapping",
+      "type" : "char[]",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 20,
+        "endLine" : 92,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.Soundex/memberField/soundexMapping",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Soundex"
+    },
+    "US_ENGLISH" : {
+      "name" : "US_ENGLISH",
+      "key" : "US_ENGLISH",
+      "type" : "org.apache.commons.codec.language.Soundex",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 33,
+        "endLine" : 36,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.Soundex/memberField/US_ENGLISH",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Soundex"
+    },
+    "US_ENGLISH_MAPPING_STRING" : {
+      "name" : "US_ENGLISH_MAPPING_STRING",
+      "key" : "US_ENGLISH_MAPPING_STRING",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 32,
+        "endLine" : 48,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.Soundex/memberField/US_ENGLISH_MAPPING_STRING",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Soundex"
+    },
+    "maxLength" : {
+      "name" : "maxLength",
+      "key" : "maxLength",
+      "type" : "int",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 17,
+        "endLine" : 86,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.Soundex/memberField/maxLength",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Soundex"
+    }
+  },
+  "methods" : {
+    "encode" : {
+      "name" : "encode",
+      "key" : "org.apache.commons.codec.language.Soundex/method/encode",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 19,
+        "endLine" : 147,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pString",
+        "key" : "pString",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 147,
+          "startColumn" : 33,
+          "endLine" : 147,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Soundex/method/encode"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Soundex"
+    },
+    "getSoundexMapping" : {
+      "name" : "getSoundexMapping",
+      "key" : "org.apache.commons.codec.language.Soundex/method/getSoundexMapping",
+      "type" : "char[]",
+      "position" : {
+        "startLine" : 195,
+        "startColumn" : 20,
+        "endLine" : 195,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Soundex"
+    },
+    "getMaxLength" : {
+      "name" : "getMaxLength",
+      "key" : "org.apache.commons.codec.language.Soundex/method/getMaxLength",
+      "type" : "int",
+      "position" : {
+        "startLine" : 186,
+        "startColumn" : 16,
+        "endLine" : 186,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Soundex"
+    },
+    "getMappingCode" : {
+      "name" : "getMappingCode",
+      "key" : "org.apache.commons.codec.language.Soundex/method/getMappingCode",
+      "type" : "char",
+      "position" : {
+        "startLine" : 164,
+        "startColumn" : 18,
+        "endLine" : 164,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "str",
+        "key" : "str",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 164,
+          "startColumn" : 40,
+          "endLine" : 164,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Soundex/method/getMappingCode"
+      }, {
+        "name" : "index",
+        "key" : "index",
+        "type" : "int",
+        "position" : {
+          "startLine" : 164,
+          "startColumn" : 49,
+          "endLine" : 164,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Soundex/method/getMappingCode"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Soundex"
+    },
+    "setSoundexMapping" : {
+      "name" : "setSoundexMapping",
+      "key" : "org.apache.commons.codec.language.Soundex/method/setSoundexMapping",
+      "type" : "void",
+      "position" : {
+        "startLine" : 233,
+        "startColumn" : 18,
+        "endLine" : 233,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "soundexMapping",
+        "key" : "soundexMapping",
+        "type" : "char[]",
+        "position" : {
+          "startLine" : 233,
+          "startColumn" : 43,
+          "endLine" : 233,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Soundex/method/setSoundexMapping"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Soundex"
+    },
+    "soundex" : {
+      "name" : "soundex",
+      "key" : "org.apache.commons.codec.language.Soundex/method/soundex",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 246,
+        "startColumn" : 19,
+        "endLine" : 246,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "str",
+        "key" : "str",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 246,
+          "startColumn" : 34,
+          "endLine" : 246,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Soundex/method/soundex"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Soundex"
+    },
+    "difference" : {
+      "name" : "difference",
+      "key" : "org.apache.commons.codec.language.Soundex/method/difference",
+      "type" : "int",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 16,
+        "endLine" : 77,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s1",
+        "key" : "s1",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 34,
+          "endLine" : 77,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Soundex/method/difference"
+      }, {
+        "name" : "s2",
+        "key" : "s2",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 45,
+          "endLine" : 77,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Soundex/method/difference"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Soundex"
+    },
+    "map" : {
+      "name" : "map",
+      "key" : "org.apache.commons.codec.language.Soundex/method/map",
+      "type" : "char",
+      "position" : {
+        "startLine" : 208,
+        "startColumn" : 18,
+        "endLine" : 208,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ch",
+        "key" : "ch",
+        "type" : "char",
+        "position" : {
+          "startLine" : 208,
+          "startColumn" : 27,
+          "endLine" : 208,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Soundex/method/map"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Soundex"
+    },
+    "setMaxLength" : {
+      "name" : "setMaxLength",
+      "key" : "org.apache.commons.codec.language.Soundex/method/setMaxLength",
+      "type" : "void",
+      "position" : {
+        "startLine" : 223,
+        "startColumn" : 17,
+        "endLine" : 223,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "maxLength",
+        "key" : "maxLength",
+        "type" : "int",
+        "position" : {
+          "startLine" : 223,
+          "startColumn" : 34,
+          "endLine" : 223,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.Soundex/method/setMaxLength"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.Soundex"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.apache.commons.codec.StringEncoder" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

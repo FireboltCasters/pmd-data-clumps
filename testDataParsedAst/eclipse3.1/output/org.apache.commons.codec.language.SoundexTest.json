@@ -1,0 +1,510 @@
+{
+  "name" : "SoundexTest",
+  "key" : "org.apache.commons.codec.language.SoundexTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "encoder" : {
+      "name" : "encoder",
+      "key" : "encoder",
+      "type" : "Soundex",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 21,
+        "endLine" : 38,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.SoundexTest/memberField/encoder",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    }
+  },
+  "methods" : {
+    "makeEncoder" : {
+      "name" : "makeEncoder",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/makeEncoder",
+      "type" : "org.apache.commons.codec.StringEncoder",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 29,
+        "endLine" : 57,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testEncodeIgnoreHyphens" : {
+      "name" : "testEncodeIgnoreHyphens",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testEncodeIgnoreHyphens",
+      "type" : "void",
+      "position" : {
+        "startLine" : 223,
+        "startColumn" : 17,
+        "endLine" : 223,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testMaxLength" : {
+      "name" : "testMaxLength",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testMaxLength",
+      "type" : "void",
+      "position" : {
+        "startLine" : 296,
+        "startColumn" : 17,
+        "endLine" : 296,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testMaxLengthLessThan3Fix" : {
+      "name" : "testMaxLengthLessThan3Fix",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testMaxLengthLessThan3Fix",
+      "type" : "void",
+      "position" : {
+        "startLine" : 302,
+        "startColumn" : 17,
+        "endLine" : 302,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testMsSqlServer1" : {
+      "name" : "testMsSqlServer1",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testMsSqlServer1",
+      "type" : "void",
+      "position" : {
+        "startLine" : 312,
+        "startColumn" : 17,
+        "endLine" : 312,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testMsSqlServer2" : {
+      "name" : "testMsSqlServer2",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testMsSqlServer2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 321,
+        "startColumn" : 17,
+        "endLine" : 321,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testMsSqlServer3" : {
+      "name" : "testMsSqlServer3",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testMsSqlServer3",
+      "type" : "void",
+      "position" : {
+        "startLine" : 328,
+        "startColumn" : 17,
+        "endLine" : 328,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "encodeAll" : {
+      "name" : "encodeAll",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/encodeAll",
+      "type" : "void",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 10,
+        "endLine" : 44,
+        "endColumn" : 19
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "strings",
+        "key" : "strings",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 29,
+          "endLine" : 44,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.SoundexTest/method/encodeAll"
+      }, {
+        "name" : "expectedEncoding",
+        "key" : "expectedEncoding",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 45,
+          "endLine" : 44,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.SoundexTest/method/encodeAll"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testBadCharacters" : {
+      "name" : "testBadCharacters",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testBadCharacters",
+      "type" : "void",
+      "position" : {
+        "startLine" : 211,
+        "startColumn" : 14,
+        "endLine" : 211,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testEncodeIgnoreApostrophes" : {
+      "name" : "testEncodeIgnoreApostrophes",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testEncodeIgnoreApostrophes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 216,
+        "startColumn" : 17,
+        "endLine" : 216,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "getEncoder" : {
+      "name" : "getEncoder",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/getEncoder",
+      "type" : "Soundex",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 20,
+        "endLine" : 53,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 17,
+        "endLine" : 69,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testDifference" : {
+      "name" : "testDifference",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testDifference",
+      "type" : "void",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 17,
+        "endLine" : 125,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testHWRuleEx1" : {
+      "name" : "testHWRuleEx1",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testHWRuleEx1",
+      "type" : "void",
+      "position" : {
+        "startLine" : 248,
+        "startColumn" : 17,
+        "endLine" : 248,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testUsMappingEWithAcute" : {
+      "name" : "testUsMappingEWithAcute",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testUsMappingEWithAcute",
+      "type" : "void",
+      "position" : {
+        "startLine" : 360,
+        "startColumn" : 17,
+        "endLine" : 360,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testHWRuleEx3" : {
+      "name" : "testHWRuleEx3",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testHWRuleEx3",
+      "type" : "void",
+      "position" : {
+        "startLine" : 271,
+        "startColumn" : 17,
+        "endLine" : 271,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testHWRuleEx2" : {
+      "name" : "testHWRuleEx2",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testHWRuleEx2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 262,
+        "startColumn" : 17,
+        "endLine" : 262,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "setEncoder" : {
+      "name" : "setEncoder",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/setEncoder",
+      "type" : "void",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 17,
+        "endLine" : 65,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "encoder",
+        "key" : "encoder",
+        "type" : "Soundex",
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 36,
+          "endLine" : 65,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.SoundexTest/method/setEncoder"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testEncodeBasic" : {
+      "name" : "testEncodeBasic",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testEncodeBasic",
+      "type" : "void",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 17,
+        "endLine" : 144,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 17,
+        "endLine" : 74,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testEncodeIgnoreTrimmable" : {
+      "name" : "testEncodeIgnoreTrimmable",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testEncodeIgnoreTrimmable",
+      "type" : "void",
+      "position" : {
+        "startLine" : 240,
+        "startColumn" : 17,
+        "endLine" : 240,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 24,
+        "endLine" : 34,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testUsMappingOWithDiaeresis" : {
+      "name" : "testUsMappingOWithDiaeresis",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testUsMappingOWithDiaeresis",
+      "type" : "void",
+      "position" : {
+        "startLine" : 345,
+        "startColumn" : 17,
+        "endLine" : 345,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testEncodeBatch4" : {
+      "name" : "testEncodeBatch4",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testEncodeBatch4",
+      "type" : "void",
+      "position" : {
+        "startLine" : 199,
+        "startColumn" : 17,
+        "endLine" : 199,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testEncodeBatch3" : {
+      "name" : "testEncodeBatch3",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testEncodeBatch3",
+      "type" : "void",
+      "position" : {
+        "startLine" : 184,
+        "startColumn" : 17,
+        "endLine" : 184,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testEncodeBatch2" : {
+      "name" : "testEncodeBatch2",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testEncodeBatch2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 161,
+        "startColumn" : 17,
+        "endLine" : 161,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    },
+    "testB650" : {
+      "name" : "testB650",
+      "key" : "org.apache.commons.codec.language.SoundexTest/method/testB650",
+      "type" : "void",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 17,
+        "endLine" : 79,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.codec.StringEncoderAbstractTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,371 @@
+{
+  "name" : "TFTP",
+  "key" : "org.apache.commons.net.tftp.TFTP",
+  "type" : "class",
+  "position" : {
+    "startLine" : 46,
+    "startColumn" : 8,
+    "endLine" : 46,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "DEFAULT_PORT" : {
+      "name" : "DEFAULT_PORT",
+      "key" : "DEFAULT_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 29,
+        "endLine" : 82,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTP/memberField/DEFAULT_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "__receiveBuffer" : {
+      "name" : "__receiveBuffer",
+      "key" : "__receiveBuffer",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 20,
+        "endLine" : 91,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTP/memberField/__receiveBuffer",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "DEFAULT_TIMEOUT" : {
+      "name" : "DEFAULT_TIMEOUT",
+      "key" : "DEFAULT_TIMEOUT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 29,
+        "endLine" : 77,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTP/memberField/DEFAULT_TIMEOUT",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "NETASCII_MODE" : {
+      "name" : "NETASCII_MODE",
+      "key" : "NETASCII_MODE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 29,
+        "endLine" : 56,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTP/memberField/NETASCII_MODE",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "OCTET_MODE" : {
+      "name" : "OCTET_MODE",
+      "key" : "OCTET_MODE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 29,
+        "endLine" : 71,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTP/memberField/OCTET_MODE",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "BINARY_MODE" : {
+      "name" : "BINARY_MODE",
+      "key" : "BINARY_MODE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 29,
+        "endLine" : 61,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTP/memberField/BINARY_MODE",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "__receiveDatagram" : {
+      "name" : "__receiveDatagram",
+      "key" : "__receiveDatagram",
+      "type" : "java.net.DatagramPacket",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 28,
+        "endLine" : 94,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTP/memberField/__receiveDatagram",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "_sendBuffer" : {
+      "name" : "_sendBuffer",
+      "key" : "_sendBuffer",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 12,
+        "endLine" : 105,
+        "endColumn" : 23
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTP/memberField/_sendBuffer",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "ASCII_MODE" : {
+      "name" : "ASCII_MODE",
+      "key" : "ASCII_MODE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 29,
+        "endLine" : 51,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTP/memberField/ASCII_MODE",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "IMAGE_MODE" : {
+      "name" : "IMAGE_MODE",
+      "key" : "IMAGE_MODE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 29,
+        "endLine" : 66,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTP/memberField/IMAGE_MODE",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "PACKET_SIZE" : {
+      "name" : "PACKET_SIZE",
+      "key" : "PACKET_SIZE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 22,
+        "endLine" : 88,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTP/memberField/PACKET_SIZE",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "__sendDatagram" : {
+      "name" : "__sendDatagram",
+      "key" : "__sendDatagram",
+      "type" : "java.net.DatagramPacket",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 28,
+        "endLine" : 97,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.tftp.TFTP/memberField/__sendDatagram",
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    }
+  },
+  "methods" : {
+    "receive" : {
+      "name" : "receive",
+      "key" : "org.apache.commons.net.tftp.TFTP/method/receive",
+      "type" : "TFTPPacket",
+      "position" : {
+        "startLine" : 285,
+        "startColumn" : 29,
+        "endLine" : 285,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "getModeName" : {
+      "name" : "getModeName",
+      "key" : "org.apache.commons.net.tftp.TFTP/method/getModeName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 32,
+        "endLine" : 116,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "mode",
+        "key" : "mode",
+        "type" : "int",
+        "position" : {
+          "startLine" : 116,
+          "startColumn" : 48,
+          "endLine" : 116,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.tftp.TFTP/method/getModeName"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "discardPackets" : {
+      "name" : "discardPackets",
+      "key" : "org.apache.commons.net.tftp.TFTP/method/discardPackets",
+      "type" : "void",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 23,
+        "endLine" : 139,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "bufferedReceive" : {
+      "name" : "bufferedReceive",
+      "key" : "org.apache.commons.net.tftp.TFTP/method/bufferedReceive",
+      "type" : "TFTPPacket",
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 29,
+        "endLine" : 194,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "endBufferedOps" : {
+      "name" : "endBufferedOps",
+      "key" : "org.apache.commons.net.tftp.TFTP/method/endBufferedOps",
+      "type" : "void",
+      "position" : {
+        "startLine" : 249,
+        "startColumn" : 23,
+        "endLine" : 249,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "bufferedSend" : {
+      "name" : "bufferedSend",
+      "key" : "org.apache.commons.net.tftp.TFTP/method/bufferedSend",
+      "type" : "void",
+      "position" : {
+        "startLine" : 222,
+        "startColumn" : 23,
+        "endLine" : 222,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "packet",
+        "key" : "packet",
+        "type" : "TFTPPacket",
+        "position" : {
+          "startLine" : 222,
+          "startColumn" : 47,
+          "endLine" : 222,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.tftp.TFTP/method/bufferedSend"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "send" : {
+      "name" : "send",
+      "key" : "org.apache.commons.net.tftp.TFTP/method/send",
+      "type" : "void",
+      "position" : {
+        "startLine" : 264,
+        "startColumn" : 23,
+        "endLine" : 264,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "packet",
+        "key" : "packet",
+        "type" : "TFTPPacket",
+        "position" : {
+          "startLine" : 264,
+          "startColumn" : 39,
+          "endLine" : 264,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.tftp.TFTP/method/send"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    },
+    "beginBufferedOps" : {
+      "name" : "beginBufferedOps",
+      "key" : "org.apache.commons.net.tftp.TFTP/method/beginBufferedOps",
+      "type" : "void",
+      "position" : {
+        "startLine" : 236,
+        "startColumn" : 23,
+        "endLine" : 236,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.tftp.TFTP"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.net.DatagramSocketClient" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

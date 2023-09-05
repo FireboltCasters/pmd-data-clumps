@@ -1,0 +1,149 @@
+{
+  "name" : "SoundexUtils",
+  "key" : "org.apache.commons.codec.language.SoundexUtils",
+  "type" : "class",
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 7,
+    "endLine" : 29,
+    "endColumn" : 12
+  },
+  "modifiers" : [ "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "differenceEncoded" : {
+      "name" : "differenceEncoded",
+      "key" : "org.apache.commons.codec.language.SoundexUtils/method/differenceEncoded",
+      "type" : "int",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 16,
+        "endLine" : 107,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "es1",
+        "key" : "es1",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 41,
+          "endLine" : 107,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.SoundexUtils/method/differenceEncoded"
+      }, {
+        "name" : "es2",
+        "key" : "es2",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 53,
+          "endLine" : 107,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.SoundexUtils/method/differenceEncoded"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexUtils"
+    },
+    "difference" : {
+      "name" : "difference",
+      "key" : "org.apache.commons.codec.language.SoundexUtils/method/difference",
+      "type" : "int",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 16,
+        "endLine" : 83,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "encoder",
+        "key" : "encoder",
+        "type" : "org.apache.commons.codec.StringEncoder",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 41,
+          "endLine" : 83,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.SoundexUtils/method/difference"
+      }, {
+        "name" : "s1",
+        "key" : "s1",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 57,
+          "endLine" : 83,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.SoundexUtils/method/difference"
+      }, {
+        "name" : "s2",
+        "key" : "s2",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 68,
+          "endLine" : 83,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.SoundexUtils/method/difference"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexUtils"
+    },
+    "clean" : {
+      "name" : "clean",
+      "key" : "org.apache.commons.codec.language.SoundexUtils/method/clean",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 19,
+        "endLine" : 39,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "str",
+        "key" : "str",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 39,
+          "startColumn" : 32,
+          "endLine" : 39,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.SoundexUtils/method/clean"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.SoundexUtils"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

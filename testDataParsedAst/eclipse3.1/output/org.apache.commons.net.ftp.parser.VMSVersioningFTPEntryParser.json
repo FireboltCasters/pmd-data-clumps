@@ -1,0 +1,168 @@
+{
+  "name" : "VMSVersioningFTPEntryParser",
+  "key" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "_preparse_matcher_" : {
+      "name" : "_preparse_matcher_",
+      "key" : "_preparse_matcher_",
+      "type" : "org.apache.oro.text.regex.Perl5Matcher",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 26,
+        "endLine" : 50,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser/memberField/_preparse_matcher_",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser"
+    },
+    "_preparse_pattern_" : {
+      "name" : "_preparse_pattern_",
+      "key" : "_preparse_pattern_",
+      "type" : "org.apache.oro.text.regex.Pattern",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 21,
+        "endLine" : 51,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser/memberField/_preparse_pattern_",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser"
+    },
+    "PRE_PARSE_REGEX" : {
+      "name" : "PRE_PARSE_REGEX",
+      "key" : "PRE_PARSE_REGEX",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 33,
+        "endLine" : 52,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser/memberField/PRE_PARSE_REGEX",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser"
+    }
+  },
+  "methods" : {
+    "isVersioning" : {
+      "name" : "isVersioning",
+      "key" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser/method/isVersioning",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 23,
+        "endLine" : 165,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser"
+    },
+    "preParse" : {
+      "name" : "preParse",
+      "key" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser/method/preParse",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 17,
+        "endLine" : 118,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "original",
+        "key" : "original",
+        "type" : "java.util.List",
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 31,
+          "endLine" : 118,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser/method/preParse"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "VMSFTPEntryParser" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser.NameVersion" : {
+      "name" : "NameVersion",
+      "key" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser.NameVersion",
+      "type" : "class",
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 13,
+        "endLine" : 100,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "fields" : {
+        "name" : {
+          "name" : "name",
+          "key" : "name",
+          "type" : "java.lang.String",
+          "position" : {
+            "startLine" : 101,
+            "startColumn" : 16,
+            "endLine" : 101,
+            "endColumn" : 20
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser.NameVersion/memberField/name",
+          "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser.NameVersion"
+        },
+        "versionNumber" : {
+          "name" : "versionNumber",
+          "key" : "versionNumber",
+          "type" : "int",
+          "position" : {
+            "startLine" : 102,
+            "startColumn" : 13,
+            "endLine" : 102,
+            "endColumn" : 26
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser.NameVersion/memberField/versionNumber",
+          "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser.NameVersion"
+        }
+      },
+      "methods" : { },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.apache.commons.net.ftp.parser.VMSVersioningFTPEntryParser",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

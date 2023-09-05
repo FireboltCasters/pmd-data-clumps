@@ -1,0 +1,125 @@
+{
+  "name" : "EchoUDPClient",
+  "key" : "org.apache.commons.net.EchoUDPClient",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 14,
+    "endLine" : 39,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "DEFAULT_PORT" : {
+      "name" : "DEFAULT_PORT",
+      "key" : "DEFAULT_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 29,
+        "endLine" : 42,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.EchoUDPClient/memberField/DEFAULT_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.EchoUDPClient"
+    },
+    "__receivePacket" : {
+      "name" : "__receivePacket",
+      "key" : "__receivePacket",
+      "type" : "java.net.DatagramPacket",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 28,
+        "endLine" : 44,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.EchoUDPClient/memberField/__receivePacket",
+      "classOrInterfaceKey" : "org.apache.commons.net.EchoUDPClient"
+    }
+  },
+  "methods" : {
+    "receive" : {
+      "name" : "receive",
+      "key" : "org.apache.commons.net.EchoUDPClient/method/receive",
+      "type" : "int",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 16,
+        "endLine" : 89,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "data",
+        "key" : "data",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 89,
+          "startColumn" : 31,
+          "endLine" : 89,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.EchoUDPClient/method/receive"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.EchoUDPClient"
+    },
+    "send" : {
+      "name" : "send",
+      "key" : "org.apache.commons.net.EchoUDPClient/method/send",
+      "type" : "void",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 17,
+        "endLine" : 65,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "data",
+        "key" : "data",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 29,
+          "endLine" : 65,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.EchoUDPClient/method/send"
+      }, {
+        "name" : "host",
+        "key" : "host",
+        "type" : "java.net.InetAddress",
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 47,
+          "endLine" : 65,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.EchoUDPClient/method/send"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.EchoUDPClient"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "DiscardUDPClient" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

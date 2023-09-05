@@ -1,0 +1,132 @@
+{
+  "name" : "FileUtilsListFilesTestCase",
+  "key" : "org.apache.commons.io.FileUtilsListFilesTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "getLocalTestDirectory" : {
+      "name" : "getLocalTestDirectory",
+      "key" : "org.apache.commons.io.FileUtilsListFilesTestCase/method/getLocalTestDirectory",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 18,
+        "endLine" : 36,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsListFilesTestCase"
+    },
+    "testListFilesByExtension" : {
+      "name" : "testListFilesByExtension",
+      "key" : "org.apache.commons.io.FileUtilsListFilesTestCase/method/testListFilesByExtension",
+      "type" : "void",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 17,
+        "endLine" : 94,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsListFilesTestCase"
+    },
+    "testListFiles" : {
+      "name" : "testListFiles",
+      "key" : "org.apache.commons.io.FileUtilsListFilesTestCase/method/testListFiles",
+      "type" : "void",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 17,
+        "endLine" : 119,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsListFilesTestCase"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.io.FileUtilsListFilesTestCase/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 20,
+        "endLine" : 43,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsListFilesTestCase"
+    },
+    "filesToFilenames" : {
+      "name" : "filesToFilenames",
+      "key" : "org.apache.commons.io.FileUtilsListFilesTestCase/method/filesToFilenames",
+      "type" : "java.util.Collection",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 24,
+        "endLine" : 85,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "files",
+        "key" : "files",
+        "type" : "java.util.Collection",
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 52,
+          "endLine" : 85,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.FileUtilsListFilesTestCase/method/filesToFilenames"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsListFilesTestCase"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.io.FileUtilsListFilesTestCase/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 20,
+        "endLine" : 80,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsListFilesTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.io.testtools.FileBasedTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

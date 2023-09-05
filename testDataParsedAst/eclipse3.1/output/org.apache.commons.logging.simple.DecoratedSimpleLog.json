@@ -1,0 +1,206 @@
+{
+  "name" : "DecoratedSimpleLog",
+  "key" : "org.apache.commons.logging.simple.DecoratedSimpleLog",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "cache" : {
+      "name" : "cache",
+      "key" : "cache",
+      "type" : "java.util.ArrayList",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 25,
+        "endLine" : 85,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.simple.DecoratedSimpleLog/memberField/cache",
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.DecoratedSimpleLog"
+    }
+  },
+  "methods" : {
+    "getLogName" : {
+      "name" : "getLogName",
+      "key" : "org.apache.commons.logging.simple.DecoratedSimpleLog/method/getLogName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 19,
+        "endLine" : 54,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.DecoratedSimpleLog"
+    },
+    "getCache" : {
+      "name" : "getCache",
+      "key" : "org.apache.commons.logging.simple.DecoratedSimpleLog/method/getCache",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 95,
+        "startColumn" : 17,
+        "endLine" : 95,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.DecoratedSimpleLog"
+    },
+    "getShowShortName" : {
+      "name" : "getShowShortName",
+      "key" : "org.apache.commons.logging.simple.DecoratedSimpleLog/method/getShowShortName",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 20,
+        "endLine" : 64,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.DecoratedSimpleLog"
+    },
+    "log" : {
+      "name" : "log",
+      "key" : "org.apache.commons.logging.simple.DecoratedSimpleLog/method/log",
+      "type" : "void",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 20,
+        "endLine" : 73,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "type",
+        "key" : "type",
+        "type" : "int",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 28,
+          "endLine" : 73,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.simple.DecoratedSimpleLog/method/log"
+      }, {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 41,
+          "endLine" : 73,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.simple.DecoratedSimpleLog/method/log"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 60,
+          "endLine" : 73,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.simple.DecoratedSimpleLog/method/log"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.DecoratedSimpleLog"
+    },
+    "getDateTimeFormat" : {
+      "name" : "getDateTimeFormat",
+      "key" : "org.apache.commons.logging.simple.DecoratedSimpleLog/method/getDateTimeFormat",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 19,
+        "endLine" : 49,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.DecoratedSimpleLog"
+    },
+    "getDateTimeFormatter" : {
+      "name" : "getDateTimeFormatter",
+      "key" : "org.apache.commons.logging.simple.DecoratedSimpleLog/method/getDateTimeFormatter",
+      "type" : "java.text.DateFormat",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 23,
+        "endLine" : 44,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.DecoratedSimpleLog"
+    },
+    "getShowDateTime" : {
+      "name" : "getShowDateTime",
+      "key" : "org.apache.commons.logging.simple.DecoratedSimpleLog/method/getShowDateTime",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 20,
+        "endLine" : 59,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.DecoratedSimpleLog"
+    },
+    "clearCache" : {
+      "name" : "clearCache",
+      "key" : "org.apache.commons.logging.simple.DecoratedSimpleLog/method/clearCache",
+      "type" : "void",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 17,
+        "endLine" : 89,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.DecoratedSimpleLog"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.logging.impl.SimpleLog" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

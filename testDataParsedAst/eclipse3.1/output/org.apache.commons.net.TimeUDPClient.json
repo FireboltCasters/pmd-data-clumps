@@ -1,0 +1,142 @@
+{
+  "name" : "TimeUDPClient",
+  "key" : "org.apache.commons.net.TimeUDPClient",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 14,
+    "endLine" : 43,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "DEFAULT_PORT" : {
+      "name" : "DEFAULT_PORT",
+      "key" : "DEFAULT_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 29,
+        "endLine" : 46,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.TimeUDPClient/memberField/DEFAULT_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.TimeUDPClient"
+    },
+    "__dummyData" : {
+      "name" : "__dummyData",
+      "key" : "__dummyData",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 20,
+        "endLine" : 55,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.TimeUDPClient/memberField/__dummyData",
+      "classOrInterfaceKey" : "org.apache.commons.net.TimeUDPClient"
+    },
+    "__timeData" : {
+      "name" : "__timeData",
+      "key" : "__timeData",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 20,
+        "endLine" : 56,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.TimeUDPClient/memberField/__timeData",
+      "classOrInterfaceKey" : "org.apache.commons.net.TimeUDPClient"
+    },
+    "SECONDS_1900_TO_1970" : {
+      "name" : "SECONDS_1900_TO_1970",
+      "key" : "SECONDS_1900_TO_1970",
+      "type" : "long",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 30,
+        "endLine" : 53,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.TimeUDPClient/memberField/SECONDS_1900_TO_1970",
+      "classOrInterfaceKey" : "org.apache.commons.net.TimeUDPClient"
+    }
+  },
+  "methods" : {
+    "getTime" : {
+      "name" : "getTime",
+      "key" : "org.apache.commons.net.TimeUDPClient/method/getTime",
+      "type" : "long",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 17,
+        "endLine" : 93,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "host",
+        "key" : "host",
+        "type" : "java.net.InetAddress",
+        "position" : {
+          "startLine" : 93,
+          "startColumn" : 37,
+          "endLine" : 93,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.TimeUDPClient/method/getTime"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.TimeUDPClient"
+    },
+    "getDate" : {
+      "name" : "getDate",
+      "key" : "org.apache.commons.net.TimeUDPClient/method/getDate",
+      "type" : "java.util.Date",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 17,
+        "endLine" : 116,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "host",
+        "key" : "host",
+        "type" : "java.net.InetAddress",
+        "position" : {
+          "startLine" : 116,
+          "startColumn" : 37,
+          "endLine" : 116,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.TimeUDPClient/method/getDate"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.TimeUDPClient"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "DatagramSocketClient" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

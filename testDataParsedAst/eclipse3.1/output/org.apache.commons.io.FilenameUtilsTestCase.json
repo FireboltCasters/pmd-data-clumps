@@ -1,0 +1,607 @@
+{
+  "name" : "FilenameUtilsTestCase",
+  "key" : "org.apache.commons.io.FilenameUtilsTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "testFile1" : {
+      "name" : "testFile1",
+      "key" : "testFile1",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 18,
+        "endLine" : 45,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.FilenameUtilsTestCase/memberField/testFile1",
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testFile2" : {
+      "name" : "testFile2",
+      "key" : "testFile2",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 18,
+        "endLine" : 46,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.FilenameUtilsTestCase/memberField/testFile2",
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "WINDOWS" : {
+      "name" : "WINDOWS",
+      "key" : "WINDOWS",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 34,
+        "endLine" : 43,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.FilenameUtilsTestCase/memberField/WINDOWS",
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testFile2Size" : {
+      "name" : "testFile2Size",
+      "key" : "testFile2Size",
+      "type" : "int",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 24,
+        "endLine" : 49,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.FilenameUtilsTestCase/memberField/testFile2Size",
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testFile1Size" : {
+      "name" : "testFile1Size",
+      "key" : "testFile1Size",
+      "type" : "int",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 24,
+        "endLine" : 48,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.FilenameUtilsTestCase/memberField/testFile1Size",
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "SEP" : {
+      "name" : "SEP",
+      "key" : "SEP",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 33,
+        "endLine" : 42,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.FilenameUtilsTestCase/memberField/SEP",
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    }
+  },
+  "methods" : {
+    "testGetPrefix" : {
+      "name" : "testGetPrefix",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testGetPrefix",
+      "type" : "void",
+      "position" : {
+        "startLine" : 519,
+        "startColumn" : 17,
+        "endLine" : 519,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testGetFullPath" : {
+      "name" : "testGetFullPath",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testGetFullPath",
+      "type" : "void",
+      "position" : {
+        "startLine" : 624,
+        "startColumn" : 17,
+        "endLine" : 624,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 24,
+        "endLine" : 51,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 38,
+          "endLine" : 51,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.FilenameUtilsTestCase/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testGetPathNoEndSeparator" : {
+      "name" : "testGetPathNoEndSeparator",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testGetPathNoEndSeparator",
+      "type" : "void",
+      "position" : {
+        "startLine" : 590,
+        "startColumn" : 17,
+        "endLine" : 590,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testEquals_fullControl" : {
+      "name" : "testEquals_fullControl",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testEquals_fullControl",
+      "type" : "void",
+      "position" : {
+        "startLine" : 787,
+        "startColumn" : 17,
+        "endLine" : 787,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testIsExtensionArray" : {
+      "name" : "testIsExtensionArray",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testIsExtensionArray",
+      "type" : "void",
+      "position" : {
+        "startLine" : 827,
+        "startColumn" : 17,
+        "endLine" : 827,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testSeparatorsToSystem" : {
+      "name" : "testSeparatorsToSystem",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testSeparatorsToSystem",
+      "type" : "void",
+      "position" : {
+        "startLine" : 443,
+        "startColumn" : 17,
+        "endLine" : 443,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testGetName" : {
+      "name" : "testGetName",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testGetName",
+      "type" : "void",
+      "position" : {
+        "startLine" : 692,
+        "startColumn" : 17,
+        "endLine" : 692,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testEqualsOnSystem" : {
+      "name" : "testEqualsOnSystem",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testEqualsOnSystem",
+      "type" : "void",
+      "position" : {
+        "startLine" : 754,
+        "startColumn" : 17,
+        "endLine" : 754,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 20,
+        "endLine" : 70,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testNormalize" : {
+      "name" : "testNormalize",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testNormalize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 17,
+        "endLine" : 86,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testEquals" : {
+      "name" : "testEquals",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testEquals",
+      "type" : "void",
+      "position" : {
+        "startLine" : 744,
+        "startColumn" : 17,
+        "endLine" : 744,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testConcat" : {
+      "name" : "testConcat",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testConcat",
+      "type" : "void",
+      "position" : {
+        "startLine" : 386,
+        "startColumn" : 17,
+        "endLine" : 386,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testGetExtension" : {
+      "name" : "testGetExtension",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testGetExtension",
+      "type" : "void",
+      "position" : {
+        "startLine" : 711,
+        "startColumn" : 17,
+        "endLine" : 711,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testEqualsNormalized" : {
+      "name" : "testEqualsNormalized",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testEqualsNormalized",
+      "type" : "void",
+      "position" : {
+        "startLine" : 765,
+        "startColumn" : 17,
+        "endLine" : 765,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testIndexOfExtension" : {
+      "name" : "testIndexOfExtension",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testIndexOfExtension",
+      "type" : "void",
+      "position" : {
+        "startLine" : 507,
+        "startColumn" : 17,
+        "endLine" : 507,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testEqualsNormalizedOnSystem" : {
+      "name" : "testEqualsNormalizedOnSystem",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testEqualsNormalizedOnSystem",
+      "type" : "void",
+      "position" : {
+        "startLine" : 776,
+        "startColumn" : 17,
+        "endLine" : 776,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testNormalizeNoEndSeparator" : {
+      "name" : "testNormalizeNoEndSeparator",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testNormalizeNoEndSeparator",
+      "type" : "void",
+      "position" : {
+        "startLine" : 236,
+        "startColumn" : 17,
+        "endLine" : 236,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testIsExtension" : {
+      "name" : "testIsExtension",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testIsExtension",
+      "type" : "void",
+      "position" : {
+        "startLine" : 795,
+        "startColumn" : 17,
+        "endLine" : 795,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testSeparatorsToWindows" : {
+      "name" : "testSeparatorsToWindows",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testSeparatorsToWindows",
+      "type" : "void",
+      "position" : {
+        "startLine" : 434,
+        "startColumn" : 17,
+        "endLine" : 434,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testGetPrefixLength" : {
+      "name" : "testGetPrefixLength",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testGetPrefixLength",
+      "type" : "void",
+      "position" : {
+        "startLine" : 462,
+        "startColumn" : 17,
+        "endLine" : 462,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testGetBaseName" : {
+      "name" : "testGetBaseName",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testGetBaseName",
+      "type" : "void",
+      "position" : {
+        "startLine" : 701,
+        "startColumn" : 17,
+        "endLine" : 701,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 20,
+        "endLine" : 81,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testGetFullPathNoEndSeparator" : {
+      "name" : "testGetFullPathNoEndSeparator",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testGetFullPathNoEndSeparator",
+      "type" : "void",
+      "position" : {
+        "startLine" : 658,
+        "startColumn" : 17,
+        "endLine" : 658,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 24,
+        "endLine" : 55,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testGetPath" : {
+      "name" : "testGetPath",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testGetPath",
+      "type" : "void",
+      "position" : {
+        "startLine" : 556,
+        "startColumn" : 17,
+        "endLine" : 556,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testIndexOfLastSeparator" : {
+      "name" : "testIndexOfLastSeparator",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testIndexOfLastSeparator",
+      "type" : "void",
+      "position" : {
+        "startLine" : 500,
+        "startColumn" : 17,
+        "endLine" : 500,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testSeparatorsToUnix" : {
+      "name" : "testSeparatorsToUnix",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testSeparatorsToUnix",
+      "type" : "void",
+      "position" : {
+        "startLine" : 425,
+        "startColumn" : 17,
+        "endLine" : 425,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testIsExtensionCollection" : {
+      "name" : "testIsExtensionCollection",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testIsExtensionCollection",
+      "type" : "void",
+      "position" : {
+        "startLine" : 865,
+        "startColumn" : 17,
+        "endLine" : 865,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    },
+    "testRemoveExtension" : {
+      "name" : "testRemoveExtension",
+      "key" : "org.apache.commons.io.FilenameUtilsTestCase/method/testRemoveExtension",
+      "type" : "void",
+      "position" : {
+        "startLine" : 727,
+        "startColumn" : 17,
+        "endLine" : 727,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FilenameUtilsTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.io.testtools.FileBasedTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,52 @@
+{
+  "name" : "BinaryEncoder",
+  "key" : "org.apache.commons.codec.BinaryEncoder",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 25,
+    "startColumn" : 8,
+    "endLine" : 25,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "encode" : {
+      "name" : "encode",
+      "key" : "org.apache.commons.codec.BinaryEncoder/method/encode",
+      "type" : "byte[]",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 12,
+        "endLine" : 39,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pArray",
+        "key" : "pArray",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 39,
+          "startColumn" : 26,
+          "endLine" : 39,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.BinaryEncoder/method/encode"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.BinaryEncoder"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "Encoder" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

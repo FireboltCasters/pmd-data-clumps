@@ -1,0 +1,147 @@
+{
+  "name" : "TimeTCPClientTest",
+  "key" : "org.apache.commons.net.time.TimeTCPClientTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 66,
+    "startColumn" : 8,
+    "endLine" : 66,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "server1" : {
+      "name" : "server1",
+      "key" : "server1",
+      "type" : "TimeTestSimpleServer",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 34,
+        "endLine" : 68,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.time.TimeTCPClientTest/memberField/server1",
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTCPClientTest"
+    },
+    "_port" : {
+      "name" : "_port",
+      "key" : "_port",
+      "type" : "int",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 17,
+        "endLine" : 70,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.time.TimeTCPClientTest/memberField/_port",
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTCPClientTest"
+    }
+  },
+  "methods" : {
+    "closeConnections" : {
+      "name" : "closeConnections",
+      "key" : "org.apache.commons.net.time.TimeTCPClientTest/method/closeConnections",
+      "type" : "void",
+      "position" : {
+        "startLine" : 161,
+        "startColumn" : 20,
+        "endLine" : 161,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTCPClientTest"
+    },
+    "testInitial" : {
+      "name" : "testInitial",
+      "key" : "org.apache.commons.net.time.TimeTCPClientTest/method/testInitial",
+      "type" : "void",
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 17,
+        "endLine" : 102,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTCPClientTest"
+    },
+    "testCompareTimes" : {
+      "name" : "testCompareTimes",
+      "key" : "org.apache.commons.net.time.TimeTCPClientTest/method/testCompareTimes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 17,
+        "endLine" : 115,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTCPClientTest"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.net.time.TimeTCPClientTest/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 24,
+        "endLine" : 75,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 75,
+          "startColumn" : 38,
+          "endLine" : 75,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.time.TimeTCPClientTest/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTCPClientTest"
+    },
+    "openConnections" : {
+      "name" : "openConnections",
+      "key" : "org.apache.commons.net.time.TimeTCPClientTest/method/openConnections",
+      "type" : "void",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 20,
+        "endLine" : 83,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTCPClientTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

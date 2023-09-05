@@ -1,0 +1,425 @@
+{
+  "name" : "NullInputStream",
+  "key" : "org.apache.commons.io.input.NullInputStream",
+  "type" : "class",
+  "position" : {
+    "startLine" : 63,
+    "startColumn" : 8,
+    "endLine" : 63,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "readlimit" : {
+      "name" : "readlimit",
+      "key" : "readlimit",
+      "type" : "long",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 18,
+        "endLine" : 68,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.NullInputStream/memberField/readlimit",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "size" : {
+      "name" : "size",
+      "key" : "size",
+      "type" : "long",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 18,
+        "endLine" : 65,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.NullInputStream/memberField/size",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "markSupported" : {
+      "name" : "markSupported",
+      "key" : "markSupported",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 21,
+        "endLine" : 71,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.NullInputStream/memberField/markSupported",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "position" : {
+      "name" : "position",
+      "key" : "position",
+      "type" : "long",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 18,
+        "endLine" : 66,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.NullInputStream/memberField/position",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "throwEofException" : {
+      "name" : "throwEofException",
+      "key" : "throwEofException",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 21,
+        "endLine" : 70,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.NullInputStream/memberField/throwEofException",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "eof" : {
+      "name" : "eof",
+      "key" : "eof",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 21,
+        "endLine" : 69,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.NullInputStream/memberField/eof",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "mark" : {
+      "name" : "mark",
+      "key" : "mark",
+      "type" : "long",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 18,
+        "endLine" : 67,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.NullInputStream/memberField/mark",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    }
+  },
+  "methods" : {
+    "getSize" : {
+      "name" : "getSize",
+      "key" : "org.apache.commons.io.input.NullInputStream/method/getSize",
+      "type" : "long",
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 17,
+        "endLine" : 114,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "getPosition" : {
+      "name" : "getPosition",
+      "key" : "org.apache.commons.io.input.NullInputStream/method/getPosition",
+      "type" : "long",
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 17,
+        "endLine" : 105,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "read" : {
+      "name" : "read",
+      "key" : "org.apache.commons.io.input.NullInputStream/method/read",
+      "type" : "int",
+      "position" : {
+        "startLine" : 219,
+        "startColumn" : 16,
+        "endLine" : 219,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "bytes",
+        "key" : "bytes",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 219,
+          "startColumn" : 28,
+          "endLine" : 219,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullInputStream/method/read"
+      }, {
+        "name" : "offset",
+        "key" : "offset",
+        "type" : "int",
+        "position" : {
+          "startLine" : 219,
+          "startColumn" : 39,
+          "endLine" : 219,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullInputStream/method/read"
+      }, {
+        "name" : "length",
+        "key" : "length",
+        "type" : "int",
+        "position" : {
+          "startLine" : 219,
+          "startColumn" : 51,
+          "endLine" : 219,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullInputStream/method/read"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "markSupported" : {
+      "name" : "markSupported",
+      "key" : "org.apache.commons.io.input.NullInputStream/method/markSupported",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 166,
+        "startColumn" : 20,
+        "endLine" : 166,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "processBytes" : {
+      "name" : "processBytes",
+      "key" : "org.apache.commons.io.input.NullInputStream/method/processBytes",
+      "type" : "void",
+      "position" : {
+        "startLine" : 309,
+        "startColumn" : 20,
+        "endLine" : 309,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "bytes",
+        "key" : "bytes",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 309,
+          "startColumn" : 40,
+          "endLine" : 309,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullInputStream/method/processBytes"
+      }, {
+        "name" : "offset",
+        "key" : "offset",
+        "type" : "int",
+        "position" : {
+          "startLine" : 309,
+          "startColumn" : 51,
+          "endLine" : 309,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullInputStream/method/processBytes"
+      }, {
+        "name" : "length",
+        "key" : "length",
+        "type" : "int",
+        "position" : {
+          "startLine" : 309,
+          "startColumn" : 63,
+          "endLine" : 309,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullInputStream/method/processBytes"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "available" : {
+      "name" : "available",
+      "key" : "org.apache.commons.io.input.NullInputStream/method/available",
+      "type" : "int",
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 16,
+        "endLine" : 123,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "reset" : {
+      "name" : "reset",
+      "key" : "org.apache.commons.io.input.NullInputStream/method/reset",
+      "type" : "void",
+      "position" : {
+        "startLine" : 244,
+        "startColumn" : 30,
+        "endLine" : 244,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "skip" : {
+      "name" : "skip",
+      "key" : "org.apache.commons.io.input.NullInputStream/method/skip",
+      "type" : "long",
+      "position" : {
+        "startLine" : 271,
+        "startColumn" : 17,
+        "endLine" : 271,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "numberOfBytes",
+        "key" : "numberOfBytes",
+        "type" : "long",
+        "position" : {
+          "startLine" : 271,
+          "startColumn" : 27,
+          "endLine" : 271,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullInputStream/method/skip"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.io.input.NullInputStream/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 140,
+        "startColumn" : 17,
+        "endLine" : 140,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "processByte" : {
+      "name" : "processByte",
+      "key" : "org.apache.commons.io.input.NullInputStream/method/processByte",
+      "type" : "int",
+      "position" : {
+        "startLine" : 294,
+        "startColumn" : 19,
+        "endLine" : 294,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "mark" : {
+      "name" : "mark",
+      "key" : "org.apache.commons.io.input.NullInputStream/method/mark",
+      "type" : "void",
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 30,
+        "endLine" : 153,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "readlimit",
+        "key" : "readlimit",
+        "type" : "int",
+        "position" : {
+          "startLine" : 153,
+          "startColumn" : 39,
+          "endLine" : 153,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.NullInputStream/method/mark"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    },
+    "doEndOfFile" : {
+      "name" : "doEndOfFile",
+      "key" : "org.apache.commons.io.input.NullInputStream/method/doEndOfFile",
+      "type" : "int",
+      "position" : {
+        "startLine" : 321,
+        "startColumn" : 17,
+        "endLine" : 321,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.NullInputStream"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.io.InputStream" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

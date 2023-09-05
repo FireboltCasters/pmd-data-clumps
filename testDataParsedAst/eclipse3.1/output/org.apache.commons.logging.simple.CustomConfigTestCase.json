@@ -1,0 +1,278 @@
+{
+  "name" : "CustomConfigTestCase",
+  "key" : "org.apache.commons.logging.simple.CustomConfigTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "testMessages" : {
+      "name" : "testMessages",
+      "key" : "testMessages",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 22,
+        "endLine" : 63,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.simple.CustomConfigTestCase/memberField/testMessages",
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    },
+    "expected" : {
+      "name" : "expected",
+      "key" : "expected",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 20,
+        "endLine" : 48,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.simple.CustomConfigTestCase/memberField/expected",
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    }
+  },
+  "methods" : {
+    "setProperties" : {
+      "name" : "setProperties",
+      "key" : "org.apache.commons.logging.simple.CustomConfigTestCase/method/setProperties",
+      "type" : "void",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 17,
+        "endLine" : 74,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    },
+    "checkDecorated" : {
+      "name" : "checkDecorated",
+      "key" : "org.apache.commons.logging.simple.CustomConfigTestCase/method/checkDecorated",
+      "type" : "void",
+      "position" : {
+        "startLine" : 167,
+        "startColumn" : 20,
+        "endLine" : 167,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    },
+    "checkShowDateTime" : {
+      "name" : "checkShowDateTime",
+      "key" : "org.apache.commons.logging.simple.CustomConfigTestCase/method/checkShowDateTime",
+      "type" : "void",
+      "position" : {
+        "startLine" : 195,
+        "startColumn" : 20,
+        "endLine" : 195,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    },
+    "checkExpected" : {
+      "name" : "checkExpected",
+      "key" : "org.apache.commons.logging.simple.CustomConfigTestCase/method/checkExpected",
+      "type" : "void",
+      "position" : {
+        "startLine" : 208,
+        "startColumn" : 20,
+        "endLine" : 208,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    },
+    "checkStandard" : {
+      "name" : "checkStandard",
+      "key" : "org.apache.commons.logging.simple.CustomConfigTestCase/method/checkStandard",
+      "type" : "void",
+      "position" : {
+        "startLine" : 225,
+        "startColumn" : 20,
+        "endLine" : 225,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.logging.simple.CustomConfigTestCase/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 17,
+        "endLine" : 122,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.logging.simple.CustomConfigTestCase/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 24,
+        "endLine" : 107,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    },
+    "testPlainMessages" : {
+      "name" : "testPlainMessages",
+      "key" : "org.apache.commons.logging.simple.CustomConfigTestCase/method/testPlainMessages",
+      "type" : "void",
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 17,
+        "endLine" : 142,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    },
+    "testSerializable" : {
+      "name" : "testSerializable",
+      "key" : "org.apache.commons.logging.simple.CustomConfigTestCase/method/testSerializable",
+      "type" : "void",
+      "position" : {
+        "startLine" : 152,
+        "startColumn" : 17,
+        "endLine" : 152,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    },
+    "testExceptionMessages" : {
+      "name" : "testExceptionMessages",
+      "key" : "org.apache.commons.logging.simple.CustomConfigTestCase/method/testExceptionMessages",
+      "type" : "void",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 17,
+        "endLine" : 132,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    },
+    "logPlainMessages" : {
+      "name" : "logPlainMessages",
+      "key" : "org.apache.commons.logging.simple.CustomConfigTestCase/method/logPlainMessages",
+      "type" : "void",
+      "position" : {
+        "startLine" : 255,
+        "startColumn" : 20,
+        "endLine" : 255,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.logging.simple.CustomConfigTestCase/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 17,
+        "endLine" : 86,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    },
+    "logExceptionMessages" : {
+      "name" : "logExceptionMessages",
+      "key" : "org.apache.commons.logging.simple.CustomConfigTestCase/method/logExceptionMessages",
+      "type" : "void",
+      "position" : {
+        "startLine" : 233,
+        "startColumn" : 20,
+        "endLine" : 233,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    },
+    "checkDecoratedDateTime" : {
+      "name" : "checkDecoratedDateTime",
+      "key" : "org.apache.commons.logging.simple.CustomConfigTestCase/method/checkDecoratedDateTime",
+      "type" : "void",
+      "position" : {
+        "startLine" : 200,
+        "startColumn" : 20,
+        "endLine" : 200,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.simple.CustomConfigTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "DefaultConfigTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

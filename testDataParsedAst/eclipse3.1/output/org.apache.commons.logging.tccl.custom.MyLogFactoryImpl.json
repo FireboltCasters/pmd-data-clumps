@@ -1,0 +1,184 @@
+{
+  "name" : "MyLogFactoryImpl",
+  "key" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl",
+  "type" : "class",
+  "position" : {
+    "startLine" : 23,
+    "startColumn" : 8,
+    "endLine" : 23,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "setAttribute" : {
+      "name" : "setAttribute",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl/method/setAttribute",
+      "type" : "void",
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 17,
+        "endLine" : 30,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 30,
+          "startColumn" : 37,
+          "endLine" : 30,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl/method/setAttribute"
+      }, {
+        "name" : "value",
+        "key" : "value",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 30,
+          "startColumn" : 50,
+          "endLine" : 30,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl/method/setAttribute"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl"
+    },
+    "getAttribute" : {
+      "name" : "getAttribute",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl/method/getAttribute",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 24,
+        "startColumn" : 19,
+        "endLine" : 24,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 24,
+          "startColumn" : 39,
+          "endLine" : 24,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl/method/getAttribute"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl"
+    },
+    "getAttributeNames" : {
+      "name" : "getAttributeNames",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl/method/getAttributeNames",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 25,
+        "startColumn" : 21,
+        "endLine" : 25,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl"
+    },
+    "release" : {
+      "name" : "release",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl/method/release",
+      "type" : "void",
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 17,
+        "endLine" : 28,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl"
+    },
+    "getInstance" : {
+      "name" : "getInstance",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl/method/getInstance",
+      "type" : "org.apache.commons.logging.Log",
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 16,
+        "endLine" : 27,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 27,
+          "startColumn" : 35,
+          "endLine" : 27,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl/method/getInstance"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl"
+    },
+    "removeAttribute" : {
+      "name" : "removeAttribute",
+      "key" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl/method/removeAttribute",
+      "type" : "void",
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 17,
+        "endLine" : 29,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 29,
+          "startColumn" : 40,
+          "endLine" : 29,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl/method/removeAttribute"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.custom.MyLogFactoryImpl"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.logging.LogFactory" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

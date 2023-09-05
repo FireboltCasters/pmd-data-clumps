@@ -1,0 +1,171 @@
+{
+  "name" : "ToNetASCIIInputStream",
+  "key" : "org.apache.commons.net.io.ToNetASCIIInputStream",
+  "type" : "class",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 14,
+    "endLine" : 34,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "__LAST_WAS_CR" : {
+      "name" : "__LAST_WAS_CR",
+      "key" : "__LAST_WAS_CR",
+      "type" : "int",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 30,
+        "endLine" : 37,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.io.ToNetASCIIInputStream/memberField/__LAST_WAS_CR",
+      "classOrInterfaceKey" : "org.apache.commons.net.io.ToNetASCIIInputStream"
+    },
+    "__NOTHING_SPECIAL" : {
+      "name" : "__NOTHING_SPECIAL",
+      "key" : "__NOTHING_SPECIAL",
+      "type" : "int",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 30,
+        "endLine" : 36,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.io.ToNetASCIIInputStream/memberField/__NOTHING_SPECIAL",
+      "classOrInterfaceKey" : "org.apache.commons.net.io.ToNetASCIIInputStream"
+    },
+    "__LAST_WAS_NL" : {
+      "name" : "__LAST_WAS_NL",
+      "key" : "__LAST_WAS_NL",
+      "type" : "int",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 30,
+        "endLine" : 38,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.io.ToNetASCIIInputStream/memberField/__LAST_WAS_NL",
+      "classOrInterfaceKey" : "org.apache.commons.net.io.ToNetASCIIInputStream"
+    },
+    "__status" : {
+      "name" : "__status",
+      "key" : "__status",
+      "type" : "int",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 17,
+        "endLine" : 39,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.io.ToNetASCIIInputStream/memberField/__status",
+      "classOrInterfaceKey" : "org.apache.commons.net.io.ToNetASCIIInputStream"
+    }
+  },
+  "methods" : {
+    "read" : {
+      "name" : "read",
+      "key" : "org.apache.commons.net.io.ToNetASCIIInputStream/method/read",
+      "type" : "int",
+      "position" : {
+        "startLine" : 127,
+        "startColumn" : 16,
+        "endLine" : 127,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "buffer",
+        "key" : "buffer",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 127,
+          "startColumn" : 26,
+          "endLine" : 127,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.io.ToNetASCIIInputStream/method/read"
+      }, {
+        "name" : "offset",
+        "key" : "offset",
+        "type" : "int",
+        "position" : {
+          "startLine" : 127,
+          "startColumn" : 40,
+          "endLine" : 127,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.io.ToNetASCIIInputStream/method/read"
+      }, {
+        "name" : "length",
+        "key" : "length",
+        "type" : "int",
+        "position" : {
+          "startLine" : 127,
+          "startColumn" : 52,
+          "endLine" : 127,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.io.ToNetASCIIInputStream/method/read"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.io.ToNetASCIIInputStream"
+    },
+    "markSupported" : {
+      "name" : "markSupported",
+      "key" : "org.apache.commons.net.io.ToNetASCIIInputStream/method/markSupported",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 158,
+        "startColumn" : 20,
+        "endLine" : 158,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.io.ToNetASCIIInputStream"
+    },
+    "available" : {
+      "name" : "available",
+      "key" : "org.apache.commons.net.io.ToNetASCIIInputStream/method/available",
+      "type" : "int",
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 16,
+        "endLine" : 163,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.io.ToNetASCIIInputStream"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.io.FilterInputStream" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

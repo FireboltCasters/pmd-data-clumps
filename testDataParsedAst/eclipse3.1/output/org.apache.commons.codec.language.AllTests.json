@@ -1,0 +1,39 @@
+{
+  "name" : "AllTests",
+  "key" : "org.apache.commons.codec.language.AllTests",
+  "type" : "class",
+  "position" : {
+    "startLine" : 28,
+    "startColumn" : 8,
+    "endLine" : 28,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.codec.language.AllTests/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 24,
+        "endLine" : 30,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.AllTests"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

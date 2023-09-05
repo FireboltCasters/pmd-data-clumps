@@ -1,0 +1,415 @@
+{
+  "name" : "IOUtilsTestCase",
+  "key" : "org.apache.commons.io.IOUtilsTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 51,
+    "startColumn" : 8,
+    "endLine" : 51,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "FILE_SIZE" : {
+      "name" : "FILE_SIZE",
+      "key" : "FILE_SIZE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 30,
+        "endLine" : 62,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.IOUtilsTestCase/memberField/FILE_SIZE",
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "WINDOWS" : {
+      "name" : "WINDOWS",
+      "key" : "WINDOWS",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 34,
+        "endLine" : 54,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.IOUtilsTestCase/memberField/WINDOWS",
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "m_testFile" : {
+      "name" : "m_testFile",
+      "key" : "m_testFile",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 18,
+        "endLine" : 64,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.IOUtilsTestCase/memberField/m_testFile",
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    }
+  },
+  "methods" : {
+    "testByteArrayToString" : {
+      "name" : "testByteArrayToString",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testByteArrayToString",
+      "type" : "void",
+      "position" : {
+        "startLine" : 265,
+        "startColumn" : 17,
+        "endLine" : 265,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testReadLines_Reader" : {
+      "name" : "testReadLines_Reader",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testReadLines_Reader",
+      "type" : "void",
+      "position" : {
+        "startLine" : 410,
+        "startColumn" : 17,
+        "endLine" : 410,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testStringToInputStream" : {
+      "name" : "testStringToInputStream",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testStringToInputStream",
+      "type" : "void",
+      "position" : {
+        "startLine" : 286,
+        "startColumn" : 17,
+        "endLine" : 286,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testReadLines_InputStream" : {
+      "name" : "testReadLines_InputStream",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testReadLines_InputStream",
+      "type" : "void",
+      "position" : {
+        "startLine" : 374,
+        "startColumn" : 17,
+        "endLine" : 374,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testConstants" : {
+      "name" : "testConstants",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testConstants",
+      "type" : "void",
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 17,
+        "endLine" : 100,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testStringToByteArray" : {
+      "name" : "testStringToByteArray",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testStringToByteArray",
+      "type" : "void",
+      "position" : {
+        "startLine" : 225,
+        "startColumn" : 17,
+        "endLine" : 225,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testInputStreamToCharArray" : {
+      "name" : "testInputStreamToCharArray",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testInputStreamToCharArray",
+      "type" : "void",
+      "position" : {
+        "startLine" : 326,
+        "startColumn" : 17,
+        "endLine" : 326,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testByteArrayToOutputStream" : {
+      "name" : "testByteArrayToOutputStream",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testByteArrayToOutputStream",
+      "type" : "void",
+      "position" : {
+        "startLine" : 299,
+        "startColumn" : 17,
+        "endLine" : 299,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testStringToWriter" : {
+      "name" : "testStringToWriter",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testStringToWriter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 183,
+        "startColumn" : 17,
+        "endLine" : 183,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 17,
+        "endLine" : 82,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testInputStreamToByteArray" : {
+      "name" : "testInputStreamToByteArray",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testInputStreamToByteArray",
+      "type" : "void",
+      "position" : {
+        "startLine" : 209,
+        "startColumn" : 17,
+        "endLine" : 209,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testByteArrayToWriter" : {
+      "name" : "testByteArrayToWriter",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testByteArrayToWriter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 240,
+        "startColumn" : 17,
+        "endLine" : 240,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testReadLines_InputStream_String" : {
+      "name" : "testReadLines_InputStream_String",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testReadLines_InputStream_String",
+      "type" : "void",
+      "position" : {
+        "startLine" : 392,
+        "startColumn" : 17,
+        "endLine" : 392,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testInputStreamToCharArrayWithEncoding" : {
+      "name" : "testInputStreamToCharArrayWithEncoding",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testInputStreamToCharArrayWithEncoding",
+      "type" : "void",
+      "position" : {
+        "startLine" : 342,
+        "startColumn" : 17,
+        "endLine" : 342,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testReaderToString" : {
+      "name" : "testReaderToString",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testReaderToString",
+      "type" : "void",
+      "position" : {
+        "startLine" : 137,
+        "startColumn" : 17,
+        "endLine" : 137,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testStringToOutputStream" : {
+      "name" : "testStringToOutputStream",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testStringToOutputStream",
+      "type" : "void",
+      "position" : {
+        "startLine" : 152,
+        "startColumn" : 17,
+        "endLine" : 152,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 17,
+        "endLine" : 66,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testReaderToCharArray" : {
+      "name" : "testReaderToCharArray",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testReaderToCharArray",
+      "type" : "void",
+      "position" : {
+        "startLine" : 358,
+        "startColumn" : 17,
+        "endLine" : 358,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "assertEqualContent" : {
+      "name" : "assertEqualContent",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/assertEqualContent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 18,
+        "endLine" : 116,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "b0",
+        "key" : "b0",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 116,
+          "startColumn" : 45,
+          "endLine" : 116,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.IOUtilsTestCase/method/assertEqualContent"
+      }, {
+        "name" : "b1",
+        "key" : "b1",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 116,
+          "startColumn" : 56,
+          "endLine" : 116,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.IOUtilsTestCase/method/assertEqualContent"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    },
+    "testInputStreamToString" : {
+      "name" : "testInputStreamToString",
+      "key" : "org.apache.commons.io.IOUtilsTestCase/method/testInputStreamToString",
+      "type" : "void",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 17,
+        "endLine" : 122,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.IOUtilsTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.io.testtools.FileBasedTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

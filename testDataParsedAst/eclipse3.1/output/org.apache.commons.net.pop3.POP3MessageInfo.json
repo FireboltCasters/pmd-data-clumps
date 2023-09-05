@@ -1,0 +1,68 @@
+{
+  "name" : "POP3MessageInfo",
+  "key" : "org.apache.commons.net.pop3.POP3MessageInfo",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 14,
+    "endLine" : 40,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "number" : {
+      "name" : "number",
+      "key" : "number",
+      "type" : "int",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 16,
+        "endLine" : 42,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.pop3.POP3MessageInfo/memberField/number",
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3MessageInfo"
+    },
+    "identifier" : {
+      "name" : "identifier",
+      "key" : "identifier",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 19,
+        "endLine" : 44,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.pop3.POP3MessageInfo/memberField/identifier",
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3MessageInfo"
+    },
+    "size" : {
+      "name" : "size",
+      "key" : "size",
+      "type" : "int",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 16,
+        "endLine" : 43,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.pop3.POP3MessageInfo/memberField/size",
+      "classOrInterfaceKey" : "org.apache.commons.net.pop3.POP3MessageInfo"
+    }
+  },
+  "methods" : { },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

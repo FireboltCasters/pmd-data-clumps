@@ -1,0 +1,316 @@
+{
+  "name" : "LoadTestCase",
+  "key" : "org.apache.commons.logging.LoadTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 25,
+    "startColumn" : 8,
+    "endLine" : 25,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LOG_PCKG" : {
+      "name" : "LOG_PCKG",
+      "key" : "LOG_PCKG",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 27,
+        "endLine" : 27,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.LoadTestCase/memberField/LOG_PCKG",
+      "classOrInterfaceKey" : "org.apache.commons.logging.LoadTestCase"
+    },
+    "origContextClassLoader" : {
+      "name" : "origContextClassLoader",
+      "key" : "origContextClassLoader",
+      "type" : "java.lang.ClassLoader",
+      "position" : {
+        "startLine" : 229,
+        "startColumn" : 25,
+        "endLine" : 229,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.LoadTestCase/memberField/origContextClassLoader",
+      "classOrInterfaceKey" : "org.apache.commons.logging.LoadTestCase"
+    }
+  },
+  "methods" : {
+    "reload" : {
+      "name" : "reload",
+      "key" : "org.apache.commons.logging.LoadTestCase/method/reload",
+      "type" : "java.lang.Class",
+      "position" : {
+        "startLine" : 181,
+        "startColumn" : 19,
+        "endLine" : 181,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.LoadTestCase"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.logging.LoadTestCase/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 219,
+        "startColumn" : 17,
+        "endLine" : 219,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.LoadTestCase"
+    },
+    "testInContainer" : {
+      "name" : "testInContainer",
+      "key" : "org.apache.commons.logging.LoadTestCase/method/testInContainer",
+      "type" : "void",
+      "position" : {
+        "startLine" : 117,
+        "startColumn" : 17,
+        "endLine" : 117,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.LoadTestCase"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.logging.LoadTestCase/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 214,
+        "startColumn" : 24,
+        "endLine" : 214,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 214,
+          "startColumn" : 38,
+          "endLine" : 214,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.LoadTestCase/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.LoadTestCase"
+    },
+    "execute" : {
+      "name" : "execute",
+      "key" : "org.apache.commons.logging.LoadTestCase/method/execute",
+      "type" : "void",
+      "position" : {
+        "startLine" : 207,
+        "startColumn" : 18,
+        "endLine" : 207,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "cls",
+        "key" : "cls",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 207,
+          "startColumn" : 32,
+          "endLine" : 207,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.LoadTestCase/method/execute"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.LoadTestCase"
+    },
+    "setAllowFlawedContext" : {
+      "name" : "setAllowFlawedContext",
+      "key" : "org.apache.commons.logging.LoadTestCase/method/setAllowFlawedContext",
+      "type" : "void",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 18,
+        "endLine" : 104,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "c",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 46,
+          "endLine" : 104,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.LoadTestCase/method/setAllowFlawedContext"
+      }, {
+        "name" : "state",
+        "key" : "state",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 56,
+          "endLine" : 104,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.LoadTestCase/method/setAllowFlawedContext"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.LoadTestCase"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.logging.LoadTestCase/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 224,
+        "startColumn" : 17,
+        "endLine" : 224,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.LoadTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.apache.commons.logging.LoadTestCase.AppClassLoader" : {
+      "name" : "AppClassLoader",
+      "key" : "org.apache.commons.logging.LoadTestCase.AppClassLoader",
+      "type" : "class",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 12,
+        "endLine" : 39,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : {
+        "classes" : {
+          "name" : "classes",
+          "key" : "classes",
+          "type" : "java.util.Map",
+          "position" : {
+            "startLine" : 41,
+            "startColumn" : 23,
+            "endLine" : 41,
+            "endColumn" : 30
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.logging.LoadTestCase.AppClassLoader/memberField/classes",
+          "classOrInterfaceKey" : "org.apache.commons.logging.LoadTestCase.AppClassLoader"
+        }
+      },
+      "methods" : {
+        "def" : {
+          "name" : "def",
+          "key" : "org.apache.commons.logging.LoadTestCase.AppClassLoader/method/def",
+          "type" : "java.lang.Class",
+          "position" : {
+            "startLine" : 47,
+            "startColumn" : 23,
+            "endLine" : 47,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "name",
+            "key" : "name",
+            "type" : "java.lang.String",
+            "position" : {
+              "startLine" : 47,
+              "startColumn" : 34,
+              "endLine" : 47,
+              "endColumn" : 38
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.logging.LoadTestCase.AppClassLoader/method/def"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.logging.LoadTestCase.AppClassLoader"
+        },
+        "loadClass" : {
+          "name" : "loadClass",
+          "key" : "org.apache.commons.logging.LoadTestCase.AppClassLoader/method/loadClass",
+          "type" : "java.lang.Class",
+          "position" : {
+            "startLine" : 83,
+            "startColumn" : 22,
+            "endLine" : 83,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "name",
+            "key" : "name",
+            "type" : "java.lang.String",
+            "position" : {
+              "startLine" : 83,
+              "startColumn" : 39,
+              "endLine" : 83,
+              "endColumn" : 43
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.logging.LoadTestCase.AppClassLoader/method/loadClass"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.logging.LoadTestCase.AppClassLoader"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "java.lang.ClassLoader" ],
+      "definedInClassOrInterfaceTypeKey" : "org.apache.commons.logging.LoadTestCase",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

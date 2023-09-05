@@ -1,0 +1,570 @@
+{
+  "name" : "BasicDataSourceFactory",
+  "key" : "org.apache.commons.dbcp.BasicDataSourceFactory",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "PROP_CONNECTIONPROPERTIES" : {
+      "name" : "PROP_CONNECTIONPROPERTIES",
+      "key" : "PROP_CONNECTIONPROPERTIES",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 33,
+        "endLine" : 71,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_CONNECTIONPROPERTIES",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_PASSWORD" : {
+      "name" : "PROP_PASSWORD",
+      "key" : "PROP_PASSWORD",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 33,
+        "endLine" : 61,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_PASSWORD",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_DEFAULTREADONLY" : {
+      "name" : "PROP_DEFAULTREADONLY",
+      "key" : "PROP_DEFAULTREADONLY",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 33,
+        "endLine" : 46,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_DEFAULTREADONLY",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_MINIDLE" : {
+      "name" : "PROP_MINIDLE",
+      "key" : "PROP_MINIDLE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 33,
+        "endLine" : 52,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_MINIDLE",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_URL" : {
+      "name" : "PROP_URL",
+      "key" : "PROP_URL",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 33,
+        "endLine" : 62,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_URL",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_ACCESSTOUNDERLYINGCONNECTIONALLOWED" : {
+      "name" : "PROP_ACCESSTOUNDERLYINGCONNECTIONALLOWED",
+      "key" : "PROP_ACCESSTOUNDERLYINGCONNECTIONALLOWED",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 33,
+        "endLine" : 65,
+        "endColumn" : 73
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_ACCESSTOUNDERLYINGCONNECTIONALLOWED",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_DEFAULTTRANSACTIONISOLATION" : {
+      "name" : "PROP_DEFAULTTRANSACTIONISOLATION",
+      "key" : "PROP_DEFAULTTRANSACTIONISOLATION",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 33,
+        "endLine" : 47,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_DEFAULTTRANSACTIONISOLATION",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_MAXWAIT" : {
+      "name" : "PROP_MAXWAIT",
+      "key" : "PROP_MAXWAIT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 33,
+        "endLine" : 54,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_MAXWAIT",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_DEFAULTCATALOG" : {
+      "name" : "PROP_DEFAULTCATALOG",
+      "key" : "PROP_DEFAULTCATALOG",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 33,
+        "endLine" : 48,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_DEFAULTCATALOG",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_MAXACTIVE" : {
+      "name" : "PROP_MAXACTIVE",
+      "key" : "PROP_MAXACTIVE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 33,
+        "endLine" : 50,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_MAXACTIVE",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_TESTONRETURN" : {
+      "name" : "PROP_TESTONRETURN",
+      "key" : "PROP_TESTONRETURN",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 33,
+        "endLine" : 56,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_TESTONRETURN",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_MINEVICTABLEIDLETIMEMILLIS" : {
+      "name" : "PROP_MINEVICTABLEIDLETIMEMILLIS",
+      "key" : "PROP_MINEVICTABLEIDLETIMEMILLIS",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 33,
+        "endLine" : 59,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_MINEVICTABLEIDLETIMEMILLIS",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_INITIALSIZE" : {
+      "name" : "PROP_INITIALSIZE",
+      "key" : "PROP_INITIALSIZE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 33,
+        "endLine" : 53,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_INITIALSIZE",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_NUMTESTSPEREVICTIONRUN" : {
+      "name" : "PROP_NUMTESTSPEREVICTIONRUN",
+      "key" : "PROP_NUMTESTSPEREVICTIONRUN",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 33,
+        "endLine" : 58,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_NUMTESTSPEREVICTIONRUN",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_TESTONBORROW" : {
+      "name" : "PROP_TESTONBORROW",
+      "key" : "PROP_TESTONBORROW",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 33,
+        "endLine" : 55,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_TESTONBORROW",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_DRIVERCLASSNAME" : {
+      "name" : "PROP_DRIVERCLASSNAME",
+      "key" : "PROP_DRIVERCLASSNAME",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 33,
+        "endLine" : 49,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_DRIVERCLASSNAME",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_USERNAME" : {
+      "name" : "PROP_USERNAME",
+      "key" : "PROP_USERNAME",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 33,
+        "endLine" : 63,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_USERNAME",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_DEFAULTAUTOCOMMIT" : {
+      "name" : "PROP_DEFAULTAUTOCOMMIT",
+      "key" : "PROP_DEFAULTAUTOCOMMIT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 33,
+        "endLine" : 45,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_DEFAULTAUTOCOMMIT",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_TESTWHILEIDLE" : {
+      "name" : "PROP_TESTWHILEIDLE",
+      "key" : "PROP_TESTWHILEIDLE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 33,
+        "endLine" : 60,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_TESTWHILEIDLE",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_MAXOPENPREPAREDSTATEMENTS" : {
+      "name" : "PROP_MAXOPENPREPAREDSTATEMENTS",
+      "key" : "PROP_MAXOPENPREPAREDSTATEMENTS",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 33,
+        "endLine" : 70,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_MAXOPENPREPAREDSTATEMENTS",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_LOGABANDONED" : {
+      "name" : "PROP_LOGABANDONED",
+      "key" : "PROP_LOGABANDONED",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 33,
+        "endLine" : 68,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_LOGABANDONED",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_TIMEBETWEENEVICTIONRUNSMILLIS" : {
+      "name" : "PROP_TIMEBETWEENEVICTIONRUNSMILLIS",
+      "key" : "PROP_TIMEBETWEENEVICTIONRUNSMILLIS",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 33,
+        "endLine" : 57,
+        "endColumn" : 67
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_TIMEBETWEENEVICTIONRUNSMILLIS",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "ALL_PROPERTIES" : {
+      "name" : "ALL_PROPERTIES",
+      "key" : "ALL_PROPERTIES",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 35,
+        "endLine" : 73,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/ALL_PROPERTIES",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_MAXIDLE" : {
+      "name" : "PROP_MAXIDLE",
+      "key" : "PROP_MAXIDLE",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 33,
+        "endLine" : 51,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_MAXIDLE",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_VALIDATIONQUERY" : {
+      "name" : "PROP_VALIDATIONQUERY",
+      "key" : "PROP_VALIDATIONQUERY",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 33,
+        "endLine" : 64,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_VALIDATIONQUERY",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_REMOVEABANDONEDTIMEOUT" : {
+      "name" : "PROP_REMOVEABANDONEDTIMEOUT",
+      "key" : "PROP_REMOVEABANDONEDTIMEOUT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 33,
+        "endLine" : 67,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_REMOVEABANDONEDTIMEOUT",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_POOLPREPAREDSTATEMENTS" : {
+      "name" : "PROP_POOLPREPAREDSTATEMENTS",
+      "key" : "PROP_POOLPREPAREDSTATEMENTS",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 33,
+        "endLine" : 69,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_POOLPREPAREDSTATEMENTS",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "PROP_REMOVEABANDONED" : {
+      "name" : "PROP_REMOVEABANDONED",
+      "key" : "PROP_REMOVEABANDONED",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 33,
+        "endLine" : 66,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/memberField/PROP_REMOVEABANDONED",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    }
+  },
+  "methods" : {
+    "createDataSource" : {
+      "name" : "createDataSource",
+      "key" : "org.apache.commons.dbcp.BasicDataSourceFactory/method/createDataSource",
+      "type" : "javax.sql.DataSource",
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 30,
+        "endLine" : 151,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "properties",
+        "key" : "properties",
+        "type" : "java.util.Properties",
+        "position" : {
+          "startLine" : 151,
+          "startColumn" : 58,
+          "endLine" : 151,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/method/createDataSource"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "getObjectInstance" : {
+      "name" : "getObjectInstance",
+      "key" : "org.apache.commons.dbcp.BasicDataSourceFactory/method/getObjectInstance",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 19,
+        "endLine" : 120,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 120,
+          "startColumn" : 44,
+          "endLine" : 120,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/method/getObjectInstance"
+      }, {
+        "name" : "name",
+        "key" : "name",
+        "type" : "javax.naming.Name",
+        "position" : {
+          "startLine" : 120,
+          "startColumn" : 54,
+          "endLine" : 120,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/method/getObjectInstance"
+      }, {
+        "name" : "nameCtx",
+        "key" : "nameCtx",
+        "type" : "javax.naming.Context",
+        "position" : {
+          "startLine" : 120,
+          "startColumn" : 68,
+          "endLine" : 120,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/method/getObjectInstance"
+      }, {
+        "name" : "environment",
+        "key" : "environment",
+        "type" : "java.util.Hashtable",
+        "position" : {
+          "startLine" : 121,
+          "startColumn" : 47,
+          "endLine" : 121,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/method/getObjectInstance"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    },
+    "getProperties" : {
+      "name" : "getProperties",
+      "key" : "org.apache.commons.dbcp.BasicDataSourceFactory/method/getProperties",
+      "type" : "java.util.Properties",
+      "position" : {
+        "startLine" : 331,
+        "startColumn" : 31,
+        "endLine" : 331,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "propText",
+        "key" : "propText",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 331,
+          "startColumn" : 52,
+          "endLine" : 331,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.BasicDataSourceFactory/method/getProperties"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.BasicDataSourceFactory"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "javax.naming.spi.ObjectFactory" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

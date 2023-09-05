@@ -1,0 +1,70 @@
+{
+  "name" : "InvalidTelnetOptionException",
+  "key" : "org.apache.commons.net.telnet.InvalidTelnetOptionException",
+  "type" : "class",
+  "position" : {
+    "startLine" : 25,
+    "startColumn" : 8,
+    "endLine" : 25,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "msg" : {
+      "name" : "msg",
+      "key" : "msg",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 20,
+        "endLine" : 36,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.InvalidTelnetOptionException/memberField/msg",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.InvalidTelnetOptionException"
+    },
+    "optionCode" : {
+      "name" : "optionCode",
+      "key" : "optionCode",
+      "type" : "int",
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 17,
+        "endLine" : 31,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.telnet.InvalidTelnetOptionException/memberField/optionCode",
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.InvalidTelnetOptionException"
+    }
+  },
+  "methods" : {
+    "getMessage" : {
+      "name" : "getMessage",
+      "key" : "org.apache.commons.net.telnet.InvalidTelnetOptionException/method/getMessage",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 19,
+        "endLine" : 55,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.telnet.InvalidTelnetOptionException"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.lang.Exception" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

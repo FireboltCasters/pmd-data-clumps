@@ -1,0 +1,164 @@
+{
+  "name" : "ProtocolCommandEvent",
+  "key" : "org.apache.commons.net.ProtocolCommandEvent",
+  "type" : "class",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "__command" : {
+      "name" : "__command",
+      "key" : "__command",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 31,
+        "endLine" : 38,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ProtocolCommandEvent/memberField/__command",
+      "classOrInterfaceKey" : "org.apache.commons.net.ProtocolCommandEvent"
+    },
+    "__isCommand" : {
+      "name" : "__isCommand",
+      "key" : "__isCommand",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 21,
+        "endLine" : 37,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ProtocolCommandEvent/memberField/__isCommand",
+      "classOrInterfaceKey" : "org.apache.commons.net.ProtocolCommandEvent"
+    },
+    "__message" : {
+      "name" : "__message",
+      "key" : "__message",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 20,
+        "endLine" : 38,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ProtocolCommandEvent/memberField/__message",
+      "classOrInterfaceKey" : "org.apache.commons.net.ProtocolCommandEvent"
+    },
+    "__replyCode" : {
+      "name" : "__replyCode",
+      "key" : "__replyCode",
+      "type" : "int",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 17,
+        "endLine" : 36,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ProtocolCommandEvent/memberField/__replyCode",
+      "classOrInterfaceKey" : "org.apache.commons.net.ProtocolCommandEvent"
+    }
+  },
+  "methods" : {
+    "getCommand" : {
+      "name" : "getCommand",
+      "key" : "org.apache.commons.net.ProtocolCommandEvent/method/getCommand",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 19,
+        "endLine" : 93,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ProtocolCommandEvent"
+    },
+    "isCommand" : {
+      "name" : "isCommand",
+      "key" : "org.apache.commons.net.ProtocolCommandEvent/method/isCommand",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 20,
+        "endLine" : 118,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ProtocolCommandEvent"
+    },
+    "getMessage" : {
+      "name" : "getMessage",
+      "key" : "org.apache.commons.net.ProtocolCommandEvent/method/getMessage",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 140,
+        "startColumn" : 19,
+        "endLine" : 140,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ProtocolCommandEvent"
+    },
+    "getReplyCode" : {
+      "name" : "getReplyCode",
+      "key" : "org.apache.commons.net.ProtocolCommandEvent/method/getReplyCode",
+      "type" : "int",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 16,
+        "endLine" : 106,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ProtocolCommandEvent"
+    },
+    "isReply" : {
+      "name" : "isReply",
+      "key" : "org.apache.commons.net.ProtocolCommandEvent/method/isReply",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 20,
+        "endLine" : 130,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ProtocolCommandEvent"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.util.EventObject" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

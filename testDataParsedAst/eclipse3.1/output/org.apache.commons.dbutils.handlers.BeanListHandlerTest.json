@@ -1,0 +1,55 @@
+{
+  "name" : "BeanListHandlerTest",
+  "key" : "org.apache.commons.dbutils.handlers.BeanListHandlerTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "testHandle" : {
+      "name" : "testHandle",
+      "key" : "org.apache.commons.dbutils.handlers.BeanListHandlerTest/method/testHandle",
+      "type" : "void",
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 14,
+        "endLine" : 39,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.handlers.BeanListHandlerTest"
+    },
+    "testEmptyResultSetHandle" : {
+      "name" : "testEmptyResultSetHandle",
+      "key" : "org.apache.commons.dbutils.handlers.BeanListHandlerTest/method/testEmptyResultSetHandle",
+      "type" : "void",
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 14,
+        "endLine" : 59,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.handlers.BeanListHandlerTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.dbutils.BaseTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

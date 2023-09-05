@@ -1,0 +1,55 @@
+{
+  "name" : "MapHandlerTest",
+  "key" : "org.apache.commons.dbutils.handlers.MapHandlerTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 28,
+    "startColumn" : 8,
+    "endLine" : 28,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "testHandle" : {
+      "name" : "testHandle",
+      "key" : "org.apache.commons.dbutils.handlers.MapHandlerTest/method/testHandle",
+      "type" : "void",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 14,
+        "endLine" : 37,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.handlers.MapHandlerTest"
+    },
+    "testEmptyResultSetHandle" : {
+      "name" : "testEmptyResultSetHandle",
+      "key" : "org.apache.commons.dbutils.handlers.MapHandlerTest/method/testEmptyResultSetHandle",
+      "type" : "void",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 17,
+        "endLine" : 48,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.handlers.MapHandlerTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.dbutils.BaseTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

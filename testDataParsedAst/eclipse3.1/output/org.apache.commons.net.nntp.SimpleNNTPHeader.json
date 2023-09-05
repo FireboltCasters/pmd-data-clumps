@@ -1,0 +1,234 @@
+{
+  "name" : "SimpleNNTPHeader",
+  "key" : "org.apache.commons.net.nntp.SimpleNNTPHeader",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "__subject" : {
+      "name" : "__subject",
+      "key" : "__subject",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 20,
+        "endLine" : 49,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader/memberField/__subject",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader"
+    },
+    "__newsgroupCount" : {
+      "name" : "__newsgroupCount",
+      "key" : "__newsgroupCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 17,
+        "endLine" : 52,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader/memberField/__newsgroupCount",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader"
+    },
+    "__newsgroups" : {
+      "name" : "__newsgroups",
+      "key" : "__newsgroups",
+      "type" : "java.lang.StringBuffer",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 26,
+        "endLine" : 50,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader/memberField/__newsgroups",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader"
+    },
+    "__from" : {
+      "name" : "__from",
+      "key" : "__from",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 31,
+        "endLine" : 49,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader/memberField/__from",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader"
+    },
+    "__headerFields" : {
+      "name" : "__headerFields",
+      "key" : "__headerFields",
+      "type" : "java.lang.StringBuffer",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 26,
+        "endLine" : 51,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader/memberField/__headerFields",
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader"
+    }
+  },
+  "methods" : {
+    "addNewsgroup" : {
+      "name" : "addNewsgroup",
+      "key" : "org.apache.commons.net.nntp.SimpleNNTPHeader/method/addNewsgroup",
+      "type" : "void",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 17,
+        "endLine" : 78,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newsgroup",
+        "key" : "newsgroup",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 37,
+          "endLine" : 78,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader/method/addNewsgroup"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader"
+    },
+    "getSubject" : {
+      "name" : "getSubject",
+      "key" : "org.apache.commons.net.nntp.SimpleNNTPHeader/method/getSubject",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 121,
+        "startColumn" : 19,
+        "endLine" : 121,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader"
+    },
+    "getFromAddress" : {
+      "name" : "getFromAddress",
+      "key" : "org.apache.commons.net.nntp.SimpleNNTPHeader/method/getFromAddress",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 19,
+        "endLine" : 111,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader"
+    },
+    "getNewsgroups" : {
+      "name" : "getNewsgroups",
+      "key" : "org.apache.commons.net.nntp.SimpleNNTPHeader/method/getNewsgroups",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 19,
+        "endLine" : 132,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader"
+    },
+    "addHeaderField" : {
+      "name" : "addHeaderField",
+      "key" : "org.apache.commons.net.nntp.SimpleNNTPHeader/method/addHeaderField",
+      "type" : "void",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 17,
+        "endLine" : 97,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "headerField",
+        "key" : "headerField",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 97,
+          "startColumn" : 39,
+          "endLine" : 97,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader/method/addHeaderField"
+      }, {
+        "name" : "value",
+        "key" : "value",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 97,
+          "startColumn" : 59,
+          "endLine" : 97,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader/method/addHeaderField"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.apache.commons.net.nntp.SimpleNNTPHeader/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 19,
+        "endLine" : 144,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.nntp.SimpleNNTPHeader"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

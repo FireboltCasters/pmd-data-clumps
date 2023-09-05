@@ -1,0 +1,217 @@
+{
+  "name" : "FTPFileList",
+  "key" : "org.apache.commons.net.ftp.FTPFileList",
+  "type" : "class",
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "EMPTY_DIR" : {
+      "name" : "EMPTY_DIR",
+      "key" : "EMPTY_DIR",
+      "type" : "int",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 30,
+        "endLine" : 60,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPFileList/memberField/EMPTY_DIR",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPFileList"
+    },
+    "parser" : {
+      "name" : "parser",
+      "key" : "parser",
+      "type" : "FTPFileEntryParser",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 32,
+        "endLine" : 56,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPFileList/memberField/parser",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPFileList"
+    },
+    "lines" : {
+      "name" : "lines",
+      "key" : "lines",
+      "type" : "java.util.LinkedList",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 24,
+        "endLine" : 52,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.FTPFileList/memberField/lines",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPFileList"
+    }
+  },
+  "methods" : {
+    "iterator" : {
+      "name" : "iterator",
+      "key" : "org.apache.commons.net.ftp.FTPFileList/method/iterator",
+      "type" : "FTPFileIterator",
+      "position" : {
+        "startLine" : 209,
+        "startColumn" : 28,
+        "endLine" : 209,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "parser",
+        "key" : "parser",
+        "type" : "FTPFileEntryParser",
+        "position" : {
+          "startLine" : 209,
+          "startColumn" : 56,
+          "endLine" : 209,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPFileList/method/iterator"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPFileList"
+    },
+    "getParser" : {
+      "name" : "getParser",
+      "key" : "org.apache.commons.net.ftp.FTPFileList/method/getParser",
+      "type" : "FTPFileEntryParser",
+      "position" : {
+        "startLine" : 175,
+        "startColumn" : 24,
+        "endLine" : 175,
+        "endColumn" : 33
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPFileList"
+    },
+    "create" : {
+      "name" : "create",
+      "key" : "org.apache.commons.net.ftp.FTPFileList/method/create",
+      "type" : "org.apache.commons.net.ftp.FTPFileList",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 31,
+        "endLine" : 124,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stream",
+        "key" : "stream",
+        "type" : "java.io.InputStream",
+        "position" : {
+          "startLine" : 124,
+          "startColumn" : 50,
+          "endLine" : 124,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPFileList/method/create"
+      }, {
+        "name" : "parser",
+        "key" : "parser",
+        "type" : "FTPFileEntryParser",
+        "position" : {
+          "startLine" : 125,
+          "startColumn" : 34,
+          "endLine" : 125,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPFileList/method/create"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPFileList"
+    },
+    "readStream" : {
+      "name" : "readStream",
+      "key" : "org.apache.commons.net.ftp.FTPFileList/method/readStream",
+      "type" : "void",
+      "position" : {
+        "startLine" : 164,
+        "startColumn" : 14,
+        "endLine" : 164,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stream",
+        "key" : "stream",
+        "type" : "java.io.InputStream",
+        "position" : {
+          "startLine" : 164,
+          "startColumn" : 37,
+          "endLine" : 164,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.ftp.FTPFileList/method/readStream"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPFileList"
+    },
+    "getLines" : {
+      "name" : "getLines",
+      "key" : "org.apache.commons.net.ftp.FTPFileList/method/getLines",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 186,
+        "startColumn" : 10,
+        "endLine" : 186,
+        "endColumn" : 18
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPFileList"
+    },
+    "getFiles" : {
+      "name" : "getFiles",
+      "key" : "org.apache.commons.net.ftp.FTPFileList/method/getFiles",
+      "type" : "FTPFile[]",
+      "position" : {
+        "startLine" : 222,
+        "startColumn" : 22,
+        "endLine" : 222,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.FTPFileList"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

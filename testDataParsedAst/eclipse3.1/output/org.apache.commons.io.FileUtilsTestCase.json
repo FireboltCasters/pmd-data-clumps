@@ -1,0 +1,1117 @@
+{
+  "name" : "FileUtilsTestCase",
+  "key" : "org.apache.commons.io.FileUtilsTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 53,
+    "startColumn" : 8,
+    "endLine" : 53,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "testFile1" : {
+      "name" : "testFile1",
+      "key" : "testFile1",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 18,
+        "endLine" : 65,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.FileUtilsTestCase/memberField/testFile1",
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "TEST_DIRECTORY_SIZE" : {
+      "name" : "TEST_DIRECTORY_SIZE",
+      "key" : "TEST_DIRECTORY_SIZE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 30,
+        "endLine" : 60,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.FileUtilsTestCase/memberField/TEST_DIRECTORY_SIZE",
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testFile2" : {
+      "name" : "testFile2",
+      "key" : "testFile2",
+      "type" : "java.io.File",
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 18,
+        "endLine" : 66,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.FileUtilsTestCase/memberField/testFile2",
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testFile2Size" : {
+      "name" : "testFile2Size",
+      "key" : "testFile2Size",
+      "type" : "int",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 24,
+        "endLine" : 69,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.FileUtilsTestCase/memberField/testFile2Size",
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testFile1Size" : {
+      "name" : "testFile1Size",
+      "key" : "testFile1Size",
+      "type" : "int",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 24,
+        "endLine" : 68,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.FileUtilsTestCase/memberField/testFile1Size",
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    }
+  },
+  "methods" : {
+    "test_openInputStream_existsButIsDirectory" : {
+      "name" : "test_openInputStream_existsButIsDirectory",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/test_openInputStream_existsButIsDirectory",
+      "type" : "void",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 17,
+        "endLine" : 118,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testListFiles" : {
+      "name" : "testListFiles",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testListFiles",
+      "type" : "void",
+      "position" : {
+        "startLine" : 897,
+        "startColumn" : 17,
+        "endLine" : 897,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 24,
+        "endLine" : 71,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 38,
+          "endLine" : 71,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.FileUtilsTestCase/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testToURLs1" : {
+      "name" : "testToURLs1",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testToURLs1",
+      "type" : "void",
+      "position" : {
+        "startLine" : 319,
+        "startColumn" : 17,
+        "endLine" : 319,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testCopyFile1" : {
+      "name" : "testCopyFile1",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testCopyFile1",
+      "type" : "void",
+      "position" : {
+        "startLine" : 618,
+        "startColumn" : 17,
+        "endLine" : 618,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testCopyFile2" : {
+      "name" : "testCopyFile2",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testCopyFile2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 633,
+        "startColumn" : 17,
+        "endLine" : 633,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testCopyURLToFile" : {
+      "name" : "testCopyURLToFile",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testCopyURLToFile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 412,
+        "startColumn" : 17,
+        "endLine" : 412,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testReadFileToByteArray" : {
+      "name" : "testReadFileToByteArray",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testReadFileToByteArray",
+      "type" : "void",
+      "position" : {
+        "startLine" : 983,
+        "startColumn" : 17,
+        "endLine" : 983,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testCopyDirectoryToDirectory_NonExistingDest" : {
+      "name" : "testCopyDirectoryToDirectory_NonExistingDest",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testCopyDirectoryToDirectory_NonExistingDest",
+      "type" : "void",
+      "position" : {
+        "startLine" : 676,
+        "startColumn" : 17,
+        "endLine" : 676,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testContentEquals" : {
+      "name" : "testContentEquals",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testContentEquals",
+      "type" : "void",
+      "position" : {
+        "startLine" : 355,
+        "startColumn" : 17,
+        "endLine" : 355,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "test_openOutputStream_exists" : {
+      "name" : "test_openOutputStream_exists",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/test_openOutputStream_exists",
+      "type" : "void",
+      "position" : {
+        "startLine" : 176,
+        "startColumn" : 17,
+        "endLine" : 176,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testCopyDirectoryToNonExistingDest" : {
+      "name" : "testCopyDirectoryToNonExistingDest",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testCopyDirectoryToNonExistingDest",
+      "type" : "void",
+      "position" : {
+        "startLine" : 697,
+        "startColumn" : 17,
+        "endLine" : 697,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "test_openInputStream_exists" : {
+      "name" : "test_openInputStream_exists",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/test_openInputStream_exists",
+      "type" : "void",
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 17,
+        "endLine" : 106,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testChecksumOnNullChecksum" : {
+      "name" : "testChecksumOnNullChecksum",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testChecksumOnNullChecksum",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1129,
+        "startColumn" : 17,
+        "endLine" : 1129,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testSizeOfDirectory" : {
+      "name" : "testSizeOfDirectory",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testSizeOfDirectory",
+      "type" : "void",
+      "position" : {
+        "startLine" : 462,
+        "startColumn" : 17,
+        "endLine" : 462,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 20,
+        "endLine" : 90,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testCopyToSelf" : {
+      "name" : "testCopyToSelf",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testCopyToSelf",
+      "type" : "void",
+      "position" : {
+        "startLine" : 648,
+        "startColumn" : 17,
+        "endLine" : 648,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testForceDeleteAFile2" : {
+      "name" : "testForceDeleteAFile2",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testForceDeleteAFile2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 775,
+        "startColumn" : 17,
+        "endLine" : 775,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testForceDeleteAFile1" : {
+      "name" : "testForceDeleteAFile1",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testForceDeleteAFile1",
+      "type" : "void",
+      "position" : {
+        "startLine" : 767,
+        "startColumn" : 17,
+        "endLine" : 767,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testByteCountToDisplaySize" : {
+      "name" : "testByteCountToDisplaySize",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testByteCountToDisplaySize",
+      "type" : "void",
+      "position" : {
+        "startLine" : 238,
+        "startColumn" : 17,
+        "endLine" : 238,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testWriteLines_3arg_nullSeparator" : {
+      "name" : "testWriteLines_3arg_nullSeparator",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testWriteLines_3arg_nullSeparator",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1067,
+        "startColumn" : 17,
+        "endLine" : 1067,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "openOutputStream_noParent" : {
+      "name" : "openOutputStream_noParent",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/openOutputStream_noParent",
+      "type" : "void",
+      "position" : {
+        "startLine" : 146,
+        "startColumn" : 10,
+        "endLine" : 146,
+        "endColumn" : 35
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "createFile",
+        "key" : "createFile",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 146,
+          "startColumn" : 44,
+          "endLine" : 146,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.FileUtilsTestCase/method/openOutputStream_noParent"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "test_openOutputStream_notExists" : {
+      "name" : "test_openOutputStream_notExists",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/test_openOutputStream_notExists",
+      "type" : "void",
+      "position" : {
+        "startLine" : 203,
+        "startColumn" : 17,
+        "endLine" : 203,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testChecksumOnNullFile" : {
+      "name" : "testChecksumOnNullFile",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testChecksumOnNullFile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1120,
+        "startColumn" : 17,
+        "endLine" : 1120,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testReadFileToString" : {
+      "name" : "testReadFileToString",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testReadFileToString",
+      "type" : "void",
+      "position" : {
+        "startLine" : 972,
+        "startColumn" : 17,
+        "endLine" : 972,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "test_openOutputStream_notExistsCannotCreate" : {
+      "name" : "test_openOutputStream_notExistsCannotCreate",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/test_openOutputStream_notExistsCannotCreate",
+      "type" : "void",
+      "position" : {
+        "startLine" : 215,
+        "startColumn" : 17,
+        "endLine" : 215,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testChecksumOnDirectory" : {
+      "name" : "testChecksumOnDirectory",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testChecksumOnDirectory",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1142,
+        "startColumn" : 17,
+        "endLine" : 1142,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testChecksumDouble" : {
+      "name" : "testChecksumDouble",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testChecksumDouble",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1151,
+        "startColumn" : 17,
+        "endLine" : 1151,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testIterateFiles" : {
+      "name" : "testIterateFiles",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testIterateFiles",
+      "type" : "void",
+      "position" : {
+        "startLine" : 936,
+        "startColumn" : 17,
+        "endLine" : 936,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testForceMkdir" : {
+      "name" : "testForceMkdir",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testForceMkdir",
+      "type" : "void",
+      "position" : {
+        "startLine" : 437,
+        "startColumn" : 17,
+        "endLine" : 437,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testCopyFile2WithoutFileDatePreservation" : {
+      "name" : "testCopyFile2WithoutFileDatePreservation",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testCopyFile2WithoutFileDatePreservation",
+      "type" : "void",
+      "position" : {
+        "startLine" : 661,
+        "startColumn" : 17,
+        "endLine" : 661,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testChecksumCRC32" : {
+      "name" : "testChecksumCRC32",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testChecksumCRC32",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1083,
+        "startColumn" : 17,
+        "endLine" : 1083,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testTouch" : {
+      "name" : "testTouch",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testTouch",
+      "type" : "void",
+      "position" : {
+        "startLine" : 872,
+        "startColumn" : 17,
+        "endLine" : 872,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testFileUtils" : {
+      "name" : "testFileUtils",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testFileUtils",
+      "type" : "void",
+      "position" : {
+        "startLine" : 841,
+        "startColumn" : 17,
+        "endLine" : 841,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testCopyFile1ToDir" : {
+      "name" : "testCopyFile1ToDir",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testCopyFile1ToDir",
+      "type" : "void",
+      "position" : {
+        "startLine" : 785,
+        "startColumn" : 17,
+        "endLine" : 785,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testWriteByteArrayToFile" : {
+      "name" : "testWriteByteArrayToFile",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testWriteByteArrayToFile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1025,
+        "startColumn" : 17,
+        "endLine" : 1025,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testWriteLines_4arg" : {
+      "name" : "testWriteLines_4arg",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testWriteLines_4arg",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1032,
+        "startColumn" : 17,
+        "endLine" : 1032,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testCopyDirectoryErrors" : {
+      "name" : "testCopyDirectoryErrors",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testCopyDirectoryErrors",
+      "type" : "void",
+      "position" : {
+        "startLine" : 734,
+        "startColumn" : 17,
+        "endLine" : 734,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testChecksum" : {
+      "name" : "testChecksum",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testChecksum",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1100,
+        "startColumn" : 17,
+        "endLine" : 1100,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testCopyDirectoryToExistingDest" : {
+      "name" : "testCopyDirectoryToExistingDest",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testCopyDirectoryToExistingDest",
+      "type" : "void",
+      "position" : {
+        "startLine" : 716,
+        "startColumn" : 17,
+        "endLine" : 716,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testCopyFile2ToDir" : {
+      "name" : "testCopyFile2ToDir",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testCopyFile2ToDir",
+      "type" : "void",
+      "position" : {
+        "startLine" : 810,
+        "startColumn" : 17,
+        "endLine" : 810,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "test_openOutputStream_noParentCreateFile" : {
+      "name" : "test_openOutputStream_noParentCreateFile",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/test_openOutputStream_noParentCreateFile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 167,
+        "startColumn" : 17,
+        "endLine" : 167,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testIsFileNewerOlder" : {
+      "name" : "testIsFileNewerOlder",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testIsFileNewerOlder",
+      "type" : "void",
+      "position" : {
+        "startLine" : 492,
+        "startColumn" : 17,
+        "endLine" : 492,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testToFile2" : {
+      "name" : "testToFile2",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testToFile2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 254,
+        "startColumn" : 17,
+        "endLine" : 254,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testToFile1" : {
+      "name" : "testToFile1",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testToFile1",
+      "type" : "void",
+      "position" : {
+        "startLine" : 248,
+        "startColumn" : 17,
+        "endLine" : 248,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testToFile4" : {
+      "name" : "testToFile4",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testToFile4",
+      "type" : "void",
+      "position" : {
+        "startLine" : 265,
+        "startColumn" : 17,
+        "endLine" : 265,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testToFile3" : {
+      "name" : "testToFile3",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testToFile3",
+      "type" : "void",
+      "position" : {
+        "startLine" : 260,
+        "startColumn" : 17,
+        "endLine" : 260,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testReadLines" : {
+      "name" : "testReadLines",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testReadLines",
+      "type" : "void",
+      "position" : {
+        "startLine" : 998,
+        "startColumn" : 17,
+        "endLine" : 998,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "test_openInputStream_notExists" : {
+      "name" : "test_openInputStream_notExists",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/test_openInputStream_notExists",
+      "type" : "void",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 17,
+        "endLine" : 132,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testWriteLines_4arg_Writer_nullData" : {
+      "name" : "testWriteLines_4arg_Writer_nullData",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testWriteLines_4arg_Writer_nullData",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1045,
+        "startColumn" : 17,
+        "endLine" : 1045,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 20,
+        "endLine" : 101,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "test_openOutputStream_existsButIsDirectory" : {
+      "name" : "test_openOutputStream_existsButIsDirectory",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/test_openOutputStream_existsButIsDirectory",
+      "type" : "void",
+      "position" : {
+        "startLine" : 189,
+        "startColumn" : 17,
+        "endLine" : 189,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testWriteLines_4arg_nullSeparator" : {
+      "name" : "testWriteLines_4arg_nullSeparator",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testWriteLines_4arg_nullSeparator",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1052,
+        "startColumn" : 17,
+        "endLine" : 1052,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 24,
+        "endLine" : 75,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testToFiles3" : {
+      "name" : "testToFiles3",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testToFiles3",
+      "type" : "void",
+      "position" : {
+        "startLine" : 299,
+        "startColumn" : 17,
+        "endLine" : 299,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testForceDeleteDir" : {
+      "name" : "testForceDeleteDir",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testForceDeleteDir",
+      "type" : "void",
+      "position" : {
+        "startLine" : 830,
+        "startColumn" : 17,
+        "endLine" : 830,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "test_openOutputStream_noParentNoFile" : {
+      "name" : "test_openOutputStream_noParentNoFile",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/test_openOutputStream_noParentNoFile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 171,
+        "startColumn" : 17,
+        "endLine" : 171,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testToFiles2" : {
+      "name" : "testToFiles2",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testToFiles2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 287,
+        "startColumn" : 17,
+        "endLine" : 287,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testToFiles4" : {
+      "name" : "testToFiles4",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testToFiles4",
+      "type" : "void",
+      "position" : {
+        "startLine" : 306,
+        "startColumn" : 17,
+        "endLine" : 306,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testWriteStringToFile2" : {
+      "name" : "testWriteStringToFile2",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testWriteStringToFile2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1018,
+        "startColumn" : 17,
+        "endLine" : 1018,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testWriteStringToFile1" : {
+      "name" : "testWriteStringToFile1",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testWriteStringToFile1",
+      "type" : "void",
+      "position" : {
+        "startLine" : 1011,
+        "startColumn" : 17,
+        "endLine" : 1011,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    },
+    "testToFiles1" : {
+      "name" : "testToFiles1",
+      "key" : "org.apache.commons.io.FileUtilsTestCase/method/testToFiles1",
+      "type" : "void",
+      "position" : {
+        "startLine" : 275,
+        "startColumn" : 17,
+        "endLine" : 275,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileUtilsTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.io.testtools.FileBasedTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

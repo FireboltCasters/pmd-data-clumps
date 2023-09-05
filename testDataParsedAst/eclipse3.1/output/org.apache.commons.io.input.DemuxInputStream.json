@@ -1,0 +1,116 @@
+{
+  "name" : "DemuxInputStream",
+  "key" : "org.apache.commons.io.input.DemuxInputStream",
+  "type" : "class",
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "m_streams" : {
+      "name" : "m_streams",
+      "key" : "m_streams",
+      "type" : "java.lang.InheritableThreadLocal",
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 36,
+        "endLine" : 32,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.DemuxInputStream/memberField/m_streams",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.DemuxInputStream"
+    }
+  },
+  "methods" : {
+    "read" : {
+      "name" : "read",
+      "key" : "org.apache.commons.io.input.DemuxInputStream/method/read",
+      "type" : "int",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 16,
+        "endLine" : 68,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.DemuxInputStream"
+    },
+    "bindStream" : {
+      "name" : "bindStream",
+      "key" : "org.apache.commons.io.input.DemuxInputStream/method/bindStream",
+      "type" : "java.io.InputStream",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 24,
+        "endLine" : 40,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "input",
+        "key" : "input",
+        "type" : "java.io.InputStream",
+        "position" : {
+          "startLine" : 40,
+          "startColumn" : 48,
+          "endLine" : 40,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.DemuxInputStream/method/bindStream"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.DemuxInputStream"
+    },
+    "getStream" : {
+      "name" : "getStream",
+      "key" : "org.apache.commons.io.input.DemuxInputStream/method/getStream",
+      "type" : "java.io.InputStream",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 25,
+        "endLine" : 87,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.DemuxInputStream"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.io.input.DemuxInputStream/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 17,
+        "endLine" : 52,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.DemuxInputStream"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.io.InputStream" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

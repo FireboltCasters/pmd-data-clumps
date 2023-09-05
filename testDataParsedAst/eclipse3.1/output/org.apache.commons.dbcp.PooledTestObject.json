@@ -1,0 +1,219 @@
+{
+  "name" : "PooledTestObject",
+  "key" : "org.apache.commons.dbcp.PooledTestObject",
+  "type" : "class",
+  "position" : {
+    "startLine" : 150,
+    "startColumn" : 1,
+    "endLine" : 150,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "_hash" : {
+      "name" : "_hash",
+      "key" : "_hash",
+      "type" : "int",
+      "position" : {
+        "startLine" : 152,
+        "startColumn" : 17,
+        "endLine" : 152,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.PooledTestObject/memberField/_hash",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PooledTestObject"
+    },
+    "active" : {
+      "name" : "active",
+      "key" : "active",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 21,
+        "endLine" : 151,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.PooledTestObject/memberField/active",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PooledTestObject"
+    },
+    "_abandoned" : {
+      "name" : "_abandoned",
+      "key" : "_abandoned",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 21,
+        "endLine" : 153,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.PooledTestObject/memberField/_abandoned",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PooledTestObject"
+    },
+    "hash" : {
+      "name" : "hash",
+      "key" : "hash",
+      "type" : "int",
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 24,
+        "endLine" : 155,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.PooledTestObject/memberField/hash",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PooledTestObject"
+    }
+  },
+  "methods" : {
+    "setActive" : {
+      "name" : "setActive",
+      "key" : "org.apache.commons.dbcp.PooledTestObject/method/setActive",
+      "type" : "void",
+      "position" : {
+        "startLine" : 162,
+        "startColumn" : 30,
+        "endLine" : 162,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "b",
+        "key" : "b",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 162,
+          "startColumn" : 48,
+          "endLine" : 162,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PooledTestObject/method/setActive"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PooledTestObject"
+    },
+    "getLastUsed" : {
+      "name" : "getLastUsed",
+      "key" : "org.apache.commons.dbcp.PooledTestObject/method/getLastUsed",
+      "type" : "long",
+      "position" : {
+        "startLine" : 178,
+        "startColumn" : 20,
+        "endLine" : 178,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PooledTestObject"
+    },
+    "hashCode" : {
+      "name" : "hashCode",
+      "key" : "org.apache.commons.dbcp.PooledTestObject/method/hashCode",
+      "type" : "int",
+      "position" : {
+        "startLine" : 170,
+        "startColumn" : 16,
+        "endLine" : 170,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PooledTestObject"
+    },
+    "equals" : {
+      "name" : "equals",
+      "key" : "org.apache.commons.dbcp.PooledTestObject/method/equals",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 189,
+        "startColumn" : 20,
+        "endLine" : 189,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "obj",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 189,
+          "startColumn" : 34,
+          "endLine" : 189,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PooledTestObject/method/equals"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PooledTestObject"
+    },
+    "setAbandoned" : {
+      "name" : "setAbandoned",
+      "key" : "org.apache.commons.dbcp.PooledTestObject/method/setAbandoned",
+      "type" : "void",
+      "position" : {
+        "startLine" : 174,
+        "startColumn" : 17,
+        "endLine" : 174,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "b",
+        "key" : "b",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 174,
+          "startColumn" : 38,
+          "endLine" : 174,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.PooledTestObject/method/setAbandoned"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PooledTestObject"
+    },
+    "isActive" : {
+      "name" : "isActive",
+      "key" : "org.apache.commons.dbcp.PooledTestObject/method/isActive",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 166,
+        "startColumn" : 33,
+        "endLine" : 166,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PooledTestObject"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbandonedTrace" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

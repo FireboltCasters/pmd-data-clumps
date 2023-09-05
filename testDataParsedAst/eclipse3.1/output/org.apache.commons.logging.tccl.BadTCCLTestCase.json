@@ -1,0 +1,55 @@
+{
+  "name" : "BadTCCLTestCase",
+  "key" : "org.apache.commons.logging.tccl.BadTCCLTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.logging.tccl.BadTCCLTestCase/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 24,
+        "endLine" : 31,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.BadTCCLTestCase"
+    },
+    "testGetLog" : {
+      "name" : "testGetLog",
+      "key" : "org.apache.commons.logging.tccl.BadTCCLTestCase/method/testGetLog",
+      "type" : "void",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 17,
+        "endLine" : 44,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.tccl.BadTCCLTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

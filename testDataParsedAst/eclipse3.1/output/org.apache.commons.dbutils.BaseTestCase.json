@@ -1,0 +1,207 @@
+{
+  "name" : "BaseTestCase",
+  "key" : "org.apache.commons.dbutils.BaseTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "metaData" : {
+      "name" : "metaData",
+      "key" : "metaData",
+      "type" : "java.sql.ResultSetMetaData",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 46,
+        "endLine" : 64,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.BaseTestCase/memberField/metaData",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BaseTestCase"
+    },
+    "rs" : {
+      "name" : "rs",
+      "key" : "rs",
+      "type" : "java.sql.ResultSet",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 25,
+        "endLine" : 103,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.BaseTestCase/memberField/rs",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BaseTestCase"
+    },
+    "row1" : {
+      "name" : "row1",
+      "key" : "row1",
+      "type" : "java.lang.Object[]",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 35,
+        "endLine" : 67,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.BaseTestCase/memberField/row1",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BaseTestCase"
+    },
+    "columnNames" : {
+      "name" : "columnNames",
+      "key" : "columnNames",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 35,
+        "endLine" : 46,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.BaseTestCase/memberField/columnNames",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BaseTestCase"
+    },
+    "COLS" : {
+      "name" : "COLS",
+      "key" : "COLS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 32,
+        "endLine" : 62,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.BaseTestCase/memberField/COLS",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BaseTestCase"
+    },
+    "rows" : {
+      "name" : "rows",
+      "key" : "rows",
+      "type" : "java.lang.Object[][]",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 37,
+        "endLine" : 93,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.BaseTestCase/memberField/rows",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BaseTestCase"
+    },
+    "row2" : {
+      "name" : "row2",
+      "key" : "row2",
+      "type" : "java.lang.Object[]",
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 35,
+        "endLine" : 80,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.BaseTestCase/memberField/row2",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BaseTestCase"
+    },
+    "ROWS" : {
+      "name" : "ROWS",
+      "key" : "ROWS",
+      "type" : "int",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 32,
+        "endLine" : 98,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.BaseTestCase/memberField/ROWS",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BaseTestCase"
+    },
+    "emptyResultSet" : {
+      "name" : "emptyResultSet",
+      "key" : "emptyResultSet",
+      "type" : "java.sql.ResultSet",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 25,
+        "endLine" : 108,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.BaseTestCase/memberField/emptyResultSet",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BaseTestCase"
+    }
+  },
+  "methods" : {
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.dbutils.BaseTestCase/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 24,
+        "endLine" : 139,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BaseTestCase"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.dbutils.BaseTestCase/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 20,
+        "endLine" : 122,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BaseTestCase"
+    },
+    "createMockResultSet" : {
+      "name" : "createMockResultSet",
+      "key" : "org.apache.commons.dbutils.BaseTestCase/method/createMockResultSet",
+      "type" : "java.sql.ResultSet",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 25,
+        "endLine" : 132,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BaseTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

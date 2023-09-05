@@ -1,0 +1,39 @@
+{
+  "name" : "ResultSetIteratorTest",
+  "key" : "org.apache.commons.dbutils.ResultSetIteratorTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 24,
+    "startColumn" : 8,
+    "endLine" : 24,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "testNext" : {
+      "name" : "testNext",
+      "key" : "org.apache.commons.dbutils.ResultSetIteratorTest/method/testNext",
+      "type" : "void",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 14,
+        "endLine" : 34,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.ResultSetIteratorTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "BaseTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

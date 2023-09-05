@@ -1,0 +1,150 @@
+{
+  "name" : "OS2FTPEntryParserTest",
+  "key" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 27,
+    "startColumn" : 8,
+    "endLine" : 27,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "goodsamples" : {
+      "name" : "goodsamples",
+      "key" : "goodsamples",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 35,
+        "endLine" : 41,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest/memberField/goodsamples",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest"
+    },
+    "badsamples" : {
+      "name" : "badsamples",
+      "key" : "badsamples",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 35,
+        "endLine" : 30,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest/memberField/badsamples",
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest"
+    }
+  },
+  "methods" : {
+    "testParseFieldsOnDirectory" : {
+      "name" : "testParseFieldsOnDirectory",
+      "key" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest/method/testParseFieldsOnDirectory",
+      "type" : "void",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 17,
+        "endLine" : 78,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest/method/suite",
+      "type" : "junit.framework.TestSuite",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 29,
+        "endLine" : 69,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest"
+    },
+    "getGoodListing" : {
+      "name" : "getGoodListing",
+      "key" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest/method/getGoodListing",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 117,
+        "startColumn" : 24,
+        "endLine" : 117,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest"
+    },
+    "getBadListing" : {
+      "name" : "getBadListing",
+      "key" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest/method/getBadListing",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 24,
+        "endLine" : 108,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest"
+    },
+    "getParser" : {
+      "name" : "getParser",
+      "key" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest/method/getParser",
+      "type" : "org.apache.commons.net.ftp.FTPFileEntryParser",
+      "position" : {
+        "startLine" : 126,
+        "startColumn" : 34,
+        "endLine" : 126,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest"
+    },
+    "testParseFieldsOnFile" : {
+      "name" : "testParseFieldsOnFile",
+      "key" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest/method/testParseFieldsOnFile",
+      "type" : "void",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 17,
+        "endLine" : 93,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "FTPParseTestFramework" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

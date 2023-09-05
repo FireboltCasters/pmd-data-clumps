@@ -1,0 +1,593 @@
+{
+  "name" : "MockResultSet",
+  "key" : "org.apache.commons.dbutils.MockResultSet",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "metaData" : {
+      "name" : "metaData",
+      "key" : "metaData",
+      "type" : "java.sql.ResultSetMetaData",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 31,
+        "endLine" : 52,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.MockResultSet/memberField/metaData",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "wasNull" : {
+      "name" : "wasNull",
+      "key" : "wasNull",
+      "type" : "java.lang.Boolean",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 21,
+        "endLine" : 54,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.MockResultSet/memberField/wasNull",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "currentRow" : {
+      "name" : "currentRow",
+      "key" : "currentRow",
+      "type" : "java.lang.Object[]",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 22,
+        "endLine" : 48,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.MockResultSet/memberField/currentRow",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "iter" : {
+      "name" : "iter",
+      "key" : "iter",
+      "type" : "java.util.Iterator",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 22,
+        "endLine" : 50,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.MockResultSet/memberField/iter",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    }
+  },
+  "methods" : {
+    "next" : {
+      "name" : "next",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/next",
+      "type" : "java.lang.Boolean",
+      "position" : {
+        "startLine" : 326,
+        "startColumn" : 23,
+        "endLine" : 326,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "getObject" : {
+      "name" : "getObject",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/getObject",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 225,
+        "startColumn" : 22,
+        "endLine" : 225,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "columnIndex",
+        "key" : "columnIndex",
+        "type" : "int",
+        "position" : {
+          "startLine" : 225,
+          "startColumn" : 36,
+          "endLine" : 225,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/getObject"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "getByte" : {
+      "name" : "getByte",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/getByte",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 22,
+        "endLine" : 130,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "columnIndex",
+        "key" : "columnIndex",
+        "type" : "int",
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 34,
+          "endLine" : 130,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/getByte"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "getShort" : {
+      "name" : "getShort",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/getShort",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 236,
+        "startColumn" : 22,
+        "endLine" : 236,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "columnIndex",
+        "key" : "columnIndex",
+        "type" : "int",
+        "position" : {
+          "startLine" : 236,
+          "startColumn" : 35,
+          "endLine" : 236,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/getShort"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "isLast" : {
+      "name" : "isLast",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/isLast",
+      "type" : "java.lang.Boolean",
+      "position" : {
+        "startLine" : 322,
+        "startColumn" : 23,
+        "endLine" : 322,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "getDouble" : {
+      "name" : "getDouble",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/getDouble",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 22,
+        "endLine" : 149,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "columnIndex",
+        "key" : "columnIndex",
+        "type" : "int",
+        "position" : {
+          "startLine" : 149,
+          "startColumn" : 36,
+          "endLine" : 149,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/getDouble"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "invoke" : {
+      "name" : "invoke",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/invoke",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 261,
+        "startColumn" : 19,
+        "endLine" : 261,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "proxy",
+        "key" : "proxy",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 261,
+          "startColumn" : 33,
+          "endLine" : 261,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/invoke"
+      }, {
+        "name" : "method",
+        "key" : "method",
+        "type" : "java.lang.reflect.Method",
+        "position" : {
+          "startLine" : 261,
+          "startColumn" : 47,
+          "endLine" : 261,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/invoke"
+      }, {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.Object[]",
+        "position" : {
+          "startLine" : 261,
+          "startColumn" : 64,
+          "endLine" : 261,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/invoke"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "getFloat" : {
+      "name" : "getFloat",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/getFloat",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 168,
+        "startColumn" : 22,
+        "endLine" : 168,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "columnIndex",
+        "key" : "columnIndex",
+        "type" : "int",
+        "position" : {
+          "startLine" : 168,
+          "startColumn" : 35,
+          "endLine" : 168,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/getFloat"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "getString" : {
+      "name" : "getString",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/getString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 255,
+        "startColumn" : 22,
+        "endLine" : 255,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "columnIndex",
+        "key" : "columnIndex",
+        "type" : "int",
+        "position" : {
+          "startLine" : 255,
+          "startColumn" : 36,
+          "endLine" : 255,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/getString"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "setWasNull" : {
+      "name" : "setWasNull",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/setWasNull",
+      "type" : "void",
+      "position" : {
+        "startLine" : 339,
+        "startColumn" : 18,
+        "endLine" : 339,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "isNull",
+        "key" : "isNull",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 339,
+          "startColumn" : 36,
+          "endLine" : 339,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/setWasNull"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "columnNameToIndex" : {
+      "name" : "columnNameToIndex",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/columnNameToIndex",
+      "type" : "int",
+      "position" : {
+        "startLine" : 95,
+        "startColumn" : 17,
+        "endLine" : 95,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "columnName",
+        "key" : "columnName",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 95,
+          "startColumn" : 42,
+          "endLine" : 95,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/columnNameToIndex"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "getLong" : {
+      "name" : "getLong",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/getLong",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 204,
+        "startColumn" : 22,
+        "endLine" : 204,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "columnIndex",
+        "key" : "columnIndex",
+        "type" : "int",
+        "position" : {
+          "startLine" : 204,
+          "startColumn" : 34,
+          "endLine" : 204,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/getLong"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "getInt" : {
+      "name" : "getInt",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/getInt",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 185,
+        "startColumn" : 22,
+        "endLine" : 185,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "columnIndex",
+        "key" : "columnIndex",
+        "type" : "int",
+        "position" : {
+          "startLine" : 185,
+          "startColumn" : 33,
+          "endLine" : 185,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/getInt"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "wasNull" : {
+      "name" : "wasNull",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/wasNull",
+      "type" : "java.lang.Boolean",
+      "position" : {
+        "startLine" : 343,
+        "startColumn" : 23,
+        "endLine" : 343,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "create" : {
+      "name" : "create",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/create",
+      "type" : "java.sql.ResultSet",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 29,
+        "endLine" : 42,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "metaData",
+        "key" : "metaData",
+        "type" : "java.sql.ResultSetMetaData",
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 54,
+          "endLine" : 42,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/create"
+      }, {
+        "name" : "rows",
+        "key" : "rows",
+        "type" : "java.lang.Object[][]",
+        "position" : {
+          "startLine" : 43,
+          "startColumn" : 24,
+          "endLine" : 43,
+          "endColumn" : 28
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/create"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "columnIndex" : {
+      "name" : "columnIndex",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/columnIndex",
+      "type" : "int",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 17,
+        "endLine" : 77,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.Object[]",
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 38,
+          "endLine" : 77,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/columnIndex"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "getBoolean" : {
+      "name" : "getBoolean",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/getBoolean",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 22,
+        "endLine" : 111,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "columnIndex",
+        "key" : "columnIndex",
+        "type" : "int",
+        "position" : {
+          "startLine" : 111,
+          "startColumn" : 37,
+          "endLine" : 111,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSet/method/getBoolean"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    },
+    "getMetaData" : {
+      "name" : "getMetaData",
+      "key" : "org.apache.commons.dbutils.MockResultSet/method/getMetaData",
+      "type" : "java.sql.ResultSetMetaData",
+      "position" : {
+        "startLine" : 216,
+        "startColumn" : 33,
+        "endLine" : 216,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSet"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.lang.reflect.InvocationHandler" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

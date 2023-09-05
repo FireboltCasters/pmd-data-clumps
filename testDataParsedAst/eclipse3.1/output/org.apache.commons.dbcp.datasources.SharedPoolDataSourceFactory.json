@@ -1,0 +1,97 @@
+{
+  "name" : "SharedPoolDataSourceFactory",
+  "key" : "org.apache.commons.dbcp.datasources.SharedPoolDataSourceFactory",
+  "type" : "class",
+  "position" : {
+    "startLine" : 26,
+    "startColumn" : 8,
+    "endLine" : 26,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "SHARED_POOL_CLASSNAME" : {
+      "name" : "SHARED_POOL_CLASSNAME",
+      "key" : "SHARED_POOL_CLASSNAME",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 33,
+        "endLine" : 29,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.datasources.SharedPoolDataSourceFactory/memberField/SHARED_POOL_CLASSNAME",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.SharedPoolDataSourceFactory"
+    }
+  },
+  "methods" : {
+    "isCorrectClass" : {
+      "name" : "isCorrectClass",
+      "key" : "org.apache.commons.dbcp.datasources.SharedPoolDataSourceFactory/method/isCorrectClass",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 23,
+        "endLine" : 32,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "className",
+        "key" : "className",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 32,
+          "startColumn" : 45,
+          "endLine" : 32,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.datasources.SharedPoolDataSourceFactory/method/isCorrectClass"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.SharedPoolDataSourceFactory"
+    },
+    "getNewInstance" : {
+      "name" : "getNewInstance",
+      "key" : "org.apache.commons.dbcp.datasources.SharedPoolDataSourceFactory/method/getNewInstance",
+      "type" : "InstanceKeyDataSource",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 37,
+        "endLine" : 36,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ref",
+        "key" : "ref",
+        "type" : "javax.naming.Reference",
+        "position" : {
+          "startLine" : 36,
+          "startColumn" : 62,
+          "endLine" : 36,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.datasources.SharedPoolDataSourceFactory/method/getNewInstance"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.SharedPoolDataSourceFactory"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "InstanceKeyObjectFactory" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,148 @@
+{
+  "name" : "PooledConnectionAndInfo",
+  "key" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo",
+  "type" : "class",
+  "position" : {
+    "startLine" : 24,
+    "startColumn" : 7,
+    "endLine" : 24,
+    "endColumn" : 12
+  },
+  "modifiers" : [ "FINAL" ],
+  "fields" : {
+    "upkey" : {
+      "name" : "upkey",
+      "key" : "upkey",
+      "type" : "UserPassKey",
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 31,
+        "endLine" : 28,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo/memberField/upkey",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo"
+    },
+    "password" : {
+      "name" : "password",
+      "key" : "password",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 26,
+        "startColumn" : 26,
+        "endLine" : 26,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo/memberField/password",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo"
+    },
+    "pooledConnection" : {
+      "name" : "pooledConnection",
+      "key" : "pooledConnection",
+      "type" : "javax.sql.PooledConnection",
+      "position" : {
+        "startLine" : 25,
+        "startColumn" : 36,
+        "endLine" : 25,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo/memberField/pooledConnection",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo"
+    },
+    "username" : {
+      "name" : "username",
+      "key" : "username",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 26,
+        "endLine" : 27,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo/memberField/username",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo"
+    }
+  },
+  "methods" : {
+    "getPassword" : {
+      "name" : "getPassword",
+      "key" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo/method/getPassword",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 18,
+        "endLine" : 50,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo"
+    },
+    "getPooledConnection" : {
+      "name" : "getPooledConnection",
+      "key" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo/method/getPooledConnection",
+      "type" : "javax.sql.PooledConnection",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 28,
+        "endLine" : 38,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo"
+    },
+    "getUserPassKey" : {
+      "name" : "getUserPassKey",
+      "key" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo/method/getUserPassKey",
+      "type" : "UserPassKey",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 23,
+        "endLine" : 42,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo"
+    },
+    "getUsername" : {
+      "name" : "getUsername",
+      "key" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo/method/getUsername",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 18,
+        "endLine" : 58,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.datasources.PooledConnectionAndInfo"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

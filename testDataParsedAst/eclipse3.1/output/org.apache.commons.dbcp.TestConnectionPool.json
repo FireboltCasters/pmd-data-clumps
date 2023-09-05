@@ -1,0 +1,552 @@
+{
+  "name" : "TestConnectionPool",
+  "key" : "org.apache.commons.dbcp.TestConnectionPool",
+  "type" : "class",
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 17,
+    "endLine" : 42,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "testCantCloseStatementTwice" : {
+      "name" : "testCantCloseStatementTwice",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testCantCloseStatementTwice",
+      "type" : "void",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 17,
+        "endLine" : 144,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testAutoCommitBehavior" : {
+      "name" : "testAutoCommitBehavior",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testAutoCommitBehavior",
+      "type" : "void",
+      "position" : {
+        "startLine" : 274,
+        "startColumn" : 17,
+        "endLine" : 274,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testOpening" : {
+      "name" : "testOpening",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testOpening",
+      "type" : "void",
+      "position" : {
+        "startLine" : 308,
+        "startColumn" : 17,
+        "endLine" : 308,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testSimple2" : {
+      "name" : "testSimple2",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testSimple2",
+      "type" : "void",
+      "position" : {
+        "startLine" : 190,
+        "startColumn" : 17,
+        "endLine" : 190,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testHashCode" : {
+      "name" : "testHashCode",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testHashCode",
+      "type" : "void",
+      "position" : {
+        "startLine" : 482,
+        "startColumn" : 17,
+        "endLine" : 482,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 17,
+        "endLine" : 51,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "getUsername" : {
+      "name" : "getUsername",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/getUsername",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 22,
+        "endLine" : 67,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "conn",
+        "type" : "java.sql.Connection",
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 45,
+          "endLine" : 67,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbcp.TestConnectionPool/method/getUsername"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "getConnection" : {
+      "name" : "getConnection",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/getConnection",
+      "type" : "java.sql.Connection",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 35,
+        "endLine" : 55,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testThreaded" : {
+      "name" : "testThreaded",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testThreaded",
+      "type" : "void",
+      "position" : {
+        "startLine" : 363,
+        "startColumn" : 17,
+        "endLine" : 363,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testRepeatedBorrowAndReturn" : {
+      "name" : "testRepeatedBorrowAndReturn",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testRepeatedBorrowAndReturn",
+      "type" : "void",
+      "position" : {
+        "startLine" : 175,
+        "startColumn" : 17,
+        "endLine" : 175,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "getMaxActive" : {
+      "name" : "getMaxActive",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/getMaxActive",
+      "type" : "int",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 19,
+        "endLine" : 57,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testClearWarnings" : {
+      "name" : "testClearWarnings",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testClearWarnings",
+      "type" : "void",
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 17,
+        "endLine" : 78,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testCantCloseConnectionTwice" : {
+      "name" : "testCantCloseConnectionTwice",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testCantCloseConnectionTwice",
+      "type" : "void",
+      "position" : {
+        "startLine" : 127,
+        "startColumn" : 17,
+        "endLine" : 127,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testPooling" : {
+      "name" : "testPooling",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testPooling",
+      "type" : "void",
+      "position" : {
+        "startLine" : 243,
+        "startColumn" : 17,
+        "endLine" : 243,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testMaxActive" : {
+      "name" : "testMaxActive",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testMaxActive",
+      "type" : "void",
+      "position" : {
+        "startLine" : 343,
+        "startColumn" : 17,
+        "endLine" : 343,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 17,
+        "endLine" : 47,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testPrepareStatementOptions" : {
+      "name" : "testPrepareStatementOptions",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testPrepareStatementOptions",
+      "type" : "void",
+      "position" : {
+        "startLine" : 448,
+        "startColumn" : 17,
+        "endLine" : 448,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testSimple" : {
+      "name" : "testSimple",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testSimple",
+      "type" : "void",
+      "position" : {
+        "startLine" : 162,
+        "startColumn" : 17,
+        "endLine" : 162,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testConnectionsAreDistinct" : {
+      "name" : "testConnectionsAreDistinct",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testConnectionsAreDistinct",
+      "type" : "void",
+      "position" : {
+        "startLine" : 293,
+        "startColumn" : 17,
+        "endLine" : 293,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testClosing" : {
+      "name" : "testClosing",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testClosing",
+      "type" : "void",
+      "position" : {
+        "startLine" : 324,
+        "startColumn" : 17,
+        "endLine" : 324,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "getMaxWait" : {
+      "name" : "getMaxWait",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/getMaxWait",
+      "type" : "long",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 20,
+        "endLine" : 61,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testIsClosed" : {
+      "name" : "testIsClosed",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testIsClosed",
+      "type" : "void",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 17,
+        "endLine" : 110,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    },
+    "testNoRsetClose" : {
+      "name" : "testNoRsetClose",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool/method/testNoRsetClose",
+      "type" : "void",
+      "position" : {
+        "startLine" : 469,
+        "startColumn" : 17,
+        "endLine" : 469,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.apache.commons.dbcp.TestConnectionPool.TestThread" : {
+      "name" : "TestThread",
+      "key" : "org.apache.commons.dbcp.TestConnectionPool.TestThread",
+      "type" : "class",
+      "position" : {
+        "startLine" : 384,
+        "startColumn" : 5,
+        "endLine" : 384,
+        "endColumn" : 10
+      },
+      "modifiers" : [ ],
+      "fields" : {
+        "_random" : {
+          "name" : "_random",
+          "key" : "_random",
+          "type" : "java.util.Random",
+          "position" : {
+            "startLine" : 385,
+            "startColumn" : 26,
+            "endLine" : 385,
+            "endColumn" : 33
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.dbcp.TestConnectionPool.TestThread/memberField/_random",
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool.TestThread"
+        },
+        "_complete" : {
+          "name" : "_complete",
+          "key" : "_complete",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 386,
+            "startColumn" : 17,
+            "endLine" : 386,
+            "endColumn" : 26
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.dbcp.TestConnectionPool.TestThread/memberField/_complete",
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool.TestThread"
+        },
+        "_delay" : {
+          "name" : "_delay",
+          "key" : "_delay",
+          "type" : "int",
+          "position" : {
+            "startLine" : 389,
+            "startColumn" : 13,
+            "endLine" : 389,
+            "endColumn" : 19
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.dbcp.TestConnectionPool.TestThread/memberField/_delay",
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool.TestThread"
+        },
+        "_failed" : {
+          "name" : "_failed",
+          "key" : "_failed",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 387,
+            "startColumn" : 17,
+            "endLine" : 387,
+            "endColumn" : 24
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.dbcp.TestConnectionPool.TestThread/memberField/_failed",
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool.TestThread"
+        },
+        "_iter" : {
+          "name" : "_iter",
+          "key" : "_iter",
+          "type" : "int",
+          "position" : {
+            "startLine" : 388,
+            "startColumn" : 13,
+            "endLine" : 388,
+            "endColumn" : 18
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : "org.apache.commons.dbcp.TestConnectionPool.TestThread/memberField/_iter",
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool.TestThread"
+        }
+      },
+      "methods" : {
+        "run" : {
+          "name" : "run",
+          "key" : "org.apache.commons.dbcp.TestConnectionPool.TestThread/method/run",
+          "type" : "void",
+          "position" : {
+            "startLine" : 411,
+            "startColumn" : 21,
+            "endLine" : 411,
+            "endColumn" : 24
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool.TestThread"
+        },
+        "failed" : {
+          "name" : "failed",
+          "key" : "org.apache.commons.dbcp.TestConnectionPool.TestThread/method/failed",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 407,
+            "startColumn" : 24,
+            "endLine" : 407,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool.TestThread"
+        },
+        "complete" : {
+          "name" : "complete",
+          "key" : "org.apache.commons.dbcp.TestConnectionPool.TestThread/method/complete",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 403,
+            "startColumn" : 24,
+            "endLine" : 403,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "org.apache.commons.dbcp.TestConnectionPool.TestThread"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "java.lang.Runnable" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "org.apache.commons.dbcp.TestConnectionPool",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

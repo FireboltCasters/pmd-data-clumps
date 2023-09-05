@@ -1,0 +1,129 @@
+{
+  "name" : "ListenerList",
+  "key" : "org.apache.commons.net.util.ListenerList",
+  "type" : "class",
+  "position" : {
+    "startLine" : 27,
+    "startColumn" : 8,
+    "endLine" : 27,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "__listeners" : {
+      "name" : "__listeners",
+      "key" : "__listeners",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 20,
+        "endLine" : 29,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.util.ListenerList/memberField/__listeners",
+      "classOrInterfaceKey" : "org.apache.commons.net.util.ListenerList"
+    }
+  },
+  "methods" : {
+    "getListeners" : {
+      "name" : "getListeners",
+      "key" : "org.apache.commons.net.util.ListenerList/method/getListeners",
+      "type" : "java.util.Enumeration",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 37,
+        "endLine" : 46,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.util.ListenerList"
+    },
+    "removeListener" : {
+      "name" : "removeListener",
+      "key" : "org.apache.commons.net.util.ListenerList/method/removeListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 30,
+        "endLine" : 41,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "java.util.EventListener",
+        "position" : {
+          "startLine" : 41,
+          "startColumn" : 59,
+          "endLine" : 41,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.util.ListenerList/method/removeListener"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.util.ListenerList"
+    },
+    "addListener" : {
+      "name" : "addListener",
+      "key" : "org.apache.commons.net.util.ListenerList/method/addListener",
+      "type" : "void",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 30,
+        "endLine" : 36,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "listener",
+        "key" : "listener",
+        "type" : "java.util.EventListener",
+        "position" : {
+          "startLine" : 36,
+          "startColumn" : 56,
+          "endLine" : 36,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.util.ListenerList/method/addListener"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.util.ListenerList"
+    },
+    "getListenerCount" : {
+      "name" : "getListenerCount",
+      "key" : "org.apache.commons.net.util.ListenerList/method/getListenerCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 16,
+        "endLine" : 51,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.util.ListenerList"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.io.Serializable" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

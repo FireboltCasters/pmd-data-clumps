@@ -1,0 +1,265 @@
+{
+  "name" : "ThresholdingOutputStream",
+  "key" : "org.apache.commons.io.output.ThresholdingOutputStream",
+  "type" : "class",
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 17,
+    "endLine" : 41,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "threshold" : {
+      "name" : "threshold",
+      "key" : "threshold",
+      "type" : "int",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 17,
+        "endLine" : 51,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.ThresholdingOutputStream/memberField/threshold",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ThresholdingOutputStream"
+    },
+    "written" : {
+      "name" : "written",
+      "key" : "written",
+      "type" : "long",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 18,
+        "endLine" : 57,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.ThresholdingOutputStream/memberField/written",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ThresholdingOutputStream"
+    },
+    "thresholdExceeded" : {
+      "name" : "thresholdExceeded",
+      "key" : "thresholdExceeded",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 21,
+        "endLine" : 63,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.ThresholdingOutputStream/memberField/thresholdExceeded",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ThresholdingOutputStream"
+    }
+  },
+  "methods" : {
+    "flush" : {
+      "name" : "flush",
+      "key" : "org.apache.commons.io.output.ThresholdingOutputStream/method/flush",
+      "type" : "void",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 17,
+        "endLine" : 139,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ThresholdingOutputStream"
+    },
+    "isThresholdExceeded" : {
+      "name" : "isThresholdExceeded",
+      "key" : "org.apache.commons.io.output.ThresholdingOutputStream/method/isThresholdExceeded",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 197,
+        "startColumn" : 20,
+        "endLine" : 197,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ThresholdingOutputStream"
+    },
+    "thresholdReached" : {
+      "name" : "thresholdReached",
+      "key" : "org.apache.commons.io.output.ThresholdingOutputStream/method/thresholdReached",
+      "type" : "void",
+      "position" : {
+        "startLine" : 247,
+        "startColumn" : 29,
+        "endLine" : 247,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ThresholdingOutputStream"
+    },
+    "getThreshold" : {
+      "name" : "getThreshold",
+      "key" : "org.apache.commons.io.output.ThresholdingOutputStream/method/getThreshold",
+      "type" : "int",
+      "position" : {
+        "startLine" : 173,
+        "startColumn" : 16,
+        "endLine" : 173,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ThresholdingOutputStream"
+    },
+    "getStream" : {
+      "name" : "getStream",
+      "key" : "org.apache.commons.io.output.ThresholdingOutputStream/method/getStream",
+      "type" : "java.io.OutputStream",
+      "position" : {
+        "startLine" : 237,
+        "startColumn" : 37,
+        "endLine" : 237,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PROTECTED", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ThresholdingOutputStream"
+    },
+    "write" : {
+      "name" : "write",
+      "key" : "org.apache.commons.io.output.ThresholdingOutputStream/method/write",
+      "type" : "void",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 17,
+        "endLine" : 125,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "b",
+        "key" : "b",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 125,
+          "startColumn" : 28,
+          "endLine" : 125,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ThresholdingOutputStream/method/write"
+      }, {
+        "name" : "off",
+        "key" : "off",
+        "type" : "int",
+        "position" : {
+          "startLine" : 125,
+          "startColumn" : 37,
+          "endLine" : 125,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ThresholdingOutputStream/method/write"
+      }, {
+        "name" : "len",
+        "key" : "len",
+        "type" : "int",
+        "position" : {
+          "startLine" : 125,
+          "startColumn" : 46,
+          "endLine" : 125,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ThresholdingOutputStream/method/write"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ThresholdingOutputStream"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.io.output.ThresholdingOutputStream/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 17,
+        "endLine" : 151,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ThresholdingOutputStream"
+    },
+    "checkThreshold" : {
+      "name" : "checkThreshold",
+      "key" : "org.apache.commons.io.output.ThresholdingOutputStream/method/checkThreshold",
+      "type" : "void",
+      "position" : {
+        "startLine" : 216,
+        "startColumn" : 20,
+        "endLine" : 216,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "count",
+        "key" : "count",
+        "type" : "int",
+        "position" : {
+          "startLine" : 216,
+          "startColumn" : 39,
+          "endLine" : 216,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ThresholdingOutputStream/method/checkThreshold"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ThresholdingOutputStream"
+    },
+    "getByteCount" : {
+      "name" : "getByteCount",
+      "key" : "org.apache.commons.io.output.ThresholdingOutputStream/method/getByteCount",
+      "type" : "long",
+      "position" : {
+        "startLine" : 184,
+        "startColumn" : 17,
+        "endLine" : 184,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ThresholdingOutputStream"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.io.OutputStream" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

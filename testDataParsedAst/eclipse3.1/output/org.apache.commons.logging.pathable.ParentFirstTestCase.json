@@ -1,0 +1,132 @@
+{
+  "name" : "ParentFirstTestCase",
+  "key" : "org.apache.commons.logging.pathable.ParentFirstTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "testPaths" : {
+      "name" : "testPaths",
+      "key" : "org.apache.commons.logging.pathable.ParentFirstTestCase/method/testPaths",
+      "type" : "void",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 17,
+        "endLine" : 93,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.pathable.ParentFirstTestCase"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.logging.pathable.ParentFirstTestCase/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 24,
+        "endLine" : 51,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.pathable.ParentFirstTestCase"
+    },
+    "testResources" : {
+      "name" : "testResources",
+      "key" : "org.apache.commons.logging.pathable.ParentFirstTestCase/method/testResources",
+      "type" : "void",
+      "position" : {
+        "startLine" : 202,
+        "startColumn" : 17,
+        "endLine" : 202,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.pathable.ParentFirstTestCase"
+    },
+    "toURLArray" : {
+      "name" : "toURLArray",
+      "key" : "org.apache.commons.logging.pathable.ParentFirstTestCase/method/toURLArray",
+      "type" : "java.net.URL[]",
+      "position" : {
+        "startLine" : 250,
+        "startColumn" : 26,
+        "endLine" : 250,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "e",
+        "key" : "e",
+        "type" : "java.util.Enumeration",
+        "position" : {
+          "startLine" : 250,
+          "startColumn" : 49,
+          "endLine" : 250,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.pathable.ParentFirstTestCase/method/toURLArray"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.pathable.ParentFirstTestCase"
+    },
+    "testResourceAsStream" : {
+      "name" : "testResourceAsStream",
+      "key" : "org.apache.commons.logging.pathable.ParentFirstTestCase/method/testResourceAsStream",
+      "type" : "void",
+      "position" : {
+        "startLine" : 263,
+        "startColumn" : 17,
+        "endLine" : 263,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.pathable.ParentFirstTestCase"
+    },
+    "testResource" : {
+      "name" : "testResource",
+      "key" : "org.apache.commons.logging.pathable.ParentFirstTestCase/method/testResource",
+      "type" : "void",
+      "position" : {
+        "startLine" : 171,
+        "startColumn" : 17,
+        "endLine" : 171,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.pathable.ParentFirstTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

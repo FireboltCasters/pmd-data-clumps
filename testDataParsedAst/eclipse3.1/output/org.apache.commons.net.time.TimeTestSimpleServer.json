@@ -1,0 +1,224 @@
+{
+  "name" : "TimeTestSimpleServer",
+  "key" : "org.apache.commons.net.time.TimeTestSimpleServer",
+  "type" : "class",
+  "position" : {
+    "startLine" : 79,
+    "startColumn" : 8,
+    "endLine" : 79,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "running" : {
+      "name" : "running",
+      "key" : "running",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 21,
+        "endLine" : 92,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.time.TimeTestSimpleServer/memberField/running",
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTestSimpleServer"
+    },
+    "DEFAULT_PORT" : {
+      "name" : "DEFAULT_PORT",
+      "key" : "DEFAULT_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 29,
+        "endLine" : 88,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.time.TimeTestSimpleServer/memberField/DEFAULT_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTestSimpleServer"
+    },
+    "server" : {
+      "name" : "server",
+      "key" : "server",
+      "type" : "java.net.ServerSocket",
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 26,
+        "endLine" : 90,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.time.TimeTestSimpleServer/memberField/server",
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTestSimpleServer"
+    },
+    "port" : {
+      "name" : "port",
+      "key" : "port",
+      "type" : "int",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 17,
+        "endLine" : 91,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.time.TimeTestSimpleServer/memberField/port",
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTestSimpleServer"
+    },
+    "SECONDS_1900_TO_1970" : {
+      "name" : "SECONDS_1900_TO_1970",
+      "key" : "SECONDS_1900_TO_1970",
+      "type" : "long",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 30,
+        "endLine" : 85,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.time.TimeTestSimpleServer/memberField/SECONDS_1900_TO_1970",
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTestSimpleServer"
+    }
+  },
+  "methods" : {
+    "getPort" : {
+      "name" : "getPort",
+      "key" : "org.apache.commons.net.time.TimeTestSimpleServer/method/getPort",
+      "type" : "int",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 16,
+        "endLine" : 119,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTestSimpleServer"
+    },
+    "stop" : {
+      "name" : "stop",
+      "key" : "org.apache.commons.net.time.TimeTestSimpleServer/method/stop",
+      "type" : "void",
+      "position" : {
+        "startLine" : 178,
+        "startColumn" : 17,
+        "endLine" : 178,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTestSimpleServer"
+    },
+    "isRunning" : {
+      "name" : "isRunning",
+      "key" : "org.apache.commons.net.time.TimeTestSimpleServer/method/isRunning",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 20,
+        "endLine" : 124,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTestSimpleServer"
+    },
+    "start" : {
+      "name" : "start",
+      "key" : "org.apache.commons.net.time.TimeTestSimpleServer/method/start",
+      "type" : "void",
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 17,
+        "endLine" : 133,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTestSimpleServer"
+    },
+    "run" : {
+      "name" : "run",
+      "key" : "org.apache.commons.net.time.TimeTestSimpleServer/method/run",
+      "type" : "void",
+      "position" : {
+        "startLine" : 146,
+        "startColumn" : 17,
+        "endLine" : 146,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTestSimpleServer"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.net.time.TimeTestSimpleServer/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 24,
+        "endLine" : 194,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 194,
+          "startColumn" : 38,
+          "endLine" : 194,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.time.TimeTestSimpleServer/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTestSimpleServer"
+    },
+    "connect" : {
+      "name" : "connect",
+      "key" : "org.apache.commons.net.time.TimeTestSimpleServer/method/connect",
+      "type" : "void",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 17,
+        "endLine" : 111,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.time.TimeTestSimpleServer"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.lang.Runnable" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

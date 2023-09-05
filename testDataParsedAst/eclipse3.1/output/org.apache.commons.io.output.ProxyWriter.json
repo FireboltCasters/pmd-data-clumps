@@ -1,0 +1,110 @@
+{
+  "name" : "ProxyWriter",
+  "key" : "org.apache.commons.io.output.ProxyWriter",
+  "type" : "class",
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "flush" : {
+      "name" : "flush",
+      "key" : "org.apache.commons.io.output.ProxyWriter/method/flush",
+      "type" : "void",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 17,
+        "endLine" : 72,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ProxyWriter"
+    },
+    "write" : {
+      "name" : "write",
+      "key" : "org.apache.commons.io.output.ProxyWriter/method/write",
+      "type" : "void",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 17,
+        "endLine" : 67,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "str",
+        "key" : "str",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 30,
+          "endLine" : 67,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ProxyWriter/method/write"
+      }, {
+        "name" : "st",
+        "key" : "st",
+        "type" : "int",
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 39,
+          "endLine" : 67,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ProxyWriter/method/write"
+      }, {
+        "name" : "end",
+        "key" : "end",
+        "type" : "int",
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 47,
+          "endLine" : 67,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.ProxyWriter/method/write"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ProxyWriter"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.io.output.ProxyWriter/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 17,
+        "endLine" : 77,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.ProxyWriter"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.io.FilterWriter" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

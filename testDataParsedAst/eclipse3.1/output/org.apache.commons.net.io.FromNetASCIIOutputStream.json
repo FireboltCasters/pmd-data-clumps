@@ -1,0 +1,139 @@
+{
+  "name" : "FromNetASCIIOutputStream",
+  "key" : "org.apache.commons.net.io.FromNetASCIIOutputStream",
+  "type" : "class",
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 14,
+    "endLine" : 38,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "__lastWasCR" : {
+      "name" : "__lastWasCR",
+      "key" : "__lastWasCR",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 21,
+        "endLine" : 40,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.io.FromNetASCIIOutputStream/memberField/__lastWasCR",
+      "classOrInterfaceKey" : "org.apache.commons.net.io.FromNetASCIIOutputStream"
+    }
+  },
+  "methods" : {
+    "__write" : {
+      "name" : "__write",
+      "key" : "org.apache.commons.net.io.FromNetASCIIOutputStream/method/__write",
+      "type" : "void",
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 18,
+        "endLine" : 55,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ch",
+        "key" : "ch",
+        "type" : "int",
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 30,
+          "endLine" : 55,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.io.FromNetASCIIOutputStream/method/__write"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.io.FromNetASCIIOutputStream"
+    },
+    "write" : {
+      "name" : "write",
+      "key" : "org.apache.commons.net.io.FromNetASCIIOutputStream/method/write",
+      "type" : "void",
+      "position" : {
+        "startLine" : 134,
+        "startColumn" : 30,
+        "endLine" : 134,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "buffer",
+        "key" : "buffer",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 134,
+          "startColumn" : 41,
+          "endLine" : 134,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.io.FromNetASCIIOutputStream/method/write"
+      }, {
+        "name" : "offset",
+        "key" : "offset",
+        "type" : "int",
+        "position" : {
+          "startLine" : 134,
+          "startColumn" : 55,
+          "endLine" : 134,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.io.FromNetASCIIOutputStream/method/write"
+      }, {
+        "name" : "length",
+        "key" : "length",
+        "type" : "int",
+        "position" : {
+          "startLine" : 134,
+          "startColumn" : 67,
+          "endLine" : 134,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.io.FromNetASCIIOutputStream/method/write"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.io.FromNetASCIIOutputStream"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.net.io.FromNetASCIIOutputStream/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 30,
+        "endLine" : 155,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.io.FromNetASCIIOutputStream"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.io.FilterOutputStream" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

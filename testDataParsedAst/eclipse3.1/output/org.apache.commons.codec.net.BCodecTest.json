@@ -1,0 +1,227 @@
+{
+  "name" : "BCodecTest",
+  "key" : "org.apache.commons.codec.net.BCodecTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "RUSSIAN_STUFF_UNICODE" : {
+      "name" : "RUSSIAN_STUFF_UNICODE",
+      "key" : "RUSSIAN_STUFF_UNICODE",
+      "type" : "int[]",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 22,
+        "endLine" : 34,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.net.BCodecTest/memberField/RUSSIAN_STUFF_UNICODE",
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodecTest"
+    },
+    "SWISS_GERMAN_STUFF_UNICODE" : {
+      "name" : "SWISS_GERMAN_STUFF_UNICODE",
+      "key" : "SWISS_GERMAN_STUFF_UNICODE",
+      "type" : "int[]",
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 22,
+        "endLine" : 31,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.net.BCodecTest/memberField/SWISS_GERMAN_STUFF_UNICODE",
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodecTest"
+    }
+  },
+  "methods" : {
+    "testNullInput" : {
+      "name" : "testNullInput",
+      "key" : "org.apache.commons.codec.net.BCodecTest/method/testNullInput",
+      "type" : "void",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 17,
+        "endLine" : 51,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodecTest"
+    },
+    "testEncodeStringWithNull" : {
+      "name" : "testEncodeStringWithNull",
+      "key" : "org.apache.commons.codec.net.BCodecTest/method/testEncodeStringWithNull",
+      "type" : "void",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 17,
+        "endLine" : 85,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodecTest"
+    },
+    "testEncodeDecodeNull" : {
+      "name" : "testEncodeDecodeNull",
+      "key" : "org.apache.commons.codec.net.BCodecTest/method/testEncodeDecodeNull",
+      "type" : "void",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 17,
+        "endLine" : 79,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodecTest"
+    },
+    "constructString" : {
+      "name" : "constructString",
+      "key" : "org.apache.commons.codec.net.BCodecTest/method/constructString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 20,
+        "endLine" : 41,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "unicodeChars",
+        "key" : "unicodeChars",
+        "type" : "int[]",
+        "position" : {
+          "startLine" : 41,
+          "startColumn" : 42,
+          "endLine" : 41,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.net.BCodecTest/method/constructString"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodecTest"
+    },
+    "testInvalidEncoding" : {
+      "name" : "testInvalidEncoding",
+      "key" : "org.apache.commons.codec.net.BCodecTest/method/testInvalidEncoding",
+      "type" : "void",
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 17,
+        "endLine" : 118,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodecTest"
+    },
+    "testDecodeObjects" : {
+      "name" : "testDecodeObjects",
+      "key" : "org.apache.commons.codec.net.BCodecTest/method/testDecodeObjects",
+      "type" : "void",
+      "position" : {
+        "startLine" : 134,
+        "startColumn" : 17,
+        "endLine" : 134,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodecTest"
+    },
+    "testDecodeStringWithNull" : {
+      "name" : "testDecodeStringWithNull",
+      "key" : "org.apache.commons.codec.net.BCodecTest/method/testDecodeStringWithNull",
+      "type" : "void",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 17,
+        "endLine" : 92,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodecTest"
+    },
+    "testBasicEncodeDecode" : {
+      "name" : "testBasicEncodeDecode",
+      "key" : "org.apache.commons.codec.net.BCodecTest/method/testBasicEncodeDecode",
+      "type" : "void",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 17,
+        "endLine" : 71,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodecTest"
+    },
+    "testEncodeObjects" : {
+      "name" : "testEncodeObjects",
+      "key" : "org.apache.commons.codec.net.BCodecTest/method/testEncodeObjects",
+      "type" : "void",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 17,
+        "endLine" : 99,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodecTest"
+    },
+    "testUTF8RoundTrip" : {
+      "name" : "testUTF8RoundTrip",
+      "key" : "org.apache.commons.codec.net.BCodecTest/method/testUTF8RoundTrip",
+      "type" : "void",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 17,
+        "endLine" : 57,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.net.BCodecTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

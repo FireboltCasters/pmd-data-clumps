@@ -1,0 +1,123 @@
+{
+  "name" : "MockResultSetMetaData",
+  "key" : "org.apache.commons.dbutils.MockResultSetMetaData",
+  "type" : "class",
+  "position" : {
+    "startLine" : 27,
+    "startColumn" : 8,
+    "endLine" : 27,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "columnNames" : {
+      "name" : "columnNames",
+      "key" : "columnNames",
+      "type" : "java.lang.String[]",
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 22,
+        "endLine" : 29,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.MockResultSetMetaData/memberField/columnNames",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSetMetaData"
+    }
+  },
+  "methods" : {
+    "create" : {
+      "name" : "create",
+      "key" : "org.apache.commons.dbutils.MockResultSetMetaData/method/create",
+      "type" : "java.sql.ResultSetMetaData",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 37,
+        "endLine" : 41,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "columnNames",
+        "key" : "columnNames",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 41,
+          "startColumn" : 53,
+          "endLine" : 41,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSetMetaData/method/create"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSetMetaData"
+    },
+    "invoke" : {
+      "name" : "invoke",
+      "key" : "org.apache.commons.dbutils.MockResultSetMetaData/method/invoke",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 19,
+        "endLine" : 52,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "proxy",
+        "key" : "proxy",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 33,
+          "endLine" : 52,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSetMetaData/method/invoke"
+      }, {
+        "name" : "method",
+        "key" : "method",
+        "type" : "java.lang.reflect.Method",
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 47,
+          "endLine" : 52,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSetMetaData/method/invoke"
+      }, {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.Object[]",
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 64,
+          "endLine" : 52,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.MockResultSetMetaData/method/invoke"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.MockResultSetMetaData"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.lang.reflect.InvocationHandler" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

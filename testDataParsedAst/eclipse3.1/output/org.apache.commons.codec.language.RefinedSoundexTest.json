@@ -1,0 +1,196 @@
+{
+  "name" : "RefinedSoundexTest",
+  "key" : "org.apache.commons.codec.language.RefinedSoundexTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "encoder" : {
+      "name" : "encoder",
+      "key" : "encoder",
+      "type" : "RefinedSoundex",
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 28,
+        "endLine" : 37,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.codec.language.RefinedSoundexTest/memberField/encoder",
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundexTest"
+    }
+  },
+  "methods" : {
+    "makeEncoder" : {
+      "name" : "makeEncoder",
+      "key" : "org.apache.commons.codec.language.RefinedSoundexTest/method/makeEncoder",
+      "type" : "org.apache.commons.codec.StringEncoder",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 29,
+        "endLine" : 50,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundexTest"
+    },
+    "testGetMappingCodeNonLetter" : {
+      "name" : "testGetMappingCodeNonLetter",
+      "key" : "org.apache.commons.codec.language.RefinedSoundexTest/method/testGetMappingCodeNonLetter",
+      "type" : "void",
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 14,
+        "endLine" : 107,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundexTest"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.codec.language.RefinedSoundexTest/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 24,
+        "endLine" : 33,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundexTest"
+    },
+    "testEncode" : {
+      "name" : "testEncode",
+      "key" : "org.apache.commons.codec.language.RefinedSoundexTest/method/testEncode",
+      "type" : "void",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 17,
+        "endLine" : 93,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundexTest"
+    },
+    "getEncoder" : {
+      "name" : "getEncoder",
+      "key" : "org.apache.commons.codec.language.RefinedSoundexTest/method/getEncoder",
+      "type" : "RefinedSoundex",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 28,
+        "endLine" : 46,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundexTest"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.codec.language.RefinedSoundexTest/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 17,
+        "endLine" : 62,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundexTest"
+    },
+    "setEncoder" : {
+      "name" : "setEncoder",
+      "key" : "org.apache.commons.codec.language.RefinedSoundexTest/method/setEncoder",
+      "type" : "void",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 18,
+        "endLine" : 58,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "encoder",
+        "key" : "encoder",
+        "type" : "RefinedSoundex",
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 44,
+          "endLine" : 58,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.language.RefinedSoundexTest/method/setEncoder"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundexTest"
+    },
+    "testDifference" : {
+      "name" : "testDifference",
+      "key" : "org.apache.commons.codec.language.RefinedSoundexTest/method/testDifference",
+      "type" : "void",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 17,
+        "endLine" : 72,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundexTest"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.codec.language.RefinedSoundexTest/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 17,
+        "endLine" : 67,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.language.RefinedSoundexTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.codec.StringEncoderAbstractTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

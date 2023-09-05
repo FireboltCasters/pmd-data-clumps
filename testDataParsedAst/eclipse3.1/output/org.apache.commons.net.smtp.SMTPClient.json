@@ -1,0 +1,319 @@
+{
+  "name" : "SMTPClient",
+  "key" : "org.apache.commons.net.smtp.SMTPClient",
+  "type" : "class",
+  "position" : {
+    "startLine" : 123,
+    "startColumn" : 8,
+    "endLine" : 123,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "sendShortMessageData" : {
+      "name" : "sendShortMessageData",
+      "key" : "org.apache.commons.net.smtp.SMTPClient/method/sendShortMessageData",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 375,
+        "startColumn" : 20,
+        "endLine" : 375,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 375,
+          "startColumn" : 48,
+          "endLine" : 375,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.smtp.SMTPClient/method/sendShortMessageData"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPClient"
+    },
+    "listHelp" : {
+      "name" : "listHelp",
+      "key" : "org.apache.commons.net.smtp.SMTPClient/method/listHelp",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 569,
+        "startColumn" : 19,
+        "endLine" : 569,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "command",
+        "key" : "command",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 569,
+          "startColumn" : 35,
+          "endLine" : 569,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.smtp.SMTPClient/method/listHelp"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPClient"
+    },
+    "addRecipient" : {
+      "name" : "addRecipient",
+      "key" : "org.apache.commons.net.smtp.SMTPClient/method/addRecipient",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 302,
+        "startColumn" : 20,
+        "endLine" : 302,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "address",
+        "key" : "address",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 302,
+          "startColumn" : 40,
+          "endLine" : 302,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.smtp.SMTPClient/method/addRecipient"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPClient"
+    },
+    "logout" : {
+      "name" : "logout",
+      "key" : "org.apache.commons.net.smtp.SMTPClient/method/logout",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 481,
+        "startColumn" : 20,
+        "endLine" : 481,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPClient"
+    },
+    "sendMessageData" : {
+      "name" : "sendMessageData",
+      "key" : "org.apache.commons.net.smtp.SMTPClient/method/sendMessageData",
+      "type" : "java.io.Writer",
+      "position" : {
+        "startLine" : 348,
+        "startColumn" : 19,
+        "endLine" : 348,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPClient"
+    },
+    "sendSimpleMessage" : {
+      "name" : "sendSimpleMessage",
+      "key" : "org.apache.commons.net.smtp.SMTPClient/method/sendSimpleMessage",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 446,
+        "startColumn" : 20,
+        "endLine" : 446,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "sender",
+        "key" : "sender",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 446,
+          "startColumn" : 45,
+          "endLine" : 446,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.smtp.SMTPClient/method/sendSimpleMessage"
+      }, {
+        "name" : "recipients",
+        "key" : "recipients",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 446,
+          "startColumn" : 62,
+          "endLine" : 446,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.smtp.SMTPClient/method/sendSimpleMessage"
+      }, {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 447,
+          "startColumn" : 45,
+          "endLine" : 447,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.smtp.SMTPClient/method/sendSimpleMessage"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPClient"
+    },
+    "reset" : {
+      "name" : "reset",
+      "key" : "org.apache.commons.net.smtp.SMTPClient/method/reset",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 501,
+        "startColumn" : 20,
+        "endLine" : 501,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPClient"
+    },
+    "verify" : {
+      "name" : "verify",
+      "key" : "org.apache.commons.net.smtp.SMTPClient/method/verify",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 521,
+        "startColumn" : 20,
+        "endLine" : 521,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "username",
+        "key" : "username",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 521,
+          "startColumn" : 34,
+          "endLine" : 521,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.smtp.SMTPClient/method/verify"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPClient"
+    },
+    "setSender" : {
+      "name" : "setSender",
+      "key" : "org.apache.commons.net.smtp.SMTPClient/method/setSender",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 258,
+        "startColumn" : 20,
+        "endLine" : 258,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "address",
+        "key" : "address",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 258,
+          "startColumn" : 37,
+          "endLine" : 258,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.smtp.SMTPClient/method/setSender"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPClient"
+    },
+    "login" : {
+      "name" : "login",
+      "key" : "org.apache.commons.net.smtp.SMTPClient/method/login",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 205,
+        "startColumn" : 20,
+        "endLine" : 205,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPClient"
+    },
+    "completePendingCommand" : {
+      "name" : "completePendingCommand",
+      "key" : "org.apache.commons.net.smtp.SMTPClient/method/completePendingCommand",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 164,
+        "startColumn" : 20,
+        "endLine" : 164,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPClient"
+    },
+    "sendNoOp" : {
+      "name" : "sendNoOp",
+      "key" : "org.apache.commons.net.smtp.SMTPClient/method/sendNoOp",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 590,
+        "startColumn" : 20,
+        "endLine" : 590,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.SMTPClient"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "SMTP" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

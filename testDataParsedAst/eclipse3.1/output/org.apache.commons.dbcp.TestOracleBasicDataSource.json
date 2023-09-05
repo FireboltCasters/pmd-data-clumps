@@ -1,0 +1,134 @@
+{
+  "name" : "TestOracleBasicDataSource",
+  "key" : "org.apache.commons.dbcp.TestOracleBasicDataSource",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "CATALOG" : {
+      "name" : "CATALOG",
+      "key" : "CATALOG",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 27,
+        "endLine" : 47,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TestOracleBasicDataSource/memberField/CATALOG",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestOracleBasicDataSource"
+    },
+    "ds" : {
+      "name" : "ds",
+      "key" : "ds",
+      "type" : "BasicDataSource",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 31,
+        "endLine" : 46,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.TestOracleBasicDataSource/memberField/ds",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestOracleBasicDataSource"
+    }
+  },
+  "methods" : {
+    "getConnection" : {
+      "name" : "getConnection",
+      "key" : "org.apache.commons.dbcp.TestOracleBasicDataSource/method/getConnection",
+      "type" : "java.sql.Connection",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 26,
+        "endLine" : 42,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestOracleBasicDataSource"
+    },
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.dbcp.TestOracleBasicDataSource/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 24,
+        "endLine" : 38,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestOracleBasicDataSource"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.dbcp.TestOracleBasicDataSource/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 17,
+        "endLine" : 49,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestOracleBasicDataSource"
+    },
+    "testSimple" : {
+      "name" : "testSimple",
+      "key" : "org.apache.commons.dbcp.TestOracleBasicDataSource/method/testSimple",
+      "type" : "void",
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 17,
+        "endLine" : 70,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestOracleBasicDataSource"
+    },
+    "tearDown" : {
+      "name" : "tearDown",
+      "key" : "org.apache.commons.dbcp.TestOracleBasicDataSource/method/tearDown",
+      "type" : "void",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 17,
+        "endLine" : 65,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.TestOracleBasicDataSource"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

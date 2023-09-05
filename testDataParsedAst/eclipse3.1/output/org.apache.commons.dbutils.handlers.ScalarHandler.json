@@ -1,0 +1,83 @@
+{
+  "name" : "ScalarHandler",
+  "key" : "org.apache.commons.dbutils.handlers.ScalarHandler",
+  "type" : "class",
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "columnIndex" : {
+      "name" : "columnIndex",
+      "key" : "columnIndex",
+      "type" : "int",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 17,
+        "endLine" : 35,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.handlers.ScalarHandler/memberField/columnIndex",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.handlers.ScalarHandler"
+    },
+    "columnName" : {
+      "name" : "columnName",
+      "key" : "columnName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 20,
+        "endLine" : 41,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.handlers.ScalarHandler/memberField/columnName",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.handlers.ScalarHandler"
+    }
+  },
+  "methods" : {
+    "handle" : {
+      "name" : "handle",
+      "key" : "org.apache.commons.dbutils.handlers.ScalarHandler/method/handle",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 19,
+        "endLine" : 83,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rs",
+        "key" : "rs",
+        "type" : "java.sql.ResultSet",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 36,
+          "endLine" : 83,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.handlers.ScalarHandler/method/handle"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.handlers.ScalarHandler"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.apache.commons.dbutils.ResultSetHandler" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

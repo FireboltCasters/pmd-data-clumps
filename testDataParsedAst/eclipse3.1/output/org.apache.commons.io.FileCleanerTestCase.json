@@ -1,0 +1,84 @@
+{
+  "name" : "FileCleanerTestCase",
+  "key" : "org.apache.commons.io.FileCleanerTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "suite" : {
+      "name" : "suite",
+      "key" : "org.apache.commons.io.FileCleanerTestCase/method/suite",
+      "type" : "junit.framework.Test",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 24,
+        "endLine" : 44,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleanerTestCase"
+    },
+    "newInstance" : {
+      "name" : "newInstance",
+      "key" : "org.apache.commons.io.FileCleanerTestCase/method/newInstance",
+      "type" : "FileCleaningTracker",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 35,
+        "endLine" : 36,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleanerTestCase"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "org.apache.commons.io.FileCleanerTestCase/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 24,
+        "endLine" : 40,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 40,
+          "startColumn" : 38,
+          "endLine" : 40,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.FileCleanerTestCase/method/main"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.FileCleanerTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "FileCleaningTrackerTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

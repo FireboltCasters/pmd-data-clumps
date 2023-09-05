@@ -1,0 +1,52 @@
+{
+  "name" : "Encoder",
+  "key" : "org.apache.commons.codec.Encoder",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 28,
+    "startColumn" : 8,
+    "endLine" : 28,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "encode" : {
+      "name" : "encode",
+      "key" : "org.apache.commons.codec.Encoder/method/encode",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 12,
+        "endLine" : 43,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pObject",
+        "key" : "pObject",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 43,
+          "startColumn" : 26,
+          "endLine" : 43,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.codec.Encoder/method/encode"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.codec.Encoder"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,52 @@
+{
+  "name" : "weatherTelnet",
+  "key" : "examples.weatherTelnet",
+  "type" : "class",
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 14,
+    "endLine" : 35,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "main" : {
+      "name" : "main",
+      "key" : "examples.weatherTelnet/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 30,
+        "endLine" : 38,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 44,
+          "endLine" : 38,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.weatherTelnet/method/main"
+      } ],
+      "classOrInterfaceKey" : "examples.weatherTelnet"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

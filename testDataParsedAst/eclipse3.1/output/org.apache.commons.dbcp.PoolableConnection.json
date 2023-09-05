@@ -1,0 +1,71 @@
+{
+  "name" : "PoolableConnection",
+  "key" : "org.apache.commons.dbcp.PoolableConnection",
+  "type" : "class",
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "_pool" : {
+      "name" : "_pool",
+      "key" : "_pool",
+      "type" : "org.apache.commons.pool.ObjectPool",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 26,
+        "endLine" : 35,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbcp.PoolableConnection/memberField/_pool",
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolableConnection"
+    }
+  },
+  "methods" : {
+    "reallyClose" : {
+      "name" : "reallyClose",
+      "key" : "org.apache.commons.dbcp.PoolableConnection/method/reallyClose",
+      "type" : "void",
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 17,
+        "endLine" : 94,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolableConnection"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.dbcp.PoolableConnection/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 31,
+        "endLine" : 64,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbcp.PoolableConnection"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "DelegatingConnection" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

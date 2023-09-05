@@ -1,0 +1,87 @@
+{
+  "name" : "StringTrimmedResultSetTest",
+  "key" : "org.apache.commons.dbutils.wrappers.StringTrimmedResultSetTest",
+  "type" : "class",
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "testGetObject" : {
+      "name" : "testGetObject",
+      "key" : "org.apache.commons.dbutils.wrappers.StringTrimmedResultSetTest/method/testGetObject",
+      "type" : "void",
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 17,
+        "endLine" : 45,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.wrappers.StringTrimmedResultSetTest"
+    },
+    "testGetString" : {
+      "name" : "testGetString",
+      "key" : "org.apache.commons.dbutils.wrappers.StringTrimmedResultSetTest/method/testGetString",
+      "type" : "void",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 17,
+        "endLine" : 40,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.wrappers.StringTrimmedResultSetTest"
+    },
+    "setUp" : {
+      "name" : "setUp",
+      "key" : "org.apache.commons.dbutils.wrappers.StringTrimmedResultSetTest/method/setUp",
+      "type" : "void",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 17,
+        "endLine" : 35,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.wrappers.StringTrimmedResultSetTest"
+    },
+    "testMultipleWrappers" : {
+      "name" : "testMultipleWrappers",
+      "key" : "org.apache.commons.dbutils.wrappers.StringTrimmedResultSetTest/method/testMultipleWrappers",
+      "type" : "void",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 17,
+        "endLine" : 54,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.wrappers.StringTrimmedResultSetTest"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "org.apache.commons.dbutils.BaseTestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

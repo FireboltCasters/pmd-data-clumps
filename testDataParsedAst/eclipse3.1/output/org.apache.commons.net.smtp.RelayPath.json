@@ -1,0 +1,99 @@
+{
+  "name" : "RelayPath",
+  "key" : "org.apache.commons.net.smtp.RelayPath",
+  "type" : "class",
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 14,
+    "endLine" : 32,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "_path" : {
+      "name" : "_path",
+      "key" : "_path",
+      "type" : "java.util.Vector",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 12,
+        "endLine" : 34,
+        "endColumn" : 17
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.RelayPath/memberField/_path",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.RelayPath"
+    },
+    "_emailAddress" : {
+      "name" : "_emailAddress",
+      "key" : "_emailAddress",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 12,
+        "endLine" : 35,
+        "endColumn" : 25
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.smtp.RelayPath/memberField/_emailAddress",
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.RelayPath"
+    }
+  },
+  "methods" : {
+    "addRelay" : {
+      "name" : "addRelay",
+      "key" : "org.apache.commons.net.smtp.RelayPath/method/addRelay",
+      "type" : "void",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 17,
+        "endLine" : 61,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "hostname",
+        "key" : "hostname",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 33,
+          "endLine" : 61,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.smtp.RelayPath/method/addRelay"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.RelayPath"
+    },
+    "toString" : {
+      "name" : "toString",
+      "key" : "org.apache.commons.net.smtp.RelayPath/method/toString",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 19,
+        "endLine" : 71,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.smtp.RelayPath"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

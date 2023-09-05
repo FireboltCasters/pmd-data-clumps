@@ -1,0 +1,110 @@
+{
+  "name" : "rdate",
+  "key" : "examples.rdate",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 14,
+    "endLine" : 37,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "timeTCP" : {
+      "name" : "timeTCP",
+      "key" : "examples.rdate/method/timeTCP",
+      "type" : "void",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 30,
+        "endLine" : 40,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "host",
+        "key" : "host",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 40,
+          "startColumn" : 45,
+          "endLine" : 40,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.rdate/method/timeTCP"
+      } ],
+      "classOrInterfaceKey" : "examples.rdate"
+    },
+    "timeUDP" : {
+      "name" : "timeUDP",
+      "key" : "examples.rdate/method/timeUDP",
+      "type" : "void",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 30,
+        "endLine" : 51,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "host",
+        "key" : "host",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 45,
+          "endLine" : 51,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.rdate/method/timeUDP"
+      } ],
+      "classOrInterfaceKey" : "examples.rdate"
+    },
+    "main" : {
+      "name" : "main",
+      "key" : "examples.rdate/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 30,
+        "endLine" : 63,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 63,
+          "startColumn" : 44,
+          "endLine" : 63,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.rdate/method/main"
+      } ],
+      "classOrInterfaceKey" : "examples.rdate"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,299 @@
+{
+  "name" : "SwappedDataInputStream",
+  "key" : "org.apache.commons.io.input.SwappedDataInputStream",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "readLine" : {
+      "name" : "readLine",
+      "key" : "org.apache.commons.io.input.SwappedDataInputStream/method/readLine",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 19,
+        "endLine" : 124,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.SwappedDataInputStream"
+    },
+    "readChar" : {
+      "name" : "readChar",
+      "key" : "org.apache.commons.io.input.SwappedDataInputStream/method/readChar",
+      "type" : "char",
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 17,
+        "endLine" : 65,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.SwappedDataInputStream"
+    },
+    "skipBytes" : {
+      "name" : "skipBytes",
+      "key" : "org.apache.commons.io.input.SwappedDataInputStream/method/skipBytes",
+      "type" : "int",
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 16,
+        "endLine" : 172,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "count",
+        "key" : "count",
+        "type" : "int",
+        "position" : {
+          "startLine" : 172,
+          "startColumn" : 31,
+          "endLine" : 172,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.SwappedDataInputStream/method/skipBytes"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.SwappedDataInputStream"
+    },
+    "readLong" : {
+      "name" : "readLong",
+      "key" : "org.apache.commons.io.input.SwappedDataInputStream/method/readLong",
+      "type" : "long",
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 17,
+        "endLine" : 132,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.SwappedDataInputStream"
+    },
+    "readUTF" : {
+      "name" : "readUTF",
+      "key" : "org.apache.commons.io.input.SwappedDataInputStream/method/readUTF",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 164,
+        "startColumn" : 19,
+        "endLine" : 164,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.SwappedDataInputStream"
+    },
+    "readShort" : {
+      "name" : "readShort",
+      "key" : "org.apache.commons.io.input.SwappedDataInputStream/method/readShort",
+      "type" : "short",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 18,
+        "endLine" : 139,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.SwappedDataInputStream"
+    },
+    "readDouble" : {
+      "name" : "readDouble",
+      "key" : "org.apache.commons.io.input.SwappedDataInputStream/method/readDouble",
+      "type" : "double",
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 19,
+        "endLine" : 72,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.SwappedDataInputStream"
+    },
+    "readFully" : {
+      "name" : "readFully",
+      "key" : "org.apache.commons.io.input.SwappedDataInputStream/method/readFully",
+      "type" : "void",
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 17,
+        "endLine" : 93,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "data",
+        "key" : "data",
+        "type" : "byte[]",
+        "position" : {
+          "startLine" : 93,
+          "startColumn" : 35,
+          "endLine" : 93,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.SwappedDataInputStream/method/readFully"
+      }, {
+        "name" : "offset",
+        "key" : "offset",
+        "type" : "int",
+        "position" : {
+          "startLine" : 93,
+          "startColumn" : 45,
+          "endLine" : 93,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.SwappedDataInputStream/method/readFully"
+      }, {
+        "name" : "length",
+        "key" : "length",
+        "type" : "int",
+        "position" : {
+          "startLine" : 93,
+          "startColumn" : 57,
+          "endLine" : 93,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.SwappedDataInputStream/method/readFully"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.SwappedDataInputStream"
+    },
+    "readFloat" : {
+      "name" : "readFloat",
+      "key" : "org.apache.commons.io.input.SwappedDataInputStream/method/readFloat",
+      "type" : "float",
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 18,
+        "endLine" : 79,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.SwappedDataInputStream"
+    },
+    "readBoolean" : {
+      "name" : "readBoolean",
+      "key" : "org.apache.commons.io.input.SwappedDataInputStream/method/readBoolean",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 20,
+        "endLine" : 51,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.SwappedDataInputStream"
+    },
+    "readByte" : {
+      "name" : "readByte",
+      "key" : "org.apache.commons.io.input.SwappedDataInputStream/method/readByte",
+      "type" : "byte",
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 17,
+        "endLine" : 58,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.SwappedDataInputStream"
+    },
+    "readInt" : {
+      "name" : "readInt",
+      "key" : "org.apache.commons.io.input.SwappedDataInputStream/method/readInt",
+      "type" : "int",
+      "position" : {
+        "startLine" : 113,
+        "startColumn" : 16,
+        "endLine" : 113,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.SwappedDataInputStream"
+    },
+    "readUnsignedByte" : {
+      "name" : "readUnsignedByte",
+      "key" : "org.apache.commons.io.input.SwappedDataInputStream/method/readUnsignedByte",
+      "type" : "int",
+      "position" : {
+        "startLine" : 146,
+        "startColumn" : 16,
+        "endLine" : 146,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.SwappedDataInputStream"
+    },
+    "readUnsignedShort" : {
+      "name" : "readUnsignedShort",
+      "key" : "org.apache.commons.io.input.SwappedDataInputStream/method/readUnsignedShort",
+      "type" : "int",
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 16,
+        "endLine" : 153,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.SwappedDataInputStream"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.io.DataInput" ],
+  "extends_" : [ "ProxyInputStream" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

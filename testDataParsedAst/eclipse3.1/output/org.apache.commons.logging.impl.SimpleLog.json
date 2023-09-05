@@ -1,0 +1,944 @@
+{
+  "name" : "SimpleLog",
+  "key" : "org.apache.commons.logging.impl.SimpleLog",
+  "type" : "class",
+  "position" : {
+    "startLine" : 75,
+    "startColumn" : 8,
+    "endLine" : 75,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "LOG_LEVEL_OFF" : {
+      "name" : "LOG_LEVEL_OFF",
+      "key" : "LOG_LEVEL_OFF",
+      "type" : "int",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 29,
+        "endLine" : 125,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/LOG_LEVEL_OFF",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "simpleLogProps" : {
+      "name" : "simpleLogProps",
+      "key" : "simpleLogProps",
+      "type" : "java.util.Properties",
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 39,
+        "endLine" : 85,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/simpleLogProps",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "showShortName" : {
+      "name" : "showShortName",
+      "key" : "showShortName",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 30,
+        "endLine" : 97,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/showShortName",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "LOG_LEVEL_FATAL" : {
+      "name" : "LOG_LEVEL_FATAL",
+      "key" : "LOG_LEVEL_FATAL",
+      "type" : "int",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 29,
+        "endLine" : 119,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/LOG_LEVEL_FATAL",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "showDateTime" : {
+      "name" : "showDateTime",
+      "key" : "showDateTime",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 30,
+        "endLine" : 99,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/showDateTime",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "showLogName" : {
+      "name" : "showLogName",
+      "key" : "showLogName",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 30,
+        "endLine" : 92,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/showLogName",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "LOG_LEVEL_WARN" : {
+      "name" : "LOG_LEVEL_WARN",
+      "key" : "LOG_LEVEL_WARN",
+      "type" : "int",
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 29,
+        "endLine" : 115,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/LOG_LEVEL_WARN",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "LOG_LEVEL_ERROR" : {
+      "name" : "LOG_LEVEL_ERROR",
+      "key" : "LOG_LEVEL_ERROR",
+      "type" : "int",
+      "position" : {
+        "startLine" : 117,
+        "startColumn" : 29,
+        "endLine" : 117,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/LOG_LEVEL_ERROR",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "LOG_LEVEL_INFO" : {
+      "name" : "LOG_LEVEL_INFO",
+      "key" : "LOG_LEVEL_INFO",
+      "type" : "int",
+      "position" : {
+        "startLine" : 113,
+        "startColumn" : 29,
+        "endLine" : 113,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/LOG_LEVEL_INFO",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "shortLogName" : {
+      "name" : "shortLogName",
+      "key" : "shortLogName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 189,
+        "startColumn" : 20,
+        "endLine" : 189,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/shortLogName",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "LOG_LEVEL_ALL" : {
+      "name" : "LOG_LEVEL_ALL",
+      "key" : "LOG_LEVEL_ALL",
+      "type" : "int",
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 29,
+        "endLine" : 122,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/LOG_LEVEL_ALL",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "DEFAULT_DATE_TIME_FORMAT" : {
+      "name" : "DEFAULT_DATE_TIME_FORMAT",
+      "key" : "DEFAULT_DATE_TIME_FORMAT",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 35,
+        "endLine" : 88,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/DEFAULT_DATE_TIME_FORMAT",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "dateTimeFormat" : {
+      "name" : "dateTimeFormat",
+      "key" : "dateTimeFormat",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 29,
+        "endLine" : 101,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/dateTimeFormat",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "logName" : {
+      "name" : "logName",
+      "key" : "logName",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 185,
+        "startColumn" : 22,
+        "endLine" : 185,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/logName",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "LOG_LEVEL_DEBUG" : {
+      "name" : "LOG_LEVEL_DEBUG",
+      "key" : "LOG_LEVEL_DEBUG",
+      "type" : "int",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 29,
+        "endLine" : 111,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/LOG_LEVEL_DEBUG",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "dateFormatter" : {
+      "name" : "dateFormatter",
+      "key" : "dateFormatter",
+      "type" : "java.text.DateFormat",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 33,
+        "endLine" : 103,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/dateFormatter",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "systemPrefix" : {
+      "name" : "systemPrefix",
+      "key" : "systemPrefix",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 35,
+        "endLine" : 81,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/systemPrefix",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "LOG_LEVEL_TRACE" : {
+      "name" : "LOG_LEVEL_TRACE",
+      "key" : "LOG_LEVEL_TRACE",
+      "type" : "int",
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 29,
+        "endLine" : 109,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/LOG_LEVEL_TRACE",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "currentLogLevel" : {
+      "name" : "currentLogLevel",
+      "key" : "currentLogLevel",
+      "type" : "int",
+      "position" : {
+        "startLine" : 187,
+        "startColumn" : 19,
+        "endLine" : 187,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.impl.SimpleLog/memberField/currentLogLevel",
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    }
+  },
+  "methods" : {
+    "debug" : {
+      "name" : "debug",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/debug",
+      "type" : "void",
+      "position" : {
+        "startLine" : 385,
+        "startColumn" : 23,
+        "endLine" : 385,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 385,
+          "startColumn" : 36,
+          "endLine" : 385,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/debug"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 385,
+          "startColumn" : 55,
+          "endLine" : 385,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/debug"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "log" : {
+      "name" : "log",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/log",
+      "type" : "void",
+      "position" : {
+        "startLine" : 277,
+        "startColumn" : 20,
+        "endLine" : 277,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "type",
+        "key" : "type",
+        "type" : "int",
+        "position" : {
+          "startLine" : 277,
+          "startColumn" : 28,
+          "endLine" : 277,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/log"
+      }, {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 277,
+          "startColumn" : 41,
+          "endLine" : 277,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/log"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 277,
+          "startColumn" : 60,
+          "endLine" : 277,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/log"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "getResourceAsStream" : {
+      "name" : "getResourceAsStream",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/getResourceAsStream",
+      "type" : "java.io.InputStream",
+      "position" : {
+        "startLine" : 692,
+        "startColumn" : 32,
+        "endLine" : 692,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 692,
+          "startColumn" : 65,
+          "endLine" : 692,
+          "endColumn" : 69
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/getResourceAsStream"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "isLevelEnabled" : {
+      "name" : "isLevelEnabled",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/isLevelEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 352,
+        "startColumn" : 23,
+        "endLine" : 352,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "logLevel",
+        "key" : "logLevel",
+        "type" : "int",
+        "position" : {
+          "startLine" : 352,
+          "startColumn" : 42,
+          "endLine" : 352,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/isLevelEnabled"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "isWarnEnabled" : {
+      "name" : "isWarnEnabled",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/isWarnEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 620,
+        "startColumn" : 26,
+        "endLine" : 620,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "error" : {
+      "name" : "error",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/error",
+      "type" : "void",
+      "position" : {
+        "startLine" : 509,
+        "startColumn" : 23,
+        "endLine" : 509,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 509,
+          "startColumn" : 36,
+          "endLine" : 509,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/error"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 509,
+          "startColumn" : 55,
+          "endLine" : 509,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/error"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "getBooleanProperty" : {
+      "name" : "getBooleanProperty",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/getBooleanProperty",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 28,
+        "endLine" : 144,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 144,
+          "startColumn" : 54,
+          "endLine" : 144,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/getBooleanProperty"
+      }, {
+        "name" : "dephault",
+        "key" : "dephault",
+        "type" : "boolean",
+        "position" : {
+          "startLine" : 144,
+          "startColumn" : 68,
+          "endLine" : 144,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/getBooleanProperty"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "isFatalEnabled" : {
+      "name" : "isFatalEnabled",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/isFatalEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 581,
+        "startColumn" : 26,
+        "endLine" : 581,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "setLevel" : {
+      "name" : "setLevel",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/setLevel",
+      "type" : "void",
+      "position" : {
+        "startLine" : 249,
+        "startColumn" : 17,
+        "endLine" : 249,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "currentLogLevel",
+        "key" : "currentLogLevel",
+        "type" : "int",
+        "position" : {
+          "startLine" : 249,
+          "startColumn" : 30,
+          "endLine" : 249,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/setLevel"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "fatal" : {
+      "name" : "fatal",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/fatal",
+      "type" : "void",
+      "position" : {
+        "startLine" : 540,
+        "startColumn" : 23,
+        "endLine" : 540,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 540,
+          "startColumn" : 36,
+          "endLine" : 540,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/fatal"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 540,
+          "startColumn" : 55,
+          "endLine" : 540,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/fatal"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "getLevel" : {
+      "name" : "getLevel",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/getLevel",
+      "type" : "int",
+      "position" : {
+        "startLine" : 259,
+        "startColumn" : 16,
+        "endLine" : 259,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "warn" : {
+      "name" : "warn",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/warn",
+      "type" : "void",
+      "position" : {
+        "startLine" : 478,
+        "startColumn" : 23,
+        "endLine" : 478,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 478,
+          "startColumn" : 35,
+          "endLine" : 478,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/warn"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 478,
+          "startColumn" : 54,
+          "endLine" : 478,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/warn"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "trace" : {
+      "name" : "trace",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/trace",
+      "type" : "void",
+      "position" : {
+        "startLine" : 416,
+        "startColumn" : 23,
+        "endLine" : 416,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 416,
+          "startColumn" : 36,
+          "endLine" : 416,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/trace"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 416,
+          "startColumn" : 55,
+          "endLine" : 416,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/trace"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "isInfoEnabled" : {
+      "name" : "isInfoEnabled",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/isInfoEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 594,
+        "startColumn" : 26,
+        "endLine" : 594,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "getContextClassLoader" : {
+      "name" : "getContextClassLoader",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/getContextClassLoader",
+      "type" : "java.lang.ClassLoader",
+      "position" : {
+        "startLine" : 636,
+        "startColumn" : 32,
+        "endLine" : 636,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "isErrorEnabled" : {
+      "name" : "isErrorEnabled",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/isErrorEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 568,
+        "startColumn" : 26,
+        "endLine" : 568,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "isTraceEnabled" : {
+      "name" : "isTraceEnabled",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/isTraceEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 607,
+        "startColumn" : 26,
+        "endLine" : 607,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "isDebugEnabled" : {
+      "name" : "isDebugEnabled",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/isDebugEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 555,
+        "startColumn" : 26,
+        "endLine" : 555,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "getStringProperty" : {
+      "name" : "getStringProperty",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/getStringProperty",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 27,
+        "endLine" : 139,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 52,
+          "endLine" : 139,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/getStringProperty"
+      }, {
+        "name" : "dephault",
+        "key" : "dephault",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 65,
+          "endLine" : 139,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/getStringProperty"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "write" : {
+      "name" : "write",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/write",
+      "type" : "void",
+      "position" : {
+        "startLine" : 340,
+        "startColumn" : 20,
+        "endLine" : 340,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "buffer",
+        "key" : "buffer",
+        "type" : "java.lang.StringBuffer",
+        "position" : {
+          "startLine" : 340,
+          "startColumn" : 39,
+          "endLine" : 340,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/write"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    },
+    "info" : {
+      "name" : "info",
+      "key" : "org.apache.commons.logging.impl.SimpleLog/method/info",
+      "type" : "void",
+      "position" : {
+        "startLine" : 447,
+        "startColumn" : 23,
+        "endLine" : 447,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 447,
+          "startColumn" : 35,
+          "endLine" : 447,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/info"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 447,
+          "startColumn" : 54,
+          "endLine" : 447,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.impl.SimpleLog/method/info"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.impl.SimpleLog"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "org.apache.commons.logging.Log", "java.io.Serializable" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

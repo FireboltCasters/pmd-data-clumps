@@ -1,0 +1,409 @@
+{
+  "name" : "BasicRowProcessor",
+  "key" : "org.apache.commons.dbutils.BasicRowProcessor",
+  "type" : "class",
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "instance" : {
+      "name" : "instance",
+      "key" : "instance",
+      "type" : "org.apache.commons.dbutils.BasicRowProcessor",
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 44,
+        "endLine" : 47,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.BasicRowProcessor/memberField/instance",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BasicRowProcessor"
+    },
+    "convert" : {
+      "name" : "convert",
+      "key" : "convert",
+      "type" : "BeanProcessor",
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 27,
+        "endLine" : 63,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.BasicRowProcessor/memberField/convert",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BasicRowProcessor"
+    },
+    "defaultConvert" : {
+      "name" : "defaultConvert",
+      "key" : "defaultConvert",
+      "type" : "BeanProcessor",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 40,
+        "endLine" : 42,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.dbutils.BasicRowProcessor/memberField/defaultConvert",
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BasicRowProcessor"
+    }
+  },
+  "methods" : {
+    "instance" : {
+      "name" : "instance",
+      "key" : "org.apache.commons.dbutils.BasicRowProcessor/method/instance",
+      "type" : "org.apache.commons.dbutils.BasicRowProcessor",
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 37,
+        "endLine" : 56,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BasicRowProcessor"
+    },
+    "toBean" : {
+      "name" : "toBean",
+      "key" : "org.apache.commons.dbutils.BasicRowProcessor/method/toBean",
+      "type" : "java.lang.Object",
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 19,
+        "endLine" : 110,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rs",
+        "key" : "rs",
+        "type" : "java.sql.ResultSet",
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 36,
+          "endLine" : 110,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.BasicRowProcessor/method/toBean"
+      }, {
+        "name" : "type",
+        "key" : "type",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 46,
+          "endLine" : 110,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.BasicRowProcessor/method/toBean"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BasicRowProcessor"
+    },
+    "toBeanList" : {
+      "name" : "toBeanList",
+      "key" : "org.apache.commons.dbutils.BasicRowProcessor/method/toBeanList",
+      "type" : "java.util.List",
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 17,
+        "endLine" : 120,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rs",
+        "key" : "rs",
+        "type" : "java.sql.ResultSet",
+        "position" : {
+          "startLine" : 120,
+          "startColumn" : 38,
+          "endLine" : 120,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.BasicRowProcessor/method/toBeanList"
+      }, {
+        "name" : "type",
+        "key" : "type",
+        "type" : "java.lang.Class",
+        "position" : {
+          "startLine" : 120,
+          "startColumn" : 48,
+          "endLine" : 120,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.BasicRowProcessor/method/toBeanList"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BasicRowProcessor"
+    },
+    "toMap" : {
+      "name" : "toMap",
+      "key" : "org.apache.commons.dbutils.BasicRowProcessor/method/toMap",
+      "type" : "java.util.Map",
+      "position" : {
+        "startLine" : 131,
+        "startColumn" : 16,
+        "endLine" : 131,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rs",
+        "key" : "rs",
+        "type" : "java.sql.ResultSet",
+        "position" : {
+          "startLine" : 131,
+          "startColumn" : 32,
+          "endLine" : 131,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.BasicRowProcessor/method/toMap"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BasicRowProcessor"
+    },
+    "toArray" : {
+      "name" : "toArray",
+      "key" : "org.apache.commons.dbutils.BasicRowProcessor/method/toArray",
+      "type" : "java.lang.Object[]",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 21,
+        "endLine" : 92,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rs",
+        "key" : "rs",
+        "type" : "java.sql.ResultSet",
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 39,
+          "endLine" : 92,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.dbutils.BasicRowProcessor/method/toArray"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.dbutils.BasicRowProcessor"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "RowProcessor" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap" : {
+      "name" : "CaseInsensitiveHashMap",
+      "key" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap",
+      "type" : "class",
+      "position" : {
+        "startLine" : 148,
+        "startColumn" : 20,
+        "endLine" : 148,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "containsKey" : {
+          "name" : "containsKey",
+          "key" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap/method/containsKey",
+          "type" : "boolean",
+          "position" : {
+            "startLine" : 153,
+            "startColumn" : 24,
+            "endLine" : 153,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "key",
+            "key" : "key",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 153,
+              "startColumn" : 43,
+              "endLine" : 153,
+              "endColumn" : 46
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap/method/containsKey"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap"
+        },
+        "get" : {
+          "name" : "get",
+          "key" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap/method/get",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 160,
+            "startColumn" : 23,
+            "endLine" : 160,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "key",
+            "key" : "key",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 160,
+              "startColumn" : 34,
+              "endLine" : 160,
+              "endColumn" : 37
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap/method/get"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap"
+        },
+        "putAll" : {
+          "name" : "putAll",
+          "key" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap/method/putAll",
+          "type" : "void",
+          "position" : {
+            "startLine" : 174,
+            "startColumn" : 21,
+            "endLine" : 174,
+            "endColumn" : 27
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "m",
+            "key" : "m",
+            "type" : "java.util.Map",
+            "position" : {
+              "startLine" : 174,
+              "startColumn" : 32,
+              "endLine" : 174,
+              "endColumn" : 33
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap/method/putAll"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap"
+        },
+        "put" : {
+          "name" : "put",
+          "key" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap/method/put",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 167,
+            "startColumn" : 23,
+            "endLine" : 167,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "key",
+            "key" : "key",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 167,
+              "startColumn" : 34,
+              "endLine" : 167,
+              "endColumn" : 37
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap/method/put"
+          }, {
+            "name" : "value",
+            "key" : "value",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 167,
+              "startColumn" : 46,
+              "endLine" : 167,
+              "endColumn" : 51
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap/method/put"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap"
+        },
+        "remove" : {
+          "name" : "remove",
+          "key" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap/method/remove",
+          "type" : "java.lang.Object",
+          "position" : {
+            "startLine" : 186,
+            "startColumn" : 23,
+            "endLine" : 186,
+            "endColumn" : 29
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "key",
+            "key" : "key",
+            "type" : "java.lang.Object",
+            "position" : {
+              "startLine" : 186,
+              "startColumn" : 37,
+              "endLine" : 186,
+              "endColumn" : 40
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap/method/remove"
+          } ],
+          "classOrInterfaceKey" : "org.apache.commons.dbutils.BasicRowProcessor.CaseInsensitiveHashMap"
+        }
+      },
+      "fileKey" : null,
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "java.util.HashMap" ],
+      "definedInClassOrInterfaceTypeKey" : "org.apache.commons.dbutils.BasicRowProcessor",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+},

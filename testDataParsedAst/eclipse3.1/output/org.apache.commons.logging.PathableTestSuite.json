@@ -1,0 +1,81 @@
+{
+  "name" : "PathableTestSuite",
+  "key" : "org.apache.commons.logging.PathableTestSuite",
+  "type" : "class",
+  "position" : {
+    "startLine" : 105,
+    "startColumn" : 8,
+    "endLine" : 105,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "contextLoader" : {
+      "name" : "contextLoader",
+      "key" : "contextLoader",
+      "type" : "java.lang.ClassLoader",
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 25,
+        "endLine" : 111,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.logging.PathableTestSuite/memberField/contextLoader",
+      "classOrInterfaceKey" : "org.apache.commons.logging.PathableTestSuite"
+    }
+  },
+  "methods" : {
+    "runTest" : {
+      "name" : "runTest",
+      "key" : "org.apache.commons.logging.PathableTestSuite/method/runTest",
+      "type" : "void",
+      "position" : {
+        "startLine" : 136,
+        "startColumn" : 17,
+        "endLine" : 136,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "test",
+        "key" : "test",
+        "type" : "junit.framework.Test",
+        "position" : {
+          "startLine" : 136,
+          "startColumn" : 30,
+          "endLine" : 136,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.PathableTestSuite/method/runTest"
+      }, {
+        "name" : "result",
+        "key" : "result",
+        "type" : "junit.framework.TestResult",
+        "position" : {
+          "startLine" : 136,
+          "startColumn" : 47,
+          "endLine" : 136,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.PathableTestSuite/method/runTest"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.PathableTestSuite"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestSuite" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

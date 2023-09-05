@@ -1,0 +1,115 @@
+{
+  "name" : "CharGenTCPClient",
+  "key" : "org.apache.commons.net.CharGenTCPClient",
+  "type" : "class",
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 14,
+    "endLine" : 43,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "QUOTE_OF_DAY_PORT" : {
+      "name" : "QUOTE_OF_DAY_PORT",
+      "key" : "QUOTE_OF_DAY_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 29,
+        "endLine" : 50,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.CharGenTCPClient/memberField/QUOTE_OF_DAY_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenTCPClient"
+    },
+    "DEFAULT_PORT" : {
+      "name" : "DEFAULT_PORT",
+      "key" : "DEFAULT_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 29,
+        "endLine" : 54,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.CharGenTCPClient/memberField/DEFAULT_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenTCPClient"
+    },
+    "NETSTAT_PORT" : {
+      "name" : "NETSTAT_PORT",
+      "key" : "NETSTAT_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 29,
+        "endLine" : 48,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.CharGenTCPClient/memberField/NETSTAT_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenTCPClient"
+    },
+    "SYSTAT_PORT" : {
+      "name" : "SYSTAT_PORT",
+      "key" : "SYSTAT_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 29,
+        "endLine" : 46,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.CharGenTCPClient/memberField/SYSTAT_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenTCPClient"
+    },
+    "CHARGEN_PORT" : {
+      "name" : "CHARGEN_PORT",
+      "key" : "CHARGEN_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 29,
+        "endLine" : 52,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.CharGenTCPClient/memberField/CHARGEN_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenTCPClient"
+    }
+  },
+  "methods" : {
+    "getInputStream" : {
+      "name" : "getInputStream",
+      "key" : "org.apache.commons.net.CharGenTCPClient/method/getInputStream",
+      "type" : "java.io.InputStream",
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 24,
+        "endLine" : 74,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.CharGenTCPClient"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "SocketClient" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

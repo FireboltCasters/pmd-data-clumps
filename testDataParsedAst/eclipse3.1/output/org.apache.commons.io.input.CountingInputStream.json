@@ -1,0 +1,148 @@
+{
+  "name" : "CountingInputStream",
+  "key" : "org.apache.commons.io.input.CountingInputStream",
+  "type" : "class",
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "count" : {
+      "name" : "count",
+      "key" : "count",
+      "type" : "long",
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 18,
+        "endLine" : 35,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.input.CountingInputStream/memberField/count",
+      "classOrInterfaceKey" : "org.apache.commons.io.input.CountingInputStream"
+    }
+  },
+  "methods" : {
+    "read" : {
+      "name" : "read",
+      "key" : "org.apache.commons.io.input.CountingInputStream/method/read",
+      "type" : "int",
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 16,
+        "endLine" : 87,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.CountingInputStream"
+    },
+    "resetCount" : {
+      "name" : "resetCount",
+      "key" : "org.apache.commons.io.input.CountingInputStream/method/resetCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 137,
+        "startColumn" : 29,
+        "endLine" : 137,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.CountingInputStream"
+    },
+    "skip" : {
+      "name" : "skip",
+      "key" : "org.apache.commons.io.input.CountingInputStream/method/skip",
+      "type" : "long",
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 17,
+        "endLine" : 102,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "length",
+        "key" : "length",
+        "type" : "long",
+        "position" : {
+          "startLine" : 102,
+          "startColumn" : 33,
+          "endLine" : 102,
+          "endColumn" : 39
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.input.CountingInputStream/method/skip"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.CountingInputStream"
+    },
+    "getCount" : {
+      "name" : "getCount",
+      "key" : "org.apache.commons.io.input.CountingInputStream/method/getCount",
+      "type" : "int",
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 29,
+        "endLine" : 119,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.CountingInputStream"
+    },
+    "getByteCount" : {
+      "name" : "getByteCount",
+      "key" : "org.apache.commons.io.input.CountingInputStream/method/getByteCount",
+      "type" : "long",
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 30,
+        "endLine" : 155,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.CountingInputStream"
+    },
+    "resetByteCount" : {
+      "name" : "resetByteCount",
+      "key" : "org.apache.commons.io.input.CountingInputStream/method/resetByteCount",
+      "type" : "long",
+      "position" : {
+        "startLine" : 169,
+        "startColumn" : 30,
+        "endLine" : 169,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.input.CountingInputStream"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ProxyInputStream" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

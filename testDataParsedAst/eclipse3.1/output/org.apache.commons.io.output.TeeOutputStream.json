@@ -1,0 +1,100 @@
+{
+  "name" : "TeeOutputStream",
+  "key" : "org.apache.commons.io.output.TeeOutputStream",
+  "type" : "class",
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "branch" : {
+      "name" : "branch",
+      "key" : "branch",
+      "type" : "java.io.OutputStream",
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 28,
+        "endLine" : 32,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.output.TeeOutputStream/memberField/branch",
+      "classOrInterfaceKey" : "org.apache.commons.io.output.TeeOutputStream"
+    }
+  },
+  "methods" : {
+    "flush" : {
+      "name" : "flush",
+      "key" : "org.apache.commons.io.output.TeeOutputStream/method/flush",
+      "type" : "void",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 17,
+        "endLine" : 67,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.TeeOutputStream"
+    },
+    "write" : {
+      "name" : "write",
+      "key" : "org.apache.commons.io.output.TeeOutputStream/method/write",
+      "type" : "void",
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 30,
+        "endLine" : 57,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "SYNCHRONIZED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "b",
+        "key" : "b",
+        "type" : "int",
+        "position" : {
+          "startLine" : 57,
+          "startColumn" : 40,
+          "endLine" : 57,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.output.TeeOutputStream/method/write"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.TeeOutputStream"
+    },
+    "close" : {
+      "name" : "close",
+      "key" : "org.apache.commons.io.output.TeeOutputStream/method/close",
+      "type" : "void",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 17,
+        "endLine" : 77,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.io.output.TeeOutputStream"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "ProxyOutputStream" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

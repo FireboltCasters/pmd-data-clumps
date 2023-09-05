@@ -1,0 +1,371 @@
+{
+  "name" : "Log",
+  "key" : "org.apache.commons.logging.Log",
+  "type" : "interface",
+  "position" : {
+    "startLine" : 62,
+    "startColumn" : 8,
+    "endLine" : 62,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "warn" : {
+      "name" : "warn",
+      "key" : "org.apache.commons.logging.Log/method/warn",
+      "type" : "void",
+      "position" : {
+        "startLine" : 208,
+        "startColumn" : 17,
+        "endLine" : 208,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 208,
+          "startColumn" : 29,
+          "endLine" : 208,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.Log/method/warn"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 208,
+          "startColumn" : 48,
+          "endLine" : 208,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.Log/method/warn"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.Log"
+    },
+    "trace" : {
+      "name" : "trace",
+      "key" : "org.apache.commons.logging.Log/method/trace",
+      "type" : "void",
+      "position" : {
+        "startLine" : 157,
+        "startColumn" : 17,
+        "endLine" : 157,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 157,
+          "startColumn" : 30,
+          "endLine" : 157,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.Log/method/trace"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 157,
+          "startColumn" : 49,
+          "endLine" : 157,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.Log/method/trace"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.Log"
+    },
+    "debug" : {
+      "name" : "debug",
+      "key" : "org.apache.commons.logging.Log/method/debug",
+      "type" : "void",
+      "position" : {
+        "startLine" : 174,
+        "startColumn" : 17,
+        "endLine" : 174,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 174,
+          "startColumn" : 30,
+          "endLine" : 174,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.Log/method/debug"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 174,
+          "startColumn" : 49,
+          "endLine" : 174,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.Log/method/debug"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.Log"
+    },
+    "isInfoEnabled" : {
+      "name" : "isInfoEnabled",
+      "key" : "org.apache.commons.logging.Log/method/isInfoEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 113,
+        "startColumn" : 20,
+        "endLine" : 113,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.Log"
+    },
+    "isErrorEnabled" : {
+      "name" : "isErrorEnabled",
+      "key" : "org.apache.commons.logging.Log/method/isErrorEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 20,
+        "endLine" : 89,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.Log"
+    },
+    "isTraceEnabled" : {
+      "name" : "isTraceEnabled",
+      "key" : "org.apache.commons.logging.Log/method/isTraceEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 20,
+        "endLine" : 125,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.Log"
+    },
+    "isDebugEnabled" : {
+      "name" : "isDebugEnabled",
+      "key" : "org.apache.commons.logging.Log/method/isDebugEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 20,
+        "endLine" : 77,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.Log"
+    },
+    "isWarnEnabled" : {
+      "name" : "isWarnEnabled",
+      "key" : "org.apache.commons.logging.Log/method/isWarnEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 137,
+        "startColumn" : 20,
+        "endLine" : 137,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.Log"
+    },
+    "error" : {
+      "name" : "error",
+      "key" : "org.apache.commons.logging.Log/method/error",
+      "type" : "void",
+      "position" : {
+        "startLine" : 225,
+        "startColumn" : 17,
+        "endLine" : 225,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 225,
+          "startColumn" : 30,
+          "endLine" : 225,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.Log/method/error"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 225,
+          "startColumn" : 49,
+          "endLine" : 225,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.Log/method/error"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.Log"
+    },
+    "isFatalEnabled" : {
+      "name" : "isFatalEnabled",
+      "key" : "org.apache.commons.logging.Log/method/isFatalEnabled",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 20,
+        "endLine" : 101,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.Log"
+    },
+    "info" : {
+      "name" : "info",
+      "key" : "org.apache.commons.logging.Log/method/info",
+      "type" : "void",
+      "position" : {
+        "startLine" : 191,
+        "startColumn" : 17,
+        "endLine" : 191,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 191,
+          "startColumn" : 29,
+          "endLine" : 191,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.Log/method/info"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 191,
+          "startColumn" : 48,
+          "endLine" : 191,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.Log/method/info"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.Log"
+    },
+    "fatal" : {
+      "name" : "fatal",
+      "key" : "org.apache.commons.logging.Log/method/fatal",
+      "type" : "void",
+      "position" : {
+        "startLine" : 242,
+        "startColumn" : 17,
+        "endLine" : 242,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "message",
+        "key" : "message",
+        "type" : "java.lang.Object",
+        "position" : {
+          "startLine" : 242,
+          "startColumn" : 30,
+          "endLine" : 242,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.Log/method/fatal"
+      }, {
+        "name" : "t",
+        "key" : "t",
+        "type" : "java.lang.Throwable",
+        "position" : {
+          "startLine" : 242,
+          "startColumn" : 49,
+          "endLine" : 242,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.Log/method/fatal"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.Log"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

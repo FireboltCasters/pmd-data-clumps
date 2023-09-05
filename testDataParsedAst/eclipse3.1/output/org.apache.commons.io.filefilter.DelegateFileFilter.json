@@ -1,0 +1,96 @@
+{
+  "name" : "DelegateFileFilter",
+  "key" : "org.apache.commons.io.filefilter.DelegateFileFilter",
+  "type" : "class",
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "fileFilter" : {
+      "name" : "fileFilter",
+      "key" : "fileFilter",
+      "type" : "java.io.FileFilter",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 24,
+        "endLine" : 36,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.filefilter.DelegateFileFilter/memberField/fileFilter",
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.DelegateFileFilter"
+    },
+    "filenameFilter" : {
+      "name" : "filenameFilter",
+      "key" : "filenameFilter",
+      "type" : "java.io.FilenameFilter",
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 28,
+        "endLine" : 34,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.io.filefilter.DelegateFileFilter/memberField/filenameFilter",
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.DelegateFileFilter"
+    }
+  },
+  "methods" : {
+    "accept" : {
+      "name" : "accept",
+      "key" : "org.apache.commons.io.filefilter.DelegateFileFilter/method/accept",
+      "type" : "boolean",
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 20,
+        "endLine" : 83,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dir",
+        "key" : "dir",
+        "type" : "java.io.File",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 32,
+          "endLine" : 83,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.filefilter.DelegateFileFilter/method/accept"
+      }, {
+        "name" : "name",
+        "key" : "name",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 44,
+          "endLine" : 83,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.io.filefilter.DelegateFileFilter/method/accept"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.io.filefilter.DelegateFileFilter"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "AbstractFileFilter" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

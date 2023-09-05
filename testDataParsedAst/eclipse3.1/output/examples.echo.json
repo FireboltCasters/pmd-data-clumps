@@ -1,0 +1,110 @@
+{
+  "name" : "echo",
+  "key" : "examples.echo",
+  "type" : "class",
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 14,
+    "endLine" : 40,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "main" : {
+      "name" : "main",
+      "key" : "examples.echo/method/main",
+      "type" : "void",
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 30,
+        "endLine" : 130,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "args",
+        "type" : "java.lang.String[]",
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 44,
+          "endLine" : 130,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.echo/method/main"
+      } ],
+      "classOrInterfaceKey" : "examples.echo"
+    },
+    "echoTCP" : {
+      "name" : "echoTCP",
+      "key" : "examples.echo/method/echoTCP",
+      "type" : "void",
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 30,
+        "endLine" : 43,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "host",
+        "key" : "host",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 43,
+          "startColumn" : 45,
+          "endLine" : 43,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.echo/method/echoTCP"
+      } ],
+      "classOrInterfaceKey" : "examples.echo"
+    },
+    "echoUDP" : {
+      "name" : "echoUDP",
+      "key" : "examples.echo/method/echoUDP",
+      "type" : "void",
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 30,
+        "endLine" : 69,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "host",
+        "key" : "host",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 45,
+          "endLine" : 69,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "examples.echo/method/echoUDP"
+      } ],
+      "classOrInterfaceKey" : "examples.echo"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

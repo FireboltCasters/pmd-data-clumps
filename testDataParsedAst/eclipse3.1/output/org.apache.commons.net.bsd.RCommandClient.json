@@ -1,0 +1,208 @@
+{
+  "name" : "RCommandClient",
+  "key" : "org.apache.commons.net.bsd.RCommandClient",
+  "type" : "class",
+  "position" : {
+    "startLine" : 87,
+    "startColumn" : 8,
+    "endLine" : 87,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "DEFAULT_PORT" : {
+      "name" : "DEFAULT_PORT",
+      "key" : "DEFAULT_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 29,
+        "endLine" : 92,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.bsd.RCommandClient/memberField/DEFAULT_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.bsd.RCommandClient"
+    },
+    "MIN_CLIENT_PORT" : {
+      "name" : "MIN_CLIENT_PORT",
+      "key" : "MIN_CLIENT_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 29,
+        "endLine" : 98,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.bsd.RCommandClient/memberField/MIN_CLIENT_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.bsd.RCommandClient"
+    },
+    "MAX_CLIENT_PORT" : {
+      "name" : "MAX_CLIENT_PORT",
+      "key" : "MAX_CLIENT_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 29,
+        "endLine" : 104,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.bsd.RCommandClient/memberField/MAX_CLIENT_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.bsd.RCommandClient"
+    }
+  },
+  "methods" : {
+    "_createErrorStream" : {
+      "name" : "_createErrorStream",
+      "key" : "org.apache.commons.net.bsd.RCommandClient/method/_createErrorStream",
+      "type" : "java.io.InputStream",
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 17,
+        "endLine" : 108,
+        "endColumn" : 35
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.bsd.RCommandClient"
+    },
+    "rcommand" : {
+      "name" : "rcommand",
+      "key" : "org.apache.commons.net.bsd.RCommandClient/method/rcommand",
+      "type" : "void",
+      "position" : {
+        "startLine" : 384,
+        "startColumn" : 17,
+        "endLine" : 384,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "localUsername",
+        "key" : "localUsername",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 384,
+          "startColumn" : 33,
+          "endLine" : 384,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.bsd.RCommandClient/method/rcommand"
+      }, {
+        "name" : "remoteUsername",
+        "key" : "remoteUsername",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 384,
+          "startColumn" : 55,
+          "endLine" : 384,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.bsd.RCommandClient/method/rcommand"
+      }, {
+        "name" : "command",
+        "key" : "command",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 385,
+          "startColumn" : 33,
+          "endLine" : 385,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.bsd.RCommandClient/method/rcommand"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.bsd.RCommandClient"
+    },
+    "connect" : {
+      "name" : "connect",
+      "key" : "org.apache.commons.net.bsd.RCommandClient/method/connect",
+      "type" : "void",
+      "position" : {
+        "startLine" : 326,
+        "startColumn" : 17,
+        "endLine" : 326,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "hostname",
+        "key" : "hostname",
+        "type" : "java.lang.String",
+        "position" : {
+          "startLine" : 326,
+          "startColumn" : 32,
+          "endLine" : 326,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.bsd.RCommandClient/method/connect"
+      }, {
+        "name" : "port",
+        "key" : "port",
+        "type" : "int",
+        "position" : {
+          "startLine" : 326,
+          "startColumn" : 46,
+          "endLine" : 326,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.bsd.RCommandClient/method/connect"
+      }, {
+        "name" : "localAddr",
+        "key" : "localAddr",
+        "type" : "java.net.InetAddress",
+        "position" : {
+          "startLine" : 327,
+          "startColumn" : 37,
+          "endLine" : 327,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.bsd.RCommandClient/method/connect"
+      }, {
+        "name" : "localPort",
+        "key" : "localPort",
+        "type" : "int",
+        "position" : {
+          "startLine" : 327,
+          "startColumn" : 52,
+          "endLine" : 327,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.net.bsd.RCommandClient/method/connect"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.net.bsd.RCommandClient"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "RExecClient" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

@@ -1,0 +1,206 @@
+{
+  "name" : "BasicOperationsTestCase",
+  "key" : "org.apache.commons.logging.BasicOperationsTestCase",
+  "type" : "class",
+  "position" : {
+    "startLine" : 28,
+    "startColumn" : 8,
+    "endLine" : 28,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "testIsEnabledNamedLog" : {
+      "name" : "testIsEnabledNamedLog",
+      "key" : "org.apache.commons.logging.BasicOperationsTestCase/method/testIsEnabledNamedLog",
+      "type" : "void",
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 17,
+        "endLine" : 36,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.BasicOperationsTestCase"
+    },
+    "testMessageWithoutExceptionClassLog" : {
+      "name" : "testMessageWithoutExceptionClassLog",
+      "key" : "org.apache.commons.logging.BasicOperationsTestCase/method/testMessageWithoutExceptionClassLog",
+      "type" : "void",
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 17,
+        "endLine" : 61,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.BasicOperationsTestCase"
+    },
+    "testMessageWithoutExceptionNamedLog" : {
+      "name" : "testMessageWithoutExceptionNamedLog",
+      "key" : "org.apache.commons.logging.BasicOperationsTestCase/method/testMessageWithoutExceptionNamedLog",
+      "type" : "void",
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 17,
+        "endLine" : 67,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.BasicOperationsTestCase"
+    },
+    "testIsEnabledClassLog" : {
+      "name" : "testIsEnabledClassLog",
+      "key" : "org.apache.commons.logging.BasicOperationsTestCase/method/testIsEnabledClassLog",
+      "type" : "void",
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 17,
+        "endLine" : 30,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.BasicOperationsTestCase"
+    },
+    "executeMessageWithoutExceptionTest" : {
+      "name" : "executeMessageWithoutExceptionTest",
+      "key" : "org.apache.commons.logging.BasicOperationsTestCase/method/executeMessageWithoutExceptionTest",
+      "type" : "void",
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 17,
+        "endLine" : 73,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "log",
+        "key" : "log",
+        "type" : "Log",
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 56,
+          "endLine" : 73,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.BasicOperationsTestCase/method/executeMessageWithoutExceptionTest"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.BasicOperationsTestCase"
+    },
+    "executeMessageWithExceptionTest" : {
+      "name" : "executeMessageWithExceptionTest",
+      "key" : "org.apache.commons.logging.BasicOperationsTestCase/method/executeMessageWithExceptionTest",
+      "type" : "void",
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 17,
+        "endLine" : 103,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "log",
+        "key" : "log",
+        "type" : "Log",
+        "position" : {
+          "startLine" : 103,
+          "startColumn" : 53,
+          "endLine" : 103,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.BasicOperationsTestCase/method/executeMessageWithExceptionTest"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.BasicOperationsTestCase"
+    },
+    "executeIsEnabledTest" : {
+      "name" : "executeIsEnabledTest",
+      "key" : "org.apache.commons.logging.BasicOperationsTestCase/method/executeIsEnabledTest",
+      "type" : "void",
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 17,
+        "endLine" : 42,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "log",
+        "key" : "log",
+        "type" : "Log",
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 42,
+          "endLine" : 42,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "org.apache.commons.logging.BasicOperationsTestCase/method/executeIsEnabledTest"
+      } ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.BasicOperationsTestCase"
+    },
+    "testMessageWithExceptionClassLog" : {
+      "name" : "testMessageWithExceptionClassLog",
+      "key" : "org.apache.commons.logging.BasicOperationsTestCase/method/testMessageWithExceptionClassLog",
+      "type" : "void",
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 17,
+        "endLine" : 91,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.BasicOperationsTestCase"
+    },
+    "testMessageWithExceptionNamedLog" : {
+      "name" : "testMessageWithExceptionNamedLog",
+      "key" : "org.apache.commons.logging.BasicOperationsTestCase/method/testMessageWithExceptionNamedLog",
+      "type" : "void",
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 17,
+        "endLine" : 97,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.logging.BasicOperationsTestCase"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "junit.framework.TestCase" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},

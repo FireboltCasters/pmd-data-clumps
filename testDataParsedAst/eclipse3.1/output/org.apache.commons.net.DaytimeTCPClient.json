@@ -1,0 +1,70 @@
+{
+  "name" : "DaytimeTCPClient",
+  "key" : "org.apache.commons.net.DaytimeTCPClient",
+  "type" : "class",
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 14,
+    "endLine" : 37,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "DEFAULT_PORT" : {
+      "name" : "DEFAULT_PORT",
+      "key" : "DEFAULT_PORT",
+      "type" : "int",
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 29,
+        "endLine" : 40,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.DaytimeTCPClient/memberField/DEFAULT_PORT",
+      "classOrInterfaceKey" : "org.apache.commons.net.DaytimeTCPClient"
+    },
+    "__buffer" : {
+      "name" : "__buffer",
+      "key" : "__buffer",
+      "type" : "char[]",
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 20,
+        "endLine" : 44,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : "org.apache.commons.net.DaytimeTCPClient/memberField/__buffer",
+      "classOrInterfaceKey" : "org.apache.commons.net.DaytimeTCPClient"
+    }
+  },
+  "methods" : {
+    "getTime" : {
+      "name" : "getTime",
+      "key" : "org.apache.commons.net.DaytimeTCPClient/method/getTime",
+      "type" : "java.lang.String",
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 19,
+        "endLine" : 68,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "org.apache.commons.net.DaytimeTCPClient"
+    }
+  },
+  "fileKey" : null,
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "SocketClient" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+},
