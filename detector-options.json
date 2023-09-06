@@ -1,4 +1,5 @@
 {
+    "typeVariablesConsidered": false,
     "sharedFieldParametersMinimum": 3,
     "sharedFieldParametersCheckIfAreSubtypes": false,
     "subclassInheritsAllMembersFromSuperclass": false,

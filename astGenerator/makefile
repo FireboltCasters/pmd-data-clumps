@@ -2,7 +2,7 @@
 
 # Default value for the DIRECTORY variable
 DIRECTORY := ./testSrc/java
-OUTPUT_FOLDER := ./parsedFiles
+OUTPUT_FOLDER := ./../testDataParsedAst/testSrc
 
 all: clean build run
 

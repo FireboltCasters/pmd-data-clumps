@@ -4,6 +4,13 @@ import os
 # Define default options and their metadata
 # Define default options and their metadata
 DetectorOptionsInformation = {
+    "typeVariablesConsidered": {
+        "label": "Types Variables Considered",
+        "description": "In Java Generics like: List<T> have a variable Type. On the other hand List<Number> has not (type argument). Default value is false, so variable types will not be considered.",
+        "defaultValue": False,
+        "group": "all",
+        "type": "boolean"
+    },
     "sharedFieldParametersMinimum": {
         "label": "Minimum Number of Shared Fields",
         "description": "The minimum number of fields that two or more classes must share to be considered related. Default value is 3.",

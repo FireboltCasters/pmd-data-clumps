@@ -1,21 +1,11 @@
 package com.example;
 
 import java.util.String;
+import java.util.List;
+import java.util.ArrayList;
 
-public class Main extends String{
-    public int a, aa, aaa;
-    public int b;
-    public String s;
-    public Hero h;
-    public com.example.Hero hF;
+public class Main<T> {
 
-    // method with ... parameter
-    public void check(int ma, int mb, final String mc, int... md){
-
-    }
-
-    public class InnerClass{
-        public int a;
-    }
+    ArrayList<T> list;
 
 }

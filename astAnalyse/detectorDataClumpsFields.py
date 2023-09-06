@@ -22,11 +22,12 @@ class DetectorDataClumpsFields:
             current_class = classes_dict[class_key]
 
             if current_class.get('auxclass'):
-                return None
-
-            self.generate_member_field_parameters_related_to_for_class(current_class, classes_dict, data_clumps_field_parameters, software_project_dicts)
+                continue
+            else:
+                self.generate_member_field_parameters_related_to_for_class(current_class, classes_dict, data_clumps_field_parameters, software_project_dicts)
 
             index += 1
+            print(f"DetectorDataClumpsFields Progress: {index}/{amount_of_classes}")
 
         return data_clumps_field_parameters
 
@@ -84,10 +85,16 @@ class DetectorDataClumpsFields:
     def get_member_parameters_from_class(self, current_class, software_project_dicts):
         class_parameters = []
 
+        variableTypesConsidered = self.options['typeVariablesConsidered']
+
         field_parameters = current_class['fields']
         field_parameter_keys = list(field_parameters.keys())
         for field_key in field_parameter_keys:
             field_parameter = field_parameters[field_key]
+
+            if field_parameter['hasTypeVariable'] and not variableTypesConsidered:
+                continue # skip type variables like List<T> but not List<String>
+
             if not field_parameter['ignore']:
                 class_parameters.append(field_parameter)
 

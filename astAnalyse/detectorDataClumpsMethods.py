@@ -1,4 +1,5 @@
 from typing import Optional, Dict, Any, Union
+import json
 
 from .detectorUtils import DetectorUtils
 
@@ -18,8 +19,29 @@ class DetectorDataClumpsMethods:
             method = methods_dict[method_key]
             self.analyze_method(method, software_project_dicts, data_clumps_method_parameter_data_clumps)
             index += 1
+            print(f"DetectorDataClumpsMethods Progress: {index}/{amount_methods}")
 
         return data_clumps_method_parameter_data_clumps
+
+    def get_parameters_from_method(self, method):
+        method_parameters = []
+
+        variableTypesConsidered = self.options['typeVariablesConsidered']
+
+        #print(json.dumps(method, indent=4, sort_keys=True))
+        list_method_parameters = method["parameters"]
+        # print len
+        #print(f"len(method_parameters): {len(list_method_parameters)}")
+        for method_parameter in list_method_parameters:
+            # print json dump
+            if method_parameter['hasTypeVariable'] and not variableTypesConsidered:
+                continue # skip type variables like List<T> but not List<String>
+
+            if not method_parameter['ignore']:
+                method_parameters.append(method_parameter)
+
+        return method_parameters
+
 
     def analyze_method(self, method, software_project_dicts, data_clumps_method_parameter_data_clumps):
         current_class_or_interface = DetectorUtils.method_get_class_or_interface(method, software_project_dicts)
@@ -28,7 +50,7 @@ class DetectorDataClumpsMethods:
             return
 
         # print(f"Analyze method: {method.key}")
-        method_parameters = method["parameters"]
+        method_parameters = self.get_parameters_from_method(method)
         amount_of_method_parameters = len(method_parameters)
 
         if amount_of_method_parameters < self.options["sharedMethodParametersMinimum"]:
@@ -84,7 +106,7 @@ class DetectorDataClumpsMethods:
         other_class_or_interface_key = other_method['classOrInterfaceKey']
         other_class_or_interface = software_project_dicts.dictClassOrInterface[other_class_or_interface_key]
 
-        other_method_parameters = other_method['parameters']
+        other_method_parameters = self.get_parameters_from_method(other_method)
         other_method_parameters_amount = len(other_method_parameters)
 
         if other_method_parameters_amount < self.options['sharedMethodParametersMinimum']:

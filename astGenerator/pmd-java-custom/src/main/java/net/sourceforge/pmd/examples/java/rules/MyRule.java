@@ -17,10 +17,12 @@ import net.sourceforge.pmd.lang.java.types.JClassType;
 import net.sourceforge.pmd.lang.java.types.JTypeVar;
 import net.sourceforge.pmd.lang.java.types.JTypeMirror;
 import net.sourceforge.pmd.lang.java.types.TypePrettyPrint;
+import net.sourceforge.pmd.lang.java.types.*;
 import net.sourceforge.pmd.properties.StringProperty;
 import net.sourceforge.pmd.lang.ast.*;
 import net.sourceforge.pmd.lang.document.TextDocument;
 import net.sourceforge.pmd.lang.document.FileId;
+import net.sourceforge.pmd.util.OptionalBool;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -35,6 +37,7 @@ public class MyRule extends AbstractJavaRule {
     static int count = 0;
     static String output = "";
     static String filePath = "";
+    static String packageName = "";
 
     public static String convertToJson(Object obj) {
         ObjectMapper mapper = new ObjectMapper();
@@ -117,6 +120,7 @@ public class MyRule extends AbstractJavaRule {
 
                 // TODO: what is is varargs?
                 fieldContext.type = this.getQualifiedNameUnsafe(fieldVariableDeclarator.getTypeMirror());
+                fieldContext.hasTypeVariable = this.hasTypeVariable(fieldVariableDeclarator.getTypeMirror());
 
                 // Set the position
                 fieldContext.position = this.getAstPosition(fieldVariableDeclarator);
@@ -199,6 +203,7 @@ public class MyRule extends AbstractJavaRule {
 
                 // TODO: what is is varargs?
                 parameterContext.type = this.getQualifiedNameUnsafe(parameterVariableDeclarator.getTypeMirror());
+                parameterContext.hasTypeVariable = this.hasTypeVariable(parameterVariableDeclarator.getTypeMirror());
                 /**
                 if (parameter.isVarargs()) {  // Hypothetical method; check PMD documentation
                     System.out.println("This is a varargs parameter: " + parameter.getImage());
@@ -264,18 +269,66 @@ public class MyRule extends AbstractJavaRule {
         }
     }
 
+    private boolean hasTypeVariable(JTypeMirror typeMirror){
+        if(typeMirror instanceof JTypeVar){ // something like: T item ==> T
+            return true;
+        }
+
+        if(typeMirror instanceof JClassType){
+            JClassType downCast = (JClassType) typeMirror;
+            List<JTypeMirror> typeMirrors = downCast.getTypeArgs();
+            boolean isGeneric = downCast.isGeneric();
+            if(isGeneric){
+                for(int i = 0; i < typeMirrors.size(); i++){
+                    JTypeMirror innerTypeMirror = typeMirrors.get(i);
+                    if(innerTypeMirror instanceof JTypeVar){ // something like: T item ==> T
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
     private String getQualifiedNameUnsafe(JTypeMirror typeMirror){
+
+        TypePrettyPrint.TypePrettyPrinter typePrettyPrinter = new TypePrettyPrint.TypePrettyPrinter();
+        typePrettyPrinter.printAnnotations(false);
+        typePrettyPrinter.printMethodHeader(false);
+        typePrettyPrinter.printMethodResult(false);
+        //typePrettyPrinter.printTypeVarBounds(false);
+        typePrettyPrinter.qualifyAnnotations(false);
+        typePrettyPrinter.qualifyNames(true);
+        typePrettyPrinter.qualifyTvars(false);
+
+
+        String prettyString = TypePrettyPrint.prettyPrint(typeMirror, typePrettyPrinter);
+        //System.out.println("prettyString: "+prettyString);
+        // the pretty may not be the fully qualified name as it may have * for classes in the same package
+        // so we need to replace * by the package name
+        String usedPackageName = MyRule.packageName;
+        if(usedPackageName!=null && usedPackageName.length()>0){
+            usedPackageName = usedPackageName+"."; // add the dot since the packageName might be "com.example" and the import should be "com.example.*"
+        }
+        String prettyStringWithPackage = prettyString.replace("*", usedPackageName);
+        //System.out.println("prettyStringWithPackage: "+prettyStringWithPackage);
+        return prettyStringWithPackage;
+
+
+        /**
+
         //System.out.println("getQualifiedNameUnsafe: ");
         JTypeDeclSymbol symbol = typeMirror.getSymbol();
         //System.out.println("symbol: "+symbol);
 
         StringBuilder genericQualifiedNames = new StringBuilder();
-        //System.out.println(typeMirror.getClass().getName());
+        System.out.println(typeMirror.getClass().getName());
 
         if(typeMirror instanceof JTypeVar){ // something like: T item ==> T
             //System.out.println("Downcast to JTypeVar");
             JTypeVar downCast = (JTypeVar) typeMirror;
             String qualifiedName = downCast.getName();
+            //System.out.println("qualifiedName of JTypeVar: "+qualifiedName);
             return qualifiedName;
         }
 
@@ -289,17 +342,18 @@ public class MyRule extends AbstractJavaRule {
             if(isGeneric){
                 genericQualifiedNames.append("<");
                 for(int i = 0; i < typeMirrors.size(); i++){
+                    //System.out.println("loop typeMirrors i: "+i);
                     JTypeMirror innerTypeMirror = typeMirrors.get(i);
                     //System.out.println("class of innerTypeMirror: "+innerTypeMirror.getClass().getName());
 
                     if(innerTypeMirror instanceof JClassType){ // something like: ArrayList<String> ==> ArrayList
                         String innerTypeArgFullQualifiedName = this.getQualifiedNameUnsafe(innerTypeMirror);
+                        //System.out.println("adding innerTypeArgFullQualifiedName: "+innerTypeArgFullQualifiedName);
                         genericQualifiedNames.append(innerTypeArgFullQualifiedName);
                     }
                     if(innerTypeMirror instanceof JTypeVar){ // something like: T item ==> T
-                        //System.out.println("Downcast to JTypeVar");
-                        JTypeVar innerDownCast = (JTypeVar) innerTypeMirror;
-                        String innerTypeArgFullQualifiedName = innerDownCast.getName();
+                        String innerTypeArgFullQualifiedName = this.getQualifiedNameUnsafe(innerTypeMirror);
+                        //System.out.println("adding innerTypeArgFullQualifiedName: "+innerTypeArgFullQualifiedName);
                         genericQualifiedNames.append(innerTypeArgFullQualifiedName);
                     }
 
@@ -311,6 +365,8 @@ public class MyRule extends AbstractJavaRule {
                 genericQualifiedNames.append(">");
             }
         }
+
+        //System.out.println("genericQualifiedNames: "+genericQualifiedNames);
 
         // Continue with your code
         if (symbol instanceof JClassSymbol) {
@@ -329,12 +385,14 @@ public class MyRule extends AbstractJavaRule {
             // *org.flywaydb.core.api.configuration.FluentConfiguration --> technically we only need to remove the *
 
             String fullQualifiedNameWithGenerics = fullQualifiedName + genericQualifiedNames;
-            String prettyString = TypePrettyPrint.prettyPrint(typeMirror);
+            //String prettyString = TypePrettyPrint.prettyPrint(typeMirror);
             //System.out.println("-- prettyString: "+prettyString);
             //System.out.println("--> fullQualifiedNameWithGenerics: "+fullQualifiedNameWithGenerics);
-            return fullQualifiedName;
+            //System.out.println("fullQualifiedName: "+fullQualifiedName);
+            return fullQualifiedNameWithGenerics;
         }
         return null;
+*/
     }
 
     private void extractExtendsAndImplements(ASTClassOrInterfaceDeclaration node, ClassOrInterfaceTypeContext classContext){
@@ -412,6 +470,10 @@ public class MyRule extends AbstractJavaRule {
     public Object visit(ASTClassOrInterfaceDeclaration node, Object data) {
         //System.out.println(node.getCanonicalName());
         AstInfo astInfo = node.getAstInfo();
+
+        String packagename = node.getPackageName();
+        MyRule.packageName = packagename;
+
         TextDocument document = astInfo.getTextDocument();
 
         FileId fileId = document.getFileId();
