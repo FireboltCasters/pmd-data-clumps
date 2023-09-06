@@ -1,7 +1,11 @@
 package com.example;
 
-public class Hero{
-    public int b;
-    public String s;
-    fsefs
+import java.util.List;
+
+class Hero<T> {
+
+    private void lookupRemoveItem(List<T> item) {
+
+    }
+
 }

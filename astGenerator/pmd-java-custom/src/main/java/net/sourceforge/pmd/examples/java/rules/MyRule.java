@@ -14,6 +14,7 @@ import net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;
 import net.sourceforge.pmd.lang.java.symbols.JClassSymbol;
 import net.sourceforge.pmd.lang.java.symbols.JTypeDeclSymbol;
 import net.sourceforge.pmd.lang.java.types.JClassType;
+import net.sourceforge.pmd.lang.java.types.JTypeVar;
 import net.sourceforge.pmd.lang.java.types.JTypeMirror;
 import net.sourceforge.pmd.lang.java.types.TypePrettyPrint;
 import net.sourceforge.pmd.properties.StringProperty;
@@ -159,6 +160,9 @@ public class MyRule extends AbstractJavaRule {
             methodContext.key = classOrInterfaceKey+"/method/"+method.getMethodName(); // or other unique key
             methodContext.type = this.getQualifiedNameUnsafe(method.getResultTypeNode().getTypeMirror());
 
+            //System.out.println("----------------");
+            //System.out.println("methodContext.name: "+methodContext.name);
+
             // Set the position
             AstPosition position = new AstPosition();
             position.startLine = method.getBeginLine();
@@ -261,20 +265,44 @@ public class MyRule extends AbstractJavaRule {
     }
 
     private String getQualifiedNameUnsafe(JTypeMirror typeMirror){
+        //System.out.println("getQualifiedNameUnsafe: ");
         JTypeDeclSymbol symbol = typeMirror.getSymbol();
+        //System.out.println("symbol: "+symbol);
 
         StringBuilder genericQualifiedNames = new StringBuilder();
+        //System.out.println(typeMirror.getClass().getName());
+
+        if(typeMirror instanceof JTypeVar){ // something like: T item ==> T
+            //System.out.println("Downcast to JTypeVar");
+            JTypeVar downCast = (JTypeVar) typeMirror;
+            String qualifiedName = downCast.getName();
+            return qualifiedName;
+        }
+
         if(typeMirror instanceof JClassType){
+            //System.out.println("Downcast to JClassType");
             JClassType downCast = (JClassType) typeMirror;
             List<JTypeMirror> typeMirrors = downCast.getTypeArgs();
             boolean isGeneric = downCast.isGeneric();
+            //System.out.println("isGeneric: "+isGeneric);
 
             if(isGeneric){
                 genericQualifiedNames.append("<");
                 for(int i = 0; i < typeMirrors.size(); i++){
                     JTypeMirror innerTypeMirror = typeMirrors.get(i);
-                    String innerTypeArgFullQualifiedName = this.getQualifiedNameUnsafe(innerTypeMirror);
-                    genericQualifiedNames.append(innerTypeArgFullQualifiedName);
+                    //System.out.println("class of innerTypeMirror: "+innerTypeMirror.getClass().getName());
+
+                    if(innerTypeMirror instanceof JClassType){ // something like: ArrayList<String> ==> ArrayList
+                        String innerTypeArgFullQualifiedName = this.getQualifiedNameUnsafe(innerTypeMirror);
+                        genericQualifiedNames.append(innerTypeArgFullQualifiedName);
+                    }
+                    if(innerTypeMirror instanceof JTypeVar){ // something like: T item ==> T
+                        //System.out.println("Downcast to JTypeVar");
+                        JTypeVar innerDownCast = (JTypeVar) innerTypeMirror;
+                        String innerTypeArgFullQualifiedName = innerDownCast.getName();
+                        genericQualifiedNames.append(innerTypeArgFullQualifiedName);
+                    }
+
                     // Add a comma after each name, except the last one
                     if (i < typeMirrors.size() - 1) {
                         genericQualifiedNames.append(", ");
@@ -287,7 +315,7 @@ public class MyRule extends AbstractJavaRule {
         // Continue with your code
         if (symbol instanceof JClassSymbol) {
             JClassSymbol jClassSymbol = (JClassSymbol) symbol;
-            String fullQualifiedName =jClassSymbol.getCanonicalName();
+            String fullQualifiedName = jClassSymbol.getCanonicalName();
 
             // TODO check if * is found
             // Then count the amount of dots
@@ -302,8 +330,8 @@ public class MyRule extends AbstractJavaRule {
 
             String fullQualifiedNameWithGenerics = fullQualifiedName + genericQualifiedNames;
             String prettyString = TypePrettyPrint.prettyPrint(typeMirror);
-//            System.out.println("-- prettyString: "+prettyString);
-//            System.out.println("--> fullQualifiedNameWithGenerics: "+fullQualifiedNameWithGenerics);
+            //System.out.println("-- prettyString: "+prettyString);
+            //System.out.println("--> fullQualifiedNameWithGenerics: "+fullQualifiedNameWithGenerics);
             return fullQualifiedName;
         }
         return null;

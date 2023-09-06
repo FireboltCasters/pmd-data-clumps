@@ -8,6 +8,7 @@ from datetime import datetime
 from .detectorOptions import DetectorOptions
 from .softwareProjectDicts import SoftwareProjectDicts
 from .detectorDataClumpsFields import DetectorDataClumpsFields
+from .detectorDataClumpsMethods import DetectorDataClumpsMethods
 
 async def detect(ast_output_folder, output_data_clumps_file, detector_options_file):
     print("Analysis Started")
@@ -47,15 +48,12 @@ async def detect(ast_output_folder, output_data_clumps_file, detector_options_fi
     print("Detecting software project for data clumps")
 
 
-    '''
-    detector_data_clumps_methods = DetectorDataClumpsMethods(detector_options, None, None)
-    common_method_parameters = await detector_data_clumps_methods.detect(abs_ast_output_folder)
+    detector_data_clumps_methods = DetectorDataClumpsMethods(detector_options.options)
+    common_method_parameters = await detector_data_clumps_methods.detect(software_project_dicts)
 
     if common_method_parameters:
         for key, value in common_method_parameters.items():
             data_clumps_type_context['data_clumps'][value['key']] = value
-    '''
-
 
     detector_data_clumps_fields = DetectorDataClumpsFields(detector_options.options)
     common_fields = await detector_data_clumps_fields.detect(software_project_dicts)

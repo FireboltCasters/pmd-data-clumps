@@ -1,4 +1,5 @@
-from typing import List, Dict, Tuple, Any
+from typing import List, Dict, Tuple, Any, Union
+import json
 
 class ParameterPair:
     def __init__(self, parameter_key: str, other_parameter_key: str):
@@ -130,3 +131,143 @@ class DetectorUtils:
     def get_classes_or_interfaces_from_file(file: Any) -> List[Any]:
         # Implement this method
         pass
+
+
+    @staticmethod
+    def method_get_class_or_interface(method, software_project_dicts):
+        # print json dumps
+        current_class_or_interface_key = method["classOrInterfaceKey"]
+        current_class_or_interface = software_project_dicts.dictClassOrInterface[current_class_or_interface_key]
+        return current_class_or_interface
+
+    @staticmethod
+    def method_is_whole_hierarchy_known(method, software_project_dicts) -> bool:
+        # TODO: check if we can find all parents
+        # print("isWholeHierarchyKnown?")
+        # print("softwareProjectDicts.dictClassOrInterface")
+        # print(software_project_dicts.dict_class_or_interface)
+
+        current_class_or_interface = DetectorUtils.method_get_class_or_interface(method, software_project_dicts)
+        super_classes_or_interfaces_keys = DetectorUtils.get_super_classes_and_interfaces_keys(current_class_or_interface, software_project_dicts, True)
+        # print(super_classes_or_interfaces_keys)
+
+        for super_classes_or_interface_key in super_classes_or_interfaces_keys:
+            #print(f"superClassesOrInterfaceKey: {super_classes_or_interface_key}")
+            if super_classes_or_interface_key in software_project_dicts.dictClassOrInterface:
+                super_classes_or_interface = software_project_dicts.dictClassOrInterface[super_classes_or_interface_key]
+                if not super_classes_or_interface:
+                    # print(f"Found no superClassesOrInterface for: {super_classes_or_interface_key}")
+                    # print("The hierarchy is therefore not complete")
+                    return False
+            else:
+                # print(f"Found no superClassesOrInterface for: {super_classes_or_interface_key}")
+                # print("The hierarchy is therefore not complete")
+                return False
+
+        return True
+
+
+    @staticmethod
+    def get_super_classes_and_interfaces_keys(class_or_interface_instance, software_project_dicts: Dict[str, Any], recursive: bool) -> List[Any]:
+        # print(f"getSuperClassesAndInterfacesKeys for: {class_or_interface_instance.key}")
+        found_keys: Dict[str, Union[str, None]] = {}
+
+        extending_classes_or_interfaces_keys: List[str] = []
+        #print(json.dumps(class_or_interface_instance, indent=4, sort_keys=True))
+        extending_keys = class_or_interface_instance["extends_"]
+        for extending_key in extending_keys:
+            extending_classes_or_interfaces_keys.append(extending_key)
+
+        implements_keys = class_or_interface_instance["implements_"]
+        for implements_key in implements_keys:
+            extending_classes_or_interfaces_keys.append(implements_key)
+
+        # print("implements and extends")
+        # print(json.dumps(extending_classes_or_interfaces_keys))
+
+        for extending_classes_or_interfaces_key in extending_classes_or_interfaces_keys:
+            new_finding = extending_classes_or_interfaces_key not in found_keys
+            if new_finding:
+                found_keys[extending_classes_or_interfaces_key] = extending_classes_or_interfaces_key
+                if recursive:
+                    found_class_or_interface = software_project_dicts.dictClassOrInterface.get(extending_classes_or_interfaces_key)
+                    if found_class_or_interface:
+                        # print(f"--> Recursive call for: {found_class_or_interface.key}")
+                        recursive_findings = DetectorUtils.get_super_classes_and_interfaces_keys(found_class_or_interface, software_project_dicts, recursive)
+                        # print("<-- Recursive call ended")
+                        for recursive_finding_key in recursive_findings:
+                            new_recursive_finding = recursive_finding_key not in found_keys
+                            if new_recursive_finding:
+                                found_keys[recursive_finding_key] = recursive_finding_key
+
+        super_classes_and_interfaces_keys = list(found_keys.keys())
+        return super_classes_and_interfaces_keys
+
+
+
+    @staticmethod
+    def method_is_inherited_from_parent_class_or_interface(method: Any, software_project_dicts: Dict[str, Any]) -> bool:
+        # In Java we can't rely on @Override annotation because it is not mandatory
+        if method["overrideAnnotation"]:
+            return True
+
+        # Since the @Override is not mandatory, we need to dig down deeper by ourselves
+        is_inherited = False
+        current_class_or_interface = software_project_dicts.dictClassOrInterface[method["classOrInterfaceKey"]]
+
+        if current_class_or_interface:
+            # DONE: we should check if all superClassesAndInterfaces are found
+            # We will check this in DetectorDataClumpsMethods.py with method: is_whole_hierarchy_not_known()
+
+            super_classes_or_interfaces_keys = DetectorUtils.get_super_classes_and_interfaces_keys(current_class_or_interface, software_project_dicts, True)
+
+            for super_class_or_interface_key in super_classes_or_interfaces_keys:
+                # print(f"superClassOrInterfaceKey: {super_class_or_interface_key}")
+                super_class_or_interface = software_project_dicts.dictClassOrInterface[super_class_or_interface_key]
+
+                if super_class_or_interface:
+                    super_class_or_interface_methods_dict = super_class_or_interface["methods"]
+                    super_class_or_interface_methods_keys = list(super_class_or_interface_methods_dict.keys())
+
+                    for super_class_or_interface_methods_key in super_class_or_interface_methods_keys:
+                        # print(f"-- superClassOrInterfaceMethodsKey: {super_class_or_interface_methods_key}")
+                        super_class_or_interface_method = super_class_or_interface_methods_dict[super_class_or_interface_methods_key]
+
+                        if DetectorUtils.method_has_same_signature_as(method, super_class_or_interface_method):
+                            is_inherited = True
+                            return is_inherited
+                #else:
+                    # print(f"A superClassOrInterface could not be found: {super_class_or_interface_key}")
+                    # print("It might be, that this is a library import")
+
+        # print("++++++++++++++")
+        return is_inherited
+
+    @staticmethod
+    def method_has_same_signature_as(method, other_method):
+        has_same_signature = True
+
+        if len(method["parameters"]) != len(other_method["parameters"]):
+            has_same_signature = False
+        else:
+            this_method_signature = DetectorUtils.get_method_signature(method)
+            other_method_signature = DetectorUtils.get_method_signature(other_method)
+            if this_method_signature != other_method_signature:
+                has_same_signature = False
+
+        return has_same_signature
+
+    @staticmethod
+    def get_method_signature(method):
+        #print(json.dumps(method, indent=4, sort_keys=True))
+        method_signature = method["name"] + "("
+        for i in range(len(method["parameters"])):
+            parameter = method["parameters"][i]
+            #print(f"parameter: {parameter}")
+            #print(json.dumps(parameter, indent=4, sort_keys=True))
+            method_signature += parameter["type"]
+            if i < len(method["parameters"]) - 1:
+                method_signature += ", "
+        method_signature += ")"
+        return method_signature
+
