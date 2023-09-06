@@ -1,9 +1,9 @@
 {
     "report_version": "0.1.93",
-    "report_timestamp": "2023-09-07T01:12:30.179866",
+    "report_timestamp": "2023-09-07T01:14:15.494595",
     "target_language": "Java",
     "report_summary": {
-        "amount_data_clumps": 225
+        "amount_data_clumps": 224
     },
     "project_info": {
         "project_name": "Your Project Name",
@@ -15,7 +15,7 @@
         "name": "FireboltCasters/pmd-data-clumps",
         "version": "0.1.93",
         "options": {
-            "typeVariablesConsidered": true,
+            "typeVariablesConsidered": false,
             "sharedFieldParametersMinimum": 3,
             "sharedFieldParametersCheckIfAreSubtypes": false,
             "subclassInheritsAllMembersFromSuperclass": false,
@@ -757,95 +757,6 @@
                         "startColumn": 17,
                         "endLine": 292,
                         "endColumn": 38
-                    }
-                }
-            }
-        },
-        "src/argouml-core-model-mdr/src/org/argouml/model/mdr/ModelEventPumpMDRImpl.java-org.argouml.model.mdr.Registry-org.argouml.model.mdr.Registry-itemkeysubkeys": {
-            "type": "data_clump",
-            "key": "src/argouml-core-model-mdr/src/org/argouml/model/mdr/ModelEventPumpMDRImpl.java-org.argouml.model.mdr.Registry-org.argouml.model.mdr.Registry-itemkeysubkeys",
-            "from_file_path": "src/argouml-core-model-mdr/src/org/argouml/model/mdr/ModelEventPumpMDRImpl.java",
-            "from_class_or_interface_name": "Registry",
-            "from_class_or_interface_key": "org.argouml.model.mdr.Registry",
-            "from_method_name": "register",
-            "from_method_key": "org.argouml.model.mdr.Registry/method/register",
-            "to_file_path": "src/argouml-core-model-mdr/src/org/argouml/model/mdr/ModelEventPumpMDRImpl.java",
-            "to_class_or_interface_name": "Registry",
-            "to_class_or_interface_key": "org.argouml.model.mdr.Registry",
-            "to_method_name": "unregister",
-            "to_method_key": "org.argouml.model.mdr.Registry/method/unregister",
-            "data_clump_type": "parameter_data_clump",
-            "data_clump_data": {
-                "item": {
-                    "key": "item",
-                    "name": "item",
-                    "type": "T",
-                    "modifiers": [],
-                    "to_variable": {
-                        "key": "item",
-                        "name": "item",
-                        "type": "T",
-                        "modifiers": [],
-                        "position": {
-                            "startLine": 1019,
-                            "startColumn": 23,
-                            "endLine": 1019,
-                            "endColumn": 27
-                        }
-                    },
-                    "position": {
-                        "startLine": 974,
-                        "startColumn": 21,
-                        "endLine": 974,
-                        "endColumn": 25
-                    }
-                },
-                "key": {
-                    "key": "key",
-                    "name": "key",
-                    "type": "java.lang.String",
-                    "modifiers": [],
-                    "to_variable": {
-                        "key": "key",
-                        "name": "key",
-                        "type": "java.lang.String",
-                        "modifiers": [],
-                        "position": {
-                            "startLine": 1019,
-                            "startColumn": 36,
-                            "endLine": 1019,
-                            "endColumn": 39
-                        }
-                    },
-                    "position": {
-                        "startLine": 974,
-                        "startColumn": 34,
-                        "endLine": 974,
-                        "endColumn": 37
-                    }
-                },
-                "subkeys": {
-                    "key": "subkeys",
-                    "name": "subkeys",
-                    "type": "java.lang.String[]",
-                    "modifiers": [],
-                    "to_variable": {
-                        "key": "subkeys",
-                        "name": "subkeys",
-                        "type": "java.lang.String[]",
-                        "modifiers": [],
-                        "position": {
-                            "startLine": 1019,
-                            "startColumn": 50,
-                            "endLine": 1019,
-                            "endColumn": 57
-                        }
-                    },
-                    "position": {
-                        "startLine": 975,
-                        "startColumn": 22,
-                        "endLine": 975,
-                        "endColumn": 29
                     }
                 }
             }
