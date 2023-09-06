@@ -33,6 +33,7 @@ public class MyRule extends AbstractJavaRule {
 
     static int count = 0;
     static String output = "";
+    static String filePath = "";
 
     public static String convertToJson(Object obj) {
         ObjectMapper mapper = new ObjectMapper();
@@ -342,6 +343,8 @@ public class MyRule extends AbstractJavaRule {
         ClassOrInterfaceTypeContext classContext = new ClassOrInterfaceTypeContext();
         this.extractClassInformations(node, classContext);
 
+        classContext.file_path = MyRule.filePath;
+
         // Extract the fields
         this.extractFields(node, classContext);
 
@@ -392,9 +395,9 @@ public class MyRule extends AbstractJavaRule {
             directoryFolder = directoryFolder.substring(0, directoryFolder.length() - 1);
         }
         String filePath = originalPath.substring(directoryFolder.length()+1);
+        MyRule.filePath = filePath;
 
         ClassOrInterfaceTypeContext classContext = this.visitClassOrInterface(node);
-        classContext.fileKey = filePath;
 
         boolean debug = false;
 

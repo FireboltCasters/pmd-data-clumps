@@ -7,7 +7,7 @@ from astAnalyse.detectorOptions import generateDetectorOptionsFile, DetectorOpti
 
 temp_ast_output_folder = "./temp_ast_output_folder"
 default_detector_options_file = "./detector-options.json"
-default_output_data_clumps_file = "./data-clumps.json"
+default_output_data_clumps_file = "./data-clumps-result.json"
 
 def run_make_command(directory, ast_output_folder=temp_ast_output_folder):
     abs_directory = os.path.abspath(directory)

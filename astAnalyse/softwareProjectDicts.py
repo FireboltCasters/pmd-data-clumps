@@ -2,7 +2,8 @@ import json
 import os
 
 class SoftwareProjectDicts:
-    def __init__(self, folder_path):
+    def __init__(self, folder_path):#
+
         self.dictClassOrInterface = {}
         self.dictMemberFieldParameters = {}
         self.dictMethod = {}
@@ -12,15 +13,15 @@ class SoftwareProjectDicts:
             if filename.endswith('.json'):
                 with open(os.path.join(folder_path, filename), 'r') as f:
                     dictClassOrInterface = json.load(f)
-                    self.handleClassOrInterface(ClassOrInterfaceTypeContext.from_dict(dictClassOrInterface))
+                    self.handleClassOrInterface(dictClassOrInterface)
 
     def fillMethodsForClassOrInterface(self, classOrInterface):
         methodsDictForClassOrInterface = classOrInterface.get('methods', {})
-        for methodKey, method in methodsDictForClassOrInterface.items():
-            self.dictMethod[methodKey] = method
-            methodParametersDictForMethod = method.get('parameters', {})
-            for methodParameterKey, methodParameter in methodParametersDictForMethod.items():
-                self.dictMethodParameters[methodParameterKey] = methodParameter
+        for methodIndex, method in methodsDictForClassOrInterface.items():
+            self.dictMethod[method["key"]] = method
+            methodParametersListForMethod = method.get('parameters', {})
+            for parameterIndex, methodParameter in enumerate(methodParametersListForMethod):
+                self.dictMethodParameters[methodParameter["key"]] = methodParameter
 
     def fillMemberFieldsForClassOrInterface(self, classOrInterface):
         memberFieldParametersDictForClassOrInterface = classOrInterface.get('fields', {})

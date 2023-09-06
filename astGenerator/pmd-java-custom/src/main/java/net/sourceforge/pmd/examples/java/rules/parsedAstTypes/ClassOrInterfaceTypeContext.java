@@ -9,7 +9,7 @@ public class ClassOrInterfaceTypeContext extends AstElementTypeContext {
     public List<String> modifiers = new ArrayList<String>();
     public Map<String, MemberFieldParameterTypeContext> fields = new HashMap<String, MemberFieldParameterTypeContext>();
     public Map<String, MethodTypeContext> methods = new HashMap<String, MethodTypeContext>();
-    public String fileKey;
+    public String file_path;
     public boolean anonymous;
     public boolean auxclass; // true: wont be analysed. the class is only an aux class in order to support the hierarchy.
     public List<String> implements_ = new ArrayList<String>();

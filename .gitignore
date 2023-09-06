@@ -12,3 +12,5 @@ pmd-java-dist/.DS_Store
 testDataParsedAst/**.json
 
 testDataParsedAst/
+
+astAnalyse/__pycache__/
