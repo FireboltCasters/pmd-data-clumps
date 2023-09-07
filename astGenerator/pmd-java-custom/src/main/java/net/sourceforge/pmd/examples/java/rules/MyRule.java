@@ -2,9 +2,13 @@ package net.sourceforge.pmd.examples.java.rules;
 
 import java.lang.reflect.Method;
 import java.io.BufferedWriter;
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import com.fasterxml.jackson.databind.SerializationFeature;
 import net.sourceforge.pmd.RuleContext;
@@ -467,7 +471,7 @@ public class MyRule extends AbstractJavaRule {
         }
     }
 
-    public Object visit(ASTClassOrInterfaceDeclaration node, Object data) {
+    public void setFilePathAndPackageName(ASTClassOrInterfaceDeclaration node){
         //System.out.println(node.getCanonicalName());
         AstInfo astInfo = node.getAstInfo();
 
@@ -486,14 +490,48 @@ public class MyRule extends AbstractJavaRule {
         }
         String filePath = originalPath.substring(directoryFolder.length()+1);
         MyRule.filePath = filePath;
+    }
 
-        ClassOrInterfaceTypeContext classContext = this.visitClassOrInterface(node);
+    public void handleDublicateDefinition(File file, ClassOrInterfaceTypeContext classContext){
+        String currentClassDefinedInFile = classContext.file_path;
+        String otherClassDefinedInFilePath = "OTHER FILE COULD NOT BE READ";
+        String jsonString = "";
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                jsonString += line;
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+       try{
+            // Read file_path from JSON file
+           ObjectMapper objectMapper = new ObjectMapper();
+           // Parse JSON string into JsonNode
+           JsonNode jsonNode = objectMapper.readTree(jsonString);
+
+           // Extract and print the value of the key "file_path"
+           otherClassDefinedInFilePath = jsonNode.get("file_path").asText();
+       } catch (Exception e){
+           e.printStackTrace();
+       }
+
+        // Stop the program and throw an exception
+        throw new RuntimeException("Class ("+classContext.name+") with same package ("+MyRule.packageName+") multiple times declared!. Read the parsed AST file:"+file.getAbsolutePath()+". The class was defined in: "+currentClassDefinedInFile+" - and in: "+otherClassDefinedInFilePath);
+    }
+
+    public Object visit(ASTClassOrInterfaceDeclaration node, Object data) {
+        this.setFilePathAndPackageName(node); // before visitClassOrInterface
+        ClassOrInterfaceTypeContext classContext = this.visitClassOrInterface(node); // after setFilePathAndPackageName
 
         boolean debug = false;
 
 
         // Convert the classContext to JSON and add it to the output
         String outputRow = MyRule.convertToJson(classContext);
+        String usableFilePath = filePath.replaceAll("/","_");
         String fileName = classContext.key+".json";
 
         if(debug){
@@ -516,8 +554,27 @@ public class MyRule extends AbstractJavaRule {
             // Create output folder if it doesn't exist
             new File(outputFolder).mkdirs();
 
-            // Write the outputRow to a file
-            try (BufferedWriter writer = new BufferedWriter(new FileWriter(file, true))) {
+            // Write the outputRow to the file
+            boolean fileExists = file.exists();
+            // Problem: In Eclipse there are multiple Classes with the same name and the same package: class ColorDialog
+                // EclipseJDTCore3.1/plugins/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/ColorDialog.java
+                // EclipseJDTCore3.1/plugins/org.eclipse.swt/Eclipse SWT/gtk/org/eclipse/swt/widgets/ColorDialog.java
+            // Solution: Use as classContext.key: usableFilePath + classContext.key
+            String ignoreDublicateDefinition = System.getenv("IGNORE_DUBLICATE_DEFINITION");
+            // Normally the file would never exist, since we delete the output folder before each run
+            if(ignoreDublicateDefinition != null){
+                ignoreDublicateDefinition = ignoreDublicateDefinition.toLowerCase(); // if the user enters TRUE or True
+            }
+            if(fileExists){
+                if(ignoreDublicateDefinition == null || ignoreDublicateDefinition.equals("true")){
+                    // delete the file
+                    file.delete();
+                } else {
+                    this.handleDublicateDefinition(file, classContext);
+                }
+            }
+
+            try (BufferedWriter writer = new BufferedWriter(new FileWriter(file, false))) {
                 writer.write(outputRow);
             } catch (IOException e) {
                 e.printStackTrace();
