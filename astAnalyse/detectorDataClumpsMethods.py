@@ -4,8 +4,15 @@ import json
 from .detectorUtils import DetectorUtils
 
 class DetectorDataClumpsMethods:
-    def __init__(self, options):
+    def __init__(self, options, myProgress):
         self.options = options
+        self.myProgress = myProgress
+
+    def addAmountOfTasksToProgress(self, software_project_dicts):
+        methods_dict = software_project_dicts.dictMethod
+        method_keys = list(methods_dict.keys())
+        amount_methods = len(method_keys)
+        self.myProgress.addAmountOfTasks(amount_methods)
 
     async def detect(self, software_project_dicts):
         # print("Detecting software project for data clumps in methods")
@@ -13,13 +20,13 @@ class DetectorDataClumpsMethods:
         method_keys = list(methods_dict.keys())
         data_clumps_method_parameter_data_clumps = {}
 
-        amount_methods = len(method_keys)
-        index = 0
         for method_key in method_keys:
             method = methods_dict[method_key]
+            self.myProgress.increaseCounter(1)
+            self.myProgress.printProgress(f"DetectorDataClumpsMethods: {method['key']}")
+
+
             self.analyze_method(method, software_project_dicts, data_clumps_method_parameter_data_clumps)
-            index += 1
-            print(f"DetectorDataClumpsMethods Progress: {index}/{amount_methods}")
 
         return data_clumps_method_parameter_data_clumps
 

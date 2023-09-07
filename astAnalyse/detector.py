@@ -9,9 +9,10 @@ from .detectorOptions import DetectorOptions
 from .softwareProjectDicts import SoftwareProjectDicts
 from .detectorDataClumpsFields import DetectorDataClumpsFields
 from .detectorDataClumpsMethods import DetectorDataClumpsMethods
+from .progressStatus import ProgressStatus
 
 async def detect(ast_output_folder, output_data_clumps_file, detector_options_file):
-    print("Analysis Started")
+
     abs_ast_output_folder = os.path.abspath(ast_output_folder)
     abs_output_data_clumps_file = os.path.abspath(output_data_clumps_file)
     abs_detector_options_file = os.path.abspath(detector_options_file)
@@ -44,29 +45,37 @@ async def detect(ast_output_folder, output_data_clumps_file, detector_options_fi
         "data_clumps": {}
     }
 
-    print("Detecting software project for data clumps (done)")
+
     print("Detecting software project for data clumps")
 
+    myProgress = ProgressStatus()
 
-    detector_data_clumps_methods = DetectorDataClumpsMethods(detector_options.options)
+    detector_data_clumps_methods = DetectorDataClumpsMethods(detector_options.options, myProgress)
+    detector_data_clumps_methods.addAmountOfTasksToProgress(software_project_dicts)
+    detector_data_clumps_fields = DetectorDataClumpsFields(detector_options.options, myProgress)
+    detector_data_clumps_fields.addAmountOfTasksToProgress(software_project_dicts)
+    myProgress.addAmountOfTasks(1) # For the final report and saving the result to abs_output_data_clumps_file
+
+
     common_method_parameters = await detector_data_clumps_methods.detect(software_project_dicts)
-
     if common_method_parameters:
         for key, value in common_method_parameters.items():
             data_clumps_type_context['data_clumps'][value['key']] = value
 
-    detector_data_clumps_fields = DetectorDataClumpsFields(detector_options.options)
-    common_fields = await detector_data_clumps_fields.detect(software_project_dicts)
 
+    common_fields = await detector_data_clumps_fields.detect(software_project_dicts)
     if common_fields:
         for key, value in common_fields.items():
             data_clumps_type_context['data_clumps'][value['key']] = value
+
 
     data_clumps_type_context['report_summary'] = {
         'amount_data_clumps': len(data_clumps_type_context['data_clumps'])
     }
 
+    print("Detecting software project for data clumps (done)")
 
+    self.myProgress.printProgress("Detector: "+"Saving the result to "+(abs_output_data_clumps_file))
     # Save the result to abs_output_data_clumps_file
     with open(abs_output_data_clumps_file, 'w') as f:
         json.dump(data_clumps_type_context, f, indent=4)

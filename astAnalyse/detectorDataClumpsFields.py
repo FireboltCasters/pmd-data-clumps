@@ -5,29 +5,33 @@ import json
 from .detectorUtils import DetectorUtils
 
 class DetectorDataClumpsFields:
-    def __init__(self, options):
+    def __init__(self, options, myProgress):
         print("init DetectorDataClumpsFields")
         # Print the JSON-formatted string
-        print(json.dumps(options, indent=4))
         self.options = options
+        self.myProgress = myProgress
+
+    def addAmountOfTasksToProgress(self, software_project_dicts):
+        classes_dict = DetectorUtils.get_classes_dict(software_project_dicts)
+        class_keys = list(classes_dict.keys())
+        amount_of_classes = len(class_keys)
+        self.myProgress.addAmountOfTasks(amount_of_classes)
 
     async def detect(self, software_project_dicts: Dict) -> Optional[Dict]:
         classes_dict = DetectorUtils.get_classes_dict(software_project_dicts)
         data_clumps_field_parameters = {}
         class_keys = list(classes_dict.keys())
-        amount_of_classes = len(class_keys)
-        index = 0
 
         for class_key in class_keys:
             current_class = classes_dict[class_key]
+            self.myProgress.increaseCounter(1)
+            self.myProgress.printProgress(f"DetectorDataClumpsFields: {current_class['key']}")
+
 
             if current_class.get('auxclass'):
                 continue
             else:
                 self.generate_member_field_parameters_related_to_for_class(current_class, classes_dict, data_clumps_field_parameters, software_project_dicts)
-
-            index += 1
-            print(f"DetectorDataClumpsFields Progress: {index}/{amount_of_classes}")
 
         return data_clumps_field_parameters
 
