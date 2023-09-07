@@ -14,3 +14,5 @@ testDataParsedAst/**.json
 testDataParsedAst/
 
 astAnalyse/__pycache__/
+
+temp_ast_output_folder/

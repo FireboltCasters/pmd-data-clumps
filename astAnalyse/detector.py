@@ -75,7 +75,7 @@ async def detect(ast_output_folder, output_data_clumps_file, detector_options_fi
 
     print("Detecting software project for data clumps (done)")
 
-    self.myProgress.printProgress("Detector: "+"Saving the result to "+(abs_output_data_clumps_file))
+    myProgress.printProgress("Detector: "+"Saving the result to "+(abs_output_data_clumps_file))
     # Save the result to abs_output_data_clumps_file
     with open(abs_output_data_clumps_file, 'w') as f:
         json.dump(data_clumps_type_context, f, indent=4)

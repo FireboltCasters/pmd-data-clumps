@@ -7,8 +7,8 @@ This project should parse a projects classes, interfaces, methods and fields. Th
 | Project | Files | Time [data-clumps](https://github.com/FireboltCasters/data-clumps) | Time this | Speed increase this vs. [data-clumps](https://github.com/FireboltCasters/data-clumps) |
 | --- | --- | --- | --- | --- |
 | Eclipse JDT Core 3.1 | 20.436 | 2.910s (48m 30s) | 47s (0m 47s) | 98% |
-| ArgoUML-0.26Beta | 2.214 | 98s (1m 38s) | 9s (0m 9s) | 91% |
-| Apache | 654 | 12s (0m 12s) | 6s (0m 6s) | 50% |
+| ArgoUML-0.26Beta | 2.214 | 98s (1m 38s) | 23s (0m 23s) | 76% |
+| Apache | 654 | 12s (0m 12s) | 8s (0m 8s) | 33% |
 
 This shows a significant speed increase by using this project.
 
@@ -31,6 +31,8 @@ make setup
 make build
 make run DIRECTORY=<Path_to_Project> OUTPUT_FOLDER<Output_Folder>
 ```
+
+python3 data-clumps.py detect --config ./detector-options.json --source /Users/nbaumgartner/Desktop/LCSD-Paper/Data_for_Paper/ArgoUML_src/src/argouml-app/src
 
 ### 2. Analysing the parsed files
 
